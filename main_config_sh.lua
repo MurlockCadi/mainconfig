@@ -159,6 +159,8 @@ commands = {
     ["!steam"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
     ["/steamgroup"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
     ["!steamgroup"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
+    ["!logs"] = function(ply) mLogs.Open(ply) end,
+    ["/logs"] = function(ply) mLogs.Open(ply) end,
 }
 
 
