@@ -1321,7 +1321,7 @@ ROLES = {
                 CanPromote = false
             },
             {
-                ID = 8,
+                ID = 9,
                 Name = "Master Sergeant",
                 Rank_Prefix = "MSGT",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1329,7 +1329,7 @@ ROLES = {
                 CanPromote = false
             },
             {
-                ID = 9,
+                ID = 10,
                 Name = "Sergeant Major",
                 Rank_Prefix = "SGM",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1337,7 +1337,7 @@ ROLES = {
                 CanPromote = false
             },
             {
-                ID = 10,
+                ID = 11,
                 Name = "2nd Lieutenant",
                 Rank_Prefix = "2LT",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1345,7 +1345,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 11,
+                ID = 12,
                 Name = "1st Lieutenant",
                 Rank_Prefix = "1LT",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1353,7 +1353,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 12,
+                ID = 13,
                 Name = "Captain",
                 Rank_Prefix = "CPT",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1361,7 +1361,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 13,
+                ID = 14,
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1369,7 +1369,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 14,
+                ID = 15,
                 Name = " Lieutenant Colonel",
                 Rank_Prefix = "LT COL",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1377,7 +1377,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 15,
+                ID = 16,
                 Name = "Colonel",
                 Rank_Prefix = "COL",
                 ModelsAllowed = AIRBORN_MODELS,
