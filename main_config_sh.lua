@@ -1,6 +1,6 @@
 --This is the main Config File. Anything you want to change. Change in here.
 --THIS CONFIG FILE IS MANAGED HERE: https://github.com/MurlockCadi/mainconfig/edit/main/main_config_sh.lua
---DO NOT ANGER MURLOCK, EDIT IT IN GITHUB, OR 1. YOUR CHANGES WILL GET REMOVED, AND 2. HE WILL BE VERY ANGRYtest
+--DO NOT ANGER MURLOCK, EDIT IT IN GITHUB, OR 1. YOUR CHANGES WILL GET REMOVED, AND 2. HE WILL BE VERY ANGRY
 
 imperium_rp_font = "Sitka Text"
 gamemode_name = "WW2 Axis VS Allies RP"
