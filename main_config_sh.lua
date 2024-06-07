@@ -8,7 +8,7 @@ gamemode_name = "WW2 Axis VS Allies RP"
 ----------INTRO CONFIG-----------------------------------
 
 mapMessages = {
-    -- Normandy Region
+    -- Normandy Region turkey
     ["rp_omahabeach"] = "Normandy Region: Omaha Beach. 600 Miles to Frankfurt.",
     ["rnl_stcomedumont"] = "Normandy Region: Sainte-Combe-du-Mont. 580 Miles to Frankfurt.",
     ["ctg_stemariedumont_v3"] = "Normandy Region: Sainte-Marie-du-Mont. 570 Miles to Frankfurt.",
