@@ -559,7 +559,7 @@ ROLES = {
                 vehicles = {
                     {
                         name = "Panzerkampfwagen VI Tiger",
-                        entityname = "lvs_wheeldrive_dodtiger",
+                        entityname = "lvs_wheeldrive_tiger",
                         description = "The Tiger I was a formidable German heavy tank of World War II, known for its powerful 88mm gun, thick armor, and exceptional battlefield performance, though it was also hampered by mechanical complexity and high cost.",
                         price = 1050
                     },
