@@ -664,7 +664,7 @@ ROLES = {
                 Name = "Leutnant",
                 Rank_Prefix = "LT",
                 ModelsAllowed = DE_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -672,7 +672,7 @@ ROLES = {
                 Name = "Oberleutnant",
                 Rank_Prefix = "OLT",
                 ModelsAllowed = DE_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -680,7 +680,7 @@ ROLES = {
                 Name = "Hauptmann",
                 Rank_Prefix = "HPT",
                 ModelsAllowed = DE_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -688,7 +688,7 @@ ROLES = {
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = DE_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -696,7 +696,7 @@ ROLES = {
                 Name = "Oberstleutnant",
                 Rank_Prefix = "OBTLT",
                 ModelsAllowed = DE_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -704,7 +704,7 @@ ROLES = {
                 Name = "Oberst",
                 Rank_Prefix = "OBT",
                 ModelsAllowed = DE_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_mp40nco","doi_atow_c96co"},
                 CanPromote = true
             },
         },
@@ -883,7 +883,7 @@ ROLES = {
                 Name = "Leutnant",
                 Rank_Prefix = "LT",
                 ModelsAllowed = FM_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_fg42nco"},
+                WeaponsAllowed = {"doi_atow_fg42nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -891,7 +891,7 @@ ROLES = {
                 Name = "Oberleutnant",
                 Rank_Prefix = "OLT",
                 ModelsAllowed = FM_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_fg42nco"},
+                WeaponsAllowed = {"doi_atow_fg42nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -899,7 +899,7 @@ ROLES = {
                 Name = "Hauptmann",
                 Rank_Prefix = "HPT",
                 ModelsAllowed = FM_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_fg42nco"},
+                WeaponsAllowed = {"doi_atow_fg42nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -907,7 +907,7 @@ ROLES = {
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = FM_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_fg42nco"},
+                WeaponsAllowed = {"doi_atow_fg42nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -915,7 +915,7 @@ ROLES = {
                 Name = "Oberstleutnant",
                 Rank_Prefix = "OBTLT",
                 ModelsAllowed = FM_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_fg42nco"},
+                WeaponsAllowed = {"doi_atow_fg42nco","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -923,7 +923,7 @@ ROLES = {
                 Name = "Oberst",
                 Rank_Prefix = "OBT",
                 ModelsAllowed = FM_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_fg42nco"},
+                WeaponsAllowed = {"doi_atow_fg42nco","doi_atow_c96co"},
                 CanPromote = true
             },
         },
@@ -1026,7 +1026,7 @@ ROLES = {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
@@ -1034,7 +1034,7 @@ ROLES = {
                 Name = "Schütze",
                 Rank_Prefix = "SCHTZ",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
@@ -1042,7 +1042,7 @@ ROLES = {
                 Name = "OberSchütze",
                 Rank_Prefix = "OBSCHTZ",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
@@ -1050,7 +1050,7 @@ ROLES = {
                 Name = "Sturmmann",
                 Rank_Prefix = "STRM",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
@@ -1058,7 +1058,7 @@ ROLES = {
                 Name = "Rottenführer",
                 Rank_Prefix = "RTTF",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
@@ -1066,7 +1066,7 @@ ROLES = {
                 Name = "Unterscharführer",
                 Rank_Prefix = "USCHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_atow_g43"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1074,7 +1074,7 @@ ROLES = {
                 Name = "Scharführer",
                 Rank_Prefix = "SCHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_atow_g43"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1082,7 +1082,7 @@ ROLES = {
                 Name = "Oberscharführer",
                 Rank_Prefix = "OSCHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_atow_g43"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1090,7 +1090,7 @@ ROLES = {
                 Name = "Hauptscharführer",
                 Rank_Prefix = "HSCHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_atow_g43"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1098,7 +1098,7 @@ ROLES = {
                 Name = "Stabsscharführer",
                 Rank_Prefix = "STACHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_atow_g43"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1106,7 +1106,7 @@ ROLES = {
                 Name = "Untersturmführer",
                 Rank_Prefix = "USTF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1114,7 +1114,7 @@ ROLES = {
                 Name = "Obersturmführer",
                 Rank_Prefix = "OSTF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1122,7 +1122,7 @@ ROLES = {
                 Name = "Hauptsturmführer",
                 Rank_Prefix = "HSTF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1130,7 +1130,7 @@ ROLES = {
                 Name = "Sturmbannführer",
                 Rank_Prefix = "STURM",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1138,7 +1138,7 @@ ROLES = {
                 Name = "Obersturmbannführer",
                 Rank_Prefix = "OSTBF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1146,7 +1146,7 @@ ROLES = {
                 Name = "Standartenführer",
                 Rank_Prefix = "STAF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco"},
+                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
                 CanPromote = true
             },
         },
@@ -1301,7 +1301,7 @@ ROLES = {
                 Name = "Sergeant",
                 Rank_Prefix = "SGT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco","doi_atow_m1a1carbine","doi_atow_etoolus"}, 
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_etoolus"}, 
                 CanPromote = false
             },
             {
@@ -1309,7 +1309,7 @@ ROLES = {
                 Name = "Staff Sergeant",
                 Rank_Prefix = "SSGT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco","doi_atow_m1a1carbine","doi_atow_etoolus"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_etoolus"},
                 CanPromote = false
             },
             {
@@ -1317,7 +1317,7 @@ ROLES = {
                 Name = "First Sergeant",
                 Rank_Prefix = "1SG",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco","doi_atow_m1a1carbine","doi_atow_etoolus"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_etoolus"},
                 CanPromote = false
             },
             {
@@ -1325,7 +1325,7 @@ ROLES = {
                 Name = "Master Sergeant",
                 Rank_Prefix = "MSGT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco","doi_atow_m1a1carbine","doi_atow_etoolus"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_etoolus"},
                 CanPromote = false
             },
             {
@@ -1333,7 +1333,7 @@ ROLES = {
                 Name = "Sergeant Major",
                 Rank_Prefix = "SGM",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco","doi_atow_m1a1carbine","doi_atow_etoolus"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_etoolus"},
                 CanPromote = false
             },
             {
@@ -1341,7 +1341,7 @@ ROLES = {
                 Name = "2nd Lieutenant",
                 Rank_Prefix = "2LT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco","doi_atow_m1a1carbine"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine"},
                 CanPromote = true
             },
             {
@@ -1349,7 +1349,7 @@ ROLES = {
                 Name = "1st Lieutenant",
                 Rank_Prefix = "1LT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco","doi_atow_m1a1carbine"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine"},
                 CanPromote = true
             },
             {
@@ -1357,7 +1357,7 @@ ROLES = {
                 Name = "Captain",
                 Rank_Prefix = "CPT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco","doi_atow_m1a1carbine"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine"},
                 CanPromote = true
             },
             {
@@ -1365,7 +1365,7 @@ ROLES = {
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco","doi_atow_m1a1carbine"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine"},
                 CanPromote = true
             },
             {
@@ -1373,7 +1373,7 @@ ROLES = {
                 Name = " Lieutenant Colonel",
                 Rank_Prefix = "LT COL",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco"},
                 CanPromote = true
             },
             {
@@ -1381,7 +1381,7 @@ ROLES = {
                 Name = "Colonel",
                 Rank_Prefix = "COL",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1a1nco"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco"},
                 CanPromote = true
             },
         },
