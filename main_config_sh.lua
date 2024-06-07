@@ -274,7 +274,7 @@ ROLES = {
                 Name = "Machine Gunner",
                 Default = false,
                 Models = {},
-                Weapons = {"doi_atow_m1919a6"},
+                Weapons = {"doi_atow_m1919a6","doi_atow_m1911a1"},
                 EntitySpawner = {
                     {
                         name = "Ammo Supplys",
@@ -417,7 +417,7 @@ ROLES = {
                 Name = "2nd Lieutenant",
                 Rank_Prefix = "2LT",
                 ModelsAllowed = US_CO_MODEL,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1nco"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1nco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -425,7 +425,7 @@ ROLES = {
                 Name = "1st Lieutenant",
                 Rank_Prefix = "1LT",
                 ModelsAllowed = US_CO_MODEL,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1nco"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1nco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -433,7 +433,7 @@ ROLES = {
                 Name = "Captain",
                 Rank_Prefix = "CPT",
                 ModelsAllowed = US_CO_MODEL,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1nco"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1nco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -441,7 +441,7 @@ ROLES = {
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = US_CO_MODEL,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1nco"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1nco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -449,7 +449,7 @@ ROLES = {
                 Name = " Lieutenant Colonel",
                 Rank_Prefix = "LT COL",
                 ModelsAllowed = US_CO_MODEL,
-                WeaponsAllowed = {"doi_atow_m1garand"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -457,7 +457,7 @@ ROLES = {
                 Name = "Colonel",
                 Rank_Prefix = "COL",
                 ModelsAllowed = US_CO_MODEL,
-                WeaponsAllowed = {"doi_atow_m1garand"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_m1911a1co"},
                 CanPromote = true
             },
         },
@@ -523,7 +523,7 @@ ROLES = {
                         price = 10
                     },
                 },
-                Weapons = {"doi_atow_mg42"},
+                Weapons = {"doi_atow_mg42","doi_atow_p38"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
             },
@@ -794,7 +794,7 @@ ROLES = {
                         price = 10
                     },
                 },
-                Weapons = {"doi_atow_mg34"},
+                Weapons = {"doi_atow_mg34","doi_atow_p38"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
             },
@@ -1214,7 +1214,7 @@ ROLES = {
                         price = 10
                     },
                 },
-                Weapons = {"doi_atow_m1919a6"},
+                Weapons = {"doi_atow_m1918a2","doi_atow_m1911a1"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
             },
@@ -1343,7 +1343,7 @@ ROLES = {
                 Name = "2nd Lieutenant",
                 Rank_Prefix = "2LT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1351,7 +1351,7 @@ ROLES = {
                 Name = "1st Lieutenant",
                 Rank_Prefix = "1LT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1359,7 +1359,7 @@ ROLES = {
                 Name = "Captain",
                 Rank_Prefix = "CPT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1367,7 +1367,7 @@ ROLES = {
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1375,7 +1375,7 @@ ROLES = {
                 Name = " Lieutenant Colonel",
                 Rank_Prefix = "LT COL",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1carbinenco"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1383,7 +1383,7 @@ ROLES = {
                 Name = "Colonel",
                 Rank_Prefix = "COL",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1carbinenco"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
         },
@@ -1558,7 +1558,7 @@ ROLES = {
                 Name = "2nd Lieutenant",
                 Rank_Prefix = "2LT",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1566,7 +1566,7 @@ ROLES = {
                 Name = "1st Lieutenant",
                 Rank_Prefix = "1LT",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1574,7 +1574,7 @@ ROLES = {
                 Name = "Captain",
                 Rank_Prefix = "CPT",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1582,7 +1582,7 @@ ROLES = {
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1590,7 +1590,7 @@ ROLES = {
                 Name = " Lieutenant Colonel",
                 Rank_Prefix = "LT COL",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1598,7 +1598,7 @@ ROLES = {
                 Name = "Colonel",
                 Rank_Prefix = "COL",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
                 CanPromote = true
             },
         },
