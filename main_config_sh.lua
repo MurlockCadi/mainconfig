@@ -167,8 +167,12 @@ commands = {
     ["/rank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
     ["!changerank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
     ["/changerank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
-    ["!promote"] = function(ply, args) return promote_player_by_rank(ply, args) end,
-    ["/promote"] = function(ply, args) return promote_player_by_rank(ply, args) end,
+    ["!setrank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
+    ["/setrank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
+    ["!promote"] = function(ply, args) return promote_player(ply, args) end,
+    ["/promote"] = function(ply, args) return promote_player(ply, args) end,
+    ["!demote"] = function(ply, args) return demote_player(ply, args) end,
+    ["/demote"] = function(ply, args) return demote_player(ply, args) end,
 }
 
 
