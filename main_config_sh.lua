@@ -226,7 +226,7 @@ ROLES = {
                 Default = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_physgun","gmod_tool"},
                 Prefix = ""
             },
         },
