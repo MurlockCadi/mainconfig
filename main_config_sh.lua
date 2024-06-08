@@ -173,6 +173,8 @@ commands = {
     ["/promote"] = function(ply, args) return promote_player(ply, args) end,
     ["!demote"] = function(ply, args) return demote_player(ply, args) end,
     ["/demote"] = function(ply, args) return demote_player(ply, args) end,
+    ["!supply"] = function(ply) SendLatestLogData(ply) end,
+    ["/supply"] = function(ply) SendLatestLogData(ply) end,
 }
 
 
