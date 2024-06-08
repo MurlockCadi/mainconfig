@@ -245,14 +245,6 @@ ROLES = {
                 SpawnWeapons = {"fas2_ifak"},
                 Prefix = "MD"
             },
-                { 
-                Name = "Shotgunner",
-                Default = false,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "SG"
-            },
             {
                 Name = "Engineer",
                 Default = false,
