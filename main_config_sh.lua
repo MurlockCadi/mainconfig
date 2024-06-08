@@ -214,6 +214,34 @@ DE_CO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/
 DE_MP_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
 
 ROLES = {
+    STAFF = {
+        NiceName = "STAFF ON DUTY",
+        Prefix = "",
+        Color = Color(0, 0, 0, 255),
+        Description = "Staff",
+        Default = false,
+        Classes = {
+            {
+                Name = "Staff",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+        },
+        Ranks = {
+            {
+                ID = 1,
+                Name = "Staff",
+                Rank_Prefix = "",
+                ModelsAllowed = {"models/player/combine_super_soldier.mdl","models/player/combine_soldier_prisonguard.mdl","models/player/breen.mdl","models/player/monk.mdl","models/player/odessa.mdl","models/player/skeleton.mdl"},
+                WeaponsAllowed = {},
+                CanPromote = true
+            },
+        },
+        Team = "staff"
+    },
     DIVISION_29TH = {
         NiceName = "29th Infantry Division",
         Prefix = "29th",
