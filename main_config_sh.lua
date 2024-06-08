@@ -161,6 +161,8 @@ commands = {
     ["!steamgroup"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
     ["!logs"] = function(ply) mLogs.Open(ply) end,
     ["/logs"] = function(ply) mLogs.Open(ply) end,
+    ["/pm"] = function(ply, args) return privat_radio_msg(ply, args) end,
+    ["!pm"] = function(ply, args) return privat_radio_msg(ply, args) end,
 }
 
 
