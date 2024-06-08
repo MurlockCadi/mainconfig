@@ -163,6 +163,12 @@ commands = {
     ["/logs"] = function(ply) mLogs.Open(ply) end,
     ["/pm"] = function(ply, args) return privat_radio_msg(ply, args) end,
     ["!pm"] = function(ply, args) return privat_radio_msg(ply, args) end,
+    ["!rank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
+    ["/rank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
+    ["!changerank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
+    ["/changerank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
+    ["!promote"] = function(ply, args) return promote_player_by_rank(ply, args) end,
+    ["/promote"] = function(ply, args) return promote_player_by_rank(ply, args) end,
 }
 
 
