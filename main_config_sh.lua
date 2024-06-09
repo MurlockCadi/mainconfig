@@ -260,7 +260,7 @@ ROLES = {
         NiceName = "29th Infantry Division",
         Prefix = "29th",
         Color = Color(75, 97, 47, 255),
-        Description = "Known as the Blue and Gray Division, the 29th are U.S Marines fighting for the liberation of Europe.",
+        Description = "Known as the Blue and Gray Division, the 29th are U.S Infantry fighting for the liberation of Europe.",
         Default = true,
         Classes = {
             {
