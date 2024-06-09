@@ -294,7 +294,7 @@ ROLES = {
                 Models = {},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -319,7 +319,7 @@ ROLES = {
                 Weapons = {"doi_atow_m1919a6","doi_atow_m1911a1"},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -343,6 +343,42 @@ ROLES = {
                 },
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "ARTY"
+            },
+            {
+                Name = "Logistics",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                EntitySpawner = {
+                    {
+                        name = "Supply Transport Cart",
+                        entityname = "fuel_store",
+                        description = "Cart to Transport Supply. Can be Dragged or Attached to a Vehicle.",
+                        price = 10
+                    },
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+                    },
+                },
+                vehicles = {
+                    {
+                        name = "Willys Jeep",
+                        entityname = "lvs_wheeldrive_dodwillyjeep",
+                        description = "The Standard Allied Transport.",
+                        price = 10
+                    },
+                    {
+                        name = "Deuce And A Half",
+                        entityname = "lvs_wheeldrive_gmc",
+                        description = "A Large Unarmored Troop Transport.",
+                        price = 10
+                    },
+		},
+                SpawnWeapons = {"ent_spawner","rope_tool","weapon_lvsrepair"},
+                Prefix = "LG"
             },
             {
                 Name = "Tanker",
@@ -537,13 +573,49 @@ ROLES = {
                 Prefix = "SN"
             },
             {
+                Name = "Logistics",
+                Default = false,
+                Models = {},
+                Weapons = {},
+		SpawnWeapons = {"ent_spawner","rope_tool","weapon_lvsrepair"},
+                EntitySpawner = {
+                    {
+                        name = "Supply Transport Cart",
+                        entityname = "fuel_store",
+                        description = "Cart to Transport Supply. Can be Dragged or Attached to a Vehicle.",
+                        price = 10
+                    },
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+                    },
+                },
+                Prefix = "LG",
+                vehicles = {
+                    {
+                        name = "Kübelwagen",
+                        entityname = "lvs_wheeldrive_dodkuebelwagen",
+                        description = "The Standard German Transport Jeep.",
+                        price = 10
+                    },
+                    {
+                        name = "Opel Blitz",
+                        entityname = "lvs_wheeldrive_opelblitz",
+                        description = "A Large Unarmored Troop Transport.",
+                        price = 10
+                    },
+                },
+            },
+            {
                 Name = "Engineer",
                 Default = false,
                 Models = {},
                 Weapons = {},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -559,7 +631,7 @@ ROLES = {
                 Models = {},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -791,7 +863,7 @@ ROLES = {
                 Models = {},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -830,7 +902,7 @@ ROLES = {
                 Models = {},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -1002,7 +1074,7 @@ ROLES = {
                 Models = {},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -1014,12 +1086,26 @@ ROLES = {
                 Prefix = "ENG"
             },
             {
-                Name = "Logistics",
+                Name = "Mechanized",
                 Default = false,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_lvsrepair"},
-                Prefix = "LG",
+		SpawnWeapons = {"ent_spawner","rope_tool","weapon_lvsrepair"},
+                EntitySpawner = {
+                    {
+                        name = "Supply Transport Cart",
+                        entityname = "fuel_store",
+                        description = "Cart to Transport Supply. Can be Dragged or Attached to a Vehicle.",
+                        price = 10
+                    },
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+                    },
+                },
+                Prefix = "MZ",
                 vehicles = {
                     {
                         name = "Kübelwagen",
@@ -1234,7 +1320,7 @@ ROLES = {
                 Weapons = {},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -1250,7 +1336,7 @@ ROLES = {
                 Models = {},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -1462,7 +1548,7 @@ ROLES = {
                 Weapons = {},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplys",
+                        name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
@@ -1480,12 +1566,26 @@ ROLES = {
                 Prefix = "SN"
             },
             {
-                Name = "Logistics",
+                Name = "Mechanized",
                 Default = false,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_lvsrepair"},
-                Prefix = "LG",
+                Prefix = "MZ",
+		SpawnWeapons = {"ent_spawner","rope_tool","weapon_lvsrepair"},
+                EntitySpawner = {
+                    {
+                        name = "Supply Transport Cart",
+                        entityname = "fuel_store",
+                        description = "Cart to Transport Supply. Can be Dragged or Attached to a Vehicle.",
+                        price = 10
+                    },
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+                    },
+                },
                 vehicles = {
                     {
                         name = "Willys Jeep",
