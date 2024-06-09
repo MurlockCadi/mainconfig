@@ -338,7 +338,7 @@ ROLES = {
                         name = "Temp Arty",
                         entityname = "lvs_arty_john_temp",
                         description = "TEMP ARTY. BETTER ARTY COMING SOON.",
-                        price = 50
+                        price = 200
                     },
                 },
                 SpawnWeapons = {"ent_spawner"},
@@ -650,7 +650,7 @@ ROLES = {
                         name = "Temp Arty",
                         entityname = "lvs_arty_john_temp",
                         description = "TEMP ARTY. BETTER ARTY COMING SOON.",
-                        price = 50
+                        price = 200
                     },
                 },
                 Weapons = {},
