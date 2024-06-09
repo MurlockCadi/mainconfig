@@ -1660,7 +1660,7 @@ ROLES = {
                 Name = "Sergeant",
                 Rank_Prefix = "SGT",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -1668,7 +1668,7 @@ ROLES = {
                 Name = "Staff Sergeant",
                 Rank_Prefix = "SSGT",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -1676,7 +1676,7 @@ ROLES = {
                 Name = "Platoon Sergeant Major",
                 Rank_Prefix = "PSM",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -1684,7 +1684,7 @@ ROLES = {
                 Name = "Company Sergeant Major",
                 Rank_Prefix = "CSM",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -1692,7 +1692,7 @@ ROLES = {
                 Name = "Regiment Sergeant Major",
                 Rank_Prefix = "RSM",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -1700,7 +1700,7 @@ ROLES = {
                 Name = "2nd Lieutenant",
                 Rank_Prefix = "2LT",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1708,7 +1708,7 @@ ROLES = {
                 Name = "1st Lieutenant",
                 Rank_Prefix = "1LT",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1716,7 +1716,7 @@ ROLES = {
                 Name = "Captain",
                 Rank_Prefix = "CPT",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1724,7 +1724,7 @@ ROLES = {
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1732,7 +1732,7 @@ ROLES = {
                 Name = " Lieutenant Colonel",
                 Rank_Prefix = "LT COL",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -1740,7 +1740,7 @@ ROLES = {
                 Name = "Colonel",
                 Rank_Prefix = "COL",
                 ModelsAllowed = BC_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
         },
