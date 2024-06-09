@@ -353,7 +353,7 @@ ROLES = {
                     {
                         name = "Supply Transport Cart",
                         entityname = "fuel_store",
-                        description = "Cart to Transport Supply. Can be Dragged or Attached to a Vehicle.",
+                        description = "Transport Supply. Can be Dragged or Attached to a Vehicle.",
                         price = 10
                     },
                     {
@@ -582,7 +582,7 @@ ROLES = {
                     {
                         name = "Supply Transport Cart",
                         entityname = "fuel_store",
-                        description = "Cart to Transport Supply. Can be Dragged or Attached to a Vehicle.",
+                        description = "Transport Supply. Can be Dragged or Attached to a Vehicle.",
                         price = 10
                     },
                     {
@@ -1095,7 +1095,7 @@ ROLES = {
                     {
                         name = "Supply Transport Cart",
                         entityname = "fuel_store",
-                        description = "Cart to Transport Supply. Can be Dragged or Attached to a Vehicle.",
+                        description = "Transport Supply. Can be Dragged or Attached to a Vehicle.",
                         price = 10
                     },
                     {
@@ -1576,7 +1576,7 @@ ROLES = {
                     {
                         name = "Supply Transport Cart",
                         entityname = "fuel_store",
-                        description = "Cart to Transport Supply. Can be Dragged or Attached to a Vehicle.",
+                        description = "Transport Supply. Can be Dragged or Attached to a Vehicle.",
                         price = 10
                     },
                     {
