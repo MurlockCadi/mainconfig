@@ -92,6 +92,10 @@ intro_image_urls = {
 }
 
 
+---NON OFFENSIVE COST------------------
+
+non_attack_reduction = 0.50
+
 ---------PROX CHAT------------------------------------------------------------------------------------
 
 proximityDistance = 750
