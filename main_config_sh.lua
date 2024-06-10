@@ -395,19 +395,19 @@ ROLES = {
                     {
                         name = "M10 Wolverine",
                         entityname = "lvs_wheeldrive_m10",
-                        description = "The M10 Wolverine was an American tank destroyer during World War II, designed with a 3-inch gun on an open-topped turret and built on a modified M4 Sherman chassis, renowned for its mobility and firepower in anti-tank roles.",
+                        description = "American tank destroyer designed with a 3-inch gun on an open-topped turret and built on a modified M4 Sherman chassis. renowned for its mobility and firepower in anti-tank roles.",
                         price = 500
                     },
                     {
                         name = "M4 Sherman",
                         entityname = "lvs_wheeldrive_m4sherman",
-                        description = "The M4 Sherman was a versatile and widely produced American medium tank used during World War II, known for its reliability, ease of production, and effectiveness in combined arms operations.",
+                        description = "Versatile medium tank known for its reliability, ease of production, and effectiveness in combined arms operations.",
                         price = 550
                     },
                     {
                         name = "M4A3E2 Jumbo",
                         entityname = "lvs_wheeldrive_jumbo",
-                        description = "The M4A3E2 Jumbo was a heavily armored variant of the M4 Sherman tank, designed for assault roles during World War II, featuring significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
+                        description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
                         price = 900
                     },
                 }
