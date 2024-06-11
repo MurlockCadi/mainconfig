@@ -890,13 +890,19 @@ ROLES = {
                         name = "Messerschmitt Bf 109",
                         entityname = "lvs_plane_bf109",
                         description = "A German Fighter.",
-                        price = 250
+                        price = 1800
+                    },
+		    {
+                        name = "Junkers 87 Stuka",
+                        entityname = "lvs_plane_stuka",
+                        description = "A German Dive Bomber.",
+                        price = 2600
                     },
                     {
-                        name = "DJunkers Ju 52",
+                        name = "Junkers Ju 52",
                         entityname = "lvs_plane_ju52",
                         description = "A German Transport Plane.",
-                        price = 5
+                        price = 1000
                     }
                 }
             },
@@ -1359,7 +1365,7 @@ ROLES = {
                         name = "TEMP ANTI-TANK",
                         entityname = "lvs_trailer_zis3",
                         description = "TEMP ANTI-TANK",
-                        price = 50
+                        price = 150
                     },
                 },
                 Weapons = {},
@@ -1378,13 +1384,19 @@ ROLES = {
                         name = "North American P-51 Mustang",
                         entityname = "lvs_plane_p51",
                         description = "An American Fighter.",
-                        price = 250
+                        price = 1900
+                    },
+		    {
+                        name = "Republic P-47 Thunderbolt",
+                        entityname = "lvs_plane_p47",
+                        description = "An American Heavy Figther.",
+                        price = 3000
                     },
                     {
                         name = "Douglas C-47 Skytrain",
                         entityname = "lvs_plane_c47",
                         description = "An American Transport Plane.",
-                        price = 5
+                        price = 1000
                     }
                 }
             },
