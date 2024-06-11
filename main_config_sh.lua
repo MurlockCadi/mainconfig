@@ -396,19 +396,19 @@ ROLES = {
                         name = "M10 Wolverine",
                         entityname = "lvs_wheeldrive_m10",
                         description = "American tank destroyer designed with a 3-inch gun on an open-topped turret and built on a modified M4 Sherman chassis. renowned for its mobility and firepower in anti-tank roles.",
-                        price = 500
+                        price = 800
                     },
                     {
                         name = "M4 Sherman",
                         entityname = "lvs_wheeldrive_m4sherman",
                         description = "Versatile medium tank known for its reliability, ease of production, and effectiveness in combined arms operations.",
-                        price = 550
+                        price = 1000
                     },
                     {
                         name = "M4A3E2 Jumbo",
                         entityname = "lvs_wheeldrive_jumbo",
                         description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
-                        price = 900
+                        price = 1300
                     },
                 }
             },
@@ -681,19 +681,19 @@ ROLES = {
                         name = "Panzer VI Tiger",
                         entityname = "lvs_wheeldrive_tiger",
                         description = "The formidable German Heavy Tank. Known for its powerful 88mm gun, thick armor, and exceptional battlefield performance.",
-                        price = 1050
+                        price = 1600
                     },
                     {
                         name = "Panze IV F2",
                         entityname = "lvs_wheeldrive_pz4f2",
                         description = "German medium tank variant upgraded with a long-barreled 75mm KwK 40 L/43 gun for improved anti-tank capabilities",
-                        price = 500
+                        price = 1100
                     },
                     {
                         name = "Panzer III F",
                         entityname = "lvs_wheeldrive_pz3f",
                         description = "German medium tank equipped with a 3.7 cm KwK 36 L/45 gun and improved armor, designed for both light anti-tank and infantry support roles.",
-                        price = 200
+                        price = 400
                     }
                 }
             },
