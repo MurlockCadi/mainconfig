@@ -396,7 +396,7 @@ ROLES = {
                         name = "M10 Wolverine",
                         entityname = "lvs_wheeldrive_m10",
                         description = "American tank destroyer designed with a 3-inch gun on an open-topped turret and built on a modified M4 Sherman chassis. renowned for its mobility and firepower in anti-tank roles.",
-                        price = 800
+                        price = 900
                     },
                     {
                         name = "M4 Sherman",
@@ -693,7 +693,7 @@ ROLES = {
                         name = "Panzer III F",
                         entityname = "lvs_wheeldrive_pz3f",
                         description = "German medium tank equipped with a 3.7 cm KwK 36 L/45 gun and improved armor, designed for both light anti-tank and infantry support roles.",
-                        price = 400
+                        price = 500
                     }
                 }
             },
