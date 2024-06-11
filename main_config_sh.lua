@@ -678,19 +678,19 @@ ROLES = {
                 Prefix = "TK",
                 vehicles = {
                     {
-                        name = "Panzerkampfwagen VI Tiger",
+                        name = "Panzer VI Tiger",
                         entityname = "lvs_wheeldrive_tiger",
                         description = "The formidable German Heavy Tank. Known for its powerful 88mm gun, thick armor, and exceptional battlefield performance.",
                         price = 1050
                     },
                     {
-                        name = "Panzerkampfwagen IV F2",
+                        name = "Panze IV F2",
                         entityname = "lvs_wheeldrive_pz4f2",
                         description = "German medium tank variant upgraded with a long-barreled 75mm KwK 40 L/43 gun for improved anti-tank capabilities",
                         price = 500
                     },
                     {
-                        name = "Panzerkampfwagen III F",
+                        name = "Panzer III F",
                         entityname = "lvs_wheeldrive_pz3f",
                         description = "German medium tank equipped with a 3.7 cm KwK 36 L/45 gun and improved armor, designed for both light anti-tank and infantry support roles.",
                         price = 200
