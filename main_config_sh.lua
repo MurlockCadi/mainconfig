@@ -179,6 +179,8 @@ commands = {
     ["/demote"] = function(ply, args) return demote_player(ply, args) end,
     ["!supply"] = function(ply) SendLatestLogData(ply) end,
     ["/supply"] = function(ply) SendLatestLogData(ply) end,
+    ["!roll"] = function(ply, args) return roll_command(ply, args) end,
+    ["/roll"] = function(ply, args) return roll_command(ply, args) end,
 }
 
 
