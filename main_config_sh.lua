@@ -181,6 +181,8 @@ commands = {
     ["/supply"] = function(ply) SendLatestLogData(ply) end,
     ["!roll"] = function(ply, args) return roll_command(ply, args) end,
     ["/roll"] = function(ply, args) return roll_command(ply, args) end,
+    ["!confuse"] = function(ply, args) return radio_command_confuse(ply, args) end,
+    ["/confuse"] = function(ply, args) return radio_command_confuse(ply, args) end,
 }
 
 
