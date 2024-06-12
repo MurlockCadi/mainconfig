@@ -104,7 +104,7 @@ proximityDistance = 750
 
 CAPTURE_SIZE = 1250
 
-XP_SCALING_FACTOR = 1.35
+XP_SCALING_FACTOR = 1.1
 
 --------SPEED-----------
 
