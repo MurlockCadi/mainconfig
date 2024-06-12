@@ -184,6 +184,8 @@ commands = {
     ["/roll"] = function(ply, args) return roll_command(ply, args) end,
     ["!confuse"] = function(ply, args) return radio_command_confuse(ply, args) end,
     ["/confuse"] = function(ply, args) return radio_command_confuse(ply, args) end,
+    ["!disguise"] = function(ply) return HideAsRandomAlly(ply) end,
+    ["/disguise"] = function(ply) return HideAsRandomAlly(ply) end,
 }
 
 
