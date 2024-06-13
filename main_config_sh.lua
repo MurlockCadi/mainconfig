@@ -1170,11 +1170,19 @@ ROLES = {
                 Prefix = "SN"
             },
             {
+                Name = "Saboteur",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"hide_player","weapon_tnt","rope_tool"},
+                Prefix = "SAB"
+            },
+            {
                 Name = "Anti-Tank",
                 Default = false,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"doi_panzerschreck"},
+                SpawnWeapons = {"doi_panzerschreck","weapon_lvsmines"},
                 Prefix = "AT"
             },
         },
@@ -1387,7 +1395,7 @@ ROLES = {
                     },
                 },
                 Weapons = {},
-                SpawnWeapons = {"doi_bazooka","ent_spawner"},
+                SpawnWeapons = {"doi_bazooka","ent_spawner","weapon_lvsmines"},
                 Prefix = "AT"
             },
             {
@@ -1565,6 +1573,14 @@ ROLES = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
+            },
+            {
+                Name = "Saboteur",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"hide_player","weapon_tnt","rope_tool"},
+                Prefix = "SAB"
             },
             {
                 Name = "Medic",
