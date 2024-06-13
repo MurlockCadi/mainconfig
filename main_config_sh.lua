@@ -186,6 +186,10 @@ commands = {
     ["/confuse"] = function(ply, args) return radio_command_confuse(ply, args) end,
     ["!disguise"] = function(ply) return HideAsRandomAlly(ply) end,
     ["/disguise"] = function(ply) return HideAsRandomAlly(ply) end,
+    ["!removevip"] = function(ply, args) return remove_vip(ply, args) end,
+    ["/removevip"] = function(ply, args) return remove_vip(ply, args) end,
+    ["!unvip"] = function(ply, args) return remove_vip(ply, args) end,
+    ["/unvip"] = function(ply, args) return remove_vip(ply, args) end,
 }
 
 
