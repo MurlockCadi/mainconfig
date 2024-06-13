@@ -1143,6 +1143,12 @@ ROLES = {
                         description = "An Armored Personnel Carrier, Armed With A MG-34.",
                         price = 50
                     },
+					                    {
+                        name = "Panzerspähwagen Sd.Kfz. 222",
+                        entityname = "lvs_wheeldrive_dodspaehwagen",
+                        description = "Lightly Armoured Recon APC with a 20MM",
+                        price = 175
+                    },
                     {
                         name = "Sd.Kfz. 251/22",
                         entityname = "lvs_wheeldrive_sdkfz251_pak",
