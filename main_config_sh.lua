@@ -1144,10 +1144,10 @@ ROLES = {
                         price = 50
                     },
 					                    {
-                        name = "Panzerspähwagen Sd.Kfz. 222",
-                        entityname = "lvs_wheeldrive_dodspaehwagen",
-                        description = "Lightly Armoured Recon APC with a 20MM",
-                        price = 175
+                        name = "Panzerspähwagen Kfz 14",
+                        entityname = "lvs_wheeldrive_kfz14",
+                        description = "Lightly Armoured Radio APC MG",
+                        price = 35
                     },
                     {
                         name = "Sd.Kfz. 251/22",
