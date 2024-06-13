@@ -1149,7 +1149,7 @@ ROLES = {
                     },
 					                    {
                         name = "Panzerspähwagen Kfz 14",
-                        entityname = "lvs_wheeldrive_kfz14",
+                        entityname = "lvs_wheeldrive_kfz13",
                         description = "Lightly Armoured Radio APC MG",
                         price = 35
                     },
