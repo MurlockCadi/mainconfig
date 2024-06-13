@@ -1591,7 +1591,7 @@ ROLES = {
                 Name = "Sniper",
                 Default = false,
                 Models = {},
-                Weapons = {"doi_atow_m1903a3_sniper"},
+                Weapons = {"doi_atow_m1903a3_sniper","doi_atow_enfield_sniper"},
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN"
             },
