@@ -482,8 +482,16 @@ ROLES = {
                 WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1","doi_atow_m1a1nco"},
                 CanPromote = false
             },
-            {
+	    {
                 ID = 8,
+                Name = "Technical Sergeant",
+                Rank_Prefix = "TSGT",
+                ModelsAllowed = US_NCO_MODELS,
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1","doi_atow_m1a1nco"},
+                CanPromote = false
+            },		
+            {
+                ID = 9,
                 Name = "First Sergeant",
                 Rank_Prefix = "1SG",
                 ModelsAllowed = US_NCO_MODELS,
@@ -491,7 +499,7 @@ ROLES = {
                 CanPromote = false
             },
             {
-                ID = 9,
+                ID = 10,
                 Name = "Master Sergeant",
                 Rank_Prefix = "MSGT",
                 ModelsAllowed = US_NCO_MODELS,
@@ -499,7 +507,7 @@ ROLES = {
                 CanPromote = false
             },
             {
-                ID = 10,
+                ID = 11,
                 Name = "Sergeant Major",
                 Rank_Prefix = "SGM",
                 ModelsAllowed = US_NCO_MODELS,
@@ -507,7 +515,7 @@ ROLES = {
                 CanPromote = false
             },
             {
-                ID = 11,
+                ID = 12,
                 Name = "2nd Lieutenant",
                 Rank_Prefix = "2LT",
                 ModelsAllowed = US_CO_MODEL,
@@ -515,7 +523,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 12,
+                ID = 13,
                 Name = "1st Lieutenant",
                 Rank_Prefix = "1LT",
                 ModelsAllowed = US_CO_MODEL,
@@ -523,7 +531,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 13,
+                ID = 14,
                 Name = "Captain",
                 Rank_Prefix = "CPT",
                 ModelsAllowed = US_CO_MODEL,
@@ -531,7 +539,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 14,
+                ID = 15,
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = US_CO_MODEL,
@@ -539,7 +547,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 15,
+                ID = 16,
                 Name = " Lieutenant Colonel",
                 Rank_Prefix = "LT COL",
                 ModelsAllowed = US_CO_MODEL,
@@ -547,7 +555,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 16,
+                ID = 17,
                 Name = "Colonel",
                 Rank_Prefix = "COL",
                 ModelsAllowed = US_CO_MODEL,
@@ -1485,8 +1493,16 @@ ROLES = {
                 WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_etoolus"},
                 CanPromote = false
             },
-            {
+	 {
                 ID = 8,
+                Name = "Technical Sergeant",
+                Rank_Prefix = "TSGT",
+                ModelsAllowed = AIRBORN_MODELS,
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1","doi_atow_m1a1nco"},
+                CanPromote = false
+            },	
+            {
+                ID = 9,
                 Name = "First Sergeant",
                 Rank_Prefix = "1SG",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1494,7 +1510,7 @@ ROLES = {
                 CanPromote = false
             },
             {
-                ID = 9,
+                ID = 10,
                 Name = "Master Sergeant",
                 Rank_Prefix = "MSGT",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1502,7 +1518,7 @@ ROLES = {
                 CanPromote = false
             },
             {
-                ID = 10,
+                ID = 11,
                 Name = "Sergeant Major",
                 Rank_Prefix = "SGM",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1510,7 +1526,7 @@ ROLES = {
                 CanPromote = false
             },
             {
-                ID = 11,
+                ID = 12,
                 Name = "2nd Lieutenant",
                 Rank_Prefix = "2LT",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1518,7 +1534,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 12,
+                ID = 13,
                 Name = "1st Lieutenant",
                 Rank_Prefix = "1LT",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1526,7 +1542,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 13,
+                ID = 14,
                 Name = "Captain",
                 Rank_Prefix = "CPT",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1534,7 +1550,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 14,
+                ID = 15,
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1542,7 +1558,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 15,
+                ID = 16,
                 Name = " Lieutenant Colonel",
                 Rank_Prefix = "LT COL",
                 ModelsAllowed = AIRBORN_MODELS,
@@ -1550,7 +1566,7 @@ ROLES = {
                 CanPromote = true
             },
             {
-                ID = 16,
+                ID = 17,
                 Name = "Colonel",
                 Rank_Prefix = "COL",
                 ModelsAllowed = AIRBORN_MODELS,
