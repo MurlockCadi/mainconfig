@@ -241,6 +241,7 @@ DE_ENLISTED_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendar
 DE_NCO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40greatcoat_w1_04.mdl"}
 DE_CO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
 DE_MP_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
+DE_TANKER_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerwrap_s1_03.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/nco/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/nco/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/nco/panzerwrap_s1_03.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/co/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/co/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/co/panzerwrap_s1_03.mdl"}
 
 ROLES = {
     STAFF = {
@@ -683,7 +684,7 @@ ROLES = {
             {
                 Name = "Tanker",
                 Default = false,
-                Models = {},
+                Models = DE_TANKER_FULL,
                 Weapons = {"doi_atow_mp40"},
                 SpawnWeapons = {"weapon_lvsrepair"},
                 Prefix = "TK",
