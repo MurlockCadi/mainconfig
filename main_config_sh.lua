@@ -431,7 +431,7 @@ ROLES = {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = US_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1903a3"},
                 CanPromote = false
             },
             {
@@ -439,7 +439,7 @@ ROLES = {
                 Name = "Private",
                 Rank_Prefix = "PVT",
                 ModelsAllowed = US_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1903a3"},
                 CanPromote = false
             },
             {
@@ -447,7 +447,7 @@ ROLES = {
                 Name = "Private First Class",
                 Rank_Prefix = "PFC",
                 ModelsAllowed = US_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1903a3"},
                 CanPromote = false
             },
             {
@@ -455,7 +455,7 @@ ROLES = {
                 Name = "Lance Corporal",
                 Rank_Prefix = "LCPL",
                 ModelsAllowed = US_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1903a3"},
                 CanPromote = false
             },
             {
@@ -463,7 +463,7 @@ ROLES = {
                 Name = "Corporal",
                 Rank_Prefix = "CPL",
                 ModelsAllowed = US_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus"},
+                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1903a3"},
                 CanPromote = false
             },
             {
@@ -724,7 +724,7 @@ ROLES = {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = DE_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_g43"},
                 CanPromote = false
             },
             {
@@ -732,7 +732,7 @@ ROLES = {
                 Name = "Schütze",
                 Rank_Prefix = "SCHTZ",
                 ModelsAllowed = DE_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_g43"},
                 CanPromote = false
             },
             {
@@ -740,7 +740,7 @@ ROLES = {
                 Name = "OberSchütze",
                 Rank_Prefix = "OSCHTZ",
                 ModelsAllowed = DE_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_g43"},
                 CanPromote = false
             },
             {
@@ -748,7 +748,7 @@ ROLES = {
                 Name = "Gefreiter",
                 Rank_Prefix = "GFR",
                 ModelsAllowed = DE_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_g43"},
                 CanPromote = false
             },
             {
@@ -756,7 +756,7 @@ ROLES = {
                 Name = "Obergefreiter",
                 Rank_Prefix = "OGFR",
                 ModelsAllowed = DE_ENLISTED_MODELS,
-                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde"
+                WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_g43"
 			}, 
                 CanPromote = false
             },
