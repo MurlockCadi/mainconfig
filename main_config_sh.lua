@@ -291,7 +291,7 @@ ROLES = {
                 Name = "Sniper",
                 Default = false,
                 Models = {},
-                Weapons = {"doi_atow_m1903a3_sniper"},
+                Weapons = {"doi_atow_m1903a3_sniper","doi_atow_m1garandsniper"},  
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN"
             },
@@ -592,7 +592,7 @@ ROLES = {
                 Name = "Sniper",
                 Default = false,
                 Models = {},
-                Weapons = {"doi_atow_k98k_sniper"},
+                Weapons = {"doi_atow_k98k_sniper","doi_atow_g43sniper"},
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN"
             },
