@@ -8,13 +8,14 @@ gamemode_name = "WW2 Axis VS Allies RP"
 ----------INTRO CONFIG-----------------------------------
 
 mapMessages = {
-    -- Normandy Region turkey
+    -- Normandy Region
     ["rp_omahabeach"] = "Normandy Region: Omaha Beach. 600 Miles to Frankfurt.",
     ["rnl_stcomedumont"] = "Normandy Region: Sainte-Combe-du-Mont. 580 Miles to Frankfurt.",
     ["ctg_stemariedumont_v3"] = "Normandy Region: Sainte-Marie-du-Mont. 570 Miles to Frankfurt.",
     ["rnl_lafiere"] = "Normandy Region: La Fière. 550 Miles to Frankfurt.",
     ["gm_eglise_rp"] = "Normandy Region: Eglise. 560 Miles to Frankfurt.",
     ["rp_falaise_td"] = "Normandy Region: Falaise. 520 Miles to Frankfurt.",
+    ["rp_caen_battle"] = "Normandy Region: Caen. 540 Miles to Frankfurt.",
 
     -- Greater France Region
     ["rnl_farm_v4"] = "France Region: French Countryside Farm. 450 Miles to Frankfurt.",
