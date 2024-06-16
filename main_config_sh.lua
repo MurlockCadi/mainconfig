@@ -303,6 +303,22 @@ ROLES = {
                 Prefix = "SN"
             },
             {
+                Name = "Anti-Tank",
+                Default = false,
+                Models = {},
+                EntitySpawner = {
+                    {
+                        name = "TEMP ANTI-TANK",
+                        entityname = "lvs_trailer_zis3",
+                        description = "TEMP ANTI-TANK",
+                        price = 150
+                    },
+                },
+                Weapons = {},
+                SpawnWeapons = {"doi_bazooka","ent_spawner","weapon_lvsmines"},
+                Prefix = "AT"
+            },
+            {
                 Name = "Medic",
                 Default = false,
                 Models = {"models/hts/comradebear/pm0v3/player/usarmy/medic/en/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/medic/en/m41_s1_02.mdl"},
