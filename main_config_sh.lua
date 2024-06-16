@@ -191,6 +191,10 @@ commands = {
     ["/removevip"] = function(ply, args) return remove_vip(ply, args) end,
     ["!unvip"] = function(ply, args) return remove_vip(ply, args) end,
     ["/unvip"] = function(ply, args) return remove_vip(ply, args) end,
+    ["!ceasefire"] = function(ply, args) return toggle_cease_fire(ply, args) end,
+    ["/ceasefire"] = function(ply, args) return toggle_cease_fire(ply, args) end,
+    ["!pause"] = function(ply, args) return toggle_cease_fire(ply, args) end,
+    ["/pause"] = function(ply, args) return toggle_cease_fire(ply, args) end,
 }
 
 
