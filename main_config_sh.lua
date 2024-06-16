@@ -195,6 +195,8 @@ commands = {
     ["/ceasefire"] = function(ply, args) return toggle_cease_fire(ply, args) end,
     ["!pause"] = function(ply, args) return toggle_cease_fire(ply, args) end,
     ["/pause"] = function(ply, args) return toggle_cease_fire(ply, args) end,
+    ["!cease"] = function(ply, args) return toggle_cease_fire(ply, args) end,
+    ["/cease"] = function(ply, args) return toggle_cease_fire(ply, args) end,
 }
 
 
