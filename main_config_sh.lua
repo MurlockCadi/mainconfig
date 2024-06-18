@@ -920,19 +920,19 @@ ROLES = {
                         name = "Messerschmitt Bf 109",
                         entityname = "lvs_plane_bf109",
                         description = "A German Fighter.",
-                        price = 1800
+                        price = 800
                     },
 		    {
                         name = "Junkers 87 Stuka",
                         entityname = "lvs_plane_stuka",
                         description = "A German Dive Bomber.",
-                        price = 2600
+                        price = 1300
                     },
                     {
                         name = "Junkers Ju 52",
                         entityname = "lvs_plane_ju52",
                         description = "A German Transport Plane.",
-                        price = 1000
+                        price = 400
                     }
                 }
             },
@@ -1428,19 +1428,19 @@ ROLES = {
                         name = "North American P-51 Mustang",
                         entityname = "lvs_plane_p51",
                         description = "An American Fighter.",
-                        price = 1900
+                        price = 900
                     },
 		    {
                         name = "Republic P-47 Thunderbolt",
                         entityname = "lvs_plane_p47",
                         description = "An American Heavy Figther.",
-                        price = 3000
+                        price = 1400
                     },
                     {
                         name = "Douglas C-47 Skytrain",
                         entityname = "lvs_plane_c47",
                         description = "An American Transport Plane.",
-                        price = 1000
+                        price = 400
                     }
                 }
             },
