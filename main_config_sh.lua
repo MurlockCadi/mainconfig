@@ -1674,15 +1674,15 @@ ROLES = {
                         price = 10
                     },
                     {
-                        name = "Bren Carrier",
-                        entityname = "lvs_wheeldrive_uc_bren",
-                        description = "An Armored Personnel Carrier, Armed With A Bren Machine Gun.",
+                        name = "M3 Halftrack",
+                        entityname = "lvs_wheeldrive_m3base",
+                        description = "An Armored Personnel Carrier, Armed With A M2 Browning.",
                         price = 50
                     },
                     {
-                        name = "Universal Carrier",
-                        entityname = "lvs_wheeldrive_uc_ptrs",
-                        description = "An Armored Personnel Carrier, Equiped With A Powerful Anti-Tank Rifle.",
+                        name = "M3 GMC",
+                        entityname = "lvs_wheeldrive_m3gmc",
+                        description = "An Armored Personnel Carrier, Equiped With A Powerful Anti-Tank Cannon.",
                         price = 150
                     },
                 }
