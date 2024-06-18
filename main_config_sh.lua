@@ -197,6 +197,8 @@ commands = {
     ["/pause"] = function(ply, args) return toggle_cease_fire(ply, args) end,
     ["!cease"] = function(ply, args) return toggle_cease_fire(ply, args) end,
     ["/cease"] = function(ply, args) return toggle_cease_fire(ply, args) end,
+    ["!reset"] = function(ply) ResetPoints(ply) end,
+    ["/reset"] = function(ply) ResetPoints(ply) end,
 }
 
 
