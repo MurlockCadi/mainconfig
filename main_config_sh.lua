@@ -1396,7 +1396,7 @@ ROLES = {
                         price = 10
                     },
                 },
-                Weapons = {"doi_atow_m1918a2","doi_atow_m1911a1"},
+                Weapons = {"doi_atow_m1918a2","doi_atow_m1911a1","doi_atow_m1919a6"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
             },
