@@ -326,7 +326,7 @@ ROLES = {
                     },
                 },
                 Weapons = {},
-                SpawnWeapons = {"outpost_maker","ent_spawner","alydus_fortificationbuildertablet"},
+                SpawnWeapons = {"outpost_maker","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsmines"},
                 Prefix = "ENG"
             },
             {
@@ -655,7 +655,7 @@ ROLES = {
                     },
                 },
                 Create_Outposts = true,
-                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet"},
+                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
                 Prefix = "ENG"
             },
             {
@@ -1122,7 +1122,7 @@ ROLES = {
                 },
                 Weapons = {},
                 Create_Outposts = true,
-                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet"},
+                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
                 Prefix = "ENG"
             },
             {
@@ -1381,7 +1381,7 @@ ROLES = {
                     },
                 },
                 Create_Outposts = true,
-                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet"},
+                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
                 Prefix = "ENG"
             },
             {
@@ -1630,7 +1630,7 @@ ROLES = {
                         price = 10
                     },
                 },
-                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet"},
+                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
                 Prefix = "ENG"
             },
             {
