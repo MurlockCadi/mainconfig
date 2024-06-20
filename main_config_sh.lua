@@ -401,6 +401,12 @@ ROLES = {
                         description = "A Large Unarmored Troop Transport.",
                         price = 10
                     },
+		{
+                        name = "Willys Jeep M1919",
+                        entityname = "lvs_wheeldrive_dodwillyjeep_mg",
+                        description = "The Standard Allied Transport equipped with a Browning M1919 machine Gun.",
+                        price = 25
+                    },
 		},
                 SpawnWeapons = {"ent_spawner","rope_tool","weapon_lvsrepair"},
                 Prefix = "LG"
@@ -638,6 +644,12 @@ ROLES = {
                         entityname = "lvs_wheeldrive_opelblitz",
                         description = "A Large Unarmored Troop Transport.",
                         price = 10
+                    },
+                    {
+                        name = "Kübelwagen MG-34",
+                        entityname = "lvs_wheeldrive_dodkuebelwagen_mg",
+                        description = "The Standard German Transport Jeep equipped with an MG-34.",
+                        price = 25
                     },
                 },
             },
@@ -1176,7 +1188,13 @@ ROLES = {
                         entityname = "lvs_wheeldrive_sdkfz251_pak",
                         description = "An Armored Personnel Carrier, Equiped With A  PaK40.",
                         price = 150
-                    }
+                    },
+                    {
+                        name = "Kübelwagen MG-34",
+                        entityname = "lvs_wheeldrive_dodkuebelwagen_mg",
+                        description = "The Standard German Transport Jeep equipped with an MG-34.",
+                        price = 25
+                    },
                 }
             },
             {
@@ -1686,6 +1704,12 @@ ROLES = {
                         entityname = "lvs_wheeldrive_m3gmc",
                         description = "An Armored Personnel Carrier, Equiped With A Powerful Anti-Tank Cannon.",
                         price = 150
+                    },
+		  {
+                        name = "Willys Jeep M1919",
+                        entityname = "lvs_wheeldrive_dodwillyjeep_mg",
+                        description = "The Standard Allied Transport equipped with a Browning M1919 machine Gun.",
+                        price = 25
                     },
                 }
             },
