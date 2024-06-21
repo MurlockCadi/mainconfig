@@ -16,6 +16,7 @@ mapMessages = {
     ["gm_eglise_rp"] = "Normandy Region: Eglise. 560 Miles to Frankfurt.",
     ["rp_falaise_td"] = "Normandy Region: Falaise. 520 Miles to Frankfurt.",
     ["rp_caen_battle"] = "Normandy Region: City of Caen. 540 Miles to Frankfurt.",
+    ["rp_normandie_expiration"] = "Normandy Region: Falaise. 500 Miles to Frankfurt.",
 
     -- Greater France Region
     ["rnl_farm_v4"] = "France Region: French Countryside Farm. 450 Miles to Frankfurt.",
