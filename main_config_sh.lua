@@ -1230,7 +1230,7 @@ ROLES = {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
@@ -1238,7 +1238,7 @@ ROLES = {
                 Name = "Schütze",
                 Rank_Prefix = "SCHTZ",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
@@ -1246,7 +1246,7 @@ ROLES = {
                 Name = "OberSchütze",
                 Rank_Prefix = "OBSCHTZ",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
@@ -1254,7 +1254,7 @@ ROLES = {
                 Name = "Sturmmann",
                 Rank_Prefix = "STRM",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
@@ -1262,7 +1262,7 @@ ROLES = {
                 Name = "Rottenführer",
                 Rank_Prefix = "RTTF",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_ws_atow_mp34","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
                 CanPromote = false
             },
             {
