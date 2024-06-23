@@ -200,6 +200,12 @@ commands = {
     ["/cease"] = function(ply, args) return toggle_cease_fire(ply, args) end,
     ["!reset"] = function(ply) ResetPoints(ply) end,
     ["/reset"] = function(ply) ResetPoints(ply) end,
+    ["!artillery"] = function(ply) call_in_arty(ply) end,
+    ["/artillery"] = function(ply) call_in_arty(ply) end,
+    ["!arty"] = function(ply) call_in_arty(ply) end,
+    ["/arty"] = function(ply) call_in_arty(ply) end,
+    ["!bombardment"] = function(ply) call_in_arty(ply) end,
+    ["/bombardment"] = function(ply) call_in_arty(ply) end,
 }
 
 
