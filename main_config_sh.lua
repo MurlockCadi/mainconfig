@@ -414,6 +414,12 @@ ROLES = {
                         description = "The Standard Allied Transport equipped with a Browning M1919 machine Gun.",
                         price = 25
                     },
+                    {
+                        name = "M3 Halftrack",
+                        entityname = "lvs_wheeldrive_m3base",
+                        description = "An Armored Personnel Carrier, Armed With A M2 Browning.",
+                        price = 50
+                    },
 		},
                 SpawnWeapons = {"ent_spawner","rope_tool","weapon_lvsrepair"},
                 Prefix = "LG"
