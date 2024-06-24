@@ -310,6 +310,7 @@ ROLES = {
                 Weapons = {"doi_atow_m1903a3_sniper","doi_atow_m1garandsniper"},  
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN"
+		Max = 7
             },
             {
                 Name = "Medic",
@@ -623,6 +624,7 @@ ROLES = {
                 Weapons = {"doi_atow_k98k_sniper","doi_atow_g43sniper"},
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN"
+	        Max = 7
             },
             {
                 Name = "Logistics",
@@ -907,6 +909,7 @@ ROLES = {
                 Weapons = {"doi_atow_k98k_sniper","doi_atow_g43sniper"},
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN"
+		Max = 7
             },
             {
                 Name = "Medic",
@@ -1217,6 +1220,7 @@ ROLES = {
                 Weapons = {"doi_atow_k98k_sniper"},
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN"
+	        Max = 7
             },
             {
                 Name = "Saboteur",
@@ -1390,6 +1394,7 @@ ROLES = {
                 Weapons = {"doi_atow_m1903a3_sniper"},
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN"
+		Max = 7
             },
             {
                 Name = "Medic",
@@ -1673,6 +1678,7 @@ ROLES = {
                 Weapons = {"doi_atow_m1903a3_sniper","doi_atow_enfield_sniper"},
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN"
+		Max = 7
             },
             {
                 Name = "Mechanized",
