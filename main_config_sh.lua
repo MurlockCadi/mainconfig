@@ -912,15 +912,6 @@ ROLES = {
 		Max = 3
             },
             {
-                Name = "Anti-Tank",
-                Default = false,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"doi_panzerschreck","weapon_lvsmines"},
-                Prefix = "AT",
-		Max = 5
-            },
-            {
                 Name = "Sniper",
                 Default = false,
                 Models = {},
