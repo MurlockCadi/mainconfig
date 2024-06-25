@@ -903,6 +903,24 @@ ROLES = {
                 Prefix = ""
             },
             {
+                Name = "Saboteur",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"hide_player","weapon_tnt","rope_tool"},
+                Prefix = "SAB",
+		Max = 3
+            },
+            {
+                Name = "Anti-Tank",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"doi_panzerschreck","weapon_lvsmines"},
+                Prefix = "AT",
+		Max = 5
+            },
+            {
                 Name = "Sniper",
                 Default = false,
                 Models = {},
@@ -1228,7 +1246,8 @@ ROLES = {
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"hide_player","weapon_tnt","rope_tool"},
-                Prefix = "SAB"
+                Prefix = "SAB",
+		Max = 3
             },
             {
                 Name = "Anti-Tank",
@@ -1644,7 +1663,8 @@ ROLES = {
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"hide_player","weapon_tnt","rope_tool"},
-                Prefix = "SAB"
+                Prefix = "SAB",
+		Max = 3
             },
             {
                 Name = "Medic",
