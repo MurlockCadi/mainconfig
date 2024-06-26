@@ -113,7 +113,7 @@ XP_SCALING_FACTOR = 1.15
 WALK_SPEED = 160
 RUN_SPEED = 260
 JUMP_POWER = 200
-MAX_HEALTH = 150
+MAX_HEALTH = 100
 ----------------------COMMANDS FOR CHAT--------------------------------------------------------------------
 
 commands = {
