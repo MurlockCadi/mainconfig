@@ -1247,7 +1247,7 @@ ROLES = {
                 Weapons = {},
                 SpawnWeapons = {"doi_panzerschreck","weapon_lvsmines"},
                 Prefix = "AT",
-		Max = 5
+		Max = 3
             },
         },
         Ranks = {
@@ -1462,7 +1462,7 @@ ROLES = {
                 Weapons = {},
                 SpawnWeapons = {"doi_bazooka","ent_spawner","weapon_lvsmines"},
                 Prefix = "AT",
-		Max = 5
+		Max = 3
             },
             {
                 Name = "Pilot",
