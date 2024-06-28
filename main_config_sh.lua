@@ -1890,7 +1890,7 @@ ROLES = {
         NiceName = "7th Armoured Division",
         Prefix = "7th",
 	Color = Color(101, 33, 33, 255),
-	Description = "The 'Desert Rats' are the famous British armoured division. They distinguished themselves in North Africa and are now in Northwestern Europe to liberate Europe from the Nazi.",
+	Description = "The 'Desert Rats' are the famous British armoured division.\nThey distinguished themselves in North Africa and are now in Northwestern Europe to liberate Europe from the Nazi.",
         Default = true,
         Classes = {
             {
