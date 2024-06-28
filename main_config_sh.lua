@@ -258,6 +258,7 @@ DE_NCO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie
 DE_CO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
 DE_MP_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
 DE_TANKER_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerwrap_s1_03.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/nco/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/nco/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/nco/panzerwrap_s1_03.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/co/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/co/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/co/panzerwrap_s1_03.mdl"}
+RAT_MODELS = {"models/ingomar/commonwelth/british/en/p37_01.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl"}
 
 ROLES = {
     STAFF = {
@@ -1884,6 +1885,277 @@ ROLES = {
             },
         },
         Team = "allies"
+    },
+    DIVISION_BC = {
+        NiceName = "7th Armoured Division",
+        Prefix = "7th",
+	Color = Color(101, 33, 33, 255),
+	Description = "The 'Desert Rats' are the famous British armoured division. They distinguished themselves in North Africa and are now in Northwestern Europe to liberate Europe from the Nazi.",
+        Default = true,
+        Classes = {
+            {
+                Name = "Rifleman",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+            {
+                Name = "Machine Gunner",
+                Default = false,
+                Models = {},
+                Weapons = {"doi_atow_m1919a6","doi_atow_m1911a1","doi_atow_vickers","doi_atow_lewis"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+                    },
+                },
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "MG"
+            },
+            {
+                Name = "Medic",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"fas2_ifak"},
+                Prefix = "MD"
+            },
+            {
+                Name = "Engineer",
+                Default = false,
+                Models = {},
+                Create_Outposts = true,
+                Weapons = {},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+                    },
+                },
+                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
+                Prefix = "ENG"
+            },
+            {
+                Name = "Mechanized",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                Prefix = "MZ",
+		SpawnWeapons = {"ent_spawner","rope_tool","weapon_lvsrepair"},
+                EntitySpawner = {
+                    {
+                        name = "Supply Transport Cart",
+                        entityname = "fuel_store",
+                        description = "Transport Supply. Can be Dragged or Attached to a Vehicle.",
+                        price = 10
+                    },
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+                    },
+                },
+                vehicles = {
+                    {
+                        name = "Willys Jeep",
+                        entityname = "lvs_wheeldrive_dodwillyjeep",
+                        description = "The Standard Allied Transport.",
+                        price = 10
+                    },
+                    {
+                        name = "Deuce And A Half",
+                        entityname = "lvs_wheeldrive_gmc",
+                        description = "A Large Unarmored Troop Transport.",
+                        price = 10
+                    },
+                    {
+                        name = "Bren Carrier",
+                        entityname = "lvs_wheeldrive_uc_bren",
+                        description = "An Armored Personnel Carrier, Armed With a Bren Gun.",
+                        price = 50
+                    },
+                    {
+                        name = "M3 GMC",
+                        entityname = "lvs_wheeldrive_m3gmc",
+                        description = "An Armored Personnel Carrier, Equiped With A Powerful Anti-Tank Cannon.",
+                        price = 150
+                    },
+		  {
+                        name = "Willys Jeep M1919",
+                        entityname = "lvs_wheeldrive_dodwillyjeep_mg",
+                        description = "The Standard Allied Transport equipped with a Browning M1919 machine Gun.",
+                        price = 25
+                    },
+                }
+            },
+            {
+                Name = "Tanker",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                Prefix = "TK",
+		SpawnWeapons = {"weapon_lvsrepair"},
+                vehicles = {
+                    {
+                        name = "M10 Wolverine",
+                        entityname = "lvs_wheeldrive_m10",
+                        description = "American tank destroyer designed with a 3-inch gun on an open-topped turret and built on a modified M4 Sherman chassis. renowned for its mobility and firepower in anti-tank roles.",
+                        price = 900
+                    },
+                    {
+                        name = "M4 Sherman",
+                        entityname = "lvs_wheeldrive_m4sherman",
+                        description = "Versatile medium tank known for its reliability, ease of production, and effectiveness in combined arms operations.",
+                        price = 1000
+                    },
+                    {
+                        name = "M4A3E2 Jumbo",
+                        entityname = "lvs_wheeldrive_jumbo",
+                        description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
+                        price = 1300
+                    },
+                }
+            },
+        },
+        Ranks = {
+            {
+                ID = 1,
+                Name = "Recruit",
+                Rank_Prefix = "RCT",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                CanPromote = false
+            },
+            {
+                ID = 2,
+                Name = "Junior Private",
+                Rank_Prefix = "JPTE",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                CanPromote = false
+            },
+            {
+                ID = 3,
+                Name = "Private",
+                Rank_Prefix = "PTE",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                CanPromote = false
+            },
+            {
+                ID = 4,
+                Name = "Lance Corporal",
+                Rank_Prefix = "LCPL",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                CanPromote = false
+            },
+            {
+                ID = 5,
+                Name = "Corporal",
+                Rank_Prefix = "CPL",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                CanPromote = false
+            },
+            {
+                ID = 6,
+                Name = "Sergeant",
+                Rank_Prefix = "SGT",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                CanPromote = false
+            },
+            {
+                ID = 7,
+                Name = "Staff Sergeant",
+                Rank_Prefix = "SSGT",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                CanPromote = false
+            },
+            {
+                ID = 8,
+                Name = "Platoon Sergeant Major",
+                Rank_Prefix = "PSM",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                CanPromote = false
+            },
+            {
+                ID = 9,
+                Name = "Company Sergeant Major",
+                Rank_Prefix = "CSM",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                CanPromote = false
+            },
+            {
+                ID = 10,
+                Name = "Regiment Sergeant Major",
+                Rank_Prefix = "RSM",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                CanPromote = false
+            },
+            {
+                ID = 11,
+                Name = "2nd Lieutenant",
+                Rank_Prefix = "2LT",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                CanPromote = true
+            },
+            {
+                ID = 12,
+                Name = "1st Lieutenant",
+                Rank_Prefix = "1LT",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                CanPromote = true
+            },
+            {
+                ID = 13,
+                Name = "Captain",
+                Rank_Prefix = "CPT",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                CanPromote = true
+            },
+            {
+                ID = 14,
+                Name = "Major",
+                Rank_Prefix = "MAJ",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                CanPromote = true
+            },
+            {
+                ID = 15,
+                Name = " Lieutenant Colonel",
+                Rank_Prefix = "LT COL",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                CanPromote = true
+            },
+            {
+                ID = 16,
+                Name = "Colonel",
+                Rank_Prefix = "COL",
+                ModelsAllowed = RAT_MODELS,
+                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                CanPromote = true
+            },
+        },
+        Team = "allies"
     }
 }
 
@@ -1992,6 +2264,9 @@ modelsToPreload = {
     "models/diggercars/pz3/pz3_asuf_f.mdl",
     "models/diggercars/universal_carrier/uc.mdl",
     "models/diggercars/universal_carrier/dead.mdl",
+    "models/ingomar/commonwelth/british/en/p37_01.mdl",
+    "models/ingomar/commonwelth/british/en/p37_02.mdl",
+    "models/ingomar/commonwelth/british/en/p37_03.mdl",
 }
 
 print("Imperium RP Config Loaded!")
