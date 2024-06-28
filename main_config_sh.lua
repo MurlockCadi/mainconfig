@@ -303,15 +303,15 @@ ROLES = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-            {
-                Name = "Sniper",
-                Default = false,
-                Models = {},
-                Weapons = {"doi_atow_m1903a3_sniper","doi_atow_m1garandsniper"},  
-                SpawnWeapons = {"hide_player"},
-                Prefix = "SN",
-		Max = 7
-            },
+            --{
+                --Name = "Sniper",
+                --Default = false,
+               -- Models = {},
+               -- Weapons = {"doi_atow_m1903a3_sniper","doi_atow_m1garandsniper"},  
+              --  SpawnWeapons = {"hide_player"},
+             --   Prefix = "SN",
+		--Max = 7
+          --  },
             {
                 Name = "Medic",
                 Default = false,
@@ -616,15 +616,6 @@ ROLES = {
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak"},
                 Prefix = "MD"
-            },
-            {
-                Name = "Sniper",
-                Default = false,
-                Models = {},
-                Weapons = {"doi_atow_k98k_sniper","doi_atow_g43sniper"},
-                SpawnWeapons = {"hide_player"},
-                Prefix = "SN",
-	        Max = 7
             },
             {
                 Name = "Logistics",
@@ -1656,6 +1647,22 @@ ROLES = {
                 SpawnWeapons = {"hide_player","weapon_tnt","rope_tool"},
                 Prefix = "SAB",
 		Max = 3
+            },
+            {
+                Name = "Machine Gunner",
+                Default = false,
+                Models = {},
+                Weapons = {"doi_atow_m1919a6","doi_atow_m1911a1","doi_atow_vickers","doi_atow_lewis"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+                    },
+                },
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "MG"
             },
             {
                 Name = "Medic",
