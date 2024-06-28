@@ -1886,10 +1886,10 @@ ROLES = {
         },
         Team = "allies"
     },
-    DIVISION_BC = {
+    DIVISION_7TH = {
         NiceName = "7th Armoured Division",
         Prefix = "7th",
-	Color = Color(101, 33, 33, 255),
+	Color = Color(189, 183, 107, 255),
 	Description = "The 'Desert Rats' are the famous British armoured division.\nThey distinguished themselves in North Africa and are now in Northwestern Europe to liberate Europe from the Nazi.",
         Default = true,
         Classes = {
@@ -2031,7 +2031,7 @@ ROLES = {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw"},
                 CanPromote = false
             },
             {
@@ -2039,7 +2039,7 @@ ROLES = {
                 Name = "Junior Private",
                 Rank_Prefix = "JPTE",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw"},
                 CanPromote = false
             },
             {
@@ -2047,7 +2047,7 @@ ROLES = {
                 Name = "Private",
                 Rank_Prefix = "PTE",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw"},
                 CanPromote = false
             },
             {
@@ -2055,7 +2055,7 @@ ROLES = {
                 Name = "Lance Corporal",
                 Rank_Prefix = "LCPL",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw"},
                 CanPromote = false
             },
             {
@@ -2063,7 +2063,7 @@ ROLES = {
                 Name = "Corporal",
                 Rank_Prefix = "CPL",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw"},
                 CanPromote = false
             },
             {
@@ -2071,7 +2071,7 @@ ROLES = {
                 Name = "Sergeant",
                 Rank_Prefix = "SGT",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -2079,7 +2079,7 @@ ROLES = {
                 Name = "Staff Sergeant",
                 Rank_Prefix = "SSGT",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -2087,7 +2087,7 @@ ROLES = {
                 Name = "Platoon Sergeant Major",
                 Rank_Prefix = "PSM",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -2095,7 +2095,7 @@ ROLES = {
                 Name = "Company Sergeant Major",
                 Rank_Prefix = "CSM",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -2103,7 +2103,7 @@ ROLES = {
                 Name = "Regiment Sergeant Major",
                 Rank_Prefix = "RSM",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco"},
                 CanPromote = false
             },
             {
@@ -2111,7 +2111,7 @@ ROLES = {
                 Name = "2nd Lieutenant",
                 Rank_Prefix = "2LT",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -2119,7 +2119,7 @@ ROLES = {
                 Name = "1st Lieutenant",
                 Rank_Prefix = "1LT",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -2127,7 +2127,7 @@ ROLES = {
                 Name = "Captain",
                 Rank_Prefix = "CPT",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -2135,7 +2135,7 @@ ROLES = {
                 Name = "Major",
                 Rank_Prefix = "MAJ",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -2143,7 +2143,7 @@ ROLES = {
                 Name = " Lieutenant Colonel",
                 Rank_Prefix = "LT COL",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
             {
@@ -2151,7 +2151,7 @@ ROLES = {
                 Name = "Colonel",
                 Rank_Prefix = "COL",
                 ModelsAllowed = RAT_MODELS,
-                WeaponsAllowed = {"doi_atow_stenbc","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
+                WeaponsAllowed = {"doi_atow_enfield","doi_atow_etoolcw","doi_atow_owennco","doi_atow_m1911a1co"},
                 CanPromote = true
             },
         },
