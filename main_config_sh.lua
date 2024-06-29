@@ -2029,7 +2029,13 @@ ROLES = {
                         name = "Willys Jeep M1919",
                         entityname = "lvs_wheeldrive_dodwillyjeep_mg",
                         description = "The Standard Allied Transport equipped with a Browning M1919 machine Gun.",
-                        price = 25
+                        price = 25                            
+                    },
+		{
+                        name = "M16 GMC",
+                        entityname = "lvs_wheeldrive_dodhalftrack_us",
+                        description = "M3 Halftrack modification, with a M45 Maxson AA gun attached",
+                        price = 150
                     },
                 }
             },
