@@ -1252,7 +1252,7 @@ ROLES = {
                     },
                 },
                 Weapons = {},
-                SpawnWeapons = {"doi_panzerschreck","weapon_lvsmines"},
+                SpawnWeapons = {"ent_spawner","doi_panzerschreck","weapon_lvsmines"},
                 Prefix = "AT",
 		Max = 3
             },
