@@ -1213,6 +1213,12 @@ ROLES = {
                         description = "The Standard German Transport Jeep equipped with an MG-34.",
                         price = 25
                     },
+		{
+                        name = "Spähwagen 222",
+                        entityname = "lvs_wheeldrive_dodspaehwagen",
+                        description = "German lighly armoured APC with a 20MM and Coaxial MG",
+                        price = 150
+                    },
                 }
             },
             {
@@ -1237,6 +1243,14 @@ ROLES = {
                 Name = "Anti-Tank",
                 Default = false,
                 Models = {},
+	        EntitySpawner = {
+                    {
+                        name = "Pak 40",
+                        entityname = "lvs_trailer_pak40",
+                        description = "German Stationary PAK 75mm gun",
+                        price = 150
+                    },
+                },
                 Weapons = {},
                 SpawnWeapons = {"doi_panzerschreck","weapon_lvsmines"},
                 Prefix = "AT",
