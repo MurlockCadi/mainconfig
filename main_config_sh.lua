@@ -662,7 +662,7 @@ ROLES = {
                 },
             },
             {
-                Name = "Engineer",
+                Name = "Engineer",   
                 Default = false,
                 Models = {},
                 Weapons = {},
@@ -696,7 +696,7 @@ ROLES = {
             },
             {
                 Name = "Artilleryman",
-                Default = false,
+                Default = false,  
                 Models = {},
                 EntitySpawner = {
                     {
@@ -708,8 +708,14 @@ ROLES = {
 		    {
                         name = "Flak 38",
                         entityname = "lvs_trailer_flak",
-                        description = "Flak 38 Anti Air Emplacement with a 37mm Autocannon",
+                        description = "Flak 38 Anti Air Emplacement with a 37mm Autocannon",                                                          
                         price = 125
+                    },
+		    {
+                        name = "Flak 38 Trailer",
+                        entityname = "lvs_trailer_flaktrailer",
+                        description = "Flak 38 Anti Air Emplacement with a 37mm Autocannon Trailer",                                                          
+                        price = 20
                     },
                 },
                 Weapons = {},
@@ -1504,7 +1510,7 @@ ROLES = {
                     {
                         name = "North American P-51 Mustang",
                         entityname = "lvs_plane_p51",
-                        description = "An American Fighter.",
+                        description = "An American Fighter Plane.",
                         price = 900
                     },
 		    {
@@ -1513,6 +1519,12 @@ ROLES = {
                         description = "An American Heavy Figther.",
                         price = 1400
                     },
+		    {
+                        name = "Supermarine Spitfire",
+                        entityname = "lvs_plane_spitfire",
+                        description = "An British Fighter Plane",
+                        price = 750
+                    },
                     {
                         name = "Douglas C-47 Skytrain",
                         entityname = "lvs_plane_c47",
@@ -1520,7 +1532,7 @@ ROLES = {
                         price = 400
                     }
                 }
-            },
+            }, 
         },
         Ranks = {
             {
