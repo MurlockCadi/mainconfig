@@ -715,7 +715,7 @@ ROLES = {
                         name = "Flak 38 Trailer",
                         entityname = "lvs_trailer_flaktrailer",
                         description = "Flak 38 Anti Air Emplacement with a 37mm Autocannon Trailer",                                                          
-                        price = 20
+                        price = 30
                     },
                 },
                 Weapons = {},
@@ -1523,7 +1523,7 @@ ROLES = {
                         name = "Supermarine Spitfire",
                         entityname = "lvs_plane_spitfire",
                         description = "An British Fighter Plane",
-                        price = 750
+                        price = 800
                     },
                     {
                         name = "Douglas C-47 Skytrain",
