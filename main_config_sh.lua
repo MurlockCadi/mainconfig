@@ -690,7 +690,7 @@ ROLES = {
                         price = 10
                     },
                 },
-                Weapons = {"doi_atow_mg42","doi_atow_p38"},
+                Weapons = {"doi_atow_mg34","doi_atow_p38","doi_atow_mg42"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
             },
@@ -978,7 +978,7 @@ ROLES = {
                         price = 10
                     },
                 },
-                Weapons = {"doi_atow_mg34","doi_atow_p38"},
+                Weapons = {"doi_atow_mg34","doi_atow_p38","doi_atow_mg42"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
             },
@@ -1241,6 +1241,22 @@ ROLES = {
                 SpawnWeapons = {"doi_panzerschreck","weapon_lvsmines"},
                 Prefix = "AT",
 		Max = 3
+            },
+			            {
+                Name = "Machine Gunner",
+                Default = false,
+                Models = {},
+                Weapons = {"doi_atow_mg34","doi_atow_p38","doi_atow_mg42"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+                    },
+                },
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "MG"
             },
         },
         Ranks = {
