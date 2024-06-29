@@ -705,6 +705,12 @@ ROLES = {
                         description = "TEMP ARTY. BETTER ARTY COMING SOON.",
                         price = 400
                     },
+		    {
+                        name = "Flak 38",
+                        entityname = "lvs_trailer_flak",
+                        description = "Flak 38 Anti Air Emplacement with a 37mm Autocannon",
+                        price = 125
+                    },
                 },
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner"},
