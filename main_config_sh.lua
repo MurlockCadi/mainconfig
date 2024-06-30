@@ -1217,7 +1217,7 @@ ROLES = {
                         name = "Sd.Kfz. 251/22",
                         entityname = "lvs_wheeldrive_sdkfz251_pak",
                         description = "An Armored Personnel Carrier, Equiped With A  PaK40.",
-                        price = 150
+                        price = 200
                     },
                     {
                         name = "Kübelwagen MG-34",
@@ -1229,7 +1229,7 @@ ROLES = {
                         name = "Spähwagen 222",
                         entityname = "lvs_wheeldrive_dodspaehwagen",
                         description = "German lighly armoured APC with a 20MM and Coaxial MG",
-                        price = 150
+                        price = 225
                     },
                 }
             },
