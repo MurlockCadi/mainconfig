@@ -206,8 +206,10 @@ commands = {
     ["/arty"] = function(ply) call_in_arty(ply) end,
     ["!bombardment"] = function(ply) call_in_arty(ply) end,
     ["/bombardment"] = function(ply) call_in_arty(ply) end,
-    ["/setalliedsupply"] = function(ply) set_allies_supply(ply) end,
-    ["/sexaxissupply"] = function(ply) set_axis_supply(ply) end,
+    ["/setalliedsupply"] = function(ply, args) set_allies_supply(ply, args) end,
+    ["/setaxissupply"] = function(ply, args) set_axis_supply(ply, args) end,
+    ["/addalliedsupply"] = function(ply, args) set_allies_supply(ply, args) end,
+    ["/addaxissupply"] = function(ply, args) set_axis_supply(ply, args) end,
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
