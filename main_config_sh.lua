@@ -447,13 +447,19 @@ ROLES = {
                         name = "M4 Sherman",
                         entityname = "lvs_wheeldrive_m4sherman",
                         description = "Versatile medium tank known for its reliability, ease of production, and effectiveness in combined arms operations.",
-                        price = 1000
+                        price = 975
                     },
                     {
                         name = "M4A3E2 Jumbo",
                         entityname = "lvs_wheeldrive_jumbo",
                         description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
                         price = 1300
+                    },
+		     {
+                        name = "M4 Sherman Firefly",
+                        entityname = "lvs_wheeldrive_sherman_firefly",
+                        description = "Sherman that was based on the US M4 Sherman but was fitted with the more powerful British 76.2 mm (3.00 in) calibre 17-pounder anti-tank gun as its main weapon.",
+                        price = 1200
                     },
                 }
             },
@@ -751,6 +757,12 @@ ROLES = {
                         entityname = "lvs_wheeldrive_pz4f2",
                         description = "German medium tank variant upgraded with a long-barreled 75mm KwK 40 L/43 gun for improved anti-tank capabilities",
                         price = 1100
+                    },
+		    {
+                        name = "Panzer 2 C",
+                        entityname = "lvs_wheeldrive_pz4f2",
+                        description = "Lightly armoured infantry support tank from the early war, with an 20 MM Autocannon",
+                        price = 400
                     },
                     {
                         name = "Panzer III F",
