@@ -1245,15 +1245,6 @@ ROLES = {
 	        Max = 7
             },
             {
-                Name = "Saboteur",
-                Default = false,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"hide_player","weapon_tnt","rope_tool"},
-                Prefix = "SAB",
-		Max = 3
-            },
-            {
                 Name = "Anti-Tank",
                 Default = false,
                 Models = {},
@@ -1293,7 +1284,7 @@ ROLES = {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1301,7 +1292,7 @@ ROLES = {
                 Name = "Schütze",
                 Rank_Prefix = "SCHTZ",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1309,7 +1300,7 @@ ROLES = {
                 Name = "OberSchütze",
                 Rank_Prefix = "OBSCHTZ",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1317,7 +1308,7 @@ ROLES = {
                 Name = "Sturmmann",
                 Rank_Prefix = "STRM",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1325,7 +1316,7 @@ ROLES = {
                 Name = "Rottenführer",
                 Rank_Prefix = "RTTF",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde"},
+                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
