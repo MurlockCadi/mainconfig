@@ -760,7 +760,7 @@ ROLES = {
                     },
 		    {
                         name = "Panzer 2 C",
-                        entityname = "lvs_wheeldrive_pz4f2",
+                        entityname = "lvs_wheeldrive_pz2c",
                         description = "Lightly armoured infantry support tank from the early war, with an 20 MM Autocannon",
                         price = 400
                     },
