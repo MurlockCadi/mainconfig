@@ -455,12 +455,6 @@ ROLES = {
                         description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
                         price = 1300
                     },
-		     {
-                        name = "M4 Sherman Firefly",
-                        entityname = "lvs_wheeldrive_sherman_firefly",
-                        description = "Sherman that was based on the US M4 Sherman but was fitted with the more powerful British 76.2 mm (3.00 in) calibre 17-pounder anti-tank gun as its main weapon.",
-                        price = 1200
-                    },
                 }
             },
         },
@@ -2076,11 +2070,11 @@ ROLES = {
                         description = "Versatile medium tank known for its reliability, ease of production, and effectiveness in combined arms operations.",
                         price = 1000
                     },
-                    {
-                        name = "M4A3E2 Jumbo",
-                        entityname = "lvs_wheeldrive_jumbo",
-                        description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
-                        price = 1300
+		     {
+                        name = "M4 Sherman Firefly",
+                        entityname = "lvs_wheeldrive_sherman_firefly",
+                        description = "Sherman that was based on the US M4 Sherman but was fitted with the more powerful British 76.2 mm (3.00 in) calibre 17-pounder anti-tank gun as its main weapon.",
+                        price = 1200
                     },
                 }
             },
