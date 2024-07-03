@@ -1392,7 +1392,7 @@ ROLES = {
             {
                 ID = 14,
                 Name = "Sturmbannführer",
-                Rank_Prefix = "STURM",
+                Rank_Prefix = "STBF",
                 ModelsAllowed = SS_CO_MODELS,
                 WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
                 CanPromote = true
