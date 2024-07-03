@@ -96,7 +96,7 @@ intro_image_urls = {
 
 ---NON OFFENSIVE COST------------------
 
-non_attack_reduction = 0.75
+non_attack_reduction = 0.25
 
 ---------PROX CHAT------------------------------------------------------------------------------------
 
