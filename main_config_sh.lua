@@ -372,9 +372,15 @@ ROLES = {
                 Weapons = {},
                 EntitySpawner = {
                     {
-                        name = "Temp Arty",
+                        name = "M101 Howitzer",
+                        entityname = "lvs_m2a1",
+                        description = "An American 105mm artillery gun.",
+                        price = 400
+                    },
+		    {
+                        name = "Old Arty",
                         entityname = "lvs_arty_john_temp",
-                        description = "TEMP ARTY. BETTER ARTY COMING SOON.",
+                        description = "If you want to use the old on you can. New ones have better stats.",
                         price = 400
                     },
                 },
@@ -702,9 +708,15 @@ ROLES = {
                 Models = {},
                 EntitySpawner = {
                     {
+                        name = "8.8 cm Flak",
+                        entityname = "lvs_flak37",
+                        description = "German 88 mm anti-aircraft and anti-tank artillery gun.",
+                        price = 400
+                    },
+                    {
                         name = "Temp Arty",
                         entityname = "lvs_arty_john_temp",
-                        description = "TEMP ARTY. BETTER ARTY COMING SOON.",
+                        description = "If you want to use the old on you can. New ones have better stats.",
                         price = 400
                     },
                 },
