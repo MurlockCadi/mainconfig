@@ -461,6 +461,13 @@ ROLES = {
                         description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
                         price = 1300
                     },
+		    {
+                        name = "M36 Slugger/Jackson",
+                        entityname = "lvs_wheeldrive_m36",
+                        description = "American tank destroyer designed with a 90MM M3 Gun on an open-topped turret and built on a modified M4 Sherman chassis. Uparmed compared to the M10 76MM",
+                        price = 1200
+                    },
+
                 }
             },
         },
@@ -737,7 +744,7 @@ ROLES = {
                 Default = false,
                 Models = DE_TANKER_FULL,
                 Weapons = {"doi_atow_mp40"},
-                SpawnWeapons = {"weapon_lvsrepair"},
+                SpawnWeapons = {"weapon_lvsrepair"},  
                 Prefix = "TK",
                 vehicles = {
                     {
@@ -757,6 +764,12 @@ ROLES = {
                         entityname = "lvs_wheeldrive_pz2c",
                         description = "Lightly armoured infantry support tank from the early war, with an 20 MM Autocannon",
                         price = 400
+                    },
+		    {
+                        name = "Jagdpanzer V",
+                        entityname = "lvs_wheeldrive_jagdpanther",
+                        description = "Heavily armoured casemade tank destroyer uparmed with an improved 8,8-cm-Pak 43",
+                        price = 2000
                     },
                     {
                         name = "Panzer III F",
