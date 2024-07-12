@@ -300,6 +300,161 @@ ROLES = {
         Default = true,
         Classes = {
             {
+                Name = "Chef",
+                Default = false,
+                Models = {"models/ecott/chefcitizen.mdl"},
+		EntitySpawner = {
+		    {
+		        name = "Cook Book",
+		        entityname = "cook_book",
+		        description = "A book filled with various recipes and cooking tips.",
+		        price = 0
+		    },
+		    {
+		        name = "Cook Stove",
+		        entityname = "cook_stove",
+		        description = "A stove for cooking meals.",
+		        price = 0
+		    },
+		    {
+		        name = "Cook Propane",
+		        entityname = "cook_propane",
+		        description = "A propane tank for fueling your cook stove.",
+		        price = 0
+		    },
+		    {
+		        name = "Cook Pot",
+		        entityname = "cook_pot",
+		        description = "A pot for boiling and cooking various ingredients.",
+		        price = 0
+		    },
+		    {
+		        name = "Cook Tray",
+		        entityname = "cook_tray",
+		        description = "A tray for baking and roasting.",
+		        price = 0
+		    },
+		    {
+		        name = "Bread Slice",
+		        entityname = "cook_ingredient_bread_slice",
+		        description = "A slice of bread, perfect for sandwiches or toast.",
+		        price = 0
+		    },
+		    {
+		        name = "Cheese",
+		        entityname = "cook_ingredient_cheese",
+		        description = "A slice of cheese, great for sandwiches or burgers.",
+		        price = 0
+		    },
+		    {
+		        name = "Chocolate Frosting",
+		        entityname = "cook_ingredient_chocolate_frosting",
+		        description = "Sweet chocolate frosting for desserts.",
+		        price = 0
+		    },
+		    {
+		        name = "Dough",
+		        entityname = "cook_ingredient_dough",
+		        description = "Raw dough for baking bread or pastries.",
+		        price = 0
+		    },
+		    {
+		        name = "Egg",
+		        entityname = "cook_ingredient_egg",
+		        description = "A fresh egg, versatile for many recipes.",
+		        price = 0
+		    },
+		    {
+		        name = "Flour",
+		        entityname = "cook_ingredient_flour",
+		        description = "A bag of flour, essential for baking.",
+		        price = 0
+		    },
+		    {
+		        name = "Ketchup",
+		        entityname = "cook_ingredient_ketchup",
+		        description = "A bottle of ketchup, a classic condiment.",
+		        price = 0
+		    },
+		    {
+		        name = "Lettuce",
+		        entityname = "cook_ingredient_lettuce",
+		        description = "Fresh lettuce, perfect for salads and sandwiches.",
+		        price = 0
+		    },
+		    {
+		        name = "Lighter Fluid",
+		        entityname = "cook_ingredient_lighter_fluid",
+		        description = "Lighter fluid for igniting your cook stove.",
+		        price = 0
+		    },
+		    {
+		        name = "Methylamine",
+		        entityname = "cook_ingredient_methylamine",
+		        description = "A chemical compound with various uses. Handle with care.",
+		        price = 0
+		    },
+		    {
+		        name = "Milk",
+		        entityname = "cook_ingredient_milk",
+		        description = "A carton of milk, essential for many recipes.",
+		        price = 0
+		    },
+		    {
+		        name = "Potato",
+		        entityname = "cook_ingredient_potato",
+		        description = "A raw potato, versatile and nutritious.",
+		        price = 0
+		    },
+		    {
+		        name = "Raw Beef",
+		        entityname = "cook_ingredient_raw_beef",
+		        description = "Raw beef, ready to be cooked.",
+		        price = 0
+		    },
+		    {
+		        name = "Raw Lobster",
+		        entityname = "cook_ingredient_raw_lobster",
+		        description = "Raw lobster, a delicacy ready to be cooked.",
+		        price = 0
+		    },
+		    {
+		        name = "Raw Steak",
+		        entityname = "cook_ingredient_raw_steak",
+		        description = "A raw steak, perfect for grilling.",
+		        price = 0
+		    },
+		    {
+		        name = "Raw Turkey",
+		        entityname = "cook_ingredient_raw_turkey",
+		        description = "A raw turkey, ready for roasting.",
+		        price = 0
+		    },
+		    {
+		        name = "Salt",
+		        entityname = "cook_ingredient_salt",
+		        description = "A pinch of salt, essential for seasoning.",
+		        price = 0
+		    },
+		    {
+		        name = "Sugar",
+		        entityname = "cook_ingredient_sugar",
+		        description = "A bag of sugar, perfect for baking and sweetening.",
+		        price = 0
+		    },
+		    {
+		        name = "Vanilla Frosting",
+		        entityname = "cook_ingredient_vanilla_frosting",
+		        description = "Sweet vanilla frosting for desserts.",
+		        price = 0
+		    },
+		},
+                Weapons = {},
+		Max = 2,
+                SpawnWeapons = {"ent_spawner","rope_tool"},
+                Prefix = "CHEF"
+            },
+            {
                 Name = "Rifleman",
                 Default = true,
                 Models = {},
@@ -363,6 +518,7 @@ ROLES = {
                     },
                 },
                 SpawnWeapons = {"ent_spawner"},
+		Max = 4,
                 Prefix = "MG"
             },
             {
@@ -619,6 +775,161 @@ ROLES = {
         Default = true,
         Classes = {
             {
+                Name = "Chef",
+                Default = false,
+                Models = {"models/ecott/chefcitizen.mdl"},
+		EntitySpawner = {
+		    {
+		        name = "Cook Book",
+		        entityname = "cook_book",
+		        description = "A book filled with various recipes and cooking tips.",
+		        price = 0
+		    },
+		    {
+		        name = "Cook Stove",
+		        entityname = "cook_stove",
+		        description = "A stove for cooking meals.",
+		        price = 0
+		    },
+		    {
+		        name = "Cook Propane",
+		        entityname = "cook_propane",
+		        description = "A propane tank for fueling your cook stove.",
+		        price = 0
+		    },
+		    {
+		        name = "Cook Pot",
+		        entityname = "cook_pot",
+		        description = "A pot for boiling and cooking various ingredients.",
+		        price = 0
+		    },
+		    {
+		        name = "Cook Tray",
+		        entityname = "cook_tray",
+		        description = "A tray for baking and roasting.",
+		        price = 0
+		    },
+		    {
+		        name = "Bread Slice",
+		        entityname = "cook_ingredient_bread_slice",
+		        description = "A slice of bread, perfect for sandwiches or toast.",
+		        price = 0
+		    },
+		    {
+		        name = "Cheese",
+		        entityname = "cook_ingredient_cheese",
+		        description = "A slice of cheese, great for sandwiches or burgers.",
+		        price = 0
+		    },
+		    {
+		        name = "Chocolate Frosting",
+		        entityname = "cook_ingredient_chocolate_frosting",
+		        description = "Sweet chocolate frosting for desserts.",
+		        price = 0
+		    },
+		    {
+		        name = "Dough",
+		        entityname = "cook_ingredient_dough",
+		        description = "Raw dough for baking bread or pastries.",
+		        price = 0
+		    },
+		    {
+		        name = "Egg",
+		        entityname = "cook_ingredient_egg",
+		        description = "A fresh egg, versatile for many recipes.",
+		        price = 0
+		    },
+		    {
+		        name = "Flour",
+		        entityname = "cook_ingredient_flour",
+		        description = "A bag of flour, essential for baking.",
+		        price = 0
+		    },
+		    {
+		        name = "Ketchup",
+		        entityname = "cook_ingredient_ketchup",
+		        description = "A bottle of ketchup, a classic condiment.",
+		        price = 0
+		    },
+		    {
+		        name = "Lettuce",
+		        entityname = "cook_ingredient_lettuce",
+		        description = "Fresh lettuce, perfect for salads and sandwiches.",
+		        price = 0
+		    },
+		    {
+		        name = "Lighter Fluid",
+		        entityname = "cook_ingredient_lighter_fluid",
+		        description = "Lighter fluid for igniting your cook stove.",
+		        price = 0
+		    },
+		    {
+		        name = "Methylamine",
+		        entityname = "cook_ingredient_methylamine",
+		        description = "A chemical compound with various uses. Handle with care.",
+		        price = 0
+		    },
+		    {
+		        name = "Milk",
+		        entityname = "cook_ingredient_milk",
+		        description = "A carton of milk, essential for many recipes.",
+		        price = 0
+		    },
+		    {
+		        name = "Potato",
+		        entityname = "cook_ingredient_potato",
+		        description = "A raw potato, versatile and nutritious.",
+		        price = 0
+		    },
+		    {
+		        name = "Raw Beef",
+		        entityname = "cook_ingredient_raw_beef",
+		        description = "Raw beef, ready to be cooked.",
+		        price = 0
+		    },
+		    {
+		        name = "Raw Lobster",
+		        entityname = "cook_ingredient_raw_lobster",
+		        description = "Raw lobster, a delicacy ready to be cooked.",
+		        price = 0
+		    },
+		    {
+		        name = "Raw Steak",
+		        entityname = "cook_ingredient_raw_steak",
+		        description = "A raw steak, perfect for grilling.",
+		        price = 0
+		    },
+		    {
+		        name = "Raw Turkey",
+		        entityname = "cook_ingredient_raw_turkey",
+		        description = "A raw turkey, ready for roasting.",
+		        price = 0
+		    },
+		    {
+		        name = "Salt",
+		        entityname = "cook_ingredient_salt",
+		        description = "A pinch of salt, essential for seasoning.",
+		        price = 0
+		    },
+		    {
+		        name = "Sugar",
+		        entityname = "cook_ingredient_sugar",
+		        description = "A bag of sugar, perfect for baking and sweetening.",
+		        price = 0
+		    },
+		    {
+		        name = "Vanilla Frosting",
+		        entityname = "cook_ingredient_vanilla_frosting",
+		        description = "Sweet vanilla frosting for desserts.",
+		        price = 0
+		    },
+		},
+                Weapons = {},
+		Max = 2,
+                SpawnWeapons = {"ent_spawner","rope_tool"},
+                Prefix = "CHEF"
+            },
+            {
                 Name = "Soldat",
                 Default = true,
                 Models = {},
@@ -705,6 +1016,7 @@ ROLES = {
                         price = 10
                     },
                 },
+		Max = 4,
                 Weapons = {"doi_atow_mg34","doi_atow_p38","doi_atow_mg42"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
@@ -1011,6 +1323,7 @@ ROLES = {
                         price = 10
                     },
                 },
+		Max = 4,
                 Weapons = {"doi_atow_mg34","doi_atow_p38","doi_atow_mg42"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
@@ -1284,6 +1597,7 @@ ROLES = {
                 Name = "Machine Gunner",
                 Default = false,
                 Models = {},
+		Max = 4,
                 Weapons = {"doi_atow_mg34","doi_atow_p38","doi_atow_mg42"},
                 EntitySpawner = {
                     {
@@ -1490,6 +1804,7 @@ ROLES = {
                         price = 10
                     },
                 },
+		Max = 4,
                 Weapons = {"doi_atow_m1918a2","doi_atow_m1911a1","doi_atow_m1919a6"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
@@ -1723,6 +2038,7 @@ ROLES = {
                         price = 10
                     },
                 },
+		Max = 4,
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
             },
@@ -1975,6 +2291,7 @@ ROLES = {
                         price = 10
                     },
                 },
+		Max = 4,
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "MG"
             },
