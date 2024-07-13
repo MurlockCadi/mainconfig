@@ -1571,6 +1571,12 @@ ROLES = {
                         description = "German lighly armoured APC with a 20MM and Coaxial MG",
                         price = 225
                     },
+		{
+                        name = "Sd.Kfz.234 Puma",
+                        entityname = "lvs_wheeldrive_puma",
+                        description = "A light German armored recon vehicle",
+                        price = 500
+                    },
                 }
             },
             {
@@ -2133,6 +2139,12 @@ ROLES = {
                         entityname = "lvs_wheeldrive_dodwillyjeep_mg",
                         description = "The Standard Allied Transport equipped with a Browning M1919 machine Gun.",
                         price = 25
+                    },
+		{
+                        name = "M8 Greyhound",
+                        entityname = "lvs_wheeldrive_greyhound",
+                        description = "A light Allied armored recon vehicle",
+                        price = 500
                     },
                 }
             },
