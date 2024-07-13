@@ -1308,7 +1308,13 @@ ROLES = {
                         entityname = "lvs_plane_ju52",
                         description = "A German Transport Plane.",
                         price = 400
-                    }
+                    },
+                    {
+                        name = "Heinkel He 162",
+                        entityname = "lvs_plane_he162",
+                        description = "An early German jet-powered fighter aircraft",
+                        price = 1000
+                    },					
                 }
             },
             {
