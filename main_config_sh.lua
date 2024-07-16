@@ -210,6 +210,9 @@ commands = {
     ["/setaxissupply"] = function(ply, args) set_axis_supply(ply, args) end,
     ["/addalliedsupply"] = function(ply, args) set_allies_supply(ply, args) end,
     ["/addaxissupply"] = function(ply, args) set_axis_supply(ply, args) end,
+    ["/resetevent"] = function(ply) ResetGMPoints(ply) end,
+    ["!resetevent"] = function(ply) ResetGMPoints(ply) end,
+
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
