@@ -2399,6 +2399,12 @@ ROLES = {
                         description = "M3 Halftrack modification, with a M45 Maxson AA gun attached",
                         price = 150
                     },
+		{
+                        name = "M8 Greyhound",
+                        entityname = "lvs_wheeldrive_greyhound",
+                        description = "A light Allied armored recon vehicle",
+                        price = 500
+                    },
                 }
             },
             {
@@ -2425,6 +2431,12 @@ ROLES = {
                         name = "M4 Sherman Firefly",
                         entityname = "lvs_wheeldrive_sherman_firefly",
                         description = "Sherman that was based on the US M4 Sherman but was fitted with the more powerful British 76.2 mm (3.00 in) calibre 17-pounder anti-tank gun as its main weapon.",
+                        price = 1200
+                    },
+		    {
+			name = "M36 Slugger/Jackson",
+                        entityname = "lvs_wheeldrive_m36",
+                        description = "American tank destroyer designed with a 90MM M3 Gun on an open-topped turret and built on a modified M4 Sherman chassis. Uparmed compared to the M10 76MM",
                         price = 1200
                     },
                 }
