@@ -494,6 +494,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 Weapons = {},
                 SpawnWeapons = {"outpost_maker","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsmines"},
@@ -519,6 +525,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 SpawnWeapons = {"ent_spawner"},
 		Max = 4,
@@ -542,6 +554,12 @@ ROLES = {
                         description = "If you want to use the old on you can. New ones have better stats.",
                         price = 400
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "ARTY"
@@ -563,6 +581,12 @@ ROLES = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
                 vehicles = {
@@ -926,6 +950,12 @@ ROLES = {
 		        description = "Sweet vanilla frosting for desserts.",
 		        price = 0
 		    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
 		},
                 Weapons = {},
 		Max = 2,
@@ -967,6 +997,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 Prefix = "LG",
                 vehicles = {
@@ -1002,6 +1038,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 Create_Outposts = true,
                 SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
@@ -1017,6 +1059,12 @@ ROLES = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
 		Max = 4,
@@ -1040,6 +1088,12 @@ ROLES = {
                         entityname = "lvs_arty_john_temp",
                         description = "If you want to use the old on you can. New ones have better stats.",
                         price = 400
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
                 Weapons = {},
@@ -1280,6 +1334,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 Create_Outposts = true,
                 Weapons = {},
@@ -1330,6 +1390,12 @@ ROLES = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
 		Max = 4,
@@ -1504,6 +1570,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 Weapons = {},
                 Create_Outposts = true,
@@ -1528,6 +1600,12 @@ ROLES = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
                 Prefix = "MZ",
@@ -1602,6 +1680,12 @@ ROLES = {
                         description = "German Stationary PAK 75mm gun",
                         price = 150
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner","doi_panzerschreck","weapon_lvsmines"},
@@ -1620,6 +1704,12 @@ ROLES = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
                 SpawnWeapons = {"ent_spawner"},
@@ -1802,6 +1892,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 Create_Outposts = true,
                 SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
@@ -1817,6 +1913,12 @@ ROLES = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
 		Max = 4,
@@ -1834,6 +1936,12 @@ ROLES = {
                         entityname = "lvs_trailer_zis3",
                         description = "TEMP ANTI-TANK",
                         price = 150
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
                 Weapons = {},
@@ -2052,6 +2160,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
 		Max = 4,
                 SpawnWeapons = {"ent_spawner"},
@@ -2077,6 +2191,12 @@ ROLES = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
                 SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
@@ -2110,6 +2230,12 @@ ROLES = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
                 vehicles = {
@@ -2311,6 +2437,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
 		Max = 4,
                 SpawnWeapons = {"ent_spawner"},
@@ -2337,6 +2469,12 @@ ROLES = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
                     },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
                 },
                 SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
                 Prefix = "ENG"
@@ -2360,6 +2498,12 @@ ROLES = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 10
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
                     },
                 },
                 vehicles = {
