@@ -630,19 +630,19 @@ ROLES = {
                         name = "M10 Wolverine",
                         entityname = "lvs_wheeldrive_m10",
                         description = "American tank destroyer designed with a 3-inch gun on an open-topped turret and built on a modified M4 Sherman chassis. renowned for its mobility and firepower in anti-tank roles.",
-                        price = 900
+                        price = 850
                     },
                     {
                         name = "M4 Sherman",
                         entityname = "lvs_wheeldrive_m4sherman",
                         description = "Versatile medium tank known for its reliability, ease of production, and effectiveness in combined arms operations.",
-                        price = 975
+                        price = 900
                     },
                     {
                         name = "M4A3E2 Jumbo",
                         entityname = "lvs_wheeldrive_jumbo",
                         description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
-                        price = 1300
+                        price = 1150
                     },
 		    {
                         name = "M36 Slugger/Jackson",
@@ -1126,19 +1126,25 @@ ROLES = {
                         name = "Panze IV F2",
                         entityname = "lvs_wheeldrive_pz4f2",
                         description = "German medium tank variant upgraded with a long-barreled 75mm KwK 40 L/43 gun for improved anti-tank capabilities",
-                        price = 1100
+                        price = 950
                     },
 		    {
                         name = "Panzer 2 C",
                         entityname = "lvs_wheeldrive_pz2c",
                         description = "Lightly armoured infantry support tank from the early war, with an 20 MM Autocannon",
-                        price = 400
+                        price = 350
                     },
 		    {
                         name = "Jagdpanzer V",
                         entityname = "lvs_wheeldrive_jagdpanther",
                         description = "Heavily armoured casemade tank destroyer uparmed with an improved 8,8-cm-Pak 43",
-                        price = 2000
+                        price = 1900
+                    },
+		{
+                        name = "Panther G",
+                        entityname = "lvs_wheeldrive_panther",
+                        description = "German late war Medium tank with an upgraded 7.5 cm KwK 42, overall well an allrounder vehicle",
+                        price = 1500
                     },
                     {
                         name = "Panzer III F",
@@ -1659,13 +1665,13 @@ ROLES = {
                         name = "Spähwagen 222",
                         entityname = "lvs_wheeldrive_dodspaehwagen",
                         description = "German lighly armoured APC with a 20MM and Coaxial MG",
-                        price = 225
+                        price = 210
                     },
 		{
                         name = "Sd.Kfz.234 Puma",
                         entityname = "lvs_wheeldrive_puma",
                         description = "A light German armored recon vehicle",
-                        price = 500
+                        price = 425
                     },
                 }
             },
@@ -2291,7 +2297,7 @@ ROLES = {
                         name = "M8 Greyhound",
                         entityname = "lvs_wheeldrive_greyhound",
                         description = "A light Allied armored recon vehicle",
-                        price = 500
+                        price = 375
                     },
                 }
             },
@@ -2593,12 +2599,12 @@ ROLES = {
                         name = "M4 Sherman Firefly",
                         entityname = "lvs_wheeldrive_sherman_firefly",
                         description = "Sherman that was based on the US M4 Sherman but was fitted with the more powerful British 76.2 mm (3.00 in) calibre 17-pounder anti-tank gun as its main weapon.",
-                        price = 1200
+                        price = 1300
                     },
 		    {
-			name = "M36 Slugger/Jackson",
-                        entityname = "lvs_wheeldrive_m36",
-                        description = "American tank destroyer designed with a 90MM M3 Gun on an open-topped turret and built on a modified M4 Sherman chassis. Uparmed compared to the M10 76MM",
+			name = "Churchill MK. V",
+                        entityname = "lvs_wheeldrive_churchill",
+                        description = "British Heavy tank with a focus on infantry support, though it can deal with medium threats. Use in Assistance of Tank Destroyers for maximum efficiency",
                         price = 1200
                     },
                 }
