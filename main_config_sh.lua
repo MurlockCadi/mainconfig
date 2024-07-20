@@ -1306,6 +1306,15 @@ ROLES = {
                 Prefix = "SAB",
 		Max = 3
             },
+	    {
+                Name = "Pathfinder",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"paradrop_caller"},
+                Prefix = "PF",
+		Max = 1
+            },
             {
                 Name = "Sniper",
                 Default = false,
@@ -1871,6 +1880,15 @@ ROLES = {
                 SpawnWeapons = {"hide_player"},
                 Prefix = "SN",
 		Max = 7
+            },
+	    {
+                Name = "Pathfinder",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"paradrop_caller"},
+                Prefix = "PF",
+		Max = 1
             },
             {
                 Name = "Medic",
