@@ -630,25 +630,25 @@ ROLES = {
                         name = "M10 Wolverine",
                         entityname = "lvs_wheeldrive_m10",
                         description = "American tank destroyer designed with a 3-inch gun on an open-topped turret and built on a modified M4 Sherman chassis. renowned for its mobility and firepower in anti-tank roles.",
-                        price = 850
+                        price = 800
                     },
                     {
                         name = "M4 Sherman",
                         entityname = "lvs_wheeldrive_m4sherman",
                         description = "Versatile medium tank known for its reliability, ease of production, and effectiveness in combined arms operations.",
-                        price = 900
+                        price = 800
                     },
                     {
                         name = "M4A3E2 Jumbo",
                         entityname = "lvs_wheeldrive_jumbo",
                         description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
-                        price = 1150
+                        price = 1200
                     },
 		    {
                         name = "M36 Slugger/Jackson",
                         entityname = "lvs_wheeldrive_m36",
                         description = "American tank destroyer designed with a 90MM M3 Gun on an open-topped turret and built on a modified M4 Sherman chassis. Uparmed compared to the M10 76MM",
-                        price = 1200
+                        price = 1250
                     },
 
                 }
@@ -1126,13 +1126,13 @@ ROLES = {
                         name = "Panze IV F2",
                         entityname = "lvs_wheeldrive_pz4f2",
                         description = "German medium tank variant upgraded with a long-barreled 75mm KwK 40 L/43 gun for improved anti-tank capabilities",
-                        price = 950
+                        price = 900
                     },
 		    {
                         name = "Panzer 2 C",
                         entityname = "lvs_wheeldrive_pz2c",
                         description = "Lightly armoured infantry support tank from the early war, with an 20 MM Autocannon",
-                        price = 350
+                        price = 325
                     },
 		    {
                         name = "Jagdpanzer V",
@@ -1150,7 +1150,7 @@ ROLES = {
                         name = "Panzer III F",
                         entityname = "lvs_wheeldrive_pz3f",
                         description = "German medium tank equipped with a 3.7 cm KwK 36 L/45 gun and improved armor, designed for both light anti-tank and infantry support roles.",
-                        price = 500
+                        price = 400
                     }
                 }
             },
@@ -1373,25 +1373,25 @@ ROLES = {
                         name = "Messerschmitt Bf 109",
                         entityname = "lvs_plane_bf109",
                         description = "A German Fighter.",
-                        price = 800
+                        price = 700
                     },
 		    {
                         name = "Junkers 87 Stuka",
                         entityname = "lvs_plane_stuka",
                         description = "A German Dive Bomber.",
-                        price = 1300
+                        price = 1100
                     },
                     {
                         name = "Junkers Ju 52",
                         entityname = "lvs_plane_ju52",
                         description = "A German Transport Plane.",
-                        price = 400
+                        price = 700
                     },
                     {
                         name = "Heinkel He 162",
                         entityname = "lvs_plane_he162",
                         description = "An early German jet-powered fighter aircraft",
-                        price = 1000
+                        price = 950
                     },					
                 }
             },
@@ -1985,25 +1985,25 @@ ROLES = {
                         name = "North American P-51 Mustang",
                         entityname = "lvs_plane_p51",
                         description = "An American Fighter Plane.",
-                        price = 900
+                        price = 800
                     },
 		    {
                         name = "Republic P-47 Thunderbolt",
                         entityname = "lvs_plane_p47",
                         description = "An American Heavy Figther.",
-                        price = 1400
+                        price = 1150
                     },
 		    {
                         name = "Supermarine Spitfire",
                         entityname = "lvs_plane_spitfire",
                         description = "An British Fighter Plane",
-                        price = 800
+                        price = 750
                     },
                     {
                         name = "Douglas C-47 Skytrain",
                         entityname = "lvs_plane_c47",
                         description = "An American Transport Plane.",
-                        price = 400
+                        price = 800
                     }
                 }
             }, 
@@ -2567,12 +2567,6 @@ ROLES = {
                         description = "M3 Halftrack modification, with a M45 Maxson AA gun attached",
                         price = 150
                     },
-		{
-                        name = "M8 Greyhound",
-                        entityname = "lvs_wheeldrive_greyhound",
-                        description = "A light Allied armored recon vehicle",
-                        price = 500
-                    },
                 }
             },
             {
@@ -2587,13 +2581,13 @@ ROLES = {
                         name = "M10 Wolverine",
                         entityname = "lvs_wheeldrive_m10",
                         description = "American tank destroyer designed with a 3-inch gun on an open-topped turret and built on a modified M4 Sherman chassis. renowned for its mobility and firepower in anti-tank roles.",
-                        price = 900
+                        price = 850
                     },
                     {
                         name = "M4 Sherman",
                         entityname = "lvs_wheeldrive_m4sherman",
                         description = "Versatile medium tank known for its reliability, ease of production, and effectiveness in combined arms operations.",
-                        price = 1000
+                        price = 850
                     },
 		     {
                         name = "M4 Sherman Firefly",
