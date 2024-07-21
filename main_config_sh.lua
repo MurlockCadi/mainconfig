@@ -2567,6 +2567,12 @@ ROLES = {
                         description = "M3 Halftrack modification, with a M45 Maxson AA gun attached",
                         price = 150
                     },
+							{
+                        name = "M8 Greyhound",
+                        entityname = "lvs_wheeldrive_greyhound",
+                        description = "A light Allied armored recon vehicle",
+                        price = 375
+                    },
                 }
             },
             {
