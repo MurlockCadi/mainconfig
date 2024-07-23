@@ -2597,7 +2597,7 @@ ROLES = {
                     },
 		     {
                         name = "M4 Sherman Firefly",
-                        entityname = "lvs_wheeldrive_sherman_firefly",
+                        entityname = "lvs_wheeldrive_igm4firefly",
                         description = "Sherman that was based on the US M4 Sherman but was fitted with the more powerful British 76.2 mm (3.00 in) calibre 17-pounder anti-tank gun as its main weapon.",
                         price = 1300
                     },
