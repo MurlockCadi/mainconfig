@@ -2070,7 +2070,7 @@ ROLES = {
                 Name = "Technical Sergeant",
                 Rank_Prefix = "TSGT",
                 ModelsAllowed = AIRBORN_MODELS,
-                WeaponsAllowed = {"doi_atow_m1garand","doi_atow_etoolus","doi_atow_m1a1","doi_atow_m1a1nco"},
+                WeaponsAllowed = {"doi_atow_m1carbinenco","doi_atow_m1a1carbine","doi_atow_etoolus"},
                 CanPromote = false
             },	
             {
