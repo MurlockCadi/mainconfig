@@ -644,6 +644,12 @@ ROLES = {
                         description = "Heavily armored variant of the M4, designed for assault roles. Significantly thicker frontal armor and a more powerful engine for improved battlefield survivability.",
                         price = 1200
                     },
+			{
+                        name = "M4A3E28 Easy Eight",
+                        entityname = "lvs_wheeldrive_m4a3e8",
+                        description = "The "Easy Eight" is a nickname for the M4A3E8, an improved variant of the M4 Sherman tank used by the U.S. Army during World War II and the Korean War. It featured a more powerful 76mm gun, wider tracks, and a horizontal volute spring suspension (HVSS), providing better stability and a smoother ride over rough terrain.",
+                        price = 1100
+                    },
 		    {
                         name = "M36 Slugger/Jackson",
                         entityname = "lvs_wheeldrive_m36",
@@ -1145,6 +1151,12 @@ ROLES = {
                         entityname = "lvs_wheeldrive_panther",
                         description = "German late war Medium tank with an upgraded 7.5 cm KwK 42, overall well an allrounder vehicle",
                         price = 1500
+                    },
+					{
+                        name = "Stug IV",
+                        entityname = "lvs_wheeldrive_stug4",
+                        description = "German Casemate with a 75MM KwK 40 L/43 gun for improved anti-tank capabilities",
+                        price = 900
                     },
                     {
                         name = "Panzer III F",
