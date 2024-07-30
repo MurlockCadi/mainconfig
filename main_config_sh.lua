@@ -98,6 +98,13 @@ intro_image_urls = {
 
 non_attack_reduction = 0.25
 
+---COOL DOWNS FOR TANKS------------------
+
+entityCooldowns = {
+    ["vehicle_name_1"] = {cooldown = 60, lastSpawnTime = 0},
+    ["vehicle_name_2"] = {cooldown = 120, lastSpawnTime = 0},
+}
+
 ---------PROX CHAT------------------------------------------------------------------------------------
 
 proximityDistance = 750
