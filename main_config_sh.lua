@@ -102,6 +102,7 @@ non_attack_reduction = 0.25
 
 entityCooldowns = {
     ["M4 Sherman"] = {cooldown = 60, lastSpawnTime = 0},
+    ["lvs_wheeldrive_dodspaehwagen"] = {cooldown = 30, lastSpawnTime = 0},
     ["lvs_wheeldrive_tiger"] = {cooldown = 120, lastSpawnTime = 0},
 }
 
