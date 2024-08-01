@@ -2883,6 +2883,8 @@ modelsToPreload = {
     "models/ingomar/commonwelth/british/en/p37_01.mdl",
     "models/ingomar/commonwelth/british/en/p37_02.mdl",
     "models/ingomar/commonwelth/british/en/p37_03.mdl",
+    "models/gredwitch/m26/m26.mdl",
+    "models/katastrofa/m4f/m4f.mdl",
 }
 
 print("Imperium RP Config Loaded!")
