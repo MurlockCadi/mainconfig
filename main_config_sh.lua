@@ -1865,7 +1865,7 @@ ROLES = {
             {
                 ID = 10,
                 Name = "Stabsscharführer",
-                Rank_Prefix = "STACHA",
+                Rank_Prefix = "STASCHA",
                 ModelsAllowed = SS_NCO_MODELS,
                 WeaponsAllowed = {"doi_atow_stg44nco", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
