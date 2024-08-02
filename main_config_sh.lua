@@ -1621,11 +1621,11 @@ ROLES = {
                         entityname = "newboombox",
                         description = "Radio to play some War Music!",
                         price = 0
-                    },
+                    }
                 },
                 Weapons = {},
                 Create_Outposts = true,
-                SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
+                SpawnWeapons = {"ent_spawner", "outpost_maker", "alydus_fortificationbuildertablet", "weapon_lvsmines"},
                 Prefix = "ENG"
             },
             {
@@ -1633,7 +1633,7 @@ ROLES = {
                 Default = false,
                 Models = {},
                 Weapons = {},
-		SpawnWeapons = {"ent_spawner","rope_tool","weapon_lvsrepair"},
+                SpawnWeapons = {"ent_spawner", "rope_tool", "weapon_lvsrepair"},
                 EntitySpawner = {
                     {
                         name = "Supply Transport Cart",
@@ -1652,9 +1652,8 @@ ROLES = {
                         entityname = "newboombox",
                         description = "Radio to play some War Music!",
                         price = 0
-                    },
+                    }
                 },
-		{
                 Prefix = "MZ",
                 vehicles = {
                     {
@@ -1675,7 +1674,7 @@ ROLES = {
                         description = "An Armored Personnel Carrier, Armed With A MG-34.",
                         price = 50
                     },
-					                    {
+                    {
                         name = "Panzerspähwagen Kfz 14",
                         entityname = "lvs_wheeldrive_kfz13",
                         description = "Lightly Armoured Radio APC MG",
@@ -1684,7 +1683,7 @@ ROLES = {
                     {
                         name = "Sd.Kfz. 251/22",
                         entityname = "lvs_wheeldrive_sdkfz251_pak",
-                        description = "An Armored Personnel Carrier, Equiped With A  PaK40.",
+                        description = "An Armored Personnel Carrier, Equipped With A PaK40.",
                         price = 200
                     },
                     {
@@ -1693,18 +1692,18 @@ ROLES = {
                         description = "The Standard German Transport Jeep equipped with an MG-34.",
                         price = 25
                     },
-		{
+                    {
                         name = "Spähwagen 222",
                         entityname = "lvs_wheeldrive_dodspaehwagen",
-                        description = "German lighly armoured APC with a 20MM and Coaxial MG",
+                        description = "German lightly armoured APC with a 20MM and Coaxial MG",
                         price = 210
                     },
-		{
+                    {
                         name = "Sd.Kfz.234 Puma",
                         entityname = "lvs_wheeldrive_puma",
                         description = "A light German armored recon vehicle",
                         price = 425
-                    },
+                    }
                 }
             },
             {
@@ -1719,13 +1718,13 @@ ROLES = {
                         description = "Mustang Breed. Fast and Wild. Horse of the Castilians of old and Indians.",
                         price = 100
                     },
-		    {
+                    {
                         name = "Arabian",
                         entityname = "ent_horse_arabian",
                         description = "Arabian Breed. Proud and Free. Horse of Saladin and of the Turks.",
                         price = 100
                     },
-		    {
+                    {
                         name = "Ardennes",
                         entityname = "ent_horse_ardennes",
                         description = "Ardennes Breed. Strong and Loyal. Horse of the Benelux, Horse of Napoleon.",
@@ -1736,18 +1735,19 @@ ROLES = {
                         entityname = "newboombox",
                         description = "Radio to play some War Music!",
                         price = 0
-                    },
+                    }
                 },
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "CAV"
-            },
+            }
+        },
         Ranks = {
             {
                 ID = 1,
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_g43", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1755,7 +1755,7 @@ ROLES = {
                 Name = "Schütze",
                 Rank_Prefix = "SCHTZ",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_g43", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1763,7 +1763,7 @@ ROLES = {
                 Name = "OberSchütze",
                 Rank_Prefix = "OBSCHTZ",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_g43", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1771,7 +1771,7 @@ ROLES = {
                 Name = "Sturmmann",
                 Rank_Prefix = "STRM",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_g43", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1779,7 +1779,7 @@ ROLES = {
                 Name = "Rottenführer",
                 Rank_Prefix = "RTTF",
                 ModelsAllowed = SS_MODELS,
-                WeaponsAllowed = {"doi_atow_g43","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_g43", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1787,7 +1787,7 @@ ROLES = {
                 Name = "Unterscharführer",
                 Rank_Prefix = "USCHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1795,7 +1795,7 @@ ROLES = {
                 Name = "Scharführer",
                 Rank_Prefix = "SCHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1803,7 +1803,7 @@ ROLES = {
                 Name = "Oberscharführer",
                 Rank_Prefix = "OSCHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1811,7 +1811,7 @@ ROLES = {
                 Name = "Hauptscharführer",
                 Rank_Prefix = "HSCHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1819,7 +1819,7 @@ ROLES = {
                 Name = "Stabsscharführer",
                 Rank_Prefix = "STACHA",
                 ModelsAllowed = SS_NCO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_atow_etoolde","doi_ws_atow_mp34"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_atow_etoolde", "doi_ws_atow_mp34"},
                 CanPromote = false
             },
             {
@@ -1827,7 +1827,7 @@ ROLES = {
                 Name = "Untersturmführer",
                 Rank_Prefix = "USTF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_ws_atow_mp34", "doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1835,7 +1835,7 @@ ROLES = {
                 Name = "Obersturmführer",
                 Rank_Prefix = "OSTF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_ws_atow_mp34", "doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1843,7 +1843,7 @@ ROLES = {
                 Name = "Hauptsturmführer",
                 Rank_Prefix = "HSTF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_ws_atow_mp34", "doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1851,7 +1851,7 @@ ROLES = {
                 Name = "Sturmbannführer",
                 Rank_Prefix = "STBF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_ws_atow_mp34", "doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1859,7 +1859,7 @@ ROLES = {
                 Name = "Obersturmbannführer",
                 Rank_Prefix = "OSTBF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_ws_atow_mp34", "doi_atow_c96co"},
                 CanPromote = true
             },
             {
@@ -1867,11 +1867,10 @@ ROLES = {
                 Name = "Standartenführer",
                 Rank_Prefix = "STAF",
                 ModelsAllowed = SS_CO_MODELS,
-                WeaponsAllowed = {"doi_atow_stg44nco","doi_ws_atow_mp34","doi_atow_c96co"},
+                WeaponsAllowed = {"doi_atow_stg44nco", "doi_ws_atow_mp34", "doi_atow_c96co"},
                 CanPromote = true
-            },
-        },
-        Team = "axis"
+            }
+        }
     },
     DIVISION_101ST = {
         NiceName = "101st Airborne Division",
