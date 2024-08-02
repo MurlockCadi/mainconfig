@@ -1654,40 +1654,6 @@ ROLES = {
                         price = 0
                     },
                 },
-            {
-                Name = "Calvary",
-                Default = false,
-                Models = {},
-                Weapons = {},
-                EntitySpawner = {
-                    {
-                        name = "Mustang",
-                        entityname = "ent_horse_mustang",
-                        description = "Mustang Breed. Fast and Wild. Horse of the Castilians of old and Indians.",
-                        price = 100
-                    },
-		    {
-                        name = "Arabian",
-                        entityname = "ent_horse_arabian",
-                        description = "Arabian Breed. Proud and Free. Horse of Saladin and of the Turks.",
-                        price = 100
-                    },
-		    {
-                        name = "Ardennes",
-                        entityname = "ent_horse_ardennes",
-                        description = "Ardennes Breed. Strong and Loyal. Horse of the Benelux, Horse of Napoleon.",
-                        price = 100
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Radio to play some War Music!",
-                        price = 0
-                    },
-                },
-                SpawnWeapons = {"ent_spawner"},
-                Prefix = "CAV"
-            },
 		{
                 Prefix = "MZ",
                 vehicles = {
@@ -1742,49 +1708,28 @@ ROLES = {
                 }
             },
             {
-                Name = "Sniper",
+                Name = "Calvary",
                 Default = false,
                 Models = {},
-                Weapons = {"doi_atow_k98k_sniper"},
-                SpawnWeapons = {"hide_player"},
-                Prefix = "SN",
-	        Max = 7
-            },
-            {
-                Name = "Anti-Tank",
-                Default = false,
-                Models = {},
-	        EntitySpawner = {
-                    {
-                        name = "Pak 40",
-                        entityname = "lvs_trailer_pak40",
-                        description = "German Stationary PAK 75mm gun",
-                        price = 150
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Radio to play some War Music!",
-                        price = 0
-                    },
-                },
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","doi_panzerschreck","weapon_lvsmines"},
-                Prefix = "AT",
-		Max = 3
-            },
-			            {
-                Name = "Machine Gunner",
-                Default = false,
-                Models = {},
-		Max = 4,
-                Weapons = {"doi_atow_mg34","doi_atow_p38","doi_atow_mg42"},
                 EntitySpawner = {
                     {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        price = 10
+                        name = "Mustang",
+                        entityname = "ent_horse_mustang",
+                        description = "Mustang Breed. Fast and Wild. Horse of the Castilians of old and Indians.",
+                        price = 100
+                    },
+		    {
+                        name = "Arabian",
+                        entityname = "ent_horse_arabian",
+                        description = "Arabian Breed. Proud and Free. Horse of Saladin and of the Turks.",
+                        price = 100
+                    },
+		    {
+                        name = "Ardennes",
+                        entityname = "ent_horse_ardennes",
+                        description = "Ardennes Breed. Strong and Loyal. Horse of the Benelux, Horse of Napoleon.",
+                        price = 100
                     },
                     {
                         name = "Radio",
@@ -1794,9 +1739,8 @@ ROLES = {
                     },
                 },
                 SpawnWeapons = {"ent_spawner"},
-                Prefix = "MG"
+                Prefix = "CAV"
             },
-        },
         Ranks = {
             {
                 ID = 1,
