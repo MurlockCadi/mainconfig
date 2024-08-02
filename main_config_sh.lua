@@ -1597,6 +1597,7 @@ ROLES = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
+	    {	
 		Name = "Sniper",
                 Default = false,
                 Models = {},
@@ -1628,7 +1629,7 @@ ROLES = {
                 Prefix = "AT",
 		Max = 3
             },
-		{
+	    {
                 Name = "Machine Gunner",
                 Default = false,
                 Models = {},
