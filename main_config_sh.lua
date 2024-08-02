@@ -1205,7 +1205,7 @@ ROLES = {
             },
             {
                 ID = 3,
-                Name = "OberSchütze",
+                Name = "Oberschütze",
                 Rank_Prefix = "OSCHTZ",
                 ModelsAllowed = DE_ENLISTED_MODELS,
                 WeaponsAllowed = {"doi_atow_k98k","doi_atow_etoolde","doi_atow_g43"},
@@ -1869,8 +1869,9 @@ ROLES = {
                 ModelsAllowed = SS_CO_MODELS,
                 WeaponsAllowed = {"doi_atow_stg44nco", "doi_ws_atow_mp34", "doi_atow_c96co"},
                 CanPromote = true
-            }
-        }
+            },
+        },
+	Team = "axis"
     },
     DIVISION_101ST = {
         NiceName = "101st Airborne Division",
