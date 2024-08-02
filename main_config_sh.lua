@@ -1654,6 +1654,41 @@ ROLES = {
                         price = 0
                     },
                 },
+            {
+                Name = "Calvary",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                EntitySpawner = {
+                    {
+                        name = "Mustang",
+                        entityname = "ent_horse_mustang",
+                        description = "Mustang Breed. Fast and Wild. Horse of the Castilians of old and Indians.",
+                        price = 100
+                    },
+		    {
+                        name = "Arabian",
+                        entityname = "ent_horse_arabian",
+                        description = "Arabian Breed. Proud and Free. Horse of Saladin and of the Turks.",
+                        price = 100
+                    },
+		    {
+                        name = "Ardennes",
+                        entityname = "ent_horse_ardennes",
+                        description = "Ardennes Breed. Strong and Loyal. Horse of the Benelux, Horse of Napoleon.",
+                        price = 100
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
+                },
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "CAV"
+            },
+		{
                 Prefix = "MZ",
                 vehicles = {
                     {
@@ -1957,6 +1992,40 @@ ROLES = {
                 Create_Outposts = true,
                 SpawnWeapons = {"ent_spawner","outpost_maker","alydus_fortificationbuildertablet","weapon_lvsmines"},
                 Prefix = "ENG"
+            },
+            {
+                Name = "Calvary",
+                Default = false,
+                Models = {},
+                Weapons = {},
+                EntitySpawner = {
+                    {
+                        name = "Mustang",
+                        entityname = "ent_horse_mustang",
+                        description = "Mustang Breed. Fast and Wild. Horse of the Castilians of old and Indians.",
+                        price = 100
+                    },
+		    {
+                        name = "Arabian",
+                        entityname = "ent_horse_arabian",
+                        description = "Arabian Breed. Proud and Free. Horse of Saladin and of the Turks.",
+                        price = 100
+                    },
+		    {
+                        name = "Ardennes",
+                        entityname = "ent_horse_ardennes",
+                        description = "Ardennes Breed. Strong and Loyal. Horse of the Benelux, Horse of Napoleon.",
+                        price = 100
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
+                },
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "CAV"
             },
             {
                 Name = "Machine Gunner",
