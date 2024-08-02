@@ -1597,6 +1597,54 @@ ROLES = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
+		Name = "Sniper",
+                Default = false,
+                Models = {},
+                Weapons = {"doi_atow_k98k_sniper"},
+                SpawnWeapons = {"hide_player"},
+                Prefix = "SN",
+	        Max = 7
+            },
+	    {
+                Name = "Anti-Tank",
+		Default = false,
+                Models = {},
+	        EntitySpawner = {
+                    {
+                        name = "Pak 40",
+                        entityname = "lvs_trailer_pak40",
+                        description = "German Stationary PAK 75mm gun",
+                        price = 150
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Radio to play some War Music!",
+                        price = 0
+                    },
+                },
+		Weapons = {},
+                SpawnWeapons = {"ent_spawner","doi_panzerschreck","weapon_lvsmines"},
+                Prefix = "AT",
+		Max = 3
+            },
+		{
+                Name = "Machine Gunner",
+                Default = false,
+                Models = {},
+		Max = 4,
+                Weapons = {"doi_atow_mg34","doi_atow_p38","doi_atow_mg42"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 10
+		    },
+		},
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "MG"
+	    },
             {
                 Name = "Medic",
                 Default = false,
