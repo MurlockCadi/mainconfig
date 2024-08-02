@@ -1622,7 +1622,7 @@ ROLES = {
                         entityname = "newboombox",
                         description = "Radio to play some War Music!",
                         price = 0
-                    },
+                    }
                 },
 		Weapons = {},
                 SpawnWeapons = {"ent_spawner","doi_panzerschreck","weapon_lvsmines"},
