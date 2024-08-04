@@ -1756,7 +1756,7 @@ ROLES = {
                 }
             },
             {
-                Name = "Calvary",
+                Name = "Cavalry",
                 Default = false,
                 Models = {},
                 Weapons = {},
@@ -1987,7 +1987,7 @@ ROLES = {
                 Prefix = "ENG"
             },
             {
-                Name = "Calvary",
+                Name = "Cavalry",
                 Default = false,
                 Models = {},
                 Weapons = {},
