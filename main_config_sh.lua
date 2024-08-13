@@ -96,7 +96,13 @@ intro_image_urls = {
 
 ---NON OFFENSIVE COST------------------
 
-non_attack_reduction = 0.25
+non_attack_reduction = 0
+
+--GAMEPLAY VARS------------------------
+
+preperation_stage_timer = 1800
+build_up_stage_timer = 900
+combat_phase = 2700
 
 ---COOL DOWNS FOR TANKS------------------
 
