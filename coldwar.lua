@@ -4,7 +4,6 @@ imperium_specializations = {
         Supply = 5000,
         Class = {
             Name = "Sniper",
-            weeklyActivity = 0,
             Default = false,
             Models = {},
             Weapons = {},
@@ -17,7 +16,6 @@ imperium_specializations = {
         Supply = 5000,
         Class = {
             Name = "Medic",
-            weeklyActivity = 0,
             Default = false,
             Models = {},
             Weapons = {},
@@ -243,7 +241,7 @@ ROLES = ROLES or {
         Team = "NATO"
     },
     DIVISION_WARSAW = {
-        NiceName = "Warsaw Pact Recruits",
+        NiceName = "WARSAW Recruits",
         Prefix = "WARSAW",
         Color = Color(70, 80, 90, 255),
         Description = "Conscripted into the Wermarcht you have orders to defend the Reich against Allied Forces.\n If we can't throw the enemy into the sea within twenty-four hours then that will be.\n the beginning of the end.",
@@ -260,7 +258,7 @@ ROLES = ROLES or {
         },
         Classes = {
             {
-                Name = "Soldat",
+                Name = "Rifleman",
                 Default = true,
                 Models = {},
                 Weapons = {},
