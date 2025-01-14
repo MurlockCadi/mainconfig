@@ -1,6 +1,6 @@
 imperium_specializations = {
-    ["Sniper"] = {
-        DivisionTypes = {"Commonwealth Forces", "U.S Infantry", "Wehrmacht"},
+    ["US Sniper"] = {
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
         Supply = 5000,
         Class = {
             Name = "Sniper",
@@ -11,8 +11,104 @@ imperium_specializations = {
             Prefix = ""
         }
     },
+     ["US Engineer"] = {
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
+        Supply = 7500,
+        Class = {
+            Name = "Engineer",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
+        }
+    },
+    ["US AA"] = {
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
+        Supply = 10000,
+        Class = {
+            Name = "Anti Air",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
+        }
+    },
+    ["US Tanker"] = {
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
+        Supply = 25000,
+        Class = {
+            Name = "Tanker",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
+        }
+    },
+    ["US LG"] = {
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
+        Supply = 10000,
+        Class = {
+            Name = "Logistics",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
+        }
+    },
+    ["US MG"] = {
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
+        Supply = 6000,
+        Class = {
+            Name = "Machine Gunner",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
+        }
+    },
+   ["US AT"] = {
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
+        Supply = 7500,
+        Class = {
+            Name = "Anti Tank",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
+        }
+    },
+    ["US ART"] = {
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
+        Supply = 15000,
+        Class = {
+            Name = "Artillery",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
+        }
+    },
+    ["US PILOT"] = {
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
+        Supply = 30000,
+        Class = {
+            Name = "Pilot",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
+        }
+    },
     ["U.S Medic"] = {
-        DivisionTypes = {"U.S Infantry"},
+        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
         Supply = 5000,
         Class = {
             Name = "Medic",
