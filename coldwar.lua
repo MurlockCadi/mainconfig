@@ -42,7 +42,7 @@ group_ranks = {
 
 
 DivisionTypes = {
-    ["UK Royal Infantry Division"] = {
+    ["United Kingdom Infantry Division"] = {
         Team = "NATO",
         Ranks = {
             {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
@@ -70,7 +70,7 @@ DivisionTypes = {
             },
         },
     },
-    ["US Armored Cavalry Division"] = {
+    ["United States Infantry Division"] = {
         Team = "NATO",
         Ranks = {
             {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
@@ -98,7 +98,7 @@ DivisionTypes = {
             },
         },
     },
-        ["FGR Panzergrenadier Division"] = {
+        ["West German Infantry Division"] = {
         Team = "NATO",
         Ranks = {
             {ID = 1, Name = "Schütze", Rank_Prefix = "SOL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
@@ -126,7 +126,7 @@ DivisionTypes = {
             },
         },
     },
-            ["GDR Motorisierte Schützen"] = {
+            ["East German Infantry Division"] = {
         Team = "Warsaw Pact",
         Ranks = {
             {ID = 1, Name = "Schütze", Rank_Prefix = "SOL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
@@ -154,7 +154,7 @@ DivisionTypes = {
             },
         },
     },
-    ["Soviet Motorized Rifle Division"] = {   
+    ["Soviet Infantry Division"] = {   
         Team = "Warsaw Pact",
         Ranks = {
             {ID = 1, Name = "Novobranets", Rank_Prefix = "NOV", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}}, -- I could make it that the names are the respective language, and that the Prefix stays american yk like RCT etc.
