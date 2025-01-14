@@ -145,7 +145,7 @@ DivisionTypes = {
         },
         Classes = {
             {
-                Name = "Panzergrenadier",
+                Name = "Motorisierter Schütze",
                 Default = true,
                 Models = {},
                 Weapons = {},
