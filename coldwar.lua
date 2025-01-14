@@ -42,7 +42,7 @@ group_ranks = {
 
 
 DivisionTypes = {
-    ["United Kingdom Infantry Division"] = {
+    ["Commonwealth Division"] = {
         Team = "NATO",
         Ranks = {
             {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
@@ -61,7 +61,7 @@ DivisionTypes = {
         },
         Classes = {
             {
-                Name = "British Rifleman",
+                Name = "Rifleman",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -70,7 +70,7 @@ DivisionTypes = {
             },
         },
     },
-    ["United States Infantry Division"] = {
+    ["U.S Division"] = {
         Team = "NATO",
         Ranks = {
             {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
@@ -89,7 +89,7 @@ DivisionTypes = {
         },
         Classes = {
             {
-                Name = "General Infantry Rifleman",
+                Name = "Rifleman",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -98,7 +98,7 @@ DivisionTypes = {
             },
         },
     },
-        ["West German Infantry Division"] = {
+    ["West German Division"] = {
         Team = "NATO",
         Ranks = {
             {ID = 1, Name = "Schütze", Rank_Prefix = "SOL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
@@ -117,7 +117,7 @@ DivisionTypes = {
         },
         Classes = {
             {
-                Name = "Panzergrenadier",
+                Name = "Soldat",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -126,8 +126,8 @@ DivisionTypes = {
             },
         },
     },
-            ["East German Infantry Division"] = {
-        Team = "Warsaw Pact",
+    ["East German Division"] = {
+        Team = "WARSAW",
         Ranks = {
             {ID = 1, Name = "Schütze", Rank_Prefix = "SOL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
             {ID = 2, Name = "Gefreiter", Rank_Prefix = "GFR", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
@@ -145,7 +145,7 @@ DivisionTypes = {
         },
         Classes = {
             {
-                Name = "Motorisierter Schütze",
+                Name = "Soldat",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -154,8 +154,8 @@ DivisionTypes = {
             },
         },
     },
-    ["Soviet Infantry Division"] = {   
-        Team = "Warsaw Pact",
+    ["Soviet Division"] = {   
+        Team = "WARSAW",
         Ranks = {
             {ID = 1, Name = "Novobranets", Rank_Prefix = "NOV", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}}, -- I could make it that the names are the respective language, and that the Prefix stays american yk like RCT etc.
             {ID = 2, Name = "Riadovoy", Rank_Prefix = "RIA", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
@@ -173,7 +173,7 @@ DivisionTypes = {
         },
         Classes = {
             {
-                Name = "солдат/ Motozired Rifleman",
+                Name = "Rifleman",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -214,7 +214,7 @@ ROLES = ROLES or {
         Team = "staff",
         staff = true
     },
-    DIVISION_ALLIES = {
+    DIVISION_NATO = {
         NiceName = "NATO Recruits",
         Prefix = "NATO",
         Color = Color(75, 97, 47, 255),
@@ -242,9 +242,9 @@ ROLES = ROLES or {
         },
         Team = "NATO"
     },
-    DIVISION_AXIS = {
+    DIVISION_WARSAW = {
         NiceName = "Warsaw Pact Recruits",
-        Prefix = "Warsaw Pact",
+        Prefix = "WARSAW",
         Color = Color(70, 80, 90, 255),
         Description = "Conscripted into the Wermarcht you have orders to defend the Reich against Allied Forces.\n If we can't throw the enemy into the sea within twenty-four hours then that will be.\n the beginning of the end.",
         Default = true,
@@ -268,7 +268,7 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "Warsaw Pact"
+        Team = "WARSAW"
     },
 }
-DEFAULT_ROLE = ROLES.DIVISION_ALLIES
+DEFAULT_ROLE = ROLES.DIVISION_WARSAW
