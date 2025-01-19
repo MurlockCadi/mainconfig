@@ -1,7 +1,10 @@
 imperium_specializations = {
-    ["US Sniper"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
+    ["Sniper"] = {
+        DivisionTypes = {"U.S Infantry", "Commonwealth Division"},
         Supply = 5000,
+        Description = "This class will unlock a sniper blah blah, and can also use a para shoot.",
+        Prerequisites = {"Engineer", "Medic"},
+        WeeklyActivity = 30,
         Class = {
             Name = "Sniper",
             Default = false,
@@ -11,7 +14,7 @@ imperium_specializations = {
             Prefix = ""
         }
     },
-     ["US Engineer"] = {
+     ["Engineer"] = {
         DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
         Supply = 7500,
         Class = {
@@ -565,3 +568,13 @@ ROLES = ROLES or {
     },
 }
 DEFAULT_ROLE = ROLES.DIVISION_WARSAW
+
+--HARDCODED TO BE AT MAX 5 RANKS
+group_ranks = {
+    {id = 1, points = 0, name = "Platoon", specializations = 1, ranks_unlocked = 0.3},
+    {id = 2, points = 30, name = "Company", specializations = 2, ranks_unlocked = 0.45},
+    {id = 3, points = 100, name = "Battalion", specializations = 4, ranks_unlocked = 0.65},
+    {id = 4, points = 175, name = "Regiment", specializations = 5, ranks_unlocked = 0.80},
+    {id = 5, points = 250, name = "Division", specializations = 6, ranks_unlocked = 1.0}
+}
+
