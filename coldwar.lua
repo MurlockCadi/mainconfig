@@ -124,20 +124,8 @@ imperium_specializations = {
     }
 }
 
-
---HARDCODED TO BE AT MAX 5 RANKS
-group_ranks = {
-    {id = 1, points = 0, name = "Platoon", specializations = 1, ranks_unlocked = 0.3},
-    {id = 2, points = 30, name = "Company", specializations = 2, ranks_unlocked = 0.45},
-    {id = 3, points = 100, name = "Battalion", specializations = 4, ranks_unlocked = 0.65},
-    {id = 4, points = 175, name = "Regiment", specializations = 5, ranks_unlocked = 0.80},
-    {id = 5, points = 250, name = "Division", specializations = 6, ranks_unlocked = 1.0}
-}
-
-
 COMMONWEALTH_MODELS = {"models/player/dod_american.mdl"}
 COMMONWEALTH_WEAPONS = {}
-
 
 DivisionTypes = {
     ["Commonwealth Division"] = {
