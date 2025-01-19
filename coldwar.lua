@@ -139,6 +139,7 @@ COMMONWEALTH_WEAPONS = {}
 DivisionTypes = {
     ["Commonwealth Division"] = {
         Team = "NATO",
+        Description = "Generic Commonwealth Anglophilic Forces",
         Ranks = {
             {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
             {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
