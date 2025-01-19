@@ -132,26 +132,27 @@ group_ranks = {
 }
 
 
-
+COMMONWEALTH_MODELS = {"models/player/dod_american.mdl"}
+COMMONWEALTH_WEAPONS = {}
 
 
 DivisionTypes = {
     ["Commonwealth Division"] = {
         Team = "NATO",
         Ranks = {
-            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Warrant Officer Class 2", Rank_Prefix = "WO2", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Warrant Officer Class 1", Rank_Prefix = "WO1", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = BC_MODELS, WeaponsAllowed = {}},
+            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 3, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 7, Name = "Warrant Officer Class 2", Rank_Prefix = "WO2", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 8, Name = "Warrant Officer Class 1", Rank_Prefix = "WO1", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
         },
         Classes = {
             {
