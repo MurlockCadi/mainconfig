@@ -1,5 +1,5 @@
 --This is the main Config File. Anything you want to change. Change in here.
---THIS CONFIG FILE IS MANAGED HERE: https://github.com/MurlockCadi/mainconfig/blob/main/coldwar.lua
+--THIS CONFIG FILE IS MANAGED HERE: https://github.com/MurlockCadi/mainconfig/blob/main/main_config_sh.lua
 --DO NOT ANGER MURLOCK, EDIT IT IN GITHUB, OR 1. YOUR CHANGES WILL GET REMOVED, AND 2. HE WILL BE VERY ANGRY!!
 
 imperium_rp_font = "Bahnschrift"
@@ -110,8 +110,6 @@ proximityDistance = 750
 CAPTURE_SIZE = 1250
 
 -------XP SYSTEM CONFIG-----------------------
---XP_SCALING_FACTOR = 1.15
---baseXP = 250
 
 MIN_XP = 500
 MAX_XP = 20000
@@ -280,8 +278,108 @@ imperium_rp_defualt_weapons = {
 
 ----------------------ROLES-------------------------------------------------------------------------------
 
--------------------------NATO------------------------------
+-- Predefined Models and Loadouts
 
+--==============================================================================================
+-- NATO Division Types --
+--==============================================================================================
+
+-- United States Division
+US_MODELS = {"models/player/dod_american.mdl"}
+US_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Commonwealth Division
+COMMONWEALTH_MODELS = {"models/player/dod_american.mdl"}
+COMMONWEALTH_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Latin American Fascists
+LATIN_FASCISTS_MODELS = {"models/player/dod_american.mdl"}
+LATIN_FASCISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Israeli Defense Forces
+IDF_MODELS = {"models/player/dod_american.mdl"}
+IDF_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- West German
+WEST_GERMAN_MODELS = {"models/player/dod_american.mdl"}
+WEST_GERMAN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Rhodesians
+RHODESIAN_MODELS = {"models/player/dod_american.mdl"}
+RHODESIAN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- French Division
+FRENCH_MODELS = {"models/player/dod_american.mdl"}
+FRENCH_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+
+--==============================================================================================
+-- WARSAW Division Types --
+--==============================================================================================
+
+-- East Germany
+EAST_GERMANY_MODELS = {"models/player/dod_american.mdl"}
+EAST_GERMANY_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Soviets (Russians)
+SOVIETS_MODELS = {"models/player/dod_american.mdl"}
+SOVIETS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Generic Eastern Bloc
+EASTERN_BLOC_MODELS = {"models/player/dod_american.mdl"}
+EASTERN_BLOC_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- North Korea
+NORTH_KOREA_MODELS = {"models/player/dod_american.mdl"}
+NORTH_KOREA_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Communist Latin American
+COMMUNIST_LATIN_MODELS = {"models/player/dod_american.mdl"}
+COMMUNIST_LATIN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- African Communists
+AFRICAN_COMMUNISTS_MODELS = {"models/player/dod_american.mdl"}
+AFRICAN_COMMUNISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Vietcong
+VIETCONG_MODELS = {"models/player/dod_american.mdl"}
+VIETCONG_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Communist China (PLA)
+COMMUNIST_CHINA_MODELS = {"models/player/dod_american.mdl"}
+COMMUNIST_CHINA_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- American Communists
+AMERICAN_COMMUNISTS_MODELS = {"models/player/dod_american.mdl"}
+AMERICAN_COMMUNISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+
+-- NATO Divisions
+
+--1. Commonwealth Division  
+--2. United States Division  
+--3. Latin American Fascists  
+--4. Israeli Defense Forces  
+--5. West German Division  
+--6. Rhodesian Division  
+--7. French Division  
+
+-- Warsaw Divisions
+
+--1. East German Division  
+--2. Soviet Division  
+--3. Generic Eastern Bloc Division  
+--4. North Korea Division  
+--5. Communist Latin American Guerrilla Force  
+--6. African Communist Force  
+--7. Vietcong Division  
+--8. Communist China (PLA) Division  
+--9. American Communists Insurgents  
+
+
+--==============================================================================================
+-- Specializations --
+--==============================================================================================
 
 imperium_specializations = {
     ["Sniper"] = {
@@ -415,21 +513,21 @@ COMMONWEALTH_WEAPONS = {}
 DivisionTypes = {
     ["Commonwealth Division"] = {
         Team = "NATO",
-        Description = "Generic Commonwealth Anglophilic Forces",
+        Description = "Generic Commonwealth Anglophilic Forces. These can be British, Canadian, Australian, or any other Anglophilic force. With the fall of the Empire, Communism stands to replace the Anglophilic Democracies we left behind.",
         Ranks = {
-            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 3, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 7, Name = "Warrant Officer Class 2", Rank_Prefix = "WO2", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 8, Name = "Warrant Officer Class 1", Rank_Prefix = "WO1", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
-            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_WEAPONS},
+            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Warrant Officer Class 2", Rank_Prefix = "WO2", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Warrant Officer Class 1", Rank_Prefix = "WO1", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = COMMONWEALTH_MODELS, WeaponsAllowed = COMMONWEALTH_DEFAULT_LOADOUT},
         },
         Classes = {
             {
@@ -442,22 +540,23 @@ DivisionTypes = {
             },
         },
     },
-    ["U.S Division"] = {
+    ["United States Division"] = {
         Team = "NATO",
+        Description = "Generic United States Armed Forces. These can be Marines, Army, Air Force, or any other US Military Force. Communism threatens the American way of life, Democracy, and the Free World.",
         Ranks = {
-            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Private First Class", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Technical Sergeant", Rank_Prefix = "TSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "First Sergeant", Rank_Prefix = "1SG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "First Lieutenant", Rank_Prefix = "1LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
+            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Private First Class", Rank_Prefix = "PFC", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSG", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Sergeant First Class", Rank_Prefix = "SFC", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Master Sergeant", Rank_Prefix = "MSG", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 10, Name = "First Lieutenant", Rank_Prefix = "1LT", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = US_MODELS, WeaponsAllowed = US_DEFAULT_LOADOUT},
         },
         Classes = {
             {
@@ -466,291 +565,416 @@ DivisionTypes = {
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
-        ["Japanese Infantry Division"] = {
+    ["Latin American Fascists"] = {
         Team = "NATO",
+        Description = "Latin American authoritarian forces. Latin America became a battleground for the Cold War, with many countries falling to Communism or Authoritarianism. Communism is a threat to the Catholic Church and the Latin American way of life.",
         Ranks = {
-            {ID = 1, Name = "Sōrudāto", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Sōrudāto Ichidai", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Kabo", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Kabo Ichidai", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Sagian", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Sagian Ichidai", Rank_Prefix = "SSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Ajudanto", Rank_Prefix = "TSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Ajudanto Ichidai", Rank_Prefix = "1SG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Shōtei", Rank_Prefix = "2LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Tei", Rank_Prefix = "1LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Kaputen", Rank_Prefix = "CPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Meiyo", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Rīda Kōsa", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-        },
+            {ID = 1, Name = "Recluta", Rank_Prefix = "REC", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Soldado", Rank_Prefix = "SDO", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Soldado de Primera", Rank_Prefix = "SDP", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Cabo", Rank_Prefix = "CAB", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Sargento", Rank_Prefix = "SGT", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Sargento Primero", Rank_Prefix = "SGP", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Subteniente", Rank_Prefix = "SUB", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Teniente", Rank_Prefix = "TEN", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Capitán", Rank_Prefix = "CAP", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Mayor", Rank_Prefix = "MYR", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Comandante", Rank_Prefix = "CMD", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Coronel", Rank_Prefix = "CRN", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+            {ID = 13, Name = "General", Rank_Prefix = "GEN", ModelsAllowed = LATIN_FASCISTS_MODELS, WeaponsAllowed = LATIN_FASCISTS_DEFAULT_LOADOUT},
+        },        
         Classes = {
             {
-                Name = "Raifuruman RF",
+                Name = "Infantero", -- Spanish for "Rifleman"
                 Default = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
-        ["French Republic Infantry Division"] = {
+    ["Israeli Defense Forces"] = {
         Team = "NATO",
+        Description = "The IDF played a significant role in the Cold War, combating Communism in the Middle East while supporting Democracy and Authoritarianism globally",
         Ranks = {
-            {ID = 1, Name = "Soldat", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Soldat de deuxième classe", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Soldat de première classe", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Caporal", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Sergent", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Sergent-chef", Rank_Prefix = "SSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Sergent-chef brevet militaire de 2e niveau", Rank_Prefix = "TSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Adjutant", Rank_Prefix = "1SG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Sous-lieutenant", Rank_Prefix = "2LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Lieutenant", Rank_Prefix = "1LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Capitaine", Rank_Prefix = "CPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Commandant", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
+            {ID = 1, Name = "טירון (Recruit)", Rank_Prefix = "RCT", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 2, Name = "חייל (Private)", Rank_Prefix = "PVT", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 3, Name = "טוראי ראשון (Private First Class)", Rank_Prefix = "PFC", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 4, Name = "רב טוראי (Corporal)", Rank_Prefix = "CPL", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 5, Name = "סמל (Sergeant)", Rank_Prefix = "SGT", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 6, Name = "סמל ראשון (Staff Sergeant)", Rank_Prefix = "SSG", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 7, Name = "רס״ל (Sergeant First Class)", Rank_Prefix = "SFC", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 8, Name = "רב סמל בכיר (Master Sergeant)", Rank_Prefix = "MSG", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 9, Name = "סגן משנה (Second Lieutenant)", Rank_Prefix = "2LT", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 10, Name = "סגן (Lieutenant)", Rank_Prefix = "1LT", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 11, Name = "סרן (Captain)", Rank_Prefix = "CPT", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 12, Name = "רב סרן (Major)", Rank_Prefix = "MAJ", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
+            {ID = 13, Name = "אלוף משנה (Colonel)", Rank_Prefix = "COL", ModelsAllowed = IDF_MODELS, WeaponsAllowed = IDF_DEFAULT_LOADOUT},
         },
         Classes = {
             {
-                Name = "Fusilier RF",
+                Name = "Rovai (Rifleman)",
                 Default = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
-            },
-        },
-    },
-        ["Francoist Spain Infantry Division"] = {
-        Team = "NATO",
-        Ranks = {
-            {ID = 1, Name = "Soldado", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Soldado de Primera", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Cabo", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Cabo Primero", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Sargento", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Sargento Primero", Rank_Prefix = "SSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Brigdada", Rank_Prefix = "TSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Bridada Primero", Rank_Prefix = "1SG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Subtiente", Rank_Prefix = "2LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Tiente", Rank_Prefix = "1LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Capitán", Rank_Prefix = "CPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Comandante", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Coronel", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-        },
-        Classes = {
-            {
-                Name = "Soldado RF",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
     ["West German Division"] = {
         Team = "NATO",
+        Description = "The Bundeswehr was formed in 1955 to defend West Germany from the threat of Communism.",
         Ranks = {
-            {ID = 1, Name = "Schütze", Rank_Prefix = "SCH", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Gefreiter", Rank_Prefix = "GFR", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Obergrefreiter", Rank_Prefix = "OGFR", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Stabsgefreiter", Rank_Prefix = "STAB", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Unteroffizier", Rank_Prefix = "UFFZ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Feldwebel", Rank_Prefix = "FW", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Oberfeldwebel", Rank_Prefix = "OFW", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Stabsfeldwebel", Rank_Prefix = "STFW", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Leutnant", Rank_Prefix = "LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Oberleutnant", Rank_Prefix = "OLT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Hauptmann", Rank_Prefix = "HPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Oberst der BRD", Rank_Prefix = "OBT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-        },
+            {ID = 1, Name = "Rekrut", Rank_Prefix = "RKT", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Schütze", Rank_Prefix = "SCH", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Gefreiter", Rank_Prefix = "GFR", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Obergefreiter", Rank_Prefix = "OGFR", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Unteroffizier", Rank_Prefix = "UOF", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Feldwebel", Rank_Prefix = "FW", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Oberfeldwebel", Rank_Prefix = "OFW", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Hauptfeldwebel", Rank_Prefix = "HFW", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Leutnant", Rank_Prefix = "LT", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Oberleutnant", Rank_Prefix = "OLT", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Hauptmann", Rank_Prefix = "HPT", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Oberst", Rank_Prefix = "OBR", ModelsAllowed = WEST_GERMAN_MODELS, WeaponsAllowed = WEST_GERMAN_DEFAULT_LOADOUT},
+        },        
         Classes = {
             {
-                Name = "Soldat RF",
+                Name = "Soldat",
                 Default = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
+    ["Rhodesian Division"] = {
+        Team = "NATO",
+        Description = "The Rhodesian Security Forces during the Cold War were a highly trained and disciplined military organization, specializing in counterinsurgency warfare. They were known for their effective small-unit tactics, resilience, and adaptability in combating guerrilla fighters during the Bush War. They were hired mercenaries after the war, fighting Communism in Africa, Vietnam, and other hotspots.",
+        Ranks = {
+            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Private", Rank_Prefix = "TRP", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Warrant Officer Class 2", Rank_Prefix = "WO2", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Warrant Officer Class 1", Rank_Prefix = "WO1", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = RHODESIAN_MODELS, WeaponsAllowed = RHODESIAN_DEFAULT_LOADOUT},
+        },
+        Classes = {
+            {
+                Name = "Trooper",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "",
+            },
+        },
+    },
+    ["French Division"] = {
+        Team = "NATO",
+        Description = "The French Armed Forces were a mix of traditional military heritage and modernized tactics, adapting to the geopolitical challenges of the era. Known for their involvement in post-colonial conflicts, including Algeria and Indochina, they maintained a focus on expeditionary warfare, rapid deployment, and elite paratrooper units.",
+        Ranks = {
+            {ID = 1, Name = "Recrue", Rank_Prefix = "REC", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Soldat", Rank_Prefix = "SDT", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Soldat de Première Classe", Rank_Prefix = "SPC", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Caporal", Rank_Prefix = "CPL", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Caporal-Chef", Rank_Prefix = "CPC", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Sergent", Rank_Prefix = "SGT", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Sergent-Chef", Rank_Prefix = "SCF", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Adjudant", Rank_Prefix = "ADJ", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Sous-Lieutenant", Rank_Prefix = "SLT", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LTN", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Capitaine", Rank_Prefix = "CAP", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Commandant", Rank_Prefix = "CMD", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+        },        
+        Classes = {
+            {
+                Name = "Fusilier", -- French for "Rifleman"
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "",
+            },
+        },
+    },    
     ["East German Division"] = {
         Team = "WARSAW",
+        Description = "The East German National People's Army (Nationale Volksarmee, NVA) was one of the most disciplined and modernized militaries of the Warsaw Pact. Known for its strong Soviet influence and emphasis on ideological training, the NVA focused on heavy mechanization, border security, and loyalty to the socialist state.",
         Ranks = {
-            {ID = 1, Name = "Schütze", Rank_Prefix = "SOL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Gefreiter", Rank_Prefix = "GFR", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Obergrefreiter", Rank_Prefix = "OGRF", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Stabsgefreiter", Rank_Prefix = "STAB", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "UFFZ", Rank_Prefix = "UFFZ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Feldwebel", Rank_Prefix = "FW", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Oberfeldwebel", Rank_Prefix = "OFW", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Stabsfeldwebel", Rank_Prefix = "STFW", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Leutnant", Rank_Prefix = "LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Oberleutnant", Rank_Prefix = "OLT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Hauptmann", Rank_Prefix = "HPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Oberst der DDR", Rank_Prefix = "OBT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-        },
+            {ID = 1, Name = "Wehrpflichtiger", Rank_Prefix = "WPF", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Schütze", Rank_Prefix = "SCH", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Gefreiter", Rank_Prefix = "GFR", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Obergefreiter", Rank_Prefix = "OGFR", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Unteroffizier", Rank_Prefix = "UOF", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Unterfeldwebel", Rank_Prefix = "UF", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Feldwebel", Rank_Prefix = "FW", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Oberfeldwebel", Rank_Prefix = "OFW", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Leutnant", Rank_Prefix = "LT", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Oberleutnant", Rank_Prefix = "OLT", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Hauptmann", Rank_Prefix = "HPT", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Oberst", Rank_Prefix = "OB", ModelsAllowed = EAST_GERMANY_MODELS, WeaponsAllowed = EAST_GERMANY_DEFAULT_LOADOUT},
+        },        
         Classes = {
             {
-                Name = "Soldat RF",
+                Name = "Soldat",
                 Default = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
-        ["PRC Infantry Division"] = {
+    ["Soviet Division"] = {
         Team = "WARSAW",
+        Description = "The Soviet Armed Forces (Вооружённые Си́лы СССР) were a highly centralized and massive military force, focused on large-scale warfare and strategic operations. They emphasized combined arms tactics, mechanized infantry, and loyalty to the communist state.",
         Ranks = {
-            {ID = 1, Name = "Lièbīng", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Shàngděngbīng", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Bānzhǎng", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Zǔzhǎng", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Zhōngshì", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Shàngshì", Rank_Prefix = "SSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Jūnshì Zhǎng", Rank_Prefix = "TSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Yī jí Jūnshì Zhǎng", Rank_Prefix = "1SG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Pái Zhǎng", Rank_Prefix = "2LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Fù Lián Zhǎng", Rank_Prefix = "1LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Lián Zhǎng", Rank_Prefix = "CPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Shàoxiào", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Fù Yíng Zhǎng", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-        },
+            {ID = 1, Name = "Рядовой (Private)", Rank_Prefix = "RYD", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Ефрейтор (Corporal)", Rank_Prefix = "YEF", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Младший сержант (Junior Sergeant)", Rank_Prefix = "MLS", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Сержант (Sergeant)", Rank_Prefix = "SRZ", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Старший сержант (Senior Sergeant)", Rank_Prefix = "SSZ", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Старшина (Sergeant Major)", Rank_Prefix = "STN", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Младший лейтенант (Junior Lieutenant)", Rank_Prefix = "MLT", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Лейтенант (Lieutenant)", Rank_Prefix = "LT", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Старший лейтенант (Senior Lieutenant)", Rank_Prefix = "SLT", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Капитан (Captain)", Rank_Prefix = "KPT", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Майор (Major)", Rank_Prefix = "MAJ", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Подполковник (Lieutenant Colonel)", Rank_Prefix = "PPK", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Полковник (Colonel)", Rank_Prefix = "PLK", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+        },        
         Classes = {
             {
-                Name = "Bùqiāng shǒu RF",
+                Name = "Strelok (Rifleman)",
                 Default = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
-            ["Czechoslovak Infantry Division"] = {
+    ["Generic Eastern Bloc Division"] = {
         Team = "WARSAW",
+        Description = "Representing the militaries of various Eastern Bloc nations, this division focuses on generic ranks and structures influenced by Soviet military doctrine. These forces are characterized by their emphasis on mechanization, ideological training, and loyalty to socialist regimes. This can be Yugoslavia, Poland, Czechoslovakia, or any other Eastern Bloc nation.",
         Ranks = {
-            {ID = 1, Name = "Vojín", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Desátník", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Svobodník", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Četař", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Seržant", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Štábní seržant", Rank_Prefix = "SSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Hlavní četař", Rank_Prefix = "TSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Štábní rotmistr", Rank_Prefix = "1SG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Poručík", Rank_Prefix = "2LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Nadporučík", Rank_Prefix = "1LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Kapitan", Rank_Prefix = "CPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Plukovník", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
+            {ID = 1, Name = "Рядовой (Private)", Rank_Prefix = "RYD", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Ефрейтор (Corporal)", Rank_Prefix = "YEF", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Младший сержант (Junior Sergeant)", Rank_Prefix = "MLS", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Сержант (Sergeant)", Rank_Prefix = "SRZ", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Старший сержант (Senior Sergeant)", Rank_Prefix = "SSZ", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Старшина (Sergeant Major)", Rank_Prefix = "STN", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Младший лейтенант (Junior Lieutenant)", Rank_Prefix = "MLT", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Лейтенант (Lieutenant)", Rank_Prefix = "LT", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Старший лейтенант (Senior Lieutenant)", Rank_Prefix = "SLT", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Капитан (Captain)", Rank_Prefix = "KPT", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Майор (Major)", Rank_Prefix = "MAJ", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Подполковник (Lieutenant Colonel)", Rank_Prefix = "PPK", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Полковник (Colonel)", Rank_Prefix = "PLK", ModelsAllowed = EASTERN_BLOC_MODELS, WeaponsAllowed = EASTERN_BLOC_DEFAULT_LOADOUT},
         },
         Classes = {
             {
-                Name = "Střelec RF",
+                Name = "Strelok (Rifleman)",
                 Default = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
-                ["Yugoslav JNA Infantry Division"] = {
+    ["North Korea Division"] = {
         Team = "WARSAW",
+        Description = "The Korean People's Army (KPA) was a highly centralized and disciplined force, focused on guerrilla tactics and large-scale infantry operations. The KPA was heavily influenced by Soviet and Chinese military doctrines, with a strong emphasis on loyalty to the regime and ideological indoctrination.",
         Ranks = {
-            {ID = 1, Name = "Vojnik", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Vojnik prve klasek", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Desetar", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Vojvoda", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Narednik", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Stariji narednik", Rank_Prefix = "SSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Šef čete", Rank_Prefix = "TSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Načelnik štaba", Rank_Prefix = "1SG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Potporučnik", Rank_Prefix = "2LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Poručnik", Rank_Prefix = "1LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Kapetan", Rank_Prefix = "CPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Majoru", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Pukovnik", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
+            {ID = 1, Name = "사병 (Private)", Rank_Prefix = "SAB", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 2, Name = "상등병 (Private First Class)", Rank_Prefix = "SDB", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 3, Name = "하사 (Corporal)", Rank_Prefix = "HAS", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 4, Name = "중사 (Sergeant)", Rank_Prefix = "JSA", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 5, Name = "상사 (Senior Sergeant)", Rank_Prefix = "SSA", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 6, Name = "원사 (Master Sergeant)", Rank_Prefix = "WSA", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 7, Name = "소위 (Junior Lieutenant)", Rank_Prefix = "SWI", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 8, Name = "중위 (Lieutenant)", Rank_Prefix = "JWI", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 9, Name = "대위 (Captain)", Rank_Prefix = "DWI", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 10, Name = "소령 (Major)", Rank_Prefix = "SLY", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 11, Name = "중령 (Lieutenant Colonel)", Rank_Prefix = "JLY", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 12, Name = "대령 (Colonel)", Rank_Prefix = "DLY", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+            {ID = 13, Name = "장군 (General)", Rank_Prefix = "JGN", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
         },
         Classes = {
             {
-                Name = "Strelac RF",
+                Name = "Rifleman",
                 Default = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
-        },
-                ["Vietnamese PAVN/VIETCONG Infantry Division"] = {
+    ["Communist Latin American Guerrilla Force"] = {
         Team = "WARSAW",
+        Description = "The Communist revolutionary forces of Latin America were characterized by guerrilla warfare, ideological commitment to Marxist-Leninist principles, and strong ties to Soviet and Cuban military advisors. These forces aimed to destabilize authoritarian regimes and implement socialist governance.",
         Ranks = {
-            {ID = 1, Name = "Binh sĩ", Rank_Prefix = "RCT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 2, Name = "Hạ sĩ", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Trung sĩ", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Thượng sĩ", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Thiếu úy Quân", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Trung úy Quân", Rank_Prefix = "SSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Thượng úy", Rank_Prefix = "TSG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Đại úy Quân", Rank_Prefix = "1SG", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Thiếu úy", Rank_Prefix = "2LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Trung úy", Rank_Prefix = "1LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Đại úy", Rank_Prefix = "CPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Thượng tá", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Đại tá", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = {}},
+            {ID = 1, Name = "Recluta (Private)", Rank_Prefix = "REC", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Soldado (Soldier)", Rank_Prefix = "SDO", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Combatiente (Fighter)", Rank_Prefix = "CBT", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Capitán del Pueblo (People's Captain)", Rank_Prefix = "CAP", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Comandante (Commander)", Rank_Prefix = "CMD", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Jefe de Guerrilla (Guerrilla Leader)", Rank_Prefix = "JGR", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Líder Revolucionario (Revolutionary Leader)", Rank_Prefix = "LRV", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Comisario Político (Political Commissar)", Rank_Prefix = "CPC", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Teniente Popular (People's Lieutenant)", Rank_Prefix = "TNP", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Mayor Revolucionario (Revolutionary Major)", Rank_Prefix = "MRV", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Coronel del Pueblo (People's Colonel)", Rank_Prefix = "CRP", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 12, Name = "General Revolucionario (Revolutionary General)", Rank_Prefix = "GRV", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Comandante Supremo (Supreme Commander)", Rank_Prefix = "CSM", ModelsAllowed = COMMUNIST_LATIN_MODELS, WeaponsAllowed = COMMUNIST_LATIN_DEFAULT_LOADOUT},
         },
         Classes = {
             {
-                Name = "Lính bộ binh RF",
+                Name = "Guerrillero",
                 Default = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
-    ["Soviet Division"] = {   
+    ["African Communist Force"] = {
         Team = "WARSAW",
+        Description = "African revolutionary groups and militias inspired by Marxist-Leninist ideology. These forces, often supported by Soviet and Cuban advisors, sought to overthrow colonial or imperial regimes and establish socialist states across the African continent. Their operations emphasized guerrilla warfare, ideological commitment, and local adaptability.",
         Ranks = {
-            {ID = 1, Name = "Novobranets", Rank_Prefix = "NOV", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}}, -- I could make it that the names are the respective language, and that the Prefix stays american yk like RCT etc.
-            {ID = 2, Name = "Riadovoy", Rank_Prefix = "RIA", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 3, Name = "Yefreytor", Rank_Prefix = "YEF", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 4, Name = "Mladshiy Serzhant", Rank_Prefix = "MLS", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 5, Name = "Serzhant", Rank_Prefix = "SER", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 6, Name = "Starshiy Serzhant", Rank_Prefix = "SST", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 7, Name = "Starshina", Rank_Prefix = "SAR", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 8, Name = "Mladshiy Leytenant", Rank_Prefix = "MLY", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 9, Name = "Leytenant", Rank_Prefix = "LEY", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 10, Name = "Kapitan", Rank_Prefix = "KAP", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 11, Name = "Mayor", Rank_Prefix = "MAJ", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 12, Name = "Podpolkovnik", Rank_Prefix = "POD", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
-            {ID = 13, Name = "Polkovnik", Rank_Prefix = "POL", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = {}},
+            {ID = 1, Name = "Recruit", Rank_Prefix = "REC", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Fighter", Rank_Prefix = "FTR", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Militiaman", Rank_Prefix = "MLT", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Major Sergeant", Rank_Prefix = "MSR", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Guerrilla Leader", Rank_Prefix = "GLR", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 8, Name = "People's Lieutenant", Rank_Prefix = "PLT", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 9, Name = "People's Captain", Rank_Prefix = "PCP", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Commander", Rank_Prefix = "CMD", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Revolutionary Major", Rank_Prefix = "RMA", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Revolutionary Colonel", Rank_Prefix = "RCL", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Supreme General", Rank_Prefix = "SGN", ModelsAllowed = AFRICAN_COMMUNISTS_MODELS, WeaponsAllowed = AFRICAN_COMMUNISTS_DEFAULT_LOADOUT},
         },
         Classes = {
             {
-                Name = "Strelkovye voyska RF",
+                Name = "Guerilla",
                 Default = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = ""
+                Prefix = "",
             },
         },
     },
+    ["Vietcong Division"] = {
+        Team = "WARSAW",
+        Description = "The Vietcong, officially known as the National Liberation Front (NLF), were a highly effective guerrilla force. They combined traditional guerrilla tactics with political and ideological training, operating in dense jungles and rural areas.",
+        Ranks = {
+            {ID = 1, Name = "Chiến Sĩ (Fighter)", Rank_Prefix = "CS", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Du Kích (Guerrilla)", Rank_Prefix = "DK", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Trung Sĩ (Sergeant)", Rank_Prefix = "TS", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Thượng Sĩ (Senior Sergeant)", Rank_Prefix = "THS", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Chính Trị Viên (Political Officer)", Rank_Prefix = "CTV", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Đội Trưởng (Team Leader)", Rank_Prefix = "DT", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Trung Úy (Junior Lieutenant)", Rank_Prefix = "TU", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Thiếu Úy (Lieutenant)", Rank_Prefix = "LU", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Đại Úy (Captain)", Rank_Prefix = "DU", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Thiếu Tá (Major)", Rank_Prefix = "TT", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Trung Tá (Lieutenant Colonel)", Rank_Prefix = "TT", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Đại Tá (Colonel)", Rank_Prefix = "DT", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Tư Lệnh (Commander)", Rank_Prefix = "TL", ModelsAllowed = VIETCONG_MODELS, WeaponsAllowed = VIETCONG_DEFAULT_LOADOUT},
+        },
+        Classes = {
+            {
+                Name = "Bộ Đội (Rifleman)",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "",
+            },
+        },
+    },
+    ["Communist China (PLA) Division"] = {
+        Team = "WARSAW",
+        Description = "The People's Liberation Army (PLA) of Communist China during the Cold War was a massive, disciplined force emphasizing guerrilla warfare, revolutionary ideology, and large-scale infantry operations. Heavily influenced by Maoist doctrine, the PLA became a key symbol of the Chinese Communist Party's military and political power.",
+        Ranks = {
+            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 2, Name = "列兵 (Private)", Rank_Prefix = "PVT", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 3, Name = "上等兵 (Private First Class)", Rank_Prefix = "PFC", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 4, Name = "下士 (Corporal)", Rank_Prefix = "CPL", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 5, Name = "中士 (Sergeant)", Rank_Prefix = "SGT", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 6, Name = "上士 (Senior Sergeant)", Rank_Prefix = "SSG", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 7, Name = "士官长 (Sergeant Major)", Rank_Prefix = "SMG", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 8, Name = "少尉 (Second Lieutenant)", Rank_Prefix = "2LT", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 9, Name = "中尉 (Lieutenant)", Rank_Prefix = "1LT", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 10, Name = "上尉 (Captain)", Rank_Prefix = "CPT", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 11, Name = "少校 (Major)", Rank_Prefix = "MAJ", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 12, Name = "中校 (Lieutenant Colonel)", Rank_Prefix = "LTC", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+            {ID = 13, Name = "上校 (Colonel)", Rank_Prefix = "COL", ModelsAllowed = COMMUNIST_CHINA_MODELS, WeaponsAllowed = COMMUNIST_CHINA_DEFAULT_LOADOUT},
+        },
+        Classes = {
+            {
+                Name = "步兵 (Infantry)", -- Chinese for "Rifleman"
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "",
+            },
+        },
+    },
+    ["American Communists Insurgents"] = {
+        Team = "WARSAW",
+        Description = "Hypothetical revolutionary force inspired by Marxist-Leninist ideology, seeking to overthrow capitalist structures in the United States. Operating as underground cells, these insurgents focus on guerrilla tactics, sabotage, and spreading communist propaganda. These could be inspired by Anarchists, Syndicalists, or other leftist groups.",
+        Ranks = {
+            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Militant", Rank_Prefix = "MLT", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Fighter", Rank_Prefix = "FTR", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Senior Sergeant", Rank_Prefix = "SSG", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Cell Leader", Rank_Prefix = "CLD", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Lieutenant Colonel", Rank_Prefix = "LTC", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Revolutionary Commander", Rank_Prefix = "RCM", ModelsAllowed = AMERICAN_COMMUNISTS_MODELS, WeaponsAllowed = AMERICAN_COMMUNISTS_DEFAULT_LOADOUT},
+        },
+        Classes = {
+            {
+                Name = "Revolutionary",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "",
+            },
+        },
+    },    
 }
 
 ROLES = ROLES or {
