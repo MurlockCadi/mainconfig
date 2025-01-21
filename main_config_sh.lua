@@ -376,140 +376,6 @@ AMERICAN_COMMUNISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 --8. Communist China (PLA) Division  
 --9. American Communists Insurgents  
 
-
---==============================================================================================
--- Specializations --
---==============================================================================================
-
-imperium_specializations = {
-    ["Sniper"] = {
-        DivisionTypes = {"U.S Infantry", "Commonwealth Division"},
-        Supply = 5000,
-        Description = "This class will unlock a sniper blah blah, and can also use a para shoot.",
-        Prerequisites = {"Engineer", "Medic"},
-        WeeklyActivity = 30,
-        Class = {
-            Name = "Sniper",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    },
-     ["Engineer"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
-        Supply = 7500,
-        Class = {
-            Name = "Engineer",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    },
-    ["US AA"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
-        Supply = 10000,
-        Class = {
-            Name = "Anti Air",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    },
-    ["US Tanker"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
-        Supply = 25000,
-        Class = {
-            Name = "Tanker",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    },
-    ["US LG"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
-        Supply = 10000,
-        Class = {
-            Name = "Logistics",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    },
-    ["US MG"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
-        Supply = 6000,
-        Class = {
-            Name = "Machine Gunner",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    },
-   ["US AT"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
-        Supply = 7500,
-        Class = {
-            Name = "Anti Tank",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    },
-    ["US ART"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
-        Supply = 15000,
-        Class = {
-            Name = "Artillery",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    },
-    ["US PILOT"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
-        Supply = 30000,
-        Class = {
-            Name = "Pilot",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    },
-    ["U.S Medic"] = {
-        DivisionTypes = {"U.S Infantry","Francoist Spain Infantry Division"},
-        Supply = 5000,
-        Class = {
-            Name = "Medic",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = ""
-        }
-    }
-}
-
-COMMONWEALTH_MODELS = {"models/player/dod_american.mdl"}
-COMMONWEALTH_WEAPONS = {}
-
 DivisionTypes = {
     ["Commonwealth Division"] = {
         Team = "NATO",
@@ -976,6 +842,86 @@ DivisionTypes = {
         },
     },    
 }
+
+
+
+ALL_DIVISIONS = {}
+
+for divisionName, _ in pairs(DivisionTypes) do
+    table.insert(ALL_DIVISIONS, divisionName)
+end
+
+--==============================================================================================
+-- Specializations --
+--==============================================================================================
+
+imperium_specializations = {
+
+    --Global Specializations
+
+    ["Medic"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Supply = 5000,
+        Description = "Medics are incredibly useful on the frontlines, as they can heal and revive dead players. They can also deploy health crates. Medics are critical for keeping troops alive on the frontline.\nDead players will have a green glow, allowing medics to get to them before they respawn.\nIt might be a good idea to drag the body out of combat before healing the player.",
+        Prerequisites = {"Engineer", "Medic"},
+        WeeklyActivity = 30,
+        Class = {
+            Name = "Medic",
+            Medic = true,
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"fas2_ifak","ent_spawner"},
+            Prefix = "MD",
+            EntitySpawner = {
+                {
+                    name = "Medic Box",
+                    entityname = "medic_box",
+                    description = "Deploy a Box filled with medic items so they can heal themselves.",
+                    price = 10
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+            },
+        }
+    },
+    ["Engineer"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "Engineers are essential for building fortifications, repairing vehicles, and establishing Outposts. They can also deploy ammo crates to resupply troops on the frontline, and lay mines to stop both tanks and infantry. They also have the Rope tool to bind objects together.\nBuilding Forward Bases creates control over the area, helping in domination of the battlefield. When defending, creating chokepoints and fortifications are essential for victory.",
+        Supply = 7500,
+        Class = {
+            Name = "Engineer",
+            Default = false,
+            Create_Outposts = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsmines","weapon_lvsrepair","weapon_lvsrepair"},
+            Prefix = "ENG",
+            EntitySpawner = {
+                {
+                    name = "Ammo Supplies",
+                    entityname = "universal_ammo_small",
+                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                    price = 10
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+            },
+        }
+    },
+}
+
+
+
+
 
 ROLES = ROLES or {
     STAFF = {
