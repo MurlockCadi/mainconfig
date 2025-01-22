@@ -855,16 +855,17 @@ end
 -- Specializations --
 --==============================================================================================
 
+--Prerequisites = {"Engineer", "Medic"},
+--WeeklyActivity = 30,
+
 imperium_specializations = {
 
     --Global Specializations
 
     ["Medic"] = {
         DivisionTypes = ALL_DIVISIONS,
-        Supply = 5000,
+        Supply = 100, --5000
         Description = "Medics are incredibly useful on the frontlines, as they can heal and revive dead players. They can also deploy health crates. Medics are critical for keeping troops alive on the frontline.\nDead players will have a green glow, allowing medics to get to them before they respawn.\nIt might be a good idea to drag the body out of combat before healing the player.",
-        Prerequisites = {"Engineer", "Medic"},
-        WeeklyActivity = 30,
         Class = {
             Name = "Medic",
             Medic = true,
@@ -885,8 +886,8 @@ imperium_specializations = {
                     entityname = "newboombox",
                     description = "Radio to play some War Music!",
                     price = 0
-                },
-            },
+                }
+            }
         }
     },
     ["Engineer"] = {
@@ -913,13 +914,11 @@ imperium_specializations = {
                     entityname = "newboombox",
                     description = "Radio to play some War Music!",
                     price = 0
-                },
-            },
+                }
+            }
         }
-    },
+    }
 }
-
-
 
 
 
@@ -964,7 +963,7 @@ ROLES = ROLES or {
                 ID = 1,
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
-                ModelsAllowed = US_ENLISTED_MODELS,
+                ModelsAllowed = US_MODELS,
                 WeaponsAllowed = {"doi_atow_m1garand", "doi_atow_etoolus", "doi_atow_m1903a3"},
                 CanPromote = false
             },
@@ -992,7 +991,7 @@ ROLES = ROLES or {
                 ID = 1,
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
-                ModelsAllowed = DE_ENLISTED_MODELS,
+                ModelsAllowed = SOVIETS_MODELS,
                 WeaponsAllowed = {"doi_atow_k98k", "doi_atow_etoolde", "doi_atow_g43"},
                 CanPromote = false
             },
