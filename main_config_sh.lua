@@ -10,7 +10,7 @@ gamemode_name = "Cold War RP"
 mapMessages = {
     ["gm_flatgrass"] = "Welcome to Murlocks Testing gm_flatgrass. If you have money... I would run...",
 
-    ["rp_fork_stasiland_fog"] = "Stralsund: East Germany. Under NATO Assault.",
+    ["rp_fork_stasiland_fog"] = "Stralsund: East Germany. Under NATO Intervention and Occupation.",
     ["rp_zaton_remaster_1"] = "Communist Tito Yugoslavia: Zaton. Under NATO Intervention.",
 
     ["rp_clazfort"] = "Somewhere on the American East Coast: Communist Uprising.",
@@ -131,14 +131,14 @@ faction_player_count_limit = 0
 
 WALK_SPEED = 145
 RUN_SPEED = 280
-JUMP_POWER = 210
+JUMP_POWER = 225
 MAX_HEALTH = 100
 
 ------REVIVE TIME AND LOOT TIME--------
 
-REVIVE_TIME = 20
+REVIVE_TIME = 10
 
-LOOT_TIME = 10
+LOOT_TIME = 5
 
 --------------------HELP CONFIG----------------------------------------
 
@@ -156,8 +156,9 @@ helpTopics = {
     ["Hand Swep"] = "The Hand Swep is a custom SWEP that allows you to move props and objects by holding left click and dragging.\n\nThis can be used to move barrles, corpses, props, and anything else that is not nailed down!\n\nIts a very fun swep and adds a lot of gmod goofines to the server... Prop Killing is allowed if you can pull it off, and can lead to some extreamly fun moments.\n\nRight Click allows you to Salute, and Left Click allows you to move objects.",
     ["Levels and XP"] = "ImperiumRP has three main stats:\n\nEndurance (Health Regen)\nAthletics (Faster Run and Higher Jump)\nBallistics (Less Recoil and Spread)\n\nAll these states give a small bonus in its respective field, making high level players more effective in combat. Saying that, a level 1 player can still kill a level 70 player, but the level 70 player will have a slight advantage. Killing a higher level player means you gain more XP!\n\nYou can level up and gain XP by playing on the server, killing players, looting bodys, and collecting Supply. You can view your level and stats by pressing F1. You start with 10 points to spend.\n\nEvery Level gets you 2 points to spend on your Character, however levels will get exponentially harder to obtain, being around level 70+ is considered a max leveled player.\n\nSome players played during WW2, and this allows them to carry over there skils they had before, as they are veterans.",
     ["VIP"] = "This server is run on donations. All of the money goes into funding custom content (like the ImperiumRP gamemode!) and paying for the Server Box, our Linux Machine in the Background that runs alot of our custom features, and our Webiste!\n\nDonate by typing /donate\n\nVIP gets you VIP only weapons, Double XP and QM points, and a role in our discord! The Donation helps us keep this server alive, and we are beyond appreciative for everyone who has helped us financially in making our dream server!\n\nIf you buy a Supply Drop package do /claim to get it in game!",
+    ["Radiation and Atomics"] = "Ever since the splitting of the atom, the world has changed forever. Atomic warfare is now a reality, with radioactive weapons and materials commonplace.\n\nAround the map, you will find Nuclear Waste. Avoid this. Exposure to too much radiation will lead to radiation sickness and death. A little exposure is okay, but too much will guarantee your doom.\n\nIf there is an Atomic Specialist class, there is even more to be warned about. They can collect this waste and use it in nuclear reactors to create weapons-grade plutonium, which can lead to the creation of nuclear weapons.\n\nAvoid contact with both the reactors and the materials Atomic Specialists leave behind. Radiation is a silent but quick killer. Only Medics and Atomic Specialists can see radiation levels of players.\n\nYou may recover from radiation poisoning depending on how much you have been exposed, being healed by a Medic Box lowers your raditation levels quicker and can help stabilize your condition.",
+    ["Reviving and Looting"] = "In this gamemode, when you die your corpse will remain on the battlefield. This can be dragged around and the player (if they have not respawned) can see whats going on.\n\nYou can be revived by a Medic, and can see how close the nearest medic is. Medics will get a green glow around all players that can be revived, so can see your corpse through walls.\n\nTo prevent players being revived you can loot there corpses, this will take 5 seconds and you will gain supply, XP and QM points!",
 }
-
 
 
 
@@ -865,7 +866,7 @@ imperium_specializations = {
     ["Medic"] = {
         DivisionTypes = ALL_DIVISIONS,
         Supply = 100, --5000
-        Description = "Medics are incredibly useful on the frontlines, as they can heal and revive dead players. They can also deploy health crates. Medics are critical for keeping troops alive on the frontline.\nDead players will have a green glow, allowing medics to get to them before they respawn.\nIt might be a good idea to drag the body out of combat before healing the player.",
+        Description = "Medics are incredibly useful on the frontlines, as they can heal and revive dead players. They can also deploy health crates and see player radiation levels. Medics are critical for keeping troops alive on the frontline.\nDead players will have a green glow, allowing medics to get to them before they respawn.\nIt might be a good idea to drag the body out of combat before healing the player.",
         Class = {
             Name = "Medic",
             Medic = true,
@@ -878,7 +879,7 @@ imperium_specializations = {
                 {
                     name = "Medic Box",
                     entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves.",
+                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
                     price = 10
                 },
                 {
@@ -893,7 +894,7 @@ imperium_specializations = {
     ["Engineer"] = {
         DivisionTypes = ALL_DIVISIONS,
         Description = "Engineers are essential for building fortifications, repairing vehicles, and establishing Outposts. They can also deploy ammo crates to resupply troops on the frontline, and lay mines to stop both tanks and infantry. They also have the Rope tool to bind objects together.\nBuilding Forward Bases creates control over the area, helping in domination of the battlefield. When defending, creating chokepoints and fortifications are essential for victory.",
-        Supply = 7500,
+        Supply = 100, --7500
         Class = {
             Name = "Engineer",
             Default = false,
@@ -917,7 +918,195 @@ imperium_specializations = {
                 }
             }
         }
-    }
+    },
+    ["Chef"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "The Chef cooks and prepares meals that grants full health. Well cooked meals grants fortitude (100 armor!), giving a substantial advantage in combat.\n\nOverall chefs give a funny moral boost and can be alot of fun to cook for your side!\n\nChefs can also produce meth...",
+        Supply = 100, --5000
+        Class = {
+            Name = "Chef",
+            Default = false,
+            Models = {"models/ecott/chefcitizen.mdl"},
+            EntitySpawner = {
+            {
+                name = "Cook Book",
+                entityname = "cook_book",
+                description = "A book filled with various recipes and cooking tips.",
+                price = 0
+            },
+            {
+                name = "Cook Stove",
+                entityname = "cook_stove",
+                description = "A stove for cooking meals.",
+                price = 0
+            },
+            {
+                name = "Cook Propane",
+                entityname = "cook_propane",
+                description = "A propane tank for fueling your cook stove.",
+                price = 0
+            },
+            {
+                name = "Cook Pot",
+                entityname = "cook_pot",
+                description = "A pot for boiling and cooking various ingredients.",
+                price = 0
+            },
+            {
+                name = "Cook Tray",
+                entityname = "cook_tray",
+                description = "A tray for baking and roasting.",
+                price = 0
+            },
+            {
+                name = "Bread Slice",
+                entityname = "cook_ingredient_bread_slice",
+                description = "A slice of bread, perfect for sandwiches or toast.",
+                price = 0
+            },
+            {
+                name = "Cheese",
+                entityname = "cook_ingredient_cheese",
+                description = "A slice of cheese, great for sandwiches or burgers.",
+                price = 0
+            },
+            {
+                name = "Chocolate Frosting",
+                entityname = "cook_ingredient_chocolate_frosting",
+                description = "Sweet chocolate frosting for desserts.",
+                price = 0
+            },
+            {
+                name = "Dough",
+                entityname = "cook_ingredient_dough",
+                description = "Raw dough for baking bread or pastries.",
+                price = 0
+            },
+            {
+                name = "Egg",
+                entityname = "cook_ingredient_egg",
+                description = "A fresh egg, versatile for many recipes.",
+                price = 0
+            },
+            {
+                name = "Flour",
+                entityname = "cook_ingredient_flour",
+                description = "A bag of flour, essential for baking.",
+                price = 0
+            },
+            {
+                name = "Ketchup",
+                entityname = "cook_ingredient_ketchup",
+                description = "A bottle of ketchup, a classic condiment.",
+                price = 0
+            },
+            {
+                name = "Lettuce",
+                entityname = "cook_ingredient_lettuce",
+                description = "Fresh lettuce, perfect for salads and sandwiches.",
+                price = 0
+            },
+            {
+                name = "Lighter Fluid",
+                entityname = "cook_ingredient_lighter_fluid",
+                description = "Lighter fluid for igniting your cook stove.",
+                price = 0
+            },
+            {
+                name = "Methylamine",
+                entityname = "cook_ingredient_methylamine",
+                description = "A chemical compound with various uses. Handle with care.",
+                price = 0
+            },
+            {
+                name = "Milk",
+                entityname = "cook_ingredient_milk",
+                description = "A carton of milk, essential for many recipes.",
+                price = 0
+            },
+            {
+                name = "Potato",
+                entityname = "cook_ingredient_potato",
+                description = "A raw potato, versatile and nutritious.",
+                price = 0
+            },
+            {
+                name = "Raw Beef",
+                entityname = "cook_ingredient_raw_beef",
+                description = "Raw beef, ready to be cooked.",
+                price = 0
+            },
+            {
+                name = "Raw Lobster",
+                entityname = "cook_ingredient_raw_lobster",
+                description = "Raw lobster, a delicacy ready to be cooked.",
+                price = 0
+            },
+            {
+                name = "Raw Steak",
+                entityname = "cook_ingredient_raw_steak",
+                description = "A raw steak, perfect for grilling.",
+                price = 0
+            },
+            {
+                name = "Raw Turkey",
+                entityname = "cook_ingredient_raw_turkey",
+                description = "A raw turkey, ready for roasting.",
+                price = 0
+            },
+            {
+                name = "Salt",
+                entityname = "cook_ingredient_salt",
+                description = "A pinch of salt, essential for seasoning.",
+                price = 0
+            },
+            {
+                name = "Sugar",
+                entityname = "cook_ingredient_sugar",
+                description = "A bag of sugar, perfect for baking and sweetening.",
+                price = 0
+            },
+            {
+                name = "Vanilla Frosting",
+                entityname = "cook_ingredient_vanilla_frosting",
+                description = "Sweet vanilla frosting for desserts.",
+                price = 0
+            },
+            },
+            Weapons = {},
+            Max = 2,
+            SpawnWeapons = {"ent_spawner", "rope_tool"},
+            Prefix = "CHEF"
+        },
+    },
+    ["Atomic Specialist"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "'If you want a total war, you are free to begin it; if you want it, you will get it.'\n-Nikita Khrushchev, during the Cuban Missile Crisis.\n\nThe Atomic Specialist is the class of nuclear atomic fission warfare. The map contains nuclear waste, outputs from the civilian nuclear industrys. The Atomic Specializatist has the unique ability to collect this waste and turn it into Plutonium-23 through a process of fission reactions in a controlled reactor. The Plutonium-23 can then be used to create fissile atomic weapons, that will cause death and destruction on a scale unimaginable.\n\nAtomic Specialist take 75% less radiation, recovers twice as fast, and can see radiation levels of other players.\n\nBy even unlocking this class, you are taking a step into the abyss of nuclear warfare.",
+        Supply = 20, --20000
+        Class = {
+            Name = "Atomic Specialist",
+            Default = false,
+            atomic = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","ent_spawner","m9k_atomic"},
+            Prefix = "ATOMIC",
+            EntitySpawner = {
+                {
+                    name = "Nuclear Reactor",
+                    entityname = "nuclear_reactor",
+                    description = "This is used to refine nuclear waste into Plutonium-23. DO NOT CAUSE A MELTDOWN!",
+                    price = 10
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                }
+            }
+        }
+    },
 }
 
 
