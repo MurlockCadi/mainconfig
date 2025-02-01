@@ -15,6 +15,14 @@ mapMessages = {
 
     ["rp_clazfort"] = "Somewhere on the American East Coast: Communist Uprising.",
 
+    ["rp_highland"] = "Eastern Bloc: Polish Peoples Republic. NATO Intervention.",
+
+    ["rp_guantanamo_bay_cuba"] = "Republic of Cuba: Guantanamo Bay. 'The Bay of Pigs'",
+
+    ["rp_junglestorm"] = "Democratic Peoples Republic of Korea: NATO Intervention Across the DMZ.",
+
+    ["rp_asheville"] = "Ruins of Asheville, North Carolina. After the Bomb. WARSAW Invasion.",
+
 
 }
 
@@ -282,76 +290,79 @@ imperium_rp_defualt_weapons = {
 -- Predefined Models and Loadouts
 
 --==============================================================================================
--- NATO Division Types --
+-- TO BE DONE AT LATER DATE --
 --==============================================================================================
-
--- United States Division
-US_MODELS = {"models/player/dod_american.mdl"}
-US_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
-
--- Commonwealth Division
-COMMONWEALTH_MODELS = {"models/player/dod_american.mdl"}
-COMMONWEALTH_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
-
--- Latin American Fascists
-LATIN_FASCISTS_MODELS = {"models/player/dod_american.mdl"}
-LATIN_FASCISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
-
--- Israeli Defense Forces
-IDF_MODELS = {"models/player/dod_american.mdl"}
-IDF_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
-
--- West German
-WEST_GERMAN_MODELS = {"models/player/dod_american.mdl"}
-WEST_GERMAN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
-
--- Rhodesians
-RHODESIAN_MODELS = {"models/player/dod_american.mdl"}
-RHODESIAN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 -- French Division
 FRENCH_MODELS = {"models/player/dod_american.mdl"}
 FRENCH_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
+-- North Korea
+NORTH_KOREA_MODELS = {"models/player/dod_american.mdl"}
+NORTH_KOREA_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+--==============================================================================================
+-- NATO Division Types --
+--==============================================================================================
+
+-- United States Division (Waiting for better old Models)
+US_MODELS = {"models/gulfamericans/woodland/soldier4b.mdl"}
+US_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Commonwealth Division (Done)
+COMMONWEALTH_MODELS = {"models/kuge/fictional/brazil war/uk royal marines/uk-marines-pm1.mdl","models/kuge/fictional/british/1950-74s/uk-1.mdl"}
+COMMONWEALTH_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Latin American Fascists (Done)
+LATIN_FASCISTS_MODELS = {"models/kuge/fictional/brazil war/argentina army/argentina-pm1.mdl"}
+LATIN_FASCISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Israeli Defense Forces (Done)
+IDF_MODELS = {"models/coldwaridf/pm/israeli1.mdl","models/coldwaridf/pm/israeli2.mdl"}
+IDF_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- West German (Done)
+WEST_GERMAN_MODELS = {"models/westgermans/soldier1_pm.mdl","models/kuge/fictional/brazil war/german volunteer army/germanvolunteer-pm1.mdl"}
+WEST_GERMAN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+
+-- Rhodesians (Done)
+RHODESIAN_MODELS = {"models/rhods/rhod111.mdl","models/rhods/zanu22.mdl"}
+RHODESIAN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 --==============================================================================================
 -- WARSAW Division Types --
 --==============================================================================================
 
--- East Germany
-EAST_GERMANY_MODELS = {"models/player/dod_american.mdl"}
+-- East Germany (Waiting for more models)
+EAST_GERMANY_MODELS = {"models/eastgermans/soldier1_pm.mdl"}
 EAST_GERMANY_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 -- Soviets (Russians)
-SOVIETS_MODELS = {"models/player/dod_american.mdl"}
+SOVIETS_MODELS = {"models/playermodel/soviet/boris_vdvscout_01_pm.mdl"}
 SOVIETS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
--- Generic Eastern Bloc
-EASTERN_BLOC_MODELS = {"models/player/dod_american.mdl"}
+-- Generic Eastern Bloc (Done do officers maybe)
+EASTERN_BLOC_MODELS = {"models/kuge/fictional/balkan/80-90s/balkans-1-pm.mdl"}
 EASTERN_BLOC_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
--- North Korea
-NORTH_KOREA_MODELS = {"models/player/dod_american.mdl"}
-NORTH_KOREA_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
-
--- Communist Latin American
-COMMUNIST_LATIN_MODELS = {"models/player/dod_american.mdl"}
+-- Communist Latin American (Needs to be looked at)
+COMMUNIST_LATIN_MODELS = {"models/kuge/fictional/brazil war/mexican volunteer army/mexican-pm1.mdl"}
 COMMUNIST_LATIN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
--- African Communists
-AFRICAN_COMMUNISTS_MODELS = {"models/player/dod_american.mdl"}
+-- African Communists (Done)
+AFRICAN_COMMUNISTS_MODELS = {"models/tfusion/playermodels/mw3/mp_africa_militia_a.mdl","models/tfusion/playermodels/mw3/mp_africa_militia_b.mdl","models/tfusion/playermodels/mw3/mp_africa_militia_c.mdl","models/tfusion/playermodels/mw3/mp_africa_militia_d.mdl","models/tfusion/playermodels/mw3/mp_opforce_ghillie_africa_militia_sniper.mdl"}
 AFRICAN_COMMUNISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
--- Vietcong
+-- Vietcong (Needs Old Models)
 VIETCONG_MODELS = {"models/player/dod_american.mdl"}
 VIETCONG_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
--- Communist China (PLA)
-COMMUNIST_CHINA_MODELS = {"models/player/dod_american.mdl"}
+-- Communist China (PLA) (Done)
+COMMUNIST_CHINA_MODELS = {"models/pla/plaaridcam/art.mdl","models/pla/plaaridcam/chau.mdl","models/pla/plawoodlan/art.mdl","models/pla/plawoodlan/chau.mdl"}
 COMMUNIST_CHINA_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
--- American Communists
-AMERICAN_COMMUNISTS_MODELS = {"models/player/dod_american.mdl"}
+-- American Communists 
+AMERICAN_COMMUNISTS_MODELS = {"models/csgoanarchist1pm.mdl","models/csgoanarchist2pm.mdl","models/csgoanarchist3pm.mdl","models/csgoanarchist4pm.mdl"}
 AMERICAN_COMMUNISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 
@@ -552,35 +563,35 @@ DivisionTypes = {
             },
         },
     },
-    ["French Division"] = {
-        Team = "NATO",
-        Description = "The French Armed Forces were a mix of traditional military heritage and modernized tactics, adapting to the geopolitical challenges of the era. Known for their involvement in post-colonial conflicts, including Algeria and Indochina, they maintained a focus on expeditionary warfare, rapid deployment, and elite paratrooper units.",
-        Ranks = {
-            {ID = 1, Name = "Recrue", Rank_Prefix = "REC", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 2, Name = "Soldat", Rank_Prefix = "SDT", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 3, Name = "Soldat de Première Classe", Rank_Prefix = "SPC", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 4, Name = "Caporal", Rank_Prefix = "CPL", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 5, Name = "Caporal-Chef", Rank_Prefix = "CPC", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 6, Name = "Sergent", Rank_Prefix = "SGT", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 7, Name = "Sergent-Chef", Rank_Prefix = "SCF", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 8, Name = "Adjudant", Rank_Prefix = "ADJ", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 9, Name = "Sous-Lieutenant", Rank_Prefix = "SLT", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LTN", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 11, Name = "Capitaine", Rank_Prefix = "CAP", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 12, Name = "Commandant", Rank_Prefix = "CMD", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
-        },        
-        Classes = {
-            {
-                Name = "Fusilier", -- French for "Rifleman"
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "",
-            },
-        },
-    },    
+    --["French Division"] = {
+    --    Team = "NATO",
+    --    Description = "The French Armed Forces were a mix of traditional military heritage and modernized tactics, adapting to the geopolitical challenges of the era. Known for their involvement in post-colonial conflicts, including Algeria and Indochina, they maintained a focus on expeditionary warfare, rapid deployment, and elite paratrooper units.",
+    --    Ranks = {
+    --        {ID = 1, Name = "Recrue", Rank_Prefix = "REC", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 2, Name = "Soldat", Rank_Prefix = "SDT", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 3, Name = "Soldat de Première Classe", Rank_Prefix = "SPC", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 4, Name = "Caporal", Rank_Prefix = "CPL", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 5, Name = "Caporal-Chef", Rank_Prefix = "CPC", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 6, Name = "Sergent", Rank_Prefix = "SGT", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 7, Name = "Sergent-Chef", Rank_Prefix = "SCF", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 8, Name = "Adjudant", Rank_Prefix = "ADJ", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 9, Name = "Sous-Lieutenant", Rank_Prefix = "SLT", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 10, Name = "Lieutenant", Rank_Prefix = "LTN", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 11, Name = "Capitaine", Rank_Prefix = "CAP", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 12, Name = "Commandant", Rank_Prefix = "CMD", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --        {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = FRENCH_MODELS, WeaponsAllowed = FRENCH_DEFAULT_LOADOUT},
+    --    },        
+    --    Classes = {
+    --        {
+    --            Name = "Fusilier", -- French for "Rifleman"
+    --            Default = true,
+    --            Models = {},
+    --            Weapons = {},
+    --            SpawnWeapons = {},
+    --            Prefix = "",
+    --        },
+    --    },
+    --},    
     ["East German Division"] = {
         Team = "WARSAW",
         Description = "The East German National People's Army (Nationale Volksarmee, NVA) was one of the most disciplined and modernized militaries of the Warsaw Pact. Known for its strong Soviet influence and emphasis on ideological training, the NVA focused on heavy mechanization, border security, and loyalty to the socialist state.",
@@ -668,35 +679,35 @@ DivisionTypes = {
             },
         },
     },
-    ["North Korea Division"] = {
-        Team = "WARSAW",
-        Description = "The Korean People's Army (KPA) was a highly centralized and disciplined force, focused on guerrilla tactics and large-scale infantry operations. The KPA was heavily influenced by Soviet and Chinese military doctrines, with a strong emphasis on loyalty to the regime and ideological indoctrination.",
-        Ranks = {
-            {ID = 1, Name = "사병 (Private)", Rank_Prefix = "SAB", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 2, Name = "상등병 (Private First Class)", Rank_Prefix = "SDB", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 3, Name = "하사 (Corporal)", Rank_Prefix = "HAS", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 4, Name = "중사 (Sergeant)", Rank_Prefix = "JSA", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 5, Name = "상사 (Senior Sergeant)", Rank_Prefix = "SSA", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 6, Name = "원사 (Master Sergeant)", Rank_Prefix = "WSA", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 7, Name = "소위 (Junior Lieutenant)", Rank_Prefix = "SWI", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 8, Name = "중위 (Lieutenant)", Rank_Prefix = "JWI", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 9, Name = "대위 (Captain)", Rank_Prefix = "DWI", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 10, Name = "소령 (Major)", Rank_Prefix = "SLY", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 11, Name = "중령 (Lieutenant Colonel)", Rank_Prefix = "JLY", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 12, Name = "대령 (Colonel)", Rank_Prefix = "DLY", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-            {ID = 13, Name = "장군 (General)", Rank_Prefix = "JGN", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
-        },
-        Classes = {
-            {
-                Name = "Rifleman",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "",
-            },
-        },
-    },
+    --["North Korea Division"] = {
+    --    Team = "WARSAW",
+    --    Description = "The Korean People's Army (KPA) was a highly centralized and disciplined force, focused on guerrilla tactics and large-scale infantry operations. The KPA was heavily influenced by Soviet and Chinese military doctrines, with a strong emphasis on loyalty to the regime and ideological indoctrination.",
+    --    Ranks = {
+    --        {ID = 1, Name = "사병 (Private)", Rank_Prefix = "SAB", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 2, Name = "상등병 (Private First Class)", Rank_Prefix = "SDB", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 3, Name = "하사 (Corporal)", Rank_Prefix = "HAS", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 4, Name = "중사 (Sergeant)", Rank_Prefix = "JSA", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 5, Name = "상사 (Senior Sergeant)", Rank_Prefix = "SSA", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 6, Name = "원사 (Master Sergeant)", Rank_Prefix = "WSA", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 7, Name = "소위 (Junior Lieutenant)", Rank_Prefix = "SWI", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 8, Name = "중위 (Lieutenant)", Rank_Prefix = "JWI", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 9, Name = "대위 (Captain)", Rank_Prefix = "DWI", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 10, Name = "소령 (Major)", Rank_Prefix = "SLY", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 11, Name = "중령 (Lieutenant Colonel)", Rank_Prefix = "JLY", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 12, Name = "대령 (Colonel)", Rank_Prefix = "DLY", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --        {ID = 13, Name = "장군 (General)", Rank_Prefix = "JGN", ModelsAllowed = NORTH_KOREA_MODELS, WeaponsAllowed = NORTH_KOREA_DEFAULT_LOADOUT},
+    --    },
+    --    Classes = {
+    --        {
+    --            Name = "Rifleman",
+    --            Default = true,
+    --            Models = {},
+    --            Weapons = {},
+    --            SpawnWeapons = {},
+    --            Prefix = "",
+    --        },
+    --    },
+    --},
     ["Communist Latin American Guerrilla Force"] = {
         Team = "WARSAW",
         Description = "The Communist revolutionary forces of Latin America were characterized by guerrilla warfare, ideological commitment to Marxist-Leninist principles, and strong ties to Soviet and Cuban military advisors. These forces aimed to destabilize authoritarian regimes and implement socialist governance.",
@@ -865,7 +876,7 @@ imperium_specializations = {
 
     ["Medic"] = {
         DivisionTypes = ALL_DIVISIONS,
-        Supply = 100, --5000
+        Supply = 5000, --5000
         Description = "Medics are incredibly useful on the frontlines, as they can heal and revive dead players. They can also deploy health crates and see player radiation levels. Medics are critical for keeping troops alive on the frontline.\nDead players will have a green glow, allowing medics to get to them before they respawn.\nIt might be a good idea to drag the body out of combat before healing the player.",
         Class = {
             Name = "Medic",
@@ -894,7 +905,7 @@ imperium_specializations = {
     ["Engineer"] = {
         DivisionTypes = ALL_DIVISIONS,
         Description = "Engineers are essential for building fortifications, repairing vehicles, and establishing Outposts. They can also deploy ammo crates to resupply troops on the frontline, and lay mines to stop both tanks and infantry. They also have the Rope tool to bind objects together.\nBuilding Forward Bases creates control over the area, helping in domination of the battlefield. When defending, creating chokepoints and fortifications are essential for victory.",
-        Supply = 100, --7500
+        Supply = 7500, --7500
         Class = {
             Name = "Engineer",
             Default = false,
@@ -922,7 +933,7 @@ imperium_specializations = {
     ["Chef"] = {
         DivisionTypes = ALL_DIVISIONS,
         Description = "The Chef cooks and prepares meals that grants full health. Well cooked meals grants fortitude (100 armor!), giving a substantial advantage in combat.\n\nOverall chefs give a funny moral boost and can be alot of fun to cook for your side!\n\nChefs can also produce meth...",
-        Supply = 100, --5000
+        Supply = 5000, --5000
         Class = {
             Name = "Chef",
             Default = false,
@@ -1082,7 +1093,8 @@ imperium_specializations = {
     ["Atomic Specialist"] = {
         DivisionTypes = ALL_DIVISIONS,
         Description = "'If you want a total war, you are free to begin it; if you want it, you will get it.'\n-Nikita Khrushchev, during the Cuban Missile Crisis.\n\nThe Atomic Specialist is the class of nuclear atomic fission warfare. The map contains nuclear waste, outputs from the civilian nuclear industrys. The Atomic Specializatist has the unique ability to collect this waste and turn it into Plutonium-23 through a process of fission reactions in a controlled reactor. The Plutonium-23 can then be used to create fissile atomic weapons, that will cause death and destruction on a scale unimaginable.\n\nAtomic Specialist take 75% less radiation, recovers twice as fast, and can see radiation levels of other players.\n\nBy even unlocking this class, you are taking a step into the abyss of nuclear warfare.",
-        Supply = 20, --20000
+        Supply = 20000, --20000
+        WeeklyActivity = 250,
         Class = {
             Name = "Atomic Specialist",
             Default = false,
@@ -1106,6 +1118,129 @@ imperium_specializations = {
                 }
             }
         }
+    },
+    ["Calvary"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "'Technology wins battles, but mobility wins wars. Sometimes that still means a horse.'— NATO Unconventional Warfare Manual\n\nThe age of the horse is not yet over. A horse is a fast and agile mount, able to traverse rough terrain and outmaneuver enemy forces.\n\nYou will be defeated by nearly every weapon, but charging on horseback toward the foe can instill fear and boost morale for your side.\n\nEach mount costs 100 supply (25 out of operation)",
+        Supply = 7500, --7500
+        WeeklyActivity = 30,
+        Class = {
+            Name = "Cavalry",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            EntitySpawner = {
+                {
+                    name = "Mustang",
+                    entityname = "ent_horse_mustang",
+                    description = "Mustang Breed. Fast and Wild. Horse of the Castilians of old and Indians.",
+                    price = 100
+                },
+                {
+                    name = "Arabian",
+                    entityname = "ent_horse_arabian",
+                    description = "Arabian Breed. Proud and Free. Horse of Saladin and of the Turks.",
+                    price = 100
+                },
+                {
+                    name = "Ardennes",
+                    entityname = "ent_horse_ardennes",
+                    description = "Ardennes Breed. Strong and Loyal. Horse of the Benelux, Horse of Napoleon.",
+                    price = 100
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                }
+            },
+            SpawnWeapons = {"ent_spawner"},
+            Prefix = "CAV"
+        }
+    },
+    ["Artillery"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "Artilleryman is able to deploy artillery guns that cause massive damage to enemy fortifications and infantry.\n\nWhen attacking, destroying enemy fortifications and killing enemy infantry is essential for capturing objectives.\n\nWhen defending, artillery can still be used as a formidible weapon to stop enemy advances.\n\nEach gun costs 400 supply (100 out of operation)\n\nThe Artilleryman also has smoke rounds to provide cover for advancing infantry.",
+        Supply = 7500,
+        WeeklyActivity = 100,
+        Class = {
+            Name = "Artilleryman",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            EntitySpawner = {
+                {
+                    name = "M101 Howitzer",
+                    entityname = "lvs_m2a1",
+                    description = "An American 105mm artillery gun.",
+                    price = 400
+                },
+                {
+                    name = "Old Arty",
+                    entityname = "lvs_arty_john_temp",
+                    description = "If you want to use the old on you can. New ones have better stats.",
+                    price = 400
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+            },
+            SpawnWeapons = {"ent_spawner","cw_nam_m79_thumper"},
+            Prefix = "ARTY"
+        },
+    },
+    ["Anti-Tank"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "Combining both Anti-Tank and Anti-Air capabilities, this class is the ultimate anti-vehicle unit.\n\nAble to deploy both anti-tank and anti-air emplacements, this class has the tools to deal with any hostile vehicle.\n\nEquipped with anti-tank mines, AT grenades, and an AT4 anti-tank rocket launcher.",
+        Supply = 5000,
+        WeeklyActivity = 30,
+        Class = {
+            Name = "Anti-Tank",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            EntitySpawner = {
+                {
+                    name = "AT Gun",
+                    entityname = "lvs_atgun",
+                    description = "An American 57mm anti-tank gun.",
+                    price = 400
+                },
+                {
+                    name = "Old AT",
+                    entityname = "lvs_at_john_temp",
+                    description = "If you want to use the old on you can. New ones have better stats.",
+                    price = 400
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+            },
+            SpawnWeapons = {"ent_spawner","cw_mw2_at4","weapon_lvsmines","nam_bze39_frag"},
+            Prefix = "AT"
+        },
+    },
+    ["Special Operative"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "Special Operatives are the elite of the elite. The best of the best. They are tasked with special missions, espionage, and sabotage.\n\nThe main feature is the ability to disguise themselves as the enemy, allowing them to sneak past enemy lines and infiltrate.\n\nThey are equipped with a silenced sniper rifle, planted explosives, smoke grenades, and mines.\n\nThis is the class of sabotage, best used to identify and destroy enemy fortifications and outposts from within.",
+        Supply = 10000,
+        WeeklyActivity = 175,
+        Class = {
+            Name = "Special Operative",
+            Default = false,
+            Spy = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"hide_player","weapon_lvsmines","cw_nam_m40","nam_m18_smoke","weapon_tnt"},
+            Prefix = "AT"
+        },
     },
 }
 
