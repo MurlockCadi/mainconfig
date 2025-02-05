@@ -1297,7 +1297,7 @@ ROLES = ROLES or {
         NiceName = "NATO Recruits",
         Prefix = "NATO",
         Color = Color(100, 150, 255),
-        Description = "Communism is spreading across the globe, and it's up to you to stop it. Democracy, Liberty, and Freedom are at stake, and must be defended.",
+        Description = "Communism is spreading across the globe, and it's up to you to stop it.\nDemocracy, Liberty, and Freedom are at stake, and must be defended.",
         Default = true,
         Ranks = {
             {
@@ -1324,8 +1324,8 @@ ROLES = ROLES or {
     DIVISION_WARSAW = {
         NiceName = "WARSAW Recruits",
         Prefix = "WARSAW",
-        Color = Color(70, 80, 90, 255),
-        Description = "Help defend the revolution from the capitalist pigs. Join the Warsaw Pact and fight for the liberation of the proletariat.",
+        Color = Color(200, 50, 50, 255),
+        Description = "Help defend the revolution from the capitalist pigs.\nJoin the Warsaw Pact and fight for the liberation of the proletariat.",
         Default = true,
         Ranks = {
             {
