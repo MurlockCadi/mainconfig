@@ -229,10 +229,10 @@ commands = {
     ["!donate"] = function(ply) OpenURL(ply,"https://www.imperiumgaming.net/store/") end,
     ["/store"] = function(ply) OpenURL(ply,"https://www.imperiumgaming.net/store/") end,
     ["!store"] = function(ply) OpenURL(ply,"https://www.imperiumgaming.net/store/") end,
-    ["/content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3224542058") end,
-    ["!content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3224542058") end,
-    ["/workshop"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3224542058") end,
-    ["!workshop"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3224542058") end,
+    ["/content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3401523747") end,
+    ["!content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3401523747") end,
+    ["/workshop"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3401523747") end,
+    ["!workshop"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3401523747") end,
     ["/group"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
     ["!group"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
     ["/steam"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
@@ -1324,7 +1324,7 @@ ROLES = ROLES or {
     DIVISION_WARSAW = {
         NiceName = "WARSAW Recruits",
         Prefix = "WARSAW",
-        Color = Color(200, 50, 50, 255),
+        Color = Color(150, 50, 50, 255),
         Description = "Help defend the revolution from the capitalist pigs.\nJoin the Warsaw Pact and fight for the liberation of the proletariat.",
         Default = true,
         Ranks = {
