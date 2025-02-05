@@ -23,6 +23,15 @@ mapMessages = {
 
     ["rp_asheville"] = "Ruins of Asheville, North Carolina. After the Bomb. WARSAW Invasion.",
 
+    ["rp_sog_lgdv_v3_day"] = "North Vietnam: 'Operation Rolling Thunder' Under NATO Intervention",
+
+    ["rp_vietnam_eclipse_v1a"] = "South Vietnam: 'The Tet Offensive' Under WARSAW Liberation",
+
+    ["rp_1976berlin_v3_beta1"] = "East Berlin: German Democratic Republic. Under NATO Intervention",
+
+    ["rp_vietnam_imperium_v2"] = "Somewhere in Vietnam during the hight of the conflict..."
+
+
 
 }
 
@@ -74,7 +83,15 @@ intro_songs = {
 }
 
 intro_image_urls = {
-    "https://i.imgur.com/STfxKiS.jpeg"
+    "https://i.imgur.com/NtHV39E.jpeg",
+    "https://i.imgur.com/Vhn1Ee4.jpeg",
+    "https://i.imgur.com/FH59CpI.jpeg",
+    "https://i.imgur.com/e1LzMWE.jpeg",
+    "https://i.imgur.com/VwXQqIs.jpeg",
+    "https://i.imgur.com/EwEck2o.jpeg",
+    "https://i.imgur.com/04iZo4x.jpeg",
+    "https://i.imgur.com/N6ruS0g.jpeg",
+    "https://i.imgur.com/hLZRdkf.jpeg"
 }
 
 
@@ -1280,7 +1297,7 @@ ROLES = ROLES or {
         NiceName = "NATO Recruits",
         Prefix = "NATO",
         Color = Color(100, 150, 255),
-        Description = "Enlist in the A.E.F and help Liberate Europe from the Nazi.\n Your task will not be an easy one. Your enemy is well trained, well equipped and battle-hardened.\n He will fight savagely.",
+        Description = "Communism is spreading across the globe, and it's up to you to stop it. Democracy, Liberty, and Freedom are at stake, and must be defended.",
         Default = true,
         Ranks = {
             {
@@ -1308,14 +1325,14 @@ ROLES = ROLES or {
         NiceName = "WARSAW Recruits",
         Prefix = "WARSAW",
         Color = Color(70, 80, 90, 255),
-        Description = "Conscripted into the Wermarcht you have orders to defend the Reich against Allied Forces.\n If we can't throw the enemy into the sea within twenty-four hours then that will be.\n the beginning of the end.",
+        Description = "Help defend the revolution from the capitalist pigs. Join the Warsaw Pact and fight for the liberation of the proletariat.",
         Default = true,
         Ranks = {
             {
                 ID = 1,
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
-                ModelsAllowed = SOVIETS_MODELS,
+                ModelsAllowed = {"models/kuge/fictional/balkan/80-90s/balkans-1-pm.mdl"},
                 WeaponsAllowed = {"doi_atow_k98k", "doi_atow_etoolde", "doi_atow_g43"},
                 CanPromote = false
             },
