@@ -87,7 +87,6 @@ intro_image_urls = {
     "https://i.imgur.com/Vhn1Ee4.jpeg",
     "https://i.imgur.com/FH59CpI.jpeg",
     "https://i.imgur.com/e1LzMWE.jpeg",
-    "https://i.imgur.com/VwXQqIs.jpeg",
     "https://i.imgur.com/EwEck2o.jpeg",
     "https://i.imgur.com/04iZo4x.jpeg",
     "https://i.imgur.com/N6ruS0g.jpeg",
