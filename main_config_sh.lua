@@ -358,13 +358,13 @@ EAST_GERMANY_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 -- Soviets (Russians)
 SOVIETS_MODELS = {
+    "models/playermodel/soviet/boris_demolition_01_pm.mdl",
     "models/playermodel/soviet/alvin_vdvscout_01_pm.mdl",
     "models/playermodel/soviet/alvin_demolition_01_pm.mdl",
     "models/playermodel/soviet/alvin_infantry_01_pm.mdl",
     "models/playermodel/soviet/alvin_infantry_02_pm.mdl",
     "models/playermodel/soviet/alvin_infantry_02_radioman_pm.mdl",
     "models/playermodel/soviet/boris_vdvscout_01_pm.mdl",
-    "models/playermodel/soviet/boris_demolition_01_pm.mdl",
     "models/playermodel/soviet/boris_infantry_01_pm.mdl",
     "models/playermodel/soviet/boris_infantry_02_pm.mdl",
     "models/playermodel/soviet/boris_infantry_02_radioman_pm.mdl",
