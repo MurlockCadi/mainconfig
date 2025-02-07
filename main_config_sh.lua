@@ -324,8 +324,20 @@ NORTH_KOREA_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 -- NATO Division Types --
 --==============================================================================================
 
--- United States Division (Waiting for better old Models)
-US_MODELS = {"models/gulfamericans/woodland/soldier4b.mdl"}
+-- United States Division (DONE)
+US_MODELS = {
+    "models/gulfamericans/woodland/soldier4b.mdl",
+    "models/hitboxedit/us/army/us_army_1_fritz.mdl",
+    "models/hitboxedit/us/army/us_army_2_fritz.mdl",
+    "models/hitboxedit/us/army/us_army_3_fritz.mdl",
+    "models/hitboxedit/us/army/us_army_4_fritz.mdl",
+    "models/hitboxedit/us/army/us_army_5_fritz.mdl",
+    "models/hitboxedit/us/army/usmc_1_fritz.mdl",
+    "models/hitboxedit/us/army/usmc_2_fritz.mdl",
+    "models/hitboxedit/us/army/usmc_3_fritz.mdl",
+    "models/hitboxedit/us/army/usmc_4_fritz.mdl",
+    "models/hitboxedit/us/army/usmc_5_fritz.mdl"
+}
 US_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 -- Commonwealth Division (Done)
