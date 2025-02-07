@@ -294,6 +294,8 @@ commands = {
     ["!givepoints"] = function(ply) SetPlayerPointsAdmin(ply) end,
     ["!help"] = function(ply) OpenHelpMenu(ply) end,
     ["/help"] = function(ply) OpenHelpMenu(ply) end,
+    ["!addspec"] = function(ply, args) Add_Spec_To_My_Division(ply, args) end,
+    ["/addspec"] = function(ply, args) Add_Spec_To_My_Division(ply, args) end,
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
