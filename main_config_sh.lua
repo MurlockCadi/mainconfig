@@ -357,7 +357,37 @@ EAST_GERMANY_MODELS = {"models/eastgermans/soldier1_pm.mdl"}
 EAST_GERMANY_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 -- Soviets (Russians)
-SOVIETS_MODELS = {"models/playermodel/soviet/boris_vdvscout_01_pm.mdl"}
+SOVIETS_MODELS = {
+    "models/playermodel/soviet/alvin_vdvscout_01_pm.mdl",
+    "models/playermodel/soviet/alvin_demolition_01_pm.mdl",
+    "models/playermodel/soviet/alvin_infantry_01_pm.mdl",
+    "models/playermodel/soviet/alvin_infantry_02_pm.mdl",
+    "models/playermodel/soviet/alvin_infantry_02_radioman_pm.mdl",
+    "models/playermodel/soviet/boris_vdvscout_01_pm.mdl",
+    "models/playermodel/soviet/boris_demolition_01_pm.mdl",
+    "models/playermodel/soviet/boris_infantry_01_pm.mdl",
+    "models/playermodel/soviet/boris_infantry_02_pm.mdl",
+    "models/playermodel/soviet/boris_infantry_02_radioman_pm.mdl",
+    "models/playermodel/soviet/helga_infantry_02_pm.mdl",
+    "models/playermodel/soviet/helga_offduty_pm.mdl",
+    "models/playermodel/soviet/helga_vdvscout_01_pm.mdl",
+    "models/playermodel/soviet/monika_infantry_02_pm.mdl",
+    "models/playermodel/soviet/monika_offduty_pm.mdl",
+    "models/playermodel/soviet/monika_vdvscout_01_pm.mdl",
+    "models/playermodel/soviet/tabatabai_demolition_01_pm.mdl",
+    "models/playermodel/soviet/tabatabai_infantry_01_pm.mdl",
+    "models/playermodel/soviet/tabatabai_infantry_02_pm.mdl",
+    "models/playermodel/soviet/tabatabai_infantry_02_radioman_pm.mdl",
+    "models/playermodel/soviet/viktor_demolition_01_pm.mdl",
+    "models/playermodel/soviet/viktor_infantry_01_pm.mdl",
+    "models/playermodel/soviet/viktor_infantry_02_pm.mdl",
+    "models/playermodel/soviet/zurich_demolition_01_pm.mdl",
+    "models/playermodel/soviet/zurich_infantry_01_pm.mdl",
+    "models/playermodel/soviet/zurich_infantry_02_pm.mdl",
+    "models/playermodel/soviet/zurich_infantry_02_radioman_pm.mdl"
+}
+
+SOVIET_CO_MODELS = {"models/playermodel/soviet/boris_offduty_pm.mdl","models/playermodel/soviet/boris_infantry_officer_pm.mdl","models/playermodel/soviet/alvin_offduty_pm.mdl","models/playermodel/soviet/alvin_infantry_officer_pm.mdl","models/playermodel/soviet/monika_offduty_pm.mdl","models/playermodel/soviet/tabatabai_infantry_officer_pm.mdl","models/playermodel/soviet/tabatabai_offduty_pm.mdl","models/playermodel/soviet/viktor_infantry_officer_pm.mdl","models/playermodel/soviet/zurich_infantry_officer_pm.mdl","models/playermodel/soviet/zurich_offduty_pm.mdl"}
 SOVIETS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 -- Generic Eastern Bloc (Done do officers maybe)
@@ -650,13 +680,13 @@ DivisionTypes = {
             {ID = 4, Name = "Сержант (Sergeant)", Rank_Prefix = "SRZ", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
             {ID = 5, Name = "Старший сержант (Senior Sergeant)", Rank_Prefix = "SSZ", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
             {ID = 6, Name = "Старшина (Sergeant Major)", Rank_Prefix = "STN", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
-            {ID = 7, Name = "Младший лейтенант (Junior Lieutenant)", Rank_Prefix = "MLT", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
-            {ID = 8, Name = "Лейтенант (Lieutenant)", Rank_Prefix = "LT", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
-            {ID = 9, Name = "Старший лейтенант (Senior Lieutenant)", Rank_Prefix = "SLT", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
-            {ID = 10, Name = "Капитан (Captain)", Rank_Prefix = "KPT", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
-            {ID = 11, Name = "Майор (Major)", Rank_Prefix = "MAJ", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
-            {ID = 12, Name = "Подполковник (Lieutenant Colonel)", Rank_Prefix = "PPK", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
-            {ID = 13, Name = "Полковник (Colonel)", Rank_Prefix = "PLK", ModelsAllowed = SOVIETS_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Младший лейтенант (Junior Lieutenant)", Rank_Prefix = "MLT", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Лейтенант (Lieutenant)", Rank_Prefix = "LT", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Старший лейтенант (Senior Lieutenant)", Rank_Prefix = "SLT", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Капитан (Captain)", Rank_Prefix = "KPT", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Майор (Major)", Rank_Prefix = "MAJ", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Подполковник (Lieutenant Colonel)", Rank_Prefix = "PPK", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Полковник (Colonel)", Rank_Prefix = "PLK", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
         },        
         Classes = {
             {
