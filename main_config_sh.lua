@@ -877,9 +877,16 @@ DivisionTypes = {
 
 
 ALL_DIVISIONS = {}
+NATO_DIVISIONS = {}
+WARSAW_DIVISIONS = {}
 
 for divisionName, _ in pairs(DivisionTypes) do
     table.insert(ALL_DIVISIONS, divisionName)
+    if DivisionTypes[divisionName].Team == "NATO" then
+        table.insert(NATO_DIVISIONS, divisionName)
+    elseif DivisionTypes[divisionName].Team == "WARSAW" then
+        table.insert(WARSAW_DIVISIONS, divisionName)
+    end
 end
 
 --==============================================================================================
@@ -890,6 +897,212 @@ end
 --WeeklyActivity = 30,
 
 imperium_specializations = {
+    ["African Pilot"] = {
+        DivisionTypes = {"American Communists Insurgents"},
+        Description = "African Pilots are skilled in flying helicopters and providing air support to ground forces. They can deploy helicopters for transportation and reconnaissance, as well as provide close air support to troops on the ground.",
+        Supply = 10000,
+        WeeklyActivity = 50,
+        Class = {
+            Name = "Pilot",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "PI",
+            vehicles = {
+                {
+                    name = "Helicopter",
+                    entityname = "lvs_helicopter",
+                    description = "Deploy a helicopter for air support and transportation.",
+                    price = 500
+                },
+            }
+        }
+    },
+
+    ["WARSAW Pilot"] = {
+        DivisionTypes = WARSAW_DIVISIONS,
+        Description = "WARSAW Pilots are skilled in flying helicopters and providing air support to ground forces. They can deploy helicopters for transportation and reconnaissance, as well as provide close air support to troops on the ground.",
+        Supply = 10000,
+        WeeklyActivity = 50,
+        Class = {
+            Name = "Pilot",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "PI",
+            vehicles = {
+                {
+                    name = "Helicopter",
+                    entityname = "lvs_helicopter",
+                    description = "Deploy a helicopter for air support and transportation.",
+                    price = 500
+                },
+            }
+        }
+    },
+
+    ["NATO Pilot"] = {
+        DivisionTypes = NATO_DIVISIONS,
+        Description = "NATO Pilots are skilled in flying helicopters and providing air support to ground forces. They can deploy helicopters for transportation and reconnaissance, as well as provide close air support to troops on the ground.",
+        Supply = 10000,
+        WeeklyActivity = 50,
+        Class = {
+            Name = "Pilot",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "PI",
+            vehicles = {
+                {
+                    name = "Helicopter",
+                    entityname = "lvs_helicopter",
+                    description = "Deploy a helicopter for air support and transportation.",
+                    price = 500
+                },
+            }
+        }
+    },
+
+    ["WARSAW Tankers"] = {
+        DivisionTypes = WARSAW_DIVISIONS,
+        Description = "Tankers are the backbone of armored warfare. They can deploy and operate various tanks to break through enemy lines and provide heavy fire support.",
+        Supply = 15000,
+        WeeklyActivity = 75,
+        Class = {
+            Name = "Tanker",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "TK",
+            vehicles = {
+                {
+                    name = "Light Tank",
+                    entityname = "lvs_light_tank",
+                    description = "Deploy a light tank for fast and agile armored support.",
+                    price = 700
+                },
+            }
+        }
+    },
+
+    ["NATO Tankers"] = {
+        DivisionTypes = NATO_DIVISIONS,
+        Description = "Tankers are the backbone of armored warfare. They can deploy and operate various tanks to break through enemy lines and provide heavy fire support.",
+        Supply = 15000,
+        WeeklyActivity = 75,
+        Class = {
+            Name = "Tanker",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "TK",
+            vehicles = {
+                {
+                    name = "Light Tank",
+                    entityname = "lvs_light_tank",
+                    description = "Deploy a light tank for fast and agile armored support.",
+                    price = 700
+                },
+            }
+        }
+    },
+
+    ["NATO Mechanized"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "Mechanized units combine infantry and armored vehicles to create a highly mobile and versatile force. They can deploy various APCs and IFVs to transport troops and provide fire support.",
+        Supply = 12000,
+        WeeklyActivity = 60,
+        Class = {
+            Name = "Mechanized",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "MECH",
+            vehicles = {
+                {
+                    name = "APC",
+                    entityname = "lvs_apc",
+                    description = "Deploy an APC for troop transport and fire support.",
+                    price = 800
+                },
+            }
+        }
+    },
+
+    ["WARSAW Mechanized"] = {
+        DivisionTypes = WARSAW_DIVISIONS,
+        Description = "Mechanized units combine infantry and armored vehicles to create a highly mobile and versatile force. They can deploy various APCs and IFVs to transport troops and provide fire support.",
+        Supply = 12000,
+        WeeklyActivity = 60,
+        Class = {
+            Name = "Mechanized",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "MECH",
+            vehicles = {
+                {
+                    name = "APC",
+                    entityname = "lvs_apc",
+                    description = "Deploy an APC for troop transport and fire support.",
+                    price = 800
+                },
+            }
+        }
+    },
+
+    ["NATO Logistics"] = {
+        DivisionTypes = NATO_DIVISIONS,
+        Description = "Logistics units are crucial for maintaining supply lines, repairing vehicles, and finding crude oil. They ensure that frontline units have the resources they need to continue fighting.",
+        Supply = 8000,
+        WeeklyActivity = 40,
+        Class = {
+            Name = "Logistics",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "LOG",
+            vehicles = {
+                {
+                    name = "Supply Truck",
+                    entityname = "lvs_supply_truck",
+                    description = "Deploy a supply truck to transport resources and supplies.",
+                    price = 600
+                },
+            }
+        }
+    },
+
+    ["WARSAW Logistics"] = {
+        DivisionTypes = WARSAW_DIVISIONS,
+        Description = "Logistics units are crucial for maintaining supply lines, repairing vehicles, and finding crude oil. They ensure that frontline units have the resources they need to continue fighting.",
+        Supply = 8000,
+        WeeklyActivity = 40,
+        Class = {
+            Name = "Logistics",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "LOG",
+            vehicles = {
+                {
+                    name = "Supply Truck",
+                    entityname = "lvs_supply_truck",
+                    description = "Deploy a supply truck to transport resources and supplies.",
+                    price = 600
+                },
+            }
+        }
+    },
 
     --Global Specializations
 
