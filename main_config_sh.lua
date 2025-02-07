@@ -1421,7 +1421,7 @@ imperium_specializations = {
                     name = "Nuclear Reactor",
                     entityname = "nuclear_reactor",
                     description = "This is used to refine nuclear waste into Plutonium-23. DO NOT CAUSE A MELTDOWN!",
-                    price = 10
+                    price = 2000
                 },
                 {
                     name = "Radio",
