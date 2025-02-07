@@ -3,7 +3,7 @@
 --DO NOT ANGER MURLOCK, EDIT IT IN GITHUB, OR 1. YOUR CHANGES WILL GET REMOVED, AND 2. HE WILL BE VERY ANGRY!!
 
 imperium_rp_font = "Bahnschrift"
-gamemode_name = "Cold War RP"
+gamemode_name = "WARSAW VS NATO Cold War RP"
 
 ----------INTRO CONFIG-----------------------------------
 
@@ -1149,8 +1149,27 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Weapons = {},
-            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair","ent_spawner"},
             Prefix = "LOG",
+            EntitySpawner = {
+                {
+                    name = "Ammo Supplies",
+                    entityname = "universal_ammo_small",
+                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                    price = 10
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+                    name = "Oil Drill",
+                    EntityName = "oil_drill",
+                    description = "Deploy an oil drill to extract crude oil for the refinery.",
+                    price = 1000
+                }
+            },
             vehicles = {
                 {
                     name = "Supply Truck",
@@ -1172,8 +1191,27 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Weapons = {},
-            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair","ent_spawner"},
             Prefix = "LOG",
+            EntitySpawner = {
+                {
+                    name = "Ammo Supplies",
+                    entityname = "universal_ammo_small",
+                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                    price = 10
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+                    name = "Oil Drill",
+                    EntityName = "oil_drill",
+                    description = "Deploy an oil drill to extract crude oil for the refinery.",
+                    price = 1000
+                }
+            },
             vehicles = {
                 {
                     name = "Supply Truck",
