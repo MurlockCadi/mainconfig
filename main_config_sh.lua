@@ -326,7 +326,6 @@ NORTH_KOREA_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 -- United States Division (DONE)
 US_MODELS = {
-    "models/gulfamericans/woodland/soldier4b.mdl",
     "models/hitboxedit/us/army/us_army_1_fritz.mdl",
     "models/hitboxedit/us/army/us_army_2_fritz.mdl",
     "models/hitboxedit/us/army/us_army_3_fritz.mdl",
@@ -338,27 +337,27 @@ US_MODELS = {
     "models/hitboxedit/us/army/usmc_4_fritz.mdl",
     "models/hitboxedit/us/army/usmc_5_fritz.mdl"
 }
-US_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+US_DEFAULT_LOADOUT = {"cw_nam_m16a1","doi_atow_m1911a1","doi_atow_knifeus"}
 
 -- Commonwealth Division (Done)
 COMMONWEALTH_MODELS = {"models/kuge/fictional/brazil war/uk royal marines/uk-marines-pm1.mdl","models/kuge/fictional/british/1950-74s/uk-1.mdl"}
-COMMONWEALTH_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+COMMONWEALTH_DEFAULT_LOADOUT = {"doi_atow_webley","doi_atow_knifeus"}
 
 -- Latin American Fascists (Done)
 LATIN_FASCISTS_MODELS = {"models/kuge/fictional/brazil war/argentina army/argentina-pm1.mdl"}
-LATIN_FASCISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+LATIN_FASCISTS_DEFAULT_LOADOUT = {"doi_atow_m1911a1","doi_atow_knifeus"}
 
 -- Israeli Defense Forces (Done)
 IDF_MODELS = {"models/coldwaridf/pm/israeli1.mdl","models/coldwaridf/pm/israeli2.mdl"}
-IDF_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+IDF_DEFAULT_LOADOUT = {"doi_atow_m1911a1","doi_atow_knifeus"}
 
 -- West German (Done)
 WEST_GERMAN_MODELS = {"models/westgermans/soldier1_pm.mdl","models/kuge/fictional/brazil war/german volunteer army/germanvolunteer-pm1.mdl"}
-WEST_GERMAN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+WEST_GERMAN_DEFAULT_LOADOUT = {"cw_g3a3","doi_atow_p08","doi_atow_etoolde"}
 
 -- Rhodesians (Done)
 RHODESIAN_MODELS = {"models/rhods/rhod111.mdl","models/rhods/zanu22.mdl"}
-RHODESIAN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+RHODESIAN_DEFAULT_LOADOUT = {"doi_atow_knifeus","doi_atow_m1911a1"}
 
 --==============================================================================================
 -- WARSAW Division Types --
@@ -406,7 +405,7 @@ EAST_GERMANY_CO_MODELS = {
     "models/strabe/ddr2/nva7380/lask/coat/officer/lask_officer_coat_05.mdl",
     "models/strabe/ddr2/nva7380/lask/coat/officer/lask_officer_coat_06.mdl"
 }
-EAST_GERMANY_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+EAST_GERMANY_DEFAULT_LOADOUT = {"cw_nam_akm","doi_atow_p38","doi_atow_etoolde"}
 
 -- Soviets (Russians)
 SOVIETS_MODELS = {
@@ -440,31 +439,31 @@ SOVIETS_MODELS = {
 }
 
 SOVIET_CO_MODELS = {"models/playermodel/soviet/boris_offduty_pm.mdl","models/playermodel/soviet/boris_infantry_officer_pm.mdl","models/playermodel/soviet/alvin_offduty_pm.mdl","models/playermodel/soviet/alvin_infantry_officer_pm.mdl","models/playermodel/soviet/monika_offduty_pm.mdl","models/playermodel/soviet/tabatabai_infantry_officer_pm.mdl","models/playermodel/soviet/tabatabai_offduty_pm.mdl","models/playermodel/soviet/viktor_infantry_officer_pm.mdl","models/playermodel/soviet/zurich_infantry_officer_pm.mdl","models/playermodel/soviet/zurich_offduty_pm.mdl"}
-SOVIETS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+SOVIETS_DEFAULT_LOADOUT = {"cw_nam_akm","cw_nam_tokarev_tt33","doi_atow_brassknuckles"}
 
 -- Generic Eastern Bloc (Done)
 EASTERN_BLOC_MODELS = {"models/kuge/fictional/balkan/80-90s/balkans-1-pm.mdl"}
-EASTERN_BLOC_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+EASTERN_BLOC_DEFAULT_LOADOUT = {"cw_nam_akm","cw_nam_tokarev_tt33","doi_atow_brassknuckles"}
 
 -- Communist Latin American (Custom models on the way, for now, these will do)
 COMMUNIST_LATIN_MODELS = {"models/kuge/fictional/brazil war/mexican volunteer army/mexican-pm1.mdl"}
-COMMUNIST_LATIN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+COMMUNIST_LATIN_DEFAULT_LOADOUT = {"cw_nam_akm","doi_atow_m1911a1","doi_atow_knifeus"}
 
 -- African Communists (Done)
 AFRICAN_COMMUNISTS_MODELS = {"models/tfusion/playermodels/mw3/mp_africa_militia_a.mdl","models/tfusion/playermodels/mw3/mp_africa_militia_b.mdl","models/tfusion/playermodels/mw3/mp_africa_militia_c.mdl","models/tfusion/playermodels/mw3/mp_africa_militia_d.mdl","models/tfusion/playermodels/mw3/mp_opforce_ghillie_africa_militia_sniper.mdl"}
-AFRICAN_COMMUNISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+AFRICAN_COMMUNISTS_DEFAULT_LOADOUT = {"cw_nam_akm","doi_atow_m1911a1","doi_atow_brassknuckles"}
 
 -- Vietcong (Done)
 VIETCONG_MODELS = {"models/hitboxedit/vietnam/humans/vc/gmod/vc_1.mdl","models/hitboxedit/vietnam/humans/vc/gmod/vc_2.mdl","models/hitboxedit/vietnam/humans/vc/gmod/vc_3.mdl","models/hitboxedit/vietnam/humans/vc/gmod/vc_4.mdl","models/hitboxedit/vietnam/humans/vc/gmod/vc_5.mdl"}
-VIETCONG_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+VIETCONG_DEFAULT_LOADOUT = {"cw_nam_akm","cw_nambu_type_14","doi_atow_knifeus"}
 
 -- Communist China (PLA) (Done)
 COMMUNIST_CHINA_MODELS = {"models/pla/plaaridcam/art.mdl","models/pla/plaaridcam/chau.mdl","models/pla/plawoodlan/art.mdl","models/pla/plawoodlan/chau.mdl"}
-COMMUNIST_CHINA_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+COMMUNIST_CHINA_DEFAULT_LOADOUT = {"cw_nam_akm","cw_nambu_type_14","doi_atow_knifeus"}
 
 -- American Communists 
 AMERICAN_COMMUNISTS_MODELS = {"models/csgoanarchist1pm.mdl","models/csgoanarchist2pm.mdl","models/csgoanarchist3pm.mdl","models/csgoanarchist4pm.mdl"}
-AMERICAN_COMMUNISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
+AMERICAN_COMMUNISTS_DEFAULT_LOADOUT = {"cw_nam_mac10","doi_atow_m1911a1","doi_atow_knifeus"}
 
 
 -- NATO Divisions
