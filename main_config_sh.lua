@@ -352,8 +352,48 @@ RHODESIAN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 -- WARSAW Division Types --
 --==============================================================================================
 
--- East Germany (Waiting for more models)
-EAST_GERMANY_MODELS = {"models/eastgermans/soldier1_pm.mdl"}
+-- East Germany
+EAST_GERMANY_MODELS = {
+    "models/eastgermans/soldier1_pm.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/enlisted/ws_enlisted_field_01.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/enlisted/ws_enlisted_field_02.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/enlisted/ws_enlisted_field_03.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/enlisted/ws_enlisted_field_04.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/enlisted/ws_enlisted_field_05.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/enlisted/ws_enlisted_field_06.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/enlisted/lask_enlisted_field_01.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/enlisted/lask_enlisted_field_02.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/enlisted/lask_enlisted_field_03.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/enlisted/lask_enlisted_field_04.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/enlisted/lask_enlisted_field_05.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/enlisted/lask_enlisted_field_06.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/enlisted/lask_enlisted_coat_01.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/enlisted/lask_enlisted_coat_02.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/enlisted/lask_enlisted_coat_03.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/enlisted/lask_enlisted_coat_04.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/enlisted/lask_enlisted_coat_05.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/enlisted/lask_enlisted_coat_06.mdl"
+}
+EAST_GERMANY_CO_MODELS = {
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/officer/ws_officer_field_01.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/officer/ws_officer_field_02.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/officer/ws_officer_field_03.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/officer/ws_officer_field_04.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/officer/ws_officer_field_05.mdl",
+    "models/strabe/ddr2/nvaspecialforces/ws/bdu/officer/ws_officer_field_06.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/officer/lask_officer_field_01.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/officer/lask_officer_field_02.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/officer/lask_officer_field_03.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/officer/lask_officer_field_04.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/officer/lask_officer_field_05.mdl",
+    "models/strabe/ddr2/nva7380/lask/bdu/officer/lask_officer_field_06.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/officer/lask_officer_coat_01.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/officer/lask_officer_coat_02.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/officer/lask_officer_coat_03.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/officer/lask_officer_coat_04.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/officer/lask_officer_coat_05.mdl",
+    "models/strabe/ddr2/nva7380/lask/coat/officer/lask_officer_coat_06.mdl"
+}
 EAST_GERMANY_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 -- Soviets (Russians)
@@ -390,11 +430,11 @@ SOVIETS_MODELS = {
 SOVIET_CO_MODELS = {"models/playermodel/soviet/boris_offduty_pm.mdl","models/playermodel/soviet/boris_infantry_officer_pm.mdl","models/playermodel/soviet/alvin_offduty_pm.mdl","models/playermodel/soviet/alvin_infantry_officer_pm.mdl","models/playermodel/soviet/monika_offduty_pm.mdl","models/playermodel/soviet/tabatabai_infantry_officer_pm.mdl","models/playermodel/soviet/tabatabai_offduty_pm.mdl","models/playermodel/soviet/viktor_infantry_officer_pm.mdl","models/playermodel/soviet/zurich_infantry_officer_pm.mdl","models/playermodel/soviet/zurich_offduty_pm.mdl"}
 SOVIETS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
--- Generic Eastern Bloc (Done do officers maybe)
+-- Generic Eastern Bloc (Done)
 EASTERN_BLOC_MODELS = {"models/kuge/fictional/balkan/80-90s/balkans-1-pm.mdl"}
 EASTERN_BLOC_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
--- Communist Latin American (Needs to be looked at)
+-- Communist Latin American (Custom models on the way, for now, these will do)
 COMMUNIST_LATIN_MODELS = {"models/kuge/fictional/brazil war/mexican volunteer army/mexican-pm1.mdl"}
 COMMUNIST_LATIN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
@@ -402,8 +442,8 @@ COMMUNIST_LATIN_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 AFRICAN_COMMUNISTS_MODELS = {"models/tfusion/playermodels/mw3/mp_africa_militia_a.mdl","models/tfusion/playermodels/mw3/mp_africa_militia_b.mdl","models/tfusion/playermodels/mw3/mp_africa_militia_c.mdl","models/tfusion/playermodels/mw3/mp_africa_militia_d.mdl","models/tfusion/playermodels/mw3/mp_opforce_ghillie_africa_militia_sniper.mdl"}
 AFRICAN_COMMUNISTS_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
--- Vietcong (Needs Old Models)
-VIETCONG_MODELS = {"models/player/dod_american.mdl"}
+-- Vietcong (Done)
+VIETCONG_MODELS = {"models/hitboxedit/vietnam/humans/vc/gmod/vc_1.mdl","models/hitboxedit/vietnam/humans/vc/gmod/vc_2.mdl","models/hitboxedit/vietnam/humans/vc/gmod/vc_3.mdl","models/hitboxedit/vietnam/humans/vc/gmod/vc_4.mdl","models/hitboxedit/vietnam/humans/vc/gmod/vc_5.mdl"}
 VIETCONG_DEFAULT_LOADOUT = {"doi_atow_m1903a3"}
 
 -- Communist China (PLA) (Done)
