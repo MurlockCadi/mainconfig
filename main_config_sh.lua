@@ -1164,8 +1164,9 @@ imperium_specializations = {
                     description = "Radio to play some War Music!",
                     price = 0
                 },
+                {
                     name = "Oil Drill",
-                    EntityName = "oil_drill",
+                    entityname = "oil_drill",
                     description = "Deploy an oil drill to extract crude oil for the refinery.",
                     price = 1000
                 }
