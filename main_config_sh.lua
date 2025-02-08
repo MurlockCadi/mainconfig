@@ -1679,7 +1679,7 @@ ROLES = ROLES or {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = US_MODELS,
-                WeaponsAllowed = {"doi_atow_m1garand", "doi_atow_etoolus", "doi_atow_m1903a3"},
+                WeaponsAllowed = {"cw_nam_m16a1", "doi_atow_etoolus", "doi_atow_m1911a1"},
                 CanPromote = false
             },
         },
@@ -1707,7 +1707,7 @@ ROLES = ROLES or {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = {"models/kuge/fictional/balkan/80-90s/balkans-1-pm.mdl"},
-                WeaponsAllowed = {"doi_atow_k98k", "doi_atow_etoolde", "doi_atow_g43"},
+                WeaponsAllowed = {"cw_nam_akm", "doi_atow_knifeus", "cw_nam_tokarev_tt33"},
                 CanPromote = false
             },
         },
