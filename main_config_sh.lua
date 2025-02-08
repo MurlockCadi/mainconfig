@@ -1096,8 +1096,8 @@ imperium_specializations = {
             Prefix = "TK",
             vehicles = {
                 {
-                    name = "Leopard",
-                    entityname = "sw_leo2a6m",
+                    name = "M60",
+                    entityname = "lvs_wheeldrive_rp_m60",
                     description = "Deploy a heavy tank for armored support.",
                     price = 1000
                 },
@@ -1204,7 +1204,7 @@ imperium_specializations = {
                     price = 200
                 },
 		{
-                    name = "Supply Truck Cargo Transport",
+                    name = "Ural-4320 Cargo Transport",
                     entityname = "sw_ural4320",
                     description = "Deploy a supply truck to transport resources and supplies.",
                     price = 150
