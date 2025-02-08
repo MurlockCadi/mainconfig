@@ -1015,10 +1015,16 @@ imperium_specializations = {
             Prefix = "PI",
             vehicles = {
                 {
-                    name = "Helicopter",
-                    entityname = "lvs_helicopter",
-                    description = "Deploy a helicopter for air support and transportation.",
-                    price = 500
+                    name = "MI-17 MD",
+                    entityname = "sw_mi17md",
+                    description = "Deploy a helicopter for transportation.",
+                    price = 400
+                },
+		{
+                    name = "KA-52",
+                    entityname = "sw_ka52",
+                    description = "Deploy a extremely powerful attack helicopter.",
+                    price = 1000
                 },
             }
         }
@@ -1038,10 +1044,16 @@ imperium_specializations = {
             Prefix = "PI",
             vehicles = {
                 {
-                    name = "Helicopter",
-                    entityname = "lvs_helicopter",
-                    description = "Deploy a helicopter for air support and transportation.",
-                    price = 500
+                    name = "AH-64",
+                    entityname = "sw_ah64",
+                    description = "Deploy a extremely powerful attack helicopter.",
+                    price = 1000
+                },
+		{
+                    name = "Chinook",
+                    entityname = "lvs_chinook",
+                    description = "Deploy a helicopter for transportation.",
+                    price = 400
                 },
             }
         }
@@ -1061,10 +1073,10 @@ imperium_specializations = {
             Prefix = "TK",
             vehicles = {
                 {
-                    name = "Light Tank",
-                    entityname = "lvs_light_tank",
-                    description = "Deploy a light tank for fast and agile armored support.",
-                    price = 700
+                    name = "T-72",
+                    entityname = "sw_t72b3",
+                    description = "Deploy a heavy tank for armored support.",
+                    price = 1000
                 },
             }
         }
@@ -1084,10 +1096,10 @@ imperium_specializations = {
             Prefix = "TK",
             vehicles = {
                 {
-                    name = "Light Tank",
-                    entityname = "lvs_light_tank",
-                    description = "Deploy a light tank for fast and agile armored support.",
-                    price = 700
+                    name = "Leopard",
+                    entityname = "sw_leo2a6m",
+                    description = "Deploy a heavy tank for armored support.",
+                    price = 1000
                 },
             }
         }
@@ -1107,10 +1119,16 @@ imperium_specializations = {
             Prefix = "MECH",
             vehicles = {
                 {
-                    name = "APC",
-                    entityname = "lvs_apc",
+                    name = "M113",
+                    entityname = "sw_m113",
                     description = "Deploy an APC for troop transport and fire support.",
-                    price = 800
+                    price = 400
+                },
+		{
+                    name = "Marder",
+                    entityname = "sw_marder1a5",
+                    description = "Deploy an APC for troop transport and fire support.",
+                    price = 600
                 },
             }
         }
@@ -1130,10 +1148,16 @@ imperium_specializations = {
             Prefix = "MECH",
             vehicles = {
                 {
-                    name = "APC",
-                    entityname = "lvs_apc",
+                    name = "BMP-3M",
+                    entityname = "sw_bmp3m",
                     description = "Deploy an APC for troop transport and fire support.",
-                    price = 800
+                    price = 750
+                },
+		{
+                    name = "K-17",
+                    entityname = "sw_k17",
+                    description = "Deploy an APC for troop transport and fire support.",
+                    price = 650
                 },
             }
         }
@@ -1174,10 +1198,16 @@ imperium_specializations = {
             },
             vehicles = {
                 {
-                    name = "Supply Truck",
-                    entityname = "lvs_supply_truck",
+                    name = "Ural-4320 Troop Transport",
+                    entityname = "sw_ural4320_troop",
+                    description = "Deploy a truck to transport troops.",
+                    price = 200
+                },
+		{
+                    name = "Supply Truck Cargo Transport",
+                    entityname = "sw_ural4320",
                     description = "Deploy a supply truck to transport resources and supplies.",
-                    price = 600
+                    price = 150
                 },
             }
         }
@@ -1218,10 +1248,16 @@ imperium_specializations = {
             },
             vehicles = {
                 {
-                    name = "Supply Truck",
-                    entityname = "lvs_supply_truck",
-                    description = "Deploy a supply truck to transport resources and supplies.",
-                    price = 600
+                    name = "Zis-12 Troop Transport",
+                    entityname = "sw_zis12_troop",
+                    description = "Deploy a truck to transport troops.",
+                    price = 200
+                },
+		{
+                    name = "Gaz-AAA Cargo Transport",
+                    entityname = "sw_gaz_aaa_cargo",
+                    description = "Deploy a supply truck to transport resources and supplies",
+                    price = 150
                 },
             }
         }
