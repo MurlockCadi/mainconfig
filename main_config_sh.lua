@@ -1150,7 +1150,7 @@ imperium_specializations = {
             Models = {},
             can_oil = true,
             Weapons = {},
-            SpawnWeapons = {"rope_tool","weapon_lvsrepair","ent_spawner"},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair","ent_spawner","refinery_spawner"},
             Prefix = "LOG",
             EntitySpawner = {
                 {
@@ -1194,7 +1194,7 @@ imperium_specializations = {
             Models = {},
             can_oil = true,
             Weapons = {},
-            SpawnWeapons = {"rope_tool","weapon_lvsrepair","ent_spawner"},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair","ent_spawner","refinery_spawner"},
             Prefix = "LOG",
             EntitySpawner = {
                 {
