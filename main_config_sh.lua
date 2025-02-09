@@ -350,7 +350,7 @@ LATIN_FASCISTS_DEFAULT_LOADOUT = {"merc_fn_fal","doi_atow_m1911a1","doi_atow_kni
 
 -- Israeli Defense Forces (Done)
 IDF_MODELS = {"models/coldwaridf/pm/israeli1.mdl","models/coldwaridf/pm/israeli2.mdl"}
-IDF_DEFAULT_LOADOUT = {"doi_atow_m1911a1","doi_atow_knifeus"}
+IDF_DEFAULT_LOADOUT = {"merc_fn_fal","doi_atow_m1911a1","doi_atow_knifeus"}
 
 -- West German (Done)
 WEST_GERMAN_MODELS = {"models/westgermans/soldier1_pm.mdl","models/kuge/fictional/brazil war/german volunteer army/germanvolunteer-pm1.mdl"}
