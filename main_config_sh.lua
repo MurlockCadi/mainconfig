@@ -979,7 +979,7 @@ end
 --WeeklyActivity = 30,
 
 imperium_specializations = {
-    ["African Pilot"] = {
+    ["WARSAW SPECIFIC DIVISION 1"] = {
         DivisionTypes = {"American Communists Insurgents"},
         Description = "African Pilots are skilled in flying helicopters and providing air support to ground forces. They can deploy helicopters for transportation and reconnaissance, as well as provide close air support to troops on the ground.",
         Supply = 10000,
@@ -993,15 +993,60 @@ imperium_specializations = {
             Prefix = "PI",
             vehicles = {
                 {
-                    name = "Helicopter",
-                    entityname = "lvs_helicopter",
+                    name = "MI-26",
+                    entityname = "sw_mi26",
                     description = "Deploy a helicopter for air support and transportation.",
-                    price = 500
+                    price = 1200
                 },
             }
         }
     },
 
+    ["WARSAW SPECIFIC DIVISION 2"] = {
+        DivisionTypes = {"American Communists Insurgents"},
+        Description = "African Pilots are skilled in flying helicopters and providing air support to ground forces. They can deploy helicopters for transportation and reconnaissance, as well as provide close air support to troops on the ground.",
+        Supply = 10000,
+        WeeklyActivity = 50,
+        Class = {
+            Name = "Pilot",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "PI",
+            vehicles = {
+                {
+                    name = "MI-24A",
+                    entityname = "sw_mi24a",
+                    description = "Deploy a extremely powerful attack helicopter.",
+                    price = 1000
+                },
+            }
+        }
+    },
+   
+    DivisionTypes = {"NATO SPECIFIC DIVISION 1"},
+        Description = "African Pilots are skilled in flying helicopters and providing air support to ground forces. They can deploy helicopters for transportation and reconnaissance, as well as provide close air support to troops on the ground.",
+        Supply = 10000,
+        WeeklyActivity = 50,
+        Class = {
+            Name = "Mechanized",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "PI",
+            vehicles = {
+                {
+                    name = "MM1134",
+                    entityname = "sw_m1134",
+                    description = "Deploy a powerful anti-tank vehicle.",
+                    price = 750
+                },
+            }
+        }
+    },
+	
     ["WARSAW Pilot"] = {
         DivisionTypes = WARSAW_DIVISIONS,
         Description = "WARSAW Pilots are skilled in flying helicopters and providing air support to ground forces. They can deploy helicopters for transportation and reconnaissance, as well as provide close air support to troops on the ground.",
