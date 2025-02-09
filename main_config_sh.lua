@@ -342,11 +342,11 @@ US_DEFAULT_LOADOUT = {"cw_nam_m16a1","doi_atow_m1911a1","doi_atow_knifeus"}
 
 -- Commonwealth Division (Done)
 COMMONWEALTH_MODELS = {"models/kuge/fictional/brazil war/uk royal marines/uk-marines-pm1.mdl","models/kuge/fictional/british/1950-74s/uk-1.mdl"}
-COMMONWEALTH_DEFAULT_LOADOUT = {"doi_atow_webley","doi_atow_knifeus"}
+COMMONWEALTH_DEFAULT_LOADOUT = {"merc_fn_fal","doi_atow_webley","doi_atow_knifeus"}
 
 -- Latin American Fascists (Done)
 LATIN_FASCISTS_MODELS = {"models/kuge/fictional/brazil war/argentina army/argentina-pm1.mdl"}
-LATIN_FASCISTS_DEFAULT_LOADOUT = {"doi_atow_m1911a1","doi_atow_knifeus"}
+LATIN_FASCISTS_DEFAULT_LOADOUT = {"merc_fn_fal","doi_atow_m1911a1","doi_atow_knifeus"}
 
 -- Israeli Defense Forces (Done)
 IDF_MODELS = {"models/coldwaridf/pm/israeli1.mdl","models/coldwaridf/pm/israeli2.mdl"}
@@ -358,7 +358,7 @@ WEST_GERMAN_DEFAULT_LOADOUT = {"cw_g3a3","doi_atow_p08","doi_atow_etoolde"}
 
 -- Rhodesians (Done)
 RHODESIAN_MODELS = {"models/rhods/rhod111.mdl","models/rhods/zanu22.mdl"}
-RHODESIAN_DEFAULT_LOADOUT = {"doi_atow_knifeus","doi_atow_m1911a1"}
+RHODESIAN_DEFAULT_LOADOUT = {"merc_fn_fal","doi_atow_knifeus","doi_atow_m1911a1"}
 
 --==============================================================================================
 -- WARSAW Division Types --
