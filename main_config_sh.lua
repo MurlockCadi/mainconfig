@@ -1039,7 +1039,7 @@ imperium_specializations = {
 
     ["WARSAW Tankers"] = {
         DivisionTypes = WARSAW_DIVISIONS,
-        Description = "Tankers are the backbone of armored warfare. They can deploy and operate various tanks to break through enemy lines and provide heavy fire support.\n\nFrom the T-72 to the Leopard, tankers are formidable opponents on the battlefield.",
+        Description = "Tankers are the backbone of armored warfare. They can deploy and operate various tanks to break through enemy lines and provide heavy fire support.\n\nFrom the T-72 to the T-34, tankers are formidable opponents on the battlefield.",
         Supply = 15000,
         WeeklyActivity = 200,
         Class = {
@@ -1069,12 +1069,6 @@ imperium_specializations = {
                     description = "Less powerful than the T-72, but still formidable.",
                     price = 750
                 },
-                {
-                    name = "Leopard",
-                    entityname = "sw_leo2a4",
-                    description = "The tanks roar heavily, their sound growls dully, Where the forests are, we storm forward!",
-                    price = 1000
-                },
             }
         }
     },
@@ -1098,6 +1092,12 @@ imperium_specializations = {
                     description = "Deploy a heavy tank for armored support.",
                     price = 1000
                 },
+                {
+                    name = "Leopard",
+                    entityname = "sw_leo2a4",
+                    description = "The West German Tank that shall destroy all, with speed and power. It is the best tank in the game.",
+                    price = 1000
+                }
             }
         }
     },
