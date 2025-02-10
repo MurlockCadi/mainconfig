@@ -1039,9 +1039,9 @@ imperium_specializations = {
 
     ["WARSAW Tankers"] = {
         DivisionTypes = WARSAW_DIVISIONS,
-        Description = "Tankers are the backbone of armored warfare. They can deploy and operate various tanks to break through enemy lines and provide heavy fire support.",
+        Description = "Tankers are the backbone of armored warfare. They can deploy and operate various tanks to break through enemy lines and provide heavy fire support.\n\nFrom the T-72 to the Leopard, tankers are formidable opponents on the battlefield.",
         Supply = 15000,
-        WeeklyActivity = 75,
+        WeeklyActivity = 200,
         Class = {
             Name = "Tanker",
             Default = false,
@@ -1081,9 +1081,9 @@ imperium_specializations = {
 
     ["NATO Tankers"] = {
         DivisionTypes = NATO_DIVISIONS,
-        Description = "Tankers are the backbone of armored warfare. They can deploy and operate various tanks to break through enemy lines and provide heavy fire support.",
+        Description = "Tankers are the backbone of armored warfare. They can deploy and operate various tanks to break through enemy lines and provide heavy fire support.\n\nThe M60 Patton is the main battle tank of the NATO forces.",
         Supply = 15000,
-        WeeklyActivity = 75,
+        WeeklyActivity = 200,
         Class = {
             Name = "Tanker",
             Default = false,
@@ -1104,9 +1104,9 @@ imperium_specializations = {
 
     ["NATO Mechanized"] = {
         DivisionTypes = ALL_DIVISIONS,
-        Description = "Mechanized units combine infantry and armored vehicles to create a highly mobile and versatile force. They can deploy various APCs and IFVs to transport troops and provide fire support.",
+        Description = "Mechanized units combine infantry and armored vehicles to create a highly mobile and versatile force. They can deploy various APCs and IFVs to transport troops and provide fire support.\n\nThey provide a balance between infantry and armored vehicles, making them effective in a variety of combat situations.",
         Supply = 12000,
-        WeeklyActivity = 60,
+        WeeklyActivity = 100,
         Class = {
             Name = "Mechanized",
             Default = false,
@@ -1145,9 +1145,9 @@ imperium_specializations = {
 
     ["WARSAW Mechanized"] = {
         DivisionTypes = WARSAW_DIVISIONS,
-        Description = "Mechanized units combine infantry and armored vehicles to create a highly mobile and versatile force. They can deploy various APCs and IFVs to transport troops and provide fire support.",
+        Description = "Mechanized units combine infantry and armored vehicles to create a highly mobile and versatile force. They can deploy various APCs and IFVs to transport troops and provide fire support.\n\nWARSAW Mechanized units are known for their heavy armor and firepower, making them formidable opponents on the battlefield.\n\nThe BMP-3M can be classified as a light tank due to its heavy anti-infantry and anti-tank capabilities.",
         Supply = 12000,
-        WeeklyActivity = 60,
+        WeeklyActivity = 100,
         Class = {
             Name = "Mechanized",
             Default = false,
@@ -1197,7 +1197,7 @@ imperium_specializations = {
     },
     ["NATO Logistics"] = {
         DivisionTypes = NATO_DIVISIONS,
-        Description = "Logistics units are crucial for maintaining supply lines, repairing vehicles, and finding crude oil. They ensure that frontline units have the resources they need to continue fighting.",
+        Description = "Logistics units are crucial for maintaining supply lines, repairing vehicles, and finding crude oil. They ensure that frontline units have the resources they need to continue fighting.\n\nLogistics can drill for oil, and give your team a steady supply.",
         Supply = 8000,
         WeeklyActivity = 40,
         Class = {
@@ -1253,7 +1253,7 @@ imperium_specializations = {
 
     ["WARSAW Logistics"] = {
         DivisionTypes = WARSAW_DIVISIONS,
-        Description = "Logistics units are crucial for maintaining supply lines, repairing vehicles, and finding crude oil. They ensure that frontline units have the resources they need to continue fighting.",
+        Description = "Logistics units are crucial for maintaining supply lines, repairing vehicles, and finding crude oil. They ensure that frontline units have the resources they need to continue fighting.\n\nLogistics can drill for oil, and give your team a steady supply.",
         Supply = 8000,
         WeeklyActivity = 40,
         Class = {
