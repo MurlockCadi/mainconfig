@@ -979,29 +979,6 @@ end
 --WeeklyActivity = 30,
 
 imperium_specializations = {
-    ["African Pilot"] = {
-        DivisionTypes = {"American Communists Insurgents"},
-        Description = "African Pilots are skilled in flying helicopters and providing air support to ground forces. They can deploy helicopters for transportation and reconnaissance, as well as provide close air support to troops on the ground.",
-        Supply = 10000,
-        WeeklyActivity = 50,
-        Class = {
-            Name = "Pilot",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
-            Prefix = "PI",
-            vehicles = {
-                {
-                    name = "Helicopter",
-                    entityname = "lvs_helicopter",
-                    description = "Deploy a helicopter for air support and transportation.",
-                    price = 500
-                },
-            }
-        }
-    },
-
     ["WARSAW Pilot"] = {
         DivisionTypes = WARSAW_DIVISIONS,
         Description = "WARSAW Pilots are skilled in flying helicopters and providing air support to ground forces. They can deploy helicopters for transportation and reconnaissance, as well as provide close air support to troops on the ground.",
@@ -1076,7 +1053,26 @@ imperium_specializations = {
                 {
                     name = "T-72",
                     entityname = "sw_t72b3",
-                    description = "Deploy a heavy tank for armored support.",
+                    description = "Deploy a formidable heavy tank for armored support.",
+                    price = 1000
+                },
+                {
+                    name = "T-34",
+                    entityname = "lvs_wheeldrive_t34e",
+                    description = "An old tank, but still effective.",
+                    price = 500
+                },
+
+                {
+                    name = "T-62",
+                    entityname = "lvs_wheeldrive_t62",
+                    description = "Less powerful than the T-72, but still formidable.",
+                    price = 750
+                },
+                {
+                    name = "Leopard",
+                    entityname = "sw_leo2a4",
+                    description = "The tanks roar heavily, their sound growls dully, Where the forests are, we storm forward!",
                     price = 1000
                 },
             }
@@ -1097,7 +1093,7 @@ imperium_specializations = {
             Prefix = "TK",
             vehicles = {
                 {
-                    name = "M60",
+                    name = "M60 Patton",
                     entityname = "lvs_wheeldrive_rp_m60",
                     description = "Deploy a heavy tank for armored support.",
                     price = 1000
@@ -1122,13 +1118,25 @@ imperium_specializations = {
                 {
                     name = "M113",
                     entityname = "sw_m113",
-                    description = "Deploy an APC for troop transport and fire support.",
-                    price = 400
+                    description = "Deploy an APC for troop transport and light support with a MG.",
+                    price = 300
                 },
-		{
+                {
+                    name = "M1064 Mortar",
+                    entityname = "sw_m1064",
+                    description = "Deploy an APC for Mortar support and light support with a MG.",
+                    price = 300
+                },
+                {
+                    name = "M163",
+                    entityname = "sw_m163",
+                    description = "Deploy an APC with a heavy machine gun for heavy anti-infantry support.",
+                    price = 300
+                },
+		        {
                     name = "Marder",
                     entityname = "sw_marder1a5",
-                    description = "Deploy an APC for troop transport and fire support.",
+                    description = "Diverse and versatile, the Marder is the powerful APC with anti-infantry and anti-tank support.",
                     price = 600
                 },
             }
@@ -1151,19 +1159,42 @@ imperium_specializations = {
                 {
                     name = "BMP-3M",
                     entityname = "sw_bmp3m",
-                    description = "Deploy an APC for troop transport and fire support.",
-                    price = 750
+                    description = "An APC that mixes anti-infantry and anti-tank capabilities. Ultimate versatility. It could be classified as a light tank.",
+                    price = 800
                 },
-		{
+		        {
                     name = "K-17",
                     entityname = "sw_k17",
                     description = "Deploy an APC for troop transport and fire support.",
                     price = 650
                 },
+                {
+                    name = "BMP-1",
+                    entityname = "sw_bmp1",
+                    description = "An old APC, but still effective.",
+                    price = 300
+                },
+                {
+                    name = "BMP-1AM",
+                    entityname = "sw_bmp1am",
+                    description = "Versatile APC with a heavy gun for anti-infantry and anti-tank support.",
+                    price = 500
+                },
+                {
+                    name = "BMP-1M",
+                    entityname = "sw_bmp1m",
+                    description = "The Versatile APC with heavy anti-tank shells.",
+                    price = 600
+                },
+                {
+                    name = "BMP-1M",
+                    entityname = "sw_bmp2",
+                    description = "Not as powerful as the BMP-3M, but it is another formidable APC.",
+                    price = 700
+                }
             }
         }
     },
-
     ["NATO Logistics"] = {
         DivisionTypes = NATO_DIVISIONS,
         Description = "Logistics units are crucial for maintaining supply lines, repairing vehicles, and finding crude oil. They ensure that frontline units have the resources they need to continue fighting.",
@@ -1204,11 +1235,17 @@ imperium_specializations = {
                     description = "Deploy a truck to transport troops.",
                     price = 200
                 },
-		{
+		        {
                     name = "Ural-4320 Cargo Transport",
                     entityname = "sw_ural4320",
                     description = "Deploy a supply truck to transport resources and supplies.",
                     price = 150
+                },
+		        {
+                    name = "AA Half Track",
+                    entityname = "lvs_wheeldrive_dodhalftrack_us",
+                    description = "Take an old classic for a spin.",
+                    price = 500
                 },
             }
         }
@@ -1254,7 +1291,7 @@ imperium_specializations = {
                     description = "Deploy a truck to transport troops.",
                     price = 200
                 },
-		{
+		        {
                     name = "Gaz-AAA Cargo Transport",
                     entityname = "sw_gaz_aaa_cargo",
                     description = "Deploy a supply truck to transport resources and supplies",
@@ -1296,7 +1333,7 @@ imperium_specializations = {
     },
     ["Engineer"] = {
         DivisionTypes = ALL_DIVISIONS,
-        Description = "Engineers are essential for building fortifications, repairing vehicles, and establishing Outposts. They can also deploy ammo crates to resupply troops on the frontline, and lay mines to stop both tanks and infantry. They also have the Rope tool to bind objects together.\nBuilding Forward Bases creates control over the area, helping in domination of the battlefield. When defending, creating chokepoints and fortifications are essential for victory.",
+        Description = "Engineers are essential for building fortifications, repairing vehicles, and establishing Outposts. They can also deploy ammo crates to resupply troops on the frontline, and lay mines to stop both tanks and infantry. (And also spawn in Bombs...) They also have the Rope tool to bind objects together.\nBuilding Forward Bases creates control over the area, helping in domination of the battlefield. When defending, creating chokepoints and fortifications are essential for victory.",
         Supply = 7500, --7500
         Class = {
             Name = "Engineer",
@@ -1318,6 +1355,24 @@ imperium_specializations = {
                     entityname = "newboombox",
                     description = "Radio to play some War Music!",
                     price = 0
+                },
+                {
+                    name = "Land Mine",
+                    entityname = "sw_mine_tm62_v3",
+                    description = "Deploy a land mine to stop infantry.",
+                    price = 50
+                },
+                {
+                    name = "Bomb",
+                    entityname = "sw_bomb_fab1000m44_v3",
+                    description = "Deploy a powerful bomb... Don't ask why.",
+                    price = 100
+                },
+                {
+                    name = "Machine Gun",
+                    entityname = "sw_mtpu",
+                    description = "Deploy a machine gun for defense.",
+                    price = 100
                 }
             }
         }
@@ -1553,7 +1608,7 @@ imperium_specializations = {
     },
     ["Artillery"] = {
         DivisionTypes = ALL_DIVISIONS,
-        Description = "Artilleryman is able to deploy artillery guns that cause massive damage to enemy fortifications and infantry.\n\nWhen attacking, destroying enemy fortifications and killing enemy infantry is essential for capturing objectives.\n\nWhen defending, artillery can still be used as a formidible weapon to stop enemy advances.\n\nEach gun costs 400 supply (100 out of operation)\n\nThe Artilleryman also has smoke rounds to provide cover for advancing infantry.",
+        Description = "Artilleryman is able to deploy artillery guns and mortars that cause massive damage to enemy fortifications and infantry.\n\nWhen attacking, destroying enemy fortifications and killing enemy infantry is essential for capturing objectives.\n\nWhen defending, artillery can still be used as a formidible weapon to stop enemy advances.\n\nEach gun costs 400 supply (100 out of operation)\n\nThe Artilleryman also has smoke rounds to provide cover for advancing infantry.",
         Supply = 7500,
         WeeklyActivity = 100,
         Class = {
@@ -1563,16 +1618,16 @@ imperium_specializations = {
             Weapons = {},
             EntitySpawner = {
                 {
-                    name = "M101 Howitzer",
-                    entityname = "lvs_m2a1",
-                    description = "An American 105mm artillery gun.",
+                    name = "Artillery Gun",
+                    entityname = "sw_2a36",
+                    description = "Powerful artillery gun that can destroy enemy fortifications and infantry.",
                     price = 400
                 },
                 {
-                    name = "Old Arty",
-                    entityname = "lvs_arty_john_temp",
-                    description = "If you want to use the old on you can. New ones have better stats.",
-                    price = 400
+                    name = "Mortar",
+                    entityname = "sw_2b11",
+                    description = "Deploy a mortar for indirect fire support.",
+                    price = 100
                 },
                 {
                     name = "Radio",
@@ -1598,15 +1653,15 @@ imperium_specializations = {
             EntitySpawner = {
                 {
                     name = "AT Gun",
-                    entityname = "lvs_atgun",
-                    description = "An American 57mm anti-tank gun.",
-                    price = 400
+                    entityname = "lvs_trailer_pak40",
+                    description = "AT Gun to destroy enemy tanks and mechanised.",
+                    price = 300
                 },
                 {
-                    name = "Old AT",
-                    entityname = "lvs_at_john_temp",
-                    description = "If you want to use the old on you can. New ones have better stats.",
-                    price = 400
+                    name = "AA Gun",
+                    entityname = "sw_zu232",
+                    description = "AA Gun to shoot down enemy aircraft.",
+                    price = 200
                 },
                 {
                     name = "Radio",
