@@ -500,24 +500,20 @@ DivisionTypes = {
         Team = "NATO",
         Description = "Supplied by the CIA, the Mujahideen are groups of Islamic rebels fighting against the Soviet Union and the WARSAW Pact. They are known for their use of improvised explosive devices and guerrilla tactics.",
         Ranks = {
-            {ID = 1, Name = "مجاهد" (Mujahid), Rank_Prefix = "MUJ", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 2, Name = "جهادي" (Jihadi), Rank_Prefix = "JID", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 3, Name = "سلفي" (Salafi), Rank_Prefix = "SAL", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 4, Name = "شهيد" (Martyr), Rank_Prefix = "MAT", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-        
-            -- NCOs
-            {ID = 5, Name = "غازي" (Ghazi), Rank_Prefix = "GZI", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 6, Name = "إمام" (Imam), Rank_Prefix = "IMAM", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 7, Name = "عليم" (Aleem), Rank_Prefix = "ALM", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 8, Name = "شريف" (Shareef), Rank_Prefix = "SHF", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-        
-            -- Officers
-            {ID = 9, Name = "آية الله" (Ayatollah), Rank_Prefix = "AYT", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 10, Name = "آية الله العظمى" (Grand Ayatollah), Rank_Prefix = "GAYT", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 11, Name = "ولي" (Wali), Rank_Prefix = "WALI", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 12, Name = "خليفة" (Caliph), Rank_Prefix = "CAL", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-            {ID = 13, Name = "أمير" (Emir), Rank_Prefix = "EMIR", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
-        },        
+            {ID = 1, Name = "مجاهد (Mujahid)", Rank_Prefix = "MUJ", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 2, Name = "جهادي (Jihadi)", Rank_Prefix = "JID", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 3, Name = "سلفي (Salafi)", Rank_Prefix = "SAL", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 4, Name = "شهيد (Martyr)", Rank_Prefix = "MAT", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 5, Name = "غازي (Ghazi)", Rank_Prefix = "GZI", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 6, Name = "إمام (Imam)", Rank_Prefix = "IMAM", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 7, Name = "عليم (Aleem)", Rank_Prefix = "ALM", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 8, Name = "شريف (Shareef)", Rank_Prefix = "SHF", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 9, Name = "آية الله (Ayatollah)", Rank_Prefix = "AYT", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 10, Name = "آية الله العظمى (Grand Ayatollah)", Rank_Prefix = "GAYT", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 11, Name = "ولي (Wali)", Rank_Prefix = "WALI", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 12, Name = "خليفة (Caliph)", Rank_Prefix = "CAL", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 13, Name = "أمير (Emir)", Rank_Prefix = "EMIR", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+        },
         Classes = {
             {
                 Name = "Jihadist",
