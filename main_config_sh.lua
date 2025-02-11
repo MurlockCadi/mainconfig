@@ -362,6 +362,10 @@ WEST_GERMAN_DEFAULT_LOADOUT = {"cw_g3a3","doi_atow_p08","doi_atow_etoolde"}
 RHODESIAN_MODELS = {"models/rhods/rhod111.mdl","models/rhods/zanu22.mdl"}
 RHODESIAN_DEFAULT_LOADOUT = {"merc_fn_fal","doi_atow_knifeus","doi_atow_m1911a1"}
 
+-- AFHANISTAN
+AFGHANISTAN_MODELS = {"models/player/ins_insurgent_heavy.mdl","models/player/ins_insurgent_light.mdl","models/player/ins_insurgent_standard.mdl"}
+AFGHANISTAN_DEFAULT_LOADOUT = {"cw_nam_akm","doi_atow_m1911a1","doi_atow_knifeus"}
+
 --==============================================================================================
 -- WARSAW Division Types --
 --==============================================================================================
@@ -492,6 +496,40 @@ AMERICAN_COMMUNISTS_DEFAULT_LOADOUT = {"cw_nam_mac10","doi_atow_m1911a1","doi_at
 --9. American Communists Insurgents  
 
 DivisionTypes = {
+    ["Mujahideen Division"] = {
+        Team = "NATO",
+        Description = "Supplied by the CIA, the Mujahideen are groups of Islamic rebels fighting against the Soviet Union and the WARSAW Pact. They are known for their use of improvised explosive devices and guerrilla tactics.",
+        Ranks = {
+            {ID = 1, Name = "مجاهد" (Mujahid), Rank_Prefix = "MUJ", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 2, Name = "جهادي" (Jihadi), Rank_Prefix = "JID", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 3, Name = "سلفي" (Salafi), Rank_Prefix = "SAL", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 4, Name = "شهيد" (Martyr), Rank_Prefix = "MAT", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+        
+            -- NCOs
+            {ID = 5, Name = "غازي" (Ghazi), Rank_Prefix = "GZI", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 6, Name = "إمام" (Imam), Rank_Prefix = "IMAM", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 7, Name = "عليم" (Aleem), Rank_Prefix = "ALM", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 8, Name = "شريف" (Shareef), Rank_Prefix = "SHF", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+        
+            -- Officers
+            {ID = 9, Name = "آية الله" (Ayatollah), Rank_Prefix = "AYT", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 10, Name = "آية الله العظمى" (Grand Ayatollah), Rank_Prefix = "GAYT", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 11, Name = "ولي" (Wali), Rank_Prefix = "WALI", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 12, Name = "خليفة" (Caliph), Rank_Prefix = "CAL", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+            {ID = 13, Name = "أمير" (Emir), Rank_Prefix = "EMIR", ModelsAllowed = AFGHANISTAN_MODELS, WeaponsAllowed = AFGHANISTAN_DEFAULT_LOADOUT},
+        },        
+        Classes = {
+            {
+                Name = "Jihadist",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+        },
+    },
+
     ["Commonwealth Division"] = {
         Team = "NATO",
         Description = "Generic Commonwealth Anglophilic Forces. These can be British, Canadian, Australian, or any other Anglophilic force. With the fall of the Empire, Communism stands to replace the Anglophilic Democracies we left behind.",
