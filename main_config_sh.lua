@@ -297,6 +297,8 @@ commands = {
     ["/help"] = function(ply) OpenHelpMenu(ply) end,
     ["!addspec"] = function(ply, args) Add_Spec_To_My_Division(ply, args) end,
     ["/addspec"] = function(ply, args) Add_Spec_To_My_Division(ply, args) end,
+    ["!cleanup"] = function(ply) PlayerWantsToCleanUpAllForts(ply) end,
+    ["/cleanup"] = function(ply) PlayerWantsToCleanUpAllForts(ply) end,
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
