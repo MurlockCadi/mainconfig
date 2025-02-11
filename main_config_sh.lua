@@ -1795,8 +1795,19 @@ group_ranks = {
 
 -----------------LOAD MODELS------------------
 
-modelsToPreload = {
-	"models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_01.mdl",
-}
+modelsToPreload = {}
+
+local seenModels = {}
+
+for _, division in pairs(DivisionTypes) do
+    for _, rank in ipairs(division.Ranks) do
+        for _, model in ipairs(rank.ModelsAllowed or {}) do
+            if not seenModels[model] then
+                table.insert(modelsToPreload, model)
+                seenModels[model] = true
+            end
+        end
+    end
+end
 
 print("Imperium RP Config Loaded!")
