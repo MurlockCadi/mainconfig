@@ -162,7 +162,7 @@ MAX_HEALTH = 100
 
 REVIVE_TIME = 10
 
-LOOT_TIME = 5
+LOOT_TIME = 3
 
 --------------------HELP CONFIG----------------------------------------
 
@@ -1034,7 +1034,7 @@ imperium_specializations = {
                     description = "Deploy a helicopter for transportation.",
                     price = 400
                 },
-		{
+		        {
                     name = "KA-52",
                     entityname = "sw_ka52",
                     description = "Deploy a extremely powerful attack helicopter.",
@@ -1063,7 +1063,7 @@ imperium_specializations = {
                     description = "Deploy a extremely powerful attack helicopter.",
                     price = 1000
                 },
-		{
+		        {
                     name = "Chinook",
                     entityname = "lvs_chinook",
                     description = "Deploy a helicopter for transportation.",
