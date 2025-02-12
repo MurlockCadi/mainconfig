@@ -452,8 +452,8 @@ SOVIETS_DEFAULT_LOADOUT = {"cw_nam_akm","cw_nam_tokarev_tt33","doi_atow_brassknu
 EASTERN_BLOC_MODELS = {"models/kuge/fictional/balkan/80-90s/balkans-1-pm.mdl"}
 EASTERN_BLOC_DEFAULT_LOADOUT = {"cw_nam_akm","cw_nam_tokarev_tt33","doi_atow_brassknuckles"}
 
--- Communist Latin American (Custom models on the way, for now, these will do)
-COMMUNIST_LATIN_MODELS = {"models/kuge/fictional/brazil war/mexican volunteer army/mexican-pm1.mdl"}
+-- Communist Latin American (Done)
+COMMUNIST_LATIN_MODELS = {"models/berlinzkuba1453/ctropa2/cuban_04.mdl","models/kuge/fictional/brazil war/mexican volunteer army/mexican-pm1.mdl","models/berlinzkuba1453/ctropa2/cuban_01.mdl","models/berlinzkuba1453/ctropa2/cuban_02.mdl","models/berlinzkuba1453/ctropa2/cuban_06.mdl","models/berlinzkuba1453/c_tropa_mp_s/male_01.mdl","models/berlinzkuba1453/c_tropa_mp_h/male_06.mdl","models/berlinzkuba1453/c_tropa_mp_h/male_04.mdl","models/berlinzkuba1453/c_tropa_mp_h/male_02.mdl","models/berlinzkuba1453/c_tropa_mp_h/male_01.mdl","models/berlinzkuba1453/c_tropa_mp/soldier_06.mdl","models/berlinzkuba1453/c_tropa_mp/soldier_04.mdl","models/berlinzkuba1453/c_tropa_mp/soldier_02.mdl","models/berlinzkuba1453/c_tropa_mp/soldier_01.mdl"}
 COMMUNIST_LATIN_DEFAULT_LOADOUT = {"cw_nam_akm","doi_atow_m1911a1","doi_atow_knifeus"}
 
 -- African Communists (Done)
