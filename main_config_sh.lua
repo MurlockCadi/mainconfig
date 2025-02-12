@@ -1706,7 +1706,7 @@ imperium_specializations = {
                     price = 0
                 },
             },
-            SpawnWeapons = {"ent_spawner","cw_mw2_at4","weapon_lvsmines","nam_bze39_frag"},
+            SpawnWeapons = {"ent_spawner","cw_bo1_m72_law","weapon_lvsmines","nam_bze39_frag"},
             Prefix = "AT"
         },
     },
