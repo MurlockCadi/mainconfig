@@ -1034,7 +1034,7 @@ imperium_specializations = {
                     description = "Deploy a helicopter for transportation.",
                     price = 400
                 },
-		        {
+		{
                     name = "KA-52",
                     entityname = "sw_ka52",
                     description = "Deploy a extremely powerful attack helicopter.",
@@ -1057,17 +1057,41 @@ imperium_specializations = {
             SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
             Prefix = "PI",
             vehicles = {
-                {
-                    name = "AH-64",
-                    entityname = "sw_ah64",
-                    description = "Deploy a extremely powerful attack helicopter.",
-                    price = 1000
+		{
+                    name = "UH-1B Gunship",
+                    entityname = "lvs_helicopter_uh1b_gunship",
+                    description = "A slower but more sturdy attack helicopter.",
+                    price = 250
                 },
-		        {
-                    name = "Chinook",
-                    entityname = "lvs_chinook",
+		{
+                    name = "AH-6A",
+                    entityname = "lvs_helicopter_ah6a",
+                    description = "A faster but more feeble attack helicopter.",
+                    price = 250
+                },
+		{
+                    name = "MH-6",
+                    entityname = "lvs_helicopter_ah6m",
+                    description = "A smaller but faster transport helicopter.",
+                    price = 150
+                },
+		{
+                    name = "AH-1G",
+                    entityname = "lvs_helicopter_ah1g",
+                    description = "A cheaper slightly weaker attack helicopter.",
+                    price = 350
+                },
+                {
+                    name = "AH-64A",
+                    entityname = "lvs_helicopter_ah64a",
+                    description = "Deploy a extremely powerful attack helicopter.",
+                    price = 500
+                },
+		{
+                    name = "UH-1B",
+                    entityname = "lvs_helicopter_uh1b",
                     description = "Deploy a helicopter for transportation.",
-                    price = 400
+                    price = 100
                 },
             }
         }
@@ -1271,13 +1295,13 @@ imperium_specializations = {
                     description = "Deploy a truck to transport troops.",
                     price = 200
                 },
-		        {
+		{
                     name = "Ural-4320 Cargo Transport",
                     entityname = "sw_ural4320",
                     description = "Deploy a supply truck to transport resources and supplies.",
                     price = 150
                 },
-		        {
+		{
                     name = "AA Half Track",
                     entityname = "lvs_wheeldrive_dodhalftrack_us",
                     description = "Take an old classic for a spin.",
@@ -1327,7 +1351,7 @@ imperium_specializations = {
                     description = "Deploy a truck to transport troops.",
                     price = 200
                 },
-		        {
+		{
                     name = "Gaz-AAA Cargo Transport",
                     entityname = "sw_gaz_aaa_cargo",
                     description = "Deploy a supply truck to transport resources and supplies",
