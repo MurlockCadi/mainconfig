@@ -1057,17 +1057,41 @@ imperium_specializations = {
             SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
             Prefix = "PI",
             vehicles = {
-                {
-                    name = "AH-64",
-                    entityname = "sw_ah64",
+				 {
+                    name = "UH-1B Gunship",
+                    entityname = "lvs_helicopter_uh1b_gunship",
+                    description = "A slower but more sturdy attack helicopter.",
+                    price = 250
+                },
+			 {
+                    name = "AH-6A",
+                    entityname = "lvs_helicopter_ah6a",
+                    description = "A faster but more feeble attack helicopter.",
+                    price = 250
+                },
+			 {
+                    name = "MH-6",
+                    entityname = "lvs_helicopter_ah6m",
+                    description = "A smaller but faster transport helicopter.",
+                    price = 150
+                },
+			{
+                    name = "AH-1G",
+                    entityname = "lvs_helicopter_ah1g",
+                    description = "A cheaper slightly weaker attack helicopter.",
+                    price = 350
+                },
+                        {
+                    name = "AH-64A",
+                    entityname = "lvs_helicopter_ah64a",
                     description = "Deploy a extremely powerful attack helicopter.",
-                    price = 1000
+                    price = 500
                 },
 		        {
-                    name = "Chinook",
-                    entityname = "lvs_chinook",
+                    name = "UH-1B",
+                    entityname = "lvs_helicopter_uh1b",
                     description = "Deploy a helicopter for transportation.",
-                    price = 400
+                    price = 100
                 },
             }
         }
