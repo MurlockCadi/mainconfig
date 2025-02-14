@@ -1129,6 +1129,12 @@ imperium_specializations = {
                     description = "Less powerful than the T-72, but still formidable.",
                     price = 750
                 },
+                {
+                    name = "Tiger",
+                    entityname = "lvs_wheeldrive_dodtiger",
+                    description = "Relic of a war fought long ago... Its legacy lives on.",
+                    price = 750
+                },
             }
         }
     },
@@ -1157,7 +1163,13 @@ imperium_specializations = {
                     entityname = "sw_leo2a4",
                     description = "The West German Tank that shall destroy all, with speed and power. It is the best tank in the game.",
                     price = 1000
-                }
+                },
+                {
+                    name = "Tiger",
+                    entityname = "lvs_wheeldrive_dodtiger",
+                    description = "Relic of a war fought long ago... Its legacy lives on.",
+                    price = 750
+                },
             }
         }
     },
