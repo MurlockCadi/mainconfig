@@ -149,7 +149,7 @@ end
 
 ---------------------------------------------
 
-faction_player_count_limit = 0
+faction_player_count_limit = 10
 
 --------SPEED-----------
 
@@ -1028,17 +1028,41 @@ imperium_specializations = {
             SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
             Prefix = "PI",
             vehicles = {
-                {
-                    name = "MI-17 MD",
-                    entityname = "sw_mi17md",
-                    description = "Deploy a helicopter for transportation.",
-                    price = 400
-                },
-		{
-                    name = "KA-52",
-                    entityname = "sw_ka52",
+			{
+                    name = "MI-28",
+                    entityname = "lvs_helicopter_mi28",
                     description = "Deploy a extremely powerful attack helicopter.",
                     price = 1000
+                },	
+				{
+                    name = "MI-24P",
+                    entityname = "lvs_helicopter_mi24p",
+                    description = "A medium tier attack helicopter.",
+                    price = 500
+                },
+				{
+                    name = "KA-29",
+                    entityname = "lvs_helicopter_ka29",
+                    description = "A stronger but slower attack helicopters.",
+                    price = 350
+                },
+				{
+                    name = "KA-60",
+                    entityname = "lvs_helicopter_ka60",
+                    description = "A transport helicopter with more seats but slower.",
+                    price = 100
+                },
+                {
+                    name = "MI-2",
+                    entityname = "lvs_helicopter_mi2",
+                    description = "Deploy a helicopter for quick transportation.",
+                    price = 150
+                },
+		{
+                    name = "MI-2 Gunship",
+                    entityname = "lvs_helicopter_mi2_gunship",
+                    description = "Deploy a faster but more weaker helicopter.",
+                    price = 350
                 },
             }
         }
@@ -1061,13 +1085,13 @@ imperium_specializations = {
                     name = "UH-1B Gunship",
                     entityname = "lvs_helicopter_uh1b_gunship",
                     description = "A slower but more sturdy attack helicopter.",
-                    price = 250
+                    price = 350
                 },
 		{
                     name = "AH-6A",
                     entityname = "lvs_helicopter_ah6a",
                     description = "A faster but more feeble attack helicopter.",
-                    price = 250
+                    price = 350
                 },
 		{
                     name = "MH-6",
@@ -1078,14 +1102,14 @@ imperium_specializations = {
 		{
                     name = "AH-1G",
                     entityname = "lvs_helicopter_ah1g",
-                    description = "A cheaper slightly weaker attack helicopter.",
-                    price = 350
+                    description = "A medium tier attack helicopter.",
+                    price = 500
                 },
                 {
                     name = "AH-64A",
                     entityname = "lvs_helicopter_ah64a",
                     description = "Deploy a extremely powerful attack helicopter.",
-                    price = 500
+                    price = 1000
                 },
 		{
                     name = "UH-1B",
