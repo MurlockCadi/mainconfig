@@ -1028,7 +1028,7 @@ imperium_specializations = {
             SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
             Prefix = "PI",
             vehicles = {
-			{
+		{
                     name = "MI-28",
                     entityname = "lvs_helicopter_mi28",
                     description = "Deploy a extremely powerful attack helicopter.",
@@ -1146,7 +1146,6 @@ imperium_specializations = {
                     description = "An old tank, but still effective.",
                     price = 500
                 },
-
                 {
                     name = "T-62",
                     entityname = "lvs_wheeldrive_t62",
