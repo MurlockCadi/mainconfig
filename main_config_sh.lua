@@ -1088,8 +1088,8 @@ imperium_specializations = {
                     price = 350
                 },
 		{
-                    name = "AH-6A",
-                    entityname = "lvs_helicopter_ah6a",
+                    name = "OH-6A",
+                    entityname = "lvs_helicopter_oh6a",
                     description = "A faster but more feeble attack helicopter.",
                     price = 350
                 },
