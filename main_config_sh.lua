@@ -98,7 +98,7 @@ intro_image_urls = {
 
 non_attack_reduction = 0.25
 
-outpost_cost = 500
+outpost_cost = 750
 
 --GAMEPLAY VARS------------------------
 
