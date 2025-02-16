@@ -1158,6 +1158,12 @@ imperium_specializations = {
                     description = "Relic of a war fought long ago... Its legacy lives on.",
                     price = 750
                 },
+		{
+                    name = "Dodkuebelwagen",
+                    entityname = "lvs_wheeldrive_dodkuebelwagen",
+                    description = "Deploy a fast vehicle.",
+                    price = 100
+                },
             }
         }
     },
@@ -1192,6 +1198,12 @@ imperium_specializations = {
                     entityname = "lvs_wheeldrive_dodtiger",
                     description = "Relic of a war fought long ago... Its legacy lives on.",
                     price = 700
+                },
+		{
+                    name = "Jeep",
+                    entityname = "lvs_wheeldrive_dodwillyjeep",
+                    description = "Deploy a fast vehicle.",
+                    price = 100
                 },
             }
         }
@@ -1233,6 +1245,12 @@ imperium_specializations = {
                     entityname = "sw_marder1a5",
                     description = "Diverse and versatile, the Marder is the powerful APC with anti-infantry and anti-tank support.",
                     price = 600
+                },
+		{
+                    name = "Jeep",
+                    entityname = "lvs_wheeldrive_dodwillyjeep",
+                    description = "Deploy a fast vehicle.",
+                    price = 100
                 },
             }
         }
@@ -1287,6 +1305,12 @@ imperium_specializations = {
                     description = "Not as powerful as the BMP-3M, but it is another formidable APC.",
                     price = 700
                 }
+		{
+                    name = "Dodkuebelwagen",
+                    entityname = "lvs_wheeldrive_dodkuebelwagen",
+                    description = "Deploy a fast vehicle.",
+                    price = 100
+                },
             }
         }
     },
@@ -1342,6 +1366,12 @@ imperium_specializations = {
                     description = "Take an old classic for a spin.",
                     price = 500
                 },
+		{
+                    name = "Jeep",
+                    entityname = "lvs_wheeldrive_dodwillyjeep",
+                    description = "Deploy a fast vehicle.",
+                    price = 100
+                },
             }
         }
     },
@@ -1391,6 +1421,12 @@ imperium_specializations = {
                     entityname = "sw_gaz_aaa_cargo",
                     description = "Deploy a supply truck to transport resources and supplies",
                     price = 150
+                },
+		{
+                    name = "Dodkuebelwagen",
+                    entityname = "lvs_wheeldrive_dodkuebelwagen",
+                    description = "Deploy a fast vehicle.",
+                    price = 100
                 },
             }
         }
