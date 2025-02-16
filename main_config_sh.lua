@@ -1771,8 +1771,8 @@ imperium_specializations = {
             Prefix = "ARTY"
         },
     },
-    ["Anti-Tank"] = {
-        DivisionTypes = ALL_DIVISIONS,
+    ["NATO Anti-Tank"] = {
+        DivisionTypes = NATO_DIVISIONS,
         Description = "Combining both Anti-Tank and Anti-Air capabilities, this class is the ultimate anti-vehicle unit.\n\nAble to deploy both anti-tank and anti-air emplacements, this class has the tools to deal with any hostile vehicle.\n\nEquipped with anti-tank mines, AT grenades, and an AT4 anti-tank rocket launcher.",
         Supply = 5000,
         WeeklyActivity = 30,
@@ -1802,6 +1802,40 @@ imperium_specializations = {
                 },
             },
             SpawnWeapons = {"ent_spawner","cw_bo1_m72_law","weapon_lvsmines","nam_bze39_frag"},
+            Prefix = "AT"
+        },
+    },
+    ["WARSAW Anti-Tank"] = {
+        DivisionTypes = WARSAW_DIVISIONS,
+        Description = "Combining both Anti-Tank and Anti-Air capabilities, this class is the ultimate anti-vehicle unit.\n\nAble to deploy both anti-tank and anti-air emplacements, this class has the tools to deal with any hostile vehicle.\n\nEquipped with anti-tank mines, AT grenades, and an RPG anti-tank rocket launcher.",
+        Supply = 5000,
+        WeeklyActivity = 30,
+        Class = {
+            Name = "Anti-Tank",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            EntitySpawner = {
+                {
+                    name = "AT Gun",
+                    entityname = "lvs_trailer_pak40",
+                    description = "AT Gun to destroy enemy tanks and mechanised.",
+                    price = 300
+                },
+                {
+                    name = "AA Gun",
+                    entityname = "sw_zu232",
+                    description = "AA Gun to shoot down enemy aircraft.",
+                    price = 200
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+            },
+            SpawnWeapons = {"ent_spawner","ins2_atow_rpg7","weapon_lvsmines","nam_bze39_frag"},
             Prefix = "AT"
         },
     },
