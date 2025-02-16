@@ -1304,7 +1304,7 @@ imperium_specializations = {
                     entityname = "sw_bmp2",
                     description = "Not as powerful as the BMP-3M, but it is another formidable APC.",
                     price = 700
-                }
+                },
 		{
                     name = "Dodkuebelwagen",
                     entityname = "lvs_wheeldrive_dodkuebelwagen",
