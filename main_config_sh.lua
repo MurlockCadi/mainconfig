@@ -90,7 +90,7 @@ intro_image_urls = {
     "https://i.imgur.com/EwEck2o.jpeg",
     "https://i.imgur.com/04iZo4x.jpeg",
     "https://i.imgur.com/N6ruS0g.jpeg",
-    "https://i.imgur.com/hLZRdkf.jpeg"
+    "https://i.imgur.com/l3ueqf0.jpeg"
 }
 
 
