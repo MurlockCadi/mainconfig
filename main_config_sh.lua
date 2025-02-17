@@ -1032,37 +1032,37 @@ imperium_specializations = {
                     name = "MI-28",
                     entityname = "lvs_helicopter_mi28",
                     description = "Deploy a extremely powerful attack helicopter.",
-                    price = 1000
+                    price = 2000
                 },	
 				{
                     name = "MI-24P",
                     entityname = "lvs_helicopter_mi24p",
                     description = "A medium tier attack helicopter.",
-                    price = 500
+                    price = 1000
                 },
 				{
                     name = "KA-29",
                     entityname = "lvs_helicopter_ka29",
                     description = "A stronger but slower attack helicopters.",
-                    price = 350
+                    price = 700
                 },
 				{
                     name = "KA-60",
                     entityname = "lvs_helicopter_ka60",
                     description = "A transport helicopter with more seats but slower.",
-                    price = 100
+                    price = 200
                 },
                 {
                     name = "MI-2",
                     entityname = "lvs_helicopter_mi2",
                     description = "Deploy a helicopter for quick transportation.",
-                    price = 150
+                    price = 300
                 },
 		{
                     name = "MI-2 Gunship",
                     entityname = "lvs_helicopter_mi2_gunship",
                     description = "Deploy a faster but more weaker helicopter.",
-                    price = 350
+                    price = 700
                 },
             }
         }
@@ -1085,37 +1085,37 @@ imperium_specializations = {
                     name = "UH-1B Gunship",
                     entityname = "lvs_helicopter_uh1b_gunship",
                     description = "A slower but more sturdy attack helicopter.",
-                    price = 350
+                    price = 650
                 },
 		{
                     name = "OH-6A",
                     entityname = "lvs_helicopter_oh6a",
                     description = "A faster but more feeble attack helicopter.",
-                    price = 350
+                    price = 550
                 },
 		{
                     name = "MH-6",
                     entityname = "lvs_helicopter_ah6m",
                     description = "A smaller but faster transport helicopter.",
-                    price = 150
+                    price = 300
                 },
 		{
                     name = "AH-1G",
                     entityname = "lvs_helicopter_ah1g",
                     description = "A medium tier attack helicopter.",
-                    price = 500
+                    price = 850
                 },
                 {
                     name = "AH-64A",
                     entityname = "lvs_helicopter_ah64a",
                     description = "Deploy a extremely powerful attack helicopter.",
-                    price = 1000
+                    price = 1900
                 },
 		{
                     name = "UH-1B",
                     entityname = "lvs_helicopter_uh1b",
                     description = "Deploy a helicopter for transportation.",
-                    price = 100
+                    price = 200
                 },
             }
         }
@@ -1138,25 +1138,25 @@ imperium_specializations = {
                     name = "T-72",
                     entityname = "sw_t72b3",
                     description = "Deploy a formidable heavy tank for armored support.",
-                    price = 1750
+                    price = 1700
                 },
                 {
                     name = "T-34",
                     entityname = "lvs_wheeldrive_t34e",
                     description = "An old tank, but still effective.",
-                    price = 500
+                    price = 350
                 },
                 {
                     name = "T-62",
                     entityname = "lvs_wheeldrive_rp_t62",
                     description = "Less powerful than the T-72, but still formidable.",
-                    price = 1000
+                    price = 700
                 },
                 {
                     name = "Tiger",
                     entityname = "lvs_wheeldrive_dodtiger",
                     description = "Relic of a war fought long ago... Its legacy lives on.",
-                    price = 750
+                    price = 500
                 },
 		{
                     name = "Dodkuebelwagen",
@@ -1185,19 +1185,19 @@ imperium_specializations = {
                     name = "M60 Patton",
                     entityname = "lvs_wheeldrive_rp_m60",
                     description = "Deploy a heavy tank for armored support.",
-                    price = 1000
+                    price = 700
                 },
                 {
                     name = "Leopard",
                     entityname = "sw_leo2a4",
                     description = "The West German Tank that shall destroy all, with speed and power. It is the best tank in the game.",
-                    price = 1750
+                    price = 1700
                 },
                 {
                     name = "Tiger",
                     entityname = "lvs_wheeldrive_dodtiger",
                     description = "Relic of a war fought long ago... Its legacy lives on.",
-                    price = 700
+                    price = 450
                 },
 		{
                     name = "Jeep",
