@@ -1834,7 +1834,7 @@ imperium_specializations = {
         },
         Weapons = {},
         SpawnWeapons = {"cw_rpd_new", "cw_makarov", "nam_m18_smoke"},
-        Prefix = "HVY"
+        Prefix = "HVY",
 	EntitySpawner = {
                 {
                     name = "Medic Box",
