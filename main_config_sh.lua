@@ -1833,7 +1833,7 @@ imperium_specializations = {
             "models/madivan18/9th_operators/anton_9th_operator.mdl"
         },
         Weapons = {},
-        SpawnWeapons = {"cw_rpd_new", "cw_makarov", "nam_m18_smoke"},
+        SpawnWeapons = {"cw_rpd_new", "cw_makarov", "nam_m18_smoke","ent_spawner"},
         Prefix = "HVY",
 	EntitySpawner = {
                 {
