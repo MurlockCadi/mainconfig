@@ -98,7 +98,7 @@ intro_image_urls = {
 
 non_attack_reduction = 0.25
 
-outpost_cost = 750
+outpost_cost = 1000
 
 --GAMEPLAY VARS------------------------
 
@@ -1032,37 +1032,37 @@ imperium_specializations = {
                     name = "MI-28",
                     entityname = "lvs_helicopter_mi28",
                     description = "Deploy a extremely powerful attack helicopter.",
-                    price = 2000
+                    price = 2500
                 },	
 				{
                     name = "MI-24P",
                     entityname = "lvs_helicopter_mi24p",
                     description = "A medium tier attack helicopter.",
-                    price = 1000
+                    price = 1250
                 },
 				{
                     name = "KA-29",
                     entityname = "lvs_helicopter_ka29",
                     description = "A stronger but slower attack helicopters.",
-                    price = 700
+                    price = 1000
                 },
 				{
                     name = "KA-60",
                     entityname = "lvs_helicopter_ka60",
                     description = "A transport helicopter with more seats but slower.",
-                    price = 200
+                    price = 500
                 },
                 {
                     name = "MI-2",
                     entityname = "lvs_helicopter_mi2",
                     description = "Deploy a helicopter for quick transportation.",
-                    price = 300
+                    price = 600
                 },
 		{
                     name = "MI-2 Gunship",
                     entityname = "lvs_helicopter_mi2_gunship",
                     description = "Deploy a faster but more weaker helicopter.",
-                    price = 700
+                    price = 1000
                 },
             }
         }
@@ -1085,37 +1085,37 @@ imperium_specializations = {
                     name = "UH-1B Gunship",
                     entityname = "lvs_helicopter_uh1b_gunship",
                     description = "A slower but more sturdy attack helicopter.",
-                    price = 650
+                    price = 1000
                 },
 		{
                     name = "OH-6A",
                     entityname = "lvs_helicopter_oh6a",
                     description = "A faster but more feeble attack helicopter.",
-                    price = 550
+                    price = 760
                 },
 		{
                     name = "MH-6",
                     entityname = "lvs_helicopter_ah6m",
                     description = "A smaller but faster transport helicopter.",
-                    price = 300
+                    price = 500
                 },
 		{
                     name = "AH-1G",
                     entityname = "lvs_helicopter_ah1g",
                     description = "A medium tier attack helicopter.",
-                    price = 850
+                    price = 1000
                 },
                 {
                     name = "AH-64A",
                     entityname = "lvs_helicopter_ah64a",
                     description = "Deploy a extremely powerful attack helicopter.",
-                    price = 1900
+                    price = 2500
                 },
 		{
                     name = "UH-1B",
                     entityname = "lvs_helicopter_uh1b",
                     description = "Deploy a helicopter for transportation.",
-                    price = 200
+                    price = 500
                 },
             }
         }
@@ -1138,31 +1138,31 @@ imperium_specializations = {
                     name = "T-72",
                     entityname = "sw_t72b3",
                     description = "Deploy a formidable heavy tank for armored support.",
-                    price = 1700
+                    price = 2500
                 },
                 {
                     name = "T-34",
                     entityname = "lvs_wheeldrive_t34e",
                     description = "An old tank, but still effective.",
-                    price = 350
+                    price = 600
                 },
                 {
                     name = "T-62",
                     entityname = "lvs_wheeldrive_rp_t62",
                     description = "Less powerful than the T-72, but still formidable.",
-                    price = 700
+                    price = 1000
                 },
                 {
                     name = "Tiger",
                     entityname = "lvs_wheeldrive_dodtiger",
                     description = "Relic of a war fought long ago... Its legacy lives on.",
-                    price = 500
+                    price = 750
                 },
 		{
                     name = "Dodkuebelwagen",
                     entityname = "lvs_wheeldrive_dodkuebelwagen",
                     description = "Deploy a fast vehicle.",
-                    price = 100
+                    price = 250
                 },
             }
         }
@@ -1185,25 +1185,25 @@ imperium_specializations = {
                     name = "M60 Patton",
                     entityname = "lvs_wheeldrive_rp_m60",
                     description = "Deploy a heavy tank for armored support.",
-                    price = 700
+                    price = 1000
                 },
                 {
                     name = "Leopard",
                     entityname = "sw_leo2a4",
                     description = "The West German Tank that shall destroy all, with speed and power. It is the best tank in the game.",
-                    price = 1700
+                    price = 2500
                 },
                 {
                     name = "Tiger",
                     entityname = "lvs_wheeldrive_dodtiger",
                     description = "Relic of a war fought long ago... Its legacy lives on.",
-                    price = 450
+                    price = 750
                 },
 		{
                     name = "Jeep",
                     entityname = "lvs_wheeldrive_dodwillyjeep",
                     description = "Deploy a fast vehicle.",
-                    price = 100
+                    price = 200
                 },
             }
         }
@@ -1226,31 +1226,31 @@ imperium_specializations = {
                     name = "M113",
                     entityname = "sw_m113",
                     description = "Deploy an APC for troop transport and light support with a MG.",
-                    price = 300
+                    price = 600
                 },
                 {
                     name = "M1064 Mortar",
                     entityname = "sw_m1064",
                     description = "Deploy an APC for Mortar support and light support with a MG.",
-                    price = 300
+                    price = 600
                 },
                 {
                     name = "M163",
                     entityname = "sw_m163",
                     description = "Deploy an APC with a heavy machine gun for heavy anti-infantry support.",
-                    price = 300
+                    price = 600
                 },
 		        {
                     name = "Marder",
                     entityname = "sw_marder1a5",
                     description = "Diverse and versatile, the Marder is the powerful APC with anti-infantry and anti-tank support.",
-                    price = 600
+                    price = 1000
                 },
 		{
                     name = "Jeep",
                     entityname = "lvs_wheeldrive_dodwillyjeep",
                     description = "Deploy a fast vehicle.",
-                    price = 100
+                    price = 200
                 },
             }
         }
@@ -1273,19 +1273,19 @@ imperium_specializations = {
                     name = "BMP-3M",
                     entityname = "sw_bmp3m",
                     description = "An APC that mixes anti-infantry and anti-tank capabilities. Ultimate versatility. It could be classified as a light tank.",
-                    price = 800
+                    price = 1000
                 },
 		        {
                     name = "K-17",
                     entityname = "sw_k17",
                     description = "Deploy an APC for troop transport and fire support.",
-                    price = 650
+                    price = 900
                 },
                 {
                     name = "BMP-1",
                     entityname = "sw_bmp1",
                     description = "An old APC, but still effective.",
-                    price = 300
+                    price = 600
                 },
                 {
                     name = "BMP-1AM",
@@ -1297,19 +1297,19 @@ imperium_specializations = {
                     name = "BMP-1M",
                     entityname = "sw_bmp1m",
                     description = "The Versatile APC with heavy anti-tank shells.",
-                    price = 600
+                    price = 1000
                 },
                 {
                     name = "BMP-1M",
                     entityname = "sw_bmp2",
                     description = "Not as powerful as the BMP-3M, but it is another formidable APC.",
-                    price = 700
+                    price = 1000
                 },
 		{
                     name = "Dodkuebelwagen",
                     entityname = "lvs_wheeldrive_dodkuebelwagen",
                     description = "Deploy a fast vehicle.",
-                    price = 100
+                    price = 200
                 },
             }
         }
@@ -1332,7 +1332,7 @@ imperium_specializations = {
                     name = "Ammo Supplies",
                     entityname = "universal_ammo_small",
                     description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 10
+                    price = 100
                 },
                 {
                     name = "Radio",
@@ -1352,25 +1352,25 @@ imperium_specializations = {
                     name = "Ural-4320 Troop Transport",
                     entityname = "sw_ural4320_troop",
                     description = "Deploy a truck to transport troops.",
-                    price = 200
+                    price = 300
                 },
 		{
                     name = "Ural-4320 Cargo Transport",
                     entityname = "sw_ural4320",
                     description = "Deploy a supply truck to transport resources and supplies.",
-                    price = 150
+                    price = 250
                 },
 		{
                     name = "AA Half Track",
                     entityname = "lvs_wheeldrive_dodhalftrack_us",
                     description = "Take an old classic for a spin.",
-                    price = 500
+                    price = 600
                 },
 		{
                     name = "Jeep",
                     entityname = "lvs_wheeldrive_dodwillyjeep",
                     description = "Deploy a fast vehicle.",
-                    price = 100
+                    price = 200
                 },
             }
         }
@@ -1394,7 +1394,7 @@ imperium_specializations = {
                     name = "Ammo Supplies",
                     entityname = "universal_ammo_small",
                     description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 10
+                    price = 100
                 },
                 {
                     name = "Radio",
@@ -1414,19 +1414,19 @@ imperium_specializations = {
                     name = "Zis-12 Troop Transport",
                     entityname = "sw_zis12_troop",
                     description = "Deploy a truck to transport troops.",
-                    price = 200
+                    price = 300
                 },
 		{
                     name = "Gaz-AAA Cargo Transport",
                     entityname = "sw_gaz_aaa_cargo",
                     description = "Deploy a supply truck to transport resources and supplies",
-                    price = 150
+                    price = 250
                 },
 		{
                     name = "Dodkuebelwagen",
                     entityname = "lvs_wheeldrive_dodkuebelwagen",
                     description = "Deploy a fast vehicle.",
-                    price = 100
+                    price = 200
                 },
             }
         }
@@ -1451,7 +1451,7 @@ imperium_specializations = {
                     name = "Medic Box",
                     entityname = "medic_box",
                     description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 10
+                    price = 100
                 },
                 {
                     name = "Radio",
@@ -1479,7 +1479,7 @@ imperium_specializations = {
                     name = "Ammo Supplies",
                     entityname = "universal_ammo_small",
                     description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 10
+                    price = 100
                 },
                 {
                     name = "Radio",
@@ -1497,13 +1497,13 @@ imperium_specializations = {
                     name = "Bomb",
                     entityname = "sw_bomb_fab1000m44_v3",
                     description = "Deploy a powerful bomb... Don't ask why.",
-                    price = 100
+                    price = 500
                 },
                 {
                     name = "Machine Gun",
                     entityname = "sw_mtpu",
                     description = "Deploy a machine gun for defense.",
-                    price = 100
+                    price = 250
                 }
             }
         }
@@ -1712,19 +1712,19 @@ imperium_specializations = {
                     name = "Mustang",
                     entityname = "ent_horse_mustang",
                     description = "Mustang Breed. Fast and Wild. Horse of the Castilians of old and Indians.",
-                    price = 100
+                    price = 200
                 },
                 {
                     name = "Arabian",
                     entityname = "ent_horse_arabian",
                     description = "Arabian Breed. Proud and Free. Horse of Saladin and of the Turks.",
-                    price = 100
+                    price = 200
                 },
                 {
                     name = "Ardennes",
                     entityname = "ent_horse_ardennes",
                     description = "Ardennes Breed. Strong and Loyal. Horse of the Benelux, Horse of Napoleon.",
-                    price = 100
+                    price = 200
                 },
                 {
                     name = "Radio",
@@ -1752,13 +1752,13 @@ imperium_specializations = {
                     name = "Artillery Gun",
                     entityname = "sw_2a36",
                     description = "Powerful artillery gun that can destroy enemy fortifications and infantry.",
-                    price = 400
+                    price = 600
                 },
                 {
                     name = "Mortar",
                     entityname = "sw_2b11",
                     description = "Deploy a mortar for indirect fire support.",
-                    price = 100
+                    price = 300
                 },
                 {
                     name = "Radio",
@@ -1786,7 +1786,7 @@ imperium_specializations = {
                     name = "AT Gun",
                     entityname = "lvs_trailer_pak40",
                     description = "AT Gun to destroy enemy tanks and mechanised.",
-                    price = 300
+                    price = 500
                 },
                 {
                     name = "AA Gun",
