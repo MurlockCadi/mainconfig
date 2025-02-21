@@ -1851,7 +1851,7 @@ imperium_specializations = {
             }
         }
     }
-},
+}
 
 ROLES = ROLES or {
     STAFF = {
