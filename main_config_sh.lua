@@ -1853,21 +1853,6 @@ imperium_specializations = {
     },
 },
 
--- Hook to give 150 armor and reduce speed by 20% on spawn
-hook.Add("PlayerSpawn", "ModifyHeavyAssaultAttributes", function(ply)
-    if ply:GetNWString("Class") == "Heavy Assault" then
-        ply:SetArmor(150) -- Grants 150 armor
-
-        local defaultRunSpeed = 240 -- Default GMod sprint speed
-        local reducedSpeed = defaultRunSpeed * 0.8 -- 20% speed reduction
-        ply:SetRunSpeed(reducedSpeed) -- Apply reduced speed
-    end
-end)
-
-}
-
-
-
 ROLES = ROLES or {
     STAFF = {
         NiceName = "STAFF ON DUTY",
