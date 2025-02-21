@@ -1820,6 +1820,50 @@ imperium_specializations = {
             Prefix = "AT"
         },
     },
+    ["Heavy Assault"] = {
+    DivisionTypes = {"East German Division"},
+    Description = "Heavy Assault soldiers are the backbone of any frontline attack. Equipped with powerful weapons and enhanced protection, they are built to sustain and deliver heavy firepower.\n\nTheir resilience allows them to absorb more damage, but their increased armor comes at the cost of mobility.\n\nThey are equipped with a light machine gun, a sidearm, and smoke grenades to provide cover during engagements.",
+    Supply = 10000,
+    WeeklyActivity = 60,
+    Class = {
+        Name = "Heavy Assault",
+        Default = false,
+        Models = {
+            "models/madivan18/9th_operators/anton_9th_heavy.mdl",
+            "models/madivan18/9th_operators/anton_9th_operator.mdl"
+        },
+        Weapons = {},
+        SpawnWeapons = {"cw_rpd_new", "cw_makarov", "nam_m18_smoke"},
+        Prefix = "HVY"
+	EntitySpawner = {
+                {
+                    name = "Medic Box",
+                    entityname = "medic_box",
+                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
+                    price = 50
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                }
+            }
+        }
+    },
+},
+
+-- Hook to give 150 armor and reduce speed by 20% on spawn
+hook.Add("PlayerSpawn", "ModifyHeavyAssaultAttributes", function(ply)
+    if ply:GetNWString("Class") == "Heavy Assault" then
+        ply:SetArmor(150) -- Grants 150 armor
+
+        local defaultRunSpeed = 240 -- Default GMod sprint speed
+        local reducedSpeed = defaultRunSpeed * 0.8 -- 20% speed reduction
+        ply:SetRunSpeed(reducedSpeed) -- Apply reduced speed
+    end
+end)
+
 }
 
 
