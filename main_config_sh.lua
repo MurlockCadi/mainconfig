@@ -149,7 +149,7 @@ end
 
 ---------------------------------------------
 
-faction_player_count_limit = 10
+faction_player_count_limit = 5
 
 --------SPEED-----------
 
