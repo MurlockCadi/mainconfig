@@ -448,6 +448,15 @@ SOVIETS_MODELS = {
 SOVIET_CO_MODELS = {"models/playermodel/soviet/boris_offduty_pm.mdl","models/playermodel/soviet/boris_infantry_officer_pm.mdl","models/playermodel/soviet/alvin_offduty_pm.mdl","models/playermodel/soviet/alvin_infantry_officer_pm.mdl","models/playermodel/soviet/monika_offduty_pm.mdl","models/playermodel/soviet/tabatabai_infantry_officer_pm.mdl","models/playermodel/soviet/tabatabai_offduty_pm.mdl","models/playermodel/soviet/viktor_infantry_officer_pm.mdl","models/playermodel/soviet/zurich_infantry_officer_pm.mdl","models/playermodel/soviet/zurich_offduty_pm.mdl"}
 SOVIETS_DEFAULT_LOADOUT = {"cw_nam_akm","cw_nam_tokarev_tt33","doi_atow_brassknuckles"}
 
+SOVIETS_CHECHEN = {
+    "models/chri/chechen/player/boevik_male_02_pm.mdl",
+    "models/chri/chechen/player/boevik_male_04_pm.mdl",
+    "models/chri/chechen/player/boevik_male_06_pm.mdl",
+    "models/chri/chechen/player/boevik_male_07_pm.mdl",
+    "models/chri/chechen/player/boevik_male_08_pm.mdl",
+    "models/chri/chechen/player/boevik_male_09_pm.mdl"
+}
+
 -- Generic Eastern Bloc (Done)
 EASTERN_BLOC_MODELS = {"models/kuge/fictional/balkan/80-90s/balkans-1-pm.mdl"}
 EASTERN_BLOC_DEFAULT_LOADOUT = {"cw_nam_akm","cw_nam_tokarev_tt33","doi_atow_brassknuckles"}
@@ -471,6 +480,7 @@ COMMUNIST_CHINA_DEFAULT_LOADOUT = {"cw_nam_akm","cw_nambu_type_14","doi_atow_kni
 -- American Communists 
 AMERICAN_COMMUNISTS_MODELS = {"models/csgoanarchist1pm.mdl","models/csgoanarchist2pm.mdl","models/csgoanarchist3pm.mdl","models/csgoanarchist4pm.mdl"}
 AMERICAN_COMMUNISTS_DEFAULT_LOADOUT = {"cw_nam_mac10","doi_atow_m1911a1","doi_atow_knifeus"}
+
 
 
 -- NATO Divisions
@@ -775,6 +785,35 @@ DivisionTypes = {
             {ID = 11, Name = "Майор (Major)", Rank_Prefix = "MAJ", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
             {ID = 12, Name = "Подполковник (Lieutenant Colonel)", Rank_Prefix = "PPK", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
             {ID = 13, Name = "Полковник (Colonel)", Rank_Prefix = "PLK", ModelsAllowed = SOVIET_CO_MODELS, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+        },        
+        Classes = {
+            {
+                Name = "Strelok (Rifleman)",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "",
+            },
+        },
+    },
+    ["Soviet Chechen Division"] = {
+        Team = "WARSAW",
+        Description = "The Soviet Chechen Division represents the Chechen forces loyal to the USSR. Known for their fierce loyalty and combat prowess, these troops were integrated into the Soviet military structure. They specialized in guerrilla tactics, mountain warfare, and close-quarters combat, making them a formidable force in both urban and rural environments. Their unwavering dedication to the Soviet cause and their unique combat skills made them an essential part of the USSR's military operations.",
+        Ranks = {
+            {ID = 1, Name = "Рядовой (Private)", Rank_Prefix = "RYD", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 2, Name = "Ефрейтор (Corporal)", Rank_Prefix = "YEF", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 3, Name = "Младший сержант (Junior Sergeant)", Rank_Prefix = "MLS", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 4, Name = "Сержант (Sergeant)", Rank_Prefix = "SRZ", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 5, Name = "Старший сержант (Senior Sergeant)", Rank_Prefix = "SSZ", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 6, Name = "Старшина (Sergeant Major)", Rank_Prefix = "STN", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 7, Name = "Младший лейтенант (Junior Lieutenant)", Rank_Prefix = "MLT", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 8, Name = "Лейтенант (Lieutenant)", Rank_Prefix = "LT", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 9, Name = "Старший лейтенант (Senior Lieutenant)", Rank_Prefix = "SLT", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 10, Name = "Капитан (Captain)", Rank_Prefix = "KPT", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 11, Name = "Майор (Major)", Rank_Prefix = "MAJ", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 12, Name = "Подполковник (Lieutenant Colonel)", Rank_Prefix = "PPK", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
+            {ID = 13, Name = "Полковник (Colonel)", Rank_Prefix = "PLK", ModelsAllowed = SOVIETS_CHECHEN, WeaponsAllowed = SOVIETS_DEFAULT_LOADOUT},
         },        
         Classes = {
             {
