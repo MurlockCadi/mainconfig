@@ -921,7 +921,7 @@ imperium_specializations = {
                     price = 100
                 }
             },
-            SpawnWeapons = {""},
+            SpawnWeapons = {"ent_spawner"},
             Prefix = ""
         },
     }
