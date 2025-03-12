@@ -962,7 +962,7 @@ ROLES = ROLES or {
         Prefix = "BRITISH",
         Color = Color(25, 50, 25, 255),
         Description = "Entente High Command.",
-        Default = true,
+        Default = false,
         Ranks = {
             {
                 ID = 1,
@@ -990,7 +990,7 @@ ROLES = ROLES or {
         Prefix = "GERMAN",
         Color = Color(0, 50, 50, 255),
         Description = "Central Powers High Command.",
-        Default = true,
+        Default = false,
         Ranks = {
             {
                 ID = 1,
