@@ -931,6 +931,62 @@ ROLES = ROLES or {
         Team = "staff",
         staff = true
     },
+        DIVISION_BRITISH_HC = {
+        NiceName = "Entente High Command",
+        Prefix = "BRITISH",
+        Color = Color(25, 50, 25, 255),
+        Description = "Entente High Command.",
+        Default = true,
+        Ranks = {
+            {
+                ID = 1,
+                Name = "Brigadier General",
+                Rank_Prefix = "BRGDR",
+                ModelsAllowed = BRITISH_MODELS,
+                WeaponsAllowed = BRITISH_LOADOUT,
+                CanPromote = true
+            },
+        },
+        Classes = {
+            {
+                Name = "Rifleman",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+        },
+        Team = "british"
+    },
+        DIVISION_GERMAN_HC = {
+        NiceName = "Central High Command",
+        Prefix = "GERMAN",
+        Color = Color(0, 50, 50, 255),
+        Description = "Central Powers High Command.",
+        Default = true,
+        Ranks = {
+            {
+                ID = 1,
+                Name = "Generalmajor",
+                Rank_Prefix = "GNMJR",
+                ModelsAllowed = GERMAN_MODELS,
+                WeaponsAllowed = GERMAN_LOADOUT,
+                CanPromote = true
+            },
+        },
+        Classes = {
+            {
+                Name = "Rifleman",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+        },
+        Team = "german"
+    },
     DIVISION_BRITISH = {
         NiceName = "British Recruits",
         Prefix = "BRITISH",
