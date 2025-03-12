@@ -894,7 +894,33 @@ imperium_specializations = {
             Default = false,
             miner = true,
             Models = {},
-            Weapons = {""},
+            Weapons = {},
+            EntitySpawner = {
+                {
+                    name = "Ammo Box",
+                    entityname = "universal_ammo_small",
+                    description = "Deploy some Ammo!",
+                    price = 50
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+                {
+                    name = "Transport Cart",
+                    entityname = "fuel_store",
+                    description = "Cart to store Scrap and move it around.",
+                    price = 0
+                },
+                {
+                    name = "Blast Charge",
+                    entityname = "tfa_ww1_tnt",
+                    description = "Destroys Bedrock but will cause Caveins...",
+                    price = 100
+                }
+            },
             SpawnWeapons = {""},
             Prefix = ""
         },
