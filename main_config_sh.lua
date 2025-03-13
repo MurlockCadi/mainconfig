@@ -1104,6 +1104,10 @@ DivisionEnhancements = {
         end,
         Price = 25000
     },
+    ["Sleight of Hand"] = {
+        description = "Looting bodys is now Instant. Also, it now only takes 2 seconds to revive a downed player.",
+        Price = 45000
+    },
 }
 
 
