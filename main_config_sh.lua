@@ -1082,13 +1082,13 @@ DivisionEnhancements = {
         Price = 35000
     },
     ["Death and Taxes"] = {
-        description = "Gain 50% more QM Points and XP from player kills.",
+        description = "Gain 25% more QM Points and 25% more XP from player kills.",
         Price = 40000
     },
     ["Scrap Tycoon"] = {
-        description = "Gain +25% more scrap on collection. Generate Supply 50% Quicker.",
+        description = "Gain 25% more scrap on collection. Generate Supply in Factorys 50% Quicker.",
         Price = 50000
-    }
+    },
 }
 
 
