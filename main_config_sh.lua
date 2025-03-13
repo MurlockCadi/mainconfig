@@ -93,19 +93,6 @@ combat_phase = 2700
 
 entityCooldowns = {
     ["M4 Sherman"] = {cooldown = 140, lastSpawnTime = 0},
-    ["M10 Wolverine"] = {cooldown = 140, lastSpawnTime = 0},
-    ["M36 Slugger/Jackson"] = {cooldown = 300, lastSpawnTime = 0},
-    ["M4A3E2 Jumbo"] = {cooldown = 235, lastSpawnTime = 0},
-    ["M4A3E28 Easy Eight"] = {cooldown = 250, lastSpawnTime = 0},
-    ["M4 Sherman Firefly"] = {cooldown = 270, lastSpawnTime = 0},
-    ["Churchill MK.V"] = {cooldown = 300, lastSpawnTime = 0},
-    ["Panzer VI Tiger"] = {cooldown = 270, lastSpawnTime = 0},
-    ["Panzer IV F2"] = {cooldown = 140, lastSpawnTime = 0},
-    ["Panzer 2 C"] = {cooldown = 60, lastSpawnTime = 0},
-    ["Jagdpanzer V"] = {cooldown = 300, lastSpawnTime = 0},
-    ["Panther G"] = {cooldown = 280, lastSpawnTime = 0},
-    ["Stug IV"] = {cooldown = 140, lastSpawnTime = 0},
-    ["Panzer III F"] = {cooldown = 90, lastSpawnTime = 0},
 }
 
 ---------PROX CHAT------------------------------------------------------------------------------------
@@ -1080,6 +1067,36 @@ group_ranks = {
     {id = 4, points = 175, name = "Regiment", specializations = 5, ranks_unlocked = 0.80},
     {id = 5, points = 250, name = "Division", specializations = 6, ranks_unlocked = 1.0}
 }
+
+
+-------------------------DivisionEnhancements------------------------------------------------
+
+
+DivisionEnhancements = {
+    ["Reinforced Armor"] = {
+        description = "All division members gain 25 Armor.",
+        spawnfunction = function(ply)
+            ply:SetArmor( 25 )
+        end,
+        Price = 5000
+    },
+    ["Rapid Deployment"] = {
+        description = "Respawn time is reduced by 50% for all division members.",
+        spawnfunction = function(ply)
+            print("Rapid Deployment activated for " .. ply:Name())
+        end,
+        Price = 7500
+    },
+    ["Supply Surge"] = {
+        description = "Gain +30% more supply from all sources.",
+        spawnfunction = function(ply)
+            print("Supply Surge activated for " .. ply:Name())
+        end,
+        Price = 6000
+    }
+}
+
+
 
 -----------------LOAD MODELS------------------
 
