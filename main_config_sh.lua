@@ -1102,7 +1102,7 @@ DivisionEnhancements = {
         spawnfunction = function(ply)
             ply:Give( "tfa_tannenberg_shovel_m1912" )
         end,
-        Price = 20000
+        Price = 25000
     },
 }
 
