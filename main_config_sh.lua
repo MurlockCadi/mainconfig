@@ -1078,21 +1078,15 @@ DivisionEnhancements = {
         spawnfunction = function(ply)
             ply:SetArmor( 25 )
         end,
-        Price = 5000
+        Price = 35000
     },
-    ["Rapid Deployment"] = {
-        description = "Respawn time is reduced by 50% for all division members.",
-        spawnfunction = function(ply)
-            print("Rapid Deployment activated for " .. ply:Name())
-        end,
-        Price = 7500
+    ["Death and Taxes"] = {
+        description = "Gain 50% more QM Points and XP from player kills.",
+        Price = 40000
     },
-    ["Supply Surge"] = {
-        description = "Gain +30% more supply from all sources.",
-        spawnfunction = function(ply)
-            print("Supply Surge activated for " .. ply:Name())
-        end,
-        Price = 6000
+    ["Scrap Tycoon"] = {
+        description = "Gain +25% more scrap on collection. Generate Supply 50% Quicker.",
+        Price = 50000
     }
 }
 
