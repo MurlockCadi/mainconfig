@@ -1075,9 +1075,9 @@ group_ranks = {
 
 DivisionEnhancements = {
     ["Reinforced Armor"] = {
-        description = "All division members gain 25 Armor.",
+        description = "All division members gain 15 Armor.",
         spawnfunction = function(ply)
-            ply:SetArmor( 25 )
+            ply:SetArmor( 15 )
         end,
         Price = 35000
     },
@@ -1092,6 +1092,17 @@ DivisionEnhancements = {
     ["Outpost Pioneers"] = {
         description = "Outposts Deploy twice as fast and heal twice as fast. You are also refunded 75% supply when moved.",
         Price = 60000
+    },
+    ["Outpost Pioneers"] = {
+        description = "Outposts Deploy twice as fast and heal twice as fast. You are also refunded 75% supply when moved.",
+        Price = 60000
+    },
+    ["Tunnel Rats"] = {
+        description = "Dig in the Underground twice as Fast. All members spawn with a Shovel. (Non Sappers still dig slower)",
+        spawnfunction = function(ply)
+            ply:Give( "tfa_tannenberg_shovel_m1912" )
+        end,
+        Price = 20000
     },
 }
 
