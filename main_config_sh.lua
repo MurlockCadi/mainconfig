@@ -1086,8 +1086,12 @@ DivisionEnhancements = {
         Price = 40000
     },
     ["Scrap Tycoon"] = {
-        description = "Gain 25% more scrap on collection. Generate Supply in Factorys 50% Quicker.",
+        description = "Gain 25% more scrap on collection. Generate Supply in Factories 50% Quicker.",
         Price = 50000
+    },
+    ["Outpost Pioneers"] = {
+        description = "Outposts Deploy twice as fast and heal twice as fast. You are also refunded 75% supply when moved.",
+        Price = 60000
     },
 }
 
