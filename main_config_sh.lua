@@ -1091,10 +1091,7 @@ group_ranks = {
 
 DivisionEnhancements = {
     ["Reinforced Armor"] = {
-        description = "All division members gain 15 Armor.",
-        spawnfunction = function(ply)
-            ply:SetArmor( 15 )
-        end,
+        description = "When buying a Vehicle 25% is refunded. Tanks have 1000 Extra Health.",
         Price = 35000
     },
     ["Death and Taxes"] = {
