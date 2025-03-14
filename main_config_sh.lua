@@ -605,7 +605,7 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Max = 4,
-            Weapons = {"tfa_ww1_remington8_police_version”,”tfa_ww1_mausersebslander1916”,”tfa_ww1_remington8_standard”},
+            Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
             SpawnWeapons = {"fas2_ifak","ent_spawner"},
             Prefix = "MD",
             EntitySpawner = {
@@ -805,7 +805,7 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Max = 4,
-            Weapons = {"tfa_ww1_mp18","tfa_doimp34","tfa_ww1_smg0818","tfa_ww1_fedorov_avtomat”,”tfa_doim1912”,”tfa_blast_sjogren"},
+            Weapons = {"tfa_ww1_mp18","tfa_doimp34","tfa_ww1_smg0818","tfa_ww1_fedorov_avtomat","tfa_doim1912","tfa_blast_sjogren"},
             SpawnWeapons = {"hide_player","weapon_sh_mustardgas","ent_spawner"},
             EntitySpawner = {
                 {
