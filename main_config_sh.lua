@@ -824,6 +824,19 @@ imperium_specializations = {
             Prefix = "ST"
         }
     },
+    ["Sniper"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "Snipers are the true terror of the battlefield. Only heard when their bullets find their marks.",
+        Supply = 5000
+        Class = {
+            Name = "Sniper",
+            Default = false,
+            Models = {},
+            Max = 2
+            Weapons = {"tfa_doi_enfieldno4","tfa_ins2_i_mosin","tfa_verdun_g98"},
+            SpawnWeapons = {"hide_player"},
+            Prefix = "SNI",
+    }
     ["Machine Gunner"] = {
         DivisionTypes = ALL_DIVISIONS,
         Description = "Machine Guns are a new weapon of war, able to lay down a hail of bullets that can cut down entire squads of infantry. The Machine Gunner is the master of this weapon, able to deploy machine guns and ammo crates to resupply troops on the frontline.\n\nMachine Guns are the backbone of the army, able to suppress enemy infantry and fortifications with ease.",
