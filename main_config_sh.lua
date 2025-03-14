@@ -5,7 +5,7 @@
 imperium_rp_font = "Times New Roman"
 gamemode_name = "WW1 Trench Warfare RP"
 
-MAIN_MAP = "ww2_siegfried_trenches"
+MAIN_MAP = "rp_ww1_siegfriedtrenches_b01"
 ----------INTRO CONFIG-----------------------------------
 
 mapMessages = {
