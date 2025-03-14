@@ -686,7 +686,7 @@ imperium_specializations = {
             Name = "Cavalry",
             Default = false,
             Models = {},
-            Weapons = {'tfa_ww1_colt_saa”},
+            Weapons = {"tfa_ww1_colt_saa"},
             EntitySpawner = {
                 {
                     name = "Mustang",
