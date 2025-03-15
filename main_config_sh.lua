@@ -960,7 +960,7 @@ imperium_specializations = {
                     name = "Blast Charge",
                     entityname = "tfa_ww1_tnt",
                     description = "Destroys Bedrock but will cause Caveins...",
-                    price = 100
+                    price = 300
                 }
             },
             SpawnWeapons = {"ent_spawner"},
