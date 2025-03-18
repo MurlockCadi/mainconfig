@@ -826,6 +826,7 @@ imperium_specializations = {
             Weapons = {},
             SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
             Prefix = "TK",
+            Max = 3
             vehicles = {
                 {
                     name = "Renault FT Machinegun",
