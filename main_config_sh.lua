@@ -291,7 +291,9 @@ commands = {
     ["/setmain"] = function(ply) Set_Division_To_Main(ply) end,
     ["/cooldowns"] = function(ply) ResetCoolDowns(ply) end,
     ["/underground"] = function(ply) SetUndergroundPoint(ply) end,
-    ["/addsupply"] = function(ply, args) SetDivisionSupplyAdmin(ply, args) end
+    ["/addsupply"] = function(ply, args) SetDivisionSupplyAdmin(ply, args) end,
+    ["/setrolerank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
+    ["!setrolerank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
