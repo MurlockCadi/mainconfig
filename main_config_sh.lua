@@ -849,7 +849,7 @@ imperium_specializations = {
                 },
                 {
                     name = "Armored Tractor Machine Gun",
-                    entityname = "lvs_renaultft_m_rp",
+                    entityname = "lvs_aft",
                     description = "Tractor converted for war with a Machinegun.",
                     price = 1000
                 },
