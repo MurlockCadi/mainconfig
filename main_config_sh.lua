@@ -795,6 +795,14 @@ imperium_specializations = {
                 }
             },
             SpawnWeapons = {"ent_spawner","cw_nam_m79_thumper"},
+            vehicles = {
+                {
+                    name = "Armoured Artillery",
+                    entityname = "lvs_caine",
+                    description = "Powerful Artillery Cannon Mounted on an Armoured Tractor Body.",
+                    price = 1500
+                }
+            },
             Prefix = "ARTY"
         }
     },
@@ -838,7 +846,53 @@ imperium_specializations = {
                     entityname = "lvs_renaultft_m_rp",
                     description = "The French Renault FT with a cannon.",
                     price = 2000
+                },
+                {
+                    name = "Armored Tractor Machine Gun",
+                    entityname = "lvs_renaultft_m_rp",
+                    description = "Tractor converted for war with a Machinegun.",
+                    price = 1000
+                },
+                {
+                    name = "The Behemoth",
+                    entityname = "lvs_relicstorm",
+                    description = "Massive Tank with a Cannon. Its Slow but Heavily Armoured.",
+                    price = 5000
+                },
+                {
+                    name = "The Gallant Machinegun",
+                    entityname = "lvs_spire",
+                    description = "Small and Nibble, Less Armoured than a Renault FT",
+                    price = 1500
+                },
+                {
+                    name = "The Gallant Cannon",
+                    entityname = "lvs_gallant",
+                    description = "Small and Nibble, Less Armoured than a Renault FT",
+                    price = 1500
                 }
+            }
+        }
+    },
+    ["Motorized"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "Since the creation of combustion engines, many have considered how automobiles could be used in war. This class provides a variety of armored cars that can be deployed.\nCheaper and faster than tanks, they can be used to flank enemies and rush trench lines while offering good protection and decent firepower.",
+        Supply = 10000,
+        WeeklyActivity = 100,
+        Class = {
+            Name = "Motorized",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "MZ",
+            vehicles = {
+                {
+                    name = "Armored Car with Cannon",
+                    entityname = "lvs_freeman",
+                    description = "The French Renault FT with a machinegun.",
+                    price = 2000
+                },
             }
         }
     },
