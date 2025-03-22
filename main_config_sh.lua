@@ -620,15 +620,15 @@ DivisionTypes = {
 
 
 ALL_DIVISIONS = {}
-NATO_DIVISIONS = {}
-WARSAW_DIVISIONS = {}
+BRITISH_DIVISIONS = {}
+GERMAN_DIVISIONS = {}
 
 for divisionName, _ in pairs(DivisionTypes) do
     table.insert(ALL_DIVISIONS, divisionName)
-    if DivisionTypes[divisionName].Team == "NATO" then
-        table.insert(NATO_DIVISIONS, divisionName)
-    elseif DivisionTypes[divisionName].Team == "WARSAW" then
-        table.insert(WARSAW_DIVISIONS, divisionName)
+    if DivisionTypes[divisionName].Team == "british" then
+        table.insert(BRITISH_DIVISIONS, divisionName)
+    elseif DivisionTypes[divisionName].Team == "german" then
+        table.insert(GERMAN_DIVISIONS, divisionName)
     end
 end
 
@@ -911,6 +911,56 @@ imperium_specializations = {
                     description = "This is a quick and fast car with a Mounted Cannon. Quick and deadly.",
                     price = 500
                 }
+            }
+        }
+    },
+    ["German Aviator"] = {
+        DivisionTypes = GERMAN_DIVISIONS,
+        Description = "War has changed. The skies are now a battleground of aces.\n\nBiplanes tear through the air, dropping bombs and steel darts onto enemy trenches.\n\nPlanes are only effective on the Main Map.",
+        Supply = 10000,
+        WeeklyActivity = 100,
+        Class = {
+            Name = "Aviator German",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "AV",
+            vehicles = {
+                {
+                    name = "Fokker Dr.I",
+                    entityname = "lunasflightschool_fokkertrigreen",
+                    description = "German Plane, often known simply as the Fokker Triplane.",
+                    price = 500
+                },
+                {
+                    name = "Fokker Dr.I Red",
+                    entityname = "lunasflightschool_fokkertrired",
+                    description = "HIGHER, THE KING OF EHE SKY",
+                    price = 750
+                },
+            }
+        }
+    },
+    ["Allied Aviator"] = {
+        DivisionTypes = BRITISH_DIVISIONS,
+        Description = "War has changed. The skies are now a battleground of aces.\n\nBiplanes tear through the air, dropping bombs and steel darts onto enemy trenches.\n\nPlanes are only effective on the Main Map.",
+        Supply = 10000,
+        WeeklyActivity = 100,
+        Class = {
+            Name = "Allied Aviator",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "AV",
+            vehicles = {
+                {
+                    name = "Royal Aircraft Factory S.E.5",
+                    entityname = "lunasflightschool_bleriotrandom",
+                    description = "British Plane, often known simply as the Sopwith Camel",
+                    price = 500
+                },
             }
         }
     },
