@@ -1092,6 +1092,12 @@ imperium_specializations = {
                     entityname = "tfa_ww1_tnt",
                     description = "Destroys Bedrock but will cause Caveins...",
                     price = 300
+                },
+                {
+                    name = "Lamp",
+                    entityname = "ent_oil",
+                    description = "Lights the way in the dark...",
+                    price = 75
                 }
             },
             SpawnWeapons = {"ent_spawner"},
