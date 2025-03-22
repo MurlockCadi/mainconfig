@@ -862,13 +862,13 @@ imperium_specializations = {
                 {
                     name = "The Gallant Machinegun",
                     entityname = "lvs_spire",
-                    description = "Small and Nibble, Less Armoured than a Renault FT",
+                    description = "Small and Nimble, Less Armoured than a Renault FT",
                     price = 1500
                 },
                 {
                     name = "The Gallant Cannon",
                     entityname = "lvs_gallant",
-                    description = "Small and Nibble, Less Armoured than a Renault FT",
+                    description = "Small and Nimble, Less Armoured than a Renault FT",
                     price = 1500
                 }
             }
