@@ -1103,7 +1103,7 @@ imperium_specializations = {
             SpawnWeapons = {"ent_spawner"},
             Prefix = ""
         },
-    }
+    },
 }
 
 ROLES = ROLES or {
