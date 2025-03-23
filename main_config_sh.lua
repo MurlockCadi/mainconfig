@@ -839,7 +839,7 @@ imperium_specializations = {
                     name = "Renault FT Machinegun",
                     entityname = "lvs_renaultft_f_rp",
                     description = "The French Renault FT with a machinegun.",
-                    price = 2000
+                    price = 1750
                 },
                 {
                     name = "Renault FT Cannon",
@@ -848,10 +848,10 @@ imperium_specializations = {
                     price = 2000
                 },
                 {
-                    name = "Armored Tractor Machine Gun",
+                    name = "AFT",
                     entityname = "lvs_aft",
                     description = "Tractor converted for war with a Machinegun.",
-                    price = 1000
+                    price = 500
                 },
                 {
                     name = "The Behemoth",
@@ -860,16 +860,16 @@ imperium_specializations = {
                     price = 5000
                 },
                 {
-                    name = "The Gallant Machinegun",
+                    name = "The Spire",
                     entityname = "lvs_spire",
-                    description = "Small and Nibble, Less Armoured than a Renault FT",
-                    price = 1500
+                    description = "Small and Nimble, Less Armoured than a Renault FT",
+                    price = 1000
                 },
                 {
-                    name = "The Gallant Cannon",
+                    name = "The Gallant",
                     entityname = "lvs_gallant",
-                    description = "Small and Nibble, Less Armoured than a Renault FT",
-                    price = 1500
+                    description = "Small and Nimble, Less Armoured than a Renault FT",
+                    price = 1250
                 }
             }
         }
@@ -903,7 +903,7 @@ imperium_specializations = {
                     name = "Armored Car with Machinegun",
                     entityname = "lvs_obrien",
                     description = "This is a quick and fast car with a Mounted Machinegun. Quick and deadly.",
-                    price = 500
+                    price = 350
                 },
                 {
                     name = "Armored Car with Cannon",
