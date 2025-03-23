@@ -888,25 +888,25 @@ imperium_specializations = {
             Prefix = "MZ",
             vehicles = {
                 {
-                    name = "Armored Truck with Cannon",
+                    name = "The Freeman",
                     entityname = "lvs_freeman",
                     description = "Decently Armored Truck with a big Cannon perfect for taking out Tanks or providing support at a distance.",
                     price = 750
                 },
                 {
-                    name = "Armored Truck with Mortars",
+                    name = "The knave",
                     entityname = "lvs_knave",
                     description = "Decently Armored Truck with Mortars to support at a distance.",
                     price = 750
                 },
                 {
-                    name = "Armored Car with Machinegun",
+                    name = "Obrien",
                     entityname = "lvs_obrien",
                     description = "This is a quick and fast car with a Mounted Machinegun. Quick and deadly.",
                     price = 350
                 },
                 {
-                    name = "Armored Car with Cannon",
+                    name = "Gravekeeper",
                     entityname = "lvs_gravekeeper",
                     description = "This is a quick and fast car with a Mounted Cannon. Quick and deadly.",
                     price = 500
