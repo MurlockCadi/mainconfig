@@ -948,6 +948,34 @@ imperium_specializations = {
             }
         }
     },
+        ["German Tanker"] = {
+        DivisionTypes = GERMAN_DIVISIONS,
+        Description = "War is changing, and the Tanker is at the forefront of this change. Tanks are the future of warfare, and the Tanker is the master of these machines.\n\nTanks are incredibly powerful, able to destroy enemy fortifications and infantry with ease. They are also able to take a lot of damage, making them the perfect frontline unit.\n\nSteel is the new king of the battlefield.",
+        Supply = 15000,
+        WeeklyActivity = 10000,
+        Class = {
+            Name = "Tanker German",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "TK",
+            vehicles = {
+                {
+                    name = "Fokker Dr.I",
+                    entityname = "lunasflightschool_fokkertrigreen",
+                    description = "German Plane, often known simply as the Fokker Triplane.",
+                    price = 500
+                },
+                {
+                    name = "Fokker Dr.I Red",
+                    entityname = "lunasflightschool_fokkertrired",
+                    description = "HIGHER, THE KING OF EHE SKY",
+                    price = 750
+                },
+            }
+        }
+    },
     ["Allied Aviator"] = {
         DivisionTypes = BRITISH_DIVISIONS,
         Description = "War has changed. The skies are now a battleground of aces.\n\nBiplanes tear through the air, dropping bombs and steel darts onto enemy trenches.\n\nPlanes are only effective on the Main Map.",
@@ -960,6 +988,28 @@ imperium_specializations = {
             Weapons = {},
             SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
             Prefix = "AV",
+            vehicles = {
+                {
+                    name = "Royal Aircraft Factory S.E.5",
+                    entityname = "lunasflightschool_bleriotrandom",
+                    description = "British Plane, often known simply as the Sopwith Camel",
+                    price = 500
+                },
+            }
+        }
+    },
+        ["Allied Tanker"] = {
+        DivisionTypes = BRITISH_DIVISIONS,
+        Description = "War is changing, and the Tanker is at the forefront of this change. Tanks are the future of warfare, and the Tanker is the master of these machines.\n\nTanks are incredibly powerful, able to destroy enemy fortifications and infantry with ease. They are also able to take a lot of damage, making them the perfect frontline unit.\n\nSteel is the new king of the battlefield.",
+        Supply = 15000,
+        WeeklyActivity = 10000,
+        Class = {
+            Name = "Allied Aviator",
+            Default = false,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            Prefix = "TK",
             vehicles = {
                 {
                     name = "Royal Aircraft Factory S.E.5",
