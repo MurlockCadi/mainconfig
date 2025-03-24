@@ -859,6 +859,12 @@ imperium_specializations = {
                     description = "Massive Tank with a Cannon. Its Slow but Heavily Armoured.",
                     price = 5000
                 },
+                 {
+                    name = "Percutio",
+                    entityname = "lvs_percutio",
+                    description = "Fast and deadly. Only weak to the Renault",
+                    price = 1750
+                },
                 {
                     name = "The Spire",
                     entityname = "lvs_spire",
