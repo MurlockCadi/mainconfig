@@ -920,7 +920,7 @@ imperium_specializations = {
             }
         }
     },
-    ["German Aviator"] = {
+    ["Central Aviator"] = {
         DivisionTypes = GERMAN_DIVISIONS,
         Description = "War has changed. The skies are now a battleground of aces.\n\nBiplanes tear through the air, dropping bombs and steel darts onto enemy trenches.\n\nPlanes are only effective on the Main Map.",
         Supply = 10000,
@@ -948,7 +948,7 @@ imperium_specializations = {
             }
         }
     },
-        ["German Tanker"] = {
+        ["Central Tanker"] = {
         DivisionTypes = GERMAN_DIVISIONS,
         Description = "War is changing, and the Tanker is at the forefront of this change. Tanks are the future of warfare, and the Tanker is the master of these machines.\n\nTanks are incredibly powerful, able to destroy enemy fortifications and infantry with ease. They are also able to take a lot of damage, making them the perfect frontline unit.\n\nSteel is the new king of the battlefield.",
         Supply = 15000,
@@ -976,7 +976,7 @@ imperium_specializations = {
             }
         }
     },
-    ["Allied Aviator"] = {
+    ["Entente Aviator"] = {
         DivisionTypes = BRITISH_DIVISIONS,
         Description = "War has changed. The skies are now a battleground of aces.\n\nBiplanes tear through the air, dropping bombs and steel darts onto enemy trenches.\n\nPlanes are only effective on the Main Map.",
         Supply = 10000,
@@ -998,7 +998,7 @@ imperium_specializations = {
             }
         }
     },
-        ["Allied Tanker"] = {
+        ["Entente Tanker"] = {
         DivisionTypes = BRITISH_DIVISIONS,
         Description = "War is changing, and the Tanker is at the forefront of this change. Tanks are the future of warfare, and the Tanker is the master of these machines.\n\nTanks are incredibly powerful, able to destroy enemy fortifications and infantry with ease. They are also able to take a lot of damage, making them the perfect frontline unit.\n\nSteel is the new king of the battlefield.",
         Supply = 15000,
