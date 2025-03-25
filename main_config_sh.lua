@@ -851,7 +851,7 @@ imperium_specializations = {
                     name = "AFT",
                     entityname = "lvs_aft",
                     description = "Tractor converted for war with a Machinegun.",
-                    price = 500
+                    price = 750
                 },
                 {
                     name = "The Behemoth",
@@ -869,7 +869,7 @@ imperium_specializations = {
                     name = "The Spire",
                     entityname = "lvs_spire",
                     description = "Small and Nimble, Less Armoured than a Renault FT",
-                    price = 1000
+                    price = 750
                 },
                 {
                     name = "The Gallant",
