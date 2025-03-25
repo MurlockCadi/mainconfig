@@ -976,7 +976,7 @@ imperium_specializations = {
                 {
                     name = "The spire",
                     entityname = "lvs_spire",
-                    description = "The main MG tank of the Central powers.,
+                    description = "The main MG tank of the Central powers.",
                     price = 750
                 },
                  {
