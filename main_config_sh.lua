@@ -984,7 +984,7 @@ imperium_specializations = {
                     entityname = "lvs_gallant",
                     description = "Same cannon as a renault with a weaker body",
                     price = 1500
-                }
+                },
                 {
                     name = "The Gravekeeper",
                     entityname = "lvs_gravekeeper",
