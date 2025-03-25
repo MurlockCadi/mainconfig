@@ -962,16 +962,46 @@ imperium_specializations = {
             Prefix = "TK",
             vehicles = {
                 {
-                    name = "Fokker Dr.I",
-                    entityname = "lunasflightschool_fokkertrigreen",
-                    description = "German Plane, often known simply as the Fokker Triplane.",
-                    price = 500
+                    name = "Captured Renault",
+                    entityname = "lvs_renaultft_m_rp_all",
+                    description = "A captured Entente tank repainted for use",
+                    price = 2000
                 },
                 {
-                    name = "Fokker Dr.I Red",
-                    entityname = "lunasflightschool_fokkertrired",
-                    description = "HIGHER, THE KING OF EHE SKY",
+                    name = "The Ironhide",
+                    entityname = "lvs_ironhide",
+                    description = "Heaviest tank on the Central Powers.",
+                    price = 5000
+                },
+                {
+                    name = "The spire",
+                    entityname = "lvs_spire",
+                    description = "The main MG tank of the Central powers.,
                     price = 750
+                },
+                 {
+                    name = "The Gallant",
+                    entityname = "lvs_gallant",
+                    description = "Same cannon as a renault with a weaker body",
+                    price = 1500
+                }
+                {
+                    name = "The Gravekeeper",
+                    entityname = "lvs_gravekeeper",
+                    description = "Mobile armored artillery.",
+                    price = 1000
+                },
+                 {
+                    name = "The Freeman",
+                    entityname = "lvs_freeman",
+                    description = "Auto Cannon on a trucks frame",
+                    price = 1750
+                },
+                {
+                    name = "The Devitt",
+                    entityname = "lvs_devitt",
+                    description = "Stronger armor and cannon than a renault. A weaker version of the ironhide.",
+                    price = 2500
                 },
             }
         }
@@ -1012,11 +1042,47 @@ imperium_specializations = {
             Prefix = "TK",
             vehicles = {
                 {
-                    name = "Royal Aircraft Factory S.E.5",
-                    entityname = "lunasflightschool_bleriotrandom",
-                    description = "British Plane, often known simply as the Sopwith Camel",
-                    price = 500
+                    name = "Renault Cannon",
+                    entityname = "lvs_renaultft_m_rp",
+                    description = "The Standard tank for the Entente.",
+                    price = 2000
                 },
+                {
+                    name = "The relicstorm",
+                    entityname = "lvs_relicstorm",
+                    description = "The heaviest tank on the Entente.",
+                    price = 5000
+                },
+                {
+                    name = "AFT",
+                    entityname = "lvs_aft",
+                    description = "Tractor converted for war with a Machinegun.",
+                    price = 750
+                },
+                {
+                    name = "The Hatchet",
+                    entityname = "lvs_hatchet",
+                    description = "Same cannon as the renault with a weaker body.",
+                    price = 1500
+                },
+                 {
+                    name = "The Gemini",
+                    entityname = "lvs_gemini",
+                    description = "A new type of artillery, on a mobile body",
+                    price = 100
+                },
+                {
+                    name = "The Percutio",
+                    entityname = "lvs_percutio",
+                    description = "Autocannon on a cars body",
+                    price = 750
+                },
+                {
+                    name = "The Ixion",
+                    entityname = "lvs_ixion",
+                    description = "A very slow, highly armored tank, with a strong cannon",
+                    price = 2500
+                }
             }
         }
     },
