@@ -897,7 +897,7 @@ imperium_specializations = {
                     name = "The Freeman",
                     entityname = "lvs_freeman",
                     description = "Decently Armored Truck with a big Cannon perfect for taking out Tanks or providing support at a distance.",
-                    price = 750
+                    price = 1750
                 },
                 {
                     name = "The knave",
