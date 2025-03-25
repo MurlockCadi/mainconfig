@@ -1160,6 +1160,35 @@ imperium_specializations = {
             Prefix = ""
         },
     },
+    ["Atomic Specialist"] = {
+        DivisionTypes = ALL_DIVISIONS,
+        Description = "'If you want a total war, you are free to begin it; if you want it, you will get it.'\n-Nikita Khrushchev, during the Cuban Missile Crisis.\n\nThe Atomic Specialist is the class of nuclear atomic fission warfare. The map contains nuclear waste, outputs from the civilian nuclear industrys. The Atomic Specializatist has the unique ability to collect this waste and turn it into Plutonium-23 through a process of fission reactions in a controlled reactor. The Plutonium-23 can then be used to create fissile atomic weapons, that will cause death and destruction on a scale unimaginable.\n\nAtomic Specialist take 75% less radiation, recovers twice as fast, and can see radiation levels of other players.\n\nBy even unlocking this class, you are taking a step into the abyss of nuclear warfare.",
+        Supply = 2000000,
+        WeeklyActivity = 250,
+        Class = {
+            Name = "Atomic Specialist",
+            Default = false,
+            atomic = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"rope_tool","ent_spawner","m9k_atomic"},
+            Prefix = "ATOMIC",
+            EntitySpawner = {
+                {
+                    name = "Nuclear Reactor",
+                    entityname = "nuclear_reactor",
+                    description = "This is used to refine nuclear waste into Plutonium-23. DO NOT CAUSE A MELTDOWN!",
+                    price = 2000
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                }
+            }
+        }
+    },
 }
 
 ROLES = ROLES or {
