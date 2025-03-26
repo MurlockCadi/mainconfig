@@ -991,10 +991,10 @@ imperium_specializations = {
                     description = "The main MG tank of the Central powers.",
                     price = 750
                 },
-                 {
+                {
                     name = "The Gallant",
                     entityname = "lvs_gallant",
-                    description = "Same cannon as a renault with a weaker body",
+                    description = "Same cannon as a renault with a weaker body.",
                     price = 1500
                 },
                 {
@@ -1003,10 +1003,10 @@ imperium_specializations = {
                     description = "Mobile armored artillery.",
                     price = 1000
                 },
-                 {
+                {
                     name = "The Freeman",
                     entityname = "lvs_freeman",
-                    description = "Auto Cannon on a trucks frame",
+                    description = "Auto Cannon on a trucks frame.",
                     price = 1750
                 },
                 {
@@ -1014,7 +1014,7 @@ imperium_specializations = {
                     entityname = "lvs_devitt",
                     description = "Stronger armor and cannon than a renault. A weaker version of the ironhide.",
                     price = 2500
-                },
+                }
             }
         }
     },
@@ -1077,22 +1077,22 @@ imperium_specializations = {
                     description = "Same cannon as the renault with a weaker body.",
                     price = 1500
                 },
-                 {
+                {
                     name = "The Gemini",
                     entityname = "lvs_gemini",
-                    description = "A new type of artillery, on a mobile body",
-                    price = 100
+                    description = "A new type of artillery, on a mobile body.",
+                    price = 1000
                 },
                 {
                     name = "The Percutio",
                     entityname = "lvs_percutio",
-                    description = "Autocannon on a cars body",
-                    price = 750
+                    description = "Autocannon on a cars body.",
+                    price = 1750
                 },
                 {
                     name = "The Ixion",
                     entityname = "lvs_ixion",
-                    description = "A very slow, highly armored tank, with a strong cannon",
+                    description = "A very slow, highly armored tank, with a strong cannon.",
                     price = 2500
                 }
             }
