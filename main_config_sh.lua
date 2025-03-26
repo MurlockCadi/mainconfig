@@ -720,7 +720,7 @@ imperium_specializations = {
                     entityname = "fuel_store",
                     description = "Cart to store Scrap and move it around.",
                     price = 0
-                }
+                },
                 {
                     name = "Vehicle Ammo Crate",
                     entityname = "universal_ammo_small",
