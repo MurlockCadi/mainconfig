@@ -723,7 +723,7 @@ imperium_specializations = {
                 },
                 {
                     name = "Vehicle Ammo Crate",
-                    entityname = "universal_ammo_small",
+                    entityname = "lvs_item_ammocrate",
                     description = "Restores a vehicles ammo.",
                     price = 400
                 },
