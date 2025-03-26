@@ -732,7 +732,7 @@ imperium_specializations = {
                     entityname = "lvs_item_jerrycan",
                     description = "I know whats wrong with it, it aint got no gas init.",
                     price = 25
-                },
+                }
             }
         }
     },
