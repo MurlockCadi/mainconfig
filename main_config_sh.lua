@@ -986,7 +986,7 @@ imperium_specializations = {
                     price = 5000
                 },
                 {
-                    name = "The spire",
+                    name = "The Spire",
                     entityname = "lvs_spire",
                     description = "The main MG tank of the Central powers.",
                     price = 750
@@ -994,7 +994,7 @@ imperium_specializations = {
                 {
                     name = "The Gallant",
                     entityname = "lvs_gallant",
-                    description = "Same cannon as a renault with a weaker body.",
+                    description = "Same cannon as a Renault with a weaker body.",
                     price = 1500
                 },
                 {
@@ -1006,13 +1006,13 @@ imperium_specializations = {
                 {
                     name = "The Freeman",
                     entityname = "lvs_freeman",
-                    description = "Auto Cannon on a trucks frame.",
+                    description = "Auto cannon on a trucks frame.",
                     price = 1750
                 },
                 {
                     name = "The Devitt",
                     entityname = "lvs_devitt",
-                    description = "Stronger armor and cannon than a renault. A weaker version of the ironhide.",
+                    description = "Stronger armor and cannon than a Renault. A weaker version of the Ironhide.",
                     price = 2500
                 }
             }
@@ -1056,11 +1056,11 @@ imperium_specializations = {
                 {
                     name = "Renault Cannon",
                     entityname = "lvs_renaultft_m_rp",
-                    description = "The Standard tank for the Entente.",
+                    description = "The standard tank for the Entente.",
                     price = 2000
                 },
                 {
-                    name = "The relicstorm",
+                    name = "The Relicstorm",
                     entityname = "lvs_relicstorm",
                     description = "The heaviest tank on the Entente.",
                     price = 5000
@@ -1068,13 +1068,13 @@ imperium_specializations = {
                 {
                     name = "AFT",
                     entityname = "lvs_aft",
-                    description = "Tractor converted for war with a Machinegun.",
+                    description = "Tractor converted for war with a machinegun.",
                     price = 750
                 },
                 {
                     name = "The Hatchet",
                     entityname = "lvs_hatchet",
-                    description = "Same cannon as the renault with a weaker body.",
+                    description = "Same cannon as the Renault with a weaker body.",
                     price = 1500
                 },
                 {
