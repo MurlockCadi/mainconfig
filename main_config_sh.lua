@@ -727,7 +727,7 @@ imperium_specializations = {
                     description = "Restores a vehicles ammo.",
                     price = 400
                 },
-                        {
+                {
                     name = "Petrol Can",
                     entityname = "lvs_item_jerrycan",
                     description = "I know whats wrong with it, it aint got no gas init.",
