@@ -1157,7 +1157,7 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Max = 4,
-            Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat"},
+            Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
             EntitySpawner = {
                 {
                     name = "Ammo Box",
