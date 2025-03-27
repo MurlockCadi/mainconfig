@@ -132,7 +132,7 @@ faction_player_count_limit = 0
 
 WALK_SPEED = 105
 RUN_SPEED = 280
-JUMP_POWER = 190
+JUMP_POWER = 230
 MAX_HEALTH = 100
 
 ------REVIVE TIME AND LOOT TIME--------
