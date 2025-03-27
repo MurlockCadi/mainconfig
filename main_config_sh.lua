@@ -809,9 +809,15 @@ imperium_specializations = {
             SpawnWeapons = {"ent_spawner","cw_nam_m79_thumper"},
             vehicles = {
                 {
-                    name = "Armoured Artillery",
+                    name = "Cain",
                     entityname = "lvs_caine",
-                    description = "Powerful Artillery Cannon Mounted on an Armoured Tractor Body.",
+                    description = "A mobile mortar platform.",
+                    price = 1500
+                },
+                {
+                    name = "Pelekys",
+                    entityname = "lvs_pelekys",
+                    description = "Mounted artillery gun. Designed to penetrate armor",
                     price = 1500
                 }
             },
