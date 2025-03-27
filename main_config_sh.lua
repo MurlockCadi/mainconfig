@@ -78,8 +78,8 @@ intro_image_urls = {
     "https://i.imgur.com/jiBj1Le.jpeg",
     "https://i.imgur.com/a3yyIPL.jpeg",
     "https://i.imgur.com/IadprxO.jpeg",
-    "https://i.imgur.com/mOMIrNL.jpeg"
-    
+    "https://i.imgur.com/mOMIrNL.jpeg",
+    "https://i.imgur.com/YZNJCSz.jpeg"
 }
 
 
@@ -130,9 +130,9 @@ faction_player_count_limit = 0
 
 --------SPEED-----------
 
-WALK_SPEED = 145
-RUN_SPEED = 280
-JUMP_POWER = 225
+WALK_SPEED = 105
+RUN_SPEED = 220
+JUMP_POWER = 190
 MAX_HEALTH = 100
 
 ------REVIVE TIME AND LOOT TIME--------
