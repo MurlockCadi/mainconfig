@@ -299,7 +299,7 @@ commands = {
     ["!resetdugout"] = function(ply) ClearAllHomeProps(ply) end,
     ["/resetdugout"] = function(ply) ClearAllHomeProps(ply) end,
     ["/cleardugout"] = function(ply) ClearAllHomeProps(ply) end,
-    ["!cleardugout"] = function(ply) ClearAllHomeProps(ply) end
+    ["!cleardugout"] = function(ply) ClearAllHomeProps(ply) end,
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
