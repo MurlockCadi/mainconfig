@@ -293,7 +293,13 @@ commands = {
     ["/underground"] = function(ply) SetUndergroundPoint(ply) end,
     ["/addsupply"] = function(ply, args) SetDivisionSupplyAdmin(ply, args) end,
     ["/setrolerank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
-    ["!setrolerank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end
+    ["!setrolerank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
+    ["/clearhome"] = function(ply) ClearAllHomeProps(ply) end,
+    ["!clearhome"] = function(ply) ClearAllHomeProps(ply) end,
+    ["!resetdugout"] = function(ply) ClearAllHomeProps(ply) end,
+    ["/resetdugout"] = function(ply) ClearAllHomeProps(ply) end,
+    ["/cleardugout"] = function(ply) ClearAllHomeProps(ply) end,
+    ["!cleardugout"] = function(ply) ClearAllHomeProps(ply) end
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
