@@ -634,7 +634,7 @@ DivisionTypes = {
                     price = 25
                 },
                 }
-            }
+            },
             {
                 Name = "Medic",
                 Medic = true,
