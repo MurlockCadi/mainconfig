@@ -694,7 +694,7 @@ DivisionTypes = {
             SpawnWeapons = {"ent_spawner"},
             Prefix = "MG"
         },
-    }
+    },
     
                       
     ["German High Command"] = {
