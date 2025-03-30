@@ -695,7 +695,7 @@ DivisionTypes = {
             Prefix = "MG"
         },
     },
-    
+    }
     
                       
     ["German High Command"] = {
