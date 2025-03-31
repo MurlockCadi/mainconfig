@@ -83,6 +83,11 @@ intro_image_urls = {
 }
 
 
+------IS_SERVER_MANAGED----------
+
+--IF SET TO TRUE, THEN ONLY SUPERADMINS CAN EDIT AND CREATE DIVISIONS!
+IS_SERVER_MANAGED = true
+
 ---NON OFFENSIVE COST------------------
 
 non_attack_reduction = 0.25
