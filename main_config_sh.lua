@@ -586,7 +586,7 @@ DivisionTypes = {
         {
             Name = "Medic",
             Medic = true,
-            Default = false,
+            Default = true,
             Models = {},
             Max = 4,
             Weapons = {"tfa_ww1_remington8_police_version", "tfa_ww1_mausersebslander1916", "tfa_ww1_remington8_standard"},
