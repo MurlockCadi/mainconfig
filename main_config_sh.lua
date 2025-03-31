@@ -591,15 +591,10 @@ DivisionTypes = {
             Max = 4,
             Weapons = {"tfa_ww1_remington8_police_version", "tfa_ww1_mausersebslander1916", "tfa_ww1_remington8_standard"},
             SpawnWeapons = {"fas2_ifak", "ent_spawner"},
-            Prefix = "MD",
-            EntitySpawner = {
-                {name = "Medic Box", entityname = "medic_box", description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.", price = 100},
-                {name = "Radio", entityname = "newboombox", description = "Radio to play some War Music!", price = 0},
-                {name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", price = 100},
-            }
-        },
+            Prefix = "MD"
     }
-},
+}
+    },
         
     ["German High Command"] = {
         Team = "german",
