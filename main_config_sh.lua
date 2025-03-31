@@ -635,7 +635,7 @@ DivisionTypes = {
                     description = "I know whats wrong with it, it aint got no gas init.",
                     price = 25
                 },
-                }
+                },
             },
             {
                 Name = "Medic",
