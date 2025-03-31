@@ -620,20 +620,6 @@ DivisionTypes = {
                 {name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", price = 100},
             }
         },
-        {
-            Name = "Machine Gunner",
-            Default = false,
-            Models = {},
-            Max = 4,
-            Weapons = {"tfa_doilewis", "tfa_verdun_madsen", "tfa_doim1919", "tfa_doim1918", "tfa_ww1_chauchat", "tfa_mg08"},
-            SpawnWeapons = {"ent_spawner"},
-            Prefix = "MG",
-            EntitySpawner = {
-                {name = "Ammo Box", entityname = "universal_ammo_small", description = "Deploy some Ammo!", price = 50},
-                {name = "Radio", entityname = "newboombox", description = "Radio to play some War Music!", price = 0},
-                {name = "Transport Cart", entityname = "fuel_store", description = "Cart to store Scrap and move it around.", price = 0},
-            }
-        }
     }
 }
         
