@@ -634,6 +634,7 @@ CORE_IMPERIUM_CLASSES = {
         Create_Outposts = true,
         Models = {},
         Max = 4,
+        Core = true,
         Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
         SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
         Prefix = "EG",
@@ -686,6 +687,7 @@ CORE_IMPERIUM_CLASSES = {
         Name = "Medic",
         Medic = true,
         Models = {},
+        Core = true,
         Max = 4,
         Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
         SpawnWeapons = {"fas2_ifak","ent_spawner"},
@@ -715,6 +717,7 @@ CORE_IMPERIUM_CLASSES = {
         Name = "Machine Gunner",
         Models = {},
         Max = 4,
+        Core = true,
         Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
         SpawnWeapons = {"ent_spawner"},
         Prefix = "MG",
@@ -771,101 +774,6 @@ end
 
 imperium_specializations = {
     --Global Specializations
-
-    ["Medic"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Supply = 5000, --5000
-        Description = "Medics are incredibly useful on the frontlines, as they can heal and revive dead players. They can also deploy health crates and gas masks. Medics are critical for keeping troops alive on the frontline.\nDead players will have a green glow, allowing medics to get to them before they respawn.\nIt might be a good idea to drag the body out of combat before healing the player.",
-        Class = {
-            Name = "Medic",
-            Medic = true,
-            Default = false,
-            Models = {},
-            Max = 4,
-            Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
-            SpawnWeapons = {"fas2_ifak","ent_spawner"},
-            Prefix = "MD",
-            EntitySpawner = {
-                {
-                    name = "Medic Box",
-                    entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            }
-        }
-    },
-    ["Engineer"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Engineers are essential for building fortifications, repairing vehicles, and establishing Outposts. They can also deploy ammo crates to resupply troops on the frontline, and lay mines to stop both tanks and infantry. They also have the Rope tool to bind objects together.\nBuilding Forward Bases creates control over the area, helping in domination of the battlefield. When defending, creating chokepoints and fortifications are essential for victory.",
-        Supply = 7500, --7500
-        Class = {
-            Name = "Engineer",
-            Default = false,
-            Create_Outposts = true,
-            Models = {},
-            Max = 4,
-            Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
-            SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-            Prefix = "ENG",
-            EntitySpawner = {
-                {
-                    name = "Ammo Supplies",
-                    entityname = "universal_ammo_small",
-                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Land Mine",
-                    entityname = "sw_mine_tm62_v3",
-                    description = "Deploy a land mine to stop infantry.",
-                    price = 50
-                },
-                {
-                    name = "Machine Gun",
-                    entityname = "ent_weapon_maximpod",
-                    description = "Deploy a machine gun for defense.",
-                    price = 250
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                },
-                {
-                    name = "Vehicle Ammo Crate",
-                    entityname = "lvs_item_ammocrate",
-                    description = "Restores a vehicles ammo.",
-                    price = 400
-                },
-                {
-                    name = "Petrol Can",
-                    entityname = "lvs_item_jerrycan",
-                    description = "I know whats wrong with it, it aint got no gas init.",
-                    price = 25
-                }
-            }
-        }
-    },
     ["Calvary"] = {
         DivisionTypes = ALL_DIVISIONS,
         Description = "The cavalry remains a vital component of warfare, providing speed and mobility on the battlefield. Mounted soldiers can quickly traverse rough terrain and execute flanking maneuvers.\n\nWhile vulnerable to modern weaponry, a cavalry charge can break enemy lines and boost the morale of your comrades.\n\nEach mount costs 100 supply (25 out of operation)",
@@ -1276,41 +1184,6 @@ imperium_specializations = {
             SpawnWeapons = {"hide_player"},
             Prefix = "SNI"
        }
-    },
-    ["Machine Gunner"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Machine Guns are a new weapon of war, able to lay down a hail of bullets that can cut down entire squads of infantry. The Machine Gunner is the master of this weapon, able to deploy machine guns and ammo crates to resupply troops on the frontline.\n\nMachine Guns are the backbone of the army, able to suppress enemy infantry and fortifications with ease.",
-        Supply = 5000,
-        WeeklyActivity = 10,
-        Class = {
-            Name = "Machine Gunner",
-            Default = false,
-            Models = {},
-            Max = 4,
-            Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
-            EntitySpawner = {
-                {
-                    name = "Ammo Box",
-                    entityname = "universal_ammo_small",
-                    description = "Deploy some Ammo!",
-                    price = 50
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                }
-            },
-            SpawnWeapons = {"ent_spawner"},
-            Prefix = "MG"
-        },
     },
     ["Messenger Bird"] = {
         DivisionTypes = ALL_DIVISIONS,
