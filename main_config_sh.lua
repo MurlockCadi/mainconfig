@@ -674,7 +674,7 @@ DivisionTypes = {
                  Max = 4,
                  Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
                  SpawnWeapons = {"ent_spawner"},
-                 Prefix = "MG"
+                 Prefix = "MG",
                  EntitySpawner = {
                  {
                      name = "Ammo Box",
