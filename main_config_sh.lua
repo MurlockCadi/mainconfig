@@ -667,9 +667,37 @@ DivisionTypes = {
                 }
             },
             },
-
+            {     
+                 Name = "Machine Gunner",
+                 Default = true,
+                 Models = {},
+                 Max = 4,
+                 Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
+                 SpawnWeapons = {"ent_spawner"},
+                 Prefix = "MG"
+                 EntitySpawner = {
+                 {
+                     name = "Ammo Box",
+                     entityname = "universal_ammo_small",
+                     description = "Deploy some Ammo!",
+                     price = 50
+                 },
+                 {
+                     name = "Radio",
+                     entityname = "newboombox",
+                     description = "Radio to play some War Music!",
+                     price = 0
+                 },
+                 {
+                     name = "Transport Cart",
+                     entityname = "fuel_store",
+                     description = "Cart to store Scrap and move it around.",
+                     price = 0
+                 }
+             },
+                 },
+             },
         },
-    },
     ["German High Command"] = {
         Team = "german",
         Description = "The High Command for the Germans. This Division can NOT be selected without Admin Approval!",
