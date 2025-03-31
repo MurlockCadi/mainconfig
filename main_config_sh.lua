@@ -554,147 +554,88 @@ DivisionTypes = {
             },
         },
     },
-    ["Ottoman Division"] = {
-        Team = "german",
-        Description = "The Ottoman Empire has long been called the Sick Man of Europe, they are fighting for the survival of their Empire, and will not go down without a fight. In the New World that dawns after the war, the Ottoman Empire will rise again!",
-        Ranks = {
-            {ID = 1, Name = "Er", Rank_Prefix = "ER", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 2, Name = "Onbaşı", Rank_Prefix = "ONB", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 3, Name = "Çavuş", Rank_Prefix = "ÇVŞ", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 4, Name = "Başçavuş", Rank_Prefix = "BÇVŞ", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 5, Name = "Astsubay", Rank_Prefix = "ASB", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 6, Name = "Üsteğmen", Rank_Prefix = "ÜT", ModelsAllowed = OTTOMAN_MODELS_NCO, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 7, Name = "Teğmen", Rank_Prefix = "T", ModelsAllowed = OTTOMAN_MODELS_NCO, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 8, Name = "Yüzbaşı", Rank_Prefix = "YB", ModelsAllowed = OTTOMAN_MODELS_NCO, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 9, Name = "Binbaşı", Rank_Prefix = "BB", ModelsAllowed = OTTOMAN_MODELS_NCO, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 10, Name = "Yarbay", Rank_Prefix = "YB", ModelsAllowed = OTTOMAN_MODELS_CO, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 11, Name = "Albay", Rank_Prefix = "ALB", ModelsAllowed = OTTOMAN_MODELS_CO, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 12, Name = "Tuğgeneral", Rank_Prefix = "TUG", ModelsAllowed = OTTOMAN_MODELS_CO, WeaponsAllowed = GERMAN_LOADOUT},
-            {ID = 13, Name = "Tümgeneral", Rank_Prefix = "TUM", ModelsAllowed = OTTOMAN_MODELS_CO, WeaponsAllowed = GERMAN_LOADOUT},
+
+
+["Ottoman Division"] = {
+    Team = "german",
+    Description = "The Ottoman Empire has long been called the Sick Man of Europe, they are fighting for the survival of their Empire, and will not go down without a fight. In the New World that dawns after the war, the Ottoman Empire will rise again!",
+    Ranks = {
+        {ID = 1, Name = "Er", Rank_Prefix = "ER", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 2, Name = "Onbaşı", Rank_Prefix = "ONB", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 3, Name = "Çavuş", Rank_Prefix = "ÇVŞ", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 4, Name = "Başçavuş", Rank_Prefix = "BÇVŞ", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 5, Name = "Astsubay", Rank_Prefix = "ASB", ModelsAllowed = OTTOMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 6, Name = "Üsteğmen", Rank_Prefix = "ÜT", ModelsAllowed = OTTOMAN_MODELS_NCO, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 7, Name = "Teğmen", Rank_Prefix = "T", ModelsAllowed = OTTOMAN_MODELS_NCO, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 8, Name = "Yüzbaşı", Rank_Prefix = "YB", ModelsAllowed = OTTOMAN_MODELS_NCO, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 9, Name = "Binbaşı", Rank_Prefix = "BB", ModelsAllowed = OTTOMAN_MODELS_NCO, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 10, Name = "Yarbay", Rank_Prefix = "YB", ModelsAllowed = OTTOMAN_MODELS_CO, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 11, Name = "Albay", Rank_Prefix = "ALB", ModelsAllowed = OTTOMAN_MODELS_CO, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 12, Name = "Tuğgeneral", Rank_Prefix = "TUG", ModelsAllowed = OTTOMAN_MODELS_CO, WeaponsAllowed = GERMAN_LOADOUT},
+        {ID = 13, Name = "Tümgeneral", Rank_Prefix = "TUM", ModelsAllowed = OTTOMAN_MODELS_CO, WeaponsAllowed = GERMAN_LOADOUT},
+    },
+    Classes = {
+        {
+            Name = "Rifleman",
+            Default = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
         },
-        Classes = {
-            {
-                Name = "Rifleman",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
+        {
+            Name = "Engineer",
+            Default = false,
+            Create_Outposts = true,
+            Models = {},
+            Max = 4,
+            Weapons = {
+                "tfa_verdun_winchester1897", "tfa_ww1_remington8_police_version", "tfa_ww1_remington8_standard",
+                "tfa_doiithaca37", "tfa_ww1_mausersebslander1916", "weapon_lvsmines", "tfa_ww1_geballte_ladung"
             },
-              {
-                Name = "Engineer",
-                Default = false,
-                Create_Outposts = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
-                SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-                Prefix = "EG",
-                EntitySpawner = {
-                {
-                    name = "Ammo Supplies",
-                    entityname = "universal_ammo_small",
-                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Land Mine",
-                    entityname = "sw_mine_tm62_v3",
-                    description = "Deploy a land mine to stop infantry.",
-                    price = 50
-                },
-                {
-                    name = "Machine Gun",
-                    entityname = "ent_weapon_maximpod",
-                    description = "Deploy a machine gun for defense.",
-                    price = 250
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                },
-                {
-                    name = "Vehicle Ammo Crate",
-                    entityname = "lvs_item_ammocrate",
-                    description = "Restores a vehicles ammo.",
-                    price = 400
-                },
-                {
-                    name = "Petrol Can",
-                    entityname = "lvs_item_jerrycan",
-                    description = "I know whats wrong with it, it aint got no gas init.",
-                    price = 25
-                },
-                }
-            },
-            {
-                Name = "Medic",
-                Medic = true,
-                Default = false,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
-                Prefix = "MD",
-                EntitySpawner = {
-                {
-                    name = "Medic Box",
-                    entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            },
-            },
-            {     
-                Name = "Machine Gunner",
-                Default = false,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
-                EntitySpawner = {
-                {
-                    name = "Ammo Box",
-                    entityname = "universal_ammo_small",
-                    description = "Deploy some Ammo!",
-                    price = 50
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                }
-            },
+            SpawnWeapons = {"rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair", "weapon_lvsrepair"},
+            Prefix = "EG",
+            EntitySpawner = {
+                {name = "Ammo Supplies", entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", price = 100},
+                {name = "Radio", entityname = "newboombox", description = "Radio to play some War Music!", price = 0},
+                {name = "Land Mine", entityname = "sw_mine_tm62_v3", description = "Deploy a land mine to stop infantry.", price = 50},
+                {name = "Machine Gun", entityname = "ent_weapon_maximpod", description = "Deploy a machine gun for defense.", price = 250},
+                {name = "Transport Cart", entityname = "fuel_store", description = "Cart to store Scrap and move it around.", price = 0},
+                {name = "Vehicle Ammo Crate", entityname = "lvs_item_ammocrate", description = "Restores a vehicles ammo.", price = 400},
+                {name = "Petrol Can", entityname = "lvs_item_jerrycan", description = "I know what's wrong with it, it ain't got no gas in it.", price = 25},
+            }
+        },
+        {
+            Name = "Medic",
+            Medic = true,
+            Default = false,
+            Models = {},
+            Max = 4,
+            Weapons = {"tfa_ww1_remington8_police_version", "tfa_ww1_mausersebslander1916", "tfa_ww1_remington8_standard"},
+            SpawnWeapons = {"fas2_ifak", "ent_spawner"},
+            Prefix = "MD",
+            EntitySpawner = {
+                {name = "Medic Box", entityname = "medic_box", description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.", price = 100},
+                {name = "Radio", entityname = "newboombox", description = "Radio to play some War Music!", price = 0},
+                {name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", price = 100},
+            }
+        },
+        {
+            Name = "Machine Gunner",
+            Default = false,
+            Models = {},
+            Max = 4,
+            Weapons = {"tfa_doilewis", "tfa_verdun_madsen", "tfa_doim1919", "tfa_doim1918", "tfa_ww1_chauchat", "tfa_mg08"},
             SpawnWeapons = {"ent_spawner"},
-            Prefix = "MG"
-                },
-            },
+            Prefix = "MG",
+            EntitySpawner = {
+                {name = "Ammo Box", entityname = "universal_ammo_small", description = "Deploy some Ammo!", price = 50},
+                {name = "Radio", entityname = "newboombox", description = "Radio to play some War Music!", price = 0},
+                {name = "Transport Cart", entityname = "fuel_store", description = "Cart to store Scrap and move it around.", price = 0},
+            }
+        }
+    }
+}
         
     ["German High Command"] = {
         Team = "german",
