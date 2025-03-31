@@ -378,121 +378,8 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-             {
-                Name = "Engineer",
-                Default = true,
-                Create_Outposts = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
-                SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-                Prefix = "EG",
-                EntitySpawner = {
-                {
-                    name = "Ammo Supplies",
-                    entityname = "universal_ammo_small",
-                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Land Mine",
-                    entityname = "sw_mine_tm62_v3",
-                    description = "Deploy a land mine to stop infantry.",
-                    price = 50
-                },
-                {
-                    name = "Machine Gun",
-                    entityname = "ent_weapon_maximpod",
-                    description = "Deploy a machine gun for defense.",
-                    price = 250
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                },
-                {
-                    name = "Vehicle Ammo Crate",
-                    entityname = "lvs_item_ammocrate",
-                    description = "Restores a vehicles ammo.",
-                    price = 400
-                },
-                {
-                    name = "Petrol Can",
-                    entityname = "lvs_item_jerrycan",
-                    description = "I know whats wrong with it, it aint got no gas init.",
-                    price = 25
-                },
-                },
-            },
-            {
-                Name = "Medic",
-                Medic = true,
-                Default = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
-                Prefix = "MD",
-                EntitySpawner = {
-                {
-                    name = "Medic Box",
-                    entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            },
-            },
-            {     
-                 Name = "Machine Gunner",
-                 Default = true,
-                 Models = {},
-                 Max = 4,
-                 Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
-                 SpawnWeapons = {"ent_spawner"},
-                 Prefix = "MG",
-                 EntitySpawner = {
-                 {
-                     name = "Ammo Box",
-                     entityname = "universal_ammo_small",
-                     description = "Deploy some Ammo!",
-                     price = 50
-                 },
-                 {
-                     name = "Radio",
-                     entityname = "newboombox",
-                     description = "Radio to play some War Music!",
-                     price = 0
-                 },
-                 {
-                     name = "Transport Cart",
-                     entityname = "fuel_store",
-                     description = "Cart to store Scrap and move it around.",
-                     price = 0
-                 }
-             },
-                 },
-             },
         },
+    },
     ["American Expeditionary Forces"] = {
         Team = "british",
         Description = "Over 4 million Americans served in the Great War, with over 100,000 dying in the conflict. The American Expeditionary Forces are here to help the British and French hold the line against the German advance.",
@@ -519,119 +406,6 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
-            },
-                          {
-                Name = "Engineer",
-                Default = true,
-                Create_Outposts = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
-                SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-                Prefix = "EG",
-                EntitySpawner = {
-                {
-                    name = "Ammo Supplies",
-                    entityname = "universal_ammo_small",
-                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Land Mine",
-                    entityname = "sw_mine_tm62_v3",
-                    description = "Deploy a land mine to stop infantry.",
-                    price = 50
-                },
-                {
-                    name = "Machine Gun",
-                    entityname = "ent_weapon_maximpod",
-                    description = "Deploy a machine gun for defense.",
-                    price = 250
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                },
-                {
-                    name = "Vehicle Ammo Crate",
-                    entityname = "lvs_item_ammocrate",
-                    description = "Restores a vehicles ammo.",
-                    price = 400
-                },
-                {
-                    name = "Petrol Can",
-                    entityname = "lvs_item_jerrycan",
-                    description = "I know whats wrong with it, it aint got no gas init.",
-                    price = 25
-                },
-                },
-            },
-            {
-                Name = "Medic",
-                Medic = true,
-                Default = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
-                Prefix = "MD",
-                EntitySpawner = {
-                {
-                    name = "Medic Box",
-                    entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            },
-            },
-            {     
-                 Name = "Machine Gunner",
-                 Default = true,
-                 Models = {},
-                 Max = 4,
-                 Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
-                 SpawnWeapons = {"ent_spawner"},
-                 Prefix = "MG",
-                 EntitySpawner = {
-                 {
-                     name = "Ammo Box",
-                     entityname = "universal_ammo_small",
-                     description = "Deploy some Ammo!",
-                     price = 50
-                 },
-                 {
-                     name = "Radio",
-                     entityname = "newboombox",
-                     description = "Radio to play some War Music!",
-                     price = 0
-                 },
-                 {
-                     name = "Transport Cart",
-                     entityname = "fuel_store",
-                     description = "Cart to store Scrap and move it around.",
-                     price = 0
-                 }
-             },
             },
         },
     },
@@ -661,119 +435,6 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
-            },
-                                      {
-                Name = "Engineer",
-                Default = true,
-                Create_Outposts = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
-                SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-                Prefix = "EG",
-                EntitySpawner = {
-                {
-                    name = "Ammo Supplies",
-                    entityname = "universal_ammo_small",
-                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Land Mine",
-                    entityname = "sw_mine_tm62_v3",
-                    description = "Deploy a land mine to stop infantry.",
-                    price = 50
-                },
-                {
-                    name = "Machine Gun",
-                    entityname = "ent_weapon_maximpod",
-                    description = "Deploy a machine gun for defense.",
-                    price = 250
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                },
-                {
-                    name = "Vehicle Ammo Crate",
-                    entityname = "lvs_item_ammocrate",
-                    description = "Restores a vehicles ammo.",
-                    price = 400
-                },
-                {
-                    name = "Petrol Can",
-                    entityname = "lvs_item_jerrycan",
-                    description = "I know whats wrong with it, it aint got no gas init.",
-                    price = 25
-                },
-                },
-            },
-            {
-                Name = "Medic",
-                Medic = true,
-                Default = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
-                Prefix = "MD",
-                EntitySpawner = {
-                {
-                    name = "Medic Box",
-                    entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            },
-            },
-            {     
-                 Name = "Machine Gunner",
-                 Default = true,
-                 Models = {},
-                 Max = 4,
-                 Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
-                 SpawnWeapons = {"ent_spawner"},
-                 Prefix = "MG",
-                 EntitySpawner = {
-                 {
-                     name = "Ammo Box",
-                     entityname = "universal_ammo_small",
-                     description = "Deploy some Ammo!",
-                     price = 50
-                 },
-                 {
-                     name = "Radio",
-                     entityname = "newboombox",
-                     description = "Radio to play some War Music!",
-                     price = 0
-                 },
-                 {
-                     name = "Transport Cart",
-                     entityname = "fuel_store",
-                     description = "Cart to store Scrap and move it around.",
-                     price = 0
-                 }
-             },
             },
         },
     },
@@ -862,119 +523,6 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-                                      {
-                Name = "Engineer",
-                Default = true,
-                Create_Outposts = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
-                SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-                Prefix = "EG",
-                EntitySpawner = {
-                {
-                    name = "Ammo Supplies",
-                    entityname = "universal_ammo_small",
-                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Land Mine",
-                    entityname = "sw_mine_tm62_v3",
-                    description = "Deploy a land mine to stop infantry.",
-                    price = 50
-                },
-                {
-                    name = "Machine Gun",
-                    entityname = "ent_weapon_maximpod",
-                    description = "Deploy a machine gun for defense.",
-                    price = 250
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                },
-                {
-                    name = "Vehicle Ammo Crate",
-                    entityname = "lvs_item_ammocrate",
-                    description = "Restores a vehicles ammo.",
-                    price = 400
-                },
-                {
-                    name = "Petrol Can",
-                    entityname = "lvs_item_jerrycan",
-                    description = "I know whats wrong with it, it aint got no gas init.",
-                    price = 25
-                },
-                },
-            },
-            {
-                Name = "Medic",
-                Medic = true,
-                Default = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
-                Prefix = "MD",
-                EntitySpawner = {
-                {
-                    name = "Medic Box",
-                    entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            },
-            },
-            {     
-                 Name = "Machine Gunner",
-                 Default = true,
-                 Models = {},
-                 Max = 4,
-                 Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
-                 SpawnWeapons = {"ent_spawner"},
-                 Prefix = "MG",
-                 EntitySpawner = {
-                 {
-                     name = "Ammo Box",
-                     entityname = "universal_ammo_small",
-                     description = "Deploy some Ammo!",
-                     price = 50
-                 },
-                 {
-                     name = "Radio",
-                     entityname = "newboombox",
-                     description = "Radio to play some War Music!",
-                     price = 0
-                 },
-                 {
-                     name = "Transport Cart",
-                     entityname = "fuel_store",
-                     description = "Cart to store Scrap and move it around.",
-                     price = 0
-                 }
-             },
-            },
         },
     },
     ["Austro-Hungarian Division"] = {
@@ -1004,123 +552,8 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-                          {
-                Name = "Engineer",
-                Default = true,
-                Create_Outposts = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
-                SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-                Prefix = "EG",
-                EntitySpawner = {
-                {
-                    name = "Ammo Supplies",
-                    entityname = "universal_ammo_small",
-                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Land Mine",
-                    entityname = "sw_mine_tm62_v3",
-                    description = "Deploy a land mine to stop infantry.",
-                    price = 50
-                },
-                {
-                    name = "Machine Gun",
-                    entityname = "ent_weapon_maximpod",
-                    description = "Deploy a machine gun for defense.",
-                    price = 250
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                },
-                {
-                    name = "Vehicle Ammo Crate",
-                    entityname = "lvs_item_ammocrate",
-                    description = "Restores a vehicles ammo.",
-                    price = 400
-                },
-                {
-                    name = "Petrol Can",
-                    entityname = "lvs_item_jerrycan",
-                    description = "I know whats wrong with it, it aint got no gas init.",
-                    price = 25
-                },
-                },
-            },
-            {
-                Name = "Medic",
-                Medic = true,
-                Default = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
-                Prefix = "MD",
-                EntitySpawner = {
-                {
-                    name = "Medic Box",
-                    entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            },
-            },
-            {     
-                 Name = "Machine Gunner",
-                 Default = true,
-                 Models = {},
-                 Max = 4,
-                 Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
-                 SpawnWeapons = {"ent_spawner"},
-                 Prefix = "MG",
-                 EntitySpawner = {
-                 {
-                     name = "Ammo Box",
-                     entityname = "universal_ammo_small",
-                     description = "Deploy some Ammo!",
-                     price = 50
-                 },
-                 {
-                     name = "Radio",
-                     entityname = "newboombox",
-                     description = "Radio to play some War Music!",
-                     price = 0
-                 },
-                 {
-                     name = "Transport Cart",
-                     entityname = "fuel_store",
-                     description = "Cart to store Scrap and move it around.",
-                     price = 0
-                 }
-             },
-            },
         },
     },
-
-
 ["Ottoman Division"] = {
     Team = "german",
     Description = "The Ottoman Empire has long been called the Sick Man of Europe, they are fighting for the survival of their Empire, and will not go down without a fight. In the New World that dawns after the war, the Ottoman Empire will rise again!",
@@ -1148,121 +581,8 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-              {
-                Name = "Engineer",
-                Default = true,
-                Create_Outposts = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
-                SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-                Prefix = "EG",
-                EntitySpawner = {
-                {
-                    name = "Ammo Supplies",
-                    entityname = "universal_ammo_small",
-                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Land Mine",
-                    entityname = "sw_mine_tm62_v3",
-                    description = "Deploy a land mine to stop infantry.",
-                    price = 50
-                },
-                {
-                    name = "Machine Gun",
-                    entityname = "ent_weapon_maximpod",
-                    description = "Deploy a machine gun for defense.",
-                    price = 250
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                },
-                {
-                    name = "Vehicle Ammo Crate",
-                    entityname = "lvs_item_ammocrate",
-                    description = "Restores a vehicles ammo.",
-                    price = 400
-                },
-                {
-                    name = "Petrol Can",
-                    entityname = "lvs_item_jerrycan",
-                    description = "I know whats wrong with it, it aint got no gas init.",
-                    price = 25
-                },
-                },
-            },
-            {
-                Name = "Medic",
-                Medic = true,
-                Default = true,
-                Models = {},
-                Max = 4,
-                Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
-                Prefix = "MD",
-                EntitySpawner = {
-                {
-                    name = "Medic Box",
-                    entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            },
-            },
-            {     
-                 Name = "Machine Gunner",
-                 Default = true,
-                 Models = {},
-                 Max = 4,
-                 Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
-                 SpawnWeapons = {"ent_spawner"},
-                 Prefix = "MG",
-                 EntitySpawner = {
-                 {
-                     name = "Ammo Box",
-                     entityname = "universal_ammo_small",
-                     description = "Deploy some Ammo!",
-                     price = 50
-                 },
-                 {
-                     name = "Radio",
-                     entityname = "newboombox",
-                     description = "Radio to play some War Music!",
-                     price = 0
-                 },
-                 {
-                     name = "Transport Cart",
-                     entityname = "fuel_store",
-                     description = "Cart to store Scrap and move it around.",
-                     price = 0
-                 }
-             },
-                 },
-             },
         },
+    },
     ["German High Command"] = {
         Team = "german",
         Description = "The High Command for the Germans. This Division can NOT be selected without Admin Approval!",
@@ -1303,7 +623,126 @@ DivisionTypes = {
     }
 }
 
+CORE_IMPERIUM_CLASSES = {
+    {
+        Name = "Engineer",
+        Create_Outposts = true,
+        Models = {},
+        Max = 4,
+        Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
+        SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
+        Prefix = "EG",
+        EntitySpawner = {
+            {
+                name = "Ammo Supplies",
+                entityname = "universal_ammo_small",
+                description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                price = 100
+            },
+            {
+                name = "Radio",
+                entityname = "newboombox",
+                description = "Radio to play some War Music!",
+                price = 0
+            },
+            {
+                name = "Land Mine",
+                entityname = "sw_mine_tm62_v3",
+                description = "Deploy a land mine to stop infantry.",
+                price = 50
+            },
+            {
+                name = "Machine Gun",
+                entityname = "ent_weapon_maximpod",
+                description = "Deploy a machine gun for defense.",
+                price = 250
+            },
+            {
+                name = "Transport Cart",
+                entityname = "fuel_store",
+                description = "Cart to store Scrap and move it around.",
+                price = 0
+            },
+            {
+                name = "Vehicle Ammo Crate",
+                entityname = "lvs_item_ammocrate",
+                description = "Restores a vehicles ammo.",
+                price = 400
+            },
+            {
+                name = "Petrol Can",
+                entityname = "lvs_item_jerrycan",
+                description = "I know whats wrong with it, it aint got no gas init.",
+                price = 25
+            }
+        }
+    },
+    {
+        Name = "Medic",
+        Medic = true,
+        Models = {},
+        Max = 4,
+        Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
+        SpawnWeapons = {"fas2_ifak","ent_spawner"},
+        Prefix = "MD",
+        EntitySpawner = {
+            {
+                name = "Medic Box",
+                entityname = "medic_box",
+                description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
+                price = 100
+            },
+            {
+                name = "Radio",
+                entityname = "newboombox",
+                description = "Radio to play some War Music!",
+                price = 0
+            },
+            {
+                name = "Gas Mask",
+                entityname = "item_sh_gasmask",
+                description = "Protects against gas attacks.",
+                price = 100
+            }
+        }
+    },
+    {
+        Name = "Machine Gunner",
+        Models = {},
+        Max = 4,
+        Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918","tfa_ww1_chauchat","tfa_mg08"},
+        SpawnWeapons = {"ent_spawner"},
+        Prefix = "MG",
+        EntitySpawner = {
+            {
+                name = "Ammo Box",
+                entityname = "universal_ammo_small",
+                description = "Deploy some Ammo!",
+                price = 50
+            },
+            {
+                name = "Radio",
+                entityname = "newboombox",
+                description = "Radio to play some War Music!",
+                price = 0
+            },
+            {
+                name = "Transport Cart",
+                entityname = "fuel_store",
+                description = "Cart to store Scrap and move it around.",
+                price = 0
+            }
+        }
+    }
+}
 
+for _, division in pairs(DivisionTypes) do
+    division.Classes = division.Classes or {}
+
+    for _, coreClass in ipairs(CORE_IMPERIUM_CLASSES) do
+        table.insert(division.Classes, table.Copy(coreClass))
+    end
+end
 
 ALL_DIVISIONS = {}
 BRITISH_DIVISIONS = {}
