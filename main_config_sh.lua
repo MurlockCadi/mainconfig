@@ -589,7 +589,7 @@ DivisionTypes = {
                 Max = 4,
                 Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
                 SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-                Prefix = "ENG",
+                Prefix = "EG",
                 EntitySpawner = {
                 {
                     name = "Ammo Supplies",
