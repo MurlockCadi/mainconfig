@@ -696,7 +696,6 @@ DivisionTypes = {
                 },
             },
         },
-    }
     ["German High Command"] = {
         Team = "german",
         Description = "The High Command for the Germans. This Division can NOT be selected without Admin Approval!",
