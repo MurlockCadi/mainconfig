@@ -584,28 +584,6 @@ DivisionTypes = {
             Prefix = ""
         },
         {
-            Name = "Engineer",
-            Default = false,
-            Create_Outposts = true,
-            Models = {},
-            Max = 4,
-            Weapons = {
-                "tfa_verdun_winchester1897", "tfa_ww1_remington8_police_version", "tfa_ww1_remington8_standard",
-                "tfa_doiithaca37", "tfa_ww1_mausersebslander1916", "weapon_lvsmines", "tfa_ww1_geballte_ladung"
-            },
-            SpawnWeapons = {"rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair", "weapon_lvsrepair"},
-            Prefix = "EG",
-            EntitySpawner = {
-                {name = "Ammo Supplies", entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", price = 100},
-                {name = "Radio", entityname = "newboombox", description = "Radio to play some War Music!", price = 0},
-                {name = "Land Mine", entityname = "sw_mine_tm62_v3", description = "Deploy a land mine to stop infantry.", price = 50},
-                {name = "Machine Gun", entityname = "ent_weapon_maximpod", description = "Deploy a machine gun for defense.", price = 250},
-                {name = "Transport Cart", entityname = "fuel_store", description = "Cart to store Scrap and move it around.", price = 0},
-                {name = "Vehicle Ammo Crate", entityname = "lvs_item_ammocrate", description = "Restores a vehicles ammo.", price = 400},
-                {name = "Petrol Can", entityname = "lvs_item_jerrycan", description = "I know what's wrong with it, it ain't got no gas in it.", price = 25},
-            }
-        },
-        {
             Name = "Medic",
             Medic = true,
             Default = false,
@@ -621,7 +599,7 @@ DivisionTypes = {
             }
         },
     }
-}
+},
         
     ["German High Command"] = {
         Team = "german",
