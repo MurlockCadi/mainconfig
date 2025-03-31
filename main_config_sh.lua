@@ -663,8 +663,8 @@ DivisionTypes = {
                     description = "Protects against gas attacks.",
                     price = 100
                 }
-                }
-            }
+            },
+            },
             {     
                 Name = "Machine Gunner",
                 Default = false,
