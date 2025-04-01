@@ -1484,7 +1484,7 @@ if IS_ZULU_EVENT then
             Models = {},
             Weapons = {},
             SpawnWeapons = {"ent_spawner"},
-            Prefix = "ZCAV"
+            Prefix = "ZCAV",
             EntitySpawner = {
                 {
                     name = "Mustang",
