@@ -1517,8 +1517,8 @@ if IS_ZULU_EVENT then
             SpawnWeapons = {"ent_spawner"},
             Prefix = "CAV"
             }
-        },
-     },
+        }
+     }
     },
         Team = "british"
     }
