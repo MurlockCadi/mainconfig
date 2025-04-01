@@ -1400,7 +1400,7 @@ if IS_ZULU_EVENT then
         Create_Outposts = true,
         Models = {},
         Max = 4,
-        Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
+        Weapons = {},
         SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
         Prefix = "ENG",
         EntitySpawner = {
@@ -1408,7 +1408,7 @@ if IS_ZULU_EVENT then
                 name = "Ammo Supplies",
                 entityname = "universal_ammo_small",
                 description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                price = 100
+                price = 0
             },
             {
                 name = "Radio",
@@ -1420,13 +1420,13 @@ if IS_ZULU_EVENT then
                 name = "Land Mine",
                 entityname = "sw_mine_tm62_v3",
                 description = "Deploy a land mine to stop infantry.",
-                price = 50
+                price = 0
             },
             {
                 name = "Machine Gun",
                 entityname = "ent_weapon_maximpod",
                 description = "Deploy a machine gun for defense.",
-                price = 250
+                price = 0
             },
             {
                 name = "Transport Cart",
@@ -1438,13 +1438,13 @@ if IS_ZULU_EVENT then
                 name = "Vehicle Ammo Crate",
                 entityname = "lvs_item_ammocrate",
                 description = "Restores a vehicles ammo.",
-                price = 400
+                price = 0
             },
             {
                 name = "Petrol Can",
                 entityname = "lvs_item_jerrycan",
                 description = "I know whats wrong with it, it aint got no gas init.",
-                price = 25
+                price = 0
             }
         }
     },
@@ -1453,7 +1453,7 @@ if IS_ZULU_EVENT then
         Medic = true,
         Models = {"models/player/AZW/medic/medic.mdl}"},
         Max = 10,
-        Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
+        Weapons = {},
         SpawnWeapons = {"fas2_ifak","ent_spawner"},
         Prefix = "MD",
         EntitySpawner = {
@@ -1461,7 +1461,7 @@ if IS_ZULU_EVENT then
                 name = "Medic Box",
                 entityname = "medic_box",
                 description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                price = 100
+                price = 0
             },
             {
                 name = "Radio",
@@ -1473,7 +1473,7 @@ if IS_ZULU_EVENT then
                 name = "Gas Mask",
                 entityname = "item_sh_gasmask",
                 description = "Protects against gas attacks.",
-                price = 100
+                price = 0
             }
         }
     },
