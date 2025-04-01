@@ -1399,6 +1399,7 @@ if IS_ZULU_EVENT then
         Name = "Engineer",
         Create_Outposts = true,
         Models = {},
+        Default = true, 
         Max = 4,
         Weapons = {},
         SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
@@ -1451,6 +1452,7 @@ if IS_ZULU_EVENT then
     {
         Name = "Medic",
         Medic = true,
+        Default = true,
         Models = {"models/player/AZW/medic/medic.mdl}"},
         Max = 10,
         Weapons = {},
@@ -1481,8 +1483,9 @@ if IS_ZULU_EVENT then
              ["Calvary"] = {
         DivisionTypes = ALL_DIVISIONS,
         Description = "The cavalry remains a vital component of warfare, providing speed and mobility on the battlefield. Mounted soldiers can quickly traverse rough terrain and execute flanking maneuvers.\n\nWhile vulnerable to modern weaponry, a cavalry charge can break enemy lines and boost the morale of your comrades.\n\nEach mount costs 100 supply (25 out of operation)",
-        Supply = 7500,
-        WeeklyActivity = 5,
+        Supply = 0,
+        Default = true,            
+        WeeklyActivity = 0,
         Class = {
             Name = "Cavalry",
             Default = false,
