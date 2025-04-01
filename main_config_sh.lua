@@ -1478,14 +1478,8 @@ if IS_ZULU_EVENT then
         }
     },
         {
-             ["Zulu Calvary"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "The cavalry remains a vital component of warfare, providing speed and mobility on the battlefield. Mounted soldiers can quickly traverse rough terrain and execute flanking maneuvers.\n\nWhile vulnerable to modern weaponry, a cavalry charge can break enemy lines and boost the morale of your comrades.\n\nEach mount costs 100 supply (25 out of operation)",
-        Supply = 0,
-        Default = true,            
-        WeeklyActivity = 0,
-        Class = {
-            Name = "Cavalry",
+         Class = {
+            Name = "Zulu Cavalry",
             Default = false,
             Models = {},
             Weapons = {},
