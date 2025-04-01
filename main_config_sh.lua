@@ -1395,6 +1395,90 @@ if IS_ZULU_EVENT then
                 SpawnWeapons = {},
                 Prefix = ""
             },
+                {
+        Name = "Engineer",
+        Create_Outposts = true,
+        Models = {},
+        Max = 4,
+        Core = true,
+        Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
+        SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
+        Prefix = "EG",
+        EntitySpawner = {
+            {
+                name = "Ammo Supplies",
+                entityname = "universal_ammo_small",
+                description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                price = 100
+            },
+            {
+                name = "Radio",
+                entityname = "newboombox",
+                description = "Radio to play some War Music!",
+                price = 0
+            },
+            {
+                name = "Land Mine",
+                entityname = "sw_mine_tm62_v3",
+                description = "Deploy a land mine to stop infantry.",
+                price = 50
+            },
+            {
+                name = "Machine Gun",
+                entityname = "ent_weapon_maximpod",
+                description = "Deploy a machine gun for defense.",
+                price = 250
+            },
+            {
+                name = "Transport Cart",
+                entityname = "fuel_store",
+                description = "Cart to store Scrap and move it around.",
+                price = 0
+            },
+            {
+                name = "Vehicle Ammo Crate",
+                entityname = "lvs_item_ammocrate",
+                description = "Restores a vehicles ammo.",
+                price = 400
+            },
+            {
+                name = "Petrol Can",
+                entityname = "lvs_item_jerrycan",
+                description = "I know whats wrong with it, it aint got no gas init.",
+                price = 25
+            }
+        }
+    },
+    {
+        Name = "Medic",
+        Medic = true,
+        Models = {models/player/AZW/medic/medic.mdl},
+        Core = true,
+        Max = 4,
+        Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
+        SpawnWeapons = {"fas2_ifak","ent_spawner"},
+        Prefix = "MD",
+        EntitySpawner = {
+            {
+                name = "Medic Box",
+                entityname = "medic_box",
+                description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
+                price = 100
+            },
+            {
+                name = "Radio",
+                entityname = "newboombox",
+                description = "Radio to play some War Music!",
+                price = 0
+            },
+            {
+                name = "Gas Mask",
+                entityname = "item_sh_gasmask",
+                description = "Protects against gas attacks.",
+                price = 100
+            }
+        }
+    },
         },
         Team = "british"
     }
