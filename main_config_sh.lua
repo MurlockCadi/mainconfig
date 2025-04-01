@@ -1364,14 +1364,14 @@ ROLES = ROLES or {
     },
 }
 
-
+--EVENT ROLE FOR AZW!
 ROLES.DIVISION_ZULU_EVENT = {
     NiceName = "24th Welsh Regiment of Foot",
     Prefix = "24th",
     event_group = true,
     Color = Color(100, 50, 50, 255),
     Description = "24th Welsh Regiment of Foot, sent into ZuluLand...",
-    Default = true,
+    Default = false,
     Ranks = {
         {ID = 1, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
         {ID = 2, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
@@ -1521,7 +1521,7 @@ ROLES.DIVISION_ZULU_EVENT = {
 }
 
 if IS_ZULU_EVENT then
-    ROLES.DIVISION_ZULU_EVENT.Default = false
+    ROLES.DIVISION_ZULU_EVENT.Default = true
 end
 
 
