@@ -1452,9 +1452,9 @@ if IS_ZULU_EVENT then
     {
         Name = "Medic",
         Medic = true,
-        Models = {models/player/AZW/medic/medic.mdl},
+        Models = {"models/player/AZW/medic/medic.mdl}"},
         Core = true,
-        Max = 4,
+        Max = 10
         Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
         SpawnWeapons = {"fas2_ifak","ent_spawner"},
         Prefix = "MD",
