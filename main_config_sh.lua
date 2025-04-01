@@ -1515,7 +1515,7 @@ if IS_ZULU_EVENT then
      }
  }
     },
-        Team = "british"
+        Team = "british",
     }
 end
 
