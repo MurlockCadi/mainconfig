@@ -1399,7 +1399,6 @@ if IS_ZULU_EVENT then
         Name = "Engineer",
         Create_Outposts = true,
         Models = {},
-        Default = true, 
         Max = 4,
         Weapons = {},
         SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
@@ -1452,7 +1451,6 @@ if IS_ZULU_EVENT then
     {
         Name = "Medic",
         Medic = true,
-        Default = true,
         Models = {"models/player/AZW/medic/medic.mdl}"},
         Max = 10,
         Weapons = {},
