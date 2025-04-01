@@ -10,30 +10,7 @@ MAIN_MAP = "rp_ww1_siegfriedtrenches_b02"
 
 mapMessages = {
     ["gm_flatgrass"] = "Welcome to Murlocks Testing gm_flatgrass. If you have money... I would run...",
-
-    ["rp_fork_stasiland_fog"] = "Stralsund: East Germany. Under NATO Intervention and Occupation.",
-    ["rp_zaton_remaster_1"] = "Communist Tito Yugoslavia: Zaton. Under NATO Intervention.",
-
-    ["rp_clazfort"] = "Somewhere on the American East Coast: Communist Uprising.",
-
-    ["rp_highland"] = "Eastern Bloc: Polish Peoples Republic. NATO Intervention.",
-
-    ["rp_guantanamo_bay_cuba"] = "Republic of Cuba: Guantanamo Bay. 'The Bay of Pigs'",
-
-    ["rp_junglestorm"] = "Democratic Peoples Republic of Korea: NATO Intervention Across the DMZ.",
-
-    ["rp_asheville"] = "Ruins of Asheville, North Carolina. After the Bomb. WARSAW Invasion.",
-
-    ["rp_sog_lgdv_v3_day"] = "North Vietnam: 'Operation Rolling Thunder' Under NATO Intervention",
-
-    ["rp_vietnam_eclipse_v1a"] = "South Vietnam: 'The Tet Offensive' Under WARSAW Liberation",
-
-    ["rp_1976berlin_v3_beta1"] = "East Berlin: German Democratic Republic. Under NATO Intervention",
-
-    ["rp_vietnam_imperium_v2"] = "Somewhere in Vietnam during the hight of the conflict..."
-
-
-
+    ["zulu_field_002"] = "Natal 1879... British Invasion into Zulu Land."
 }
 
 
@@ -92,6 +69,11 @@ else
     IS_ZULU_EVENT = false
 end
 
+if IS_ZULU_EVENT then
+    intro_songs = { "https://files.catbox.moe/4tki8r.mp3"}
+    intro_image_urls = {"https://i.imgur.com/tJr1Sb0.jpeg"}
+    gamemode_name = "Anglo Zulu War RP"
+    
 ------IS_SERVER_MANAGED----------
 
 --IF SET TO TRUE, THEN ONLY SUPERADMINS CAN EDIT AND CREATE DIVISIONS!
