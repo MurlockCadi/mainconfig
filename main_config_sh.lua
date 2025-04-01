@@ -1176,21 +1176,6 @@ imperium_specializations = {
             Prefix = "SNI"
        }
     },
-    ["Messenger Bird"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Flying high above the battlefield, the Messenger Bird is able to spot enemy positions and relay information back to the command. \n\nMessenger Birds are essential for keeping the army informed, and are able to fly over enemy lines to spy and report back with valuable information.",
-        Supply = 5000,
-        WeeklyActivity = 0,
-        Class = {
-            Name = "Messenger Bird",
-            Default = false,
-            isbird = true,
-            Models = {},
-            Weapons = {""},
-            SpawnWeapons = {""},
-            Prefix = ""
-        },
-    },
     ["Trench Sapper"] = {
         DivisionTypes = ALL_DIVISIONS,
         Description = "As a child I yearned for the mines.\n\nThe Trench Sapper can dig underground to find scrap and to breach into the enemy trench. They belong underground.",
