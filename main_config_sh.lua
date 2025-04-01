@@ -1368,6 +1368,7 @@ if IS_ZULU_EVENT then
     ROLES.DIVISION_ZULU_EVENT = {
         NiceName = "24th Welsh Regiment of Foot",
         Prefix = "24th",
+        event_group = true,
         Color = Color(100, 50, 50, 255),
         Description = "24th Welsh Regiment of Foot, sent into ZuluLand...",
         Default = true,
