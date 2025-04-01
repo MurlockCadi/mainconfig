@@ -1364,120 +1364,125 @@ ROLES = ROLES or {
     },
 }
 
-if IS_ZULU_EVENT then
-    ROLES.DIVISION_ZULU_EVENT = {
-        NiceName = "24th Welsh Regiment of Foot",
-        Prefix = "24th",
-        event_group = true,
-        Color = Color(100, 50, 50, 255),
-        Description = "24th Welsh Regiment of Foot, sent into ZuluLand...",
-        Default = true,
-        Ranks = {
-            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 3, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 7, Name = "Warrant Officer Class 2", Rank_Prefix = "WO2", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 8, Name = "Warrant Officer Class 1", Rank_Prefix = "WO1", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
-            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+
+ROLES.DIVISION_ZULU_EVENT = {
+    NiceName = "24th Welsh Regiment of Foot",
+    Prefix = "24th",
+    event_group = true,
+    Color = Color(100, 50, 50, 255),
+    Description = "24th Welsh Regiment of Foot, sent into ZuluLand...",
+    Default = true,
+    Ranks = {
+        {ID = 1, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 2, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 3, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 4, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 5, Name = "Colour Sergeant", Rank_Prefix = "CSGT", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 6, Name = "Sergeant Major", Rank_Prefix = "SM", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 7, Name = "Ensign", Rank_Prefix = "ENS", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 8, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 9, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 10, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 11, Name = "Lieutenant Colonel", Rank_Prefix = "LTCOL", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        {ID = 12, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+    },
+    Classes = {
+        {
+            Name = "Rifleman",
+            Default = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = ""
         },
-        Classes = {
-            {
-                Name = "Rifleman",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
+        {
+            Name = "Zulu Engineer",
+            Create_Outposts = true,
+            Models = {},
+            Max = 4,
+            Weapons = {},
+            SpawnWeapons = {
+                "rope_tool",
+                "ent_spawner",
+                "alydus_fortificationbuildertablet",
+                "weapon_lvsrepair",
+                "weapon_lvsrepair"
             },
+            Prefix = "ZENG",
+            EntitySpawner = {
                 {
-        Name = "Zulu Engineer",
-        Create_Outposts = true,
-        Models = {},
-        Max = 4,
-        Weapons = {},
-        SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsrepair","weapon_lvsrepair"},
-        Prefix = "ZENG",
-        EntitySpawner = {
-            {
-                name = "Ammo Supplies",
-                entityname = "universal_ammo_small",
-                description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                price = 0
-            },
-            {
-                name = "Radio",
-                entityname = "newboombox",
-                description = "Radio to play some War Music!",
-                price = 0
-            },
-            {
-                name = "Land Mine",
-                entityname = "sw_mine_tm62_v3",
-                description = "Deploy a land mine to stop infantry.",
-                price = 0
-            },
-            {
-                name = "Machine Gun",
-                entityname = "ent_weapon_maximpod",
-                description = "Deploy a machine gun for defense.",
-                price = 0
-            },
-            {
-                name = "Transport Cart",
-                entityname = "fuel_store",
-                description = "Cart to store Scrap and move it around.",
-                price = 0
-            },
-            {
-                name = "Vehicle Ammo Crate",
-                entityname = "lvs_item_ammocrate",
-                description = "Restores a vehicles ammo.",
-                price = 0
-            },
-            {
-                name = "Petrol Can",
-                entityname = "lvs_item_jerrycan",
-                description = "I know whats wrong with it, it aint got no gas init.",
-                price = 0
+                    name = "Ammo Supplies",
+                    entityname = "universal_ammo_small",
+                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                    price = 0
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+                {
+                    name = "Land Mine",
+                    entityname = "sw_mine_tm62_v3",
+                    description = "Deploy a land mine to stop infantry.",
+                    price = 0
+                },
+                {
+                    name = "Machine Gun",
+                    entityname = "ent_weapon_maximpod",
+                    description = "Deploy a machine gun for defense.",
+                    price = 0
+                },
+                {
+                    name = "Transport Cart",
+                    entityname = "fuel_store",
+                    description = "Cart to store Scrap and move it around.",
+                    price = 0
+                },
+                {
+                    name = "Vehicle Ammo Crate",
+                    entityname = "lvs_item_ammocrate",
+                    description = "Restores a vehicles ammo.",
+                    price = 0
+                },
+                {
+                    name = "Petrol Can",
+                    entityname = "lvs_item_jerrycan",
+                    description = "I know whats wrong with it, it aint got no gas init.",
+                    price = 0
+                }
             }
-        }
-    },
-    {
-        Name = "Zulu Medic",
-        Medic = true,
-        Models = {"models/player/AZW/medic/medic.mdl}"},
-        Max = 10,
-        Weapons = {},
-        SpawnWeapons = {"fas2_ifak","ent_spawner"},
-        Prefix = "ZMD",
-        EntitySpawner = {
-            {
-                name = "Medic Box",
-                entityname = "medic_box",
-                description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                price = 0
-            },
-            {
-                name = "Radio",
-                entityname = "newboombox",
-                description = "Radio to play some War Music!",
-                price = 0
-            },
-            {
-                name = "Gas Mask",
-                entityname = "item_sh_gasmask",
-                description = "Protects against gas attacks.",
-                price = 0
+        },
+        {
+            Name = "Zulu Medic",
+            Medic = true,
+            Models = {"models/player/AZW/medic/medic.mdl"},
+            Max = 10,
+            Weapons = {},
+            SpawnWeapons = {"fas2_ifak", "ent_spawner"},
+            Prefix = "ZMD",
+            EntitySpawner = {
+                {
+                    name = "Medic Box",
+                    entityname = "medic_box",
+                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
+                    price = 0
+                },
+                {
+                    name = "Radio",
+                    entityname = "newboombox",
+                    description = "Radio to play some War Music!",
+                    price = 0
+                },
+                {
+                    name = "Gas Mask",
+                    entityname = "item_sh_gasmask",
+                    description = "Protects against gas attacks.",
+                    price = 0
+                }
             }
-        }
-    },
+        },
         {
             Name = "Zulu Cavalry",
             Models = {},
@@ -1511,10 +1516,14 @@ if IS_ZULU_EVENT then
                 }
             }
         }
-     },
-        Team = "british",
-    }
+    },
+    Team = "zulu"
+}
+
+if IS_ZULU_EVENT then
+    ROLES.DIVISION_ZULU_EVENT.Default = false
 end
+
 
 DEFAULT_ROLE = ROLES.DIVISION_BRITISH
 
