@@ -82,6 +82,15 @@ intro_image_urls = {
     "https://i.imgur.com/YZNJCSz.jpeg"
 }
 
+----IS_ZULU_EVENT-------------
+
+local isZuluField002 = (game.GetMap() == "zulu_field_002")
+
+if isZuluField002 then
+    IS_ZULU_EVENT = true
+else
+    IS_ZULU_EVENT = false
+end
 
 ------IS_SERVER_MANAGED----------
 
@@ -1278,6 +1287,13 @@ imperium_specializations = {
     },
 }
 
+--ZULU EVENT
+NCO_MODELS_ZULU = {"models/sujelo/pm0v3/player/24thfoot/brit_zulu_nco6.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_nco5.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_nco4.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_nco3.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_nco2.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_nco1.mdl"}
+MODELS_ZULU = {"models/sujelo/pm0v3/player/24thfoot/brit_zulu_en6.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_en5.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_en4.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_en3.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_en2.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_en1.mdl"}
+CO_MODELS_ZULU = {"models/sujelo/pm0v3/player/24thfoot/brit_zulu_co6.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_co5.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_co4.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_co3.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_co2.mdl","models/sujelo/pm0v3/player/24thfoot/brit_zulu_co1.mdl"}
+
+LOADOUT_ZULU = {"tfa_tannenberg_martini_henry","tfa_doiwebley"}
+
 ROLES = ROLES or {
     STAFF = {
         NiceName = "STAFF ON DUTY",
@@ -1365,6 +1381,43 @@ ROLES = ROLES or {
         Team = "german"
     },
 }
+
+if IS_ZULU_EVENT then
+    ROLES.DIVISION_ZULU_EVENT = {
+        NiceName = "24th Welsh Regiment of Foot",
+        Prefix = "24th",
+        Color = Color(100, 50, 50, 255),
+        Description = "24th Welsh Regiment of Foot, sent into ZuluLand...",
+        Default = true,
+        Ranks = {
+            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 3, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 7, Name = "Warrant Officer Class 2", Rank_Prefix = "WO2", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 8, Name = "Warrant Officer Class 1", Rank_Prefix = "WO1", ModelsAllowed = NCO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = CO_MODELS_ZULU, WeaponsAllowed = LOADOUT_ZULU},
+        },
+        Classes = {
+            {
+                Name = "Rifleman",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+        },
+        Team = "british"
+    }
+end
+
 DEFAULT_ROLE = ROLES.DIVISION_BRITISH
 
 --HARDCODED TO BE AT MAX 5 RANKS
