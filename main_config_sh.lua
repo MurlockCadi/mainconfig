@@ -73,7 +73,7 @@ if IS_ZULU_EVENT then
     intro_songs = { "https://files.catbox.moe/4tki8r.mp3"}
     intro_image_urls = {"https://i.imgur.com/tJr1Sb0.jpeg"}
     gamemode_name = "Anglo Zulu War RP"
-    
+end
 ------IS_SERVER_MANAGED----------
 
 --IF SET TO TRUE, THEN ONLY SUPERADMINS CAN EDIT AND CREATE DIVISIONS!
