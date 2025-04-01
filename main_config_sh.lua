@@ -1479,7 +1479,6 @@ if IS_ZULU_EVENT then
     },
         {
             Name = "Zulu Cavalry",
-            Default = false,
             Models = {},
             Weapons = {},
             SpawnWeapons = {"ent_spawner"},
@@ -1509,11 +1508,10 @@ if IS_ZULU_EVENT then
                     description = "Radio to play some War Music!",
                     price = 0
                 }
-            },
+            }
         }
-     }
- },
-        Team = "british"
+     },
+        Team = "british",
     }
 end
 
