@@ -1478,7 +1478,6 @@ if IS_ZULU_EVENT then
         }
     },
         {
-         Class = {
             Name = "Zulu Cavalry",
             Default = false,
             Models = {},
