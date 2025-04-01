@@ -1483,6 +1483,8 @@ if IS_ZULU_EVENT then
             Default = false,
             Models = {},
             Weapons = {},
+            SpawnWeapons = {"ent_spawner"},
+            Prefix = "ZCAV"
             EntitySpawner = {
                 {
                     name = "Mustang",
@@ -1509,11 +1511,9 @@ if IS_ZULU_EVENT then
                     price = 0
                 }
             },
-            SpawnWeapons = {"ent_spawner"},
-            Prefix = "ZCAV"
-            }
         }
      }
+ }
     },
         Team = "british"
     }
