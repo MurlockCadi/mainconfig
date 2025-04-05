@@ -927,46 +927,6 @@ imperium_specializations = {
             }
         }
     },
-    ["Motorized"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Since the creation of combustion engines, many have considered how automobiles could be used in war. This class provides a variety of armored cars that can be deployed.\nCheaper and faster than tanks, they can be used to flank enemies and rush trench lines while offering good protection and decent firepower.",
-        Supply = 10000,
-        WeeklyActivity = 50000,
-        Class = {
-            Name = "Motorized",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
-            Prefix = "MZ",
-            vehicles = {
-                {
-                    name = "The Freeman",
-                    entityname = "lvs_freeman",
-                    description = "Decently Armored Truck with a big Cannon perfect for taking out Tanks or providing support at a distance.",
-                    price = 1750
-                },
-                {
-                    name = "The knave",
-                    entityname = "lvs_knave",
-                    description = "Decently Armored Truck with Mortars to support at a distance.",
-                    price = 750
-                },
-                {
-                    name = "Obrien",
-                    entityname = "lvs_obrien",
-                    description = "This is a quick and fast car with a Mounted Machinegun. Quick and deadly.",
-                    price = 350
-                },
-                {
-                    name = "Gravekeeper",
-                    entityname = "lvs_gravekeeper",
-                    description = "This is a quick and fast car with a Mounted Cannon. Quick and deadly.",
-                    price = 500
-                }
-            }
-        }
-    },
     ["Central Aviator"] = {
         DivisionTypes = GERMAN_DIVISIONS,
         Description = "War has changed. The skies are now a battleground of aces.\n\nBiplanes tear through the air, dropping bombs and steel darts onto enemy trenches.\n\nPlanes are only effective on the Main Map.",
