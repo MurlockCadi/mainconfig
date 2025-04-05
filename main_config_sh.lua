@@ -669,8 +669,20 @@ CORE_IMPERIUM_CLASSES = {
             {
                 name = "Petrol Can",
                 entityname = "lvs_item_jerrycan",
-                description = "I know whats wrong with it, it aint got no gas init.",
+                description = "For tanks and Planes!",
                 price = 25
+            },
+            {
+                name = "Telegraph Node",
+                entityname = "node_murlock",
+                description = "Node used to connect Home Trench to the Telegraph Machine.",
+                price = 0
+            },
+            {
+                name = "Telegraph Machine",
+                entityname = "node_murlock",
+                description = "Speak to HQ and request supply. Must be connected via Nodes and deployed on Frontline Trench.",
+                price = 500
             }
         }
     },
