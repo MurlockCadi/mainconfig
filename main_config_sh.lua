@@ -680,7 +680,7 @@ CORE_IMPERIUM_CLASSES = {
             },
             {
                 name = "Telegraph Machine",
-                entityname = "node_murlock",
+                entityname = "murlock_radio_gpt",
                 description = "Speak to HQ and request supply. Must be connected via Nodes and deployed on Frontline Trench.",
                 price = 500
             }
