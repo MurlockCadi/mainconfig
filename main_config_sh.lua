@@ -671,6 +671,18 @@ CORE_IMPERIUM_CLASSES = {
                 entityname = "lvs_item_jerrycan",
                 description = "I know whats wrong with it, it aint got no gas init.",
                 price = 25
+            },
+            {
+                name = "Telegraph Machine",
+                entityname = "murlock_radio_gpt",
+                description = "For communicating with HQ",
+                price = 0
+            },
+            {
+                name = "Telegraph Line Extenders",
+                entityname = "node_murlock",
+                description = "Connects your HQ and your Telegraph Machine",
+                price = 0
             }
         }
     },
