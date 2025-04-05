@@ -649,10 +649,10 @@ CORE_IMPERIUM_CLASSES = {
                 price = 50
             },
             {
-                name = "Machine Gun",
-                entityname = "ent_weapon_maximpod",
+                name = "Machine Gun Emplacement",
+                entityname = "maxim",
                 description = "Deploy a machine gun for defense.",
-                price = 250
+                price = 100
             },
             {
                 name = "Transport Cart",
