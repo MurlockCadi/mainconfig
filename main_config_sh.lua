@@ -652,7 +652,7 @@ CORE_IMPERIUM_CLASSES = {
                 name = "Machine Gun Emplacement",
                 entityname = "maxim",
                 description = "Deploy a machine gun for defense.",
-                price = 100
+                price = 500
             },
             {
                 name = "Transport Cart",
@@ -786,7 +786,7 @@ imperium_specializations = {
             Name = "Cavalry",
             Default = false,
             Models = {},
-            Weapons = {"tfa_ww1_colt_saa"},
+            Weapons = {"tfa_ww1_colt_saa","tfa_m9k_winchester"},
             EntitySpawner = {
                 {
                     name = "Mustang",
