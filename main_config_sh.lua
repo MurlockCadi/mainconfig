@@ -782,6 +782,7 @@ imperium_specializations = {
         Description = "The cavalry remains a vital component of warfare, providing speed and mobility on the battlefield. Mounted soldiers can quickly traverse rough terrain and execute flanking maneuvers.\n\nWhile vulnerable to modern weaponry, a cavalry charge can break enemy lines and boost the morale of your comrades.\n\nEach mount costs 100 supply (25 out of operation)",
         Supply = 7500,
         WeeklyActivity = 5,
+        Max = 2,
         Class = {
             Name = "Cavalry",
             Default = false,
@@ -792,19 +793,19 @@ imperium_specializations = {
                     name = "Mustang",
                     entityname = "ent_horse_mustang",
                     description = "Mustang Breed. Fast and Wild. Horse of the Castilians of old and Indians.",
-                    price = 200
+                    price = 150
                 },
                 {
                     name = "Arabian",
                     entityname = "ent_horse_arabian",
                     description = "Arabian Breed. Proud and Free. Horse of Saladin and of the Turks.",
-                    price = 200
+                    price = 150
                 },
                 {
                     name = "Ardennes",
                     entityname = "ent_horse_ardennes",
                     description = "Ardennes Breed. Strong and Loyal. Horse of the Benelux, Horse of Napoleon.",
-                    price = 200
+                    price = 150
                 },
                 {
                     name = "Radio",
