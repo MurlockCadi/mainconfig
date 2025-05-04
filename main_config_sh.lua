@@ -371,11 +371,11 @@ FM_MODELS = {"models/player/dod_german.mdl","models/ibz/luftwaffe/airborn/ger_pa
 FM_CO_MODELS = {"models/player/dod_german.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male02.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male03.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male04.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male05.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male06.mdl","models/ibz/luftwaffe/airborn/ger_para_06.mdl","models/ibz/luftwaffe/airborn/ger_para_06_a.mdl"}
 FM_LOADOUT = {}
 
---SS Division
-SS_MODELS = {"models/player/dod_german.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/en/m42smock_s1_02.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/en/m42smock_s1_03.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/en/m42smock_s1_04.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/en/m42smock_s1_05.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/en/m42smock_s1_06.mdl"}
-SS_NCO_MODELS = {"models/player/dod_german.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_02.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_03.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_04.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_05.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_06.mdl"}
-SS_CO_MODELS = {"models/player/dod_german.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/co/m38_s1_03.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/co/m38_s1_04.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/co/m38_s1_05.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/co/m38_s1_06.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_01.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_02.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_03.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_04.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_05.mdl","models/hts/comradebear/pm0v3/player/wss/infantry/nco/m42smock_s1_06.mdl"}
-SS_LOADOUT = {}
+--Italian Division
+ITALY_MODELS = {"models/player/dod_german.mdl"}
+ITALY_NCO_MODELS = {"models/player/dod_german.mdl"}
+ITALY_CO_MODELS = {"models/player/dod_german.mdl"}
+ITALY_LOADOUT = {}
 
 --US Airborne Division
 
@@ -540,23 +540,27 @@ DivisionTypes = {
             },
         },
     },
-    ["Waffen-SS Division"] = {
+    ["Italian Division"] = {
         Team = "axis",
-        Description = "The Waffen SS is the elite fighting force of the German Army, known for its fanaticism, brutality, and effectiveness. The Waffen SS is the most feared fighting force in the world, and its soldiers are known for their skill, discipline, and loyalty to the Fuhrer.",
+        Description = "Italian divisions were known for strong mountain infantry units (Alpini), large numbers of troops, and service in difficult terrains such as North Africa and the Balkans. ",
         Ranks = {
-            {ID = 1, Name = "Rekrut", Rank_Prefix = "RKT", ModelsAllowed = SS_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 2, Name = "Soldat", Rank_Prefix = "SDT", ModelsAllowed = SS_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 3, Name = "Gefreiter", Rank_Prefix = "GFR", ModelsAllowed = SS_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 4, Name = "Obergefreiter", Rank_Prefix = "OGFR", ModelsAllowed = SS_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 5, Name = "Unteroffizier", Rank_Prefix = "UO", ModelsAllowed = SS_NCO_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 6, Name = "Feldwebel", Rank_Prefix = "FW", ModelsAllowed = SS_NCO_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 7, Name = "Oberfeldwebel", Rank_Prefix = "OFW", ModelsAllowed = SS_NCO_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 8, Name = "Leutnant", Rank_Prefix = "LT", ModelsAllowed = SS_CO_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 9, Name = "Oberleutnant", Rank_Prefix = "OLT", ModelsAllowed = SS_CO_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 10, Name = "Hauptmann", Rank_Prefix = "HPT", ModelsAllowed = SS_CO_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 11, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = SS_CO_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 12, Name = "Oberstleutnant", Rank_Prefix = "OLT", ModelsAllowed = SS_CO_MODELS, WeaponsAllowed = SS_LOADOUT},
-            {ID = 13, Name = "Oberst", Rank_Prefix = "OBT", ModelsAllowed = SS_CO_MODELS, WeaponsAllowed = SS_LOADOUT},
+            {ID = 1, Name = "Soldato", Rank_Prefix = "SLO", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 2, Name = "Soldato Scelto", Rank_Prefix = "SSCLE", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 3, Name = "Caporale", Rank_Prefix = "CPL", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 4, Name = "Caporale Maggiore", Rank_Prefix = "CPLM", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 5, Name = "Sergente", Rank_Prefix = "SGT", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 6, Name = "Sergente Maggiore", Rank_Prefix = "SGTM", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 7, Name = "Maresciallo Ordinario", Rank_Prefix = "RKT", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 8, Name = "Marsciallo Capo", Rank_Prefix = "RKT", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 9, Name = "Marsciallo Maggiore", Rank_Prefix = "RKT", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 10, Name = "Tenente", Rank_Prefix = "TEN", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 11, Name = "Primo Tenente", Rank_Prefix = "PTEN", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 12, Name = "Capitano", Rank_Prefix = "CPT", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 13, Name = "Maggiore", Rank_Prefix = "MAJ", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 14, Name = "Tenente Collonello", Rank_Prefix = "TENCOL", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 15, Name = "Colonello", Rank_Prefix = "COL", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 16, Name = "Generale di Brigate", Rank_Prefix = "GB", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+
         },
         Classes = {
             {
