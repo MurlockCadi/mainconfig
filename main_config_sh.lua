@@ -401,6 +401,7 @@ DivisionTypes = {
             {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
             {ID = 13, Name = "Lieutenant Colonel", Rank_Prefix = "LTCOL", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
             {ID = 14, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
+            {ID = 15, Name = "Brigadier", Rank_Prefix = "BRIG", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
         },
         Classes = {
             {
