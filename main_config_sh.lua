@@ -481,7 +481,7 @@ DivisionTypes = {
         Description = "GOTT MIT UNS! The Wehrmacht is the backbone of the German Army, with millions of soldiers fighting for the Fatherland. The Wehrmacht is known for its discipline, tactics, and ideological fervor.",
         Ranks = {
             {ID = 1, Name = "Grenadier", Rank_Prefix = "GRN", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 2, Name = "OberGrenadier", Rank_Prefix = "OGR", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = DE_LOADOUT},
+            {ID = 2, Name = "OberGrenadier", Rank_Prefix = "OGRN", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = DE_LOADOUT},
             {ID = 3, Name = "Gefreiter", Rank_Prefix = "GFR", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = DE_LOADOUT},
             {ID = 4, Name = "Obergefreiter", Rank_Prefix = "OGFR", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = DE_LOADOUT}, 
             {ID = 5, Name = "Unteroffizer", Rank_Prefix = "UFFZ", ModelsAllowed = DE_NCO_MODELS, WeaponsAllowed = DE_LOADOUT},
