@@ -1065,7 +1065,7 @@ ROLES = ROLES or {
         Team = "allies"
     },
     DIVISION_GERMAN = {
-        NiceName = "Wehrmacht Recruits",
+        NiceName = "Axis Recruits",
         Prefix = "AXIS",
         Color = Color(70, 80, 90, 255),
         Description = "The Fatherland is in danger, and you are the one defending it.\nYou are tasked with fighting the Allies and bringing victory to the Reich.",
