@@ -312,8 +312,8 @@ commands = {
     ["/addsupply"] = function(ply, args) SetDivisionSupplyAdmin(ply, args) end,
     ["/divisionrank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
     ["!divisionrank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
-    ["/actions"] = function(ply, args) OpenMissionSelectionMenu(ply, args) end,
-    ["!actions"] = function(ply, args) OpenMissionSelectionMenu(ply, args) end
+    ["/actions"] = function(ply) OpenMissionSelectionMenu(ply) end,
+    ["!actions"] = function(ply) OpenMissionSelectionMenu(ply) end
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
