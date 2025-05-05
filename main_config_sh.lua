@@ -398,7 +398,7 @@ DivisionTypes = {
             {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
             {ID = 14, Name = "Lieutenant Colonel", Rank_Prefix = "LTCOL", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
             {ID = 15, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 16, Name = "General", Rank_Prefix = "GEN", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
+            {ID = 16, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
         },
         Classes = {
             {
@@ -446,8 +446,8 @@ DivisionTypes = {
         Ranks = {
             {ID = 1, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = US_ENLISTED_MODELS, WeaponsAllowed = US_LOADOUT},
             {ID = 2, Name = "Private First Class", Rank_Prefix = "PFC", ModelsAllowed = US_ENLISTED_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 3, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 4, Name = "Technical Corporal", Rank_Prefix = "TCPL", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
+            {ID = 3, Name = "Technical Corporal", Rank_Prefix = "TCPL", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
             {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
             {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
             {ID = 7, Name = "Technical Sergeant ", Rank_Prefix = "TSGT", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
@@ -459,7 +459,7 @@ DivisionTypes = {
             {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
             {ID = 14, Name = "Lieutenant Colonel", Rank_Prefix = "LTCOL", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
             {ID = 15, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
-            {ID = 16, Name = "General", Rank_Prefix = "GEN", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
+            {ID = 16, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
         },
         Classes = {
             {
@@ -491,7 +491,7 @@ DivisionTypes = {
             {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
             {ID = 14, Name = "Oberstleutnant", Rank_Prefix = "OBTLT", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
             {ID = 15, Name = "Oberst", Rank_Prefix = "OBT", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 16, Name = "General", Rank_Prefix = "GEN", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
+            {ID = 16, Name = "Unterfeldwebel", Rank_Prefix = "UFW", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
         },
         Classes = {
             {
@@ -513,7 +513,7 @@ DivisionTypes = {
             {ID = 3, Name = "Obergefreiter", Rank_Prefix = "OGFR", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 4, Name = "Hauptgefreiter", Rank_Prefix = "HGFR", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 5, Name = "Unteroffizier", Rank_Prefix = "UFFZ", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 6, Name = "Unterfeldwebel", Rank_Prefix = "UO", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
+            {ID = 6, Name = "Unterfeldwebel", Rank_Prefix = "UFW", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 7, Name = "Feldwebel", Rank_Prefix = "FW", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 8, Name = "Oberfeldwebel", Rank_Prefix = "OFW", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 9, Name = "StabsFeldwebel", Rank_Prefix = "STFW", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
@@ -523,7 +523,7 @@ DivisionTypes = {
             {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 14, Name = "Oberstleutnant", Rank_Prefix = "OLT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 15, Name = "Oberst", Rank_Prefix = "OBT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 16, Name = "General", Rank_Prefix = "GEN", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
+            {ID = 16, Name = "Unterfeldwebel", Rank_Prefix = "UFW", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
         },
         Classes = {
             {
@@ -555,7 +555,7 @@ DivisionTypes = {
             {ID = 13, Name = "Maggiore", Rank_Prefix = "MAJ", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
             {ID = 14, Name = "Tenente Colonello", Rank_Prefix = "TENCOL", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
             {ID = 15, Name = "Colonello", Rank_Prefix = "COL", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 16, Name = "Generale", Rank_Prefix = "GEN", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 16, Name = "Sergente Maggiore", Rank_Prefix = "SGTM", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
 
         },
         Classes = {
@@ -575,8 +575,8 @@ DivisionTypes = {
         Ranks = {
             {ID = 1, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
             {ID = 2, Name = "Private First Class", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 3, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 4, Name = "Technical Corporal", Rank_Prefix = "TCPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
+            {ID = 3, Name = "Technical Corporal", Rank_Prefix = "TCPL", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
             {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
             {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
             {ID = 7, Name = "Technical Sergeant", Rank_Prefix = "TSGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
@@ -588,7 +588,7 @@ DivisionTypes = {
             {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
             {ID = 14, Name = "Lieutenant Colonel", Rank_Prefix = "LTCOL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
             {ID = 15, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 16, Name = "General", Rank_Prefix = "GEN", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
+            {ID = 16, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
         },
         Classes = {
             {
