@@ -311,7 +311,9 @@ commands = {
     ["/underground"] = function(ply) SetUndergroundPoint(ply) end,
     ["/addsupply"] = function(ply, args) SetDivisionSupplyAdmin(ply, args) end,
     ["/divisionrank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
-    ["!divisionrank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end
+    ["!divisionrank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
+    ["/actions"] = function(ply, args) OpenMissionSelectionMenu(ply, args) end,
+    ["!actions"] = function(ply, args) OpenMissionSelectionMenu(ply, args) end
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
