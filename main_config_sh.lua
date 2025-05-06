@@ -413,7 +413,7 @@ DivisionTypes = {
             Name = "Machine Gunner",
             Core = true,
             Models = {},
-            Weapons = {"doi_atow_m1919a6"},
+            Weapons = {"doi_atow_bren"},
             SpawnWeapons = {},
             Prefix = "MG"
                 }
@@ -478,6 +478,14 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
+		{
+            Name = "Machine Gunner",
+            Core = true,
+            Models = {},
+            Weapons = {"doi_atow_m1919a6"},
+            SpawnWeapons = {},
+            Prefix = "MG"
+                }
         },
     },
     ["Wehrmacht Division"] = {
@@ -510,6 +518,14 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
+		{
+            Name = "Machine Gunner",
+            Core = true,
+            Models = {},
+            Weapons = {"doi_atow_mg42"},
+            SpawnWeapons = {},
+            Prefix = "MG"
+                }
         },
     },
     ["Fallschirmjäger Division"] = {
@@ -542,6 +558,14 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
+		{
+            Name = "Machine Gunner",
+            Core = true,
+            Models = {},
+            Weapons = {"doi_atow_fg42"},
+            SpawnWeapons = {},
+            Prefix = "MG"
+                }
         },
     },
     ["Italian Division"] = {
@@ -575,6 +599,14 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
+		{
+            Name = "Machine Gunner",
+            Core = true,
+            Models = {},
+            Weapons = {"breda30"},
+            SpawnWeapons = {},
+            Prefix = "MG"
+                }	
         },
     },
     ["US Airborne Division"] = {
@@ -607,6 +639,14 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
+		{
+            Name = "Machine Gunner",
+            Core = true,
+            Models = {},
+            Weapons = {"doi_atow_m1918a2"},
+            SpawnWeapons = {},
+            Prefix = "MG"
+                }	
         },
     }
 }
