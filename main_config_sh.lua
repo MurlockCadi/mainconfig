@@ -379,7 +379,7 @@ AIRBORN_MODELS = {"models/player/dod_american.mdl","models/ibz/us_army/airborn/u
 AIRBORN_LOADOUT = {}
 
 DivisionTypes = {
-    ["Commonwelth Division"] = {
+    ["Commonwealth Division"] = {
         Team = "allies",
         Description = "A Commonwelth Division can be one from around the British Empire, including the British, Canadians, Australians, New Zealanders, and South Africans. British Divisions are known for logistical support, artillery, and air support.",
         Ranks = {
@@ -409,7 +409,15 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-        },
+            {
+            Name = "Machine Gunner",
+            Core = true,
+            Models = {},
+            Weapons = {"doi_atow_m1919a6"},
+            SpawnWeapons = {},
+            Prefix = "MG"
+                }
+	        },         
     },
     ["Commonwelth Special Forces"] = {
         Team = "allies",
