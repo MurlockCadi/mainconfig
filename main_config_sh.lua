@@ -483,7 +483,7 @@ DivisionTypes = {
             Name = "Machine Gunner",
             Core = true,
             Models = {},
-            Weapons = {MACHINE_GUNS},
+            Weapons = MACHINE_GUNS,
             SpawnWeapons = {},
             Prefix = "MG"
                 }
