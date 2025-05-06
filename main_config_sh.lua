@@ -622,7 +622,7 @@ CORE_IMPERIUM_CLASSES = {
         Models = {},
         Core = true,
         Max = 4,
-        Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
+        Weapons = {},
         SpawnWeapons = {"fas2_ifak","ent_spawner"},
         Prefix = "MD",
         EntitySpawner = {
@@ -688,7 +688,7 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Max = 4,
-            Weapons = {"tfa_ww1_remington8_police_version","tfa_ww1_mausersebslander1916","tfa_ww1_remington8_standard"},
+            Weapons = {},
             SpawnWeapons = {"fas2_ifak","ent_spawner"},
             Prefix = "MD",
             EntitySpawner = {
@@ -723,7 +723,7 @@ imperium_specializations = {
             Create_Outposts = true,
             Models = {},
             Max = 4,
-            Weapons = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_doiithaca37","tfa_ww1_mausersebslander1916","tfa_ww1_chauchat"},
+            Weapons = {},
             SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsmines","weapon_lvsrepair","weapon_lvsrepair"},
             Prefix = "ENG",
             EntitySpawner = {
@@ -769,7 +769,7 @@ imperium_specializations = {
             Name = "Cavalry",
             Default = false,
             Models = {},
-            Weapons = {"tfa_ww1_colt_saa"},
+            Weapons = {},
             EntitySpawner = {
                 {
                     name = "Mustang",
@@ -845,7 +845,7 @@ imperium_specializations = {
             Spy = true,
             Models = {},
             Weapons = {},
-            SpawnWeapons = {"hide_player","tfa_ww1_tnt_charge"},
+            SpawnWeapons = {},
             Prefix = "SAB",
             Max = 2
         },
@@ -888,7 +888,7 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Max = 4,
-            Weapons = {"tfa_ww1_mp18","tfa_doimp34","tfa_ww1_smg0818","tfa_ww1_fedorov_avtomat","tfa_doim1912","tfa_blast_sjogren"},
+            Weapons = {},
             SpawnWeapons = {"hide_player","weapon_sh_mustardgas","ent_spawner"},
             EntitySpawner = {
                 {
@@ -916,7 +916,7 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Max = 2,
-            Weapons = {"tfa_doi_enfieldno4","tfa_ins2_i_mosin","tfa_verdun_g98"},
+            Weapons = {},
             SpawnWeapons = {"hide_player"},
             Prefix = "SNI"
        }
@@ -931,7 +931,7 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Max = 4,
-            Weapons = {"tfa_doilewis","tfa_verdun_madsen","tfa_doim1919","tfa_doim1918"},
+            Weapons = {},
             EntitySpawner = {
                 {
                     name = "Ammo Box",
@@ -1003,7 +1003,7 @@ imperium_specializations = {
                 },
                 {
                     name = "Blast Charge",
-                    entityname = "tfa_ww1_tnt",
+                    entityname = "weapon_tnt",
                     description = "Destroys Bedrock but will cause Caveins...",
                     price = 300
                 }
@@ -1140,7 +1140,7 @@ DivisionEnhancements = {
     ["Tunnel Rats"] = {
         description = "Dig in the Underground twice as Fast. All members spawn with a Shovel. (Non Sappers still dig slower)",
         spawnfunction = function(ply)
-            ply:Give( "tfa_tannenberg_shovel_m1912" )
+            ply:Give( "doi_atow_etoolcw" )
         end,
         Price = 25000
     },
