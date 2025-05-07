@@ -777,6 +777,54 @@ DivisionTypes = {
              }
              }
              },
+	     {
+    	    Name = "Anti Tank",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {"wz35"},
+    	    SpawnWeapons = {},
+   	    Prefix = "AT",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
+	     {
+    	    Name = "Pathfinder",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+   	    Prefix = "PAF",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
+	     {
+    	    Name = "Logistics",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"weapon_lvsrepair"},
+   	    Prefix = "LOGI",
+	    vehicles = {
+                {
+                    name = "test",
+                    entityname = "Jeep",
+                    description = "test",
+                    price = 0
+                },
+             }
+             },	
         },
     },
     ["Italian Division"] = {
