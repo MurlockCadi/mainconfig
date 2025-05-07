@@ -420,7 +420,23 @@ DivisionTypes = {
             Weapons = {},
             SpawnWeapons = {"fas2_ifak"},
             Prefix = "MD"
-                }
+                },
+		{
+    	    Name = "Engineer",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+   	    Prefix = "ENG",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
 	        },         
     },
 
@@ -470,7 +486,23 @@ DivisionTypes = {
             Weapons = {},
             SpawnWeapons = {"fas2_ifak"},
             Prefix = "MD"
-                }
+                },
+		{
+    	    Name = "Engineer",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+   	    Prefix = "ENG",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
         },
     },
     ["Wehrmacht Division"] = {
@@ -519,7 +551,23 @@ DivisionTypes = {
             Weapons = {},
             SpawnWeapons = {"fas2_ifak"},
             Prefix = "MD"
-                }
+                },
+		{
+    	    Name = "Engineer",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+   	    Prefix = "ENG",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
         },
     },
     ["Fallschirmjäger Division"] = {
@@ -568,7 +616,23 @@ DivisionTypes = {
             Weapons = {},
             SpawnWeapons = {"fas2_ifak"},
             Prefix = "MD"
-                }
+                },
+		{
+    	    Name = "Engineer",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+   	    Prefix = "ENG",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
         },
     },
     ["Italian Division"] = {
@@ -619,22 +683,22 @@ DivisionTypes = {
             SpawnWeapons = {"fas2_ifak"},
             Prefix = "MD"
                 },
-{
-    Name = "Engineer",
-    Core = true,
-    Models = {},
-    Weapons = {},
-    SpawnWeapons = {"alydus_fortificationbuildertablet"},
-    Prefix = "ENG",
-    EntitySpawner = {
-        {
+		{
+    	    Name = "Engineer",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+   	    Prefix = "ENG",
+            EntitySpawner = {
+   	     {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
             price = 0
-        }
-    }
-}
+             }
+             }
+             },
         },
     },
     ["US Airborne Division"] = {
@@ -684,22 +748,22 @@ DivisionTypes = {
             SpawnWeapons = {"fas2_ifak"},
             Prefix = "MD"
                 },
-{
-    Name = "Engineer",
-    Core = true,
-    Models = {},
-    Weapons = {},
-    SpawnWeapons = {"alydus_fortificationbuildertablet"},
-    Prefix = "ENG",
-    EntitySpawner = {
-        {
+		{
+    	    Name = "Engineer",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+   	    Prefix = "ENG",
+            EntitySpawner = {
+   	     {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
             price = 0
-        }
-    }
-}
+             }
+             }
+             },
     }
 }
 }
