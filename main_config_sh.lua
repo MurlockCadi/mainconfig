@@ -702,7 +702,7 @@ DivisionTypes = {
 }
     }
 }
-
+}
 --Core Classes--
 --These classes are added to all divisions, and are not division specific.
 --You can set classes as "core" above by putting Core = true or below to be populated.
