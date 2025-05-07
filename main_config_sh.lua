@@ -799,7 +799,7 @@ DivisionTypes = {
    	    Models = {},
     	    Weapons = {},
     	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
-   	    Prefix = "PAF",
+   	    Prefix = "PF",
             EntitySpawner = {
    	     {
             name = "Ammo Supplies",
@@ -1026,7 +1026,7 @@ DivisionTypes = {
    	    Models = {},
     	    Weapons = {},
     	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
-   	    Prefix = "PAF",
+   	    Prefix = "PF",
             EntitySpawner = {
    	     {
             name = "Ammo Supplies",
