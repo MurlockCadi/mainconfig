@@ -426,8 +426,56 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
    	    Prefix = "ENG",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
+	     {
+    	    Name = "Artillery",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+   	    Prefix = "ARTY",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
+	     {
+    	    Name = "Special Air Service",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {},
+   	    Prefix = "SAS",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
+	     {
+    	    Name = "Radio Operator",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {},
+   	    Prefix = "RO",
             EntitySpawner = {
    	     {
             name = "Ammo Supplies",
@@ -492,7 +540,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
    	    Prefix = "ENG",
             EntitySpawner = {
    	     {
@@ -557,7 +605,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
    	    Prefix = "ENG",
             EntitySpawner = {
    	     {
@@ -622,7 +670,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
    	    Prefix = "ENG",
             EntitySpawner = {
    	     {
@@ -688,7 +736,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
    	    Prefix = "ENG",
             EntitySpawner = {
    	     {
@@ -753,7 +801,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet"},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
    	    Prefix = "ENG",
             EntitySpawner = {
    	     {
