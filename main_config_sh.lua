@@ -420,35 +420,7 @@ DivisionTypes = {
                 }
 	        },         
     },
-    ["Commonwelth Special Forces"] = {
-        Team = "allies",
-        Description = "Commonwelth Special Forces are elite units from the British Empire, including the British SAS, Commandos, and Paratroopers. These units are known for their stealth, speed, and precision.",
-        Ranks = {
-            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 2, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 3, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 7, Name = "Warrant Officer Class 2", Rank_Prefix = "WO2", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 8, Name = "Warrant Officer Class 1", Rank_Prefix = "WO1", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 9, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 11, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 12, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-            {ID = 13, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = BC_MODELS, WeaponsAllowed = BC_LOADOUT},
-        },
-        Classes = {
-            {
-                Name = "Rifleman",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
-            },
-        },
-    },
+
     ["US Division"] = {
         Team = "allies",
         Description = "The Giant of the War, the United States Army is known for its massive numbers, firepower, and Sherman support. The time of liberation is at hand, as Hundreds of thousands of American soldiers are ready to fight for freedom.",
