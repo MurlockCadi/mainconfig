@@ -418,7 +418,7 @@ DivisionTypes = {
 	    Medic = true,
             Models = {},
             Weapons = {},
-            SpawnWeapons = {},
+            SpawnWeapons = {"fas2_ifak"},
             Prefix = "MD"
                 }
 	        },         
@@ -461,6 +461,15 @@ DivisionTypes = {
             Weapons = {"doi_atow_m1919a6"},
             SpawnWeapons = {},
             Prefix = "MG"
+                },
+		{
+            Name = "Medic",
+            Core = true,
+	    Medic = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"fas2_ifak"},
+            Prefix = "MD"
                 }
         },
     },
@@ -501,6 +510,15 @@ DivisionTypes = {
             Weapons = {"doi_atow_mg42"},
             SpawnWeapons = {},
             Prefix = "MG"
+                },
+		{
+            Name = "Medic",
+            Core = true,
+	    Medic = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"fas2_ifak"},
+            Prefix = "MD"
                 }
         },
     },
@@ -541,6 +559,15 @@ DivisionTypes = {
             Weapons = {"doi_atow_fg42"},
             SpawnWeapons = {},
             Prefix = "MG"
+                },
+		{
+            Name = "Medic",
+            Core = true,
+	    Medic = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"fas2_ifak"},
+            Prefix = "MD"
                 }
         },
     },
@@ -582,7 +609,16 @@ DivisionTypes = {
             Weapons = {"breda30"},
             SpawnWeapons = {},
             Prefix = "MG"
-                }	
+                },
+		{
+            Name = "Medic",
+            Core = true,
+	    Medic = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"fas2_ifak"},
+            Prefix = "MD"
+                }
         },
     },
     ["US Airborne Division"] = {
@@ -622,7 +658,16 @@ DivisionTypes = {
             Weapons = {"doi_atow_m1918a2"},
             SpawnWeapons = {},
             Prefix = "MG"
-                }	
+                },
+		{
+            Name = "Medic",
+            Core = true,
+	    Medic = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"fas2_ifak"},
+            Prefix = "MD"
+                }
         },
     }
 }
