@@ -618,7 +618,23 @@ DivisionTypes = {
             Weapons = {},
             SpawnWeapons = {"fas2_ifak"},
             Prefix = "MD"
-                }
+                },
+		{
+            Name = "Engineer",
+            Core = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"alydus_fortificationbuildertablet"},
+            Prefix = "ENG"
+	    EntitySpawner = {
+                {
+                    name = "Ammo Supplies",
+                    entityname = "universal_ammo_small",
+                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                    price = 0
+                },
+		}
+       		},
         },
     },
     ["US Airborne Division"] = {
@@ -667,8 +683,23 @@ DivisionTypes = {
             Weapons = {},
             SpawnWeapons = {"fas2_ifak"},
             Prefix = "MD"
-                }
-        },
+                },
+		{
+            Name = "Engineer",
+            Core = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {"alydus_fortificationbuildertablet"},
+            Prefix = "ENG"
+	    EntitySpawner = {
+                {
+                    name = "Ammo Supplies",
+                    entityname = "universal_ammo_small",
+                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                    price = 0
+                },
+		}
+       		},
     }
 }
 
