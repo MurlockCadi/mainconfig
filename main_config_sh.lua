@@ -616,6 +616,54 @@ DivisionTypes = {
              }
              }
              },
+	     {
+    	    Name = "Flammenwerfer",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {},
+   	    Prefix = "FLM",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
+	     {
+    	    Name = "Tank Crew",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"weapon_lvsrepair"},
+   	    Prefix = "TK",
+	    vehicles = {
+                {
+                    name = "test",
+                    entityname = "Jeep",
+                    description = "test",
+                    price = 0
+                },
+             }
+             },	
+	     {
+    	    Name = "Tank Commander",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"weapon_lvsrepair"},
+   	    Prefix = "TKC",
+	    vehicles = {
+                {
+                    name = "test",
+                    entityname = "Jeep",
+                    description = "test",
+                    price = 0
+                },
+             }
+             },	
         },
     },
     ["Fallschirmjäger Division"] = {
