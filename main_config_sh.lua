@@ -747,6 +747,54 @@ DivisionTypes = {
              }
              }
              },
+	     {
+    	    Name = "Artillery",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+   	    Prefix = "ARTY",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
+	     {
+    	    Name = "Arditi",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {},
+   	    Prefix = "ARD",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
+	     {
+    	    Name = "Radio Operator",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {},
+   	    Prefix = "RO",
+            EntitySpawner = {
+   	     {
+            name = "Ammo Supplies",
+            entityname = "universal_ammo_small",
+            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+            price = 0
+             }
+             }
+             },
         },
     },
     ["US Airborne Division"] = {
