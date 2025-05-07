@@ -336,7 +336,7 @@ DE_TANKER_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerw
 --Commonwelth Divisions
 
 BRITISH_MODELS = {"models/player/dod_american.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl"}
-BRITISH_LOADOUT = {"doi_atow_enfield"}
+BRITISH_LOADOUT = {"doi_atow_enfield","doi_atow_browninghp","doi_atow_etoolcw"}
 
 --ALLIED RECRUIT MODELS:
 
@@ -347,31 +347,31 @@ ALLIED_RECRUIT_MODELS = {"models/player/dod_american.mdl","models/ingomar/common
 US_ENLISTED_MODELS = {"models/player/dod_american.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_06.mdl"}
 US_NCO_MODELS = {"models/player/dod_american.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_06.mdl"}
 US_CO_MODEL = {"models/player/dod_american.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_06.mdl"}
-US_LOADOUT = {"doi_atow_m1garand"}
+US_LOADOUT = {"doi_atow_m1garand","doi_atow_m1911a1","doi_atow_etoolus"}
 
 --Wehrmacht Division
 
 DE_ENLISTED_MODELS = {"models/player/dod_german.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_03.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_04.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_05.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_06.mdl"}
 DE_NCO_MODELS = {"models/player/dod_german.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/nco/m40_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/nco/m40_s1_03.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/nco/m40_s1_04.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/nco/m40_s1_05.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/nco/m40_s1_06.mdl"}
 DE_CO_MODELS = {"models/player/dod_german.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38_s1_03.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38_s1_04.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38_s1_05.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38_s1_06.mdl"}
-DE_LOADOUT = {"doi_atow_k98k"}
+DE_LOADOUT = {"doi_atow_k98k","doi_atow_p38","doi_atow_etoolde"}
 
 --Fallschirmjäger Division
 
 FM_MODELS = {"models/player/dod_german.mdl","models/ibz/luftwaffe/airborn/ger_para_06_a.mdl"}
 FM_CO_MODELS = {"models/player/dod_german.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male02.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male03.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male04.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male05.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male06.mdl","models/ibz/luftwaffe/airborn/ger_para_06.mdl","models/ibz/luftwaffe/airborn/ger_para_06_a.mdl"}
-FM_LOADOUT = {"doi_atow_g43"}
+FM_LOADOUT = {"doi_atow_g43","doi_atow_p08","doi_atow_brassknuckles"}
 
 --Italian Division
 ITALY_MODELS = {"models/player/dod_german.mdl"}
 ITALY_NCO_MODELS = {"models/player/dod_german.mdl"}
 ITALY_CO_MODELS = {"models/player/dod_german.mdl"}
-ITALY_LOADOUT = {"carcano_1891"}
+ITALY_LOADOUT = {"carcano_1891","m1934","doi_atow_etoolde"}
 
 --US Airborne Division
 
 AIRBORN_MODELS = {"models/player/dod_american.mdl","models/ibz/us_army/airborn/us_para_02.mdl","models/ibz/us_army/airborn/us_para_03.mdl","models/ibz/us_army/airborn/us_para_04.mdl","models/ibz/us_army/airborn/us_para_05.mdl","models/ibz/us_army/airborn/us_para_06.mdl"}
-AIRBORN_LOADOUT = {}
+AIRBORN_LOADOUT = {"doi_atow_m1a1carbine","doi_atow_m1911a1","doi_atow_brassknuckles"}
 
 DivisionTypes = {
     ["Commonwealth Division"] = {
@@ -411,6 +411,15 @@ DivisionTypes = {
             Weapons = {"doi_atow_bren"},
             SpawnWeapons = {},
             Prefix = "MG"
+                },
+		{
+            Name = "Medic",
+            Core = true,
+	    Medic = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = "MD"
                 }
 	        },         
     },
@@ -449,7 +458,7 @@ DivisionTypes = {
             Name = "Machine Gunner",
             Core = true,
             Models = {},
-            Weapons = MACHINE_GUNS,
+            Weapons = {"doi_atow_m1919a6"},
             SpawnWeapons = {},
             Prefix = "MG"
                 }
