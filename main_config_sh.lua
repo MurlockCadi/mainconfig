@@ -336,7 +336,7 @@ DE_TANKER_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerw
 --Commonwelth Divisions
 
 BRITISH_MODELS = {"models/player/dod_american.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl"}
-BRITISH_LOADOUT = {"doi_atow_enfield","doi_atow_browninghp","doi_atow_etoolcw"}
+BRITISH_LOADOUT = {"doi_atow_enfield","doi_atow_webley","doi_atow_etoolcw"}
 
 --ALLIED RECRUIT MODELS:
 
