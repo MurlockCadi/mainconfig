@@ -313,7 +313,8 @@ commands = {
     ["/divisionrank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
     ["!divisionrank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
     ["/actions"] = function(ply) OpenMissionSelectionMenu(ply) end,
-    ["!actions"] = function(ply) OpenMissionSelectionMenu(ply) end
+    ["!actions"] = function(ply) OpenMissionSelectionMenu(ply) end,
+    ["!atomic"] = function(ply) GivePlayerSwepIfTeamHasBombsandIsTrusted(ply) end
 }
 
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
