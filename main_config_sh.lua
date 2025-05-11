@@ -912,8 +912,8 @@ DivisionTypes = {
     	    Name = "Arditi",
 	    Core = true,
    	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"doi_atow_mp40"},
+    	    Weapons = {"doi_atow_mp40"},
+    	    SpawnWeapons = {},
    	    Prefix = "ARD",
             EntitySpawner = {
    	     {
