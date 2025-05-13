@@ -370,7 +370,7 @@ FM_LOADOUT = {"doi_atow_g43","doi_atow_p08","doi_atow_brassknuckles"}
 --Italian Division
 ITALY_MODELS = {"models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
 ITALY_NCO_MODELS = {"models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
-ITALY_CO_MODELS = {"models/italianofficer/italianofficer.mdl","models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
+ITALY_CO_MODELS = {"models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
 ITALY_LOADOUT = {"carcano_1891","m1934","doi_atow_etoolde"}
 
 --US Airborne Division
@@ -915,7 +915,7 @@ DivisionTypes = {
 	     {
     	    Name = "Arditi",
 	    Core = true,
-   	    Models = IT_SF_MODELS,
+   	    Models = {},
     	    Weapons = {"doi_atow_mp40"},
     	    SpawnWeapons = {},
    	    Prefix = "ARD",
