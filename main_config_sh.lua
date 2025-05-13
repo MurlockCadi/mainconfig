@@ -162,6 +162,10 @@ RUN_SPEED = 280
 JUMP_POWER = 225
 MAX_HEALTH = 100
 
+function GetRunSpeed(athleticsLevel)
+    return athleticsLevel * 1.25
+end
+
 ------REVIVE TIME AND LOOT TIME--------
 
 REVIVE_TIME = 5
