@@ -571,7 +571,7 @@ DivisionTypes = {
 	     {
     	    Name = "Tank Crew",
 	    Core = true,
-   	    Models = {},
+   	    Models = US_TANKER_MODELS,
     	    Weapons = {},
     	    SpawnWeapons = {"weapon_lvsrepair"},
    	    Prefix = "TK",
@@ -587,7 +587,7 @@ DivisionTypes = {
 	     {
     	    Name = "Tank Commander",
 	    Core = true,
-   	    Models = {},
+   	    Models = US_TANKER_MODELS,
     	    Weapons = {"doi_atow_m3greasegun"},
     	    SpawnWeapons = {"weapon_lvsrepair"},
    	    Prefix = "TKC",
