@@ -364,9 +364,9 @@ FM_CO_MODELS = {"models/player/dod_german.mdl","models/ww2rphts/playermodels/luf
 FM_LOADOUT = {"doi_atow_g43","doi_atow_p08","doi_atow_brassknuckles"}
 
 --Italian Division
-ITALY_MODELS = {"models/player/dod_german.mdl"}
-ITALY_NCO_MODELS = {"models/player/dod_german.mdl"}
-ITALY_CO_MODELS = {"models/player/dod_german.mdl"}
+ITALY_MODELS = {"models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
+ITALY_NCO_MODELS = {"models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
+ITALY_CO_MODELS = {"models/italianofficer/italianofficer.mdl","models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
 ITALY_LOADOUT = {"carcano_1891","m1934","doi_atow_etoolde"}
 
 --US Airborne Division
@@ -841,13 +841,13 @@ DivisionTypes = {
             {ID = 7, Name = "Maresciallo Ordinario", Rank_Prefix = "MASO", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
             {ID = 8, Name = "Marsciallo Capo", Rank_Prefix = "MASC", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
             {ID = 9, Name = "Marsciallo Maggiore", Rank_Prefix = "MASM", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 10, Name = "Tenente", Rank_Prefix = "TEN", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 11, Name = "Primo Tenente", Rank_Prefix = "PTEN", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 12, Name = "Capitano", Rank_Prefix = "CPT", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 13, Name = "Maggiore", Rank_Prefix = "MAJ", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 14, Name = "Tenente Colonello", Rank_Prefix = "TENCOL", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 15, Name = "Colonello", Rank_Prefix = "COL", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 16, Name = "Sergente Maggiore", Rank_Prefix = "SGTM", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 10, Name = "Tenente", Rank_Prefix = "TEN", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 11, Name = "Primo Tenente", Rank_Prefix = "PTEN", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 12, Name = "Capitano", Rank_Prefix = "CPT", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 13, Name = "Maggiore", Rank_Prefix = "MAJ", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 14, Name = "Tenente Colonello", Rank_Prefix = "TENCOL", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 15, Name = "Colonello", Rank_Prefix = "COL", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
+            {ID = 16, Name = "Sergente Maggiore", Rank_Prefix = "SGTM", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
 
         },
         Classes = {
