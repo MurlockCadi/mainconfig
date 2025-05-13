@@ -333,7 +333,7 @@ DE_NCO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie
 DE_CO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
 DE_MP_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
 DE_TANKER_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerwrap_s1_03.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/nco/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/nco/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/nco/panzerwrap_s1_03.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/co/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/co/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/panzer/co/panzerwrap_s1_03.mdl"}
-
+IT_SF_MODELS = {"models/italianelite/italianelite.mdl"}
 --Commonwelth Divisions
 
 BRITISH_MODELS = {"models/ingomar/commonwelth/british/en/p37_01.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl"}
@@ -911,7 +911,7 @@ DivisionTypes = {
 	     {
     	    Name = "Arditi",
 	    Core = true,
-   	    Models = {},
+   	    Models = IT_SF_MODELS,
     	    Weapons = {"doi_atow_mp40"},
     	    SpawnWeapons = {},
    	    Prefix = "ARD",
