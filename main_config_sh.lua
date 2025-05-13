@@ -932,8 +932,8 @@ DivisionTypes = {
     	    Name = "Radio Operator",
 	    Core = true,
    	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"mab_38"},
+    	    Weapons = {"mab_38"},
+    	    SpawnWeapons = {},
    	    Prefix = "RO",
             EntitySpawner = {
    	     {
