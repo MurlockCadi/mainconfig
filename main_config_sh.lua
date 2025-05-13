@@ -336,7 +336,7 @@ DE_TANKER_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/panzer/en/panzerw
 
 --Commonwelth Divisions
 
-BRITISH_MODELS = {"models/player/dod_american.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl"}
+BRITISH_MODELS = {"models/ingomar/commonwelth/british/en/p37_01.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl"}
 BRITISH_LOADOUT = {"doi_atow_enfield","doi_atow_webley","doi_atow_etoolcw"}
 
 --ALLIED RECRUIT MODELS:
@@ -345,9 +345,9 @@ ALLIED_RECRUIT_MODELS = {"models/player/dod_american.mdl","models/ingomar/common
 
 --US Division
 
-US_ENLISTED_MODELS = {"models/player/dod_american.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_06.mdl"}
-US_NCO_MODELS = {"models/player/dod_american.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m41_s1_06.mdl"}
-US_CO_MODEL = {"models/player/dod_american.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_06.mdl"}
+US_ENLISTED_MODELS = {"models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_06.mdl","models/hts/comradebear/pm0v3/player/usarmy/medic/en/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/medic/en/m41_s1_02.mdl"}
+US_NCO_MODELS = {"models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_06.mdl","models/hts/comradebear/pm0v3/player/usarmy/medic/en/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/medic/en/m41_s1_02.mdl"}
+US_CO_MODEL = {"models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_06.mdl","models/hts/comradebear/pm0v3/player/usarmy/medic/en/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/medic/en/m41_s1_02.mdl"}
 US_LOADOUT = {"doi_atow_m1garand","doi_atow_m1911a1","doi_atow_etoolus"}
 
 --Wehrmacht Division
