@@ -158,7 +158,7 @@ faction_player_count_limit = 0
 --------SPEED-----------
 
 WALK_SPEED = 145
-RUN_SPEED = 280
+RUN_SPEED = 320
 JUMP_POWER = 225
 MAX_HEALTH = 100
 
