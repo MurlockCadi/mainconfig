@@ -869,6 +869,7 @@ DivisionTypes = {
 		{
     	    Name = "Engineer",
 	    Core = true,
+	    Create_Outposts = true,
    	    Models = {},
     	    Weapons = {},
     	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker"},
