@@ -589,6 +589,22 @@ DivisionTypes = {
                 },
              }
              },
+	     {
+    	    Name = "Logistics",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"weapon_lvsrepair"},
+   	    Prefix = "LOGI",
+	    vehicles = {
+                {
+                    name = "test",
+                    entityname = "Jeep",
+                    description = "test",
+                    price = 0
+                },
+             }
+             },	
         },
     },
     ["Wehrmacht Division"] = {
@@ -693,6 +709,22 @@ DivisionTypes = {
     	    Weapons = {"doi_atow_c96carbine"},
     	    SpawnWeapons = {"weapon_lvsrepair"},
    	    Prefix = "TKC",
+	    vehicles = {
+                {
+                    name = "test",
+                    entityname = "Jeep",
+                    description = "test",
+                    price = 0
+                },
+             }
+             },	
+	     {
+    	    Name = "Logistics",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"weapon_lvsrepair"},
+   	    Prefix = "LOGI",
 	    vehicles = {
                 {
                     name = "test",
