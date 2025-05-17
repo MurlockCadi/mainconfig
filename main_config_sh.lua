@@ -107,24 +107,16 @@ preperation_stage_timer = 1800
 build_up_stage_timer = 900
 combat_phase = 2700
 
----COOL DOWNS FOR TANKS------------------
+---RESPAWN_TIMERS_FOR_VEHICLES------------
 
-entityCooldowns = {
-    ["M4 Sherman"] = {cooldown = 140, lastSpawnTime = 0},
-    ["M10 Wolverine"] = {cooldown = 140, lastSpawnTime = 0},
-    ["M36 Slugger/Jackson"] = {cooldown = 300, lastSpawnTime = 0},
-    ["M4A3E2 Jumbo"] = {cooldown = 235, lastSpawnTime = 0},
-    ["M4A3E28 Easy Eight"] = {cooldown = 250, lastSpawnTime = 0},
-    ["M4 Sherman Firefly"] = {cooldown = 270, lastSpawnTime = 0},
-    ["Churchill MK.V"] = {cooldown = 300, lastSpawnTime = 0},
-    ["Panzer VI Tiger"] = {cooldown = 270, lastSpawnTime = 0},
-    ["Panzer IV F2"] = {cooldown = 140, lastSpawnTime = 0},
-    ["Panzer 2 C"] = {cooldown = 60, lastSpawnTime = 0},
-    ["Jagdpanzer V"] = {cooldown = 300, lastSpawnTime = 0},
-    ["Panther G"] = {cooldown = 280, lastSpawnTime = 0},
-    ["Stug IV"] = {cooldown = 140, lastSpawnTime = 0},
-    ["Panzer III F"] = {cooldown = 90, lastSpawnTime = 0},
+ORGANIZATION_MULTIPLAYER = 0.5
+
+RESPAWN_TIMERS_IMPERIUMRP = {
+    ["Small Vehicles"] = 60,
+    ["Heavy Tanks"] = 1200,
+    ["Mechanized Vehicles"] = 600
 }
+
 
 ---------PROX CHAT------------------------------------------------------------------------------------
 
