@@ -426,7 +426,7 @@ DivisionTypes = {
 	    vehicles = {
                 {
                     name = "Willys MB",
-                    entityname = "churchill_7", -- churchill_7 sim_fphys_codww2jeep
+                    entityname = "churchillrp", -- churchill_7 sim_fphys_codww2jeep
                     description = "The Iconic Willys Jeep. 3 Seats.",
                     type = "Small Vehicles"
                 }
