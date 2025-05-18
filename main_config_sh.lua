@@ -564,7 +564,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = US_TANKER_MODELS,
     	    Weapons = {},
-    	    SpawnWeapons = {"weapon_lvsrepair"},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
    	    Prefix = "TK",
 	    vehicles = {
                 {
@@ -580,7 +580,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = US_TANKER_MODELS,
     	    Weapons = {"doi_atow_m3greasegun"},
-    	    SpawnWeapons = {"weapon_lvsrepair"},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
    	    Prefix = "TKC",
 	    vehicles = {
                 {
@@ -596,7 +596,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"weapon_lvsrepair"},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
    	    Prefix = "LOGI",
 	    vehicles = {
                 {
@@ -691,9 +691,9 @@ DivisionTypes = {
 	     {
     	    Name = "Tank Crew",
 	    Core = true,
-   	    Models = {},
+   	    Models = DE_TANKER_FULL,
     	    Weapons = {},
-    	    SpawnWeapons = {"weapon_lvsrepair"},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
    	    Prefix = "TK",
 	    vehicles = {
                 {
@@ -707,9 +707,9 @@ DivisionTypes = {
 	     {
     	    Name = "Tank Commander",
 	    Core = true,
-   	    Models = {},
+   	    Models = DE_TANKER_FULL,
     	    Weapons = {"doi_atow_c96carbine"},
-    	    SpawnWeapons = {"weapon_lvsrepair"},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
    	    Prefix = "TKC",
 	    vehicles = {
                 {
@@ -725,7 +725,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"weapon_lvsrepair"},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
    	    Prefix = "LOGI",
 	    vehicles = {
                 {
@@ -838,7 +838,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"weapon_lvsrepair"},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
    	    Prefix = "LOGI",
 	    vehicles = {
                 {
@@ -1051,7 +1051,7 @@ DivisionTypes = {
 	    Core = true,
    	    Models = {},
     	    Weapons = {},
-    	    SpawnWeapons = {"weapon_lvsrepair"},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
    	    Prefix = "LOGI",
 	    vehicles = {
                 {
@@ -1314,7 +1314,7 @@ imperium_specializations = {
             Default = false,
             Models = {},
             Weapons = {},
-            SpawnWeapons = {"rope_tool","weapon_lvsrepair"},
+            SpawnWeapons = {"rope_tool","weapon_simrepair"},
             Prefix = "TK",
             vehicles = {
                 {
