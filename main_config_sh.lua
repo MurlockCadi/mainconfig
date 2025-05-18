@@ -394,108 +394,106 @@ DivisionTypes = {
             {ID = 15, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
             {ID = 16, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
         },
-Classes = {
-    Rifleman = {
-        Name = "Rifleman",
-        Default = true,
-        Create_Outposts = true,
-        Models = {},
-        Weapons = {},
-        SpawnWeapons = {},
-        Prefix = ""
-    },
-
-    ["Machine Gunner"] = {
-        Name = "Machine Gunner",
-        Core = true,
-        Models = {},
-        Weapons = {"doi_atow_bren"},
-        SpawnWeapons = {},
-        Prefix = "MG"
-    },
-
-    Medic = {
-        Name = "Medic",
-        Core = true,
-        Medic = true,
-        Models = {},
-        Weapons = {},
-        SpawnWeapons = {"fas2_ifak"},
-        Prefix = "MD"
-    },
-
-    Engineer = {
-        Name = "Engineer",
-        Core = true,
-        Create_Outposts = true,
-        Models = {},
-        Weapons = {},
-        SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker"},
-        Prefix = "ENG",
-        EntitySpawner = {
+        Classes = {
             {
-                name = "Ammo Supplies",
-                entityname = "universal_ammo_small",
-                description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                price = 0
+                Name = "Rifleman",
+                Default = true,
+                Create_Outposts = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+
+            {
+                Name = "Machine Gunner",
+                Core = true,
+                Models = {},
+                Weapons = {"doi_atow_bren"},
+                SpawnWeapons = {},
+                Prefix = "MG"
+            },
+
+            {
+                Name = "Medic",
+                Core = true,
+                Medic = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"fas2_ifak"},
+                Prefix = "MD"
+            },
+
+            {
+                Name = "Engineer",
+                Core = true,
+                Create_Outposts = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker"},
+                Prefix = "ENG",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 0
+                    }
+                }
+            },
+
+            {
+                Name = "Artillery",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+                Prefix = "ARTY",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 0
+                    }
+                }
+            },
+
+            {
+                Name = "Special Air Service",
+                Core = true,
+                Models = {},
+                Weapons = {"doi_atow_sten"},
+                SpawnWeapons = {},
+                Prefix = "SAS",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 0
+                    }
+                }
+            },
+
+            {
+                Name = "Mechanized",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_simrepair","rope_tool"},
+                Prefix = "MECH",
+                Vehicles = {
+                    {
+                        name = "test",
+                        entityname = "Jeep",
+                        description = "test",
+                        price = 0
+                    }
+                }
             }
         }
     },
-
-    Artillery = {
-        Name = "Artillery",
-        Core = true,
-        Models = {},
-        Weapons = {},
-        SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
-        Prefix = "ARTY",
-        EntitySpawner = {
-            {
-                name = "Ammo Supplies",
-                entityname = "universal_ammo_small",
-                description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                price = 0
-            }
-        }
-    },
-
-    ["Special Air Service"] = {
-        Name = "Special Air Service",
-        Core = true,
-        Models = {},
-        Weapons = {"doi_atow_sten"},
-        SpawnWeapons = {},
-        Prefix = "SAS",
-        EntitySpawner = {
-            {
-                name = "Ammo Supplies",
-                entityname = "universal_ammo_small",
-                description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                price = 0
-            }
-        }
-    },
-
-    Mechanized = {
-        Name = "Mechanized",
-        Core = true,
-        Models = {},
-        Weapons = {},
-        SpawnWeapons = {"weapon_simrepair","rope_tool"},
-        Prefix = "MECH",
-        Vehicles = {
-            {
-                name = "test",
-                entityname = "Jeep",
-                description = "test",
-                price = 0
-            }
-        }
-    }
-},
-},
-
-
     ["US Division"] = {
         Team = "allies",
         Description = "The Giant of the War, the United States Army is known for its massive numbers, firepower, and Sherman support. The time of liberation is at hand, as Hundreds of thousands of American soldiers are ready to fight for freedom.",
