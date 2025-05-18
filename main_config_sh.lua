@@ -441,11 +441,12 @@ DivisionTypes = {
                     }
                 },
 	            vehicles = {
-                {
-                    name = "Willys MB",
-                    entityname = "sim_fphys_codww2jeep",
-                    description = "The Iconic Willys Jeep. 3 Seats.",
-                    type = "Small Vehicles"
+                    {
+                        name = "Willys MB",
+                        entityname = "sim_fphys_codww2jeep",
+                        description = "The Iconic Willys Jeep. 3 Seats.",
+                        type = "Small Vehicles"
+                    }
                 }
             },
 
