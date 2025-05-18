@@ -439,6 +439,13 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 0
                     }
+                },
+	            vehicles = {
+                {
+                    name = "Willys MB",
+                    entityname = "sim_fphys_codww2jeep",
+                    description = "The Iconic Willys Jeep. 3 Seats.",
+                    type = "Small Vehicles"
                 }
             },
 
