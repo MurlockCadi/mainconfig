@@ -500,7 +500,7 @@ DivisionTypes = {
         }
     }
 },
-}
+},
 
 
     ["US Division"] = {
