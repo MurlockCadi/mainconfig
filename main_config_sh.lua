@@ -476,7 +476,23 @@ DivisionTypes = {
             price = 0
              }
              }
+             },
+	     {
+    	    Name = "Mechanized",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
+   	    Prefix = "MECH",
+	    vehicles = {
+                {
+                    name = "test",
+                    entityname = "Jeep",
+                    description = "test",
+                    price = 0
+                },
              }
+             },
 	},         
     },
 
@@ -948,7 +964,23 @@ DivisionTypes = {
             price = 0
              }
              }
+             },
+	     {
+    	    Name = "Mechanized",
+	    Core = true,
+   	    Models = {},
+    	    Weapons = {},
+    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
+   	    Prefix = "MECH",
+	    vehicles = {
+                {
+                    name = "test",
+                    entityname = "Jeep",
+                    description = "test",
+                    price = 0
+                },
              }
+             },
         },
     },
     ["US Airborne Division"] = {
