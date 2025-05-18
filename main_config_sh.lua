@@ -408,7 +408,7 @@ DivisionTypes = {
         Name = "Machine Gunner",
         Core = true,
         Models = {},
-        Weapons = { "doi_atow_bren" },
+        Weapons = {"doi_atow_bren"},
         SpawnWeapons = {},
         Prefix = "MG"
     },
@@ -419,7 +419,7 @@ DivisionTypes = {
         Medic = true,
         Models = {},
         Weapons = {},
-        SpawnWeapons = { "fas2_ifak" },
+        SpawnWeapons = {"fas2_ifak"},
         Prefix = "MD"
     },
 
@@ -429,11 +429,7 @@ DivisionTypes = {
         Create_Outposts = true,
         Models = {},
         Weapons = {},
-        SpawnWeapons = {
-            "alydus_fortificationbuildertablet",
-            "ent_spawner",
-            "outpost_maker"
-        },
+        SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker"},
         Prefix = "ENG",
         Vehicles = {
             {
@@ -458,10 +454,7 @@ DivisionTypes = {
         Core = true,
         Models = {},
         Weapons = {},
-        SpawnWeapons = {
-            "alydus_fortificationbuildertablet",
-            "ent_spawner"
-        },
+        SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
         Prefix = "ARTY",
         EntitySpawner = {
             {
