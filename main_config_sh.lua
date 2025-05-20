@@ -113,10 +113,11 @@ ORGANIZATION_MULTIPLIER = 0.5
 
 RESPAWN_TIMERS_IMPERIUMRP = {
     ["Small Vehicles"] = 60,
-    ["Light Tanks"] = 300,
-    ["Medium Tanks"] = 600,
-    ["Heavy Tanks"] = 1200,
-    ["Mechanized Vehicles"] = 600
+    ["Light Tanks"] = 120,
+    ["Medium Tanks"] = 300,
+    ["Heavy Tanks"] = 600,
+    ["Mechanized Vehicles"] = 300,
+    ["Outpost Half Track] = 600
 }
 
 
