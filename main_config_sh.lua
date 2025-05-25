@@ -428,7 +428,6 @@ DivisionTypes = {
                 SpawnWeapons = {"fas2_ifak"},
                 Prefix = "MD"
             },
-
             {
                 Name = "Engineer",
                 Core = true,
@@ -454,7 +453,6 @@ DivisionTypes = {
                     }
                 }
             },
-
             {
                 Name = "Artillery",
                 Core = true,
@@ -471,7 +469,6 @@ DivisionTypes = {
                     }
                 }
             },
-
             {
                 Name = "Special Air Service",
                 Core = true,
@@ -488,7 +485,6 @@ DivisionTypes = {
                     }
                 }
             },
-
             {
                 Name = "Mechanized",
                 Core = true,
@@ -501,7 +497,7 @@ DivisionTypes = {
                         name = "test",
                         entityname = "Jeep",
                         description = "test",
-                        price = 0
+                        type = "dsad"
                     }
                 }
             }
@@ -536,104 +532,88 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-		{
-            Name = "Machine Gunner",
-            Core = true,
-            Models = {},
-            Weapons = {"doi_atow_m1919a6"},
-            SpawnWeapons = {},
-            Prefix = "MG"
-                },
-		{
-            Name = "Medic",
-            Core = true,
-	    Medic = true,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {"fas2_ifak"},
-            Prefix = "MD"
-                },
-		{
-    	    Name = "Engineer",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
-   	    Prefix = "ENG",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
-             }
-             }
-             },
-	     {
-    	    Name = "Flamethrower",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {},
-   	    Prefix = "FLM",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
-             }
-             }
-             },
-	     {
-    	    Name = "Tank Crew",
-	    Core = true,
-   	    Models = US_TANKER_MODELS,
-    	    Weapons = {},
-    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
-   	    Prefix = "TK",
-	    vehicles = {
-                {
-                    name = "test",
-                    entityname = "Jeep",
-                    description = "test",
-                    price = 0
-                },
-             }
-             },	
-	     {
-    	    Name = "Tank Commander",
-	    Core = true,
-   	    Models = US_TANKER_MODELS,
-    	    Weapons = {"doi_atow_m3greasegun"},
-    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
-   	    Prefix = "TKC",
-	    vehicles = {
-                {
-                    name = "test",
-                    entityname = "Jeep",
-                    description = "test",
-                    price = 0
-                },
-             }
-             },
-	     {
-    	    Name = "Logistics",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
-   	    Prefix = "LOGI",
-	    vehicles = {
-                {
-                    name = "test",
-                    entityname = "Jeep",
-                    description = "test",
-                    price = 0
-                },
-             }
-             },	
-        },
+            {
+                Name = "Machine Gunner",
+                Core = true,
+                Models = {},
+                Weapons = {"doi_atow_m1919a6"},
+                SpawnWeapons = {},
+                Prefix = "MG"
+            },
+            {
+                Name = "Medic",
+                Core = true,
+                Medic = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"fas2_ifak"},
+                Prefix = "MD"
+            },
+            {
+                Name = "Engineer",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                Prefix = "ENG",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 0
+                    }
+                }
+            },
+            {
+                Name = "Flamethrower",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "FLM",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 0
+                    }
+                }
+            },
+            {
+                Name = "Tankers",
+                Core = true,
+                Models = US_TANKER_MODELS,
+                Weapons = {},
+                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                Prefix = "TK",
+                vehicles = {
+                    {
+                        name = "test",
+                        entityname = "Jeep",
+                        description = "test",
+                        price = 0
+                    }
+                }
+            },
+            {
+                Name = "Logistics",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                Prefix = "LOGI",
+                vehicles = {
+                    {
+                        name = "test",
+                        entityname = "Jeep",
+                        description = "test",
+                        price = 0
+                    }
+                }
+            }
+        }
     },
     ["Wehrmacht Division"] = {
         Team = "axis",
@@ -664,104 +644,88 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-		{
-            Name = "Machine Gunner",
-            Core = true,
-            Models = {},
-            Weapons = {"doi_atow_mg42"},
-            SpawnWeapons = {},
-            Prefix = "MG"
-                },
-		{
-            Name = "Medic",
-            Core = true,
-	    Medic = true,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {"fas2_ifak"},
-            Prefix = "MD"
-                },
-		{
-    	    Name = "Engineer",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
-   	    Prefix = "ENG",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Flammenwerfer",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {},
-   	    Prefix = "FLM",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Tank Crew",
-	    Core = true,
-   	    Models = DE_TANKER_FULL,
-    	    Weapons = {},
-    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
-   	    Prefix = "TK",
-	    vehicles = {
-                {
-                    name = "test",
-                    entityname = "Jeep",
-                    description = "test",
-                    price = 0
-                },
-             }
-             },	
-	     {
-    	    Name = "Tank Commander",
-	    Core = true,
-   	    Models = DE_TANKER_FULL,
-    	    Weapons = {"doi_atow_c96carbine"},
-    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
-   	    Prefix = "TKC",
-	    vehicles = {
-                {
-                    name = "test",
-                    entityname = "Jeep",
-                    description = "test",
-                    price = 0
-                },
-             }
-             },	
-	     {
-    	    Name = "Logistics",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
-   	    Prefix = "LOGI",
-	    vehicles = {
-                {
-                    name = "test",
-                    entityname = "Jeep",
-                    description = "test",
-                    price = 0
-                },
-             }
-             },	
-        },
+            {
+                Name = "Machine Gunner",
+                Core = true,
+                Models = {},
+                Weapons = {"doi_atow_mg42"},
+                SpawnWeapons = {},
+                Prefix = "MG"
+            },
+            {
+                Name = "Medic",
+                Core = true,
+                Medic = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"fas2_ifak"},
+                Prefix = "MD"
+            },
+            {
+                Name = "Engineer",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                Prefix = "ENG",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Flammenwerfer",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "FLM",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Tankers",
+                Core = true,
+                Models = DE_TANKER_FULL,
+                Weapons = {},
+                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                Prefix = "TK",
+                vehicles = {
+                    {
+                        name = "test",
+                        entityname = "Jeep",
+                        description = "test",
+                        price = 0
+                    }
+                }
+            },
+            {
+                Name = "Logistics",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                Prefix = "LOGI",
+                vehicles = {
+                    {
+                        name = "test",
+                        entityname = "Jeep",
+                        description = "test",
+                        price = 0
+                    }
+                }
+            }
+        }
     },
     ["Fallschirmjäger Division"] = {
         Team = "axis",
@@ -792,87 +756,87 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-		{
-            Name = "Machine Gunner",
-            Core = true,
-            Models = {},
-            Weapons = {"doi_atow_fg42"},
-            SpawnWeapons = {},
-            Prefix = "MG"
-                },
-		{
-            Name = "Medic",
-            Core = true,
-	    Medic = true,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {"fas2_ifak"},
-            Prefix = "MD"
-                },
-		{
-    	    Name = "Engineer",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
-   	    Prefix = "ENG",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Anti Tank",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {"wz35"},
-    	    SpawnWeapons = {},
-   	    Prefix = "AT",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Pathfinder",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"ent_spawner"},
-   	    Prefix = "PF",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
-             }
-             }
-             },
-	     {
-    	    Name = "Logistics",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
-   	    Prefix = "LOGI",
-	    vehicles = {
-                {
-                    name = "test",
-                    entityname = "Jeep",
-                    description = "test",
-                    price = 0
-                },
-             }
-             },	
+            {
+                Name = "Machine Gunner",
+                Core = true,
+                Models = {},
+                Weapons = {"doi_atow_fg42"},
+                SpawnWeapons = {},
+                Prefix = "MG"
+            },
+            {
+                Name = "Medic",
+                Core = true,
+                Medic = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"fas2_ifak"},
+                Prefix = "MD"
+            },
+            {
+                Name = "Engineer",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                Prefix = "ENG",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Anti Tank",
+                Core = true,
+                Models = {},
+                Weapons = {"wz35"},
+                SpawnWeapons = {},
+                Prefix = "AT",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Pathfinder",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "PF",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        price = 0
+                    }
+                }
+            },
+            {
+                Name = "Logistics",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                Prefix = "LOGI",
+                vehicles = {
+                    {
+                        name = "test",
+                        entityname = "Jeep",
+                        description = "test",
+                        price = 0
+                    }
+                }
+            }
         },
     },
     ["Italian Division"] = {
@@ -900,94 +864,94 @@ DivisionTypes = {
             {
                 Name = "Rifleman",
                 Default = true,
-		Create_Outposts = true,
+                Create_Outposts = true,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
             },
-		{
-            Name = "Machine Gunner",
-            Core = true,
-            Models = {},
-            Weapons = {"breda30"},
-            SpawnWeapons = {},
-            Prefix = "MG"
-                },
-		{
-            Name = "Medic",
-            Core = true,
-	    Medic = true,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {"fas2_ifak"},
-            Prefix = "MD"
-                },
-		{
-    	    Name = "Engineer",
-	    Core = true,
-	    Create_Outposts = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker"},
-   	    Prefix = "ENG",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Artillery",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
-   	    Prefix = "ARTY",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Arditi",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {"doi_atow_mp40"},
-    	    SpawnWeapons = {},
-   	    Prefix = "ARD",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Mechanized",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
-   	    Prefix = "MECH",
-	    vehicles = {
-                {
-                    name = "test",
-                    entityname = "Jeep",
-                    description = "test",
-                    price = 0
-                },
-             }
-             },
+            {
+                Name = "Machine Gunner",
+                Core = true,
+                Models = {},
+                Weapons = {"breda30"},
+                SpawnWeapons = {},
+                Prefix = "MG"
+            },
+            {
+                Name = "Medic",
+                Core = true,
+                Medic = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"fas2_ifak"},
+                Prefix = "MD"
+            },
+            {
+                Name = "Engineer",
+                Core = true,
+                Create_Outposts = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner", "outpost_maker"},
+                Prefix = "ENG",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Artillery",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                Prefix = "ARTY",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Arditi",
+                Core = true,
+                Models = {},
+                Weapons = {"doi_atow_mp40"},
+                SpawnWeapons = {},
+                Prefix = "ARD",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Mechanized",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                Prefix = "MECH",
+                vehicles = {
+                    {
+                        name = "test",
+                        entityname = "Jeep",
+                        description = "test",
+                        price = 0
+                    }
+                }
+            }
         },
     },
     ["US Airborne Division"] = {
@@ -1019,88 +983,88 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
-		{
-            Name = "Machine Gunner",
-            Core = true,
-            Models = {},
-            Weapons = {"doi_atow_m1918a2"},
-            SpawnWeapons = {},
-            Prefix = "MG"
-                },
-		{
-            Name = "Medic",
-            Core = true,
-	    Medic = true,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {"fas2_ifak"},
-            Prefix = "MD"
-                },
-		{
-    	    Name = "Engineer",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
-   	    Prefix = "ENG",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Anti Tank",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {"wz35"},
-    	    SpawnWeapons = {},
-   	    Prefix = "AT",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Pathfinder",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"ent_spawner"},
-   	    Prefix = "PF",
-            EntitySpawner = {
-   	     {
-            name = "Ammo Supplies",
-            entityname = "universal_ammo_small",
-            description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            type = "Ammo"
-             }
-             }
-             },
-	     {
-    	    Name = "Logistics",
-	    Core = true,
-   	    Models = {},
-    	    Weapons = {},
-    	    SpawnWeapons = {"weapon_simrepair","rope_tool"},
-   	    Prefix = "LOGI",
-	    vehicles = {
-                {
-                    name = "test",
-                    entityname = "Jeep",
-                    description = "test",
-                    price = 0
-                },
-             }
-             },	
-    	     }
+            {
+                Name = "Machine Gunner",
+                Core = true,
+                Models = {},
+                Weapons = {"doi_atow_m1918a2"},
+                SpawnWeapons = {},
+                Prefix = "MG"
+            },
+            {
+                Name = "Medic",
+                Core = true,
+                Medic = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"fas2_ifak"},
+                Prefix = "MD"
+            },
+            {
+                Name = "Engineer",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                Prefix = "ENG",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Anti Tank",
+                Core = true,
+                Models = {},
+                Weapons = {"wz35"},
+                SpawnWeapons = {},
+                Prefix = "AT",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Pathfinder",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "PF",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
+                }
+            },
+            {
+                Name = "Logistics",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                Prefix = "LOGI",
+                vehicles = {
+                    {
+                        name = "test",
+                        entityname = "Jeep",
+                        description = "test",
+                        price = 0
+                    }
+                }
+            }
+    	}
 	}
 }
 --Core Classes--
