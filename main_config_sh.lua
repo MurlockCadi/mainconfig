@@ -583,8 +583,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         price = 0
                     }
-                }
-            },
+                },
 	            vehicles = {
                     {
                         name = "Willys MB",
@@ -728,8 +727,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
-            },
+                },
 	            vehicles = {
                     {
                         name = "Kübelwagen",
@@ -873,8 +871,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
-            },
+                },
 	            vehicles = {
                     {
                         name = "Kübelwagen",
@@ -1009,8 +1006,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
-            },
+                },
 	            vehicles = {
                     {
                         name = "Kübelwagen",
@@ -1142,8 +1138,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
-            },
+                },
 	            vehicles = {
                     {
                         name = "Willys MB",
