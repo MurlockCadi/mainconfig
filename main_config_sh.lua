@@ -323,12 +323,19 @@ commands = {
     ["!atomic"] = function(ply) GivePlayerSwepIfTeamHasBombsandIsTrusted(ply) end
 }
 
+
 ----------------------DEFUALT WEAPONS-------------------------------------------------------------------------------
 
 imperium_rp_defualt_weapons = {
     "move_things"
 }
 ----------------------WEAPONS-------------------------------------------------------------------------------
+
+------------CW ATTACHMENTS-------------------------------------------------
+
+RESTRICTED_ATTACHMENTS = {"doi_atow_wornfinish"}
+
+
 MACHINE_GUNS = {"doi_atow_bren","doi_atow_fg42","doi_atow_lewis","doi_atow_m1918a2","doi_atow_m1919a6","doi_atow_mg34","doi_atow_mg42","doi_atow_vickers","breda30"}
 ----------------------ROLES-------------------------------------------------------------------------------
 
@@ -996,6 +1003,7 @@ DivisionTypes = {
                 Core = true,
                 Create_Outposts = true,
                 Models = {},
+		Attachments = {"doi_atow_wornfinish"},
                 Weapons = {},
                 SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner", "outpost_maker"},
                 Prefix = "ENG",
