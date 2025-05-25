@@ -333,9 +333,12 @@ imperium_rp_defualt_weapons = {
 
 ------------CW ATTACHMENTS-------------------------------------------------
 
-RESTRICTED_ATTACHMENTS = {"doi_atow_wornfinish"}
+RESTRICTED_ATTACHMENTS = {
+    ["doi_atow_wornfinish"] = true
+}
 
 
+-------------------------------------------------------------------
 MACHINE_GUNS = {"doi_atow_bren","doi_atow_fg42","doi_atow_lewis","doi_atow_m1918a2","doi_atow_m1919a6","doi_atow_mg34","doi_atow_mg42","doi_atow_vickers","breda30"}
 ----------------------ROLES-------------------------------------------------------------------------------
 
