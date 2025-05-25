@@ -112,13 +112,14 @@ combat_phase = 2700
 ORGANIZATION_MULTIPLIER = 0.5
 
 RESPAWN_TIMERS_IMPERIUMRP = {
-    ["Small Vehicles"] = 60,
-    ["Light Tanks"] = 450,
+    ["Small Vehicles"] = 75,
+    ["Trucks"] = 60,
+    ["Tank Destroyers"] = 800,
+    ["Light Tanks"] = 400,
     ["Medium Tanks"] = 900,
     ["Heavy Tanks"] = 1800,
-    ["Trucks"] = 60,
-    ["Mechanized Vehicles"] = 300,
-    ["Outpost Half Track"] = 600
+    ["Mechanized Vehicles"] = 240,
+    ["Outpost Half Track"] = 900
 }
 
 ENTITY_RESPAWN_TIMERS = {
@@ -495,10 +496,28 @@ DivisionTypes = {
                 Prefix = "MECH",
                 Vehicles = {
                     {
-                        name = "test",
-                        entityname = "Jeep",
-                        description = "test",
-                        type = "dsad"
+                        name = "GMC Truck",
+                        entityname = "simfphys_cbww2_cckw6x6",
+                        description = "Deuce and a Half. 6x6 transport. Backbone of logistics.",
+                        type = "Trucks"
+                    },
+                    {
+                        name = "Willys Jeep",
+                        entityname = "sim_fphys_codww2jeep",
+                        description = "Iconic 4x4. Fast, nimble, reliable across any terrain.",
+                        type = "Small Vehicles"
+                    },
+                    {
+                        name = "Dodge WC54",
+                        entityname = "wc54",
+                        description = "Command car. Light utility with winch. Used by officers.",
+                        type = "Trucks"
+                    },
+                    {
+                        name = "M3 Scout Car",
+                        entityname = "m3scout",
+                        description = "Mechanized Half Track with a mounted 30 cal.",
+                        type = "Mechanized Vehicles"
                     }
                 }
             }
@@ -600,10 +619,22 @@ DivisionTypes = {
                 Prefix = "TK",
                 vehicles = {
                     {
-                        name = "test",
-                        entityname = "Jeep",
-                        description = "test",
-                        price = 0
+                        name = "M10 Wolverine",
+                        entityname = "m_10",
+                        description = "Open-top tank destroyer. Fast, lightly armored, 3-inch gun.",
+                        type = "Tank Destroyers"
+                    },
+                    {
+                        name = "M4A1 Sherman",
+                        entityname = "m_4rp",
+                        description = "Rounded hull. Versatile medium tank. 75mm gun.",
+                        type = "Medium Tanks"
+                    },
+                    {
+                        name = "M4A3E2 Jumbo",
+                        entityname = "m4a_3_jumborp",
+                        description = "Heavily armored Sherman variant. Slow, tough, 76mm gun.",
+                        type = "Heavy Tanks"
                     }
                 }
             },
@@ -616,10 +647,22 @@ DivisionTypes = {
                 Prefix = "LOGI",
                 vehicles = {
                     {
-                        name = "test",
-                        entityname = "Jeep",
-                        description = "test",
-                        price = 0
+                        name = "GMC Truck",
+                        entityname = "simfphys_cbww2_cckw6x6",
+                        description = "Deuce and a Half. 6x6 transport. Backbone of logistics.",
+                        type = "Trucks"
+                    },
+                    {
+                        name = "Willys Jeep",
+                        entityname = "sim_fphys_codww2jeep",
+                        description = "Iconic 4x4. Fast, nimble, reliable across any terrain.",
+                        type = "Small Vehicles"
+                    },
+                    {
+                        name = "Dodge WC54",
+                        entityname = "wc54",
+                        description = "Command car. Light utility with winch. Used by officers.",
+                        type = "Trucks"
                     }
                 }
             }
@@ -721,10 +764,22 @@ DivisionTypes = {
                 Prefix = "TK",
                 vehicles = {
                     {
-                        name = "test",
-                        entityname = "Jeep",
-                        description = "test",
-                        price = 0
+                        name = "Panzer 38t",
+                        entityname = "pz-38t",
+                        description = "Light tank of Czech origin. Early war service. 37mm gun.",
+                        type = "Light Tanks"
+                    },
+                    {
+                        name = "Panzer 4H",
+                        entityname = "pz-4Hrp",
+                        description = "Workhorse medium tank. Armor skirts. 75mm high-velocity gun.",
+                        type = "Medium Tanks"
+                    },
+                    {
+                        name = "Tiger H",
+                        entityname = "pz-6rp",
+                        description = "Iconic heavy tank. Thick armor. Powerful 88mm gun.",
+                        type = "Heavy Tanks"
                     }
                 }
             },
@@ -737,10 +792,22 @@ DivisionTypes = {
                 Prefix = "LOGI",
                 vehicles = {
                     {
-                        name = "test",
-                        entityname = "Jeep",
-                        description = "test",
-                        price = 0
+                        name = "Opel Blitz",
+                        entityname = "sim_fphy_codww2opel",
+                        description = "Standard German army truck. Versatile transport. 3-ton payload.",
+                        type = "Trucks"
+                    },
+                    {
+                        name = "Kübelwagen",
+                        entityname = "codww2kubel",
+                        description = "Light utility car. Simple, air-cooled, rear-wheel drive.",
+                        type = "Small Vehicles"
+                    },
+                    {
+                        name = "Sdkfz 10",
+                        entityname = "codww2sdkfz10",
+                        description = "Half-track prime mover. Light towing. Room for troops.",
+                        type = "Trucks"
                     }
                 }
             }
@@ -858,10 +925,22 @@ DivisionTypes = {
                 Prefix = "LOGI",
                 vehicles = {
                     {
-                        name = "test",
-                        entityname = "Jeep",
-                        description = "test",
-                        price = 0
+                        name = "Opel Blitz",
+                        entityname = "sim_fphy_codww2opel",
+                        description = "Standard German army truck. Versatile transport. 3-ton payload.",
+                        type = "Trucks"
+                    },
+                    {
+                        name = "Kübelwagen",
+                        entityname = "codww2kubel",
+                        description = "Light utility car. Simple, air-cooled, rear-wheel drive.",
+                        type = "Small Vehicles"
+                    },
+                    {
+                        name = "Sdkfz 10",
+                        entityname = "codww2sdkfz10",
+                        description = "Half-track prime mover. Light towing. Room for troops.",
+                        type = "Trucks"
                     }
                 }
             }
@@ -982,10 +1061,22 @@ DivisionTypes = {
                 Prefix = "MECH",
                 vehicles = {
                     {
-                        name = "test",
-                        entityname = "Jeep",
-                        description = "test",
-                        price = 0
+                        name = "Opel Blitz",
+                        entityname = "sim_fphy_codww2opel",
+                        description = "Standard German army truck. Versatile transport. 3-ton payload.",
+                        type = "Trucks"
+                    },
+                    {
+                        name = "Kübelwagen",
+                        entityname = "codww2kubel",
+                        description = "Light utility car. Simple, air-cooled, rear-wheel drive.",
+                        type = "Small Vehicles"
+                    },
+                    {
+                        name = "Sdkfz 10",
+                        entityname = "codww2sdkfz10",
+                        description = "Half-track prime mover. Light towing. Room for troops.",
+                        type = "Trucks"
                     }
                 }
             }
@@ -1103,10 +1194,22 @@ DivisionTypes = {
                 Prefix = "LOGI",
                 vehicles = {
                     {
-                        name = "test",
-                        entityname = "Jeep",
-                        description = "test",
-                        price = 0
+                        name = "GMC Truck",
+                        entityname = "simfphys_cbww2_cckw6x6",
+                        description = "Deuce and a Half. 6x6 transport. Backbone of logistics.",
+                        type = "Trucks"
+                    },
+                    {
+                        name = "Willys Jeep",
+                        entityname = "sim_fphys_codww2jeep",
+                        description = "Iconic 4x4. Fast, nimble, reliable across any terrain.",
+                        type = "Small Vehicles"
+                    },
+                    {
+                        name = "Dodge WC54",
+                        entityname = "wc54",
+                        description = "Command car. Light utility with winch. Used by officers.",
+                        type = "Trucks"
                     }
                 }
             }
