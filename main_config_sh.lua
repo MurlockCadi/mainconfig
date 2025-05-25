@@ -120,6 +120,11 @@ RESPAWN_TIMERS_IMPERIUMRP = {
     ["Outpost Half Track"] = 600
 }
 
+ENTITY_RESPAWN_TIMERS = {
+    ["Ammo"] = 60,
+    ["Medic Box"] = 120
+}
+
 
 ---------PROX CHAT------------------------------------------------------------------------------------
 
@@ -437,7 +442,7 @@ DivisionTypes = {
                         name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        price = 0
+                        type = 0
                     }
                 },
 	            vehicles = {
@@ -462,7 +467,7 @@ DivisionTypes = {
                         name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        price = 0
+                        type = "Ammo"
                     }
                 }
             },
@@ -479,7 +484,7 @@ DivisionTypes = {
                         name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        price = 0
+                        type = "Ammo"
                     }
                 }
             },
@@ -688,7 +693,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
@@ -704,7 +709,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
@@ -816,7 +821,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
@@ -832,7 +837,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
@@ -931,7 +936,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
@@ -947,7 +952,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
@@ -963,7 +968,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
@@ -1043,7 +1048,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
@@ -1059,7 +1064,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
@@ -1075,7 +1080,7 @@ DivisionTypes = {
             name = "Ammo Supplies",
             entityname = "universal_ammo_small",
             description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-            price = 0
+            type = "Ammo"
              }
              }
              },
