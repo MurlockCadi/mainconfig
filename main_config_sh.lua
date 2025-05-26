@@ -343,6 +343,7 @@ RESTRICTED_ATTACHMENTS = {
     ["doi_atow_unertl"] = true,
     ["doi_atow_wina5"] = true,
     ["doi_atow_m73"] = true,
+    ["am_atow_heavy"] = true,
 
 
 }
