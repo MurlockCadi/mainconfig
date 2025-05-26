@@ -1059,7 +1059,8 @@ DivisionTypes = {
             {
                 Name = "Arditi",
                 Core = true,
-                Models = {},
+                Models = {"models/italianelite/italianelite.mdl"},
+		Attachments = {"doi_atow_unisuppressor","doi_atow_bhpextmag","doi_atow_stensuppressor"},
                 Weapons = {"doi_atow_mp40"},
                 SpawnWeapons = {},
                 Prefix = "ARD",
