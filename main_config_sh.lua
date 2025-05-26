@@ -453,7 +453,7 @@ DivisionTypes = {
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak"},
-                Prefix = "MD"
+                Prefix = "MD",
                 EntitySpawner = {
                     {
                         name = "Medical Box",
@@ -1047,7 +1047,7 @@ DivisionTypes = {
 		Max = 15,
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak"},
-                Prefix = "MD"
+                Prefix = "MD",
                 EntitySpawner = {
                     {
                         name = "Medical Box",
