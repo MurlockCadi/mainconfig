@@ -334,8 +334,17 @@ imperium_rp_defualt_weapons = {
 ------------CW ATTACHMENTS-------------------------------------------------
 
 RESTRICTED_ATTACHMENTS = {
-    ["doi_atow_wornfinish"] = true,
-    ["doi_atow_m2carbineconv"] = true
+    ["doi_atow_m2carbineconv"] = true,
+    ["doi_atow_stensuppressor"] = true,
+    ["doi_atow_bhpextmag"] = true,
+    ["doi_atow_unisuppressor"] = true,
+    ["doi_atow_zf4"] = true,
+    ["doi_atow_zf39"] = true,
+    ["doi_atow_unertl"] = true,
+    ["doi_atow_wina5"] = true,
+    ["doi_atow_m73"] = true,
+
+
 }
 
 
