@@ -316,7 +316,9 @@ commands = {
     ["!divisionrank"] = function(ply, args) SetDivisionRankAdmin(ply, args) end,
     ["/actions"] = function(ply) OpenMissionSelectionMenu(ply) end,
     ["!actions"] = function(ply) OpenMissionSelectionMenu(ply) end,
-    ["!atomic"] = function(ply) GivePlayerSwepIfTeamHasBombsandIsTrusted(ply) end
+    ["!atomic"] = function(ply) GivePlayerSwepIfTeamHasBombsandIsTrusted(ply) end,
+    ["!rewardteam"] = function(ply, args) RewardTeamAdmin(ply, args) end,
+    ["/rewardteam"] = function(ply, args) RewardTeamAdmin(ply, args) end
 }
 
 
