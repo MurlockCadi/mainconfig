@@ -496,6 +496,7 @@ DivisionTypes = {
                 Name = "Special Air Service",
                 Core = true,
                 Models = {},
+		Attachments = {"doi_atow_unisuppressor","doi_atow_bhpextmag","doi_atow_stensuppressor"},
                 Weapons = {"doi_atow_sten"},
                 SpawnWeapons = {},
                 Prefix = "SAS",
