@@ -452,7 +452,7 @@ DivisionTypes = {
 		Max = 15,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
@@ -1046,7 +1046,7 @@ DivisionTypes = {
 		RoleMax = 5,
 		Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
