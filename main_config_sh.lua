@@ -542,7 +542,7 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"weapon_simrepair","rope_tool"},
                 Prefix = "MECH",
-                Vehicles = {
+                vehicles = {
                     {
                         name = "GMC Truck",
                         entityname = "simfphys_cbww2_cckw6x6",
