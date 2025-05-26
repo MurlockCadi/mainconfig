@@ -1847,7 +1847,7 @@ DivisionEnhancements = {
         Price = 25000
     },
     ["Sleight of Hand"] = {
-        description = "Looting bodys is now Instant.,
+        description = "Looting bodys is now Instant.",
         Price = 45000
     },
     ["Quick Revive"] = {
