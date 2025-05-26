@@ -476,7 +476,7 @@ DivisionTypes = {
                         name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = 0
+                        type = "Ammo"
                     }
                 },
 	            vehicles = {
