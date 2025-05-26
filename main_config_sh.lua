@@ -1847,7 +1847,11 @@ DivisionEnhancements = {
         Price = 25000
     },
     ["Sleight of Hand"] = {
-        description = "Looting bodys is now Instant. Also, it now takes 3 seconds less to revive a downed player.",
+        description = "Looting bodys is now Instant.,
+        Price = 45000
+    },
+    ["Quick Revive"] = {
+        description = "It now takes 3 seconds less to revive a downed player.",
         Price = 45000
     },
 }
