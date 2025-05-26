@@ -976,7 +976,7 @@ DivisionTypes = {
 		RoleMax = 2,
 		Max = 2,
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","paradrop_murlock"},
                 Prefix = "PF",
                 EntitySpawner = {
                     {
@@ -1271,7 +1271,7 @@ DivisionTypes = {
 		RoleMax = 2,
 		Max = 2,
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","paradrop_murlock"},
                 Prefix = "PF",
                 EntitySpawner = {
                     {
