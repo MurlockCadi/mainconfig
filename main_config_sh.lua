@@ -350,7 +350,7 @@ RESTRICTED_ATTACHMENTS = {
 
 
 -------------------------------------------------------------------
-MACHINE_GUNS = {"doi_atow_bren","doi_atow_fg42","doi_atow_lewis","doi_atow_m1918a2","doi_atow_m1919a6","doi_atow_mg34","doi_atow_mg42","doi_atow_vickers","breda30"}
+
 ----------------------ROLES-------------------------------------------------------------------------------
 
 US_TANKER_MODELS = {"models/hts/comradebear/pm0v3/player/usarmy/armored/en/m41tanker_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/armored/en/m41tanker_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/armored/en/m41tanker_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/armored/en/m41tanker_s1_04.mdl"}
@@ -448,10 +448,20 @@ DivisionTypes = {
                 Name = "Medic",
                 Core = true,
                 Medic = true,
+		RoleMax = 5,
+		Max = 15,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak"},
                 Prefix = "MD"
+                EntitySpawner = {
+                    {
+                        name = "Medical Box",
+                        entityname = "medic_box",
+                        description = "Used to let your soldiers heal themselves!",
+                        type = "Medic Box"
+                    }
+                },
             },
             {
                 Name = "Engineer",
@@ -592,6 +602,8 @@ DivisionTypes = {
                 Name = "Medic",
                 Core = true,
                 Medic = true,
+		RoleMax = 5,
+		Max = 15,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak"},
@@ -741,6 +753,8 @@ DivisionTypes = {
                 Core = true,
                 Medic = true,
                 Models = {},
+		RoleMax = 5,
+		Max = 15,
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak"},
                 Prefix = "MD"
@@ -889,6 +903,8 @@ DivisionTypes = {
                 Core = true,
                 Medic = true,
                 Models = {},
+		RoleMax = 5,
+		Max = 15,
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak"},
                 Prefix = "MD"
@@ -1027,9 +1043,19 @@ DivisionTypes = {
                 Core = true,
                 Medic = true,
                 Models = {},
+		RoleMax = 5,
+		Max = 15,
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak"},
                 Prefix = "MD"
+                EntitySpawner = {
+                    {
+                        name = "Medical Box",
+                        entityname = "medic_box",
+                        description = "Used to let your soldiers heal themselves!",
+                        type = "Medic Box"
+                    }
+                },
             },
             {
                 Name = "Engineer",
@@ -1166,6 +1192,8 @@ DivisionTypes = {
                 Core = true,
                 Medic = true,
                 Models = {},
+		RoleMax = 5,
+		Max = 15,
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak"},
                 Prefix = "MD"
