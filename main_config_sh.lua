@@ -119,7 +119,7 @@ RESPAWN_TIMERS_IMPERIUMRP = {
     ["Medium Tanks"] = 900,
     ["Heavy Tanks"] = 1800,
     ["Mechanized Vehicles"] = 240,
-    ["Outpost Half Track"] = 900
+    ["Outpost Half Track"] = 1
 }
 
 ENTITY_RESPAWN_TIMERS = {
