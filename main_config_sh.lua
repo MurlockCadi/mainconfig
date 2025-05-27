@@ -471,16 +471,12 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker"},
 		Fortifications = {
-			{name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
-			{name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
-			{name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
-			{name = "Sandbags Corner 3", model = "models/props_fortifications/sandbags_corner3.mdl"},
-			{name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
-			{name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
-			{name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
-			{name = "Sandbags Line 2 Tall", model = "models/props_fortifications/sandbags_line2_tall.mdl"},
-			{name = "Sandbags Line 3", model = "models/props_fortifications/sandbags_line2b.mdl"},
 			{name = "Bunker", model = "models/props_phx/misc/bunker01.mdl"}
+			{name = "Tank Trap", model = "models/fortification_props_model_pack/hedgehog_small1.mdl"},
+			{name = "Dragons Teeth", model = "models/fortification_props_model_pack/dragonsteeth.mdl"},
+			{name = "Hay Bale", model = "models/props_farm/ah_round_hay_bale001.mdl"},
+			{name = "Metal Tube", model = "models/props_vehicles/american/c47_camp_section.mdl"},
+			{name = "Stone Wall", model = "models/props_fences/ah_stone_wall_256.mdl"},
 		},
                 Prefix = "ENG",
                 EntitySpawner = {
