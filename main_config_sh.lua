@@ -570,6 +570,12 @@ DivisionTypes = {
                         entityname = "m3scout",
                         description = "Mechanized Half Track with a mounted 30 cal.",
                         type = "Mechanized Vehicles"
+                    },
+                    {
+                        name = "Outpost Scout Car",
+                        entityname = "m3scoutoutpost",
+                        description = "Unweaponized scout car for mobile reinforcements.",
+                        type = "Outpost Half Track"
                     }
                 }
             }
@@ -1176,6 +1182,12 @@ DivisionTypes = {
                         entityname = "codww2sdkfz10",
                         description = "Half-track prime mover. Light towing. Room for troops.",
                         type = "Trucks"
+                    },
+                    {
+                        name = "Outpost Half Track",
+                        entityname = "codww2sdkfz10outpost",
+                        description = "Half track for mobile reinforcements.",
+                        type = "Outpost Half Track"
                     }
                 }
             }
