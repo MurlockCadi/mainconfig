@@ -545,6 +545,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
+                }
                 vehicles = {
                     {
                         name = "GMC Truck",
@@ -702,6 +703,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
+                }
                 vehicles = {
                     {
                         name = "GMC Truck",
@@ -853,6 +855,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
+                }
                 vehicles = {
                     {
                         name = "Opel Blitz",
@@ -994,6 +997,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
+                }
                 vehicles = {
                     {
                         name = "Opel Blitz",
@@ -1154,6 +1158,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
+                }
                 vehicles = {
                     {
                         name = "Opel Blitz",
@@ -1278,7 +1283,7 @@ DivisionTypes = {
 		RoleMax = 2,
 		Max = 2,
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","paradrop_murlock"},
+                SpawnWeapons = {"paradrop_murlock"},
                 Prefix = "PF",
             },
             {
@@ -1295,6 +1300,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
+                }
                 vehicles = {
                     {
                         name = "GMC Truck",
