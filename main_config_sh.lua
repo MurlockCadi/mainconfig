@@ -703,7 +703,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
+                },
                 vehicles = {
                     {
                         name = "GMC Truck",
@@ -855,7 +855,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
+                },
                 vehicles = {
                     {
                         name = "Opel Blitz",
@@ -997,7 +997,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
+                },
                 vehicles = {
                     {
                         name = "Opel Blitz",
@@ -1158,7 +1158,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
+                },
                 vehicles = {
                     {
                         name = "Opel Blitz",
@@ -1300,7 +1300,7 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
+                },
                 vehicles = {
                     {
                         name = "GMC Truck",
