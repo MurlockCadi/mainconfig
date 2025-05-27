@@ -471,7 +471,7 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker"},
 		Fortifications = {
-			{name = "Bunker", model = "models/props_phx/misc/bunker01.mdl"}
+			{name = "Bunker", model = "models/props_phx/misc/bunker01.mdl"},
 			{name = "Tank Trap", model = "models/fortification_props_model_pack/hedgehog_small1.mdl"},
 			{name = "Dragons Teeth", model = "models/fortification_props_model_pack/dragonsteeth.mdl"},
 			{name = "Hay Bale", model = "models/props_farm/ah_round_hay_bale001.mdl"},
