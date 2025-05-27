@@ -123,7 +123,7 @@ RESPAWN_TIMERS_IMPERIUMRP = {
 }
 
 ENTITY_RESPAWN_TIMERS = {
-    ["Ammo"] = 60,
+    ["Ammo"] = 15,
     ["Medic Box"] = 120
 }
 
@@ -469,7 +469,7 @@ DivisionTypes = {
 		RoleMax = 6,
 		Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker","rope_tool"},
 		Fortifications = {
 			{name = "Bunker", model = "models/props_phx/misc/bunker01.mdl"},
 			{name = "Tank Trap", model = "models/fortification_props_model_pack/hedgehog_small1.mdl"},
@@ -536,8 +536,15 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_simrepair","rope_tool"},
+                SpawnWeapons = {"weapon_simrepair","rope_tool","ent_spawner"},
                 Prefix = "MECH",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
                 vehicles = {
                     {
                         name = "GMC Truck",
@@ -624,7 +631,7 @@ DivisionTypes = {
 		RoleMax = 5,
 		Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner","rope_tool"},
                 Prefix = "ENG",
                 EntitySpawner = {
                     {
@@ -652,14 +659,6 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "FLM",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        price = 0
-                    }
-                }
             },
             {
                 Name = "Tankers",
@@ -694,8 +693,15 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                SpawnWeapons = {"weapon_simrepair", "rope_tool","ent_spawner"},
                 Prefix = "LOGI",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
                 vehicles = {
                     {
                         name = "GMC Truck",
@@ -776,7 +782,7 @@ DivisionTypes = {
 		RoleMax = 5,
 		Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner","rope_tool"},
                 Prefix = "ENG",
                 EntitySpawner = {
                     {
@@ -804,14 +810,6 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "FLM",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    }
-                }
             },
             {
                 Name = "Tankers",
@@ -846,8 +844,15 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                SpawnWeapons = {"weapon_simrepair", "rope_tool","ent_spawner"},
                 Prefix = "LOGI",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
                 vehicles = {
                     {
                         name = "Opel Blitz",
@@ -928,7 +933,7 @@ DivisionTypes = {
 		RoleMax = 4,
 		Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner", "rope_tool"},
                 Prefix = "ENG",
                 EntitySpawner = {
                     {
@@ -953,7 +958,7 @@ DivisionTypes = {
                 Models = {},
 		RoleMax = 3,
 		Max = 3,
-                Weapons = {"wz35"},
+                Weapons = {"tankgewehr"},
                 SpawnWeapons = {},
                 Prefix = "AT",
                 EntitySpawner = {
@@ -972,24 +977,23 @@ DivisionTypes = {
 		RoleMax = 2,
 		Max = 2,
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","paradrop_murlock"},
+                SpawnWeapons = {"paradrop_murlock"},
                 Prefix = "PF",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        price = 0
-                    }
-                }
             },
             {
                 Name = "Logistics",
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                SpawnWeapons = {"weapon_simrepair","rope_tool","ent_spawner"},
                 Prefix = "LOGI",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
                 vehicles = {
                     {
                         name = "Opel Blitz",
@@ -1082,7 +1086,7 @@ DivisionTypes = {
 		RoleMax = 15,
 		Attachments = {"doi_atow_wornfinish"},
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner", "outpost_maker"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker","rope_tool"},
                 Prefix = "ENG",
                 EntitySpawner = {
                     {
@@ -1141,8 +1145,15 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
+                SpawnWeapons = {"weapon_simrepair","rope_tool","ent_spawner"},
                 Prefix = "MECH",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    }
                 vehicles = {
                     {
                         name = "Opel Blitz",
@@ -1223,7 +1234,7 @@ DivisionTypes = {
 		RoleMax = 4,
 		Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner","rope_tool"},
                 Prefix = "ENG",
                 EntitySpawner = {
                     {
@@ -1269,6 +1280,14 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner","paradrop_murlock"},
                 Prefix = "PF",
+            },
+            {
+                Name = "Logistics",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_simrepair","rope_tool","ent_spawner"},
+                Prefix = "LOGI",
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -1276,15 +1295,6 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     }
-                }
-            },
-            {
-                Name = "Logistics",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
-                Prefix = "LOGI",
                 vehicles = {
                     {
                         name = "GMC Truck",
