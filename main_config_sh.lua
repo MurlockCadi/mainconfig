@@ -580,12 +580,6 @@ DivisionTypes = {
                         entityname = "m3scout",
                         description = "Mechanized Half Track with a mounted 30 cal.",
                         type = "Mechanized Vehicles"
-                    },
-                    {
-                        name = "Outpost Scout Car",
-                        entityname = "m3scoutoutpost",
-                        description = "Unweaponized scout car for mobile reinforcements.",
-                        type = "Outpost Half Track"
                     }
                 }
             }
@@ -702,6 +696,12 @@ DivisionTypes = {
                         entityname = "m4a_3_jumborp",
                         description = "Heavily armored Sherman variant. Slow, tough, 76mm gun.",
                         type = "Heavy Tanks"
+                    },
+                    {
+                        name = "Outpost Scout Car",
+                        entityname = "m3scoutoutpost",
+                        description = "Unweaponized scout car for mobile reinforcements.",
+                        type = "Outpost Half Track"
                     }
                 }
             },
@@ -854,6 +854,12 @@ DivisionTypes = {
                         entityname = "pz-6rp",
                         description = "Iconic heavy tank. Thick armor. Powerful 88mm gun.",
                         type = "Heavy Tanks"
+                    },
+                    {
+                        name = "Outpost Half Track",
+                        entityname = "codww2sdkfz10outpost",
+                        description = "Half track for mobile reinforcements.",
+                        type = "Outpost Half Track"
                     }
                 }
             },
@@ -1192,12 +1198,6 @@ DivisionTypes = {
                         entityname = "codww2sdkfz10",
                         description = "Half-track prime mover. Light towing. Room for troops.",
                         type = "Trucks"
-                    },
-                    {
-                        name = "Outpost Half Track",
-                        entityname = "codww2sdkfz10outpost",
-                        description = "Half track for mobile reinforcements.",
-                        type = "Outpost Half Track"
                     }
                 }
             }
