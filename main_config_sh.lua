@@ -128,6 +128,16 @@ ENTITY_RESPAWN_TIMERS = {
 }
 
 
+vehicleLimits = {
+    {players = 80, maxVehicles = 5},
+    {players = 50, maxVehicles = 5},
+    {players = 40, maxVehicles = 8},
+    {players = 30, maxVehicles = 8},
+    {players = 25, maxVehicles = 8},
+    {players = 20, maxVehicles = 10},
+    {players = 0, maxVehicles = 10}
+}
+
 ---------PROX CHAT------------------------------------------------------------------------------------
 
 proximityDistance = 750
