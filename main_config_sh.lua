@@ -702,9 +702,11 @@ DivisionTypes = {
                 Prefix = "SHK"
             },
             {
-                Name = "Tankers",
+                Name = "Tanker",
                 Core = true,
                 Models = US_TANKER_MODELS,
+		RoleMax = 9,
+		Max = 9,
                 Weapons = {},
                 SpawnWeapons = {"weapon_simrepair", "rope_tool"},
                 Prefix = "TK",
@@ -860,9 +862,11 @@ DivisionTypes = {
                 Prefix = "FLM",
             },
             {
-                Name = "Tankers",
+                Name = "Tanker",
                 Core = true,
                 Models = DE_TANKER_FULL,
+		RoleMax = 9,
+		Max = 9,
                 Weapons = {},
                 SpawnWeapons = {"weapon_simrepair", "rope_tool"},
                 Prefix = "TK",
