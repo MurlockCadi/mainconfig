@@ -862,6 +862,17 @@ DivisionTypes = {
                 Prefix = "FLM",
             },
             {
+                Name = "Shock Trooper",
+                Core = true,
+                Models = {},
+		RoleMax = 5,
+		Max = 12,
+		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
+                Weapons = {"doi_ws_atow_mp34","ig_m18"},
+                SpawnWeapons = {},
+                Prefix = "SHK"
+            },
+            {
                 Name = "Tanker",
                 Core = true,
                 Models = DE_TANKER_FULL,
@@ -1038,6 +1049,17 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"paradrop_murlock"},
                 Prefix = "PF",
+            },
+            {
+                Name = "Shock Trooper",
+                Core = true,
+                Models = {},
+		RoleMax = 7,
+		Max = 12,
+		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
+                Weapons = {"doi_atow_stg44","ig_m18"},
+                SpawnWeapons = {},
+                Prefix = "SHK"
             },
             {
                 Name = "Logistics",
@@ -1358,6 +1380,17 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"paradrop_murlock"},
                 Prefix = "PF",
+            },
+            {
+                Name = "Shock Trooper",
+                Core = true,
+                Models = {},
+		RoleMax = 7,
+		Max = 12,
+		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
+                Weapons = {"doi_atow_m1carbine","ig_m18"},
+                SpawnWeapons = {},
+                Prefix = "SHK"
             },
             {
                 Name = "Logistics",
