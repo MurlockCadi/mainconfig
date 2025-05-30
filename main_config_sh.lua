@@ -509,8 +509,9 @@ DivisionTypes = {
 			{name = "Tank Trap", model = "models/fortification_props_model_pack/hedgehog_small1.mdl"},
 			{name = "Dragons Teeth", model = "models/fortification_props_model_pack/dragonsteeth.mdl"},
 			{name = "Hay Bale", model = "models/props_farm/ah_round_hay_bale001.mdl"},
-			{name = "Metal Tube", model = "models/props_vehicles/american/c47_camp_section.mdl"},
+			{name = "Concrete Tube", model = "models/props_trenches/r_concretetube.mdl"},
 			{name = "Stone Wall", model = "models/props_fences/ah_stone_wall_256.mdl"},
+			{name = "Shooting Door", model = "models/props_interior/s_door02.mdl"},
 		},
                 Prefix = "ENG",
                 EntitySpawner = {
