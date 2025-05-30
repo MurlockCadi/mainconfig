@@ -690,7 +690,7 @@ DivisionTypes = {
 		Fortifications = {
 			{name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
 			{name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
-			{name = "Sandbags Corner 2 ", model = "	models/props_fortifications/sandbags_corner2.mdl"},	
+			{name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
 			{name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
 			{name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
 			{name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
@@ -871,7 +871,7 @@ DivisionTypes = {
 		Fortifications = {
 			{name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
 			{name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
-			{name = "Sandbags Corner 2 ", model = "	models/props_fortifications/sandbags_corner2.mdl"},	
+			{name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
 			{name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
 			{name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
 			{name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
