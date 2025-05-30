@@ -1049,6 +1049,14 @@ DivisionTypes = {
 		Max = 15,
                 Weapons = {"weapon_simmines"},
                 SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner", "rope_tool"},
+		Fortifications = {
+			{name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
+			{name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
+			{name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
+			{name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
+			{name = "Wooden Wall Short", model = "models/props_fences/gate02.mdl"},
+			{name = "Wooden Stairs", model = "models/hunter/misc/stair1x1.mdl"},
+		},
                 Prefix = "ENG",
                 EntitySpawner = {
                     {
@@ -1389,6 +1397,14 @@ DivisionTypes = {
 		Max = 15,
                 Weapons = {"weapon_simmines"},
                 SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner","rope_tool"},
+		Fortifications = {
+			{name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
+			{name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
+			{name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
+			{name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
+			{name = "Wooden Wall Short", model = "models/props_fences/gate02.mdl"},
+			{name = "Wooden Stairs", model = "models/hunter/misc/stair1x1.mdl"},
+		},
                 Prefix = "ENG",
                 EntitySpawner = {
                     {
