@@ -27,7 +27,7 @@ mapMessages = {
     ["rp_lapadite_2"] = "France Region: La Padite. 280 Miles to Frankfurt.",
     ["rp_1944rpgtown_v2a"] = "France Region: Reims. 250 Miles to Frankfurt.",
     ["twisted_steal"] = "France Region: River Moselle Near Metz. 220 Miles to Frankfurt.",
-    ["rp_paris_wwii"] = "The Battle for Paris. 350 Miles to Frankfurt."
+    ["rp_paris_wwii"] = "The Battle for Paris. 350 Miles to Frankfurt.",
 
     -- German Rhine / Siegfried Line Region
     ["rnl_seigfriedline_v2"] = "Rhine Region: The Siegfried Line. 100 Miles to Frankfurt.",
