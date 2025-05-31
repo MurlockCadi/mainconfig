@@ -148,7 +148,8 @@ RESPAWN_TIMERS_IMPERIUMRP = {
 
 ENTITY_RESPAWN_TIMERS = {
     ["Ammo"] = 15,
-    ["Medic Box"] = 120
+    ["Medic Box"] = 120,
+    ["Radio"] = 120
 }
 
 
@@ -498,9 +499,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
             },
@@ -532,9 +533,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
 	            vehicles = {
@@ -562,9 +563,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 }
             },
@@ -587,9 +588,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 }
             },
@@ -628,9 +629,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
                 vehicles = {
@@ -821,9 +822,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
                 vehicles = {
@@ -927,9 +928,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
 	            vehicles = {
@@ -1014,9 +1015,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
                 vehicles = {
@@ -1118,9 +1119,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
 	            vehicles = {
@@ -1150,9 +1151,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 }
             },
@@ -1193,9 +1194,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
                 vehicles = {
@@ -1280,9 +1281,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
             },
@@ -1314,9 +1315,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
 	            vehicles = {
@@ -1344,9 +1345,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 }
             },
@@ -1369,9 +1370,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 }
             },
@@ -1410,9 +1411,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
                 vehicles = {
@@ -1514,9 +1515,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
 	            vehicles = {
@@ -1546,9 +1547,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 }
             },
@@ -1589,9 +1590,9 @@ DivisionTypes = {
                     },
                     {
                         name = "Radio",
-                        entityname = "medic_box",
+                        entityname = "newboombox",
                         description = "Play some Music!",
-                        type = "newboombox"
+                        type = "Radio"
                     }
                 },
                 vehicles = {
