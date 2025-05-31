@@ -352,7 +352,8 @@ commands = {
     ["!actions"] = function(ply) OpenMissionSelectionMenu(ply) end,
     ["!atomic"] = function(ply) GivePlayerSwepIfTeamHasBombsandIsTrusted(ply) end,
     ["!rewardteam"] = function(ply, args) RewardTeamAdmin(ply, args) end,
-    ["/rewardteam"] = function(ply, args) RewardTeamAdmin(ply, args) end
+    ["/rewardteam"] = function(ply, args) RewardTeamAdmin(ply, args) end,
+    ["/deleteallpoints"] = function(ply) DeleteAllPoints(ply) end
 }
 
 
