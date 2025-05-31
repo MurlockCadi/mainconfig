@@ -11,29 +11,29 @@ mapMessages = {
     -- Normandy Region
     ["rp_omahabeach"] = "Normandy Region: Omaha Beach. 600 Miles to Frankfurt.",
     ["rnl_stcomedumont"] = "Normandy Region: Sainte-Combe-du-Mont. 580 Miles to Frankfurt.",
-    ["ctg_stemariedumont_v3"] = "Normandy Region: Sainte-Marie-du-Mont. 570 Miles to Frankfurt.",
+    ["ctg_stemariedumont_v3"] = "Normandy Region: Sainte-Marie-du-Mont. 400 Miles to Frankfurt.",
     ["rnl_lafiere"] = "Normandy Region: La Fière. 550 Miles to Frankfurt.",
     ["gm_eglise_rp"] = "Normandy Region: Eglise. 560 Miles to Frankfurt.",
-    ["rp_falaise_td"] = "Normandy Region: Falaise. 520 Miles to Frankfurt.",
+    ["rp_falaise_td"] = "Normandy Region: Falaise. 500 Miles to Frankfurt.",
     ["rp_caen_battle"] = "Normandy Region: City of Caen. 540 Miles to Frankfurt.",
-    ["rp_normandie_expiration"] = "Normandy Region: Falaise. 500 Miles to Frankfurt.",
+    ["rp_normandie_v2_d"] = "Battle for Normandy: Operation Bluecoat. 520 Miles to Frankfurt.",
 
     -- Greater France Region
     ["rnl_farm_v4"] = "France Region: French Countryside Farm. 450 Miles to Frankfurt.",
     ["rnl_ardennes"] = "France Region: The Ardennes. 400 Miles to Frankfurt.",
     ["rnl_hill35_a8"] = "France Region: Chartres. 300 Miles to Frankfurt.",
     ["rnl_lapluie"] = "France Region: La Pluie. 350 Miles to Frankfurt.",
-    ["rnl_stannum_v3a"] = "France Region: St. Annus. 320 Miles to Frankfurt.",
+    ["rnl_stannum_v3a"] = "France. Near Metz. 150 Miles to Frankfurt.",
     ["rp_lapadite_2"] = "France Region: La Padite. 280 Miles to Frankfurt.",
-    ["rp_1944rpgtown_v2a"] = "France Region: Reims. 250 Miles to Frankfurt.",
     ["twisted_steal"] = "France Region: River Moselle Near Metz. 220 Miles to Frankfurt.",
     ["rp_paris_wwii"] = "The Battle for Paris. 350 Miles to Frankfurt.",
 
     -- German Rhine / Siegfried Line Region
-    ["rnl_seigfriedline_v2"] = "Rhine Region: The Siegfried Line. 100 Miles to Frankfurt.",
+    ["rp_ww1_siegfriedtrenches_b02"] = "Rhine Region: The Siegfried Line. 100 Miles to Frankfurt.",
+    ["rp_1944rpgtown_v2a"] = "The Rhine Region, Past the Siegfried Line. City of Mainz. 30 Miles to Frankfurt.",
     ["rnl_adenau"] = "Rhine Region: Adenau. 80 Miles to Frankfurt.",
     ["gm_rhine"] = "Rhine Region: The Rhine. 50 Miles to Frankfurt.",
-    ["rp_frankfurt"] = "Rhine Region: Frankfurt. 0 Miles to Frankfurt."
+    ["rp_frankfurt"] = "Rhine Region: The Battle for Frankfurt. Endsieg."
 }
 
 
