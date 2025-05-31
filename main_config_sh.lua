@@ -738,7 +738,13 @@ DivisionTypes = {
                         name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        price = 0
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
                     }
                 },
 	            vehicles = {
