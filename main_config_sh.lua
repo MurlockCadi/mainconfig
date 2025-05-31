@@ -493,6 +493,12 @@ DivisionTypes = {
                         entityname = "medic_box",
                         description = "Used to let your soldiers heal themselves!",
                         type = "Medic Box"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
             },
@@ -521,6 +527,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
 	            vehicles = {
@@ -545,6 +557,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 }
             },
@@ -564,6 +582,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 }
             },
@@ -599,6 +623,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
                 vehicles = {
@@ -786,6 +816,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
                 vehicles = {
@@ -886,6 +922,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
 	            vehicles = {
@@ -967,6 +1009,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
                 vehicles = {
@@ -1065,6 +1113,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
 	            vehicles = {
@@ -1091,6 +1145,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 }
             },
@@ -1128,6 +1188,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
                 vehicles = {
@@ -1209,6 +1275,12 @@ DivisionTypes = {
                         entityname = "medic_box",
                         description = "Used to let your soldiers heal themselves!",
                         type = "Medic Box"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
             },
@@ -1237,6 +1309,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
 	            vehicles = {
@@ -1261,6 +1339,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 }
             },
@@ -1280,6 +1364,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 }
             },
@@ -1315,6 +1405,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
                 vehicles = {
@@ -1413,6 +1509,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
 	            vehicles = {
@@ -1439,6 +1541,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 }
             },
@@ -1476,6 +1584,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "medic_box",
+                        description = "Play some Music!",
+                        type = "newboombox"
                     }
                 },
                 vehicles = {
