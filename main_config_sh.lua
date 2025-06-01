@@ -144,7 +144,7 @@ RESPAWN_TIMERS_IMPERIUMRP = {
     ["Medium Tanks"] = 900,
     ["Heavy Tanks"] = 1800,
     ["Mechanized Vehicles"] = 240,
-    ["Outpost Half Track"] = 600
+    ["Mobile Outpost"] = 600
 }
 
 ENTITY_RESPAWN_TIMERS = {
@@ -753,6 +753,12 @@ DivisionTypes = {
                         entityname = "sim_fphys_codww2jeep",
                         description = "The Iconic Willys Jeep. 3 Seats.",
                         type = "Small Vehicles"
+                    },
+                    {
+                        name = "Mobile Outpost",
+                        entityname = "m3scoutoutpost",
+                        description = "Unweaponized scout car for mobile reinforcements.",
+                        type = "Mobile Outpost"
                     }
                 }
             },
@@ -806,10 +812,10 @@ DivisionTypes = {
                         type = "Heavy Tanks"
                     },
                     {
-                        name = "Outpost Scout Car",
+                        name = "Mobile Outpost",
                         entityname = "m3scoutoutpost",
                         description = "Unweaponized scout car for mobile reinforcements.",
-                        type = "Outpost Half Track"
+                        type = "Mobile Outpost"
                     }
                 }
             },
@@ -852,6 +858,12 @@ DivisionTypes = {
                         entityname = "wc54",
                         description = "Command car. Light utility with winch. Used by officers.",
                         type = "Trucks"
+                    },
+                    {
+                        name = "Mobile Outpost",
+                        entityname = "m3scoutoutpost",
+                        description = "Unweaponized scout car for mobile reinforcements.",
+                        type = "Mobile Outpost"
                     }
                 }
             }
@@ -946,6 +958,12 @@ DivisionTypes = {
                         entityname = "codww2kubel",
                         description = "The Kübelwagen. 4 Seats. Simple, Reliable Utility.",
                         type = "Small Vehicles"
+                    },
+                    {
+                        name = "Mobile Outpost",
+                        entityname = "codww2sdkfz10outpost",
+                        description = "Half track for mobile reinforcements.",
+                        type = "Mobile Outpost"
                     }
                 }
             },
@@ -999,10 +1017,10 @@ DivisionTypes = {
                         type = "Heavy Tanks"
                     },
                     {
-                        name = "Outpost Half Track",
+                        name = "Mobile Outpost",
                         entityname = "codww2sdkfz10outpost",
                         description = "Half track for mobile reinforcements.",
-                        type = "Outpost Half Track"
+                        type = "Mobile Outpost"
                     }
                 }
             },
@@ -1045,6 +1063,12 @@ DivisionTypes = {
                         entityname = "codww2sdkfz10",
                         description = "Half-track prime mover. Light towing. Room for troops.",
                         type = "Trucks"
+                    },
+                    {
+                        name = "Mobile Outpost",
+                        entityname = "codww2sdkfz10outpost",
+                        description = "Half track for mobile reinforcements.",
+                        type = "Mobile Outpost"
                     }
                 }
             }
