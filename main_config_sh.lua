@@ -149,6 +149,7 @@ RESPAWN_TIMERS_IMPERIUMRP = {
 
 ENTITY_RESPAWN_TIMERS = {
     ["Ammo"] = 15,
+    ["MGemplacement"] = 120,
     ["Medic Box"] = 120,
     ["Radio"] = 120
 }
@@ -531,6 +532,12 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
+                        name = "Vickers tripod",
+                        entityname = "gred_emp_vickers",
+                        description = "Vickers fixed on an Tripod. Good for defending areas against waves of Infantry",
+                        type = "MGemplacement"
+                    },
+                    {
                         name = "Radio",
                         entityname = "newboombox",
                         description = "Play some Music!",
@@ -739,6 +746,12 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
+                        name = "N2 Browning tripod",
+                        entityname = "gred_emp_m2",
+                        description = "M2 Browning fixed on an Tripod. Good for defending areas against waves of Infantry",
+                        type = "MGemplacement"
+                    },
+                    {
                         name = "Radio",
                         entityname = "newboombox",
                         description = "Play some Music!",
@@ -944,6 +957,12 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
+                        name = "MG42 tripod",
+                        entityname = "gred_emp_mg42",
+                        description = "MG 42 mounted on a Tripod, high firerate, good for clearing out enemy infantry",
+                        type = "MGemplacement"
+                    },
+                    {
                         name = "Radio",
                         entityname = "newboombox",
                         description = "Play some Music!",
@@ -1147,6 +1166,12 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
+                        name = "MG34 tripod",
+                        entityname = "gred_emp_mg34",
+                        description = "MG 34 mounted on a Tripod, good firerate, good for clearing out enemy infantry",
+                        type = "MGemplacement"
+                    },
+                    {
                         name = "Radio",
                         entityname = "newboombox",
                         description = "Play some Music!",
@@ -1341,6 +1366,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "MG42 tripod",
+                        entityname = "gred_emp_mg42",
+                        description = "MG 42 mounted on a Tripod, high firerate, good for clearing out enemy infantry",
+                        type = "MGemplacement"
                     },
                     {
                         name = "Radio",
@@ -1541,6 +1572,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "N2 Browning tripod",
+                        entityname = "gred_emp_m2",
+                        description = "M2 Browning fixed on an Tripod. Good for defending areas against waves of Infantry",
+                        type = "MGemplacement"
                     },
                     {
                         name = "Radio",
