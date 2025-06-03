@@ -150,6 +150,7 @@ RESPAWN_TIMERS_IMPERIUMRP = {
 ENTITY_RESPAWN_TIMERS = {
     ["Ammo"] = 15,
     ["Machine Gun"] = 300,
+    ["Artillery"] = 900,
     ["Medic Box"] = 120,
     ["Radio"] = 120
 }
@@ -566,6 +567,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "M2A1 105mm Howitzer",
+                        entityname = "gred_emp_m2a1",
+                        description = "105mm Howitzer, good for dealing with grouped up infantry and such",
+                        type = "Artillery"
                     },
                     {
                         name = "Radio",
@@ -1402,6 +1409,12 @@ DivisionTypes = {
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
+                    },
+                    {
+                        name = "Lefh18 105mm Howitzer",
+                        entityname = "gred_emp_m2a1",
+                        description = "105mm Howitzer, good for dealing with grouped up infantry and such",
+                        type = "Artillery"
                     },
                     {
                         name = "Radio",
