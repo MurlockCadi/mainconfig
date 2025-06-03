@@ -148,7 +148,7 @@ RESPAWN_TIMERS_IMPERIUMRP = {
 }
 
 ENTITY_RESPAWN_TIMERS = {
-    ["Ammo"] = 15,
+    ["Ammo"] = 120,
     ["Machine Gun"] = 300,
     ["Artillery"] = 900,
     ["Medic Box"] = 120,
@@ -265,8 +265,6 @@ commands = {
     ["!song"] = function(ply, args) return play_song(ply, args) end,
     ["!announce"] = function(ply, args) return announce_command(ply, args) end,
     ["/announce"] = function(ply, args) return announce_command(ply, args) end,
-    ["/changemap"] = function(ply, args) return rockthevote(ply, args) end,
-    ["!changemap"] = function(ply, args) return rockthevote(ply, args) end,
     ["!givevip"] = function(ply, args) return set_vip(ply, args) end,
     ["/givevip"] = function(ply, args) return set_vip(ply, args) end,
     ["/claim"] = function(ply) RedeemQMPackage(ply) end,
@@ -359,7 +357,9 @@ commands = {
     ["!atomic"] = function(ply) GivePlayerSwepIfTeamHasBombsandIsTrusted(ply) end,
     ["!rewardteam"] = function(ply, args) RewardTeamAdmin(ply, args) end,
     ["/rewardteam"] = function(ply, args) RewardTeamAdmin(ply, args) end,
-    ["/deleteallpoints"] = function(ply) DeleteAllPoints(ply) end
+    ["/deleteallpoints"] = function(ply) DeleteAllPoints(ply) end,
+    ["/frontline"] = function(ply) ChangeToFrontlineMap(ply) end,
+    ["!frontline"] = function(ply) ChangeToFrontlineMap(ply) end
 }
 
 
