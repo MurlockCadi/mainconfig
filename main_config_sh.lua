@@ -1412,7 +1412,7 @@ DivisionTypes = {
                     },
                     {
                         name = "Lefh18 105mm Howitzer",
-                        entityname = "gred_emp_m2a1",
+                        entityname = "gred_emp_lefh18",
                         description = "105mm Howitzer, good for dealing with grouped up infantry and such",
                         type = "Artillery"
                     },
