@@ -753,7 +753,7 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
-                        name = "N2 Browning tripod",
+                        name = "M2 Browning tripod",
                         entityname = "gred_emp_m2",
                         description = "M2 Browning fixed on an Tripod. Good for defending areas against waves of Infantry",
                         type = "Machine Gun"
@@ -1587,7 +1587,7 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
-                        name = "N2 Browning tripod",
+                        name = "M2 Browning tripod",
                         entityname = "gred_emp_m2",
                         description = "M2 Browning fixed on an Tripod. Good for defending areas against waves of Infantry",
                         type = "Machine Gun"
