@@ -559,7 +559,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","gred_emp_binoculars"},
                 Prefix = "ARTY",
                 EntitySpawner = {
                     {
@@ -1401,7 +1401,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner","gred_emp_binoculars"},
                 Prefix = "ARTY",
                 EntitySpawner = {
                     {
