@@ -149,8 +149,9 @@ RESPAWN_TIMERS_IMPERIUMRP = {
 
 ENTITY_RESPAWN_TIMERS = {
     ["Ammo"] = 120,
+    ["Mortar"] = 500,
     ["Machine Gun"] = 300,
-    ["Artillery"] = 180,
+    ["Artillery"] = 960,
     ["Medic Box"] = 120,
     ["Radio"] = 120
 }
@@ -559,7 +560,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","gred_emp_binoculars"},
                 Prefix = "ARTY",
                 EntitySpawner = {
                     {
@@ -573,6 +574,12 @@ DivisionTypes = {
                         entityname = "gred_emp_m2a1",
                         description = "105mm Howitzer, good for dealing with grouped up infantry and such",
                         type = "Artillery"
+                    },
+                    {
+                        name = "M1 81mm Mortar",
+                        entityname = "gred_emp_m1mortar",
+                        description = "Fast firing lightweight mortar, good for assaulting positions",
+                        type = "Mortar"
                     },
                     {
                         name = "Radio",
@@ -1401,7 +1408,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner","gred_emp_binoculars"},
                 Prefix = "ARTY",
                 EntitySpawner = {
                     {
@@ -1415,6 +1422,12 @@ DivisionTypes = {
                         entityname = "gred_emp_lefh18",
                         description = "105mm Howitzer, good for dealing with grouped up infantry and such",
                         type = "Artillery"
+                    },
+                    {
+                        name = "Granatenwerfer 34 81mm",
+                        entityname = "gred_emp_grw34",
+                        description = "Fast firing lightweight mortar, good for assaulting positions",
+                        type = "Mortar"
                     },
                     {
                         name = "Radio",
