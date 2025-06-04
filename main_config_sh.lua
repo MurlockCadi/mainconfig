@@ -150,7 +150,7 @@ RESPAWN_TIMERS_IMPERIUMRP = {
 ENTITY_RESPAWN_TIMERS = {
     ["Ammo"] = 120,
     ["Machine Gun"] = 300,
-    ["Artillery"] = 900,
+    ["Artillery"] = 180,
     ["Medic Box"] = 120,
     ["Radio"] = 120
 }
