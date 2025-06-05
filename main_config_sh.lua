@@ -359,7 +359,9 @@ commands = {
     ["/rewardteam"] = function(ply, args) RewardTeamAdmin(ply, args) end,
     ["/deleteallpoints"] = function(ply) DeleteAllPoints(ply) end,
     ["/frontline"] = function(ply) ChangeToFrontlineMap(ply) end,
-    ["!frontline"] = function(ply) ChangeToFrontlineMap(ply) end
+    ["!frontline"] = function(ply) ChangeToFrontlineMap(ply) end,
+    ["!landingcraft"] = function(ply) ResetLandingCraft(ply) end,
+    ["/landingcraft"] = function(ply) ResetLandingCraft(ply) end
 }
 
 
