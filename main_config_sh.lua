@@ -144,7 +144,8 @@ RESPAWN_TIMERS_IMPERIUMRP = {
     ["Medium Tanks"] = 900,
     ["Heavy Tanks"] = 1800,
     ["Mechanized Vehicles"] = 240,
-    ["Mobile Outpost"] = 600
+    ["Mobile Outpost"] = 600,
+    ["Motercycles"] = 60
 }
 
 ENTITY_RESPAWN_TIMERS = {
@@ -1232,6 +1233,20 @@ DivisionTypes = {
                 Max = 2,
                 Weapons = {},
                 SpawnWeapons = {"paradrop_murlock"},
+	            vehicles = {
+                    {
+                        name = "BMW R75",
+                        entityname = "sim_fphys_r75ww2tf",
+                        description = "The famous BMW R75 motorcycle, fast and reliable.",
+                        type = "Motercycles"
+                    },
+                    {
+                        name = "BMW R75 Sidecar",
+                        entityname = "sim_fphys_ww2r75sc",
+                        description = "The famous BMW R75 motorcycle, fast and reliable. With a sidecar for an extra passenger.",
+                        type = "Motercycles"
+                    }
+                }
                 Prefix = "PF",
             },
             --{
@@ -1647,6 +1662,14 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"paradrop_murlock"},
                 Prefix = "PF",
+	            vehicles = {
+                    {
+                        name = "Indian 841",
+                        entityname = "indian",
+                        description = "The Indian 841 motorcycle, fast and reliable.",
+                        type = "Motercycles"
+                    }
+                }
             },
             --{
                 --Name = "Shock Trooper",
