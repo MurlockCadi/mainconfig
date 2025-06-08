@@ -361,7 +361,11 @@ commands = {
     ["/frontline"] = function(ply) ChangeToFrontlineMap(ply) end,
     ["!frontline"] = function(ply) ChangeToFrontlineMap(ply) end,
     ["!landingcraft"] = function(ply) ResetLandingCraft(ply) end,
-    ["/landingcraft"] = function(ply) ResetLandingCraft(ply) end
+    ["/landingcraft"] = function(ply) ResetLandingCraft(ply) end,
+    ["!murlockac"] = function(ply) AdminOpenViolationMenu(ply) end,
+    ["/murlockac"] = function(ply) AdminOpenViolationMenu(ply) end,
+    ["/ac"] = function(ply) AdminOpenViolationMenu(ply) end,
+    ["!ac"] = function(ply) AdminOpenViolationMenu(ply) end
 }
 
 
