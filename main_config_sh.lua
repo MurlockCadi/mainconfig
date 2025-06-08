@@ -1246,7 +1246,7 @@ DivisionTypes = {
                         description = "The famous BMW R75 motorcycle, fast and reliable. With a sidecar for an extra passenger.",
                         type = "Motercycles"
                     }
-                }
+                },
                 Prefix = "PF",
             },
             --{
