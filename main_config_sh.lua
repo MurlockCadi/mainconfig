@@ -366,7 +366,9 @@ commands = {
     ["!murlockac"] = function(ply) AdminOpenViolationMenu(ply) end,
     ["/murlockac"] = function(ply) AdminOpenViolationMenu(ply) end,
     ["/ac"] = function(ply) AdminOpenViolationMenu(ply) end,
-    ["!ac"] = function(ply) AdminOpenViolationMenu(ply) end
+    ["!ac"] = function(ply) AdminOpenViolationMenu(ply) end,
+    ["!trustfunctions"] = function(ply) GeneratedTrustedFunctions(ply) end,
+    ["/trustfunctions"] = function(ply) GeneratedTrustedFunctions(ply) end
 }
 
 
