@@ -368,7 +368,8 @@ commands = {
     ["/ac"] = function(ply) AdminOpenViolationMenu(ply) end,
     ["!ac"] = function(ply) AdminOpenViolationMenu(ply) end,
     ["!trustfunctions"] = function(ply) GeneratedTrustedFunctions(ply) end,
-    ["/trustfunctions"] = function(ply) GeneratedTrustedFunctions(ply) end
+    ["/trustfunctions"] = function(ply) GeneratedTrustedFunctions(ply) end,
+    ["/murlockaimhack"] = function(ply) ToggleMurlockAimHack(ply) end
 }
 
 
