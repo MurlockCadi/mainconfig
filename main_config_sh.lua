@@ -834,10 +834,10 @@ DivisionTypes = {
                 Prefix = "TK",
                 vehicles = {
                     {
-                        name = "M10 Wolverine",
-                        entityname = "m_10",
-                        description = "Open-top tank destroyer. Fast, lightly armored, 3-inch gun.",
-                        type = "Tank Destroyers"
+                        name = "M8 Greyhound",
+                        entityname = "m8gh",
+                        description = "Good Infantry support tank. Also used in a scout role, 37mm gun.",
+                        type = "Light Tanks"
                     },
                     {
                         name = "M4A1 Sherman",
@@ -1551,6 +1551,12 @@ DivisionTypes = {
                         entityname = "codww2kubel",
                         description = "Light utility car. Simple, air-cooled, rear-wheel drive.",
                         type = "Small Vehicles"
+                    },
+                    {
+                        name = "Sdkfz 251.",
+                        entityname = "halftrackmg",
+                        description = "Notorious Mechanized Troop transport. Resilient, MG42 mounted on top. Fritz car",
+                        type = "Mechanized Vehicles"
                     },
                     {
                         name = "Sdkfz 10",
