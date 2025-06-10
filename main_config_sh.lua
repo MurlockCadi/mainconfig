@@ -538,7 +538,7 @@ DivisionTypes = {
 		    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
 		    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
 		    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
-		    {name = "Trench One Way", model = "	models/fortification collection/small_bunker1.mdl"},
+		    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
                 },
                 Prefix = "ENG",
                 EntitySpawner = {
@@ -764,7 +764,7 @@ DivisionTypes = {
 		    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
 		    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
 		    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
-		    {name = "Trench One Way", model = "	models/fortification collection/small_bunker1.mdl"},
+		    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
                 },
                 Prefix = "ENG",
                 EntitySpawner = {
@@ -981,7 +981,7 @@ DivisionTypes = {
 		    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
 		    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
 		    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
-		    {name = "Trench One Way", model = "	models/fortification collection/small_bunker1.mdl"},
+		    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
                 },
                 Prefix = "ENG",
                 EntitySpawner = {
@@ -1414,7 +1414,7 @@ DivisionTypes = {
 		    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
 		    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
 		    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
-		    {name = "Trench One Way", model = "	models/fortification collection/small_bunker1.mdl"},
+		    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
                 },
                 Prefix = "ENG",
                 EntitySpawner = {
