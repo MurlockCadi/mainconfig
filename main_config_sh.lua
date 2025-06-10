@@ -1231,7 +1231,7 @@ DivisionTypes = {
                 RoleMax = 3,
                 Max = 3,
                 Weapons = {"tankgewehr"},
-                SpawnWeapons = {"doi_panzerschreck"},
+                SpawnWeapons = {"doi_panzerschreck","weapon_tnt"},
                 Prefix = "AT",
                 EntitySpawner = {
                     {
@@ -1667,7 +1667,7 @@ DivisionTypes = {
                 RoleMax = 3,
                 Max = 3,
                 Weapons = {"wz35"},
-                SpawnWeapons = {"doi_bazooka"},
+                SpawnWeapons = {"doi_bazooka","weapon_tnt"},
                 Prefix = "AT",
                 EntitySpawner = {
                     {
