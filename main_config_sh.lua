@@ -413,7 +413,7 @@ DE_TANKER_FULL = {"models/hts/comradebear/pm0v3/player/heer/panzer/en/panzerwrap
 IT_SF_MODELS = {"models/italianelite/italianelite.mdl"}
 --Commonwelth Divisions
 
-BRITISH_MODELS = {"models/ingomar/commonwelth/british/en/p37_01.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl"}
+BRITISH_MODELS = {"models/ingomar/commonwelth/british/en/p37_01.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl","models/player/player_british_01.mdl","models/player/player_british_02.mdl","models/player/player_british_03.mdl","models/player/player_british_04.mdl","models/player/player_british_05.mdl","models/player/player_british_06.mdl","models/player/player_british_07.mdl","models/player/player_british_08.mdl","models/player/player_aussie_01.mdl","models/player/player_blackwatch.mdl","models/player/player_canadian_01.mdl","models/player/player_british_indian_01.mdl","models/player/player_british_indian_02.mdl"}
 BRITISH_LOADOUT = {"doi_atow_enfield","doi_atow_webley","doi_atow_etoolcw"}
 
 --ALLIED RECRUIT MODELS:
