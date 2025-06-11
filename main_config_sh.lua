@@ -2209,7 +2209,7 @@ ROLES = ROLES or {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = ALLIED_RECRUIT_MODELS,
-                WeaponsAllowed = US_LOADOUT,
+                WeaponsAllowed = US_LOADOUT, --Change this, im revoking your box access.
                 CanPromote = false
             },
         },
@@ -2237,7 +2237,7 @@ ROLES = ROLES or {
                 Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = DE_ENLISTED_MODELS,
-                WeaponsAllowed = DE_LOADOUT,
+                WeaponsAllowed = DE_LOADOUT, --Change this, im revoking your box access.
                 CanPromote = false
             },
         },
