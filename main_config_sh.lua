@@ -1574,8 +1574,8 @@ DivisionTypes = {
         Ranks = {
             {ID = 1, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
             {ID = 2, Name = "Private First Class", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 3, Name = "Technical Corporal", Rank_Prefix = "TCPL", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
+            {ID = 3, Name = "Technical Corporal", Rank_Prefix = "TCPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
+            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
             {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
             {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
             {ID = 7, Name = "Technical Sergeant", Rank_Prefix = "TSGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
