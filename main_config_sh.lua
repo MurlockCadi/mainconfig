@@ -606,7 +606,7 @@ DivisionTypes = {
                 Max = 5,
                 Attachments = {"doi_atow_bhpextmag","doi_atow_stensuppressor","doi_atow_unisuppressor"},
                 Weapons = {"doi_atow_sten","doi_atow_browninghp"},
-                SpawnWeapons = {},
+                SpawnWeapons = {"rope_tool"},
                 Prefix = "SAS",
                 EntitySpawner = {
                     {
@@ -1482,7 +1482,7 @@ DivisionTypes = {
                 Max = 5,
                 Attachments = {"doi_atow_bhpextmag","doi_atow_stensuppressor","doi_atow_unisuppressor"},
                 Weapons = {"doi_atow_mp40","doi_atow_browninghp"},
-                SpawnWeapons = {},
+                SpawnWeapons = {"rope_tool"},
                 Prefix = "ARD",
                 EntitySpawner = {
                     {
