@@ -137,13 +137,14 @@ combat_phase = 2700
 ORGANIZATION_MULTIPLIER = 0.5
 
 RESPAWN_TIMERS_IMPERIUMRP = {
-    ["Small Vehicles"] = 75,
+    ["Small Vehicles"] = 60,
     ["Trucks"] = 60,
     ["Tank Destroyers"] = 800,
     ["Light Tanks"] = 400,
     ["Medium Tanks"] = 900,
     ["Heavy Tanks"] = 1800,
-    ["Mechanized Vehicles"] = 240,
+    ["Mechanized Vehicles"] = 190,
+    ["Armed Mechanized Vehicles"] = 280,
     ["Mobile Outpost"] = 600,
     ["Motercycles"] = 60
 }
@@ -681,6 +682,12 @@ DivisionTypes = {
                         entityname = "wc54",
                         description = "Command car. Light utility with winch. Used by officers.",
                         type = "Trucks"
+                    },
+                    {
+                        name = "M20 Scout APC",
+                        entityname = "simfphys_m20",
+                        description = "M8 greyhound chassis with an 50. cal mounted ontop instead of the usual 37mm m3 cannon. Highly mobile and deadly to infantry.",
+                        type = "Mechanized Vehicles"
                     },
                     {
                         name = "M3 Scout Car",
@@ -1557,6 +1564,12 @@ DivisionTypes = {
                         entityname = "halftrackmg",
                         description = "Notorious Mechanized Troop transport. Resilient, MG42 mounted on top. Fritz car",
                         type = "Mechanized Vehicles"
+                    },
+                    {
+                        name = "Autocannone da 10017",
+                        entityname = "simfphys_autocannone10017",
+                        description = "Unarmred SPG trucks that were meant as support vehicles, but also saw use in the anti-tank role thanks to its shaped charge rounds.",
+                        type = "Armed Mechanized Vehicles"
                     },
                     {
                         name = "Sdkfz 10",
