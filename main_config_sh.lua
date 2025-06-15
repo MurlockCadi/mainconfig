@@ -812,17 +812,17 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = "FLM",
             },
-            {
-                Name = "Shock Trooper",
-                Core = true,
-                Models = {},
-		RoleMax = 5,
-		Max = 12,
-		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
-                Weapons = {"doi_atow_m1a1","ig_m18"},
-                SpawnWeapons = {},
-                Prefix = "SHK"
-            },
+            --{
+              --  Name = "Shock Trooper",
+                --Core = true,
+                --Models = {},
+		--RoleMax = 5,
+		--Max = 12,
+		--Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
+                --Weapons = {"doi_atow_m1a1","ig_m18"},
+                --SpawnWeapons = {},
+               -- Prefix = "SHK"
+            --},
             {
                 Name = "Tanker",
                 Core = true,
