@@ -1036,17 +1036,17 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = "FLM",
             },
-            --{
-                --Name = "Automatic Rifleman",
-                --Core = true,
-                --Models = {},
-		--RoleMax = 5,
-		--Max = 12,
-		--Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
-                --Weapons = {"doi_ws_atow_mp34","ig_m18"},
-                --SpawnWeapons = {},
-                --Prefix = "SHK"
-            --},
+            {
+                Name = "Automatic Rifleman",
+                Core = true,
+                Models = {},
+		RoleMax = 5,
+		Max = 12,
+		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
+                Weapons = {"doi_ws_atow_mp34","ig_m18"},
+                SpawnWeapons = {},
+                Prefix = "SHK"
+            },
             {
                 Name = "Tanker",
                 Core = true,
