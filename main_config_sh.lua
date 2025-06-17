@@ -820,7 +820,7 @@ DivisionTypes = {
                 Prefix = "FLM",
             },
             --{
-              --  Name = "Shock Trooper",
+              --  Name = "Automatic Rifleman",
                 --Core = true,
                 --Models = {},
 		--RoleMax = 5,
@@ -1037,7 +1037,7 @@ DivisionTypes = {
                 Prefix = "FLM",
             },
             --{
-                --Name = "Shock Trooper",
+                --Name = "Automatic Rifleman",
                 --Core = true,
                 --Models = {},
 		--RoleMax = 5,
@@ -1280,7 +1280,7 @@ DivisionTypes = {
                 Prefix = "PF",
             },
             --{
-                --Name = "Shock Trooper",
+                --Name = "Automatic Rifleman",
                 --Core = true,
                 --Models = {},
 		--RoleMax = 7,
@@ -1714,7 +1714,7 @@ DivisionTypes = {
                 }
             },
             --{
-                --Name = "Shock Trooper",
+                --Name = "Automatic Rifleman",
                 --Core = true,
                 --Models = {},
 		--RoleMax = 7,
