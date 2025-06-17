@@ -1506,25 +1506,17 @@ DivisionTypes = {
                     }
                 }
             },
-           --{
-                --Name = "Sniper",
-                --Core = true,
-                --Models = {},
-		--RoleMax = 3,
-		--Max = 3,
-		--Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy"},
-                --Weapons = {"doi_atow_k98k"},
-                --SpawnWeapons = {},
-                --Prefix = "SNI",
-                --EntitySpawner = {
-                    --{
-                        --name = "Ammo Supplies",
-                        --entityname = "universal_ammo_small",
-                        --description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        --type = "Ammo"
-                    --}
-                --}
-            --},
+           {
+                Name = "Sniper",
+                Core = true,
+                Models = {},
+		RoleMax = 3,
+		Max = 3,
+		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy"},
+                Weapons = {"doi_atow_k98k"},
+                SpawnWeapons = {},
+                Prefix = "SNI",
+            },
             {
                 Name = "Mechanized",
                 Core = true,
