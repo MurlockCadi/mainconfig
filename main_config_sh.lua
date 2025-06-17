@@ -828,7 +828,7 @@ DivisionTypes = {
 		--Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
                 --Weapons = {"doi_atow_m1a1","ig_m18"},
                 --SpawnWeapons = {},
-               -- Prefix = "SHK"
+               -- Prefix = "AR"
             --},
             {
                 Name = "Tanker",
@@ -1036,17 +1036,17 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = "FLM",
             },
-            {
-                Name = "Automatic Rifleman",
-                Core = true,
-                Models = {},
-		RoleMax = 5,
-		Max = 12,
-		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
-                Weapons = {"doi_ws_atow_mp34","ig_m18"},
-                SpawnWeapons = {},
-                Prefix = "SHK"
-            },
+            --{
+                --Name = "Automatic Rifleman",
+                --Core = true,
+                --Models = {},
+		--RoleMax = 5,
+		--Max = 12,
+		--Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
+                --Weapons = {"doi_ws_atow_mp34","ig_m18"},
+                --SpawnWeapons = {},
+                --Prefix = "AR"
+            --},
             {
                 Name = "Tanker",
                 Core = true,
@@ -1288,7 +1288,7 @@ DivisionTypes = {
 		--Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
                 --Weapons = {"doi_atow_stg44","ig_m18"},
                 --SpawnWeapons = {},
-                --Prefix = "SHK"
+                --Prefix = "AR"
             --},
             {
                 Name = "Logistics",
@@ -1722,7 +1722,7 @@ DivisionTypes = {
 		--Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
                 --Weapons = {"doi_atow_m1carbine","ig_m18"},
                 --SpawnWeapons = {},
-                --Prefix = "SHK"
+                --Prefix = "AR"
             --},
             {
                 Name = "Logistics",
