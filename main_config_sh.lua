@@ -744,6 +744,7 @@ DivisionTypes = {
             {
                 Name = "Engineer",
                 Core = true,
+                Create_Outposts = true,
                 Models = {},
                 RoleMax = 5,
                 Max = 15,
@@ -961,6 +962,7 @@ DivisionTypes = {
             {
                 Name = "Engineer",
                 Core = true,
+                Create_Outposts = true,
                 Models = {},
                 RoleMax = 5,
                 Max = 15,
@@ -1178,6 +1180,7 @@ DivisionTypes = {
             {
                 Name = "Engineer",
                 Core = true,
+                Create_Outposts = true,
                 Models = {},
                 RoleMax = 4,
                 Max = 15,
@@ -1618,6 +1621,7 @@ DivisionTypes = {
             {
                 Name = "Engineer",
                 Core = true,
+                Create_Outposts = true,
                 Models = {},
                 RoleMax = 4,
                 Max = 15,
