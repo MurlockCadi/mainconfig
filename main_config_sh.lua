@@ -1166,7 +1166,7 @@ DivisionTypes = {
                 Models = {},
                 RoleMax = 4,
                 Max = 15,
-                Weapons = {"doi_atow_fg42"},
+                Weapons = {"doi_atow_mg34"},
                 SpawnWeapons = {},
                 Prefix = "MG"
             },
@@ -1607,7 +1607,7 @@ DivisionTypes = {
                 Models = {},
                 RoleMax = 4,
                 Max = 15,
-                Weapons = {"doi_atow_m1918a2"},
+                Weapons = {"doi_atow_m1919a6"},
                 SpawnWeapons = {},
                 Prefix = "MG"
             },
