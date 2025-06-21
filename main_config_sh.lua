@@ -1193,7 +1193,7 @@ DivisionTypes = {
                 Prefix = "SNI",
             },
             {
-                Name = "Spy,
+                Name = "Spy",
 		Spy = true,
                 Core = true,
                 Models = {},
@@ -1657,7 +1657,7 @@ DivisionTypes = {
                 Prefix = "SNI",
             },
             {
-                Name = "Spy,
+                Name = "Spy",
 		Spy = true,
                 Core = true,
                 Models = {},
