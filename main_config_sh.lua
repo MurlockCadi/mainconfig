@@ -725,6 +725,14 @@ DivisionTypes = {
                 Prefix = ""
             },
             {
+                Name = "Military Police",
+                Default = true,
+                Models = {"models/hts/comradebear/pm0v3/player/usarmy/militarypolice/en/m41_s1_01.mdl"},
+                Weapons = {"doi_atow_m1a1carbine"},
+                SpawnWeapons = {"weapon_cuff_rope"},
+                Prefix = "MP"
+            },
+            {
                 Name = "Machine Gunner",
                 Core = true,
                 Models = {},
@@ -941,6 +949,14 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
+            },
+            {
+                Name = "Feldgendarmerie",
+                Default = true,
+                Models = {"models/hts/comradebear/pm0v3/player/heer/feldgendarmerie/en/m40_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/feldgendarmerie/co/m38_s1_01.mdl"},
+                Weapons = {"doi_atow_g43"},
+                SpawnWeapons = {"weapon_cuff_rope"},
+                Prefix = "FGE"
             },
             {
                 Name = "Machine Gunner",
