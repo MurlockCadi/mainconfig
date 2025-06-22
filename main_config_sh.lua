@@ -726,7 +726,7 @@ DivisionTypes = {
             },
             {
                 Name = "Military Police",
-                Default = true,
+                Core = true,
                 Models = {"models/hts/comradebear/pm0v3/player/usarmy/militarypolice/en/m41_s1_01.mdl"},
                 Weapons = {"doi_atow_m1a1carbine"},
                 SpawnWeapons = {"weapon_cuff_rope"},
@@ -952,7 +952,7 @@ DivisionTypes = {
             },
             {
                 Name = "Feldgendarmerie",
-                Default = true,
+                Core = true,
                 Models = {"models/hts/comradebear/pm0v3/player/heer/feldgendarmerie/en/m40_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/feldgendarmerie/co/m38_s1_01.mdl"},
                 Weapons = {"doi_atow_g43"},
                 SpawnWeapons = {"weapon_cuff_rope"},
