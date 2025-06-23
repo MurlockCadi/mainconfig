@@ -377,7 +377,9 @@ commands = {
     ["/endevent"] = function(ply) PlayerVotedToEndEvent(ply) end,
     ["!endevent"] = function(ply) PlayerVotedToEndEvent(ply) end,
     ["!vip"] = function(ply) SetPlayerVIPMission(ply) end,
-    ["/vip"] = function(ply) SetPlayerVIPMission(ply) end
+    ["/vip"] = function(ply) SetPlayerVIPMission(ply) end,
+    ["!eventoutpost"] = function(ply, args) CreateCommandOutpost(ply, args) end,
+    ["/eventoutpost"] = function(ply, args) CreateCommandOutpost(ply, args) end
 }
 
 
