@@ -1102,7 +1102,7 @@ DivisionTypes = {
                         name = "Panzer 3J",
                         entityname = "pz-3Erp",
                         description = "The Panzer III J was a German WWII medium tank with upgraded armor and a 50mm gun, used mainly from 1941 onward.",
-                        type = "Medium Tanks"
+                        type = "Light Medium Tanks"
                     },
                     {
                         name = "Tiger H",
