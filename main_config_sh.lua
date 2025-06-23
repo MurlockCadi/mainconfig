@@ -1611,6 +1611,12 @@ DivisionTypes = {
                         type = "Small Vehicles"
                     },
                     {
+                        name = "Autoblinda Lince",
+                        entityname = "simfphys_lince",
+                        description = "What is this thing?",
+                        type = "Mechanized Vehicles"
+                    },
+                    {
                         name = "Sdkfz 251.",
                         entityname = "halftrackmg",
                         description = "Notorious Mechanized Troop transport. Resilient, MG42 mounted on top. Fritz car",
