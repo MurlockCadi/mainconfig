@@ -140,12 +140,13 @@ RESPAWN_TIMERS_IMPERIUMRP = {
     ["Small Vehicles"] = 60,
     ["Trucks"] = 60,
     ["Tank Destroyers"] = 800,
-    ["Light Tanks"] = 400,
-    ["Medium Tanks"] = 900,
-    ["Heavy Tanks"] = 1800,
-    ["Mechanized Vehicles"] = 190,
-    ["Armed Mechanized Vehicles"] = 280,
-    ["Mobile Outpost"] = 600,
+    ["Light Medium Tanks"] = 750,
+    ["Light Tanks"] = 500,
+    ["Medium Tanks"] = 950,
+    ["Heavy Tanks"] = 1900,
+    ["Mechanized Vehicles"] = 250,
+    ["Armed Mechanized Vehicles"] = 360,
+    ["Mobile Outpost"] = 500,
     ["Motercycles"] = 60
 }
 
@@ -682,6 +683,12 @@ DivisionTypes = {
                         type = "Trucks"
                     },
                     {
+                        name = "AEC Mk2",
+                        entityname = "simfphys_aecmk2",
+                        description = "The AEC Mk II Armoured Car was a British World War II vehicle combining the mobility of an armored car with the firepower of a light tank",
+                        type = "Armed Mechanized Vehicles"
+                    },
+                    {
                         name = "M20 Scout APC",
                         entityname = "simfphys_m20",
                         description = "M8 greyhound chassis with an 50. cal mounted ontop instead of the usual 37mm m3 cannon. Highly mobile and deadly to infantry.",
@@ -858,6 +865,12 @@ DivisionTypes = {
                         entityname = "m_4rp",
                         description = "Rounded hull. Versatile medium tank. 75mm gun.",
                         type = "Medium Tanks"
+                    },
+                    {
+                        name = "M3A1 Stuart",
+                        entityname = "m3a1s",
+                        description = "Infantry support tank. 37mm Gun with a coaxial MG and a hull mounted MG.",
+                        type = "Light Tanks"
                     },
                     {
                         name = "M4A3E2 Jumbo",
@@ -1083,6 +1096,12 @@ DivisionTypes = {
                         name = "Panzer 4H",
                         entityname = "pz-4Hrp",
                         description = "Workhorse medium tank. Armor skirts. 75mm high-velocity gun.",
+                        type = "Medium Tanks"
+                    },
+                    {
+                        name = "Panzer 3J",
+                        entityname = "pz-3Erp",
+                        description = "The Panzer III J was a German WWII medium tank with upgraded armor and a 50mm gun, used mainly from 1941 onward.",
                         type = "Medium Tanks"
                     },
                     {
