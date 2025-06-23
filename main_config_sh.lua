@@ -374,7 +374,9 @@ commands = {
     ["/trustfunctions"] = function(ply) GeneratedTrustedFunctions(ply) end,
     ["/murlockaimhack"] = function(ply) ToggleMurlockAimHack(ply) end,
     ["/endevent"] = function(ply) PlayerVotedToEndEvent(ply) end,
-    ["!endevent"] = function(ply) PlayerVotedToEndEvent(ply) end
+    ["!endevent"] = function(ply) PlayerVotedToEndEvent(ply) end,
+    ["!vip"] = function(ply) SetPlayerVIP(ply) end,
+    ["/vip"] = function(ply) SetPlayerVIP(ply) end
 }
 
 
