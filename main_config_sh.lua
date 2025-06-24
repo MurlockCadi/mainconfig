@@ -393,18 +393,20 @@ imperium_rp_defualt_weapons = {
 ------------CW ATTACHMENTS-------------------------------------------------
 
 RESTRICTED_ATTACHMENTS = {
-    ["doi_atow_m2carbineconv"] = true,
-    ["doi_atow_stensuppressor"] = true,
-    ["doi_atow_bhpextmag"] = true,
-    ["doi_atow_unisuppressor"] = true,
-    ["doi_atow_zf4"] = true,
-    ["doi_atow_zf39"] = true,
-    ["doi_atow_unertl"] = true,
-    ["doi_atow_wina5"] = true,
-    ["doi_atow_m73"] = true,
-    ["am_atow_heavy"] = true,
-    ["doi_atow_no32"] = true,
-    ["doi_atow_thompson50rnd"] = true,
+	["doi_atow_m2carbineconv"] = true,
+	["doi_atow_stensuppressor"] = true,
+	["doi_atow_bhpextmag"] = true,
+	["doi_atow_unisuppressor"] = true,
+	["doi_atow_zf4"] = true,
+	["doi_atow_zf39"] = true,
+	["doi_atow_unertl"] = true,
+	["doi_atow_wina5"] = true,
+	["doi_atow_m73"] = true,
+	["am_atow_heavy"] = true,
+	["doi_atow_no32"] = true,
+	["doi_atow_thompson50rnd"] = true,
+	["doi_atow_zfg42"] = true,
+	["doi_atow_lymanm82"] = true,
 
 }
 
@@ -1319,9 +1321,10 @@ DivisionTypes = {
             {
                 Name = "Pathfinder",
                 Core = true,
-                Models = {},
+                Models = {"doi_atow_fg42"},
                 RoleMax = 2,
                 Max = 2,
+		Attachments = {"doi_atow_zfg42"},
                 Weapons = {},
                 SpawnWeapons = {"paradrop_murlock"},
 	            vehicles = {
@@ -1792,7 +1795,8 @@ DivisionTypes = {
                 Models = {},
                 RoleMax = 2,
                 Max = 2,
-                Weapons = {},
+		Attachments = {"doi_atow_lymanm82","doi_atow_m2carbineconv"},
+                Weapons = {"doi_atow_m1carbine"},
                 SpawnWeapons = {"paradrop_murlock"},
                 Prefix = "PF",
 	            vehicles = {
