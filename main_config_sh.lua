@@ -379,7 +379,9 @@ commands = {
     ["!vip"] = function(ply) SetPlayerVIPMission(ply) end,
     ["/vip"] = function(ply) SetPlayerVIPMission(ply) end,
     ["!eventoutpost"] = function(ply, args) CreateCommandOutpost(ply, args) end,
-    ["/eventoutpost"] = function(ply, args) CreateCommandOutpost(ply, args) end
+    ["/eventoutpost"] = function(ply, args) CreateCommandOutpost(ply, args) end,
+    ["/bot"] = function(ply, args) AdminRequestSpawnBot(ply, args) end,
+    ["!bot"] = function(ply, args) AdminRequestSpawnBot(ply, args) end
 }
 
 
