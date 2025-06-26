@@ -1191,7 +1191,7 @@ DivisionTypes = {
             {ID = 11, Name = "Oberleutnant", Rank_Prefix = "OLT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 12, Name = "Hauptmann", Rank_Prefix = "HPT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 14, Name = "Oberstleutnant", Rank_Prefix = "OLT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
+            {ID = 14, Name = "Oberstleutnant", Rank_Prefix = "OBLT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
             {ID = 15, Name = "Oberst", Rank_Prefix = "OBT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT}
         },
         Classes = {
@@ -1323,7 +1323,7 @@ DivisionTypes = {
             {
                 Name = "Pathfinder",
                 Core = true,
-                Models = {"doi_atow_fg42"},
+                Models = {},
                 RoleMax = 2,
                 Max = 2,
 		Attachments = {"doi_atow_lymanm82","doi_atow_m2carbineconv","doi_atow_zfg42"},
