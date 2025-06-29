@@ -1618,8 +1618,8 @@ DivisionTypes = {
                         type = "Small Vehicles"
                     },
                     {
-                        name = "Autoblinda Lince",
-                        entityname = "simfphys_lince",
+                        name = "Lanzia 1ZM",
+                        entityname = "simfphys_Lancia1ZM",
                         description = "What is this thing?",
                         type = "Mechanized Vehicles"
                     },
@@ -1630,9 +1630,9 @@ DivisionTypes = {
                         type = "Mechanized Vehicles"
                     },
                     {
-                        name = "Autocannone da 10017",
-                        entityname = "simfphys_autocannone10017",
-                        description = "Unarmred SPG trucks that were meant as support vehicles, but also saw use in the anti-tank role thanks to its shaped charge rounds.",
+                        name = "AB43 Scout Car",
+                        entityname = "simfphys_ab43",
+                        description = "The Autoblindo AB43 was a light armored car developed by Italy during World War II, serving primarily with the Italian and later German forces. It was an evolution of the earlier AB41 model, offering improvements in engine power and overall performance.",
                         type = "Armed Mechanized Vehicles"
                     },
                     {
