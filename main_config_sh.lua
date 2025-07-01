@@ -1710,7 +1710,7 @@ DivisionTypes = {
             },
             {
                 Name = "Spy",
-		spy = true,
+		Spy = true,
                 Core = true,
                 Models = {},
 		RoleMax = 1,
