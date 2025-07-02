@@ -147,7 +147,8 @@ RESPAWN_TIMERS_IMPERIUMRP = {
     ["Mechanized Vehicles"] = 250,
     ["Armed Mechanized Vehicles"] = 360,
     ["Mobile Outpost"] = 500,
-    ["Motercycles"] = 60
+    ["Motercycles"] = 60,
+    ["Horses"] = 60
 }
 
 ENTITY_RESPAWN_TIMERS = {
@@ -941,6 +942,30 @@ DivisionTypes = {
                         type = "Mobile Outpost"
                     }
                 }
+            },
+            {
+                Name = "Cavalry",
+                Core = true,
+                RoleMax = 3,
+                Max = 3,
+                Models = {},
+                Weapons = {"doi_atow_sw29"},
+                SpawnWeapons = {},
+                Prefix = "CAV",
+                EntitySpawner = {
+                    {
+                        name = "Kentucky Saddler",
+                        entityname = "ent_horse_kentucky",
+                        description = "The solid horses of the Kentucky Derby, trained to resist battlefield distractions",
+                        type = "Horses"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                },
             }
         }
     },
@@ -1173,6 +1198,30 @@ DivisionTypes = {
                         type = "Mobile Outpost"
                     }
                 }
+            },
+            {
+                Name = "Cavalry",
+                Core = true,
+                RoleMax = 3,
+                Max = 3,
+                Models = {},
+                Weapons = {"doi_atow_sw29"},
+                SpawnWeapons = {},
+                Prefix = "CAV",
+                EntitySpawner = {
+                    {
+                        name = "Dutch Goldblood",
+                        entityname = "ent_horse_dutch",
+                        description = "Brought in due to logistical shortages, these lesser Dutch horses still find some use on the battlefield.",
+                        type = "Horses"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                },
             }
         }
     },
