@@ -499,6 +499,17 @@ DivisionTypes = {
                 Prefix = ""
             },
             {
+                Name = "Radio Operator",
+                Core = true,
+                Radio = true,
+                Models = {},
+                RoleMax = 7,
+                Max = 12,
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "RO"
+            },
+            {
                 Name = "Machine Gunner",
                 Core = true,
                 Models = {},
@@ -966,6 +977,17 @@ DivisionTypes = {
                         type = "Radio"
                     }
                 },
+            },
+            {
+                Name = "Radio Operator",
+                Core = true,
+                Radio = true,
+                Models = {},
+                RoleMax = 7,
+                Max = 12,
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "RO"
             }
         }
     },
@@ -1222,6 +1244,17 @@ DivisionTypes = {
                         type = "Radio"
                     }
                 },
+            },
+            {
+                Name = "Radio Operator",
+                Core = true,
+                Radio = true,
+                Models = {},
+                RoleMax = 7,
+                Max = 12,
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "RO"
             }
         }
     },
@@ -1400,12 +1433,23 @@ DivisionTypes = {
                 Name = "Automatic Rifleman",
                 Core = true,
                 Models = {},
-		RoleMax = 7,
-		Max = 12,
-		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
+                RoleMax = 7,
+                Max = 12,
+                Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
                 Weapons = {"doi_atow_stg44","ig_m18"},
                 SpawnWeapons = {},
                 Prefix = "AR"
+            },
+            {
+                Name = "Radio Operator",
+                Core = true,
+                Radio = true,
+                Models = {},
+                RoleMax = 7,
+                Max = 12,
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "RO"
             },
             {
                 Name = "Logistics",
@@ -1480,6 +1524,17 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
+            },
+            {
+                Name = "Radio Operator",
+                Core = true,
+                Radio = true,
+                Models = {},
+                RoleMax = 7,
+                Max = 12,
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "RO"
             },
             {
                 Name = "Machine Gunner",
@@ -1724,6 +1779,17 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
+            },
+            {
+                Name = "Radio Operator",
+                Core = true,
+                Radio = true,
+                Models = {},
+                RoleMax = 7,
+                Max = 12,
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "RO"
             },
             {
                 Name = "Machine Gunner",
