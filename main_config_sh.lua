@@ -506,7 +506,21 @@ DivisionTypes = {
                 RoleMax = 7,
                 Max = 12,
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                },
                 Prefix = "RO"
             },
             {
@@ -986,7 +1000,21 @@ DivisionTypes = {
                 RoleMax = 7,
                 Max = 12,
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                },
                 Prefix = "RO"
             }
         }
@@ -1253,7 +1281,21 @@ DivisionTypes = {
                 RoleMax = 7,
                 Max = 12,
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                },
                 Prefix = "RO"
             }
         }
@@ -1448,7 +1490,21 @@ DivisionTypes = {
                 RoleMax = 7,
                 Max = 12,
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                },
                 Prefix = "RO"
             },
             {
@@ -1533,7 +1589,21 @@ DivisionTypes = {
                 RoleMax = 7,
                 Max = 12,
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                },
                 Prefix = "RO"
             },
             {
@@ -1788,7 +1858,21 @@ DivisionTypes = {
                 RoleMax = 7,
                 Max = 12,
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                },
                 Prefix = "RO"
             },
             {
