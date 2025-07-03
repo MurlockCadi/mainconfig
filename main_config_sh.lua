@@ -950,7 +950,7 @@ DivisionTypes = {
                 Max = 3,
                 Models = {},
                 Weapons = {"doi_atow_sw29","atr_boys"},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","rope_tool"},
                 Prefix = "CAV",
                 EntitySpawner = {
                     {
@@ -1206,7 +1206,7 @@ DivisionTypes = {
                 Max = 3,
                 Models = {},
                 Weapons = {"doi_atow_sw29","pzb39"},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","rope_tool"},
                 Prefix = "CAV",
                 EntitySpawner = {
                     {
