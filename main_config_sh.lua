@@ -543,7 +543,7 @@ DivisionTypes = {
                 Max = 15,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
@@ -795,7 +795,7 @@ DivisionTypes = {
                 Max = 15,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak"},
+                SpawnWeapons = {"fas2_ifak","weapon_healer"},
                 Prefix = "MD"
             },
             {
@@ -1076,7 +1076,7 @@ DivisionTypes = {
                 RoleMax = 5,
                 Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak"},
+                SpawnWeapons = {"fas2_ifak","weapon_healer"},
                 Prefix = "MD"
             },
             {
@@ -1349,7 +1349,7 @@ DivisionTypes = {
                 RoleMax = 5,
                 Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak"},
+                SpawnWeapons = {"fas2_ifak","weapon_healer"},
                 Prefix = "MD"
             },
             {
@@ -1626,7 +1626,7 @@ DivisionTypes = {
                 RoleMax = 5,
                 Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
@@ -1895,7 +1895,7 @@ DivisionTypes = {
                 RoleMax = 5,
                 Max = 15,
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak"},
+                SpawnWeapons = {"fas2_ifak","weapon_healer"},
                 Prefix = "MD"
             },
            {
@@ -2081,7 +2081,7 @@ CORE_IMPERIUM_CLASSES = {
         Core = false,
         Max = 4,
         Weapons = {},
-        SpawnWeapons = {"fas2_ifak","ent_spawner"},
+        SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
         Prefix = "MD",
         EntitySpawner = {
             {
@@ -2147,7 +2147,7 @@ imperium_specializations = {
             Models = {},
             Max = 4,
             Weapons = {},
-            SpawnWeapons = {"fas2_ifak","ent_spawner"},
+            SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
             Prefix = "MD",
             EntitySpawner = {
                 {
