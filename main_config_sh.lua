@@ -203,14 +203,16 @@ faction_player_count_limit = 0
 
 --------SPEED-----------
 
-WALK_SPEED = 145
-RUN_SPEED = 300
+WALK_SPEED = 135
+RUN_SPEED = 250
 JUMP_POWER = 225
-MAX_HEALTH = 100
+MAX_HEALTH = 500
+SLOW_WALK_SPEED = 80
 
 function GetRunSpeed(athleticsLevel)
-    return RUN_SPEED + (athleticsLevel * .7)
+    return RUN_SPEED + (athleticsLevel * .3)
 end
+
 
 ------REVIVE TIME AND LOOT TIME--------
 
