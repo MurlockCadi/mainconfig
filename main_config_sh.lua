@@ -206,7 +206,7 @@ faction_player_count_limit = 0
 WALK_SPEED = 135
 RUN_SPEED = 300
 JUMP_POWER = 225
-MAX_HEALTH = 500
+MAX_HEALTH = 100
 SLOW_WALK_SPEED = 80
 
 function GetRunSpeed(athleticsLevel)
