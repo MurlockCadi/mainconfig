@@ -593,6 +593,12 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
+                        name = "Rifle Grenades",
+                        entityname = "cw_ammo_40mm",
+                        description = "A box of Rifle Grenades",
+                        type = "Ammo"
+                    },
+                    {
                         name = "Vickers tripod",
                         entityname = "gred_emp_vickers",
                         description = "Vickers fixed on an Tripod. Good for defending areas against waves of Infantry",
