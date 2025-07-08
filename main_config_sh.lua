@@ -593,12 +593,6 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
-                        name = "Rifle Grenades",
-                        entityname = "cw_ammo_40mm",
-                        description = "A box of Rifle Grenades",
-                        type = "Ammo"
-                    },
-                    {
                         name = "Vickers tripod",
                         entityname = "gred_emp_vickers",
                         description = "Vickers fixed on an Tripod. Good for defending areas against waves of Infantry",
@@ -663,6 +657,12 @@ DivisionTypes = {
                         name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Rifle Grenades",
+                        entityname = "cw_ammo_40mm",
+                        description = "A box of Rifle Grenades",
                         type = "Ammo"
                     },
                     {
@@ -1746,6 +1746,12 @@ DivisionTypes = {
                         name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Rifle Grenades",
+                        entityname = "cw_ammo_40mm",
+                        description = "A box of Rifle Grenades",
                         type = "Ammo"
                     },
                     {
