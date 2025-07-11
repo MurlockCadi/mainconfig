@@ -650,8 +650,33 @@ DivisionTypes = {
                 Max = 5,
                 Attachments = {"doi_atow_bhpextmag","doi_atow_stensuppressor","doi_atow_unisuppressor"},
                 Weapons = {"doi_atow_sten","doi_atow_browninghp"},
-                SpawnWeapons = {"rope_tool","ent_spawner"},
+                SpawnWeapons = {"rope_tool"},
                 Prefix = "SAS",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                }
+            },
+            {
+                Name = "Grenadier",
+                Core = true,
+                Models = {},
+                RoleMax = 2,
+                Max =2,
+                Attachments = {"doi_atow_bhpextmag","doi_atow_stensuppressor","doi_atow_unisuppressor"},
+                Weapons = {"cw_smle","doi_atow_browninghp"},
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "GRN",
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -1739,8 +1764,33 @@ DivisionTypes = {
                 Max = 5,
                 Attachments = {"doi_atow_bhpextmag","doi_atow_stensuppressor","doi_atow_unisuppressor"},
                 Weapons = {"doi_atow_mp40","doi_atow_browninghp"},
-                SpawnWeapons = {"rope_tool","ent_spawner"},
+                SpawnWeapons = {"rope_tool"},
                 Prefix = "ARD",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Radio",
+                        entityname = "newboombox",
+                        description = "Play some Music!",
+                        type = "Radio"
+                    }
+                }
+            },
+            {
+                Name = "Grenadier",
+                Core = true,
+                Models = {},
+                RoleMax = 2,
+                Max =2,
+                Attachments = {},
+                Weapons = {"cw_tromboncino","doi_atow_browninghp"},
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "GRN",
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
