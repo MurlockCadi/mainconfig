@@ -417,6 +417,8 @@ RESTRICTED_ATTACHMENTS = {
 	["md_carcano_scope4x"] = true,
 	["md_carcano_scope7x"] = true,
 	["md_carcano_scope78x"] = true,
+	["md_glsmle"] = true,
+	["md_gltromb"] = true,
 	
 }
 
@@ -676,7 +678,7 @@ DivisionTypes = {
                 Models = {},
                 RoleMax = 3,
                 Max = 3,
-                Attachments = {"doi_atow_bhpextmag","doi_atow_stensuppressor","doi_atow_unisuppressor"},
+                Attachments = {"md_glsmle","md_gltromb"},
                 Weapons = {"cw_smle","doi_atow_browninghp","ig_n69"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "GRN",
@@ -1790,7 +1792,7 @@ DivisionTypes = {
                 Models = {},
                 RoleMax = 3,
                 Max = 3,
-                Attachments = {},
+                Attachments = {"md_glsmle","md_gltromb"},
                 Weapons = {"cw_tromboncino","doi_atow_browninghp","cw_srcm"},
                 SpawnWeapons = {"ent_spawner"},
                 Prefix = "GRN",
@@ -1822,7 +1824,7 @@ DivisionTypes = {
 		RoleMax = 4,
 		Max = 6,
 		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy","md_carcano_scope4x", "md_carcano_scope7x", "md_carcano_scope78x"},
-                Weapons = {"doi_atow_k98k"},
+                Weapons = {"cw_carcanom91"},
                 SpawnWeapons = {},
                 Prefix = "SNI",
             },
