@@ -433,7 +433,7 @@ DE_CO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/
 DE_MP_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
 DE_TANKER_FULL = {"models/hts/comradebear/pm0v3/player/heer/panzer/en/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/en/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/en/panzerwrap_s1_03.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/co/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/co/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/co/panzerwrap_s1_03.mdl"}
 IT_SF_MODELS = {"models/italianelite/italianelite.mdl"}
---Commonwelth Divisions
+--Commonwealth Divisions
 
 BRITISH_MODELS = {"models/ingomar/commonwelth/british/en/p37_01.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl","models/player/player_british_01.mdl","models/player/player_british_02.mdl","models/player/player_british_03.mdl","models/player/player_british_04.mdl","models/player/player_british_05.mdl","models/player/player_british_06.mdl","models/player/player_british_07.mdl","models/player/player_british_08.mdl","models/player/player_aussie_01.mdl","models/player/player_blackwatch.mdl","models/player/player_canadian_01.mdl","models/player/player_british_indian_01.mdl","models/player/player_british_indian_02.mdl"}
 BRITISH_LOADOUT = {"doi_atow_enfield","doi_atow_webley","doi_atow_etoolcw"}
@@ -466,7 +466,7 @@ FM_LOADOUT = {"doi_atow_g43","doi_atow_p08","doi_atow_brassknuckles"}
 ITALY_MODELS = {"models/italianinfantry/italianinfantry.mdl","models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
 ITALY_NCO_MODELS = {"models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
 ITALY_CO_MODELS = {"models/italianofficer/italianofficer.mdl","models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
-ITALY_LOADOUT = {"cw_carcanom91","m1934","doi_atow_etoolde"}
+ITALY_LOADOUT = {"carcano_1891","m1934","doi_atow_etoolde"}
 
 --US Airborne Division
 
