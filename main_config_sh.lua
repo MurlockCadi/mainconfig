@@ -414,7 +414,10 @@ RESTRICTED_ATTACHMENTS = {
 	["doi_atow_thompson50rnd"] = true,
 	["doi_atow_zfg42"] = true,
 	["doi_atow_lymanm82"] = true,
-
+	["md_carcano_scope4x"] = true,
+	["md_carcano_scope7x"] = true,
+	["md_carcano_scope78x"] = true,
+	
 }
 
 
@@ -704,7 +707,7 @@ DivisionTypes = {
                 Models = {},
 		RoleMax = 4,
 		Max = 6,
-		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy"},
+		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy","md_carcano_scope4x", "md_carcano_scope7x", "md_carcano_scope78x"},
                 Weapons = {"doi_atow_enfield"},
                 SpawnWeapons = {},
                 Prefix = "SNI",
@@ -1389,7 +1392,7 @@ DivisionTypes = {
                 Models = {},
 		RoleMax = 2,
 		Max = 6,
-		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy"},
+		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy","md_carcano_scope4x", "md_carcano_scope7x", "md_carcano_scope78x"},
                 Weapons = {"doi_atow_k98k"},
                 SpawnWeapons = {},
                 Prefix = "SNI",
@@ -1818,7 +1821,7 @@ DivisionTypes = {
                 Models = {},
 		RoleMax = 4,
 		Max = 6,
-		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy"},
+		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy","md_carcano_scope4x", "md_carcano_scope7x", "md_carcano_scope78x"},
                 Weapons = {"doi_atow_k98k"},
                 SpawnWeapons = {},
                 Prefix = "SNI",
@@ -1966,7 +1969,7 @@ DivisionTypes = {
                 Models = {},
 		RoleMax = 2,
 		Max = 6,
-		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy"},
+		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy","md_carcano_scope4x", "md_carcano_scope7x", "md_carcano_scope78x"},
                 Weapons = {"doi_atow_m1903a3"},
                 SpawnWeapons = {},
                 Prefix = "SNI",
