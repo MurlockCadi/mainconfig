@@ -3,119 +3,44 @@
 --DO NOT ANGER MURLOCK, EDIT IT IN GITHUB, OR 1. YOUR CHANGES WILL GET REMOVED, AND 2. HE WILL BE VERY ANGRY!!!
 
 imperium_rp_font = "Sitka Text"
-gamemode_name = "WW2 Axis VS Allies RP"
+gamemode_name = "WARHAMMER 40K ROLEPLAY"
 
-MAIN_MAP = "rp_frankfurt"
+MAIN_MAP = "necromunda_v1"
 
 mapMessages = {
-    -- Normandy Region
-    ["rp_omahabeach"] = "Normandy Region: Omaha Beach. 600 Miles to Frankfurt.",
-    ["rnl_stcomedumont"] = "Normandy Region: Sainte-Combe-du-Mont. 580 Miles to Frankfurt.",
-    ["ctg_stemariedumont_v3"] = "Normandy Region: Sainte-Marie-du-Mont. 400 Miles to Frankfurt.",
-    ["rnl_lafiere"] = "Normandy Region: La Fière. 550 Miles to Frankfurt.",
-    ["gm_eglise_rp"] = "Normandy Region: Eglise. 560 Miles to Frankfurt.",
-    ["rp_falaise_td"] = "Normandy Region: Falaise. 500 Miles to Frankfurt.",
-    ["rp_caen_battle"] = "Normandy Region: City of Caen. 540 Miles to Frankfurt.",
-    ["rp_normandie_v2_d"] = "Battle for Normandy: Operation Bluecoat. 520 Miles to Frankfurt.",
-
-    -- Greater France Region
-    ["rnl_farm_v4"] = "France Region: French Countryside Farm. 450 Miles to Frankfurt.",
-    ["rnl_ardennes"] = "France Region: The Ardennes. 400 Miles to Frankfurt.",
-    ["rnl_hill35_a8"] = "France Region: Chartres. 300 Miles to Frankfurt.",
-    ["rnl_lapluie"] = "France Region: La Pluie. 350 Miles to Frankfurt.",
-    ["rnl_stannum_v3a"] = "France. Near Metz. 150 Miles to Frankfurt.",
-    ["rp_lapadite_2"] = "France Region: La Padite. 280 Miles to Frankfurt.",
-    ["twisted_steal"] = "France Region: River Moselle Near Metz. 220 Miles to Frankfurt.",
-    ["rp_paris_wwii"] = "The Battle for Paris. 350 Miles to Frankfurt.",
-
-    -- German Rhine / Siegfried Line Region
-    ["rp_ww1_siegfriedtrenches_b02"] = "Rhine Region: The Siegfried Line. 100 Miles to Frankfurt.",
-    ["rp_1944rpgtown_v2a"] = "The Rhine Region, Past the Siegfried Line. City of Mainz. 30 Miles to Frankfurt.",
-    ["rnl_adenau"] = "Rhine Region: Adenau. 80 Miles to Frankfurt.",
-    ["gm_rhine"] = "Rhine Region: The Rhine. 50 Miles to Frankfurt.",
-    ["rp_frankfurt"] = "Rhine Region: The Battle for Frankfurt. Endsieg."
+    ["necromunda_v1"] = "++-- Hive City Imperium // Scarus Sector //  Segmentum Obscurus --++"
 }
 
 
-mapMessage_defualt = "Somewhere on the Western Front..."
+mapMessage_defualt = "Somewhere in the Scarus Sector..."
 
 configTexts = {
-    "The history of free men is never written by chance but by choice - their choice.\n― Dwight D. Eisenhower",
-    "Accept the challenges, so that you may feel the exhilaration of victory.\n― George S. Patton",
-    "They fight not for the lust of conquest. They fight to end conquest. They fight to liberate.\n― Franklin D. Roosevelt",
-    "It is foolish and wrong to mourn the men who died. Rather we should thank God that such men lived.\n― George S. Patton",
-    "Wars may be fought with weapons, but they are won by men.\n― George S. Patton",
-    "The first 24 hours of the invasion will be decisive... the fate of Germany depends on the outcome... for the Allies as well as Germany...\n It will be the longest day -Erwin Rommel",
-    "He who has not fought in the sand dunes of Africa and the hedgerows of Normandy does not know war.\n -Erwin Rommel",
-    "The battle is fought and decided by the quartermasters, long before the shooting begins.\n -Erwin Rommel",
-    "Well, is it or isn’t it the invasion?\n -Adolf Hitler",
-    "The battle beginning today will decide the fate of the German nation for the next thousand years.\n -Adolf Hitler",
-    "The eyes of the world are upon you. The hopes and prayers of liberty-loving people everywhere march with you.\n -Dwight D. Eisenhower",
-    "For these are not just men, they are the saviors of mankind.",
-    "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.\n― Winston Churchill",
-    "The enemy is within our grasp. We are well underway to success.\n― Bernard Montgomery",
-    "This is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning.\n― Winston Churchill",
-    "In war, there is no substitute for victory.\n― Douglas MacArthur",
-    "Soldiers, Sailors, and Airmen of the Allied Expeditionary Force: You are about to embark upon the Great Crusade, toward which we have striven these many months.\n― Dwight D. Eisenhower",
-    "We must be the great arsenal of democracy. For us, this is an emergency as serious as war itself.\n― Franklin D. Roosevelt",
-    "Hit the other fellow, as quickly and as hard as you can, where it will hurt him most.\n― Bernard Montgomery",
-    "Victory at all costs, victory in spite of all terror, victory however long and hard the road may be.\n― Winston Churchill",
-    "Through the carnage and chaos, a new world is being born. One free from tyranny and oppression.",
-    "Onward to victory! Every step forward brings us closer to liberating Europe.",
-    "With courage in our hearts and determination in our minds, we shall overcome.\n― Unknown Axis Soldier",
-    "The will to fight is the will to survive. Stand strong, and let no enemy break you.\n― Unknown Axis Commander",
-    "The thunder of war echoes, but the promise of peace shines brightly ahead.\n― Unknown Soldier",
-    "Courage is fear holding on a minute longer.\n― George S. Patton",
-    "Freedom is never free.",
-    "What counts is not necessarily the size of the dog in the fight – it’s the size of the fight in the dog.\n― Dwight D. Eisenhower",
-    "The soldier is the Army. No army is better than its soldiers.\n― George S. Patton",
-    "The object of war is not to die for your country but to make the other bastard die for his.\n― George S. Patton",
-    "Who dares, wins.",
+    "In the grim darkness of the far future, there is only war.", 
+    "The Emperor Protects.",
+    "There is no peace among the stars, only an eternity of carnage and slaughter, and the laughter of thirsting gods.",
+    "There is no place for the weakwilled or hesitant. Only by firm action and resolute faith will mankind survive. No sacrifice is too great. No treachery too small.",
+    "To consort with the heretic is to endanger one's purity. But to lie to an Inquisitor is to forfeit your soul.",
+    "The tree of heresy persists where its roots be not torn up."
 }
 
 
 intro_songs = {
-    "https://www.imperiumgaming.net/ww2avatheme/ww2avatheme1.mp3",
-    "https://www.imperiumgaming.net/ww2avatheme/ww2avatheme2.mp3",
-    "https://www.imperiumgaming.net/ww2avatheme/ww2avatheme3.mp3",
-    "https://www.imperiumgaming.net/ww2avatheme/ww2avatheme5.mp3",
-    "https://www.imperiumgaming.net/ww2avatheme/dday_speech.mp3"
+    "https://www.imperiumgaming.net/40k/Warhammer_40_000_-_Darktide_-_Official_Soundtrack_Immortal_Imperium.mp3",
+    "https://www.imperiumgaming.net/40k/maintheme.mp3",
+    "https://www.imperiumgaming.net/40k/Disposal_Unit_Imperium_Mix.mp3",
+    "https://www.imperiumgaming.net/40k/Darktide_OST_THE_EMPEROR_OF_MANKIND.mp3"
 }
 
 intro_image_urls = {
-    "https://www.imperiumgaming.net/ww2photos/1.jpg",
-    "https://www.imperiumgaming.net/ww2photos/2.png",
-    "https://www.imperiumgaming.net/ww2photos/3.png",
-    "https://www.imperiumgaming.net/ww2photos/4.png",
-    "https://www.imperiumgaming.net/ww2photos/5.jpg",
-    "https://www.imperiumgaming.net/ww2photos/6.jpg",
-    "https://www.imperiumgaming.net/ww2photos/7.jpg",
-    "https://www.imperiumgaming.net/ww2photos/8.jpg",
-    "https://www.imperiumgaming.net/ww2photos/9.jpg",
-    "https://www.imperiumgaming.net/ww2photos/10.jpg",
-    "https://www.imperiumgaming.net/ww2photos/11.jpg",
-    "https://www.imperiumgaming.net/ww2photos/12.jpg",
-    "https://www.imperiumgaming.net/ww2photos/13.jpg",
-    "https://www.imperiumgaming.net/ww2photos/14.jpg",
-    "https://www.imperiumgaming.net/ww2photos/15.png",
-    "https://www.imperiumgaming.net/ww2photos/16.png",
-    "https://www.imperiumgaming.net/ww2photos/17.png",
-    "https://www.imperiumgaming.net/ww2photos/18.png",
-    "https://www.imperiumgaming.net/ww2photos/19.png",
-    "https://www.imperiumgaming.net/ww2photos/20.png",
-    "https://www.imperiumgaming.net/ww2photos/21.png",
-    "https://www.imperiumgaming.net/ww2photos/22.png",
-    "https://www.imperiumgaming.net/ww2photos/23.png",
-    "https://www.imperiumgaming.net/ww2photos/24.png",
-    "https://www.imperiumgaming.net/ww2photos/25.png",
-    "https://www.imperiumgaming.net/ww2photos/26.png",
-    "https://www.imperiumgaming.net/ww2photos/27.png",
-    "https://www.imperiumgaming.net/ww2photos/28.png",
-    "https://www.imperiumgaming.net/ww2photos/29.png",
-    "https://www.imperiumgaming.net/ww2photos/30.png",
-    "https://www.imperiumgaming.net/ww2photos/31.jpg",
-    "https://www.imperiumgaming.net/ww2photos/32.jpg",
-    "https://www.imperiumgaming.net/ww2photos/33.jpg"
+    "https://i.imgur.com/pn8sBwW.jpeg",
+    "https://i.imgur.com/ye5PL53.jpeg",
+    "https://i.imgur.com/W4srVe1.jpeg",
+    "https://i.imgur.com/AjOstkF.jpeg",
+    "https://i.imgur.com/P7hGfNK.jpeg",
+    "https://i.imgur.com/qy1qFwo.jpeg",
+    "https://i.imgur.com/Qwf2JSf.jpeg",
+    "https://i.imgur.com/8IBTKE1.jpeg",
+    "https://i.imgur.com/FZUEVO3.jpeg"
 }
 
 
@@ -147,16 +72,17 @@ RESPAWN_TIMERS_IMPERIUMRP = {
     ["Mechanized Vehicles"] = 250,
     ["Armed Mechanized Vehicles"] = 360,
     ["Mobile Outpost"] = 500,
-    ["Motercycles"] = 60,
-    ["Horses"] = 60
+    ["Motercycles"] = 60
 }
 
 ENTITY_RESPAWN_TIMERS = {
     ["Ammo"] = 120,
     ["Machine Gun"] = 300,
-    ["Artillery"] = 600,
+    ["Artillery"] = 300,
     ["Medic Box"] = 120,
-    ["Radio"] = 120
+    ["Radio"] = 120,
+    ["Skull"] = 10,
+    ["Reactor"] = 1000
 }
 
 
@@ -204,19 +130,18 @@ faction_player_count_limit = 0
 --------SPEED-----------
 
 WALK_SPEED = 135
-RUN_SPEED = 300
+RUN_SPEED = 250
 JUMP_POWER = 225
-MAX_HEALTH = 100
+MAX_HEALTH = 500
 SLOW_WALK_SPEED = 80
 
 function GetRunSpeed(athleticsLevel)
     return RUN_SPEED + (athleticsLevel * .3)
 end
 
-
 ------REVIVE TIME AND LOOT TIME--------
 
-REVIVE_TIME = 5
+REVIVE_TIME = 2
 
 LOOT_TIME = 3
 
@@ -235,18 +160,20 @@ IS_SERVER_MANAGED = true
 
 
 helpTopics = {
-    ["Intro"] = "Welcome to Imperium Gaming's WW2 Axis VS Allies RP!\n\nThis server is running a custom MRP gamemode known as 'ImperiumRP' (We are not another DarkRP re-name or a NS Clone!)\n\nThis Help Menu will guide you through the huge amount of custom servers features, gameplay, and custom content (Mostly all made by Murlock over the span of 2 years). In short, this server is run by the players, including the Frontline (current map) that can be advanced by actions (F7 menu). Need to reopen this help menu? Type /help in chat anytime!\n\nSelect a topic on the left to learn more.\n\nGetting Started:\n\nYou have spawned in as a recruit, to progress you need to get trained and  join a Division! Type '/ooc I need to get trained!' but dont worry if you dont get trained right away, you can still get a weapon by finding the Weapons Crate, click E on it, and choose your starting weapon. Have an explore, and someone should get around to training you. \n\nAnd again Welcome to the Server!\n\n-Murlock",    
-    ["Unlocking Weapons"] = "You can unlock weapons at the Weapon Crate located near spawn. Your Division, including recruits, will have base weapons already unlocked for you to use.\n\nThere are Primary, Secondary, and Miscellaneous slots where you can customize your loadout. You earn QM Points by killing players, playing in events, some actions, looting bodys, and actively playing on the server. These QM Points can then be used at the Weapon Crate to unlock new weapons!\n\nIn addition to Division-provided base weapons, some weapons are unlocked through specific classes, such as the Sniper class. There are also VIP only weapons that are not overpowered and are just for fun.",
-    ["Outposts"] = "Outposts are extremely important for reinforcing the frontline. Without an outpost, it will be difficult to get players to the front lines, and you may lose the objective!\n\nThere are two main types of outposts: Command Posts (created by the 2nd and 7th) and Mobile Outposts (created by the 29th and 21st).\n\nCommand Posts act like forward bases. They can only be established by a 2nd or 7th Engineer. When one is created, the engineer must stay near it while it is being established. Once established, supply needs to be brought from the Supply Depot by pressing E on it and transporting it to the Command Post (this can be done more easily with the rope tool and a vehicle!). Once established and supplied, enemies can attack the outpost by contesting and eventually destroying it. If there are more enemies than friendlies nearby, you will be unable to spawn at the Command Post!\n\nMobile Outposts are simpler. They can be spawned by 29th and 21st logistics from the Vehicle Spawner. These hold a maximum of 25 supplies.",
-    ["Commands and Links"] = "/discord (Opens the Discord Server)\n/donate (Opens our Donation Store)\n/website (Opens our Website)\n/content (Opens the Content Pack)\n/steamgroup (Opens the Steam Group)\n\n/ooc (For Global OOC chat)\n/radio (For Team Radio)\n/r (For Global Radio)\n\n/help (Opens this Menu)\n/claim (Claims any VIP Packages).\n/options (Opens the Options Menu for ImperiumRP)\n\nF1 (Opens the Character Edit Menu)\nF2 (Opens the Promotion and Whitelist Menu)\nF3 (Opens the Division Menu)\nF4 (Opens the Character Selection Menu)\nF6 (Opens the Squad Menu)\nF7 (Opens the Actions Menu)",
+    ["Intro"] = "Welcome to Imperium Gamings WARHAMMER 40KRP!\n\nThis server is running a custom MRP gamemode known as 'ImperiumRP' with custom Hive Bots running LLMS!\n\nThis Help Menu will guide you through the huge amount of custom servers features, gameplay, and custom content (Mostly all made by Murlock over the span of 2 years). In short, this server is run by the players, including the fully alive City with hundreds of living bots. Need to reopen this help menu? Type /help in chat anytime!\n\nSelect a topic on the left to learn more.\n\nGetting Started:\n\nYou have spawned in as a recruit, to progress you need to get trained. Type '/ooc I need to get trained!' but dont worry if you dont get trained right away, you can still get a weapon by finding the Weapons Crate, click E on it, and choose your starting weapon. Have an explore, and someone should get around to training you. \n\nAnd again Welcome to the Server!\n\n-Murlock",
+    ["Unlocking Weapons"] = "You can unlock weapons at the Weapon Crate located near spawn. Your Division, including recruits, will have base weapons already unlocked for you to use.\n\nThere are Primary, Secondary, and Miscellaneous slots where you can customize your loadout. You earn Credits a number of ways, playing in events, looting bodys, and actively playing on the server. These Credits can then be used at the Weapon Crate to unlock new weapons!\n\nIn addition to Division-provided base weapons, some weapons are unlocked through specific classes, such as the Heavy Weapons. There are also VIP only weapons that are not overpowered and are just for fun.",
+    ["Commands and Links"] = "/discord (Opens the Discord Server)\n/donate (Opens our Donation Store)\n/website (Opens our Website)\n/content (Opens the Content Pack)\n/steamgroup (Opens the Steam Group)\n\n/ooc (For Global OOC chat)\n/radio (For Team Radio)\n/r (For Global Radio)\n\n/help (Opens this Menu)\n/claim (Claims any VIP Packages).\n/options (Opens the Options Menu for ImperiumRP)\n/give (Give Credits to Target Player)\n\nF1 (Opens the Character Edit Menu)\nF2 (Opens the Promotion and Whitelist Menu)\nF3 (Opens the Division Menu)\nF4 (Opens the Character Selection Menu)\nF6 (Opens the Squad Menu)",
     ["Hand Swep"] = "The Hand Swep is a custom SWEP that allows you to move props and objects by holding left click and dragging.\n\nThis can be used to move barrles, corpses, props, and anything else that is not nailed down!\n\nIts a very fun swep and adds a lot of gmod goofines to the server... Prop Killing is allowed if you can pull it off, and can lead to some extreamly fun moments.\n\nRight Click allows you to Salute, and Left Click allows you to move objects.",
-    ["Levels and XP"] = "ImperiumRP has three main stats:\n\nEndurance (Health Regen)\nAthletics (Faster Run and Higher Jump)\nBallistics (Less Recoil and Spread)\n\nAll these states give a small bonus in its respective field, making high level players more effective in combat. Saying that, a level 1 player can still kill a level 70 player, but the level 70 player will have a slight advantage. Killing a higher level player means you gain more XP!\n\nYou can level up and gain XP by playing on the server, killing players, looting bodys, and collecting Supply. You can view your level and stats by pressing F1. You start with 10 points to spend.\n\nEvery Level gets you 2 points to spend on your Character, however levels will get exponentially harder to obtain, being around level 70+ is considered a max leveled player.\n\nSome players played during WW2, and this allows them to carry over there skils they had before, as they are veterans.",
-    ["VIP"] = "This server is run on donations. All of the money goes into funding custom content (like the ImperiumRP gamemode!) and paying for the Server Box, our Linux Machine in the Background that runs alot of our custom features, and our Webiste!\n\nDonate by typing /donate\n\nVIP gets you VIP only weapons, Double XP and QM points, and a role in our discord! The Donation helps us keep this server alive, and we are beyond appreciative for everyone who has helped us financially in making our dream server!\n\nIf you buy a Supply Drop package do /claim to get it in game!",
-    ["Reviving and Looting"] = "In this gamemode, when you die your corpse will remain on the battlefield. This can be dragged around and the player (if they have not respawned) can see whats going on.\n\nYou can be revived by a Medic, and can see how close the nearest medic is. Medics will get a green glow around all players that can be revived, so can see your corpse through walls.\n\nTo prevent players being revived you can loot there corpses, this will take 5 seconds and you will gain supply, XP and QM points!\n\nLooting bodys is the best way to gain QM points! Bodys will despawn 10mins after the player has died.",
-    ["Nazism"] = "As per the Server Operator Rules, we do not allow any form of Nazism nor the Glorification of Nazism on the server.\n\nThis includes the Display of swastikas, the nazi salute or other glorification of nazism is prohibited, even for 'roleplay' purposes.\n\nWe take this very seriously, and any form of Nazism will result in a permanent ban from the server.\n\nWe are a WW2 Axis VS Allies RP server, and we do not support nor glorify Nazism in any way. We are a military focused roleplay server, and we expect all players to act accordingly. There can be no ideological or political roleplay promoting nazism in ANY form.\n\nIf you see any form of Nazism on the server, please report it to an admin immediately.",
-    ["Actions"] = "Actions are Objectives that can be completed for rewards, mainly Organisation. Organisation lowers the respawn timers on Entities and Vehicles (such as Tanks and Artillery) but can also be used to call a Major Action such as a Consolidation Action to progress the frontline.\n\nTo Call an Action you must be trusted in your division, and there must be a balance of players. Once started, both sides will be notified and you can track your progression in the bottom right of the screen and in the F7 menu.\n\nCancelling or Failing an action will result in a loss of Organisation.\n\nThe Consolidation is the way to progress the frontline, when started the defenders (the one who called the action) must defend 50% of the map for 20 mins. If they fail, then the frontline will not progress. When you start this action, your Organisation will be reduced to 0, and you need 100% to call one (as well as full control over the map). Attackers can contest the active objective and gain 5mins extra time for every point they capture.",
-    ["Objectives"] = "Every map can have up to 10 Objectives. They are in a Capture Order seen on the HUD. If there is no highlighted objective, then any objective can be captured. However if Capture in Order is enabled, then only the active Objectives can be captured.\n\nFor most Actions, these serve as critical positions to complete the Objectives. To advance the Frontline all Objectives need to be captured to start Consolidation.\n\nCapture Rate depends on the number of total objectives on the map, if there are more than 5, then capture rate will increase.",
+    ["Levels and XP"] = "ImperiumRP has three main stats:\n\nEndurance (Health Regen)\nAthletics (Faster Run and Higher Jump)\nBallistics (Less Recoil and Spread)\n\nAll these states give a small bonus in its respective field, making high level players more effective in combat. Saying that, a level 1 player can still kill a level 70 player, but the level 70 player will have a slight advantage. Killing a higher level player means you gain more XP!\n\nYou can level up and gain XP by playing on the server, killing players, looting bodys, and playing in events. You can view your level and stats by pressing F1. You start with 10 points to spend.\n\nEvery Level gets you 2 points to spend on your Character, however levels will get exponentially harder to obtain, being around level 70+ is considered a max leveled player.\n\nSome players played during WW2, and this allows them to carry over there skils they had before, as they are veterans.",
+    ["VIP"] = "This server is run on donations. All of the money goes into funding custom content (like the ImperiumRP gamemode!) and paying for the Server Box, our Linux Machine in the Background that runs alot of our custom features, and our Webiste!\n\nDonate by typing /donate\n\nVIP gets you VIP only weapons, Double XP and Credis points, and a role in our discord! The Donation helps us keep this server alive, and we are beyond appreciative for everyone who has helped us financially in making our dream server!\n\nIf you buy a Supply Drop package do /claim to get it in game!",
+    ["Reviving and Looting"] = "In this gamemode, when you die your corpse will remain on the battlefield. This can be dragged around and the player (if they have not respawned) can see whats going on.\n\nYou can be revived by a Medic, and can see how close the nearest medic is. Medics will get a green glow around all players that can be revived, so can see your corpse through walls.\n\nints!\n\nYou can also loot the corpse of the fallen to find credits.",
     ["Division Management"] = "In the F3 menu you can click on the Management Menu. This is where Officers of a Division can track playtime of players, but also see the current division rank and set players permissions. There are 3 levels of permissions, Members, Trusted, and Admins. When you are Trusted you can do most things, such as promote, demote, whitelist, kick, and call Actions. Admins can do the same, but have the power to remove and add trusted. Server Admins on the server have the power to add and remove Admins / Trusted.\n\nThe Rank Ceiling is the top rank anyone can have in a Division. The Top Rank (Division) can have all the ranks, but lower ranks can only go up to there Rank Ceiling.\n\nTIPS FOR OFFICERS:\n\nUse the Commendation System! Ontop of looking at Time Played on the Division for a player, get people to Commend players who have done well! This is a great way to see who needs promoting or not. F2 then click Commend, its that easy!\n\nMake NCOs trusted! If a NCO is doing well, give them trusted permissions early!",
+    ["The Chem Runners"] = "The Chem Runners hold control over the criminal underworld thanks to their brutal tactics and monopoly on SPOOK, the only major drug found in the Hive.\n\nIn recent decades, a bloody gang war ended with the Chem Runners securing total control over its production.\n\nToday, their influence can be felt in every corner of the Hive, with Chem Runners distributing SPOOK on every street and in every apartment. You need only look beneath the floorboards to find these heretics.\n\nThe Administratum, however, has declared zero tolerance for narcotics. Any individual found in possession of SPOOK shall be sentenced to penal conscription... or summary execution.\n\nSome heretical Guardsmen may buy SPOOK from Chem Runners and sell it to innocents for profit.\n\nType /drugs to open your drug inventory.\nLoyal Imperium servants may use /search on a player to search for hidden SPOOK.",
+    ["Lore Overview"] = "Hive Imperium exists in the Scarus Sector // Segmentum Obscurus. It is an isolated hive world with little contact from the greater Imperium, causing the Emperor’s light to dim.\n\nDark shadows loom over the city, as Chaos forces instigate a blood revolution, a plague of pestilence, and a powerful drug empire. The war for control of the city is being lost.\n\nWith every passing hour, the likelihood of the planet being marked for Exterminatus increases. Only those brave enough to conscript into the Astra Militarum offer any hope of salvation.\n\nThese Guardsmen, often the few who volunteer from the local population, are tasked with keeping the Hive under control and preventing its collapse to ruinous powers.\n\nYet in times of crisis... opportunity always presents itself.",
+    ["Khornate Cultists"] = "Khornate Cultists dwell in the deepest parts of the Hive. Their cults grow strong through the sacrifice of innocents to the insatiable hunger of the Blood God.\n\nSkulls, blood, flesh... it is demanded constantly. The rush of the kill, the joy of slaughter, Khorne infects the minds of ordinary mortals, convincing them to murder, to slay. Eventually, that hunger breaks free.\n\nThey kill without mercy. Crimson ribbons streak across the floor, a sacrifice to grow the power of the Blood God.\n\nThrough dark rituals, Skull Takers may rise from the civilian population, hunting for a great slaughter. If such beings appear, it is almost certain that Khornate Cultists are preparing for a blood revolution.\n\nSeek them out in the darkest corners of the Hive... before it is too late.",
+    ["Nurgle Pestilence"] = "Nurgle's disease infects the hearts of the impure and unfaithful. Those who have forsaken the Emperor's protection and drift into shadow are embraced instead by pestilence.\n\nOnly those true to the Emperor, or those who take SPOOK regularly, can resist the taint of Nurgle.\n\nThose blessed by decay come to enjoy the suffering, the truth: that all things must rot, and all shall return to one in the Grand Cycle.\n\nBefore long, the infected begin to transform into unholy Poxwalkers, spreading disease and pestilence to all they touch. Only the faithful may resist its grip.\n\nSoon, entire sectors of the Hive may be consumed by corruption, requiring fire and flame to cleanse their souls.\n\nIf the infection spreads too far, it is almost certain that Nurgle has established a foothold deep in the filth of the Underhive.",
+    ["Heretical Uprisings"] = "By not controlling the Hive, you are allowing the taint of Chaos and the Unclean to infest the minds of the impure, leading to full-blown heretical revolutions such as Blood Revolutions, Plague Outbreaks, or Gang Uprisings.\n\nIt is your duty as Guardsmen to fight against such uprisings. During one, you must put down the heretics and cleanse the unclean. You will face waves upon waves of heretics, and only when they have sustained enough casualties will the uprising end.\n\nThe damage dealt by heretics and the damage taken by the player is scaled based on player count.",
+    ["11th Cadian Storm Guard"] = "The 11th Cadian Storm Guard are a veteran regiment originally assigned to Ocean World Spectoris, a planet with no continents, only endless ocean and one settlement clinging to a submerged mountain. Spectoris supplies the Imperium Hive with food and carole paste, but its waters teem with hostile life, and some whisper the sea itself is alive… and corrupted by Chaos.\n\nThe 11th were sent to defend this world from abyssal horrors and potential Chaos influence. Over centuries, they began recruiting from Spectoris and from Hive Imperium.\n\nWhen Cadia fell, the 11th did not break. Their duty remained clear: defend the Hive and Spectoris that feeds the city. Though still bearing the name of Cadia, the 11th are now their own breed, storm-hardened and duty bound by a legacy of honour.\n\nWith the Hive now under the threat of Chaos within, the 11th have deployed to keep there home city alive from danger." 
 }
 
 
@@ -263,12 +190,17 @@ commands = {
     ["!ooc"] = function(ply, args) return ooc_command(ply, args) end,
     ["/me"] = function(ply, args) return me_command(ply, args) end,
     ["!me"] = function(ply, args) return me_command(ply, args) end,
+    ["/it"] = function(ply, args) return it_command(ply, args) end,
+    ["!it"] = function(ply, args) return it_command(ply, args) end,
+    ["/rp"] = function(ply, args) return rp_command(ply, args) end,
+    ["!rp"] = function(ply, args) return rp_command(ply, args) end,
+    ["/radio"] = function(ply, args) return radio_command(ply, args) end,
     ["!radio"] = function(ply, args) return radio_command(ply, args) end,
     ["/radio"] = function(ply, args) return radio_command(ply, args) end,
-    ["!r"] = function(ply, args) return radio_command_ALL(ply, args) end,
-    ["/r"] = function(ply, args) return radio_command_ALL(ply, args) end,
-    ["!gradio"] = function(ply, args) return radio_command_ALL(ply, args) end,
-    ["/gradio"] = function(ply, args) return radio_command_ALL(ply, args) end,
+    ["!r"] = function(ply, args) return radio_command(ply, args) end,
+    ["/r"] = function(ply, args) return radio_command(ply, args) end,
+    ["!gradio"] = function(ply, args) return radio_command(ply, args) end,
+    ["/gradio"] = function(ply, args) return radio_command(ply, args) end,
     ["/song"] = function(ply, args) return play_song(ply, args) end,
     ["!song"] = function(ply, args) return play_song(ply, args) end,
     ["!announce"] = function(ply, args) return announce_command(ply, args) end,
@@ -291,10 +223,10 @@ commands = {
     ["!donate"] = function(ply) OpenURL(ply,"https://www.imperiumgaming.net/store/") end,
     ["/store"] = function(ply) OpenURL(ply,"https://www.imperiumgaming.net/store/") end,
     ["!store"] = function(ply) OpenURL(ply,"https://www.imperiumgaming.net/store/") end,
-    ["/content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3008635642") end,
-    ["!content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3008635642") end,
-    ["/workshop"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3008635642") end,
-    ["!workshop"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3008635642") end,
+    ["/content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3514017616") end,
+    ["!content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3514017616") end,
+    ["/workshop"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3514017616") end,
+    ["!workshop"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3514017616") end,
     ["/group"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
     ["!group"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
     ["/steam"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
@@ -347,7 +279,7 @@ commands = {
     ["!newdivision"] = function(ply) OpenDivisionCreationMenuForPlayer(ply) end,
     ["/division"] = function(ply) OpenDivisionCreationMenuForPlayer(ply) end,
     ["!division"] = function(ply) OpenDivisionCreationMenuForPlayer(ply) end,
-    --["!givepoints"] = function(ply, args) SetPlayerPointsAdmin(ply, args) end,
+    ["!givepoints"] = function(ply, args) SetPlayerPointsAdmin(ply, args) end,
     ["!help"] = function(ply) OpenHelpMenu(ply) end,
     ["/help"] = function(ply) OpenHelpMenu(ply) end,
     ["!addspec"] = function(ply, args) Add_Spec_To_My_Division(ply, args) end,
@@ -379,14 +311,31 @@ commands = {
     ["/murlockaimhack"] = function(ply) ToggleMurlockAimHack(ply) end,
     ["/endevent"] = function(ply) PlayerVotedToEndEvent(ply) end,
     ["!endevent"] = function(ply) PlayerVotedToEndEvent(ply) end,
-    ["!vip"] = function(ply) SetPlayerVIPMission(ply) end,
-    ["/vip"] = function(ply) SetPlayerVIPMission(ply) end,
     ["!eventoutpost"] = function(ply, args) CreateCommandOutpost(ply, args) end,
     ["/eventoutpost"] = function(ply, args) CreateCommandOutpost(ply, args) end,
     ["/bot"] = function(ply, args) AdminRequestSpawnBot(ply, args) end,
     ["!bot"] = function(ply, args) AdminRequestSpawnBot(ply, args) end,
-    ["/clearspawns"] = function(ply) DeleteAllRoleSpawns(ply) end,
-    ["!clearspawns"] = function(ply) DeleteAllRoleSpawns(ply) end
+    ["/drugs"] = function(ply) OpenDrugInventory(ply) end,
+    ["!drugs"] = function(ply) OpenDrugInventory(ply) end,
+    ["!search"] = function(ply) SearchPlayerForDrugsInfrontOfMe(ply) end,
+    ["/search"] = function(ply) SearchPlayerForDrugsInfrontOfMe(ply) end,
+    ["!give"] = function(ply, args) GivePlayerMoney(ply, args) end,
+    ["/give"] = function(ply, args) GivePlayerMoney(ply, args) end,
+    ["/servo"] = function(ply) EnterYourSkull(ply) end,
+    ["!servo"] = function(ply) EnterYourSkull(ply) end,
+    ["/gotonode"] = function(ply, args) GoToNodeID(ply, args) end,
+    ["/bot"] = function(ply) AdminBotOpenMenu(ply) end,
+    ["!bot"] = function(ply) AdminBotOpenMenu(ply) end,
+    ["!skull"] = function(ply) OpenSkullInventory(ply) end,
+    ["/skull"] = function(ply) OpenSkullInventory(ply) end,
+    ["!skulls"] = function(ply) OpenSkullInventory(ply) end,
+    ["/skulls"] = function(ply) OpenSkullInventory(ply) end,
+    ["!roll"] = function(ply) PlayerRoll(ply) end,
+    ["/roll"] = function(ply) PlayerRoll(ply) end,
+    ["/yell"] = function(ply, args) PlayerYell(ply, args) end,
+    ["!yell"] = function(ply, args) PlayerYell(ply, args) end,
+    ["/y"] = function(ply, args) PlayerYell(ply, args) end,
+    ["!y"] = function(ply, args) PlayerYell(ply, args) end
 }
 
 
@@ -414,106 +363,153 @@ RESTRICTED_ATTACHMENTS = {
 	["doi_atow_thompson50rnd"] = true,
 	["doi_atow_zfg42"] = true,
 	["doi_atow_lymanm82"] = true,
-	["md_carcano_scope4x"] = true,
-	["md_carcano_scope7x"] = true,
-	["md_carcano_scope78x"] = true,
-	["md_glsmle"] = true,
-	["md_gltromb"] = true,
-	
+
 }
 
 
 -------------------------------------------------------------------
 
-----------------------ROLES-------------------------------------------------------------------------------
+--11th Cadian Storm Guards
+CADIAN_MODELS = {"models/vintagethief/11th_imperial_guard/11th_guard_grey.mdl","models/vintagethief/11th_imperial_guard/11th_penal.mdl"}
+CADIAN_NCOS = {"models/vintagethief/11th_imperial_guard/11th_vet_sgt_grey.mdl","models/vintagethief/11th_imperial_guard/11th_vet_grey.mdl"}
+CADIAN_OFFICER = {"models/vintagethief/11th_imperial_guard/11th_let_grey.mdl"}
+CADIAN_CAPTAIN = {"models/vintagethief/11th_imperial_guard/11th_maj_grey.mdl"}
 
-US_TANKER_MODELS = {"models/hts/comradebear/pm0v3/player/usarmy/armored/en/m41tanker_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/armored/en/m41tanker_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/armored/en/m41tanker_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/armored/en/m41tanker_s1_04.mdl"}
-US_MP_MODELS = {"models/hts/comradebear/pm0v3/player/usarmy/militarypolice/en/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/militarypolice/en/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/militarypolice/en/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/militarypolice/en/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/militarypolice/en/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/militarypolice/en/m41_s1_06.mdl"}
-DE_ENLISTED_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40greatcoat_w1_04.mdl"}
-DE_NCO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40greatcoat_w1_04.mdl"}
-DE_CO_MP_MODELS = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
-DE_MP_FULL = {"models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/en/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40c_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/nco/m40greatcoat_w1_04.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/gd_heer/feldgendarmerie/co/m38coat_s1_04.mdl"}
-DE_TANKER_FULL = {"models/hts/comradebear/pm0v3/player/heer/panzer/en/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/en/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/en/panzerwrap_s1_03.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/co/panzerwrap_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/co/panzerwrap_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/panzer/co/panzerwrap_s1_03.mdl"}
-IT_SF_MODELS = {"models/italianelite/italianelite.mdl"}
---Commonwealth Divisions
+CADIAN_WEAPONS = {"cat_custom_lasgun","cat_custom_knife"}
 
-BRITISH_MODELS = {"models/ingomar/commonwelth/british/en/p37_01.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl","models/player/player_british_01.mdl","models/player/player_british_02.mdl","models/player/player_british_03.mdl","models/player/player_british_04.mdl","models/player/player_british_05.mdl","models/player/player_british_06.mdl","models/player/player_british_07.mdl","models/player/player_british_08.mdl","models/player/player_aussie_01.mdl","models/player/player_blackwatch.mdl","models/player/player_canadian_01.mdl","models/player/player_british_indian_01.mdl","models/player/player_british_indian_02.mdl"}
-BRITISH_LOADOUT = {"doi_atow_enfield","doi_atow_webley","doi_atow_etoolcw"}
+-- PENAL LEGION
+PENAL_MODELS = {"models/wk/savlar/wk_savlar.mdl","models/wk/savlar/wk_savlar_awful.mdl"}
+PENAL_WEAPONS = CADIAN_WEAPONS
 
---ALLIED RECRUIT MODELS:
+--KRIEG
+KRIEG_MODELS = {"models/krig_solder.mdl"}
+KRIEG_OFFICER = {"models/krig_officer.mdl"}
+KRIEG_WEAPONS = {"cat_custom_lasgun_lucius","cat_custom_knife"}
 
-ALLIED_RECRUIT_MODELS = {"models/player/dod_american.mdl","models/ingomar/commonwelth/british/en/p37_01.mdl","models/ingomar/commonwelth/british/en/p37_02.mdl", "models/ingomar/commonwelth/british/en/p37_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_06.mdl"}
 
---US Division
+OFFICER_WEAPONS = {"cat_custom_sword","cat_custom_laspistol"}
 
-US_ENLISTED_MODELS = {"models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/en/m41_s1_06.mdl"}
-US_NCO_MODELS = {"models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m37_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m37_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m37_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m37_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m37_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/nco/m37_s1_06.mdl"}
-US_CO_MODEL = {"models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_01.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_02.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_03.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_04.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_05.mdl","models/hts/comradebear/pm0v3/player/usarmy/infantry/co/m41_s1_06.mdl"}
-US_LOADOUT = {"doi_atow_m1garand","doi_atow_m1911a1","doi_atow_etoolus"}
+--OGRYN MODELS
 
---Wehrmacht Division
+OGRYN_MODELS = {"models/dizcordum/wk/ogryn/ogryn_bald.mdl","models/dizcordum/wk/ogryn/ogryn_bonehead.mdl","models/dizcordum/wk/ogryn/ogryn_bullgryn.mdl","models/dizcordum/wk/ogryn/ogryn_inq.mdl","models/dizcordum/wk/ogryn/ogryn_krieg.mdl"}
+OGRYN_WEAPONS = {"cat_custom_ogrynbang","cat_custom_rippergun"}
 
-DE_ENLISTED_MODELS = {"models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_03.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_04.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_05.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_06.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40greatcoat_w1_01.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m42smock_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/medic/en/m36_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/medic/en/m36_s1_02.mdl"}
-DE_NCO_MODELS = {"models/hts/comradebear/pm0v3/player/heer/infantry/en/drill_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_03.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_04.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_05.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40_s1_06.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m40greatcoat_w1_01.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/en/m42smock_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/medic/en/m36_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/medic/en/m36_s1_02.mdl"}
-DE_CO_MODELS = {"models/hts/comradebear/pm0v3/player/heer/infantry/co/m38_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38_s1_02.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38_s1_03.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38_s1_04.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38coat_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/infantry/co/m38coat_s1_02.mdl"}
-DE_LOADOUT = {"doi_atow_k98k","doi_atow_p38","doi_atow_etoolde"}
+--KARSIKIN
 
---Fallschirmjäger Division
+KARSIKIN_MODELS = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl"}
+KARSKIN_OFFICER = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl"}
+KARSIKIN_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_knife"}
+KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword"}
 
-FM_MODELS = {"models/ibz/luftwaffe/airborn/ger_para_06.mdl","models/ibz/luftwaffe/airborn/ger_para_06_a.mdl"}
-FM_CO_MODELS = {"models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male01.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male02.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male03.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male04.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male05.mdl","models/ww2rphts/playermodels/luftwaffe/luftwaffeofficer_co_male06.mdl","models/ibz/luftwaffe/airborn/ger_para_06.mdl","models/ibz/luftwaffe/airborn/ger_para_06_a.mdl"}
-FM_LOADOUT = {"doi_atow_g43","doi_atow_p08","doi_atow_brassknuckles"}
+--SQUAT
 
---Italian Division
-ITALY_MODELS = {"models/italianinfantry/italianinfantry.mdl","models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
-ITALY_NCO_MODELS = {"models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
-ITALY_CO_MODELS = {"models/italianofficer/italianofficer.mdl","models/ibz/italians/infantry/ita_01_a.mdl","models/ibz/italians/infantry/ita_02_a.mdl","models/ibz/italians/infantry/ita_03_a.mdl","models/ibz/italians/infantry/ita_04_a.mdl","models/ibz/italians/infantry/ita_05_a.mdl","models/ibz/italians/infantry/ita_06_a.mdl"}
-ITALY_LOADOUT = {"cw_carcanom91","m1934","doi_atow_etoolde"}
+SQUAT_MODELS = {"models/dizcordum/abhumans/squat.mdl","models/squat_rig_v2.mdl"}
+SQUAT_WEAPONS = {"cat_legacy_boardingshield_volkitecharger","cat_legacy_poweraxecthonian"}
 
---US Airborne Division
 
-AIRBORN_MODELS = {"models/ibz/us_army/airborn/us_para_01.mdl","models/ibz/us_army/airborn/us_para_02.mdl","models/ibz/us_army/airborn/us_para_03.mdl","models/ibz/us_army/airborn/us_para_04.mdl","models/ibz/us_army/airborn/us_para_05.mdl","models/ibz/us_army/airborn/us_para_06.mdl"}
-AIRBORN_LOADOUT = {"doi_atow_m1a1carbine","doi_atow_m1911a1","doi_atow_brassknuckles"}
+-- Adeptus Mechanicus
+
+ADMECH_MODELS = { "models/astartes/mech/magos.mdl","models/jackswan/rogue_trader/wk_rt_secutor.mdl","models/wk/adeptus_mechanicus/wk_am_engenseer.mdl","models/wk/adeptus_mechanicus/wk_trippriest.mdl","models/wk/gans/wk_gans_priest.mdl","models/wk/fem_priast/wk_priestness_belka.mdl"}
+ADMECH_WEAPONS = {"cat_custom_galvanic","cat_custom_galvanic_rifle","cat_custom_omnissiahaxe"}
 
 DivisionTypes = {
-    ["Commonwealth Division"] = {
-        Team = "allies",
-        Description = "A Commonwelth Division can be one from around the British Empire, including the British, Canadians, Australians, New Zealanders, and South Africans. British Divisions are known for logistical support, artillery, and air support.",
+    ["Penal Legion"] = {
+        NiceName = "Penal Legion",
+        Description = "Penal Legions are composed of the most hardened criminals and are often used cannon fodder.",
+        Team = "imperium",
         Ranks = {
-            {ID = 1, Name = "Junior Private", Rank_Prefix = "JPVE", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 2, Name = "Private", Rank_Prefix = "PVE", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 3, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 7, Name = "Platoon Sergeant Major", Rank_Prefix = "PSM", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 8, Name = "Company Sergeant Major", Rank_Prefix = "CSM", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 9, Name = "Regiment Sergeant Major", Rank_Prefix = "RSM", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 10, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 11, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 12, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 14, Name = "Lieutenant Colonel", Rank_Prefix = "LTCOL", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT},
-            {ID = 15, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT}
+            {ID = 1, Name = "Penal Conscript", Rank_Prefix = "", ModelsAllowed = PENAL_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = false}
         },
         Classes = {
             {
-                Name = "Rifleman",
+                Name = "Penal Conscript",
                 Default = true,
+                Core = true,
                 Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "Conscript"
+            },
+            {
+                Name = "Servitor",
+                Default = false,
+                Core = true,
+                Models = {"models/wk/servitor/wk_servit.mdl"},
+                ForceModels = true,
+                Weapons = {},
+                MaxHealth = 750,
+                SpawnWeapons = {},
+                Prefix = "Servitor"
+            }
+        }
+    },
+    ["Auxiliary"] = {
+        NiceName = "Auxiliary",
+        Description = "Auxiliary divisions are the backbone of the Imperium.",
+        Team = "imperium",
+        Ranks = {
+            {ID = 1, Name = "Auxiliary", Rank_Prefix = "", ModelsAllowed = {"models/dizcordum/wk/ecclesiarchy/priest.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {
+                Name = "Guardsman",
+                Default = true,
+                Core = true,
+                Models = CADIAN_CAPTAIN,
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
             },
             {
-                Name = "Radio Operator",
+                Name = "Psyker",
                 Core = true,
-                Radio = true,
-                Models = {},
-                RoleMax = 7,
-                Max = 12,
+                PowerShield = true,
+                ForceModels = true,
+                Magic = true,
+                Models = {"models/models/svin/pyromant.mdl","models/wk/psy/wk_alpha_psyker.mdl","models/wk/psy/wk_astropath.mdl","models/wk/psy/wk_mystic.mdl","models/wk/psy/wk_mystic_primus.mdl","models/wk/psy/wk_navigator.mdl","models/wk/psy/wk_primaris_fem.mdl","models/wk/psy/wk_primaris_psyker.mdl","models/wk/psy/wk_wyrdvane.mdl","models/wk/psy/wk_wyrdvane_fem.mdl","models/wk/sodium/sodium_astropath.mdl"},
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
+                SpawnWeapons = {"murlock_staff_player"},
+                Prefix = ""
+            },
+            {
+                Name = "Ogryn",
+                Core = true,
+                Models = OGRYN_MODELS,
+                Weapons = OGRYN_WEAPONS,
+                ForceModels = true,
+                MaxHealth = 3000,
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+            {
+                Name = "Squat",
+                Core = true,
+                Models = SQUAT_MODELS,
+                Weapons = SQUAT_WEAPONS,
+                ForceModels = true,
+                MaxHealth = 1000,
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+            {
+                Name = "Ratling",
+                Core = true,
+                Models = {"models/dizcordum/abhumans/ratling.mdl"},
+                Weapons = {"cat_custom_sniper"},
+                MaxHealth = 300,
+                ForceModels = true,
+                SpawnWeapons = {"realistic_hook"},
+                Prefix = ""
+            },
+            {
+                Name = "Adeptus Mechanicus",
+                Core = true,
+                Models = ADMECH_MODELS,
+                Weapons = ADMECH_WEAPONS,
+                MaxHealth = 1000,
+                ForceModels = true,
+                atomic = true,
+                SpawnWeapons = {"weapon_healer","ent_spawner"},
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -522,32 +518,188 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
+                        name = "Servo Skull",
+                        entityname = "servoskull",
+                        description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.",
+                        type = "Skull"
+                    },
+                    {
+                        name = "Plasma Reactor",
+                        entityname = "nuclear_reactor",
+                        description = "A powerful energy source. Must be handled with care.",
+                        type = "Reactor"
+                    }
+                },
+                Prefix = ""
+            },
+            {
+                Name = "Lord General",
+                Core = true,
+                Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_powersabre"},
+                MaxHealth = 1500,
+                PowerShield = true,
+                ForceModels = true,
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            },
+            {
+                Name = "Commissar",
+                Core = true,
+                Models = {"models/krig_commissar.mdl","models/wk/comm/wk_comm.mdl","models/wk/comm/wk_comm_cadet.mdl","models/wk/comm/wk_comm_cadet_fm.mdl","models/wk/comm/wk_comm_fm.mdl","models/wk/comm/wk_comm_high.mdl"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword"},
+                MaxHealth = 1000,
+                PowerShield = true,
+                ForceModels = true,
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            },
+            {
+                Name = "Inquisitorial Agent",
+                Core = true,
+                Models = {"models/madorthene/navisimperialis.mdl","models/madorthene/navisimperialis2.mdl"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword"},
+                MaxHealth = 1000,
+                PowerShield = true,
+                ForceModels = true,
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            }
+        }
+    },
+    ["11th Kasrkin Wardens"] = {
+        NiceName = "11th Kasrkin Wardens",
+        Description = "The 11th Kasrkin Wardens are the Imperium's shield, forged in the fires of Cadia to stand steadfast against any foe. Cadia Stands!",
+        Team = "imperium",
+        Ranks = {
+            {ID = 1, Name = "Veteran", Rank_Prefix = "VET", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 2, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 3, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+            {ID = 4, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+        },
+        Classes = {
+            {
+                Name = "Kasrkin",
+                Default = true,
+                Models = {},
+                Weapons = {},
+                MaxHealth = 1000,
+                SpawnWeapons = {"jet_mk1"},
+                Prefix = ""
+            },
+            {
+                Name = "Kasrkin Medic",
+                Core = true,
+                Medic = true,
+                MaxHealth = 1000,
+                Models = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_med.mdl"},
+                Weapons = {},
+                ForceModels = true,
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer","jet_mk1"},
+                Prefix = "MD",
+                EntitySpawner = {
+                    {
+                        name = "Medical Box",
+                        entityname = "medic_box",
+                        description = "Used to let your soldiers heal themselves!",
+                        type = "Medic Box"
+                    }
+                },
+            },
+            {
+                Name = "Kasrkin Weapon Specialist",
+                Core = true,
+                Models = {},
+                MaxHealth = 1000,
+                Weapons = {"cat_custom_grenadelauncher","jet_mk1"},
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "WS",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                },
+            },
+            {
+                Name = "Kasrkin Vox Caster",
+                Core = true,
+                Radio = true,
+                Models = {},
+                MaxHealth = 1000,
+                Weapons = {},
+                SpawnWeapons = {"ent_spawner","jet_mk1"},
+                EntitySpawner = {
+                    {
                         name = "Radio",
                         entityname = "newboombox",
                         description = "Play some Music!",
                         type = "Radio"
                     }
                 },
-                Prefix = "RO"
-            },
+                Prefix = "VC",
+            }
+        }
+    },
+    ["11th Cadian Storm Guards"] = {
+        NiceName = "11th Cadian Storm Guards",
+        Description = "The 11th Cadian Storm Guards are the Imperium's shield, forged in the fires of Cadia to stand steadfast against any foe. Cadia Stands!",
+        Team = "imperium",
+        Ranks = {
+            {ID = 1, Name = "Whiteshield", Rank_Prefix = "RCT", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
+            {ID = 2, Name = "Guardsman", Rank_Prefix = "GDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
+            {ID = 3, Name = "Veteran Guardsman", Rank_Prefix = "VGDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 4, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 5, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 6, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 7, Name = "Colour Sergeant", Rank_Prefix = "CSGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 8, Name = "Sergeant Major", Rank_Prefix = "SGTM", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 9, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = CADIAN_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
+            {ID = 10, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
+            {ID = 11, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
+        },
+        Classes = {
             {
-                Name = "Machine Gunner",
-                Core = true,
+                Name = "Guardsman",
+                Default = true,
                 Models = {},
-                RoleMax = 5,
-                Max = 15,
-                Weapons = {"doi_atow_bren"},
+                Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "MG"
+                Prefix = ""
             },
             {
                 Name = "Medic",
                 Core = true,
                 Medic = true,
-                RoleMax = 5,
-                Max = 15,
-                Models = {},
+                Models = {"models/vintagethief/11th_imperial_guard/11th_med_kmd_grey.mdl","models/vintagethief/11th_imperial_guard/11th_med_grey.mdl"},
                 Weapons = {},
+                ForceModels = true,
                 SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
                 Prefix = "MD",
                 EntitySpawner = {
@@ -556,132 +708,16 @@ DivisionTypes = {
                         entityname = "medic_box",
                         description = "Used to let your soldiers heal themselves!",
                         type = "Medic Box"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
                     }
                 },
             },
             {
-                Name = "Engineer",
+                Name = "Heavy Weapons",
                 Core = true,
-                Create_Outposts = true,
-                Models = {},
-                RoleMax = 6,
-                Max = 15,
-                Weapons = {"weapon_simmines"},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker","rope_tool"},
-                Fortifications = {
-                    {name = "Bunker", model = "models/props_phx/misc/bunker01.mdl"},
-                    {name = "Tank Trap", model = "models/fortification collection/hedgehog_big.mdl"},
-                    {name = "Dragons Teeth", model = "models/fortification collection/dragons_teeth_small.mdl"},
-                    {name = "Hay Bale", model = "models/props_farm/ah_round_hay_bale001.mdl"},
-                    {name = "Concrete Tube", model = "models/props_trenches/r_concretetube.mdl"},
-                    {name = "Stone Wall", model = "models/props_fences/ah_stone_wall_256.mdl"},
-                    {name = "Shooting Door", model = "models/props_interior/s_door02.mdl"},
-		    {name = "Trench Bunker", model = "models/fortification collection/trench_free_a_double.mdl"},
-		    {name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
-		    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
-		    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
-		    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
-		    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
-                },
-                Prefix = "ENG",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Vickers tripod",
-                        entityname = "gred_emp_vickers",
-                        description = "Vickers fixed on an Tripod. Good for defending areas against waves of Infantry",
-                        type = "Machine Gun"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-	            vehicles = {
-                    {
-                        name = "Willys MB",
-                        entityname = "sim_fphys_codww2jeep",
-                        description = "The Iconic Willys Jeep. 3 Seats.",
-                        type = "Small Vehicles"
-                    }
-                }
-            },
-            {
-                Name = "Artillery",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
-                Prefix = "ARTY",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "M2A1 105mm Howitzer",
-                        entityname = "gred_emp_m2a1",
-                        description = "105mm Howitzer, good for dealing with grouped up infantry and such",
-                        type = "Artillery"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                }
-            },
-            {
-                Name = "Special Air Service",
-                Core = true,
-                Models = {},
-                RoleMax = 5,
-                Max = 5,
-                Attachments = {"doi_atow_bhpextmag","doi_atow_stensuppressor","doi_atow_unisuppressor","doi_atow_thompson50rnd"},
-                Weapons = {"doi_atow_sten","doi_atow_browninghp"},
-                SpawnWeapons = {"rope_tool","hide_player"},
-                Prefix = "SAS",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                }
-            },
-            {
-                Name = "Grenadier",
-                Core = true,
-                Models = {},
-                RoleMax = 3,
-                Max = 3,
-                Attachments = {"md_glsmle","md_gltromb"},
-                Weapons = {"cw_smle","doi_atow_browninghp","ig_n69"},
+                Models = {"models/vintagethief/11th_imperial_guard/11th_hwt_grey.mdl","models/vintagethief/11th_imperial_guard/11th_swt_grenade_grey.mdl"},
+                Weapons = {"cat_custom_missilelauncher","cat_custom_laspistol"},
                 SpawnWeapons = {"ent_spawner"},
-                Prefix = "GRN",
+                Prefix = "HW",
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -689,45 +725,40 @@ DivisionTypes = {
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     },
+                },
+            },
+            {
+                Name = "Weapon Specialist",
+                Core = true,
+                Models = {"models/vintagethief/11th_imperial_guard/11th_swt_flamer_grey.mdl","models/vintagethief/11th_imperial_guard/11th_ws_grey.mdl"},
+                Weapons = {"cat_custom_grenadelauncher","cat_custom_laspistol"},
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "WS",
+                EntitySpawner = {
                     {
-                        name = "Rifle Grenades",
-                        entityname = "cw_ammo_40mm",
-                        description = "A box of Rifle Grenades",
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
                         type = "Ammo"
                     },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                }
+                },
             },
             {
-                Name = "Sniper",
+                Name = "Scout",
                 Core = true,
-                Models = {},
-		RoleMax = 4,
-		Max = 6,
-		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy","md_carcano_scope4x", "md_carcano_scope7x", "md_carcano_scope78x"},
-                Weapons = {"doi_atow_enfield"},
-                SpawnWeapons = {},
-                Prefix = "SNI",
+                Models = {"models/vintagethief/11th_imperial_guard/11th_swt_sniper_grey.mdl","models/vintagethief/11th_imperial_guard/11th_razvedka_grey.mdl"},
+                Weapons = {"cat_custom_longlas"},
+                SpawnWeapons = {"realistic_hook"},
+                Prefix = "SC",
             },
             {
-                Name = "Mechanized",
+                Name = "Vox Caster",
                 Core = true,
-                Models = {},
+                Radio = true,
+                Models = {"models/vintagethief/11th_imperial_guard/11th_vet_vox_grey.mdl","models/vintagethief/11th_imperial_guard/11th_vox_grey.mdl"},
                 Weapons = {},
-                SpawnWeapons = {"weapon_simrepair","rope_tool","ent_spawner"},
-                Prefix = "MECH",
+                SpawnWeapons = {"ent_spawner"},
                 EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
                     {
                         name = "Radio",
                         entityname = "newboombox",
@@ -735,70 +766,33 @@ DivisionTypes = {
                         type = "Radio"
                     }
                 },
-                vehicles = {
-                    {
-                        name = "GMC Truck",
-                        entityname = "simfphys_cbww2_cckw6x6",
-                        description = "Deuce and a Half. 6x6 transport. Backbone of logistics.",
-                        type = "Trucks"
-                    },
-                    {
-                        name = "Willys Jeep",
-                        entityname = "sim_fphys_codww2jeep",
-                        description = "Iconic 4x4. Fast, nimble, reliable across any terrain.",
-                        type = "Small Vehicles"
-                    },
-                    {
-                        name = "Dodge WC54",
-                        entityname = "wc54",
-                        description = "Command car. Light utility with winch. Used by officers.",
-                        type = "Trucks"
-                    },
-                    {
-                        name = "AEC Mk2",
-                        entityname = "simfphys_aecmk2",
-                        description = "The AEC Mk II Armoured Car was a British World War II vehicle combining the mobility of an armored car with the firepower of a light tank",
-                        type = "Armed Mechanized Vehicles"
-                    },
-                    {
-                        name = "M20 Scout APC",
-                        entityname = "simfphys_m20",
-                        description = "M8 greyhound chassis with an 50. cal mounted ontop instead of the usual 37mm m3 cannon. Highly mobile and deadly to infantry.",
-                        type = "Mechanized Vehicles"
-                    },
-                    {
-                        name = "M3 Scout Car",
-                        entityname = "m3scout",
-                        description = "Mechanized Half Track with a mounted 30 cal.",
-                        type = "Mechanized Vehicles"
-                    }
-                }
+                Prefix = "VC",
             }
         }
     },
-    ["US Division"] = {
-        Team = "allies",
-        Description = "The Giant of the War, the United States Army is known for its massive numbers, firepower, and Sherman support. The time of liberation is at hand, as Hundreds of thousands of American soldiers are ready to fight for freedom.",
+    ["236th Death Korps of Krieg"] = {
+        NiceName = "236th Death Korps of Krieg",
+        Prefix = "236th",
+        Color = Color(50, 50, 50, 255),
+        Description = "Hardened siege specialists from the Death World of Krieg. The 236th are experts in attrition warfare and unyielding assaults, fighting without fear for death is their duty.",
+        Default = false,
+        Team = "imperium",
         Ranks = {
-            {ID = 1, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = US_ENLISTED_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 2, Name = "Private First Class", Rank_Prefix = "PFC", ModelsAllowed = US_ENLISTED_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 3, Name = "Technical Corporal", Rank_Prefix = "TCPL", ModelsAllowed = US_ENLISTED_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = US_ENLISTED_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 7, Name = "Technical Sergeant ", Rank_Prefix = "TSGT", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 8, Name = "First Sergeant", Rank_Prefix = "1SGT", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 9, Name = "Master Sergeant", Rank_Prefix = "MSGT", ModelsAllowed = US_NCO_MODELS, WeaponsAllowed = US_LOADOUT},
-            {ID = 10, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
-            {ID = 11, Name = "First Lieutenant", Rank_Prefix = "1LT", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
-            {ID = 12, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
-            {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
-            {ID = 14, Name = "Lieutenant Colonel", Rank_Prefix = "LTCOL", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT},
-            {ID = 15, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = US_CO_MODEL, WeaponsAllowed = US_LOADOUT}
+            {ID = 1, Name = "Conscript", Rank_Prefix = "CNS", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
+            {ID = 2, Name = "Korpsman", Rank_Prefix = "KRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
+            {ID = 3, Name = "Senior Korpsman", Rank_Prefix = "SKRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 4, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 5, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 6, Name = "Watchmaster", Rank_Prefix = "WM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 7, Name = "Senior Watchmaster", Rank_Prefix = "SWM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 8, Name = "Quartermaster", Rank_Prefix = "QM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 9, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
+            {ID = 10, Name = "Kaptain", Rank_Prefix = "KPT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
+            {ID = 11, Name = "Marshal", Rank_Prefix = "MAJ", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
         },
         Classes = {
             {
-                Name = "Rifleman",
+                Name = "Guardsman",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -806,43 +800,62 @@ DivisionTypes = {
                 Prefix = ""
             },
             {
-                Name = "Military Police",
-                Core = true,
-                Models = {"models/hts/comradebear/pm0v3/player/usarmy/militarypolice/en/m41_s1_01.mdl"},
-                Weapons = {"doi_atow_m1a1carbine"},
-                SpawnWeapons = {"weapon_cuff_rope"},
-                Prefix = "MP"
-            },
-            {
-                Name = "Machine Gunner",
-                Core = true,
-                Models = {},
-                RoleMax = 6,
-                Max = 15,
-                Weapons = {"doi_atow_m1919a6"},
-                SpawnWeapons = {},
-                Prefix = "MG"
-            },
-            {
                 Name = "Medic",
                 Core = true,
                 Medic = true,
-                RoleMax = 5,
-                Max = 15,
-                Models = {},
+                Models = {"models/krig_medic.mdl"},
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak","weapon_healer"},
-                Prefix = "MD"
+                ForceModels = true,
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
+                Prefix = "MD",
+                EntitySpawner = {
+                    {
+                        name = "Medical Box",
+                        entityname = "medic_box",
+                        description = "Used to let your soldiers heal themselves!",
+                        type = "Medic Box"
+                    }
+                },
             },
             {
-                Name = "Engineer",
+                Name = "Heavy Weapons",
                 Core = true,
-                Create_Outposts = true,
                 Models = {},
-                RoleMax = 5,
-                Max = 15,
-                Weapons = {"weapon_simmines"},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner","rope_tool"},
+                Weapons = {"cat_custom_missilelauncher","cat_custom_laspistol"},
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "HW",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                },
+            },
+            {
+                Name = "Weapon Specialist",
+                Core = true,
+                Models = {},
+                Weapons = {"cat_custom_grenadelauncher","cat_custom_laspistol"},
+                SpawnWeapons = {"ent_spawner"},
+                Prefix = "WS",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                },
+            },
+            {
+                Name = "Siege Engineer",
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+                Prefix = "ENG",
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
                     {name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
@@ -852,782 +865,18 @@ DivisionTypes = {
                     {name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
                     {name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
                     {name = "Sandbags Line 2 Tall", model = "models/props_fortifications/sandbags_line2_tall.mdl"},
-		    {name = "Trench Bunker", model = "models/fortification collection/trench_free_a_double.mdl"},
-		    {name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
-		    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
-		    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
-		    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
-		    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
-                },
-                Prefix = "ENG",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "M2 Browning tripod",
-                        entityname = "gred_emp_m2",
-                        description = "M2 Browning fixed on an Tripod. Good for defending areas against waves of Infantry",
-                        type = "Machine Gun"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-	            vehicles = {
-                    {
-                        name = "Willys MB",
-                        entityname = "sim_fphys_codww2jeep",
-                        description = "The Iconic Willys Jeep. 3 Seats.",
-                        type = "Small Vehicles"
-                    },
-                    {
-                        name = "Mobile Outpost",
-                        entityname = "m3scoutoutpost",
-                        description = "Unweaponized scout car for mobile reinforcements.",
-                        type = "Mobile Outpost"
-                    }
-                }
-            },
-            {
-                Name = "Flamethrower",
-                Core = true,
-                Models = {},
-                RoleMax = 2,
-                Max = 2,
-                Weapons = {"weapon_m2_flamethrower"},
-                SpawnWeapons = {},
-                Prefix = "FLM",
-            },
-            {
-                Name = "Automatic Rifleman",
-                Core = true,
-                Models = {},
-		RoleMax = 5,
-		Max = 12,
-		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
-                Weapons = {"doi_atow_m1a1","ig_m18"},
-                SpawnWeapons = {},
-                Prefix = "AR"
-            },
-            {
-                Name = "Tanker",
-                Core = true,
-                Models = US_TANKER_MODELS,
-                RoleMax = 9,
-                Max = 9,
-                Weapons = {},
-                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
-                Prefix = "TK",
-                vehicles = {
-                    {
-                        name = "M8 Greyhound",
-                        entityname = "m8gh",
-                        description = "Good Infantry support tank. Also used in a scout role, 37mm gun.",
-                        type = "Light Tanks"
-                    },
-                    {
-                        name = "M4A1 Sherman",
-                        entityname = "m_4rp",
-                        description = "Rounded hull. Versatile medium tank. 75mm gun.",
-                        type = "Medium Tanks"
-                    },
-                    {
-                        name = "M3A1 Stuart",
-                        entityname = "m3a1s",
-                        description = "Infantry support tank. 37mm Gun with a coaxial MG and a hull mounted MG.",
-                        type = "Light Tanks"
-                    },
-                    {
-                        name = "M4A3E2 Jumbo",
-                        entityname = "m4a_3_jumborp",
-                        description = "Heavily armored Sherman variant. Slow, tough, 76mm gun.",
-                        type = "Heavy Tanks"
-                    },
-                    {
-                        name = "Mobile Outpost",
-                        entityname = "m3scoutoutpost",
-                        description = "Unweaponized scout car for mobile reinforcements.",
-                        type = "Mobile Outpost"
-                    }
-                }
-            },
-            {
-                Name = "Logistics",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"weapon_simrepair", "rope_tool","ent_spawner"},
-                Prefix = "LOGI",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-                vehicles = {
-                    {
-                        name = "GMC Truck",
-                        entityname = "simfphys_cbww2_cckw6x6",
-                        description = "Deuce and a Half. 6x6 transport. Backbone of logistics.",
-                        type = "Trucks"
-                    },
-                    {
-                        name = "Willys Jeep",
-                        entityname = "sim_fphys_codww2jeep",
-                        description = "Iconic 4x4. Fast, nimble, reliable across any terrain.",
-                        type = "Small Vehicles"
-                    },
-                    {
-                        name = "Dodge WC54",
-                        entityname = "wc54",
-                        description = "Command car. Light utility with winch. Used by officers.",
-                        type = "Trucks"
-                    },
-                    {
-                        name = "Mobile Outpost",
-                        entityname = "m3scoutoutpost",
-                        description = "Unweaponized scout car for mobile reinforcements.",
-                        type = "Mobile Outpost"
-                    }
-                }
-            },
-            {
-                Name = "Cavalry",
-                Core = true,
-                RoleMax = 3,
-                Max = 3,
-                Models = {},
-                Weapons = {"doi_atow_sw29","atr_boys"},
-                SpawnWeapons = {"ent_spawner","rope_tool"},
-                Prefix = "CAV",
-                EntitySpawner = {
-                    {
-                        name = "Kentucky Saddler",
-                        entityname = "ent_horse_kentucky",
-                        description = "The solid horses of the Kentucky Derby, trained to resist battlefield distractions",
-                        type = "Horses"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-            },
-            {
-                Name = "Radio Operator",
-                Core = true,
-                Radio = true,
-                Models = {},
-                RoleMax = 7,
-                Max = 12,
-                Weapons = {},
-                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-                Prefix = "RO"
-            }
-        }
-    },
-    ["Wehrmacht Division"] = {
-        Team = "axis",
-        Description = "GOTT MIT UNS! The Wehrmacht is the backbone of the German Army, with millions of soldiers fighting for the Fatherland. The Wehrmacht is known for its discipline, tactics, and ideological fervor.",
-        Ranks = {
-            {ID = 1, Name = "Grenadier", Rank_Prefix = "GRN", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 2, Name = "OberGrenadier", Rank_Prefix = "OGRN", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 3, Name = "Gefreiter", Rank_Prefix = "GFR", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 4, Name = "Obergefreiter", Rank_Prefix = "OGFR", ModelsAllowed = DE_ENLISTED_MODELS, WeaponsAllowed = DE_LOADOUT}, 
-            {ID = 5, Name = "Unteroffizer", Rank_Prefix = "UFFZ", ModelsAllowed = DE_NCO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 6, Name = "Unterfeldwebel", Rank_Prefix = "UFW", ModelsAllowed = DE_NCO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 7, Name = "Feldwebel", Rank_Prefix = "FW", ModelsAllowed = DE_NCO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 8, Name = "Oberfeldwebel", Rank_Prefix = "OFW", ModelsAllowed = DE_NCO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 9, Name = "Stabsfeldwebel", Rank_Prefix = "STFW", ModelsAllowed = DE_NCO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 10, Name = "Leutnant", Rank_Prefix = "LT", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 11, Name = "Oberleutnant", Rank_Prefix = "OLT", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 12, Name = "Hauptmann", Rank_Prefix = "HPT", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 14, Name = "Oberstleutnant", Rank_Prefix = "OBTLT", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT},
-            {ID = 15, Name = "Oberst", Rank_Prefix = "OBT", ModelsAllowed = DE_CO_MODELS, WeaponsAllowed = DE_LOADOUT}
-        },
-        Classes = {
-            {
-                Name = "Rifleman",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
-            },
-            {
-                Name = "Feldgendarmerie",
-                Core = true,
-                Models = {"models/hts/comradebear/pm0v3/player/heer/feldgendarmerie/en/m40_s1_01.mdl","models/hts/comradebear/pm0v3/player/heer/feldgendarmerie/co/m38_s1_01.mdl"},
-                Weapons = {"doi_atow_g43"},
-                SpawnWeapons = {"weapon_cuff_rope"},
-                Prefix = "FGE"
-            },
-            {
-                Name = "Machine Gunner",
-                Core = true,
-                Models = {},
-                RoleMax = 6,
-                Max = 15,
-                Weapons = {"doi_atow_mg42"},
-                SpawnWeapons = {},
-                Prefix = "MG"
-            },
-            {
-                Name = "Medic",
-                Core = true,
-                Medic = true,
-                Models = {},
-                RoleMax = 5,
-                Max = 15,
-                Weapons = {},
-                SpawnWeapons = {"fas2_ifak","weapon_healer"},
-                Prefix = "MD"
-            },
-            {
-                Name = "Engineer",
-                Core = true,
-                Create_Outposts = true,
-                Models = {},
-                RoleMax = 5,
-                Max = 15,
-                Weapons = {"weapon_simmines"},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner","rope_tool"},
-                Fortifications = {
-                    {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
-                    {name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
-                    {name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
-                    {name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
-                    {name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
-                    {name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
-                    {name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
-                    {name = "Sandbags Line 2 Tall", model = "models/props_fortifications/sandbags_line2_tall.mdl"},
-		    {name = "Trench Bunker", model = "models/fortification collection/trench_free_a_double.mdl"},
-		    {name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
-		    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
-		    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
-		    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
-		    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
-                },
-                Prefix = "ENG",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "MG42 tripod",
-                        entityname = "gred_emp_mg42",
-                        description = "MG 42 mounted on a Tripod, high firerate, good for clearing out enemy infantry",
-                        type = "Machine Gun"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-	            vehicles = {
-                    {
-                        name = "Kübelwagen",
-                        entityname = "codww2kubel",
-                        description = "The Kübelwagen. 4 Seats. Simple, Reliable Utility.",
-                        type = "Small Vehicles"
-                    },
-                    {
-                        name = "Mobile Outpost",
-                        entityname = "codww2sdkfz10outpost",
-                        description = "Half track for mobile reinforcements.",
-                        type = "Mobile Outpost"
-                    }
-                }
-            },
-            {
-                Name = "Flammenwerfer",
-                Core = true,
-                Models = {},
-                RoleMax = 2,
-                Max = 2,
-                Weapons = {"weapon_flammenwerfer_35"},
-                SpawnWeapons = {},
-                Prefix = "FLM",
-            },
-            {
-                Name = "Automatic Rifleman",
-                Core = true,
-                Models = {},
-		RoleMax = 5,
-		Max = 12,
-		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
-                Weapons = {"doi_ws_atow_mp34","ig_m18"},
-                SpawnWeapons = {},
-                Prefix = "AR"
-            },
-            {
-                Name = "Tanker",
-                Core = true,
-                Models = DE_TANKER_FULL,
-                RoleMax = 9,
-                Max = 9,
-                Weapons = {},
-                SpawnWeapons = {"weapon_simrepair", "rope_tool"},
-                Prefix = "TK",
-                vehicles = {
-                    {
-                        name = "Panzer 38t",
-                        entityname = "pz-38t",
-                        description = "Light tank of Czech origin. Early war service. 37mm gun.",
-                        type = "Light Tanks"
-                    },
-                    {
-                        name = "Panzer 4H",
-                        entityname = "pz-4Hrp",
-                        description = "Workhorse medium tank. Armor skirts. 75mm high-velocity gun.",
-                        type = "Medium Tanks"
-                    },
-                    {
-                        name = "Panzer 3J",
-                        entityname = "pz-3Erp",
-                        description = "The Panzer III J was a German WWII medium tank with upgraded armor and a 50mm gun, used mainly from 1941 onward.",
-                        type = "Light Medium Tanks"
-                    },
-                    {
-                        name = "Tiger H",
-                        entityname = "pz-6rp",
-                        description = "Iconic heavy tank. Thick armor. Powerful 88mm gun.",
-                        type = "Heavy Tanks"
-                    },
-                    {
-                        name = "Mobile Outpost",
-                        entityname = "codww2sdkfz10outpost",
-                        description = "Half track for mobile reinforcements.",
-                        type = "Mobile Outpost"
-                    }
-                }
-            },
-            {
-                Name = "Logistics",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"weapon_simrepair", "rope_tool","ent_spawner"},
-                Prefix = "LOGI",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-                vehicles = {
-                    {
-                        name = "Opel Blitz",
-                        entityname = "sim_fphy_codww2opel",
-                        description = "Standard German army truck. Versatile transport. 3-ton payload.",
-                        type = "Trucks"
-                    },
-                    {
-                        name = "Kübelwagen",
-                        entityname = "codww2kubel",
-                        description = "Light utility car. Simple, air-cooled, rear-wheel drive.",
-                        type = "Small Vehicles"
-                    },
-                    {
-                        name = "Sdkfz 10",
-                        entityname = "codww2sdkfz10",
-                        description = "Half-track prime mover. Light towing. Room for troops.",
-                        type = "Trucks"
-                    },
-                    {
-                        name = "Mobile Outpost",
-                        entityname = "codww2sdkfz10outpost",
-                        description = "Half track for mobile reinforcements.",
-                        type = "Mobile Outpost"
-                    }
-                }
-            },
-            {
-                Name = "Cavalry",
-                Core = true,
-                RoleMax = 3,
-                Max = 3,
-                Models = {},
-                Weapons = {"doi_atow_sw29","pzb39"},
-                SpawnWeapons = {"ent_spawner","rope_tool"},
-                Prefix = "CAV",
-                EntitySpawner = {
-                    {
-                        name = "Dutch Goldblood",
-                        entityname = "ent_horse_dutch",
-                        description = "Brought in due to logistical shortages, these lesser Dutch horses still find some use on the battlefield.",
-                        type = "Horses"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-            },
-            {
-                Name = "Radio Operator",
-                Core = true,
-                Radio = true,
-                Models = {},
-                RoleMax = 7,
-                Max = 12,
-                Weapons = {},
-                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-                Prefix = "RO"
-            }
-        }
-    },
-    ["Fallschirmjäger Division"] = {
-        Team = "axis",
-        Description = "GOTT MIT UNS! The Wehrmacht is the backbone of the German Army, with millions of soldiers fighting for the Fatherland. The Wehrmacht is known for its discipline, tactics, and ideological fervor.",
-        Ranks = {
-            {ID = 1, Name = "Flieger", Rank_Prefix = "FLG", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 2, Name = "Gefreiter", Rank_Prefix = "GFR", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},    
-            {ID = 3, Name = "Obergefreiter", Rank_Prefix = "OGFR", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 4, Name = "Hauptgefreiter", Rank_Prefix = "HGFR", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 5, Name = "Unteroffizier", Rank_Prefix = "UFFZ", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 6, Name = "Unterfeldwebel", Rank_Prefix = "UFW", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 7, Name = "Feldwebel", Rank_Prefix = "FW", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 8, Name = "Oberfeldwebel", Rank_Prefix = "OFW", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 9, Name = "StabsFeldwebel", Rank_Prefix = "STFW", ModelsAllowed = FM_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 10, Name = "Leutnant", Rank_Prefix = "LT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 11, Name = "Oberleutnant", Rank_Prefix = "OLT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 12, Name = "Hauptmann", Rank_Prefix = "HPT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 14, Name = "Oberstleutnant", Rank_Prefix = "OBLT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT},
-            {ID = 15, Name = "Oberst", Rank_Prefix = "OBT", ModelsAllowed = FM_CO_MODELS, WeaponsAllowed = FM_LOADOUT}
-        },
-        Classes = {
-            {
-                Name = "Rifleman",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
-            },
-            {
-                Name = "Machine Gunner",
-                Core = true,
-                Models = {},
-                RoleMax = 4,
-                Max = 15,
-                Weapons = {"doi_atow_mg34"},
-                SpawnWeapons = {},
-                Prefix = "MG"
-            },
-            {
-                Name = "Medic",
-                Core = true,
-                Medic = true,
-                Models = {},
-                RoleMax = 5,
-                Max = 15,
-                Weapons = {},
-                SpawnWeapons = {"fas2_ifak","weapon_healer"},
-                Prefix = "MD"
-            },
-            {
-                Name = "Sniper",
-                Core = true,
-                Models = {},
-		RoleMax = 2,
-		Max = 6,
-		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy","md_carcano_scope4x", "md_carcano_scope7x", "md_carcano_scope78x"},
-                Weapons = {"doi_atow_k98k"},
-                SpawnWeapons = {},
-                Prefix = "SNI",
-            },
-            {
-                Name = "Spy",
-		Spy = true,
-                Core = true,
-                Models = {},
-		RoleMax = 1,
-		Max = 1,
-		Attachments = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "SPY",
-            },	
-            {
-                Name = "Engineer",
-                Core = true,
-                Create_Outposts = true,
-                Models = {},
-                RoleMax = 4,
-                Max = 15,
-                Weapons = {"weapon_simmines"},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner", "rope_tool"},
-                Fortifications = {
-                    {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
-                    {name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
-                    {name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
-                    {name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
-                    {name = "Wooden Wall Short", model = "models/props_fences/gate02.mdl"},
-                    {name = "Wooden Stairs", model = "models/hunter/misc/stair1x1.mdl"},
-		    {name = "Barbed Wire", model = "models/fortification collection/barbed_wire3.mdl"},
-		    {name = "Barbed Fence", model = "models/fortification collection/barbed_wire2.mdl"},
-                },
-                Prefix = "ENG",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "MG34 tripod",
-                        entityname = "gred_emp_mg34",
-                        description = "MG 34 mounted on a Tripod, good firerate, good for clearing out enemy infantry",
-                        type = "Machine Gun"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-	            vehicles = {
-                    {
-                        name = "Kübelwagen",
-                        entityname = "codww2kubel",
-                        description = "The Kübelwagen. 4 Seats. Simple, Reliable Utility.",
-                        type = "Small Vehicles"
-                    }
-                }
-            },
-            {
-                Name = "Anti Tank",
-                Core = true,
-                Models = {},
-                RoleMax = 3,
-                Max = 3,
-                Weapons = {"tankgewehr","doi_panzerschreck"},
-                SpawnWeapons = {},
-                Prefix = "AT",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                }
-            },
-            {
-                Name = "Pathfinder",
-                Core = true,
-                Models = {},
-                RoleMax = 2,
-                Max = 2,
-		Attachments = {"doi_atow_lymanm82","doi_atow_m2carbineconv","doi_atow_zfg42"},
-                Weapons = {"doi_atow_fg42"},
-                SpawnWeapons = {"paradrop_murlock"},
-	            vehicles = {
-                    {
-                        name = "BMW R75",
-                        entityname = "sim_fphys_r75ww2tf",
-                        description = "The famous BMW R75 motorcycle, fast and reliable.",
-                        type = "Motercycles"
-                    },
-                    {
-                        name = "BMW R75 Sidecar",
-                        entityname = "sim_fphys_ww2r75sc",
-                        description = "The famous BMW R75 motorcycle, fast and reliable. With a sidecar for an extra passenger.",
-                        type = "Motercycles"
-                    }
-                },
-                Prefix = "PF",
-            },
-            {
-                Name = "Automatic Rifleman",
-                Core = true,
-                Models = {},
-                RoleMax = 7,
-                Max = 12,
-                Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
-                Weapons = {"doi_atow_stg44","ig_m18"},
-                SpawnWeapons = {},
-                Prefix = "AR"
-            },
-            {
-                Name = "Radio Operator",
-                Core = true,
-                Radio = true,
-                Models = {},
-                RoleMax = 7,
-                Max = 12,
-                Weapons = {},
-                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-                Prefix = "RO"
-            },
-            {
-                Name = "Logistics",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"weapon_simrepair","rope_tool","ent_spawner"},
-                Prefix = "LOGI",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-                vehicles = {
-                    {
-                        name = "Opel Blitz",
-                        entityname = "sim_fphy_codww2opel",
-                        description = "Standard German army truck. Versatile transport. 3-ton payload.",
-                        type = "Trucks"
-                    },
-                    {
-                        name = "Kübelwagen",
-                        entityname = "codww2kubel",
-                        description = "Light utility car. Simple, air-cooled, rear-wheel drive.",
-                        type = "Small Vehicles"
-                    },
-                    {
-                        name = "Sdkfz 10",
-                        entityname = "codww2sdkfz10",
-                        description = "Half-track prime mover. Light towing. Room for troops.",
-                        type = "Trucks"
-                    }
-                }
-            }
-        },
-    },
-    ["Italian Division"] = {
-        Team = "axis",
-        Description = "Italian divisions were known for strong mountain infantry units (Alpini), large numbers of troops, and service in difficult terrains such as North Africa and the Balkans. ",
-        Ranks = {
-            {ID = 1, Name = "Soldato", Rank_Prefix = "SLO", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 2, Name = "Soldato Scelto", Rank_Prefix = "SSCLE", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 3, Name = "Caporale", Rank_Prefix = "CPL", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 4, Name = "Caporale Maggiore", Rank_Prefix = "CPLM", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 5, Name = "Sergente", Rank_Prefix = "SGT", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 6, Name = "Sergente Maggiore", Rank_Prefix = "SGTM", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 7, Name = "Maresciallo Ordinario", Rank_Prefix = "MASO", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 8, Name = "Marsciallo Capo", Rank_Prefix = "MASC", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 9, Name = "Marsciallo Maggiore", Rank_Prefix = "MASM", ModelsAllowed = ITALY_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 10, Name = "Tenente", Rank_Prefix = "TEN", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 11, Name = "Primo Tenente", Rank_Prefix = "PTEN", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 12, Name = "Capitano", Rank_Prefix = "CPT", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 13, Name = "Maggiore", Rank_Prefix = "MAJ", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 14, Name = "Tenente Colonello", Rank_Prefix = "TENCOL", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT},
-            {ID = 15, Name = "Colonello", Rank_Prefix = "COL", ModelsAllowed = ITALY_CO_MODELS, WeaponsAllowed = ITALY_LOADOUT}
+                    {name = "Trench Bunker", model = "models/fortification collection/trench_free_a_double.mdl"},
+                    {name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
+                    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
+                    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
+                    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
+                    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
+                    {name = "Steel Barricade 4", model = "models/arne3d/barricades/steelbarricade4.mdl"},
+                    {name = "Steel Barricade 3", model = "models/arne3d/barricades/steelbarricade3.mdl"},
+                    {name = "Steel Barricade 2", model = "models/arne3d/barricades/steelbarricade2.mdl"},
+                    {name = "Steel Barricade 1", model = "models/arne3d/barricades/steelbarricade1.mdl"}
 
-        },
-        Classes = {
-            {
-                Name = "Rifleman",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
-            },
-            {
-                Name = "Radio Operator",
-                Core = true,
-                Radio = true,
-                Models = {},
-                RoleMax = 7,
-                Max = 12,
-                Weapons = {},
-                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
+                },
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -1636,305 +885,27 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-                Prefix = "RO"
-            },
-            {
-                Name = "Machine Gunner",
-                Core = true,
-                Models = {},
-                RoleMax = 5,
-                Max = 15,
-                Weapons = {"breda30"},
-                SpawnWeapons = {},
-                Prefix = "MG"
-            },
-            {
-                Name = "Medic",
-                Core = true,
-                Medic = true,
-                Models = {},
-                RoleMax = 5,
-                Max = 15,
-                Weapons = {},
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
-                Prefix = "MD",
-                EntitySpawner = {
-                    {
-                        name = "Medical Box",
-                        entityname = "medic_box",
-                        description = "Used to let your soldiers heal themselves!",
-                        type = "Medic Box"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-            },
-            {
-                Name = "Engineer",
-                Core = true,
-                Create_Outposts = true,
-                Models = {},
-                Max = 6,
-                RoleMax = 15,
-                Weapons = {"weapon_simmines"},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","outpost_maker","rope_tool"},
-                Fortifications = {
-                    {name = "Bunker", model = "models/props_phx/misc/bunker01.mdl"},
-                    {name = "Tank Trap", model = "models/fortification collection/hedgehog_big.mdl"},
-                    {name = "Dragons Teeth", model = "models/fortification collection/dragons_teeth_small.mdl"},
-                    {name = "Hay Bale", model = "models/props_farm/ah_round_hay_bale001.mdl"},
-                    {name = "Concrete Tube", model = "models/props_trenches/r_concretetube.mdl"},
-                    {name = "Stone Wall", model = "models/props_fences/ah_stone_wall_256.mdl"},
-                    {name = "Shooting Door", model = "models/props_interior/s_door02.mdl"},
-		    {name = "Trench Bunker", model = "models/fortification collection/trench_free_a_double.mdl"},
-		    {name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
-		    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
-		    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
-		    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
-		    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
-                },
-                Prefix = "ENG",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "MG42 tripod",
-                        entityname = "gred_emp_mg42",
-                        description = "MG 42 mounted on a Tripod, high firerate, good for clearing out enemy infantry",
-                        type = "Machine Gun"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-	            vehicles = {
-                    {
-                        name = "Kübelwagen",
-                        entityname = "codww2kubel",
-                        description = "The Kübelwagen. 4 Seats. Simple, Reliable Utility.",
-                        type = "Small Vehicles"
-                    }
-                }
-            },
-            {
-                Name = "Artillery",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
-                Prefix = "ARTY",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Lefh18 105mm Howitzer",
-                        entityname = "gred_emp_lefh18",
-                        description = "105mm Howitzer, good for dealing with grouped up infantry and such",
+                        name = "Field Cannon",
+                        entityname = "sent_40k_fieldcannon",
+                        description = "A powerful field cannon of Krieg.",
                         type = "Artillery"
                     },
                     {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                }
-            },
-            {
-                Name = "Arditi",
-                Core = true,
-                Models = {"models/italianelite/italianelite.mdl"},
-                RoleMax = 5,
-                Max = 5,
-                Attachments = {"doi_atow_bhpextmag","doi_atow_stensuppressor","doi_atow_unisuppressor","doi_atow_thompson50rnd"},
-                Weapons = {"doi_atow_mp40","doi_atow_browninghp"},
-                SpawnWeapons = {"rope_tool","hide_player"},
-                Prefix = "ARD",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                }
-            },
-            {
-                Name = "Grenadier",
-                Core = true,
-                Models = {},
-                RoleMax = 3,
-                Max = 3,
-                Attachments = {"md_glsmle","md_gltromb"},
-                Weapons = {"cw_tromboncino","doi_atow_browninghp","cw_srcm"},
-                SpawnWeapons = {"ent_spawner"},
-                Prefix = "GRN",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Rifle Grenades",
-                        entityname = "cw_ammo_40mm",
-                        description = "A box of Rifle Grenades",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                }
-            },
-           {
-                Name = "Sniper",
-                Core = true,
-                Models = {},
-		RoleMax = 4,
-		Max = 6,
-		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy","md_carcano_scope4x", "md_carcano_scope7x", "md_carcano_scope78x"},
-                Weapons = {"cw_carcanom91"},
-                SpawnWeapons = {},
-                Prefix = "SNI",
-            },
-            {
-                Name = "Mechanized",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"weapon_simrepair","rope_tool","ent_spawner"},
-                Prefix = "MECH",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
+                        name = "Siege Cannon",
+                        entityname = "or_gun_platform_artillery",
+                        description = "Huge Siege Cannon of Krieg. WARNING: VERY LARGE!",
+                        type = "Artillery"
                     }
                 },
-                vehicles = {
-                    {
-                        name = "Opel Blitz",
-                        entityname = "sim_fphy_codww2opel",
-                        description = "Standard German army truck. Versatile transport. 3-ton payload.",
-                        type = "Trucks"
-                    },
-                    {
-                        name = "Kübelwagen",
-                        entityname = "codww2kubel",
-                        description = "Light utility car. Simple, air-cooled, rear-wheel drive.",
-                        type = "Small Vehicles"
-                    },
-                    {
-                        name = "Lanzia 1ZM",
-                        entityname = "simfphys_Lancia1ZM",
-                        description = "What is this thing?",
-                        type = "Mechanized Vehicles"
-                    },
-                    {
-                        name = "Sdkfz 251.",
-                        entityname = "halftrackmg",
-                        description = "Notorious Mechanized Troop transport. Resilient, MG42 mounted on top. Fritz car",
-                        type = "Mechanized Vehicles"
-                    },
-                    {
-                        name = "AB43 Scout Car",
-                        entityname = "simfphys_ab43",
-                        description = "The Autoblindo AB43 was a light armored car developed by Italy during World War II, serving primarily with the Italian and later German forces. It was an evolution of the earlier AB41 model, offering improvements in engine power and overall performance.",
-                        type = "Armed Mechanized Vehicles"
-                    },
-                    {
-                        name = "Sdkfz 10",
-                        entityname = "codww2sdkfz10",
-                        description = "Half-track prime mover. Light towing. Room for troops.",
-                        type = "Trucks"
-                    }
-                }
-            }
-        },
-    },
-    ["US Airborne Division"] = {
-        Team = "allies",
-        Description = "On D-Day, the US Airborne Division dropped behind enemy lines to secure key objectives and disrupt German communications. US Airborne Divisions are trained to fight in the most difficult conditions, and some of the best soldiers in the US Army.",
-        Ranks = {
-            {ID = 1, Name = "Private", Rank_Prefix = "PVT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 2, Name = "Private First Class", Rank_Prefix = "PFC", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 3, Name = "Technical Corporal", Rank_Prefix = "TCPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 4, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 5, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 6, Name = "Staff Sergeant", Rank_Prefix = "SSGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 7, Name = "Technical Sergeant", Rank_Prefix = "TSGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 8, Name = "First Sergeant", Rank_Prefix = "1SGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 9, Name = "Master Sergeant", Rank_Prefix = "MSGT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 10, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 11, Name = "First Lieutenant", Rank_Prefix = "1LT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 12, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 14, Name = "Lieutenant Colonel", Rank_Prefix = "LTCOL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT},
-            {ID = 15, Name = "Colonel", Rank_Prefix = "COL", ModelsAllowed = AIRBORN_MODELS, WeaponsAllowed = AIRBORN_LOADOUT}
-        },
-        Classes = {
-            {
-                Name = "Rifleman",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
             },
             {
-                Name = "Radio Operator",
+                Name = "Vox Caster",
                 Core = true,
                 Radio = true,
                 Models = {},
-                RoleMax = 7,
-                Max = 12,
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","gred_emp_binoculars"},
+                SpawnWeapons = {"ent_spawner"},
                 EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
                     {
                         name = "Radio",
                         entityname = "newboombox",
@@ -1942,258 +913,70 @@ DivisionTypes = {
                         type = "Radio"
                     }
                 },
-                Prefix = "RO"
-            },
-            {
-                Name = "Machine Gunner",
-                Core = true,
-                Models = {},
-                RoleMax = 4,
-                Max = 15,
-                Weapons = {"doi_atow_m1919a6"},
-                SpawnWeapons = {},
-                Prefix = "MG"
-            },
-            {
-                Name = "Medic",
-                Core = true,
-                Medic = true,
-                Models = {},
-                RoleMax = 5,
-                Max = 15,
-                Weapons = {},
-                SpawnWeapons = {"fas2_ifak","weapon_healer"},
-                Prefix = "MD"
-            },
-           {
-                Name = "Sniper",
-                Core = true,
-                Models = {},
-		RoleMax = 2,
-		Max = 6,
-		Attachments = {"doi_atow_zf4","doi_atow_zf39","doi_atow_unertl","doi_atow_wina5","doi_atow_m73","doi_atow_no32","am_atow_heavy","md_carcano_scope4x", "md_carcano_scope7x", "md_carcano_scope78x"},
-                Weapons = {"doi_atow_m1903a3"},
-                SpawnWeapons = {},
-                Prefix = "SNI",
-            },
-            {
-                Name = "Spy",
-		Spy = true,
-                Core = true,
-                Models = {},
-		RoleMax = 1,
-		Max = 1,
-		Attachments = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "SPY",
-            },	
-            {
-                Name = "Engineer",
-                Core = true,
-                Create_Outposts = true,
-                Models = {},
-                RoleMax = 4,
-                Max = 15,
-                Weapons = {"weapon_simmines"},
-                SpawnWeapons = {"alydus_fortificationbuildertablet", "ent_spawner","rope_tool"},
-                Fortifications = {
-                    {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
-                    {name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
-                    {name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
-                    {name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
-                    {name = "Wooden Wall Short", model = "models/props_fences/gate02.mdl"},
-                    {name = "Wooden Stairs", model = "models/hunter/misc/stair1x1.mdl"},
-		    {name = "Barbed Wire", model = "models/fortification collection/barbed_wire3.mdl"},
-		    {name = "Barbed Fence", model = "models/fortification collection/barbed_wire2.mdl"},
-                },
-                Prefix = "ENG",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "M2 Browning tripod",
-                        entityname = "gred_emp_m2",
-                        description = "M2 Browning fixed on an Tripod. Good for defending areas against waves of Infantry",
-                        type = "Machine Gun"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-	            vehicles = {
-                    {
-                        name = "Willys MB",
-                        entityname = "sim_fphys_codww2jeep",
-                        description = "The Iconic Willys Jeep. 3 Seats.",
-                        type = "Small Vehicles"
-                    }
-                }
-            },
-            {
-                Name = "Anti Tank",
-                Core = true,
-                Models = {},
-                RoleMax = 3,
-                Max = 3,
-                Weapons = {"wz35","doi_bazooka"},
-                SpawnWeapons = {},
-                Prefix = "AT",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                }
-            },
-            {
-                Name = "Pathfinder",
-                Core = true,
-                Models = {},
-                RoleMax = 2,
-                Max = 2,
-		Attachments = {"doi_atow_lymanm82","doi_atow_m2carbineconv","doi_atow_zfg42"},
-                Weapons = {"doi_atow_m1carbine"},
-                SpawnWeapons = {"paradrop_murlock"},
-                Prefix = "PF",
-	            vehicles = {
-                    {
-                        name = "Indian 841",
-                        entityname = "indian",
-                        description = "The Indian 841 motorcycle, fast and reliable.",
-                        type = "Motercycles"
-                    }
-                }
-            },
-            {
-                Name = "Automatic Rifleman",
-                Core = true,
-                Models = {},
-		RoleMax = 7,
-		Max = 12,
-		Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
-                Weapons = {"doi_atow_m1carbine","ig_m18"},
-                SpawnWeapons = {},
-                Prefix = "AR"
-            },
-            {
-                Name = "Logistics",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"weapon_simrepair","rope_tool","ent_spawner"},
-                Prefix = "LOGI",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-                vehicles = {
-                    {
-                        name = "GMC Truck",
-                        entityname = "simfphys_cbww2_cckw6x6",
-                        description = "Deuce and a Half. 6x6 transport. Backbone of logistics.",
-                        type = "Trucks"
-                    },
-                    {
-                        name = "Willys Jeep",
-                        entityname = "sim_fphys_codww2jeep",
-                        description = "Iconic 4x4. Fast, nimble, reliable across any terrain.",
-                        type = "Small Vehicles"
-                    },
-                    {
-                        name = "Dodge WC54",
-                        entityname = "wc54",
-                        description = "Command car. Light utility with winch. Used by officers.",
-                        type = "Trucks"
-                    }
-                }
+                Prefix = "VC",
             }
-    	}
-	}
+        }
+    }
 }
+
 --Core Classes--
 --These classes are added to all divisions, and are not division specific.
 --You can set classes as "core" above by putting Core = true or below to be populated.
 
-CORE_IMPERIUM_CLASSES = {
-    {
-        Name = "Medic",
-        Medic = true,
-        Models = {},
-        Core = false,
-        Max = 4,
-        Weapons = {},
-        SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
-        Prefix = "MD",
-        EntitySpawner = {
-            {
-                name = "Medic Box",
-                entityname = "medic_box",
-                description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                price = 100
-            },
-            {
-                name = "Radio",
-                entityname = "newboombox",
-                description = "Radio to play some War Music!",
-                price = 0
-            },
-            {
-                name = "Gas Mask",
-                entityname = "item_sh_gasmask",
-                description = "Protects against gas attacks.",
-                price = 100
-            }
-        }
-    },
-}
+-- CORE_IMPERIUM_CLASSES = {
+--     {
+--         Name = "Medic",
+--         Medic = true,
+--         Models = {},
+--         Core = false,
+--         Max = 4,
+--         Weapons = {},
+--         SpawnWeapons = {"fas2_ifak","ent_spawner"},
+--         Prefix = "MD",
+--         EntitySpawner = {
+--             {
+--                 name = "Medic Box",
+--                 entityname = "medic_box",
+--                 description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
+--                 price = 100
+--             },
+--             {
+--                 name = "Radio",
+--                 entityname = "newboombox",
+--                 description = "Radio to play some War Music!",
+--                 price = 0
+--             },
+--             {
+--                 name = "Gas Mask",
+--                 entityname = "item_sh_gasmask",
+--                 description = "Protects against gas attacks.",
+--                 price = 100
+--             }
+--         }
+--     },
+-- }
 
-for _, division in pairs(DivisionTypes) do
-    division.Classes = division.Classes or {}
-    for _, coreClass in ipairs(CORE_IMPERIUM_CLASSES) do
-        table.insert(division.Classes, table.Copy(coreClass))
-    end
-end
+-- for _, division in pairs(DivisionTypes) do
+--     division.Classes = division.Classes or {}
+--     for _, coreClass in ipairs(CORE_IMPERIUM_CLASSES) do
+--         table.insert(division.Classes, table.Copy(coreClass))
+--     end
+-- end
 
 
 
-ALL_DIVISIONS = {}
-ALLIED_DIVISIONS = {}
-AXIS_DIVISIONS = {}
+-- ALL_DIVISIONS = {}
+-- ALLIED_DIVISIONS = {}
+-- AXIS_DIVISIONS = {}
 
-for divisionName, _ in pairs(DivisionTypes) do
-    table.insert(ALL_DIVISIONS, divisionName)
-    if DivisionTypes[divisionName].Team == "allies" then
-        table.insert(ALLIED_DIVISIONS, divisionName)
-    elseif DivisionTypes[divisionName].Team == "axis" then
-        table.insert(AXIS_DIVISIONS, divisionName)
-    end
-end
+-- for divisionName, _ in pairs(DivisionTypes) do
+--     table.insert(ALL_DIVISIONS, divisionName)
+--     if DivisionTypes[divisionName].Team == "allies" then
+--         table.insert(ALLIED_DIVISIONS, divisionName)
+--     elseif DivisionTypes[divisionName].Team == "axis" then
+--         table.insert(AXIS_DIVISIONS, divisionName)
+--     end
+-- end
 
 --==============================================================================================
 -- Specializations --
@@ -2203,340 +986,7 @@ end
 --WeeklyActivity = 30,
 
 imperium_specializations = {
-    ["Medic"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Supply = 5000,
-        Description = "Medics are incredibly useful on the frontlines, as they can heal and revive dead players. They can also deploy health crates and gas masks. Medics are critical for keeping troops alive on the frontline.\nDead players will have a green glow, allowing medics to get to them before they respawn.\nIt might be a good idea to drag the body out of combat before healing the player.",
-        Class = {
-            Name = "Medic",
-            Medic = true,
-            Default = false,
-            Models = {},
-            Max = 4,
-            Weapons = {},
-            SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
-            Prefix = "MD",
-            EntitySpawner = {
-                {
-                    name = "Medic Box",
-                    entityname = "medic_box",
-                    description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            }
-        }
-    },
-    ["Engineer"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Engineers are essential for building fortifications, repairing vehicles, and establishing Outposts. They can also deploy ammo crates to resupply troops on the frontline, and lay mines to stop both tanks and infantry. They also have the Rope tool to bind objects together.\nBuilding Forward Bases creates control over the area, helping in domination of the battlefield. When defending, creating chokepoints and fortifications are essential for victory.",
-        Supply = 7500, --7500
-        Class = {
-            Name = "Engineer",
-            Default = false,
-            Create_Outposts = true,
-            Models = {},
-            Max = 4,
-            Weapons = {},
-            SpawnWeapons = {"rope_tool","ent_spawner","alydus_fortificationbuildertablet","weapon_lvsmines","weapon_lvsrepair","weapon_lvsrepair"},
-            Prefix = "ENG",
-            EntitySpawner = {
-                {
-                    name = "Ammo Supplies",
-                    entityname = "universal_ammo_small",
-                    description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                    price = 100
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Land Mine",
-                    entityname = "sw_mine_tm62_v3",
-                    description = "Deploy a land mine to stop infantry.",
-                    price = 50
-                },
-                {
-                    name = "Machine Gun",
-                    entityname = "ent_weapon_maximpod",
-                    description = "Deploy a machine gun for defense.",
-                    price = 250
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                }
-            }
-        }
-    },
-    ["Calvary"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "The cavalry remains a vital component of warfare, providing speed and mobility on the battlefield. Mounted soldiers can quickly traverse rough terrain and execute flanking maneuvers.\n\nWhile vulnerable to modern weaponry, a cavalry charge can break enemy lines and boost the morale of your comrades.\n\nEach mount costs 100 supply (25 out of operation)",
-        Supply = 7500,
-        WeeklyActivity = 30,
-        Class = {
-            Name = "Cavalry",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            EntitySpawner = {
-                {
-                    name = "Mustang",
-                    entityname = "ent_horse_mustang",
-                    description = "Mustang Breed. Fast and Wild. Horse of the Castilians of old and Indians.",
-                    price = 200
-                },
-                {
-                    name = "Arabian",
-                    entityname = "ent_horse_arabian",
-                    description = "Arabian Breed. Proud and Free. Horse of Saladin and of the Turks.",
-                    price = 200
-                },
-                {
-                    name = "Ardennes",
-                    entityname = "ent_horse_ardennes",
-                    description = "Ardennes Breed. Strong and Loyal. Horse of the Benelux, Horse of Napoleon.",
-                    price = 200
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                }
-            },
-            SpawnWeapons = {"ent_spawner"},
-            Prefix = "CAV"
-        }
-    },
-    ["Artillery"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Artilleryman is able to deploy artillery guns and mortars that cause massive damage to enemy fortifications and infantry.\n\nWhen attacking, destroying enemy fortifications and killing enemy infantry is essential for capturing objectives.\n\nWhen defending, artillery can still be used as a formidible weapon to stop enemy advances.\n\nEach gun costs 400 supply (100 out of operation)\n\nThe Artilleryman also has smoke rounds to provide cover for advancing infantry.",
-        Supply = 7500,
-        WeeklyActivity = 100,
-        Class = {
-            Name = "Artilleryman",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            EntitySpawner = {
-                {
-                    name = "Artillery Gun",
-                    entityname = "lvs_arty_john_temp",
-                    description = "Powerful artillery gun that can destroy enemy fortifications and infantry.",
-                    price = 600
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                }
-            },
-            SpawnWeapons = {"ent_spawner","cw_nam_m79_thumper"},
-            Prefix = "ARTY"
-        }
-    },
-    ["Trench Saboteur"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Saboteurs are tasked with special missions, espionage, and sabotage.\n\nThe main feature is the ability to disguise themselves as the enemy, allowing them to sneak into the othersides trench to plant explosives.\n\nThis is the class of sabotage, best used to identify and destroy enemy fortifications and outposts from within.",
-        Supply = 10000,
-        WeeklyActivity = 175,
-        Class = {
-            Name = "Trench Saboteur",
-            Default = false,
-            Spy = true,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = "SAB",
-            Max = 2
-        },
-    },
-    ["Tankers"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "War is changing, and the Tanker is at the forefront of this change. Tanks are the future of warfare, and the Tanker is the master of these machines.\n\nTanks are incredibly powerful, able to destroy enemy fortifications and infantry with ease. They are also able to take a lot of damage, making them the perfect frontline unit.\n\nSteel is the new king of the battlefield.",
-        Supply = 15000,
-        WeeklyActivity = 200,
-        Class = {
-            Name = "Tanker",
-            Default = false,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {"rope_tool","weapon_simrepair"},
-            Prefix = "TK",
-            vehicles = {
-                {
-                    name = "Renault FT Machinegun",
-                    entityname = "lvs_renaultft_f_rp",
-                    description = "The French Renault FT with a machinegun.",
-                    price = 2000
-                },
-                {
-                    name = "Renault FT Cannon",
-                    entityname = "lvs_renaultft_m_rp",
-                    description = "The French Renault FT with a cannon.",
-                    price = 2000
-                }
-            }
-        }
-    },
-    ["Storm Trooper"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Storm Troopers hit hard and fast. They are the elite of the elite, the best of the best. They are the first to attack and the last to retreat.\n\nStorm Troopers are equipped with automatic weapons some call 'SMGS' and are able to deploy gas grenades and can hide.\n\nStorm Troopers are the tip of the spear, the cutting edge of the sword.",
-        Supply = 7500,
-        WeeklyActivity = 60,
-        Class = {
-            Name = "Storm Trooper",
-            Default = false,
-            Models = {},
-            Max = 4,
-            Weapons = {},
-            SpawnWeapons = {"hide_player","weapon_sh_mustardgas","ent_spawner"},
-            EntitySpawner = {
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Gas Mask",
-                    entityname = "item_sh_gasmask",
-                    description = "Protects against gas attacks.",
-                    price = 100
-                }
-            },
-            Prefix = "ST"
-        }
-    },
-    ["Sniper"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Snipers are the true terror of the battlefield. Only heard when their bullets find their marks.",
-        Supply = 5000,
-        Class = {
-            Name = "Sniper",
-            Default = false,
-            Models = {},
-            Max = 2,
-            Weapons = {},
-            SpawnWeapons = {"hide_player"},
-            Prefix = "SNI"
-       }
-    },
-    ["Machine Gunner"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Machine Guns are a new weapon of war, able to lay down a hail of bullets that can cut down entire squads of infantry. The Machine Gunner is the master of this weapon, able to deploy machine guns and ammo crates to resupply troops on the frontline.\n\nMachine Guns are the backbone of the army, able to suppress enemy infantry and fortifications with ease.",
-        Supply = 5000,
-        WeeklyActivity = 30,
-        Class = {
-            Name = "Machine Gunner",
-            Default = false,
-            Models = {},
-            Max = 4,
-            Weapons = {},
-            EntitySpawner = {
-                {
-                    name = "Ammo Box",
-                    entityname = "universal_ammo_small",
-                    description = "Deploy some Ammo!",
-                    price = 50
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                }
-            },
-            SpawnWeapons = {"ent_spawner"},
-            Prefix = "MG"
-        },
-    },
-    ["Messenger Bird"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "Flying high above the battlefield, the Messenger Bird is able to spot enemy positions and relay information back to the command. \n\nMessenger Birds are essential for keeping the army informed, and are able to fly over enemy lines to spy and report back with valuable information.",
-        Supply = 5000,
-        WeeklyActivity = 0,
-        Class = {
-            Name = "Messenger Bird",
-            Default = false,
-            isbird = true,
-            Models = {},
-            Weapons = {""},
-            SpawnWeapons = {""},
-            Prefix = ""
-        },
-    },
-    ["Trench Sapper"] = {
-        DivisionTypes = ALL_DIVISIONS,
-        Description = "As a child I yearned for the mines.\n\nThe Trench Sapper can dig underground to find scrap and to breach into the enemy trench. They belong underground.",
-        Supply = 0,
-        WeeklyActivity = 0,
-        Class = {
-            Name = "Trench Sapper",
-            Default = false,
-            miner = true,
-            Models = {},
-            Weapons = {},
-            EntitySpawner = {
-                {
-                    name = "Ammo Box",
-                    entityname = "universal_ammo_small",
-                    description = "Deploy some Ammo!",
-                    price = 50
-                },
-                {
-                    name = "Radio",
-                    entityname = "newboombox",
-                    description = "Radio to play some War Music!",
-                    price = 0
-                },
-                {
-                    name = "Transport Cart",
-                    entityname = "fuel_store",
-                    description = "Cart to store Scrap and move it around.",
-                    price = 0
-                },
-                {
-                    name = "Blast Charge",
-                    entityname = "weapon_tnt",
-                    description = "Destroys Bedrock but will cause Caveins...",
-                    price = 300
-                }
-            },
-            SpawnWeapons = {"ent_spawner"},
-            Prefix = ""
-        },
-    }
+    -- Specializations are not in use for this server.
 }
 
 ROLES = ROLES or {
@@ -2569,25 +1019,18 @@ ROLES = ROLES or {
         Team = "staff",
         staff = true
     },
-    DIVISION_BRITISH = {
-        NiceName = "Allied Recruits",
-        Prefix = "ALLIES",
-        Color = Color(75, 97, 47, 255),
-        Description = "On D-Day, Hundreds of Thousands of Allied Soldiers landed on the beaches of Normandy to liberate Europe\nYou are one of them, tasked with fighting the Nazis and bringing freedom to the world.",
+    DIVISION_CADIAN = {
+        NiceName = "Cadian Whiteshields",
+        Prefix = "",
+        Color = Color(0, 40, 150, 255),
+        Description = "The backbone of the Astra Militarum, Cadian Shock Troopers are the Imperiums most numerous and versatile soldiers.\nThe 11th, forged in the crucible of storm-lashed warzones, now stand vigilant in the defense of the Hive.\nCadia Stands! You will join as a Fresh Recruit from the Hive City.",
         Default = true,
         Ranks = {
-            {
-                ID = 1,
-                Name = "Recruit",
-                Rank_Prefix = "RCT",
-                ModelsAllowed = ALLIED_RECRUIT_MODELS,
-                WeaponsAllowed = US_LOADOUT, --Change this, im revoking your box access.
-                CanPromote = false
-            },
+            {ID = 1, Name = "Whiteshield", Rank_Prefix = "RCT", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
         },
         Classes = {
             {
-                Name = "Rifleman",
+                Name = "Whiteshield",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -2595,27 +1038,27 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "allies"
+        Team = "imperium"
     },
-    DIVISION_GERMAN = {
-        NiceName = "Axis Recruits",
-        Prefix = "AXIS",
-        Color = Color(70, 80, 90, 255),
-        Description = "The Fatherland is in danger, and you are the one defending it.\nYou are tasked with fighting the Allies and bringing victory to the Reich.",
+    DIVISION_KRIEG = {
+        NiceName = "Krieg Conscripts",
+        Prefix = "",
+        Color = Color(50, 50, 50, 255),
+        Description = "Hardened siege specialists from the Death World of Krieg.\nThe 236th are experts in attrition warfare and unyielding assaults.\nThey fight without fear, for death is their duty. You will join as a Fresh Recruit from the Hive City.",
         Default = true,
         Ranks = {
             {
                 ID = 1,
-                Name = "Recruit",
+                Name = "Conscripts",
                 Rank_Prefix = "RCT",
-                ModelsAllowed = DE_ENLISTED_MODELS,
-                WeaponsAllowed = DE_LOADOUT, --Change this, im revoking your box access.
+                ModelsAllowed = KRIEG_MODELS,
+                WeaponsAllowed = KRIEG_WEAPONS,
                 CanPromote = false
             },
         },
         Classes = {
             {
-                Name = "Rifleman",
+                Name = "Conscripts",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -2623,10 +1066,64 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "axis"
+        Team = "imperium"
     },
+    DIVISION_IMPERIUM_CITIZEN = {
+        NiceName = "Imperium Citizen",
+        Prefix = "",
+        Color = Color(50, 50, 50, 255),
+        Description = "Imperium Citizens",
+        Bots = true,
+        Medic = true,
+        Team = "hivecitizen",
+        Ranks = {
+            {ID = 1, Name = "Citizen", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {Name = "Higher Citizen", Default = true, Models = {"models/wk/civilian/wk_civilian.mdl"}, Weapons = {}, SpawnWeapons = {}, Prefix = ""},
+            {Name = "Lower Citizen", Models = {}, Weapons = {"models/wk/civilian/wk_civilian.mdl"}, SpawnWeapons = {}, Prefix = ""},
+            {Name = "Outer Citizen", Models = {}, Weapons = {"models/wk/civilian/wk_civilian.mdl"}, SpawnWeapons = {}, Prefix = ""}
+        }
+    },
+    DIVISION_IMPERIUM_CITIZEN_PLAYER = {
+        NiceName = "Imperium Citizen",
+        Prefix = "",
+        Color = Color(50, 50, 50, 255),
+        Description = "You are a Citizen of the Imperium, living in the Hive City.\nLoot Bodys, trade with other Citizens, and try to survive the harsh conditions of the Hive.",
+        Team = "hivecitizenplayer",
+        VIP = true,
+        Ranks = {
+            {ID = 1, Name = "Citizen", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {
+                Name = "Citizen", 
+                Default = true, 
+                Models = {"models/wk/civilian/wk_civilian.mdl"}, 
+                Weapons = {}, 
+                SpawnWeapons = {"weapon_healer","cat_custom_knife","refinery_spawner"}, 
+                Prefix = ""
+            }
+        }
+    },
+    DIVISION_UNDERHIVE = {
+        NiceName = "Underhive Scum",
+        Prefix = "",
+        Color = Color(50, 50, 50, 255),
+        Description = "Underhive Scum",
+        Bots = true,
+        Team = "Underhive Scum",
+        Ranks = {
+            {ID = 1, Name = "Underhive Scum", Rank_Prefix = "", ModelsAllowed = {"models/dizcordum/notloyal/thugs/thug_male.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {Name = "Chem Runner", Default = true, Models = {"models/dizcordum/notloyal/thugs/thug_male.mdl"}, Weapons = {}, SpawnWeapons = {}, Prefix = ""},
+            {Name = "Khornate Cultist", Models = {"models/sodium_cultist.mdl","models/dizcordum/sodium_blood_pact.mdl"}, Weapons = {}, SpawnWeapons = {}, Prefix = ""},
+            {Name = "Nurgle Infected", Models = {"models/wk/nurglit/poxwalker.mdl","models/wk/nurglit/wk_nuglin.mdl","models/wk/nurglit/wk_nur_sor.mdl","models/wk/nurglit/wk_nurcul.mdl"}, Weapons = {}, SpawnWeapons = {}, Prefix = ""}
+        }
+    }
 }
-DEFAULT_ROLE = ROLES.DIVISION_BRITISH
+DEFAULT_ROLE = ROLES.DIVISION_CADIAN
 
 --HARDCODED TO BE AT MAX 5 RANKS
 group_ranks = {
@@ -2642,41 +1139,7 @@ group_ranks = {
 
 
 DivisionEnhancements = {
-    ["Reinforced Armor"] = {
-        description = "When buying a Vehicle 25% is refunded. Tanks have 1000 Extra Health.",
-        Price = 35000
-    },
-    ["Death and Taxes"] = {
-        description = "Gain 25% more QM Points and 25% more XP from player kills.",
-        Price = 40000
-    },
-    ["Scrap Tycoon"] = {
-        description = "Gain 25% more scrap on collection. Generate Supply in Factories 50% Quicker.",
-        Price = 50000
-    },
-    ["Outpost Pioneers"] = {
-        description = "Outposts Deploy twice as fast and heal twice as fast. You are also refunded 75% supply when moved.",
-        Price = 60000
-    },
-    ["Outpost Pioneers"] = {
-        description = "Outposts Deploy twice as fast and heal twice as fast. You are also refunded 75% supply when moved.",
-        Price = 60000
-    },
-    ["Tunnel Rats"] = {
-        description = "Dig in the Underground twice as Fast. All members spawn with a Shovel. (Non Sappers still dig slower)",
-        spawnfunction = function(ply)
-            ply:Give( "doi_atow_etoolcw" )
-        end,
-        Price = 25000
-    },
-    ["Sleight of Hand"] = {
-        description = "Looting bodys is now Instant.",
-        Price = 45000
-    },
-    ["Quick Revive"] = {
-        description = "It now takes 3 seconds less to revive a downed player.",
-        Price = 45000
-    },
+    --We are not using Division Enhancements for this server.
 }
 
 
@@ -2687,8 +1150,8 @@ modelsToPreload = {}
 
 local seenModels = {}
 
-for _, division in pairs(DivisionTypes) do
-    for _, rank in ipairs(division.Ranks) do
+for _, role in pairs(ROLES) do
+    for _, rank in ipairs(role.Ranks or {}) do
         for _, model in ipairs(rank.ModelsAllowed or {}) do
             if not seenModels[model] then
                 table.insert(modelsToPreload, model)
