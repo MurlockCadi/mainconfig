@@ -8,7 +8,7 @@ gamemode_name = "WARHAMMER 40K ROLEPLAY"
 MAIN_MAP = "necromunda_v1"
 
 mapMessages = {
-    ["necromunda_v1"] = "++-- Hive City Imperium // Scarus Sector //  Segmentum Obscurus --++"
+    ["necromunda_v1"] = "++-- Hive City Imperium // Scarus Sector //  Segmentum Obscurus --++",
     ["rp_jupiter_underground"] = "++-- Hive City Imperium // Under Hive // Abandoned Sectors --++"
 }
 
