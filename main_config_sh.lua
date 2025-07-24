@@ -1022,6 +1022,44 @@ ROLES = ROLES or {
         Team = "staff",
         staff = true
     },
+    EVENT_CHARACTERS = {
+        NiceName = "Event Character",
+        Prefix = "",
+        Color = Color(0, 0, 0, 255),
+        Description = "Staff",
+        Default = false,
+        Classes = {
+            {
+                Name = "Event Character",
+                Default = true,
+                Models = {},
+		MaxHealth = 5000,
+                Weapons = {},
+                SpawnWeapons = {"weapon_physgun", "gmod_tool"},
+                Prefix = ""
+            },
+            {
+                Name = "Boss Character",
+                Models = {"models/nemeroth_chaos_lord1.mdl","models/boss_grimskull.mdl"},
+		MaxHealth = 50000,
+                Weapons = {},
+                SpawnWeapons = {"weapon_physgun", "gmod_tool","cat_primaris_legacy_boltstormgauntlets"},
+                Prefix = ""
+            },
+        },
+        Ranks = {
+            {
+                ID = 1,
+                Name = "Staff",
+                Rank_Prefix = "",
+                ModelsAllowed = {"models/player/combine_super_soldier.mdl", "models/player/combine_soldier_prisonguard.mdl", "models/player/breen.mdl", "models/player/monk.mdl", "models/player/odessa.mdl", "models/player/skeleton.mdl"},
+                WeaponsAllowed = {},
+                CanPromote = true
+            },
+        },
+        Team = "staff",
+        staff = true
+    },
     DIVISION_CADIAN = {
         NiceName = "Cadian Whiteshields",
         Prefix = "",
