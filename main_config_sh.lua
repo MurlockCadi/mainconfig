@@ -1124,6 +1124,20 @@ ROLES = ROLES or {
             {Name = "Khornate Cultist", Models = {"models/sodium_cultist.mdl","models/dizcordum/sodium_blood_pact.mdl"}, Weapons = {}, SpawnWeapons = {}, Prefix = ""},
             {Name = "Nurgle Infected", Models = {"models/wk/nurglit/poxwalker.mdl","models/wk/nurglit/wk_nuglin.mdl","models/wk/nurglit/wk_nur_sor.mdl","models/wk/nurglit/wk_nurcul.mdl"}, Weapons = {}, SpawnWeapons = {}, Prefix = ""}
         }
+    },
+    DIVISION_OFFWORLD = {
+        NiceName = "Offworld Bot",
+        Prefix = "",
+        Color = Color(50, 50, 50, 255),
+        Description = "Offworld Bot",
+        Bots = true,
+        Team = "OFFWORLD",
+        Ranks = {
+            {ID = 1, Name = "OFFWORLD", Rank_Prefix = "", ModelsAllowed = {"models/dizcordum/notloyal/thugs/thug_male.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {Name = "OFFWORLD", Default = true, Models = {"models/dizcordum/notloyal/thugs/thug_male.mdl"}, Weapons = {}, SpawnWeapons = {}, Prefix = ""}
+        }
     }
 }
 DEFAULT_ROLE = ROLES.DIVISION_CADIAN
