@@ -557,7 +557,7 @@ DivisionTypes = {
             {
                 Name = "Commissar",
                 Core = true,
-                Models = {"models/krig_commissar.mdl","models/wk/comm/wk_comm.mdl","models/wk/comm/wk_comm_cadet.mdl","models/wk/comm/wk_comm_cadet_fm.mdl","models/wk/comm/wk_comm_fm.mdl","models/wk/comm/wk_comm_high.mdl"},
+                Models = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword"},
                 MaxHealth = 1000,
                 PowerShield = true,
@@ -576,9 +576,9 @@ DivisionTypes = {
             {
                 Name = "Inquisitorial Agent",
                 Core = true,
-                Models = {"models/madorthene/navisimperialis.mdl","models/madorthene/navisimperialis2.mdl"},
+                Models = {"models/muschi/characters/muschi_inq_sombra.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword"},
-                MaxHealth = 1000,
+                MaxHealth = 1500,
                 PowerShield = true,
                 ForceModels = true,
                 SpawnWeapons = {"ent_spawner"},
