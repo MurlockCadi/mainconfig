@@ -1205,6 +1205,27 @@ DivisionEnhancements = {
 }
 
 
+----------- INVENTORY CONFIGURATION ---------------
+
+INVENTORY_ITEMS = {
+    1 = {
+        Name = "Scrap Crate",
+        Description = "Crate filled with Scrap. Used in Scrap Factories to produce Credits.",
+        Model = "models/dizcordum/wh/dot_props/crate_ammo.mdl",
+        Category = "Scrap",
+        Entity = "outpost_supply",
+        UseFunction = Example(ply)
+    },
+    2 = {
+        Name = "Spook",
+        Description = "A mysterious substance created by the Chem Runners. Addictive Narcotic.",
+        Model = "models/jackswan/wk_pills_two.mdl",
+        Category = "Drugs",
+        Entity = "drugs",
+        UseFunction = Example(ply)
+    }
+}
+
 
 -----------------LOAD MODELS------------------
 
