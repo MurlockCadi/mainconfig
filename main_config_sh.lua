@@ -339,7 +339,13 @@ commands = {
     ["/yell"] = function(ply, args) PlayerYell(ply, args) end,
     ["!yell"] = function(ply, args) PlayerYell(ply, args) end,
     ["/y"] = function(ply, args) PlayerYell(ply, args) end,
-    ["!y"] = function(ply, args) PlayerYell(ply, args) end
+    ["!y"] = function(ply, args) PlayerYell(ply, args) end,
+    ["!w"] = function(ply, args) whisper_command(ply, args) end,
+    ["/w"] = function(ply, args) whisper_command(ply, args) end,
+    ["!whisper"] = function(ply, args) whisper_command(ply, args) end,
+    ["/whisper"] = function(ply, args) whisper_command(ply, args) end,	
+    ["!looc"] = function(ply, args) looc_command(ply, args) end,
+    ["/looc"] = function(ply, args) looc_command(ply, args) end
 }
 
 
