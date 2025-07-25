@@ -41,7 +41,8 @@ intro_image_urls = {
     "https://i.imgur.com/qy1qFwo.jpeg",
     "https://i.imgur.com/Qwf2JSf.jpeg",
     "https://i.imgur.com/8IBTKE1.jpeg",
-    "https://i.imgur.com/FZUEVO3.jpeg"
+    "https://i.imgur.com/FZUEVO3.jpeg",
+    "https://i.imgur.com/ADuAjJf.jpeg"
 }
 
 
