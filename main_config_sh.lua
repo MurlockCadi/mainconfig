@@ -645,8 +645,8 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 MaxHealth = 1000,
-                Weapons = {"cat_custom_flamer","jet_mk1"},
-                SpawnWeapons = {"ent_spawner"},
+                Weapons = {"cat_custom_flamer"},
+                SpawnWeapons = {"ent_spawner","jet_mk1"},
                 Prefix = "WS",
                 EntitySpawner = {
                     {
