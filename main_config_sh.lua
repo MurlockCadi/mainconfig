@@ -397,7 +397,7 @@ KRIEG_OFFICER = {"models/krig_officer.mdl"}
 KRIEG_WEAPONS = {"cat_custom_lasgun_lucius","cat_custom_knife"}
 
 
-OFFICER_WEAPONS = {"cat_custom_sword","cat_custom_laspistol"}
+OFFICER_WEAPONS = {"cat_custom_sword","cat_custom_laspistol",}
 
 --OGRYN MODELS
 
@@ -406,10 +406,10 @@ OGRYN_WEAPONS = {"cat_custom_ogrynbang","cat_custom_rippergun"}
 
 --KARSIKIN
 
-KARSIKIN_MODELS = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl"}
-KARSKIN_OFFICER = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl"}
+KARSIKIN_MODELS = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl","models/krig_stormtrooper.mdl"}
+KARSKIN_OFFICER = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl","models/krig_stormtrooper.mdl"}
 KARSIKIN_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_knife"}
-KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword"}
+KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword","cat_legacy_boltpistolpowersword"}
 
 --SQUAT
 
@@ -658,6 +658,23 @@ DivisionTypes = {
                 },
             },
             {
+                Name = "Kasrkin Sniper",
+                Core = true,
+                Models = {},
+                MaxHealth = 1000,
+                Weapons = {"cat_custom_longlas_kantrael"},
+                SpawnWeapons = {"ent_spawner","jet_mk1","realistic_hook"},
+                Prefix = "SN",
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                },
+            },
+            {
                 Name = "Kasrkin Vox Caster",
                 Core = true,
                 Radio = true,
@@ -675,7 +692,7 @@ DivisionTypes = {
                 },
                 Prefix = "VC",
             }
-        }
+        },
     },
     ["11th Cadian Storm Guards"] = {
         NiceName = "11th Cadian Storm Guards",
