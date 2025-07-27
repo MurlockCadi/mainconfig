@@ -346,7 +346,8 @@ commands = {
     ["!whisper"] = function(ply, args) whisper_command(ply, args) end,
     ["/whisper"] = function(ply, args) whisper_command(ply, args) end,	
     ["!looc"] = function(ply, args) looc_command(ply, args) end,
-    ["/looc"] = function(ply, args) looc_command(ply, args) end
+    ["/examine"] = function(ply) SearchPlayerForSkulls(ply) end,
+    ["!examine"] = function(ply) SearchPlayerForSkulls(ply) end
 }
 
 
