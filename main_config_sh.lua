@@ -495,6 +495,17 @@ DivisionTypes = {
                 Prefix = ""
             },
             {
+                Name = "Ecclesiarchy",
+                Core = true,
+                Models = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl"},
+                Weapons = {"cat_custom_boltpistol"},
+		PowerShield = true,
+                ForceModels = true,
+                MaxHealth = 500,
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+            {
                 Name = "Squat",
                 Core = true,
                 Models = SQUAT_MODELS,
