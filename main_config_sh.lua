@@ -879,13 +879,19 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {"cat_custom_flamer","cat_custom_laspistol"},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","weapon_sh_mustardgas"},
                 Prefix = "WS",
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Gas Mask",
+                        entityname = "item_sh_gasmask",
+                        description = "10 Uses.",
                         type = "Ammo"
                     },
                 },
