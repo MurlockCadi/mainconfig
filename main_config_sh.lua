@@ -35,12 +35,12 @@ intro_songs = {
 intro_image_urls = {
     "https://i.imgur.com/pn8sBwW.jpeg",
     "https://i.imgur.com/ye5PL53.jpeg",
-    "https://i.imgur.com/W4srVe1.jpeg",
-    "https://i.imgur.com/AjOstkF.jpeg",
+    "https://i.imgur.com/lr5VpR7.jpeg",
+    "https://i.imgur.com/vtIOBsp.jpeg",
     "https://i.imgur.com/P7hGfNK.jpeg",
     "https://i.imgur.com/qy1qFwo.jpeg",
-    "https://i.imgur.com/Qwf2JSf.jpeg",
-    "https://i.imgur.com/8IBTKE1.jpeg",
+    "https://i.imgur.com/S8hQlQT.jpeg",
+    "https://i.imgur.com/o4zXjy0.jpeg",
     "https://i.imgur.com/FZUEVO3.jpeg",
     "https://i.imgur.com/ADuAjJf.jpeg",
     "https://i.imgur.com/iknKjjE.jpeg"
