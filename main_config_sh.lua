@@ -5,7 +5,15 @@
 imperium_rp_font = "Sitka Text"
 gamemode_name = "WARHAMMER 40K ROLEPLAY"
 
-MAIN_MAP = "necromunda_v1"
+
+local MAIN_MAPS = {
+    ["rp_40k_hammerfall_undead"] = true,
+    ["necromunda_v1"] = true
+}
+
+if MAIN_MAPS[game.GetMap()] then
+    MAIN_MAP = game.GetMap()
+end
 
 mapMessages = {
     ["necromunda_v1"] = "++-- Hive City Imperium // Scarus Sector //  Segmentum Obscurus --++",
