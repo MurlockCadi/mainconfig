@@ -93,7 +93,8 @@ ENTITY_RESPAWN_TIMERS = {
     ["Medic Box"] = 120,
     ["Radio"] = 120,
     ["Skull"] = 10,
-    ["Reactor"] = 1000
+    ["Reactor"] = 1000,
+    ["Turret"] = 120
 }
 
 
@@ -560,6 +561,12 @@ DivisionTypes = {
                         entityname = "nuclear_reactor",
                         description = "A powerful energy source. Must be handled with care.",
                         type = "Reactor"
+                    },
+                    {
+                        name = "Castellax Sentry Node",
+                        entityname = "tnt_att_s2_cannon",
+                        description = "Sentry Node that will fire bursts of Plasma.",
+                        type = "Turret"
                     }
                 },
                 Prefix = ""
