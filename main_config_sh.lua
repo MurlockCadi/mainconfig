@@ -358,7 +358,8 @@ commands = {
     ["!looc"] = function(ply, args) looc_command(ply, args) end,
     ["/looc"] = function(ply, args) looc_command(ply, args) end,
     ["/examine"] = function(ply) SearchPlayerForSkulls(ply) end,
-    ["!examine"] = function(ply) SearchPlayerForSkulls(ply) end
+    ["!examine"] = function(ply) SearchPlayerForSkulls(ply) end,
+    ["!nuke"] = function(ply) NukeMapAdmin(ply) end
 }
 
 
