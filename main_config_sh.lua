@@ -399,7 +399,7 @@ CADIAN_NCOS = {"models/vintagethief/11th_imperial_guard/11th_vet_sgt_grey.mdl","
 CADIAN_OFFICER = {"models/vintagethief/11th_imperial_guard/11th_let_grey.mdl"}
 CADIAN_CAPTAIN = {"models/vintagethief/11th_imperial_guard/11th_maj_grey.mdl"}
 
-CADIAN_WEAPONS = {"cat_custom_lasgun","cat_custom_knife"}
+CADIAN_WEAPONS = {"cat_custom_lasgun","cat_custom_knife","arccw_k_40k_lasgun_mk2"}
 
 -- PENAL LEGION
 PENAL_MODELS = {"models/wk/savlar/wk_savlar.mdl","models/wk/savlar/wk_savlar_awful.mdl"}
@@ -408,10 +408,10 @@ PENAL_WEAPONS = CADIAN_WEAPONS
 --KRIEG
 KRIEG_MODELS = {"models/krig_solder.mdl"}
 KRIEG_OFFICER = {"models/krig_officer.mdl"}
-KRIEG_WEAPONS = {"cat_custom_lasgun_lucius","cat_custom_knife"}
+KRIEG_WEAPONS = {"cat_custom_lasgun_lucius","cat_custom_knife","arccw_k_40k_luciuslasgun"}
 
 
-OFFICER_WEAPONS = {"cat_custom_sword","cat_custom_laspistol",}
+OFFICER_WEAPONS = {"cat_custom_sword","cat_custom_laspistol","arccw_k_40k_boltpistol"}
 
 --OGRYN MODELS
 
@@ -422,8 +422,8 @@ OGRYN_WEAPONS = {"cat_custom_ogrynbang","cat_custom_rippergun"}
 
 KARSIKIN_MODELS = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl","models/krig_stormtrooper.mdl"}
 KARSKIN_OFFICER = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl","models/krig_stormtrooper.mdl"}
-KARSIKIN_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_knife"}
-KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword","cat_legacy_boltpistolpowersword"}
+KARSIKIN_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_knife","arccw_k_40k_hellgun_mk2"}
+KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol","arccw_k_40k_hellgun_mk2"}
 
 --SQUAT
 
@@ -509,7 +509,7 @@ DivisionTypes = {
                 Name = "Ecclesiarchy",
                 Core = true,
                 Models = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl"},
-                Weapons = {"cat_custom_boltpistol"},
+                Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
 		PowerShield = true,
                 ForceModels = true,
                 MaxHealth = 500,
@@ -577,7 +577,7 @@ DivisionTypes = {
                 Name = "Lord General",
                 Core = true,
                 Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
-                Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
                 MaxHealth = 1500,
                 PowerShield = true,
                 ForceModels = true,
@@ -596,7 +596,7 @@ DivisionTypes = {
                 Name = "Commissar",
                 Core = true,
                 Models = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl"},
-                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
                 MaxHealth = 1000,
                 PowerShield = true,
                 ForceModels = true,
