@@ -511,6 +511,7 @@ DivisionTypes = {
                 Models = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl"},
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
 		PowerShield = true,
+		priest = true,
                 ForceModels = true,
                 MaxHealth = 500,
                 SpawnWeapons = {},
