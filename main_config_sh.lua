@@ -514,7 +514,7 @@ DivisionTypes = {
 		priest = true,
                 ForceModels = true,
                 MaxHealth = 500,
-                SpawnWeapons = {},
+                SpawnWeapons = {"murlock_staff_player"},
                 Prefix = ""
             },
             {
