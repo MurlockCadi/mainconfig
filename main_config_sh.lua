@@ -361,7 +361,9 @@ commands = {
     ["!examine"] = function(ply) SearchPlayerForSkulls(ply) end,
     ["!nuke"] = function(ply) NukeMapAdmin(ply) end,
     ["!removebasenodes"] = function(ply) RemoveAllPriorityBaseNodes(ply) end,
-    ["/removebasenodes"] = function(ply) RemoveAllPriorityBaseNodes(ply) end
+    ["/removebasenodes"] = function(ply) RemoveAllPriorityBaseNodes(ply) end,
+    ["!removefrontlinenodes"] = function(ply) priority_frontline_node(ply) end,
+    ["/removefrontlinenodes"] = function(ply) priority_frontline_node(ply) end
 }
 
 
