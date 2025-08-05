@@ -420,8 +420,11 @@ OGRYN_WEAPONS = {"cat_custom_ogrynbang","cat_custom_rippergun"}
 
 --KARSIKIN
 
-KARSIKIN_MODELS = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl","models/krig_stormtrooper.mdl"}
-KARSKIN_OFFICER = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl","models/krig_stormtrooper.mdl"}
+KARSIKIN_MODELS_OLD = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl","models/krig_stormtrooper.mdl"}
+
+KARSIKIN_MODELS = {"models/wk/jackswan/scion/scion.mdl","models/wk/jackswan/scion/scion_tempestor.mdl","models/wk/jackswan/scion/scion_tempestor_lumena.mdl"}
+KARSKIN_OFFICER = {"models/wk/jackswan/scion/scion_tempestor_prime.mdl"}
+KARSKIN_OFFICER_OLD = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl","models/krig_stormtrooper.mdl"}
 KARSIKIN_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_knife","arccw_k_40k_hellgun_mk2"}
 KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol","arccw_k_40k_hellgun_mk2"}
 
@@ -596,7 +599,7 @@ DivisionTypes = {
             {
                 Name = "Commissar",
                 Core = true,
-                Models = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl"},
+                Models = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl","models/wk/jackswan/scion/scion_commissar.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
                 MaxHealth = 1000,
                 PowerShield = true,
@@ -658,7 +661,7 @@ DivisionTypes = {
                 Core = true,
                 Medic = true,
                 MaxHealth = 1000,
-                Models = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_med.mdl"},
+                Models = {},
                 Weapons = {},
                 ForceModels = true,
                 SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer","jet_mk1"},
