@@ -589,7 +589,7 @@ DivisionTypes = {
                 MaxHealth = 1500,
                 PowerShield = true,
                 ForceModels = true,
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -608,7 +608,7 @@ DivisionTypes = {
                 MaxHealth = 1000,
                 PowerShield = true,
                 ForceModels = true,
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -627,7 +627,7 @@ DivisionTypes = {
                 MaxHealth = 1500,
                 PowerShield = true,
                 ForceModels = true,
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
                 EntitySpawner = {
                     {
