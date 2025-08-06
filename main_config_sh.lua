@@ -52,7 +52,10 @@ intro_image_urls = {
     "https://i.imgur.com/FZUEVO3.jpeg",
     "https://i.imgur.com/ADuAjJf.jpeg",
     "https://i.imgur.com/iknKjjE.jpeg",
-    "https://i.imgur.com/AT75v9e.png"
+    "https://i.imgur.com/AT75v9e.png",
+    "https://i.imgur.com/Bt5tcup.jpeg",
+    "https://i.imgur.com/9iW0sL4.jpeg",
+    "https://i.imgur.com/Gd8zqR3.jpeg"
 }
 
 
