@@ -552,7 +552,7 @@ DivisionTypes = {
                 MaxHealth = 1000,
                 ForceModels = true,
                 atomic = true,
-                SpawnWeapons = {"fas2_ifak","weapon_healer","ent_spawner"},
+                SpawnWeapons = {"fas2_ifak","weapon_healer","ent_spawner","weapon_simrepair"},
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
