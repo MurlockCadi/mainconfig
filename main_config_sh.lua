@@ -643,19 +643,22 @@ DivisionTypes = {
             }
         }
     },
-    ["11th Kasrkin Wardens"] = {
-        NiceName = "11th Kasrkin Wardens",
-        Description = "The 11th Kasrkin Wardens are the Imperium's shield, forged in the fires of Cadia to stand steadfast against any foe. Cadia Stands!",
+    ["1st Tempestos Scions"] = {
+        NiceName = "1st Tempestos Scions",
+        Description = "The 1st Tempestos Scions are an elite group of ex Kreig and Cadian Guardsman called to a higher duty to serve the Emperor",
         Team = "imperium",
         Ranks = {
             {ID = 1, Name = "Veteran", Rank_Prefix = "VET", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
             {ID = 2, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-            {ID = 3, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-            {ID = 4, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+            {ID = 3, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+			{ID = 4, Name = "Staff Sergeant", Rank_Prefix = "SSG", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = false},
+            {ID = 5, Name = "Warrent Officer", Rank_Prefix = "WO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+			{ID = 6, Name = "Tempestor", Rank_Prefix = "TMP", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+			{ID = 7, Name = "Tempestor Prime", Rank_Prefix = "TMPRM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
         },
         Classes = {
             {
-                Name = "Kasrkin",
+                Name = "Tempestos",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -664,14 +667,14 @@ DivisionTypes = {
                 Prefix = ""
             },
             {
-                Name = "Kasrkin Medic",
+                Name = "Tempestos Field Medic",
                 Core = true,
                 Medic = true,
                 MaxHealth = 1000,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer","jet_mk1"},
-                Prefix = "MD",
+                Prefix = "FM",
                 EntitySpawner = {
                     {
                         name = "Medical Box",
@@ -682,13 +685,13 @@ DivisionTypes = {
                 },
             },
             {
-                Name = "Kasrkin Weapon Specialist",
+                Name = "Tempestos Weapons Master",
                 Core = true,
                 Models = {},
                 MaxHealth = 1000,
-                Weapons = {"cat_custom_flamer"},
+                Weapons = {"cat_custom_bolter"},
                 SpawnWeapons = {"ent_spawner","jet_mk1"},
-                Prefix = "WS",
+                Prefix = "WM",
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -699,13 +702,13 @@ DivisionTypes = {
                 },
             },
             {
-                Name = "Kasrkin Sniper",
+                Name = "Tempestos Specialist",
                 Core = true,
                 Models = {},
                 MaxHealth = 1000,
                 Weapons = {"cat_custom_longlas_kantrael"},
-                SpawnWeapons = {"ent_spawner","jet_mk1","realistic_hook"},
-                Prefix = "SN",
+                SpawnWeapons = {"ent_spawner","jet_mk1","realistic_hook","cloak_raven"},
+                Prefix = "SP",
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -716,7 +719,7 @@ DivisionTypes = {
                 },
             },
             {
-                Name = "Kasrkin Vox Caster",
+                Name = "Tempestos Standard Bearer",
                 Core = true,
                 Radio = true,
                 Models = {},
@@ -731,7 +734,7 @@ DivisionTypes = {
                         type = "Radio"
                     }
                 },
-                Prefix = "VC",
+                Prefix = "SB",
             }
         },
     },
