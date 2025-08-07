@@ -670,7 +670,6 @@ DivisionTypes = {
                 MaxHealth = 1000,
                 Models = {},
                 Weapons = {},
-                ForceModels = true,
                 SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer","jet_mk1"},
                 Prefix = "MD",
                 EntitySpawner = {
