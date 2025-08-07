@@ -650,8 +650,11 @@ DivisionTypes = {
         Ranks = {
             {ID = 1, Name = "Veteran", Rank_Prefix = "VET", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
             {ID = 2, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-            {ID = 3, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-            {ID = 4, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+            {ID = 3, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+	    {ID = 4, Name = "Staff Sergeant", Rank_Prefix = "SSG", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = false},
+            {ID = 5, Name = "Warrent Officer", Rank_Prefix = "WO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+	    {ID = 6, Name = "Tempestor", Rank_Prefix = "TMP", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+	    {ID = 7, Name = "Tempestor Prime", Rank_Prefix = "TMPRM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
         },
         Classes = {
             {
