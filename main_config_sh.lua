@@ -460,6 +460,7 @@ DivisionTypes = {
                 Default = true,
                 Core = true,
                 ForceModels = true,
+				atomic = true,
                 Models = {
                     "models/wk/adeptus_mechanicus/wk_am_engenseer.mdl",
                     "models/wk/fem_priast/wk_priestness.mdl"
@@ -491,6 +492,7 @@ DivisionTypes = {
                 },
                 MaxHealth = 500,
                 PowerShield = true,
+				atomic = true,
                 Weapons = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe"
@@ -534,6 +536,7 @@ DivisionTypes = {
                 },
                 MaxHealth = 500,
                 PowerShield = true,
+				atomic = true,
                 Medic = true,
                 Weapons = {
                     "cat_custom_galvanic",
@@ -552,6 +555,7 @@ DivisionTypes = {
                 Name = "Exorcist",
                 Core = true,
                 ForceModels = true,
+				atomic = true,
                 Models = {
                     "models/wk/gans/wk_gans_priest.mdl",
                     "models/wk/fem_priast/wk_priestness.mdl"
@@ -604,6 +608,7 @@ DivisionTypes = {
                 },
                 MaxHealth = 1500,
                 PowerShield = false,
+				atomic = true,
                 Weapons = {
                     "cat_legacy_omnissiahaxe"
                 },
@@ -620,6 +625,7 @@ DivisionTypes = {
                 Name = "Magos",
                 Core = true,
                 ForceModels = true,
+				atomic = true,
                 Models = {
                     "models/astartes/mech/magos.mdl"
                 },
