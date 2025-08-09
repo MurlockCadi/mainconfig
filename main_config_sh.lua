@@ -447,6 +447,201 @@ ADMECH_MODELS = { "models/astartes/mech/magos.mdl","models/jackswan/rogue_trader
 ADMECH_WEAPONS = {"cat_custom_galvanic","cat_custom_galvanic_rifle","cat_custom_omnissiahaxe"}
 
 DivisionTypes = {
+    ["Cult Mechanicus Conclave"] = {
+        NiceName = "Cult Mechanicus Conclave",
+        Description = "Agents of the Omnissiah. Tech-priests, artisans and magi who mend, sanctify and unleash the machine-spirit.",
+        Team = "imperium",
+        Ranks = {
+            {ID = 1, Name = "Admech", Rank_Prefix = "", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
+        },
+        Classes = {
+            {
+                Name = "Logis",
+                Default = true,
+                Core = true,
+                ForceModels = true,
+                Models = {
+                    "models/wk/adeptus_mechanicus/wk_am_engenseer.mdl",
+                    "models/wk/fem_priast/wk_priestness.mdl"
+                },
+                MaxHealth = 500,
+                PowerShield = true,
+                Weapons = {
+                    "cat_custom_galvanic_rifle",
+                    "cat_custom_galvanic",
+                    "cat_custom_phosphor",
+                    "cat_legacy_omnissiahaxe"
+                },
+                SpawnWeapons = {"ent_spawner"},
+                EntitySpawner = {
+                    { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+                    { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
+                    { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
+                    { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
+                },
+                Prefix = ""
+            },
+            {
+                Name = "Artisan",
+                Core = true,
+                ForceModels = true,
+                Models = {
+                    "models/wk/adeptus_mechanicus/wk_tech_priest.mdl",
+                    "models/wk/fem_priast/wk_priestness.mdl"
+                },
+                MaxHealth = 500,
+                PowerShield = true,
+                Weapons = {
+                    "cat_custom_galvanic",
+                    "cat_legacy_omnissiahaxe"
+                },
+                Fortifications = {
+                    {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
+                    {name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
+                    {name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
+                    {name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
+                    {name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
+                    {name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
+                    {name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
+                    {name = "Sandbags Line 2 Tall", model = "models/props_fortifications/sandbags_line2_tall.mdl"},
+                    {name = "Trench Bunker", model = "models/fortification collection/trench_free_a_double.mdl"},
+                    {name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
+                    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
+                    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
+                    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
+                    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
+                    {name = "Steel Barricade 4", model = "models/arne3d/barricades/steelbarricade4.mdl"},
+                    {name = "Steel Barricade 3", model = "models/arne3d/barricades/steelbarricade3.mdl"},
+                    {name = "Steel Barricade 2", model = "models/arne3d/barricades/steelbarricade2.mdl"},
+                    {name = "Steel Barricade 1", model = "models/arne3d/barricades/steelbarricade1.mdl"}
+                },
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","weapon_simrepair"},
+                EntitySpawner = {
+                    { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+                    { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
+                    { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
+                    { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
+                },
+                Prefix = ""
+            },
+            {
+                Name = "Biologis",
+                Core = true,
+                ForceModels = true,
+                Models = {
+                    "models/jackswan/rogue_trader/wk_rt_secutor.mdl",
+                    "models/wk/fem_priast/wk_priestness_belka.mdl"
+                },
+                MaxHealth = 500,
+                PowerShield = true,
+                Medic = true,
+                Weapons = {
+                    "cat_custom_galvanic",
+                    "cat_legacy_omnissiahaxe"
+                },
+                SpawnWeapons = {"fas2_ifak","weapon_healer","ent_spawner"},
+                EntitySpawner = {
+                    { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
+                    { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
+                    { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
+                    { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
+                },
+                Prefix = ""
+            },
+            {
+                Name = "Exorcist",
+                Core = true,
+                ForceModels = true,
+                Models = {
+                    "models/wk/gans/wk_gans_priest.mdl",
+                    "models/wk/fem_priast/wk_priestness.mdl"
+                },
+                MaxHealth = 750,
+                PowerShield = true,
+                Weapons = {
+                    "cat_custom_galvanic",
+                    "cat_legacy_omnissiahaxe",
+                },
+                SpawnWeapons = {"ent_spawner"},
+                EntitySpawner = {
+                    { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+                    { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
+                    { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
+                    { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
+                },
+                Prefix = ""
+            },
+            {
+                Name = "Telephatica",
+                Core = true,
+                ForceModels = true,
+                Magic = true,
+                Models = {
+                    "models/wk/adeptus_mechanicus/wk_trippriest.mdl",
+                    "models/wk/fem_priast/wk_priestness.mdl"
+                },
+                MaxHealth = 750,
+                PowerShield = true,
+                Weapons = {
+                    "cat_custom_galvanic",
+                    "cat_legacy_omnissiahaxe"
+                },
+                SpawnWeapons = {"murlock_staff_player","ent_spawner"},
+                EntitySpawner = {
+                    { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+                    { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
+                    { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
+                    { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
+                },
+                Prefix = ""
+            },
+            {
+                Name = "Electromagneticus",
+                Core = true,
+                ForceModels = true,
+                Models = {
+                    "models/player/mechs_fulgurite.mdl"
+                },
+                MaxHealth = 1500,
+                PowerShield = false,
+                Weapons = {
+                    "cat_legacy_omnissiahaxe"
+                },
+                SpawnWeapons = {"ent_spawner"},
+                EntitySpawner = {
+                    { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+                    { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
+                    { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
+                    { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
+                },
+                Prefix = ""
+            },
+            {
+                Name = "Magos",
+                Core = true,
+                ForceModels = true,
+                Models = {
+                    "models/astartes/mech/magos.mdl"
+                },
+                MaxHealth = 1000,
+                PowerShield = true,
+                Weapons = {
+                    "cat_custom_galvanic",
+                    "cat_legacy_omnissiahaxe",
+                    "weapon_simrepair"
+                },
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic"},
+                EntitySpawner = {
+                    { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+                    { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
+                    { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
+                    { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
+                    { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
+                },
+                Prefix = ""
+            }
+        }
+    },
     ["Penal Legion"] = {
         NiceName = "Penal Legion",
         Description = "Penal Legions are composed of the most hardened criminals and are often used cannon fodder.",
