@@ -366,7 +366,9 @@ commands = {
     ["!removebasenodes"] = function(ply) RemoveAllPriorityBaseNodes(ply) end,
     ["/removebasenodes"] = function(ply) RemoveAllPriorityBaseNodes(ply) end,
     ["!removefrontlinenodes"] = function(ply) priority_frontline_node(ply) end,
-    ["/removefrontlinenodes"] = function(ply) priority_frontline_node(ply) end
+    ["/removefrontlinenodes"] = function(ply) priority_frontline_node(ply) end,
+    ["!objective"] = function(ply, args) AdminUpdateObjectiveLocationAndText(ply, args) end,
+    ["/objective"] = function(ply, args) AdminUpdateObjectiveLocationAndText(ply, args) end
 }
 
 
