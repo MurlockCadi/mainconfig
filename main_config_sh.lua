@@ -1313,8 +1313,8 @@ ROLES = ROLES or {
             {
                 Name = "Event Character",
                 Default = true,
-                Models = {},
-		MaxHealth = 5000,
+                Models = {"models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl"},
+				MaxHealth = 5000,
                 Weapons = {},
                 SpawnWeapons = {"weapon_physgun", "gmod_tool"},
                 Prefix = ""
@@ -1322,7 +1322,7 @@ ROLES = ROLES or {
             {
                 Name = "Boss Character",
                 Models = {"models/nemeroth_chaos_lord1.mdl","models/boss_grimskull.mdl"},
-		MaxHealth = 50000,
+				MaxHealth = 50000,
                 Weapons = {},
                 SpawnWeapons = {"weapon_physgun", "gmod_tool","cat_primaris_legacy_boltstormgauntlets"},
                 Prefix = ""
