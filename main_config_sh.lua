@@ -251,6 +251,8 @@ commands = {
     ["!steam"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
     ["/steamgroup"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
     ["!steamgroup"] = function(ply) OpenURL(ply,"https://steamcommunity.com/groups/imperiumgaminggmod") end,
+    ["/laws"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1ydHDK5rCCyvnWISJI5xhW_rjb1Qp8dI0b2Ab2EmL7Jc/edit?usp=sharing") end,
+    ["!laws"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1ydHDK5rCCyvnWISJI5xhW_rjb1Qp8dI0b2Ab2EmL7Jc/edit?usp=sharing") end,
     ["!logs"] = function(ply) mLogs.Open(ply) end,
     ["/logs"] = function(ply) mLogs.Open(ply) end,
     ["/pm"] = function(ply, args) return privat_radio_msg(ply, args) end,
