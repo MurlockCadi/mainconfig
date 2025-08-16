@@ -871,7 +871,7 @@ DivisionTypes = {
 	    {ID = 4, Name = "Staff Sergeant", Rank_Prefix = "SSG", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = false},
             {ID = 5, Name = "Warrent Officer", Rank_Prefix = "WO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
 	    {ID = 6, Name = "Tempestor", Rank_Prefix = "TMP", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-	    {ID = 7, Name = "Tempestor Prime", Rank_Prefix = "TMPRM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
+	    {ID = 7, Name = "Tempestor Prime", Rank_Prefix = "TPRM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
         },
         Classes = {
             {
@@ -1076,7 +1076,7 @@ DivisionTypes = {
             {ID = 8, Name = "Quartermaster", Rank_Prefix = "QM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 9, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
             {ID = 10, Name = "Kaptain", Rank_Prefix = "KPT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
-            {ID = 11, Name = "Marshal", Rank_Prefix = "MAJ", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
+            {ID = 11, Name = "Marshal", Rank_Prefix = "MAR", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
         },
         Classes = {
             {
@@ -1358,7 +1358,7 @@ ROLES = ROLES or {
         Description = "The backbone of the Astra Militarum, Cadian Shock Troopers are the Imperiums most numerous and versatile soldiers.\nThe 11th, forged in the crucible of storm-lashed warzones, now stand vigilant in the defense of the Hive.\nCadia Stands! You will join as a Fresh Recruit from the Hive City.",
         Default = true,
         Ranks = {
-            {ID = 1, Name = "Whiteshield", Rank_Prefix = "RCT", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
+            {ID = 1, Name = "Whiteshield", Rank_Prefix = "WSHL", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
         },
         Classes = {
             {
