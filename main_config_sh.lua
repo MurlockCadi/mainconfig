@@ -860,9 +860,9 @@ DivisionTypes = {
             }
         }
     },
-    ["11th Kasrkin Wardens"] = {
-        NiceName = "11th Kasrkin Wardens",
-        Description = "The 11th Kasrkin Wardens are the Imperium's shield, forged in the fires of Cadia to stand steadfast against any foe. Cadia Stands!",
+    ["1st Tempestus Scions"] = {
+        NiceName = "1st Tempestus Scions",
+        Description = "The 1st Tempestus Scions are the Imperium's shield, forged in the fires of various war torn worlds to stand steadfast against any foe.",
         Team = "imperium",
         Ranks = {
             {ID = 1, Name = "Veteran", Rank_Prefix = "VET", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
@@ -871,11 +871,11 @@ DivisionTypes = {
 	    {ID = 4, Name = "Staff Sergeant", Rank_Prefix = "SSG", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = false},
             {ID = 5, Name = "Warrent Officer", Rank_Prefix = "WO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
 	    {ID = 6, Name = "Tempestor", Rank_Prefix = "TMP", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-	    {ID = 7, Name = "Tempestor Prime", Rank_Prefix = "TMPRM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
+	    {ID = 7, Name = "Tempestor Prime", Rank_Prefix = "TPRM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
         },
         Classes = {
             {
-                Name = "Kasrkin",
+                Name = "Scion",
                 Default = true,
                 Models = {},
                 Weapons = {},
@@ -884,7 +884,7 @@ DivisionTypes = {
                 Prefix = ""
             },
             {
-                Name = "Kasrkin Medic",
+                Name = "Scion Medic",
                 Core = true,
                 Medic = true,
                 MaxHealth = 1000,
@@ -902,7 +902,7 @@ DivisionTypes = {
                 },
             },
             {
-                Name = "Kasrkin Weapon Specialist",
+                Name = "Scion Weapon Specialist",
                 Core = true,
                 Models = {},
                 MaxHealth = 1000,
@@ -919,7 +919,7 @@ DivisionTypes = {
                 },
             },
             {
-                Name = "Kasrkin Sniper",
+                Name = "Scion Sniper",
                 Core = true,
                 Models = {},
                 MaxHealth = 1000,
@@ -936,7 +936,7 @@ DivisionTypes = {
                 },
             },
             {
-                Name = "Kasrkin Vox Caster",
+                Name = "Scion Vox Caster",
                 Core = true,
                 Radio = true,
                 Models = {},
@@ -960,7 +960,7 @@ DivisionTypes = {
         Description = "The 11th Cadian Storm Guards are the Imperium's shield, forged in the fires of Cadia to stand steadfast against any foe. Cadia Stands!",
         Team = "imperium",
         Ranks = {
-            {ID = 1, Name = "Whiteshield", Rank_Prefix = "RCT", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
+            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
             {ID = 2, Name = "Guardsman", Rank_Prefix = "GDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
             {ID = 3, Name = "Veteran Guardsman", Rank_Prefix = "VGDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 4, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
@@ -1076,7 +1076,7 @@ DivisionTypes = {
             {ID = 8, Name = "Quartermaster", Rank_Prefix = "QM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 9, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
             {ID = 10, Name = "Kaptain", Rank_Prefix = "KPT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
-            {ID = 11, Name = "Marshal", Rank_Prefix = "MAJ", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
+            {ID = 11, Name = "Marshal", Rank_Prefix = "MAR", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
         },
         Classes = {
             {
@@ -1358,7 +1358,7 @@ ROLES = ROLES or {
         Description = "The backbone of the Astra Militarum, Cadian Shock Troopers are the Imperiums most numerous and versatile soldiers.\nThe 11th, forged in the crucible of storm-lashed warzones, now stand vigilant in the defense of the Hive.\nCadia Stands! You will join as a Fresh Recruit from the Hive City.",
         Default = true,
         Ranks = {
-            {ID = 1, Name = "Whiteshield", Rank_Prefix = "RCT", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
+            {ID = 1, Name = "Whiteshield", Rank_Prefix = "WSHLD", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
         },
         Classes = {
             {
@@ -1373,7 +1373,7 @@ ROLES = ROLES or {
         Team = "imperium"
     },
     DIVISION_KRIEG = {
-        NiceName = "Krieg Conscripts",
+        NiceName = "Krieg Recruit",
         Prefix = "",
         Color = Color(50, 50, 50, 255),
         Description = "Hardened siege specialists from the Death World of Krieg.\nThe 236th are experts in attrition warfare and unyielding assaults.\nThey fight without fear, for death is their duty. You will join as a Fresh Recruit from the Hive City.",
@@ -1381,7 +1381,7 @@ ROLES = ROLES or {
         Ranks = {
             {
                 ID = 1,
-                Name = "Conscripts",
+                Name = "Recruit",
                 Rank_Prefix = "RCT",
                 ModelsAllowed = KRIEG_MODELS,
                 WeaponsAllowed = KRIEG_WEAPONS,
