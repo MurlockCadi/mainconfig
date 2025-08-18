@@ -8,7 +8,8 @@ gamemode_name = "WARHAMMER 40K ROLEPLAY"
 
 local MAIN_MAPS = {
     ["rp_40k_hammerfall_undead"] = true,
-    ["necromunda_v1"] = true
+    ["necromunda_v1"] = true,
+	["rp_medieval_v2"] = true
 }
 
 if MAIN_MAPS[game.GetMap()] then
