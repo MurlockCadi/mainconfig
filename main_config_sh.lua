@@ -738,10 +738,21 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl"},
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
-		PowerShield = true,
-		priest = true,
+				PowerShield = true,
+				priest = true,
                 ForceModels = true,
                 MaxHealth = 500,
+                SpawnWeapons = {"murlock_staff_player"},
+                Prefix = ""
+            },
+            {
+                Name = "Adepta Sororitas",
+                Core = true,
+                Models = {"models/sob_battlesister.mdl","models/sob_canones.mdl","models/sob_hospitaller.mdl","models/sob_seraphim.mdl"},
+                Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol","arccw_k_40k_bolter","cat_custom_powersabre"},
+				priest = true,
+                ForceModels = true,
+                MaxHealth = 1000,
                 SpawnWeapons = {"murlock_staff_player"},
                 Prefix = ""
             },
