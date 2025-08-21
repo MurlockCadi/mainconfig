@@ -99,7 +99,8 @@ ENTITY_RESPAWN_TIMERS = {
     ["Radio"] = 120,
     ["Skull"] = 10,
     ["Reactor"] = 1000,
-    ["Turret"] = 120
+    ["Turret"] = 120,
+    ["Tanks"] = 120
 }
 
 
@@ -1523,6 +1524,25 @@ INVENTORY_ITEMS = {
         UseFunction = function(ply)
             Example(ply)
         end
+    }
+}
+
+-----------------CERTIFICATIONS--------------
+
+CERTIFICATIONS = {
+    ["Tanker"] = {
+        Weapons = {"ent_spawner","weapon_simrepair"},
+        Entitys = {
+            { name = "Chimera", entityname = "sim_fphys_wk_chimera",  description = "APC", type = "Vehicle" }
+        }
+    },
+    ["Rough Rider"] = {
+        Weapons = {"ent_spawner"},
+        Entitys = {
+            { name = "Andalusian", entityname = "ent_horse_andalusian", description = "A fast attack vehicle.", type = "Vehicle" },
+            { name = "Arabian", entityname = "ent_horse_arabian", description = "A fast attack vehicle.", type = "Vehicle" },
+            { name = "Mustang", entityname = "ent_horse_mustang", description = "A fast attack vehicle.", type = "Vehicle" }
+        }
     }
 }
 
