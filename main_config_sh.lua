@@ -560,7 +560,7 @@ DivisionTypes = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe"
                 },
-                SpawnWeapons = {"fas2_ifak","weapon_healer","ent_spawner"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner"},
                 EntitySpawner = {
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -785,7 +785,7 @@ DivisionTypes = {
                 MaxHealth = 1000,
                 ForceModels = true,
                 atomic = true,
-                SpawnWeapons = {"fas2_ifak","weapon_healer","ent_spawner","weapon_simrepair"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_simrepair"},
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -903,7 +903,7 @@ DivisionTypes = {
                 MaxHealth = 1000,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer","jet_mk1"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","jet_mk1"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
@@ -1001,7 +1001,7 @@ DivisionTypes = {
                 Models = {"models/vintagethief/11th_imperial_guard/11th_med_kmd_grey.mdl","models/vintagethief/11th_imperial_guard/11th_med_grey.mdl"},
                 Weapons = {},
                 ForceModels = true,
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
@@ -1107,7 +1107,7 @@ DivisionTypes = {
                 Models = {"models/krig_medic.mdl"},
                 Weapons = {},
                 ForceModels = true,
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_healer"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
@@ -1446,7 +1446,7 @@ ROLES = ROLES or {
                 Default = true, 
                 Models = {"models/wk/civilian/wk_civilian.mdl"}, 
                 Weapons = {}, 
-                SpawnWeapons = {"weapon_healer","cat_custom_knife","refinery_spawner"}, 
+                SpawnWeapons = {"cat_custom_knife","refinery_spawner"}, 
                 Prefix = ""
             }
         }
@@ -1533,15 +1533,21 @@ CERTIFICATIONS = {
     ["Tanker"] = {
         Weapons = {"ent_spawner","weapon_simrepair"},
         Entitys = {
-            { name = "Chimera", entityname = "sim_fphys_wk_chimera",  description = "APC", type = "Vehicle" }
+            { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Gas for Tanks", type = "Vehicle" }
         }
     },
     ["Rough Rider"] = {
         Weapons = {"ent_spawner"},
         Entitys = {
-            { name = "Andalusian", entityname = "ent_horse_andalusian", description = "A fast attack vehicle.", type = "Vehicle" },
-            { name = "Arabian", entityname = "ent_horse_arabian", description = "A fast attack vehicle.", type = "Vehicle" },
-            { name = "Mustang", entityname = "ent_horse_mustang", description = "A fast attack vehicle.", type = "Vehicle" }
+            { name = "Andalusian", entityname = "ent_horse_andalusian", description = "Horse!", type = "Vehicle" },
+            { name = "Arabian", entityname = "ent_horse_arabian", description = "Horse!", type = "Vehicle" },
+            { name = "Mustang", entityname = "ent_horse_mustang", description = "Horse!", type = "Vehicle" }
+        }
+    },
+    ["Surgeon"] = {
+        Weapons = {"weapon_healer"},
+        Entitys = {
+            { name = "Medical Supplies", entityname = "medic_box", description = "Lets soldiers heal themselves.", type = "Medic Box" }
         }
     }
 }
