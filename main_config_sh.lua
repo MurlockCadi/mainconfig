@@ -62,7 +62,7 @@ intro_image_urls = {
 
 ---- MURLOCK ECON ---------------
 
-ECONOMY_PRODUCTION_RATE = 0.75 -- How much GDP is produced per sector
+ECONOMY_PRODUCTION_RATE = 1.25 -- How much GDP is produced per sector
 ECONOMY_CONSUMPTION_RATE = 0.50 -- How much GDP is consumed to run the Economy
 
 ---NON OFFENSIVE COST------------------
