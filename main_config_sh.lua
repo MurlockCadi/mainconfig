@@ -1349,8 +1349,8 @@ ROLES = ROLES or {
             },
             {
                 Name = "Boss Character",
-                Models = {"models/nemeroth_chaos_lord1.mdl","models/boss_grimskull.mdl"},
-				MaxHealth = 50000,
+                Models = {"models/nemeroth_chaos_lord1.mdl","models/boss_grimskull.mdl","models/player/wh4000_lagariumpm9.mdl"},
+				MaxHealth = 300000,
                 Weapons = {},
                 SpawnWeapons = {"weapon_physgun", "gmod_tool","cat_primaris_legacy_boltstormgauntlets"},
                 Prefix = ""
