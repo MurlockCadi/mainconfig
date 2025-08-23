@@ -261,13 +261,13 @@ commands = {
     ["/laws"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1ydHDK5rCCyvnWISJI5xhW_rjb1Qp8dI0b2Ab2EmL7Jc/edit?usp=sharing") end,
     ["!laws"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1ydHDK5rCCyvnWISJI5xhW_rjb1Qp8dI0b2Ab2EmL7Jc/edit?usp=sharing") end,
 	["/training"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1uEcy2Lj3EM00wquvtDSTEerZj_Uv5V1GPMIuu-6qV0c/edit?usp=sharing") end,
-	["/training"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1uEcy2Lj3EM00wquvtDSTEerZj_Uv5V1GPMIuu-6qV0c/edit?usp=sharing") end,
+	["!training"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1uEcy2Lj3EM00wquvtDSTEerZj_Uv5V1GPMIuu-6qV0c/edit?usp=sharing") end,
 	["/suspect"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1h45MpFE7ya3abVqJfeWdi1wgS9RKJ2hn8UhRJRy_WdM/edit?usp=sharing") end,
 	["!suspect"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1h45MpFE7ya3abVqJfeWdi1wgS9RKJ2hn8UhRJRy_WdM/edit?usp=sharing") end,
 	["/krieg"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1_T9_v_yLW7vmSyxLIDFpGk20MJmYUIdcOz4Ay7Lkq0o/edit?usp=sharing") end,
 	["!krieg"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1_T9_v_yLW7vmSyxLIDFpGk20MJmYUIdcOz4Ay7Lkq0o/edit?usp=sharing") end,
-	["/cadia"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1W7CPfijkqjVdg84OOyP_ISvIfaoIzecFM6WGqpSzmHo/edit?usp=sharing") end,
-	["!cadia"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1W7CPfijkqjVdg84OOyP_ISvIfaoIzecFM6WGqpSzmHo/edit?usp=sharing") end,
+	["/cadia"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1Tq9m4xMw-gSf3ShvMRIhv8R25ymphWLkjXwEHtcWvh4/edit?usp=sharing") end,
+	["!cadia"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1Tq9m4xMw-gSf3ShvMRIhv8R25ymphWLkjXwEHtcWvh4/edit?usp=sharing") end,
 	["/ranks"] = function(ply) OpenURL(ply,"https://xmind.ai/share/YIOgl1RA?xid=jXVrwaii") end,	
 	["!ranks"] = function(ply) OpenURL(ply,"https://xmind.ai/share/YIOgl1RA?xid=jXVrwaii") end,
     ["!logs"] = function(ply) mLogs.Open(ply) end,
@@ -999,6 +999,15 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = ""
             },
+			{
+                Name = "Kasrkin",
+                Default = true,
+                Models = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl"},
+				MaxHealth = 1000,
+                Weapons = {"cat_custom_hellgunstandard"},
+                SpawnWeapons = {},
+                Prefix = "KS"
+            },
             {
                 Name = "Medic",
                 Core = true,
@@ -1104,6 +1113,15 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
+            },
+			{
+                Name = "Grenedier",
+                Default = true,
+                Models = {"models/krig_stormtrooper.mdl"},
+				MaxHealth = 1000,
+                Weapons = {"cat_custom_hellgun_lucius"},
+                SpawnWeapons = {},
+                Prefix = "GR"
             },
             {
                 Name = "Medic",
@@ -1540,6 +1558,9 @@ CERTIFICATIONS = {
         Entitys = {
             { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Gas for Tanks", type = "Vehicle" }
         }
+    },
+    ["Provost"] = {
+        Weapons = {"weapon_cuff_elastic"},
     },
     ["Rough Rider"] = {
         Weapons = {"ent_spawner"},
