@@ -1010,7 +1010,6 @@ DivisionTypes = {
 			{
                 Name = "Kasrkin",
                 Core = true,
-                Default = true,
                 Models = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl"},
 				MaxHealth = 1000,
                 Weapons = {"cat_custom_hellgunstandard"},
@@ -1126,7 +1125,6 @@ DivisionTypes = {
 			{
                 Name = "Grenedier",
 				Core = true,
-                Default = true,
                 Models = {"models/krig_stormtrooper.mdl"},
 				MaxHealth = 1000,
                 Weapons = {"cat_custom_hellgun_lucius"},
