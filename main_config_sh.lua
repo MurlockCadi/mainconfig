@@ -12,6 +12,14 @@ local MAIN_MAPS = {
 	["rp_bremergard_forest"] = true
 }
 
+local ORK_MAPS = {
+	["rp_zombiewars_v1"] = true
+}
+
+if ORK_MAPS[game.GetMap()] then
+    ORK_MAP = game.GetMap()
+end
+
 if MAIN_MAPS[game.GetMap()] then
     MAIN_MAP = game.GetMap()
 end
