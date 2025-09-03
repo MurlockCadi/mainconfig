@@ -26,7 +26,8 @@ end
 
 mapMessages = {
     ["necromunda_v1"] = "++-- Hive City Imperium // Scarus Sector //  Segmentum Obscurus --++",
-    ["rp_jupiter_underground"] = "++-- Hive City Imperium // Under Hive // Abandoned Sectors --++"
+    ["rp_jupiter_underground"] = "++-- Hive City Imperium // Under Hive // Abandoned Sectors --++",
+	["rp_zombiewars_v1"] = "++-- Duskgrain // Ork Infestation // Astra Militarum Occupation --++"
 }
 
 
