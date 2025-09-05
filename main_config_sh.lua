@@ -406,7 +406,8 @@ commands = {
     ["/removefrontlinenodes"] = function(ply) priority_frontline_node(ply) end,
     ["!objective"] = function(ply, args) AdminUpdateObjectiveLocationAndText(ply, args) end,
     ["/objective"] = function(ply, args) AdminUpdateObjectiveLocationAndText(ply, args) end,
-	["/timescale"] = function(ply, args) AdminSetTimeScale(ply, args) end
+	["/timescale"] = function(ply, args) AdminSetTimeScale(ply, args) end,
+	["/sexydrugs"] = function(ply) CreateSlaneeshSpook(ply) end
 }
 
 
