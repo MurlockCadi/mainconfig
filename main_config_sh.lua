@@ -407,7 +407,9 @@ commands = {
     ["!objective"] = function(ply, args) AdminUpdateObjectiveLocationAndText(ply, args) end,
     ["/objective"] = function(ply, args) AdminUpdateObjectiveLocationAndText(ply, args) end,
 	["/timescale"] = function(ply, args) AdminSetTimeScale(ply, args) end,
-	["/sexydrugs"] = function(ply) CreateSlaneeshSpook(ply) end
+	["/sexydrugs"] = function(ply) CreateSlaneeshSpook(ply) end,
+    ["/gamemode"] = function(ply) AdminOpenUIMapSelect(ply) end,
+	["!gamemode"] = function(ply) AdminOpenUIMapSelect(ply) end
 }
 
 
