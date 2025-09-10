@@ -411,7 +411,9 @@ commands = {
     ["/gamemode"] = function(ply) AdminOpenUIMapSelect(ply) end,
 	["!gamemode"] = function(ply) AdminOpenUIMapSelect(ply) end,
     ["/items"] = function(ply) OpenItemManager(ply) end,
-	["!items"] = function(ply) OpenItemManager(ply) end
+	["!items"] = function(ply) OpenItemManager(ply) end,
+	["/giveitem"] = function(ply, args) AdminGiveItem(ply,args) end,
+	["!giveitem"] = function(ply, args) AdminGiveItem(ply,args) end
 }
 
 
