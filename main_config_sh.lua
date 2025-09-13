@@ -1720,7 +1720,7 @@ weaponsConfig = {
         {name = "cat_custom_plasmapistol", cost = 20000, viponly = false},
         {name = "cat_custom_phosphor", cost = 20000, viponly = false},
 
-        {name = "cat_custom_laspistol", cost = 1000, viponly = false}
+        {name = "cat_custom_laspistol", cost = 1000, viponly = false},
 
 		-- Adepta Sororitas
 		{name = "cat_legacy_plasmapistolheresy", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
