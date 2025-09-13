@@ -1942,6 +1942,43 @@ PASSIVE_ITEM_FLAGS["Thorns 25"] = {
     Color        = Color(200, 80, 0)
 }
 
+PASSIVE_ITEM_FLAGS["Last Stand"] = {
+    FunctionName = "LastStand",
+    Description  = "When below 25% health, you take 50% less damage.",
+    Color        = Color(255, 200, 0)
+}
+
+-- Critical Strikes
+PASSIVE_ITEM_FLAGS["Critical Strikes 10"] = {
+    FunctionName = "CritStrike10",
+    Description  = "10% chance for your attacks to deal 75% more damage.",
+    Color        = Color(0, 200, 255)
+}
+
+PASSIVE_ITEM_FLAGS["Critical Strikes 25"] = {
+    FunctionName = "CritStrike25",
+    Description  = "25% chance for your attacks to deal 75% more damage.",
+    Color        = Color(0, 255, 255)
+}
+
+-- Critical Fails
+PASSIVE_ITEM_FLAGS["Critical Fail 10"] = {
+    FunctionName = "CritFail10",
+    Description  = "10% chance for your attacks to deal 75% less damage.",
+    Color        = Color(255, 100, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Critical Fail 25"] = {
+    FunctionName = "CritFail25",
+    Description  = "25% chance for your attacks to deal 75% less damage.",
+    Color        = Color(255, 50, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Critical Vulnerability 10"] = {
+    FunctionName = "CritVulnerable10",
+    Description  = "10% chance to take 75% more damage when hit.",
+    Color        = Color(255, 50, 50)
+}
 
 -----------------LOAD MODELS------------------
 
