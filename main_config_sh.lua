@@ -1765,6 +1765,21 @@ weaponsConfig = {
 
 
 
+-----------------PASSIVE ITEM FLAGS-----------------------------
+
+PASSIVE_ITEM_FLAGS = PASSIVE_ITEM_FLAGS or {}
+
+PASSIVE_ITEM_FLAGS["Extra 100 Health"] = {
+    FunctionName = "100health",
+    Description = "Increases max health by 100.",
+    Color = Color(0, 127, 31)
+}
+
+PASSIVE_ITEM_FLAGS["Remove 100 Health"] = {
+    FunctionName = "remove100health",
+    Description = "Decreases max health by 100.",
+    Color = Color(127, 0, 95)
+}
 
 -----------------LOAD MODELS------------------
 
