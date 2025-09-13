@@ -1925,7 +1925,7 @@ PASSIVE_ITEM_FLAGS["Armor Vampirism 10"] = {
 -- Bullet Vampirism
 PASSIVE_ITEM_FLAGS["Bullet Vampirism 10"] = {
     FunctionName = "BulletVampirism10",
-    Description  = "Steals 10% of bullet damage as health.",
+    Description  = "Regenerates 1 bullet into your reserves every time you hit with a bullet.",
     Color        = Color(200, 100, 0)
 }
 
