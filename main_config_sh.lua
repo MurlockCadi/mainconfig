@@ -1783,6 +1783,12 @@ PASSIVE_ITEM_FLAGS["Remove 100 Health"] = {
     Color = Color(127, 0, 95)
 }
 
+PASSIVE_ITEM_FLAGS["bot_buyable"] = {
+    FunctionName = "none",
+    Description = "Bots will sell this item at Random",
+    Color = Color(127, 0, 95)
+}
+
 -----------------LOAD MODELS------------------
 
 modelsToPreload = {}
