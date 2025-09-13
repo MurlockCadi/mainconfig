@@ -1850,6 +1850,98 @@ PASSIVE_ITEM_FLAGS["Ammo Regen"] = {
     Color        = Color(200, 200, 50)
 }
 
+-- Damage Boosts
+PASSIVE_ITEM_FLAGS["Damage Boost 10"] = {
+    FunctionName = "DamageBoost10",
+    Description  = "Increases your damage output by 10%.",
+    Color        = Color(0, 200, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Damage Boost 25"] = {
+    FunctionName = "DamageBoost25",
+    Description  = "Increases your damage output by 25%.",
+    Color        = Color(0, 255, 0)
+}
+
+-- Damage Reductions (incoming)
+PASSIVE_ITEM_FLAGS["Damage Reduction 10"] = {
+    FunctionName = "DamageReduction10",
+    Description  = "Decreases incoming damage by 10%.",
+    Color        = Color(0, 150, 255)
+}
+
+PASSIVE_ITEM_FLAGS["Damage Reduction 25"] = {
+    FunctionName = "DamageReduction25",
+    Description  = "Decreases incoming damage by 25%.",
+    Color        = Color(0, 200, 255)
+}
+
+-- Damage Taken Increases (incoming)
+PASSIVE_ITEM_FLAGS["Damage Taken Increase 10"] = {
+    FunctionName = "DamageTakenIncrease10",
+    Description  = "You take 10% more damage from all sources.",
+    Color        = Color(200, 50, 50)
+}
+
+PASSIVE_ITEM_FLAGS["Damage Taken Increase 25"] = {
+    FunctionName = "DamageTakenIncrease25",
+    Description  = "You take 25% more damage from all sources.",
+    Color        = Color(255, 0, 0)
+}
+
+-- Damage Dealt Reductions (outgoing)
+PASSIVE_ITEM_FLAGS["Damage Output Reduction 10"] = {
+    FunctionName = "DamageDealtReduction10",
+    Description  = "Your attacks deal 10% less damage.",
+    Color        = Color(200, 100, 100)
+}
+
+PASSIVE_ITEM_FLAGS["Damage Output Reduction 25"] = {
+    FunctionName = "DamageDealtReduction25",
+    Description  = "Your attacks deal 25% less damage.",
+    Color        = Color(200, 50, 50)
+}
+
+-- Vampirism (health steal)
+PASSIVE_ITEM_FLAGS["Vampirism 10"] = {
+    FunctionName = "Vampirism10",
+    Description  = "Steals 10% of dealt damage as health.",
+    Color        = Color(200, 0, 200)
+}
+
+PASSIVE_ITEM_FLAGS["Vampirism 25"] = {
+    FunctionName = "Vampirism25",
+    Description  = "Steals 25% of dealt damage as health.",
+    Color        = Color(255, 0, 255)
+}
+
+-- Armor Vampirism
+PASSIVE_ITEM_FLAGS["Armor Vampirism 10"] = {
+    FunctionName = "ArmorVampirism10",
+    Description  = "Steals 10% of dealt damage as armor.",
+    Color        = Color(0, 180, 200)
+}
+
+-- Bullet Vampirism
+PASSIVE_ITEM_FLAGS["Bullet Vampirism 10"] = {
+    FunctionName = "BulletVampirism10",
+    Description  = "Steals 10% of bullet damage as health.",
+    Color        = Color(200, 100, 0)
+}
+
+-- Thorns (reflect damage)
+PASSIVE_ITEM_FLAGS["Thorns 10"] = {
+    FunctionName = "Thorns10",
+    Description  = "Reflects 10% of incoming damage back to the attacker.",
+    Color        = Color(255, 120, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Thorns 25"] = {
+    FunctionName = "Thorns25",
+    Description  = "Reflects 25% of incoming damage back to the attacker.",
+    Color        = Color(200, 80, 0)
+}
+
 
 -----------------LOAD MODELS------------------
 
