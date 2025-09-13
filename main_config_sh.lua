@@ -1592,7 +1592,6 @@ weaponsConfig = {
         {name = "arccw_k_40k_luciuslasgun", cost = 2000, viponly = false},
         {name = "arccw_k_40k_lasgun_mk2", cost = 2000, viponly = false},
         {name = "arccw_k_40k_lasgun_triplex", cost = 20000, viponly = false},
-        {name = "arccw_k_40k_plasmarifle", cost = 20000, viponly = false},
         {name = "arccw_k_40k_autoshotgun_semi", cost = 20000, viponly = false},
         {name = "arccw_k_40k_lascarbine", cost = 20000, viponly = false},
 
@@ -1634,13 +1633,14 @@ weaponsConfig = {
         {name = "cat_custom_plasmacannon", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
 
         -- Weapon Specialist Weapons
+		{name = "arccw_k_40k_plasmarifle", cost = 20000, viponly = false,  classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "cat_custom_flamer", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "cat_custom_flamerchem", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "cat_custom_grenadelauncher", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "cat_custom_meltagun", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "cat_custom_plasmagun", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
-        {name = "cat_custom_bolter", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
-        {name = "arccw_k_40k_bolter", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
+        {name = "cat_custom_bolter", cost = 30000, viponly = false, classes = {"Adepta Sororitas","Weapon Specialist","Kasrkin Weapon Specialist"}},
+        {name = "arccw_k_40k_bolter", cost = 30000, viponly = false, classes = {"Adepta Sororitas","Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "arccw_admech_volkiteblaster", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "arccw_admech_volkitecharger", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "arccw_admech_volkiteserp", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
@@ -1655,13 +1655,14 @@ weaponsConfig = {
         {name = "arccw_k_40k_longlas", cost = 20000, viponly = false, classes = {"Scout","Ratling","Kasrkin Sniper"}},
 
         -- Storm Trooper Weapons
-        {name = "cat_custom_hellgun", cost = 20000, viponly = false, classes = {"Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-        {name = "cat_custom_hellgunstandard", cost = 20000, viponly = false, classes = {"Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-        {name = "cat_custom_volleygun", cost = 20000, viponly = false, classes = {"Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-        {name = "cat_custom_hellgun_scion", cost = 20000, viponly = false, classes = {"Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-        {name = "cat_custom_hellgun_lucius", cost = 20000, viponly = false, classes = {"Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster","Grenedier"}},
-        {name = "cat_custom_hellgun_stormtrooper", cost = 20000, viponly = false, classes = {"Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-        {name = "arccw_k_40k_hellgun_mk2", cost = 20000, viponly = false, classes = {"Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "cat_custom_hellgun", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "cat_custom_hellgunstandard", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "cat_custom_volleygun", cost = 20000, viponly = false, classes = {"Kasrkin Weapon Specialist"}},
+        {name = "cat_custom_hellgun_scion", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "cat_custom_hellgun_lucius", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "cat_custom_hellgun_stormtrooper", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "arccw_k_40k_hellgun_mk2", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+		{name = "cat_legacy_poweraxeshield", cost = 20000, viponly = false, classes = {"Adepta Sororitas","Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
 
         --SQUAT Weapons
         {name = "cat_legacy_boardingshield_volkitecharger", cost = 20000, viponly = false, classes = {"Squat"}},
@@ -1680,10 +1681,14 @@ weaponsConfig = {
         {name = "arccw_admech_heavy_plasmagun", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
         {name = "arccw_admech_heavy_heavytorcion", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
 
-
+		-- Adepta Sororitas
+        {name = "cat_legacy_shotguncombat", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}},
+     	{name = "cat_legacy_boltercombi", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
+		{name = "cat_legacy_boltpistoldual ", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
+		
         -- Duel Weapons
-        {name = "cat_legacy_plasmapistolpowersword", cost = 40000, viponly = false, classes = {"Lord General","Commissar","Inquisitorial Agent","Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-        {name = "cat_legacy_boltpistolpowersword", cost = 40000, viponly = false, classes = {"Lord General","Commissar","Inquisitorial Agent","Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "cat_legacy_plasmapistolpowersword", cost = 40000, viponly = false, classes = {"Lord General","Adepta Sororitas","Commissar","Inquisitorial Agent","Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "cat_legacy_boltpistolpowersword", cost = 40000, viponly = false, classes = {"Lord General","Adepta Sororitas","Commissar","Inquisitorial Agent","Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
     },
 
     secondary = {
@@ -1704,8 +1709,8 @@ weaponsConfig = {
         {name = "arccw_admech_pistol_phosporpistol", cost = 14000, viponly = false},
         {name = "arccw_admech_pistol_radpistol", cost = 14000, viponly = false},
 
-        {name = "cat_custom_hellpistol", cost = 10000, viponly = false, classes = {"Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-        {name = "arccw_k_40k_hellpistol", cost = 10000, viponly = false, classes = {"Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "cat_custom_hellpistol", cost = 10000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "arccw_k_40k_hellpistol", cost = 10000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
         
         {name = "cat_custom_autopistol", cost = 10000, viponly = false},
         {name = "cat_custom_autopistol_talon", cost = 10000, viponly = false},
@@ -1716,6 +1721,19 @@ weaponsConfig = {
         {name = "cat_custom_phosphor", cost = 20000, viponly = false},
 
         {name = "cat_custom_laspistol", cost = 1000, viponly = false}
+
+		-- Adepta Sororitas
+		{name = "cat_legacy_plasmapistolheresy", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
+		
+		--Heavy Weapons
+		{name = "cat_custom_autocannonold", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
+        {name = "cat_custom_heavybolter", cost = 40000, viponly = false, classes = {"Heavy Weapons"}},
+        {name = "cat_custom_heavystubber", cost = 40000, viponly = false, classes = {"Heavy Weapons"}},
+        {name = "cat_custom_lascannon", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
+        {name = "cat_custom_missilelauncher", cost = 20000, viponly = false, classes = {"Heavy Weapons"}},
+        {name = "cat_custom_multilaser", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
+        {name = "cat_custom_plasmacannon", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
+
     },
 
     misc = {
@@ -1733,9 +1751,12 @@ weaponsConfig = {
         {name = "cat_custom_grenade_frag", cost = 3000, viponly = false},
         {name = "cat_custom_grenade_fire", cost = 3000, viponly = false},
         {name = "cat_custom_grenade_krak", cost = 3000, viponly = false},
-        {name = "cat_custom_grenade_smoke", cost = 3000, viponly = false},
         {name = "cat_custom_grenade_stun", cost = 3000, viponly = false},
-        {name = "cat_legacy_poweraxecthonian", cost = 20000, viponly = false, classes = {"Squat"}},
+        {name = "cat_legacy_poweraxecthonian", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+
+-- Heavy
+		{name = "cat_custom_meltabomb", cost = 3000, viponly = false, classes = {"Heavy Weapons","Adepta Sororitas","Kasrkin Weapon Specialist"}},
+		
 
         {name = "cat_custom_omnissiahaxe", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}}
 
