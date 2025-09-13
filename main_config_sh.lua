@@ -1795,7 +1795,29 @@ PASSIVE_ITEM_FLAGS["Add 10 Speed"] = {
     Color = Color(0, 255, 0)
 }
 
+PASSIVE_ITEM_FLAGS["Add 25 Speed"] = {
+    FunctionName = "add25speed",
+    Description = "Increase Run Speed by 25",
+    Color = Color(0, 255, 0)
+}
 
+PASSIVE_ITEM_FLAGS["Remove 25 Speed"] = {
+    FunctionName = "remove25speed",
+    Description = "Lowers Run Speed by 25",
+    Color = Color(255, 0, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Extra 200 Health"] = {
+    FunctionName = "200health",
+    Description = "Increases max health by 200.",
+    Color = Color(0, 255, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Remove 200 Health"] = {
+    FunctionName = "remove200health",
+    Description = "Decreases max health by 200.",
+    Color = Color(255, 0, 0)
+}
 
 
 PASSIVE_ITEM_FLAGS["bot_buyable"] = {
@@ -1803,6 +1825,14 @@ PASSIVE_ITEM_FLAGS["bot_buyable"] = {
     Description = "Bots will sell this item at Random",
     Color = Color(127, 0, 95)
 }
+
+PASSIVE_ITEM_FLAGS["powershield"] = {
+    FunctionName = "powershield",
+    Description = "Grants a Powershield to the User",
+    Color = Color(0, 161, 255)
+}
+
+powershield
 
 -----------------LOAD MODELS------------------
 
