@@ -1783,6 +1783,21 @@ PASSIVE_ITEM_FLAGS["Remove 100 Health"] = {
     Color = Color(255, 0, 0)
 }
 
+PASSIVE_ITEM_FLAGS["Remove 10 Speed"] = {
+    FunctionName = "remove10speed",
+    Description = "Lowers Run Speed by 10",
+    Color = Color(255, 0, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Add 10 Speed"] = {
+    FunctionName = "add10speed",
+    Description = "Increase Run Speed by 10",
+    Color = Color(0, 255, 0)
+}
+
+
+
+
 PASSIVE_ITEM_FLAGS["bot_buyable"] = {
     FunctionName = "none",
     Description = "Bots will sell this item at Random",
