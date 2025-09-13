@@ -1832,6 +1832,25 @@ PASSIVE_ITEM_FLAGS["powershield"] = {
     Color = Color(0, 161, 255)
 }
 
+PASSIVE_ITEM_FLAGS["Shield Regen"] = {
+    FunctionName = "ShieldRegen",
+    Description  = "Grants a passive regenerating shield.",
+    Color        = Color(0, 161, 255)
+}
+
+PASSIVE_ITEM_FLAGS["Health Regen"] = {
+    FunctionName = "HealthRegen",
+    Description  = "Grants passive health regeneration over time.",
+    Color        = Color(0, 200, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Ammo Regen"] = {
+    FunctionName = "AmmoRegen",
+    Description  = "Grants passive ammo regeneration for your active weapon.",
+    Color        = Color(200, 200, 50)
+}
+
+
 -----------------LOAD MODELS------------------
 
 modelsToPreload = {}
