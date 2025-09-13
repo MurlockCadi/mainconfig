@@ -1832,8 +1832,6 @@ PASSIVE_ITEM_FLAGS["powershield"] = {
     Color = Color(0, 161, 255)
 }
 
-powershield
-
 -----------------LOAD MODELS------------------
 
 modelsToPreload = {}
