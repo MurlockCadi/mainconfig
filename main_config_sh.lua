@@ -1769,6 +1769,8 @@ weaponsConfig = {
 
 PASSIVE_ITEM_FLAGS = PASSIVE_ITEM_FLAGS or {}
 
+MAX_PASSIVE_ITEMS = 3
+
 PASSIVE_ITEM_FLAGS["Extra 100 Health"] = {
     FunctionName = "100health",
     Description = "Increases max health by 100.",
