@@ -1774,13 +1774,13 @@ MAX_PASSIVE_ITEMS = 3
 PASSIVE_ITEM_FLAGS["Extra 100 Health"] = {
     FunctionName = "100health",
     Description = "Increases max health by 100.",
-    Color = Color(0, 127, 31)
+    Color = Color(0, 255, 0)
 }
 
 PASSIVE_ITEM_FLAGS["Remove 100 Health"] = {
     FunctionName = "remove100health",
     Description = "Decreases max health by 100.",
-    Color = Color(127, 0, 95)
+    Color = Color(255, 0, 0)
 }
 
 PASSIVE_ITEM_FLAGS["bot_buyable"] = {
