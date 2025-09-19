@@ -1481,20 +1481,20 @@ ROLES = ROLES or {
         }
     },
     DIVISION_IMPERIUM_CITIZEN_PLAYER = {
-        NiceName = "Imperium Citizen",
+        NiceName = "Rogue Trader",
         Prefix = "",
-        Color = Color(50, 50, 50, 255),
-        Description = "You are a Citizen of the Imperium, living in the Hive City.\nLoot Bodys, trade with other Citizens, and try to survive the harsh conditions of the Hive.",
+        Color = Color(48, 25, 52, 255),
+        Description = "You are an Unknown Entity in the Sector.\nForge your own path, shape your own destiny, and carve your legend into the stars.",
         Team = "hivecitizenplayer",
         VIP = true,
         Ranks = {
-            {ID = 1, Name = "Citizen", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Rogue Trader", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
-                Name = "Citizen", 
+                Name = "Rogue Trader", 
                 Default = true, 
-                Models = {"models/wk/civilian/wk_civilian.mdl"}, 
+                Models = {"models/wk/civilian/wk_civilian.mdl","models/muschi/orks/muschi_ork_boyzzz.mdl","models/dizcordum/imperium/enforcer/enf_female.mdl","models/dizcordum/imperium/enforcer/enf_male.mdl","models/dizcordum/wk/mercenary/croto_hark.mdl","models/dizcordum/notloyal/thugs/thug_female_npc.mdl","models/dizcordum/notloyal/thugs/thug_male.mdl","models/dizcordum/chaos/cultist/cultist4.mdl","models/dizcordum/abhumans/squat.mdl","models/wk/savlar/wk_savlar_veteran.mdl","models/wizard/kroot.mdl","models/tau/baron_tau.mdl"}, 
                 Weapons = {}, 
                 SpawnWeapons = {"cat_custom_knife","refinery_spawner"}, 
                 Prefix = ""
