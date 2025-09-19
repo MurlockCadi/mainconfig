@@ -1621,8 +1621,6 @@ weaponsConfig = {
         {name = "arccw_admech_radjezzail", cost = 30000, viponly = false},
         {name = "arccw_admech_stubcarbine", cost = 30000, viponly = false},
 
-
-
         -- Heavy Weapons
         {name = "cat_custom_autocannonold", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
         {name = "cat_custom_heavybolter", cost = 40000, viponly = false, classes = {"Heavy Weapons"}},
@@ -1724,16 +1722,6 @@ weaponsConfig = {
 
 		-- Adepta Sororitas
 		{name = "cat_legacy_plasmapistolheresy", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
-		
-		--Heavy Weapons
-		{name = "cat_custom_autocannonold", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_heavybolter", cost = 40000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_heavystubber", cost = 40000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_lascannon", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_missilelauncher", cost = 20000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_multilaser", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_plasmacannon", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
-
     },
 
     misc = {
