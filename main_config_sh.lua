@@ -1481,20 +1481,20 @@ ROLES = ROLES or {
         }
     },
     DIVISION_IMPERIUM_CITIZEN_PLAYER = {
-        NiceName = "Imperium Citizen",
+        NiceName = "Rogue Trader",
         Prefix = "",
-        Color = Color(50, 50, 50, 255),
-        Description = "You are a Citizen of the Imperium, living in the Hive City.\nLoot Bodys, trade with other Citizens, and try to survive the harsh conditions of the Hive.",
+        Color = Color(48, 25, 52, 255),
+        Description = "You are an Unknown Entity in the Sector.\nForge your own path, shape your own destiny, and carve your legend into the stars.",
         Team = "hivecitizenplayer",
         VIP = true,
         Ranks = {
-            {ID = 1, Name = "Citizen", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Rogue Trader", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
-                Name = "Citizen", 
+                Name = "Rogue Trader", 
                 Default = true, 
-                Models = {"models/wk/civilian/wk_civilian.mdl"}, 
+                Models = {"models/wk/civilian/wk_civilian.mdl","models/muschi/orks/muschi_ork_boyzzz.mdl","models/dizcordum/imperium/enforcer/enf_female.mdl","models/dizcordum/imperium/enforcer/enf_male.mdl","models/dizcordum/wk/mercenary/croto_hark.mdl","models/dizcordum/notloyal/thugs/thug_female_npc.mdl","models/dizcordum/notloyal/thugs/thug_male.mdl","models/dizcordum/chaos/cultist/cultist4.mdl","models/dizcordum/abhumans/squat.mdl","models/wk/savlar/wk_savlar_veteran.mdl","models/wizard/kroot.mdl","models/tau/baron_tau.mdl"}, 
                 Weapons = {}, 
                 SpawnWeapons = {"cat_custom_knife","refinery_spawner"}, 
                 Prefix = ""
@@ -1621,8 +1621,6 @@ weaponsConfig = {
         {name = "arccw_admech_radjezzail", cost = 30000, viponly = false},
         {name = "arccw_admech_stubcarbine", cost = 30000, viponly = false},
 
-
-
         -- Heavy Weapons
         {name = "cat_custom_autocannonold", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
         {name = "cat_custom_heavybolter", cost = 40000, viponly = false, classes = {"Heavy Weapons"}},
@@ -1662,11 +1660,11 @@ weaponsConfig = {
         {name = "cat_custom_hellgun_lucius", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
         {name = "cat_custom_hellgun_stormtrooper", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
         {name = "arccw_k_40k_hellgun_mk2", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-		{name = "cat_legacy_poweraxeshield", cost = 20000, viponly = false, classes = {"Adepta Sororitas","Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+		{name = "cat_legacy_poweraxeshield", cost = 20000, viponly = false, classes = {"Adepta Sororitas","Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster","Squat"}},
 
         --SQUAT Weapons
         {name = "cat_legacy_boardingshield_volkitecharger", cost = 20000, viponly = false, classes = {"Squat"}},
-
+        {name = "cat_legacy_poweraxe", cost = 20000, viponly = false, classes = {"Squat"}},
         -- Adeptus Mechanicus
 
         {name = "cat_custom_galvanic", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
@@ -1724,16 +1722,6 @@ weaponsConfig = {
 
 		-- Adepta Sororitas
 		{name = "cat_legacy_plasmapistolheresy", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
-		
-		--Heavy Weapons
-		{name = "cat_custom_autocannonold", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_heavybolter", cost = 40000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_heavystubber", cost = 40000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_lascannon", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_missilelauncher", cost = 20000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_multilaser", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
-        {name = "cat_custom_plasmacannon", cost = 30000, viponly = false, classes = {"Heavy Weapons"}},
-
     },
 
     misc = {
