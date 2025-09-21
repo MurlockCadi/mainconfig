@@ -175,7 +175,7 @@ MAX_HEALTH = 500
 SLOW_WALK_SPEED = 80
 
 function GetRunSpeed(athleticsLevel)
-    return RUN_SPEED + (athleticsLevel * .3)
+    return RUN_SPEED + athleticsLevel
 end
 
 ------REVIVE TIME AND LOOT TIME--------
