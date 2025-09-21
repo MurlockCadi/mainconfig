@@ -152,7 +152,7 @@ ALLIES_COLOR = Color(75, 150, 75, 255)
 
 MIN_XP = 500
 MAX_XP = 40000
-MAX_LEVEL = 300
+MAX_LEVEL = 150
 
 function getXPForNextLevel(level)
     if level < 1 then return MIN_XP end
