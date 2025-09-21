@@ -415,7 +415,11 @@ commands = {
     ["/items"] = function(ply) OpenItemManager(ply) end,
 	["!items"] = function(ply) OpenItemManager(ply) end,
 	["/giveitem"] = function(ply, args) AdminGiveItem(ply,args) end,
-	["!giveitem"] = function(ply, args) AdminGiveItem(ply,args) end
+	["!giveitem"] = function(ply, args) AdminGiveItem(ply,args) end,
+	["!stats"] = function(ply) OpenPlayerStats(ply) end,
+	["/stats"] = function(ply) OpenPlayerStats(ply) end,
+	["!playerstats"] = function(ply) OpenPlayerStats(ply) end,
+	["/playerstats"] = function(ply) OpenPlayerStats(ply) end
 }
 
 
