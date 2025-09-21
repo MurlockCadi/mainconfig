@@ -151,8 +151,8 @@ ALLIES_COLOR = Color(75, 150, 75, 255)
 -------XP SYSTEM CONFIG-----------------------
 
 MIN_XP = 500
-MAX_XP = 20000
-MAX_LEVEL = 80
+MAX_XP = 40000
+MAX_LEVEL = 300
 
 function getXPForNextLevel(level)
     if level < 1 then return MIN_XP end
