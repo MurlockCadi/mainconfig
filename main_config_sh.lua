@@ -1031,8 +1031,8 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl"},
 				MaxHealth = 1000,
-                Weapons = {"cat_custom_hellgunstandard","realistic_hook"},
-                SpawnWeapons = {},
+                Weapons = {"cat_custom_hellgunstandard"},
+                SpawnWeapons = {"realistic_hook"},
                 Prefix = "KS"
             },
             {
