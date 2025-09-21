@@ -419,7 +419,15 @@ commands = {
 	["!stats"] = function(ply) OpenPlayerStats(ply) end,
 	["/stats"] = function(ply) OpenPlayerStats(ply) end,
 	["!playerstats"] = function(ply) OpenPlayerStats(ply) end,
-	["/playerstats"] = function(ply) OpenPlayerStats(ply) end
+	["/playerstats"] = function(ply) OpenPlayerStats(ply) end,
+	["/charroll"] = function(ply) charisma_roll_command(ply) end,
+	["!charroll"] = function(ply) charisma_roll_command(ply) end,
+	["/charoll"] = function(ply) charisma_roll_command(ply) end,
+	["!charoll"] = function(ply) charisma_roll_command(ply) end,
+	["/charisma"] = function(ply) charisma_roll_command(ply) end,
+	["!charisma"] = function(ply) charisma_roll_command(ply) end,
+	["/charismaroll"] = function(ply) charisma_roll_command(ply) end,
+	["!charismaroll"] = function(ply) charisma_roll_command(ply) end
 }
 
 
