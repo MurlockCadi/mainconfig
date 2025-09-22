@@ -806,6 +806,7 @@ DivisionTypes = {
                 Core = true,
                 Models = SQUAT_MODELS,
                 Weapons = SQUAT_WEAPONS,
+	            PowerShield = true,
                 ForceModels = true,
                 MaxHealth = 1000,
                 SpawnWeapons = {},
