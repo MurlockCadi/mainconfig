@@ -427,7 +427,11 @@ commands = {
 	["/charisma"] = function(ply) charisma_roll_command(ply) end,
 	["!charisma"] = function(ply) charisma_roll_command(ply) end,
 	["/charismaroll"] = function(ply) charisma_roll_command(ply) end,
-	["!charismaroll"] = function(ply) charisma_roll_command(ply) end
+	["!charismaroll"] = function(ply) charisma_roll_command(ply) end,
+	["/trade"] = function(ply) spawn_trade_station(ply) end,
+	["!trade"] = function(ply) spawn_trade_station(ply) end,
+	["/tradestation"] = function(ply) spawn_trade_station(ply) end,
+	["!tradestation"] = function(ply) spawn_trade_station(ply) end
 }
 
 
