@@ -148,6 +148,30 @@ CAPTURE_SIZE = 1250
 AXIS_COLOR = Color(175, 0, 0, 255)
 ALLIES_COLOR = Color(75, 150, 75, 255)
 
+----------BOT HEALTH-----------------
+
+
+function GetHealthByTotalPlayers()
+    local TotalPlayers = #player.GetHumans()
+    local health = 2000
+    if TotalPlayers < 5 then
+        health = 2000
+    elseif TotalPlayers < 10 then
+        health = 3000
+    elseif TotalPlayers < 20 then
+        health = 4000
+    elseif TotalPlayers < 30 then
+        health = 6000
+    elseif TotalPlayers < 40 then
+        health = 8000
+    elseif TotalPlayers < 50 then
+        health = 10000
+    end
+    return health
+end
+
+
+
 -------XP SYSTEM CONFIG-----------------------
 
 MIN_XP = 500
