@@ -431,7 +431,11 @@ commands = {
 	["/trade"] = function(ply) spawn_trade_station(ply) end,
 	["!trade"] = function(ply) spawn_trade_station(ply) end,
 	["/tradestation"] = function(ply) spawn_trade_station(ply) end,
-	["!tradestation"] = function(ply) spawn_trade_station(ply) end
+	["!tradestation"] = function(ply) spawn_trade_station(ply) end,
+	["/removetrade"] = function(ply) RemoveTradeStation(ply) end,
+	["!removetrade"] = function(ply) RemoveTradeStation(ply) end,
+	["/removetradestation"] = function(ply) RemoveTradeStation(ply) end,
+	["!removetradestation"] = function(ply) RemoveTradeStation(ply) end
 }
 
 
