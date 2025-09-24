@@ -72,7 +72,18 @@ intro_image_urls = {
 	"https://i.imgur.com/jhoJfIc.jpeg",
 	"https://i.imgur.com/w7SX8ke.jpeg",
 	"https://i.imgur.com/KrXrFmt.png",
-	"https://i.imgur.com/IbXBoYV.jpeg"
+	"https://i.imgur.com/IbXBoYV.jpeg",
+	"https://i.imgur.com/BpYYXZk.jpeg",
+	"https://i.imgur.com/X72JFnh.jpeg",
+	"https://i.imgur.com/RAK7pOJ.jpeg",
+	"https://i.imgur.com/meQqqBd.jpeg",
+	"https://i.imgur.com/6aDqQG8.jpeg",
+	"https://i.imgur.com/Q6JFxDK.jpeg",
+	"https://i.imgur.com/4T0o4q5.jpeg",
+	"https://i.imgur.com/eKeR2h3.png",
+	"https://i.imgur.com/TSPmffN.jpeg",
+	"https://i.imgur.com/5eN1Bzd.png",
+	"https://i.imgur.com/NCCAaTV.jpeg"
 }
 
 
