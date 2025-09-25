@@ -2024,6 +2024,12 @@ PASSIVE_ITEM_FLAGS["Critical Vulnerability 10"] = {
     Color        = Color(255, 50, 50)
 }
 
+PASSIVE_ITEM_FLAGS["Corrosive Damage"] = {
+    FunctionName = "CorrosiveDamage",
+    Description  = "Your attacks inflict Corrosive Damage, doing % damage over time.",
+    Color        = Color(0, 200, 100)
+}
+
 -----------------LOAD MODELS------------------
 
 modelsToPreload = {}
