@@ -1537,9 +1537,9 @@ ROLES = ROLES or {
         }
     },
     DIVISION_IMPERIUM_CITIZEN_PLAYER = {
-        NiceName = "Rogue Trader",
+        NiceName = "Mercenary",
         Prefix = "",
-        Color = Color(48, 25, 52, 255),
+        Color = Color(111, 51, 43, 255),
         Description = "You are an Unknown Entity in the Sector.\nForge your own path, shape your own destiny, and carve your legend into the stars.",
         Team = "hivecitizenplayer",
         VIP = true,
