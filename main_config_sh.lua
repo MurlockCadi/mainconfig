@@ -2042,6 +2042,17 @@ PASSIVE_ITEM_FLAGS["Convert Health To Damage"] = {
     Color        = Color(180, 100, 200)
 }
 
+PASSIVE_ITEM_FLAGS["Convert Armor To Health"] = {
+    FunctionName = "ConvertArmorToHealth",
+    Description  = "Converts your Armour into Health.",
+    Color        = Color(0, 200, 100)
+}
+
+PASSIVE_ITEM_FLAGS["Convert Health To Armor"] = {
+    FunctionName = "ConvertHealthToArmor",
+    Description  = "Converts your Health into Armour.",
+    Color        = Color(100, 150, 255)
+}
 
 -----------------LOAD MODELS------------------
 
