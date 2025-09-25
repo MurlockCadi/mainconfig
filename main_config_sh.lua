@@ -1910,13 +1910,13 @@ PASSIVE_ITEM_FLAGS["Damage Boost 25"] = {
 -- Damage Reductions (incoming)
 PASSIVE_ITEM_FLAGS["Damage Reduction 10"] = {
     FunctionName = "DamageReduction10",
-    Description  = "Decreases incoming damage by 10%.",
+    Description  = "Decreases incoming damage by 5%.",
     Color        = Color(0, 150, 255)
 }
 
 PASSIVE_ITEM_FLAGS["Damage Reduction 25"] = {
     FunctionName = "DamageReduction25",
-    Description  = "Decreases incoming damage by 25%.",
+    Description  = "Decreases incoming damage by 10%.",
     Color        = Color(0, 200, 255)
 }
 
