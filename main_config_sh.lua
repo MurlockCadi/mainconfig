@@ -2033,7 +2033,7 @@ PASSIVE_ITEM_FLAGS["Corrosive Damage"] = {
 PASSIVE_ITEM_FLAGS["ConvertArmorToDamage"] = {
     FunctionName = "ConvertArmorToDamage",
     Description  = "Converts your Armour into Damage. (100 Armour +250 Damage)",
-    Color        = Color(200, 100, 100)
+    Color        = Color(100, 100, 200)
 }
 
 -----------------LOAD MODELS------------------
