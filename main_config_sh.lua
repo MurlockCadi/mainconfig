@@ -1682,7 +1682,6 @@ weaponsConfig = {
         {name = "cat_custom_autogun_agripinaa", cost = 25000, viponly = false},
         {name = "cat_custom_stubber_agripinaa", cost = 25000, viponly = false},
         {name = "cat_custom_lascarbine_catachan", cost = 20000, viponly = false},
-        {name = "cat_legacy_powerswordshield", cost = 100000, viponly = false},
         {name = "arccw_admech_flechetteblaster", cost = 30000, viponly = false},
         {name = "arccw_admech_flechettecarabine", cost = 30000, viponly = false},
         {name = "arccw_admech_laslock", cost = 30000, viponly = false},
@@ -1734,6 +1733,15 @@ weaponsConfig = {
         --SQUAT Weapons
         {name = "cat_legacy_boardingshield_volkitecharger", cost = 20000, viponly = false, classes = {"Squat"}},
         {name = "cat_legacy_poweraxe", cost = 20000, viponly = false, classes = {"Squat"}},
+
+		--OGRYN Weapons
+		{name = "cat_custom_ogrynstick", cost = 20000, viponly = false, classes = {"Ogryn"}},
+
+
+		--MELEE WEAPONS
+        {name = "cat_legacy_forcehalberd", cost = 30000, viponly = false},
+		{name = "cat_legacy_powerswordshield", cost = 40000, viponly = false},
+		
         -- Adeptus Mechanicus
 
         {name = "cat_custom_galvanic", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
