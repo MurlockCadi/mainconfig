@@ -1739,8 +1739,10 @@ weaponsConfig = {
 
 
 		--MELEE WEAPONS
-        {name = "cat_legacy_forcehalberd", cost = 30000, viponly = false},
+        {name = "cat_legacy_forcehalberd", cost = 40000, viponly = false},
 		{name = "cat_legacy_powerswordshield", cost = 40000, viponly = false},
+		{name = "cat_legacy_powermaul", cost = 30000, viponly = false},
+		
 		
         -- Adeptus Mechanicus
 
