@@ -1972,13 +1972,13 @@ PASSIVE_ITEM_FLAGS["Damage Output Reduction 25"] = {
 -- Vampirism (health steal)
 PASSIVE_ITEM_FLAGS["Vampirism 10"] = {
     FunctionName = "Vampirism10",
-    Description  = "Steals 1% of dealt damage as health.",
+    Description  = "Gain 10 Health Per Hit.",
     Color        = Color(200, 0, 200)
 }
 
 PASSIVE_ITEM_FLAGS["Vampirism 25"] = {
     FunctionName = "Vampirism25",
-    Description  = "Steals 5% of dealt damage as health.",
+    Description  = "Gain 25 Health Per Hit.",
     Color        = Color(255, 0, 255)
 }
 
