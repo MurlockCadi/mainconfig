@@ -1739,10 +1739,11 @@ weaponsConfig = {
 
 
 		--MELEE WEAPONS
-        {name = "cat_legacy_powerhalberd", cost = 30000, viponly = false},
 		{name = "cat_legacy_powerswordshield", cost = 40000, viponly = false},
+        {name = "cat_legacy_powerhalberd", cost = 30000, viponly = false},
 		{name = "cat_legacy_powermaul", cost = 30000, viponly = false},
-		
+		{name = "cat_legacy_powergreatsword", cost = 30000, viponly = false},
+		{name = "cat_legacy_powerspear", cost = 30000, viponly = false},
 		
         -- Adeptus Mechanicus
 
@@ -1801,17 +1802,17 @@ weaponsConfig = {
 
 		-- Adepta Sororitas
 		{name = "cat_legacy_plasmapistolheresy", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
+
+		-- Melee
+		{name = "cat_custom_powersabre", cost = 40000, viponly = false},
+		{name = "cat_custom_powersword", cost = 30000, viponly = false},
     },
 
     misc = {
         {name = "cat_custom_sword", cost = 30000, viponly = false},
         {name = "cat_custom_sabre", cost = 30000, viponly = false},
-        {name = "cat_custom_powersabre", cost = 50000, viponly = false},
-        {name = "cat_custom_powersword", cost = 50000, viponly = false},
         {name = "cat_legacy_chainswordaquila", cost = 30000, viponly = false},
-
         {name = "cat_custom_ogrynbang", cost = 20000, viponly = false, classes = {"Ogryn"}},
-
         {name = "cat_custom_chainsword", cost = 20000, viponly = false},
         {name = "cat_custom_knife", cost = 2000, viponly = false},
         {name = "cat_custom_grenade_chem", cost = 3000, viponly = false},
