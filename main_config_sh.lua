@@ -2089,21 +2089,21 @@ PASSIVE_ITEM_FLAGS["Convert Health To Armor"] = {
 -- Gain Stoicism from gaining Shield.
 PASSIVE_ITEM_FLAGS["Stoicism"] = {
     FunctionName = "Stoicism",
-    Description  = "Gain 1 Stoicism per Shield gained.",
+    Description  = "Enables Stoicism: Gain 1 Stoicism per Shield gained.",
     Color        = Color(120, 180, 255)
 }
 
 -- Gain Resolve from gaining Health.
 PASSIVE_ITEM_FLAGS["Resolve"] = {
     FunctionName = "Resolve",
-    Description  = "Gain 1 Resolve per Health gained.",
+    Description  = "Enables Resolve: Gain 1 Resolve per Health gained.",
     Color        = Color(50, 200, 255)
 }
 
 -- Gain Fury from dealing damage.
 PASSIVE_ITEM_FLAGS["Fury"] = {
     FunctionName = "Fury",
-    Description  = "Gain 1 Fury per 100 damage dealt.",
+    Description  = "Enables Fury: Gain 1 Fury per 100 damage dealt.",
     Color        = Color(255, 80, 80)
 }
 
