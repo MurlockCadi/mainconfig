@@ -2117,7 +2117,7 @@ PASSIVE_ITEM_FLAGS["Convert Stoicism to Health"] = {
 -- Convert 100 Stoicism into 100 Damage.
 PASSIVE_ITEM_FLAGS["Convert Stoicism to Damage"] = {
     FunctionName = "ConvertStoicismtoDamage",
-    Description  = "Converts 100 Stoicism into +100 Damage",
+    Description  = "Converts 100 Stoicism into +250 Damage",
     Color        = Color(200, 100, 255)
 }
 
@@ -2131,7 +2131,7 @@ PASSIVE_ITEM_FLAGS["Convert Resolve to Shield"] = {
 -- Convert 100 Resolve into 100 Damage.
 PASSIVE_ITEM_FLAGS["Convert Resolve to Damage"] = {
     FunctionName = "ConvertResolvetoDamage",
-    Description  = "Converts 100 Resolve into +100 Damage",
+    Description  = "Converts 100 Resolve into +250 Damage",
     Color        = Color(255, 200, 50)
 }
 
