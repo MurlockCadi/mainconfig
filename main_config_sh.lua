@@ -2078,6 +2078,114 @@ PASSIVE_ITEM_FLAGS["Convert Health To Armor"] = {
     Color        = Color(100, 150, 255)
 }
 
+-- Unique Attributes
+
+-- Gain Stoicism from gaining Shield.
+PASSIVE_ITEM_FLAGS["Stoicism"] = {
+    FunctionName = "Stoicism",
+    Description  = "Gain 1 Stoicism per Shield gained.",
+    Color        = Color(120, 180, 255)
+}
+
+-- Gain Resolve from gaining Health.
+PASSIVE_ITEM_FLAGS["Resolve"] = {
+    FunctionName = "Resolve",
+    Description  = "Gain 1 Resolve per Health gained.",
+    Color        = Color(50, 200, 255)
+}
+
+-- Gain Fury from dealing damage.
+PASSIVE_ITEM_FLAGS["Fury"] = {
+    FunctionName = "Fury",
+    Description  = "Gain 1 Fury per 100 damage dealt.",
+    Color        = Color(255, 80, 80)
+}
+
+-- Convert 100 Stoicism into 50 Health.
+PASSIVE_ITEM_FLAGS["Convert Stoicism to Health"] = {
+    FunctionName = "ConvertStoicismtoHealth",
+    Description  = "Converts 100 Stoicism into +50 Health",
+    Color        = Color(120, 180, 255)
+}
+
+-- Convert 100 Stoicism into 100 Damage.
+PASSIVE_ITEM_FLAGS["Convert Stoicism to Damage"] = {
+    FunctionName = "ConvertStoicismtoDamage",
+    Description  = "Converts 100 Stoicism into +100 Damage",
+    Color        = Color(200, 100, 255)
+}
+
+-- Convert 100 Resolve into 50 Shield.
+PASSIVE_ITEM_FLAGS["Convert Resolve to Shield"] = {
+    FunctionName = "ConvertResolvetoShield",
+    Description  = "Converts 100 Resolve into +50 Shield.",
+    Color        = Color(50, 200, 255)
+}
+
+-- Convert 100 Resolve into 100 Damage.
+PASSIVE_ITEM_FLAGS["Convert Resolve to Damage"] = {
+    FunctionName = "ConvertResolvetoDamage",
+    Description  = "Converts 100 Resolve into +100 Damage",
+    Color        = Color(255, 200, 50)
+}
+
+-- Convert 100 Fury into 50 Health.
+PASSIVE_ITEM_FLAGS["Convert Fury to Health"] = {
+    FunctionName = "ConvertFurytoHealth",
+    Description  = "Converts 100 Fury into +50 Health",
+    Color        = Color(255, 80, 80)
+}
+
+-- Convert 100 Fury into 50 Shield.
+PASSIVE_ITEM_FLAGS["Convert Fury to Shield"] = {
+    FunctionName = "ConvertFurytoShield",
+    Description  = "Converts 100 Fury into +50 Shield",
+    Color        = Color(255, 100, 180)
+}
+
+-- Convert 100 Resolve into 50 Stoicism.
+PASSIVE_ITEM_FLAGS["Convert Resolve to Stoicism"] = {
+    FunctionName = "ConvertResolvetoStoicism",
+    Description  = "Converts 100 Resolve into +50 Stoicism",
+    Color        = Color(150, 220, 255)
+}
+
+-- Convert 100 Resolve into 50 Fury.
+PASSIVE_ITEM_FLAGS["Convert Resolve to Fury"] = {
+    FunctionName = "ConvertResolvetoFury",
+    Description  = "Converts 100 Resolve into +50 Fury",
+    Color        = Color(255, 120, 120)
+}
+
+-- Convert 100 Fury into 50 Stoicism.
+PASSIVE_ITEM_FLAGS["Convert Fury to Stoicism"] = {
+    FunctionName = "ConvertFurytoStoicism",
+    Description  = "Converts 100 Fury into +50 Stoicism",
+    Color        = Color(180, 150, 255)
+}
+
+-- Convert 100 Fury into 50 Resolve.
+PASSIVE_ITEM_FLAGS["Convert Fury to Resolve"] = {
+    FunctionName = "ConvertFurytoResolve",
+    Description  = "Converts 100 Fury into +50 Resolve",
+    Color        = Color(255, 170, 80)
+}
+
+-- Convert 100 Stoicism into 50 Resolve.
+PASSIVE_ITEM_FLAGS["Convert Stoicism to Resolve"] = {
+    FunctionName = "ConvertStoicismtoResolve",
+    Description  = "Converts 100 Stoicism into +50 Resolve",
+    Color        = Color(100, 200, 150)
+}
+
+-- Convert 100 Stoicism into 50 Fury.
+PASSIVE_ITEM_FLAGS["Convert Stoicism to Fury"] = {
+    FunctionName = "ConvertStoicismtoFury",
+    Description  = "Converts 100 Stoicism into +50 Fury",
+    Color        = Color(255, 100, 150)
+}
+
+
 -----------------LOAD MODELS------------------
 
 modelsToPreload = {}
