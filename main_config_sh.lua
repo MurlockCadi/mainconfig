@@ -1894,6 +1894,12 @@ PASSIVE_ITEM_FLAGS["bot_buyable"] = {
     Color = Color(127, 0, 95)
 }
 
+PASSIVE_ITEM_FLAGS["relic_buyable"] = {
+    FunctionName = "none",
+    Description = "The Rouge Trader will sell this relic.",
+    Color = Color(127, 0, 95)
+}
+
 PASSIVE_ITEM_FLAGS["powershield"] = {
     FunctionName = "powershield",
     Description = "Grants a Powershield to the User",
