@@ -1762,7 +1762,7 @@ weaponsConfig = {
 		-- Adepta Sororitas
         {name = "cat_legacy_shotguncombat", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}},
      	{name = "cat_legacy_boltercombi", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
-		{name = "cat_legacy_boltpistoldual ", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
+		{name = "cat_legacy_boltpistoldual", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
 		
         -- Duel Weapons
         {name = "cat_legacy_plasmapistolpowersword", cost = 40000, viponly = false, classes = {"Lord General","Adepta Sororitas","Commissar","Inquisitorial Agent","Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
@@ -1796,6 +1796,7 @@ weaponsConfig = {
 
         {name = "cat_custom_boltpistol", cost = 20000, viponly = false},
         {name = "cat_custom_plasmapistol", cost = 20000, viponly = false},
+		
         {name = "cat_custom_phosphor", cost = 20000, viponly = false},
 
         {name = "cat_custom_laspistol", cost = 1000, viponly = false},
