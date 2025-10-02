@@ -2019,7 +2019,7 @@ PASSIVE_ITEM_FLAGS["Thorns 25"] = {
 
 PASSIVE_ITEM_FLAGS["Last Stand"] = {
     FunctionName = "LastStand",
-    Description  = "When below 25% health, you take 50% less damage.",
+    Description  = "When below 35% health, you take 50% less damage.",
     Color        = Color(255, 200, 0)
 }
 
@@ -2111,7 +2111,7 @@ PASSIVE_ITEM_FLAGS["Fury"] = {
 -- Convert 100 Stoicism into 50 Health.
 PASSIVE_ITEM_FLAGS["Convert Stoicism to Health"] = {
     FunctionName = "ConvertStoicismToHealth",
-    Description  = "Converts 100 Stoicism into +50 Health",
+    Description  = "Converts 75 Stoicism into +50 Health",
     Color        = Color(120, 180, 255)
 }
 
@@ -2125,7 +2125,7 @@ PASSIVE_ITEM_FLAGS["Convert Stoicism to Damage"] = {
 -- Convert 100 Resolve into 50 Shield.
 PASSIVE_ITEM_FLAGS["Convert Resolve to Shield"] = {
     FunctionName = "ConvertResolveToShield",
-    Description  = "Converts 100 Resolve into +50 Shield.",
+    Description  = "Converts 75 Resolve into +50 Shield.",
     Color        = Color(50, 200, 255)
 }
 
@@ -2139,14 +2139,14 @@ PASSIVE_ITEM_FLAGS["Convert Resolve to Damage"] = {
 -- Convert 100 Fury into 50 Health.
 PASSIVE_ITEM_FLAGS["Convert Fury to Health"] = {
     FunctionName = "ConvertFuryToHealth",
-    Description  = "Converts 100 Fury into +50 Health",
+    Description  = "Converts 75 Fury into +50 Health",
     Color        = Color(255, 80, 80)
 }
 
 -- Convert 100 Fury into 50 Shield.
 PASSIVE_ITEM_FLAGS["Convert Fury to Shield"] = {
     FunctionName = "ConvertFuryToShield",
-    Description  = "Converts 100 Fury into +50 Shield",
+    Description  = "Converts 75 Fury into +50 Shield",
     Color        = Color(255, 100, 180)
 }
 
