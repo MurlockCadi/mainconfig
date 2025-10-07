@@ -1730,7 +1730,8 @@ weaponsConfig = {
         {name = "cat_custom_hellgun_lucius", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
         {name = "cat_custom_hellgun_stormtrooper", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
         {name = "arccw_k_40k_hellgun_mk2", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-		{name = "cat_legacy_poweraxeshield", cost = 20000, viponly = false, classes = {"Adepta Sororitas","Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster","Squat"}},
+		{name = "cat_legacy_poweraxeshield", cost = 30000, viponly = false, classes = {"Adepta Sororitas","Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster","Squat"}},
+        {name = "cat_legacy_poweraxecthonian", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
 
         --SQUAT Weapons
         {name = "cat_legacy_boardingshield_volkitecharger", cost = 20000, viponly = false, classes = {"Squat"}},
@@ -1746,6 +1747,8 @@ weaponsConfig = {
 		{name = "cat_legacy_powermaul", cost = 30000, viponly = false},
 		{name = "cat_legacy_powergreatsword", cost = 30000, viponly = false},
 		{name = "cat_legacy_powerspear", cost = 30000, viponly = false},
+        {name = "cat_legacy_chainswordaquila", cost = 30000, viponly = false},
+        {name = "cat_custom_chainsword", cost = 30000, viponly = false},
 		
         -- Adeptus Mechanicus
 
@@ -1760,6 +1763,7 @@ weaponsConfig = {
         {name = "arccw_admech_heavy_magnorail", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
         {name = "arccw_admech_heavy_plasmagun", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
         {name = "arccw_admech_heavy_heavytorcion", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
+		{name = "cat_custom_omnissiahaxe", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
 
 		-- Adepta Sororitas
         {name = "cat_legacy_shotguncombat", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}},
@@ -1807,29 +1811,25 @@ weaponsConfig = {
 		{name = "cat_legacy_plasmapistolheresy", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
 
 		-- Melee
-		{name = "cat_custom_powersabre", cost = 40000, viponly = false},
-		{name = "cat_custom_powersword", cost = 30000, viponly = false},
+		{name = "cat_custom_powersabre", cost = 30000, viponly = false},
+		{name = "cat_custom_powersword", cost = 20000, viponly = false},
+		{name = "cat_legacy_chainaxe", cost = 20000, viponly = false},
     },
 
     misc = {
         {name = "cat_custom_sword", cost = 30000, viponly = false},
         {name = "cat_custom_sabre", cost = 30000, viponly = false},
-        {name = "cat_legacy_chainswordaquila", cost = 30000, viponly = false},
         {name = "cat_custom_ogrynbang", cost = 20000, viponly = false, classes = {"Ogryn"}},
-        {name = "cat_custom_chainsword", cost = 20000, viponly = false},
         {name = "cat_custom_knife", cost = 2000, viponly = false},
         {name = "cat_custom_grenade_chem", cost = 3000, viponly = false},
         {name = "cat_custom_grenade_frag", cost = 3000, viponly = false},
         {name = "cat_custom_grenade_fire", cost = 3000, viponly = false},
         {name = "cat_custom_grenade_krak", cost = 3000, viponly = false},
         {name = "cat_custom_grenade_stun", cost = 3000, viponly = false},
-        {name = "cat_legacy_poweraxecthonian", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
 
 -- Heavy
-		{name = "cat_custom_meltabomb", cost = 3000, viponly = false, classes = {"Heavy Weapons","Adepta Sororitas","Kasrkin Weapon Specialist"}},
+		{name = "cat_custom_meltabomb", cost = 3000, viponly = false, classes = {"Heavy Weapons","Adepta Sororitas","Kasrkin Weapon Specialist"}}
 		
-
-        {name = "cat_custom_omnissiahaxe", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}}
 
     }
 } 
