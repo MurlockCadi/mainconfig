@@ -977,6 +977,36 @@ DivisionTypes = {
             }
         }
     },
+    ["Ecclesiarchy"] = {
+        NiceName = "Ecclesiarchy",
+        Description = "Ecclesiarchy of the Imperium",
+        Team = "imperium",
+        Ranks = {
+            {ID = 1, Name = "Ministorum Priest", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false}
+        },
+        Classes = {
+            {
+                Name = "Ministorum Priest",
+                Default = true,
+                Models = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl","models/wk/jackswan/crusader.mdl","models/wk/jackswan/executor.mdl","models/wk/jackswan/hexorcist.mdl","models/wk/jackswan/ministorum_priest.mdl","models/wk/jackswan/octavian_executor.mdl","models/wk/jackswan/zealot.mdl"},
+                Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
+                MaxHealth = 500,
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+            {
+                Name = "Adepta Sororitas",
+                Core = true,
+                Models = {"models/sob_battlesister.mdl","models/sob_canones.mdl","models/sob_hospitaller.mdl","models/sob_seraphim.mdl"},
+                Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol","arccw_k_40k_bolter","cat_custom_powersabre"},
+				priest = true,
+				Medic = true,
+                ForceModels = true,
+                MaxHealth = 750,
+                SpawnWeapons = {},
+                Prefix = ""
+            }
+    },
     ["11th Kasrkin Wardens"] = {
         NiceName = "11th Kasrkin Wardens",
         Description = "The 11th Kasrkin Wardens are the Imperium's shield, forged in the fires of Cadia to stand steadfast against any foe. Cadia Stands!",
