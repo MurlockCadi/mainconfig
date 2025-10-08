@@ -556,6 +556,9 @@ KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword"
 SQUAT_MODELS = {"models/dizcordum/abhumans/squat.mdl","models/squat_rig_v2.mdl"}
 SQUAT_WEAPONS = {"cat_legacy_boardingshield_volkitecharger","cat_legacy_poweraxecthonian"}
 
+PYSKER_MODELS = {"models/models/svin/pyromant.mdl","models/wk/psy/wk_alpha_psyker.mdl","models/wk/psy/wk_astropath.mdl","models/wk/psy/wk_mystic.mdl","models/wk/psy/wk_mystic_primus.mdl","models/wk/psy/wk_navigator.mdl","models/wk/psy/wk_primaris_fem.mdl","models/wk/psy/wk_primaris_psyker.mdl","models/wk/psy/wk_wyrdvane.mdl","models/wk/psy/wk_wyrdvane_fem.mdl","models/wk/sodium/sodium_astropath.mdl"}
+
+HOLY_MODELS = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl","models/wk/jackswan/crusader.mdl","models/wk/jackswan/executor.mdl","models/wk/jackswan/hexorcist.mdl","models/wk/jackswan/ministorum_priest.mdl","models/wk/jackswan/octavian_executor.mdl","models/wk/jackswan/zealot.mdl"}
 
 -- Adeptus Mechanicus
 
@@ -982,14 +985,14 @@ DivisionTypes = {
         Description = "Ecclesiarchy of the Imperium",
         Team = "imperium",
         Ranks = {
-            {ID = 1, Name = "Ministorum Priest", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false}
+            {ID = 1, Name = "Ministorum Priest", Rank_Prefix = "", ModelsAllowed = HOLY_MODELS, WeaponsAllowed = {}, CanPromote = false}
         },
         Classes = {
             {
                 Name = "Ministorum Priest",
                 Default = true,
 				ForceModels = true,
-                Models = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl","models/wk/jackswan/crusader.mdl","models/wk/jackswan/executor.mdl","models/wk/jackswan/hexorcist.mdl","models/wk/jackswan/ministorum_priest.mdl","models/wk/jackswan/octavian_executor.mdl","models/wk/jackswan/zealot.mdl"},
+                Models = HOLY_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
                 MaxHealth = 500,
                 SpawnWeapons = {"murlock_staff_player_new"},
@@ -1014,22 +1017,22 @@ DivisionTypes = {
         Description = "Ecclesiarchy of the Imperium",
         Team = "imperium",
 		Ranks = {
-		    {ID = 1, Name = "Imperial Sanctionate", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 2, Name = "Imperial Neonate", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 3, Name = "Imperial Aspirant", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 4, Name = "Savant-Militant", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 5, Name = "Savant-Warrant", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 6, Name = "Savant-Adjunct", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = true},
-		    {ID = 7, Name = "Scholar Empyrean", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = true},
-		    {ID = 8, Name = "Scholar Obscurus", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = true},
-		    {ID = 9, Name = "Dominus", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = true}
+		    {ID = 1, Name = "Imperial Sanctionate", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 2, Name = "Imperial Neonate", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 3, Name = "Imperial Aspirant", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 4, Name = "Savant-Militant", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 5, Name = "Savant-Warrant", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 6, Name = "Savant-Adjunct", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 7, Name = "Scholar Empyrean", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 8, Name = "Scholar Obscurus", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 9, Name = "Dominus", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true}
 		},
         Classes = {
             {
                 Name = "Sanctioned Psyker",
                 Core = true,
                 ForceModels = true,
-                Models = {"models/models/svin/pyromant.mdl","models/wk/psy/wk_alpha_psyker.mdl","models/wk/psy/wk_astropath.mdl","models/wk/psy/wk_mystic.mdl","models/wk/psy/wk_mystic_primus.mdl","models/wk/psy/wk_navigator.mdl","models/wk/psy/wk_primaris_fem.mdl","models/wk/psy/wk_primaris_psyker.mdl","models/wk/psy/wk_wyrdvane.mdl","models/wk/psy/wk_wyrdvane_fem.mdl","models/wk/sodium/sodium_astropath.mdl"},
+                Models = PYSKER_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"murlock_staff_player_new"},
                 Prefix = ""
