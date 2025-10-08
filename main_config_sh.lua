@@ -2196,6 +2196,30 @@ PASSIVE_ITEM_FLAGS["Convert Stoicism to Fury"] = {
 }
 
 
+-- Magic Shit
+
+PASSIVE_ITEM_FLAGS["Attunement"] = {
+    FunctionName = "Attunement",
+    Description  = "Allows the wielder to gain Attunement experience, unlocking expressions.",
+    Color        = Color(200, 120, 255)
+}
+
+PASSIVE_ITEM_FLAGS["AetherGenerator"] = {
+    FunctionName = "AetherGenerator",
+    Description  = "Draws raw Aether from the Immaterium, storing it up to a maximum of 500.",
+    Color        = Color(160, 80, 255)
+}
+
+PASSIVE_ITEM_FLAGS["CapacitanceGenerator"] = {
+    FunctionName = "CapacitanceGenerator",
+    Description  = "Generates and Stores Capacitance, up to a limit of 500.",
+    Color        = Color(100, 220, 255)
+}
+
+
+
+
+
 -----------------LOAD MODELS------------------
 
 modelsToPreload = {}
