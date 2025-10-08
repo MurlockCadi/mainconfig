@@ -991,7 +991,7 @@ DivisionTypes = {
                 Models = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl","models/wk/jackswan/crusader.mdl","models/wk/jackswan/executor.mdl","models/wk/jackswan/hexorcist.mdl","models/wk/jackswan/ministorum_priest.mdl","models/wk/jackswan/octavian_executor.mdl","models/wk/jackswan/zealot.mdl"},
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
                 MaxHealth = 500,
-                SpawnWeapons = {},
+                SpawnWeapons = {"murlock_staff_player_new"},
                 Prefix = ""
             },
             {
@@ -1003,9 +1003,37 @@ DivisionTypes = {
 				Medic = true,
                 ForceModels = true,
                 MaxHealth = 750,
-                SpawnWeapons = {},
+                SpawnWeapons = {"murlock_staff_player_new"},
                 Prefix = ""
             }
+		}
+    },
+    ["Adeptus Astra Telepathica"] = {
+        NiceName = "Adeptus Astra Telepathica",
+        Description = "Ecclesiarchy of the Imperium",
+        Team = "imperium",
+		Ranks = {
+		    {ID = 1, Name = "Imperial Sanctionate", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 2, Name = "Imperial Neonate", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 3, Name = "Imperial Aspirant", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 4, Name = "Savant-Militant", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 5, Name = "Savant-Warrant", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 6, Name = "Savant-Adjunct", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 7, Name = "Scholar Empyrean", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 8, Name = "Scholar Obscurus", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 9, Name = "Dominus", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = true}
+		},
+        Classes = {
+            {
+                Name = "Sanctioned Psyker",
+                Core = true,
+                ForceModels = true,
+                Models = {"models/models/svin/pyromant.mdl","models/wk/psy/wk_alpha_psyker.mdl","models/wk/psy/wk_astropath.mdl","models/wk/psy/wk_mystic.mdl","models/wk/psy/wk_mystic_primus.mdl","models/wk/psy/wk_navigator.mdl","models/wk/psy/wk_primaris_fem.mdl","models/wk/psy/wk_primaris_psyker.mdl","models/wk/psy/wk_wyrdvane.mdl","models/wk/psy/wk_wyrdvane_fem.mdl","models/wk/sodium/sodium_astropath.mdl"},
+                Weapons = {},
+                SpawnWeapons = {"murlock_staff_player_new"},
+                Prefix = ""
+            }
+		}
     },
     ["11th Kasrkin Wardens"] = {
         NiceName = "11th Kasrkin Wardens",
