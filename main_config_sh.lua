@@ -606,7 +606,7 @@ DivisionTypes = {
                     "models/wk/adeptus_mechanicus/wk_tech_priest.mdl",
                     "models/wk/fem_priast/wk_priestness.mdl"
                 },
-                MaxHealth = 500,
+                MaxHealth = 750,
                 PowerShield = true,
 				atomic = true,
                 Weapons = {
@@ -650,7 +650,7 @@ DivisionTypes = {
                     "models/jackswan/rogue_trader/wk_rt_secutor.mdl",
                     "models/wk/fem_priast/wk_priestness_belka.mdl"
                 },
-                MaxHealth = 500,
+                MaxHealth = 750,
                 PowerShield = true,
 				atomic = true,
                 Medic = true,
@@ -701,6 +701,7 @@ DivisionTypes = {
                     "models/wk/fem_priast/wk_priestness.mdl"
                 },
                 MaxHealth = 750,
+				atomic = true,
                 PowerShield = true,
                 Weapons = {
                     "cat_custom_galvanic",
@@ -722,7 +723,7 @@ DivisionTypes = {
                 Models = {
                     "models/player/mechs_fulgurite.mdl"
                 },
-                MaxHealth = 1500,
+                MaxHealth = 750,
                 PowerShield = false,
 				atomic = true,
                 Weapons = {
