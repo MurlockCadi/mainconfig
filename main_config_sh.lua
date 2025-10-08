@@ -1017,15 +1017,15 @@ DivisionTypes = {
         Description = "Ecclesiarchy of the Imperium",
         Team = "imperium",
 		Ranks = {
-		    {ID = 1, Name = "Imperial Sanctionate", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 2, Name = "Imperial Neonate", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 3, Name = "Imperial Aspirant", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 4, Name = "Savant-Militant", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 5, Name = "Savant-Warrant", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 6, Name = "Savant-Adjunct", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
-		    {ID = 7, Name = "Scholar Empyrean", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
-		    {ID = 8, Name = "Scholar Obscurus", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
-		    {ID = 9, Name = "Dominus", Rank_Prefix = "", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true}
+		    {ID = 1, Name = "Imperial Sanctionate", Rank_Prefix = "Sanctionate", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 2, Name = "Imperial Neonate", Rank_Prefix = "Neonate", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 3, Name = "Imperial Aspirant", Rank_Prefix = "Aspirant", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 4, Name = "Savant-Militant", Rank_Prefix = "Savant", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 5, Name = "Savant-Warrant", Rank_Prefix = "Savant", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 6, Name = "Savant-Adjunct", Rank_Prefix = "Adjunct", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 7, Name = "Scholar Empyrean", Rank_Prefix = "Scholar", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 8, Name = "Scholar Obscurus", Rank_Prefix = "Scholar Obscurus", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 9, Name = "Dominus", Rank_Prefix = "Dominus", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true}
 		},
         Classes = {
             {
