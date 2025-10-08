@@ -2216,9 +2216,11 @@ PASSIVE_ITEM_FLAGS["CapacitanceGenerator"] = {
     Color        = Color(100, 220, 255)
 }
 
-
-
-
+PASSIVE_ITEM_FLAGS["FaithGenerator"] = {
+    FunctionName = "FaithGenerator",
+    Description  = "Generates Faith for the User, up to a limit of 500.",
+    Color        = Color(255, 255, 100)
+}
 
 -----------------LOAD MODELS------------------
 
