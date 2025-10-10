@@ -1031,6 +1031,7 @@ DivisionTypes = {
             {
                 Name = "Sanctioned Psyker",
                 Core = true,
+				Default = true,
                 ForceModels = true,
                 Models = PYSKER_MODELS,
                 Weapons = {},
