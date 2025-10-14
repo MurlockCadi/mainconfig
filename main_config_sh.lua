@@ -482,7 +482,9 @@ commands = {
 	["/tax"] = function(ply) OpenTaxMenu(ply) end,
 	["!tax"] = function(ply) OpenTaxMenu(ply) end,
 	["/taxmenu"] = function(ply) OpenTaxMenu(ply) end,
-	["!taxmenu"] = function(ply) OpenTaxMenu(ply) end
+	["!taxmenu"] = function(ply) OpenTaxMenu(ply) end,
+	["!cheatmagic"] = function(ply) GainAttunementCheat(ply) end,
+	["/cheatmagic"] = function(ply) GainAttunementCheat(ply) end
 }
 
 
