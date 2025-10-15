@@ -802,8 +802,8 @@ DivisionTypes = {
             }
         }
     },
-    ["Auxiliary"] = {
-        NiceName = "Auxiliary",
+    ["Militarum Auxilla"] = {
+        NiceName = "Militarum Auxilla",
         Description = "Auxiliary divisions are the backbone of the Imperium.",
         Team = "imperium",
         Ranks = {
@@ -983,6 +983,76 @@ DivisionTypes = {
                 },
             }
         }
+    },
+	["High Command"] = {
+        NiceName = "High Command",
+        Description = "High Command of the Imperium",
+        Team = "imperium",
+        Ranks = {
+            {ID = 1, Name = "Ministorum Priest", Rank_Prefix = "", ModelsAllowed = HOLY_MODELS, WeaponsAllowed = {}, CanPromote = false}
+        },
+        Classes = {
+            {
+                Name = "Lord General",
+                Core = true,
+                Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
+                MaxHealth = 1500,
+                PowerShield = true,
+				CanManageTaxes = true,
+                ForceModels = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            },
+            {
+                Name = "Commissar",
+                Core = true,
+                Models = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl","models/wk/jackswan/scion/scion_commissar.mdl"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
+                MaxHealth = 1000,
+                PowerShield = true,
+				CanManageTaxes = true,
+                ForceModels = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            },
+            {
+                Name = "Inquisitorial Agent",
+                Core = true,
+                Models = {"models/muschi/characters/muschi_inq_sombra.mdl"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword"},
+                MaxHealth = 1500,
+				CanManageTaxes = true,
+                PowerShield = true,
+                ForceModels = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            }
+		}
     },
     ["Ecclesiarchy"] = {
         NiceName = "Ecclesiarchy",
