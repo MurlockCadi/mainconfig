@@ -596,7 +596,7 @@ DivisionTypes = {
                     "cat_custom_phosphor",
                     "cat_legacy_omnissiahaxe"
                 },
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","alydus_fusioncutter"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -640,7 +640,7 @@ DivisionTypes = {
                     {name = "Steel Barricade 2", model = "models/arne3d/barricades/steelbarricade2.mdl"},
                     {name = "Steel Barricade 1", model = "models/arne3d/barricades/steelbarricade1.mdl"}
                 },
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","weapon_simrepair"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","weapon_simrepair","alydus_fusioncutter"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -689,7 +689,7 @@ DivisionTypes = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe",
                 },
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","alydus_fusioncutter"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -736,7 +736,7 @@ DivisionTypes = {
                 Weapons = {
                     "cat_legacy_omnissiahaxe"
                 },
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","alydus_fusioncutter"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -760,7 +760,7 @@ DivisionTypes = {
                     "cat_legacy_omnissiahaxe",
                     "weapon_simrepair"
                 },
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic","alydus_fusioncutter"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
