@@ -486,7 +486,19 @@ commands = {
 	["!cheatmagic"] = function(ply) GainAttunementCheat(ply) end,
 	["/cheatmagic"] = function(ply) GainAttunementCheat(ply) end,
 	["!faction"] = function(ply) OpenFactionManagerMenu(ply) end,
-	["/faction"] = function(ply) OpenFactionManagerMenu(ply) end
+	["/faction"] = function(ply) OpenFactionManagerMenu(ply) end,
+	["!missions"] = function(ply) OpenTaskMenu(ply) end,
+	["/missions"] = function(ply) OpenTaskMenu(ply) end,
+	["!mission"] = function(ply) OpenTaskMenu(ply) end,
+	["/mission"] = function(ply) OpenTaskMenu(ply) end,
+	["!task"] = function(ply) OpenTaskMenu(ply) end,
+	["/task"] = function(ply) OpenTaskMenu(ply) end,
+	["!tasks"] = function(ply) OpenTaskMenu(ply) end,
+	["/tasks"] = function(ply) OpenTaskMenu(ply) end,
+	["!quest"] = function(ply) OpenTaskMenu(ply) end,
+	["/quest"] = function(ply) OpenTaskMenu(ply) end,
+	["!quests"] = function(ply) OpenTaskMenu(ply) end,
+	["/quests"] = function(ply) OpenTaskMenu(ply) end
 }
 
 
