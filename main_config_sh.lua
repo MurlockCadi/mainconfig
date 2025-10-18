@@ -1829,6 +1829,7 @@ weaponsConfig = {
 		{name = "cat_legacy_powerspear", cost = 30000, viponly = false},
         {name = "cat_legacy_chainswordaquila", cost = 30000, viponly = false},
         {name = "cat_custom_chainsword", cost = 30000, viponly = false},
+		{name = "cat_legacy_thunderhammer", cost = 30000, viponly = false, classes = {"Ogryn","Squat","Adepta Sororitas"}},
 		
         -- Adeptus Mechanicus
 
@@ -1847,7 +1848,7 @@ weaponsConfig = {
 
 		-- Adepta Sororitas
         {name = "cat_legacy_shotguncombat", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}},
-     	{name = "cat_legacy_boltercombi", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
+     	{name = "cat_custom_stormbolter", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
 		{name = "cat_legacy_boltpistoldual", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
 		
         -- Duel Weapons
