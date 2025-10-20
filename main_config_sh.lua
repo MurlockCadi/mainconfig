@@ -1883,6 +1883,7 @@ weaponsConfig = {
 
         {name = "cat_custom_boltpistol", cost = 20000, viponly = false},
         {name = "cat_custom_plasmapistol", cost = 20000, viponly = false},
+        {name = "cat_legacy_stormbolterterminator", cost = 20000, viponly = false},
 		
         {name = "cat_custom_phosphor", cost = 20000, viponly = false},
 
