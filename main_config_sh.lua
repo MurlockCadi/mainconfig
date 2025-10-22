@@ -1809,7 +1809,8 @@ weaponsConfig = {
         {name = "cat_custom_hellgun_scion", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
         {name = "cat_custom_hellgun_lucius", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
         {name = "cat_custom_hellgun_stormtrooper", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-        {name = "arccw_k_40k_hellgun_mk2", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "arccw_k_40k_hellgun_mk1", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+        {name = "arccw_k_40k_hellgun_mk2", cost = 30000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
 		{name = "cat_legacy_poweraxeshield", cost = 30000, viponly = false, classes = {"Adepta Sororitas","Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster","Squat"}},
         {name = "cat_legacy_poweraxecthonian", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
 
