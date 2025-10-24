@@ -1779,6 +1779,9 @@ weaponsConfig = {
         {name = "cat_custom_missilelauncher", cost = 20000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
         {name = "cat_custom_multilaser", cost = 30000, viponly = false, classes = {"Captain","Heavy Weapons","Ogryn"}},
         {name = "cat_custom_plasmacannon", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
+        {name = "cat_legacy_multimeltashoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
+		{name = "cat_legacy_assaultcannon", cost = 30000, viponly = false, classes = {"Ogryn"}},
+
 
         -- Weapon Specialist Weapons
 		{name = "arccw_k_40k_plasmarifle", cost = 20000, viponly = false,  classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
