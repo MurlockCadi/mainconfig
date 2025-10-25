@@ -1780,6 +1780,9 @@ weaponsConfig = {
         {name = "cat_custom_multilaser", cost = 30000, viponly = false, classes = {"Captain","Heavy Weapons","Ogryn"}},
         {name = "cat_custom_plasmacannon", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
         {name = "cat_legacy_multimeltashoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
+        {name = "cat_legacy_heavyboltershoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
+		{name = "cat_legacy_lascannonshoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
+		{name = "cat_legacy_plasmacannonshoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},	
 		{name = "cat_legacy_assaultcannon", cost = 30000, viponly = false, classes = {"Ogryn"}},
 
 
