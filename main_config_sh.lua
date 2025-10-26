@@ -1795,9 +1795,6 @@ weaponsConfig = {
         {name = "cat_custom_plasmagun", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "cat_custom_bolter", cost = 30000, viponly = false, classes = {"Adepta Sororitas","Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "arccw_k_40k_bolter", cost = 30000, viponly = false, classes = {"Adepta Sororitas","Weapon Specialist","Kasrkin Weapon Specialist"}},
-        {name = "arccw_admech_volkiteblaster", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
-        {name = "arccw_admech_volkitecharger", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
-        {name = "arccw_admech_volkiteserp", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
 
         -- Scout Weapons
 
@@ -1861,6 +1858,17 @@ weaponsConfig = {
         -- Duel Weapons
         {name = "cat_legacy_plasmapistolpowersword", cost = 40000, viponly = false, classes = {"Lord General","Adepta Sororitas","Commissar","Inquisitorial Agent","Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
         {name = "cat_legacy_boltpistolpowersword", cost = 40000, viponly = false, classes = {"Lord General","Adepta Sororitas","Commissar","Inquisitorial Agent","Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
+
+		--Volkite
+        {name = "arccw_admech_volkiteblaster", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist","Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
+        {name = "arccw_admech_volkitecharger", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist","Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
+        {name = "arccw_admech_volkiteserp", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist","Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
+		{name = "arccw_admech_heavy_volkite", cost = 40000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
+		{name = "cat_legacy_volkitecaliver", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
+		{name = "cat_legacy_volkitecharger", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
+
+
+		
     },
 
     secondary = {
