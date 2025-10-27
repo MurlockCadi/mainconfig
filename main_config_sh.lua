@@ -85,7 +85,8 @@ intro_image_urls = {
     "https://files.catbox.moe/b7kd5n.png",
     "https://files.catbox.moe/ophy60.jpeg",
 	"https://i.ibb.co/TqBFspWs/20251002233311-1.jpg",
-	"https://i.ibb.co/ynSLK6w6/2.jpg"
+	"https://i.ibb.co/ynSLK6w6/2.jpg",
+	"https://i.ibb.co/gFQ5FHZs/asdasd.webp"
 }
 
 
