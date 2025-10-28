@@ -1012,6 +1012,7 @@ DivisionTypes = {
                 Name = "Ministorum Priest",
                 Default = true,
 				ForceModels = true,
+				priest = true,
                 Models = HOLY_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
                 MaxHealth = 500,
