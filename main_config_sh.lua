@@ -184,7 +184,7 @@ function GetHealthByTotalPlayers()
     elseif TotalPlayers < 50 then
         health = 10000
     end
-	health = health * HEALTH_MULTIPLIER
+	health = health * HEALTH_MULTIPLIER_BOTS
     return health
 end
 
