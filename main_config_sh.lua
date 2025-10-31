@@ -603,7 +603,10 @@ DivisionTypes = {
 				atomic = true,
                 Models = {
                     "models/wk/adeptus_mechanicus/wk_am_engenseer.mdl",
-                    "models/wk/fem_priast/wk_priestness.mdl"
+                    "models/wk/fem_priast/wk_priestness.mdl",
+					"models/wk/adeptus_mechanicus/wk_skitarii_vanguard.mdl",
+					 "models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl",
+					"models/wk/adeptus_mechanicus/wk_skitarii_vanguard_alpha.mdl"
                 },
                 MaxHealth = 500,
                 PowerShield = true,
