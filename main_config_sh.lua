@@ -9,7 +9,8 @@ gamemode_name = "WARHAMMER 40K ROLEPLAY"
 local MAIN_MAPS = {
     ["rp_40k_hammerfall_undead"] = true,
     ["necromunda_v1"] = true,
-	["rp_bremergard_forest"] = true
+	["rp_bremergard_forest"] = true,
+	["rp_snow_warfare"] = true
 }
 
 local ORK_MAPS = {
@@ -27,7 +28,8 @@ end
 mapMessages = {
     ["necromunda_v1"] = "++-- Hive City Imperium // Scarus Sector //  Segmentum Obscurus --++",
     ["rp_jupiter_underground"] = "++-- Hive City Imperium // Under Hive // Abandoned Sectors --++",
-	["rp_zombiewars_v1"] = "++-- Duskgrain // Ork Infestation // Astra Militarum Occupation --++"
+	["rp_zombiewars_v1"] = "++-- Duskgrain // Ork Infestation // Astra Militarum Occupation --++",
+	["rp_snow_warfare"] = "++-- Imperial Snow World // Astra Militarum Occupation--++"
 }
 
 
