@@ -1855,7 +1855,8 @@ weaponsConfig = {
         {name = "arccw_admech_heavy_plasmagun", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
         {name = "arccw_admech_heavy_heavytorcion", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
 		{name = "cat_custom_omnissiahaxe", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-
+		{name = "cat_legacy_gravgun", cost = 5000, viponly = false, classes = {"Servitor"}},
+		
 		-- Adepta Sororitas
         {name = "cat_legacy_shotguncombat", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}},
      	{name = "cat_custom_stormbolter", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
@@ -1872,9 +1873,6 @@ weaponsConfig = {
 		{name = "arccw_admech_heavy_volkite", cost = 40000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
 		{name = "cat_legacy_volkitecaliver", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
 		{name = "cat_legacy_volkitecharger", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
-
-		--Funny
-		{name = "cat_legacy_gravgun", cost = 3000, viponly = false, classes = {"Servitor","Penal Conscript"}},
 
 		
     },
