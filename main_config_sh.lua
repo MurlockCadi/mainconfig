@@ -1873,6 +1873,8 @@ weaponsConfig = {
 		{name = "cat_legacy_volkitecaliver", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
 		{name = "cat_legacy_volkitecharger", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
 
+		--Funny
+		{name = "cat_legacy_gravgun", cost = 3000, viponly = false, classes = {"Servitor","Penal Conscript"}},
 
 		
     },
