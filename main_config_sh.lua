@@ -788,7 +788,31 @@ DivisionTypes = {
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
                 },
                 Prefix = ""
+            },
+			{
+                Name = "Servitor",
+                Default = false,
+                Core = true,
+                Models = {"models/wk/servitor/wk_servit.mdl"},
+                ForceModels = true,
+                Weapons = {},
+                MaxHealth = 750,
+                SpawnWeapons = {},
+                Prefix = "Servitor"
+            }.
+			{
+                Name = "Skitarii",
+                Default = false,
+                Core = true,
+                Models = {"models/wk/adeptus_mechanicus/wk_skitarii_vanguard.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard_alpha.mdl",},
+                ForceModels = true,
+                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic"},
+                MaxHealth = 750,
+				PowerShield = true,
+                SpawnWeapons = {"ent_spawner","alydus_fusioncutter","weapon_extinguisher_infinite",},
+                Prefix = "Skitarii"
             }
+        }
         }
     },
     ["Penal Legion"] = {
@@ -807,19 +831,7 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "Conscript"
-            },
-            {
-                Name = "Servitor",
-                Default = false,
-                Core = true,
-                Models = {"models/wk/servitor/wk_servit.mdl"},
-                ForceModels = true,
-                Weapons = {},
-                MaxHealth = 750,
-                SpawnWeapons = {},
-                Prefix = "Servitor"
             }
-        }
     },
     ["Auxiliary"] = {
         NiceName = "Auxiliary",
