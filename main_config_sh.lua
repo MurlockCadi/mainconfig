@@ -813,8 +813,8 @@ DivisionTypes = {
                 Prefix = "Skitarii"
             }
         }
-        }
-    },
+    }
+},
     ["Penal Legion"] = {
         NiceName = "Penal Legion",
         Description = "Penal Legions are composed of the most hardened criminals and are often used cannon fodder.",
@@ -822,7 +822,6 @@ DivisionTypes = {
         Ranks = {
             {ID = 1, Name = "Penal Conscript", Rank_Prefix = "", ModelsAllowed = PENAL_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = false}
 		},
-        },
     Classes = {
         {
             Name = "Penal Conscript",
@@ -834,8 +833,7 @@ DivisionTypes = {
             Prefix = "Conscript"
         }
     }
-}
-    },
+},
     ["Auxiliary"] = {
         NiceName = "Auxiliary",
         Description = "Auxiliary divisions are the backbone of the Imperium.",
