@@ -795,7 +795,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/wk/servitor/wk_servit.mdl"},
                 ForceModels = true,
-                Weapons = {},
+                Weapons = {"cat_legacy_gravgun"},
                 MaxHealth = 750,
                 SpawnWeapons = {},
                 Prefix = "Servitor"
@@ -809,7 +809,7 @@ DivisionTypes = {
                 Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic"},
                 MaxHealth = 750,
 				PowerShield = true,
-                SpawnWeapons = {"ent_spawner","alydus_fusioncutter","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"alydus_fusioncutter","weapon_extinguisher_infinite"},
                 Prefix = "Skitarii"
             }
         }
@@ -1799,17 +1799,17 @@ weaponsConfig = {
         {name = "cat_custom_missilelauncher", cost = 20000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
         {name = "cat_custom_multilaser", cost = 30000, viponly = false, classes = {"Captain","Heavy Weapons","Ogryn"}},
         {name = "cat_custom_plasmacannon", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
-        {name = "cat_legacy_multimeltashoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
-        {name = "cat_legacy_heavyboltershoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
+        {name = "cat_legacy_multimeltashoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn","Servitor"}},
+        {name = "cat_legacy_heavyboltershoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn","Servitor"}},
 		{name = "cat_legacy_lascannonshoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
-		{name = "cat_legacy_plasmacannonshoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},	
+		{name = "cat_legacy_plasmacannonshoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn","Servitor"}},	
 		{name = "cat_legacy_assaultcannon", cost = 30000, viponly = false, classes = {"Ogryn"}},
 
 
         -- Weapon Specialist Weapons
 		{name = "arccw_k_40k_plasmarifle", cost = 20000, viponly = false,  classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "cat_custom_flamer", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
-        {name = "cat_custom_flamerchem", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
+        {name = "cat_custom_flamerchem", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist","Servitor"}},
         {name = "cat_custom_grenadelauncher", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "cat_custom_meltagun", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
         {name = "cat_custom_plasmagun", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
@@ -1857,19 +1857,19 @@ weaponsConfig = {
 		
         -- Adeptus Mechanicus
 
-        {name = "cat_custom_galvanic", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "cat_custom_galvanic_rifle", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "arccw_admech_galvanic_carabine", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "arccw_admech_galvanic_rifle_long", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "arccw_admech_galvanic_rifle", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "arccw_admech_heavy_arcrifle", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "arccw_admech_heavy_radication", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "arccw_admech_heavy_gravcanon", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "arccw_admech_heavy_magnorail", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "arccw_admech_heavy_plasmagun", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-        {name = "arccw_admech_heavy_heavytorcion", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-		{name = "cat_custom_omnissiahaxe", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos"}},
-		{name = "cat_legacy_gravgun", cost = 5000, viponly = false, classes = {"Servitor"}},
+        {name = "cat_custom_galvanic", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "cat_custom_galvanic_rifle", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "arccw_admech_galvanic_carabine", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "arccw_admech_galvanic_rifle_long", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "arccw_admech_galvanic_rifle", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "arccw_admech_heavy_arcrifle", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "arccw_admech_heavy_radication", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "arccw_admech_heavy_gravcanon", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "arccw_admech_heavy_magnorail", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "arccw_admech_heavy_plasmagun", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+        {name = "arccw_admech_heavy_heavytorcion", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+		{name = "cat_custom_omnissiahaxe", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
+		{name = "cat_legacy_gravgun", cost = 20000, viponly = false, classes = {"Servitor"}},
 		
 		-- Adepta Sororitas
         {name = "cat_legacy_shotguncombat", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}},
