@@ -832,6 +832,8 @@ DivisionTypes = {
                 SpawnWeapons = {},
                 Prefix = "Conscript"
             }
+	}
+}
     },
     ["Auxiliary"] = {
         NiceName = "Auxiliary",
