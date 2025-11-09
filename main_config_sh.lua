@@ -821,6 +821,7 @@ DivisionTypes = {
         Team = "imperium",
         Ranks = {
             {ID = 1, Name = "Penal Conscript", Rank_Prefix = "", ModelsAllowed = PENAL_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = false}
+		},
         },
     Classes = {
         {
