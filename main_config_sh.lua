@@ -799,17 +799,17 @@ DivisionTypes = {
                 MaxHealth = 750,
                 SpawnWeapons = {},
                 Prefix = "Servitor"
-            }.
+            },
 			{
                 Name = "Skitarii",
                 Default = false,
                 Core = true,
-                Models = {"models/wk/adeptus_mechanicus/wk_skitarii_vanguard.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard_alpha.mdl",},
+                Models = {"models/wk/adeptus_mechanicus/wk_skitarii_vanguard.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard_alpha.mdl"},
                 ForceModels = true,
                 Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic"},
                 MaxHealth = 750,
 				PowerShield = true,
-                SpawnWeapons = {"ent_spawner","alydus_fusioncutter","weapon_extinguisher_infinite",},
+                SpawnWeapons = {"ent_spawner","alydus_fusioncutter","weapon_extinguisher_infinite"},
                 Prefix = "Skitarii"
             }
         }
