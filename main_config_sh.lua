@@ -813,8 +813,7 @@ DivisionTypes = {
                 Prefix = "Skitarii"
             }
         }
-    }
-},
+	},
     ["Penal Legion"] = {
         NiceName = "Penal Legion",
         Description = "Penal Legions are composed of the most hardened criminals and are often used cannon fodder.",
