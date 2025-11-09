@@ -833,7 +833,7 @@ DivisionTypes = {
                 Prefix = "Conscript"
             }
 	}
-}
+},
     },
     ["Auxiliary"] = {
         NiceName = "Auxiliary",
