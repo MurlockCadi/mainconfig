@@ -822,18 +822,18 @@ DivisionTypes = {
         Ranks = {
             {ID = 1, Name = "Penal Conscript", Rank_Prefix = "", ModelsAllowed = PENAL_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = false}
         },
-        Classes = {
-            {
-                Name = "Penal Conscript",
-                Default = true,
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "Conscript"
-            }
-	}
-},
+    Classes = {
+        {
+            Name = "Penal Conscript",
+            Default = true,
+            Core = true,
+            Models = {},
+            Weapons = {},
+            SpawnWeapons = {},
+            Prefix = "Conscript"
+        }
+    }
+}
     },
     ["Auxiliary"] = {
         NiceName = "Auxiliary",
