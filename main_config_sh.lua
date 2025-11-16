@@ -2338,6 +2338,50 @@ PASSIVE_ITEM_FLAGS["FaithGenerator"] = {
     Color        = Color(255, 255, 100)
 }
 
+PASSIVE_ITEM_FLAGS["Common"] = {
+    FunctionName = "none",
+    Rarity       = true,
+    Description  = "[Common]",
+    Color        = Color(200, 200, 200)
+}
+
+PASSIVE_ITEM_FLAGS["Uncommon"] = {
+    FunctionName = "none",
+    Rarity       = true,
+    Description  = "[Uncommon]",
+    Color        = Color(100, 255, 100)
+}
+
+PASSIVE_ITEM_FLAGS["Rare"] = {
+    FunctionName = "none",
+    Rarity       = true,
+    Description  = "[Rare]",
+    Color        = Color(80, 180, 255)
+}
+
+PASSIVE_ITEM_FLAGS["Epic"] = {
+    FunctionName = "none",
+    Rarity       = true,
+    Description  = "[Epic]",
+    Color        = Color(200, 100, 255)
+}
+
+PASSIVE_ITEM_FLAGS["Legendary"] = {
+    FunctionName = "none",
+    Rarity       = true,
+    Description  = "[Legendary]",
+    Color        = Color(255, 180, 50)
+}
+
+PASSIVE_ITEM_FLAGS["Mythic"] = {
+    FunctionName = "none",
+    Rarity       = true,
+    Description  = "[Mythic]",
+    Color        = Color(255, 50, 255)
+}
+
+-- Fallout Resources
+
 -----------------LOAD MODELS------------------
 
 modelsToPreload = {}
