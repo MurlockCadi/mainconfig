@@ -1957,7 +1957,7 @@ weaponsConfig = {
 
 PASSIVE_ITEM_FLAGS = PASSIVE_ITEM_FLAGS or {}
 
-MAX_PASSIVE_ITEMS = 3
+MAX_PASSIVE_ITEMS = 5
 
 PASSIVE_ITEM_FLAGS["Extra 100 Health"] = {
     FunctionName = "100health",
