@@ -2386,7 +2386,6 @@ PASSIVE_ITEM_FLAGS["Mythic"] = {
     Color        = Color(255, 50, 255)
 }
 
--- Fallout Resources
 
 -----------------LOAD MODELS------------------
 
@@ -2404,5 +2403,9 @@ for _, role in pairs(ROLES) do
         end
     end
 end
+
+---- New Weapon Forge Config ----
+--CRAFTABLE_ITEMS["itemid"] = cost
+--find the id in the /items menu
 
 print("Imperium RP Config Loaded!")
