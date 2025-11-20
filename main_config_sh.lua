@@ -1734,6 +1734,12 @@ CERTIFICATIONS = {
     ["Provost"] = {
         Weapons = {"weapon_cuff_elastic"},
     },
+    ["Quartermaster"] = {
+        Weapons = {},
+    },
+    ["Forge Master"] = {
+        Weapons = {},
+    },
     ["Rough Rider"] = {
         Weapons = {"ent_spawner"},
         Entitys = {
