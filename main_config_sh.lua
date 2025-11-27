@@ -1084,13 +1084,14 @@ DivisionTypes = {
         Description = "The 11th Kasrkin Wardens are the Imperium's shield, forged in the fires of Cadia to stand steadfast against any foe. Cadia Stands!",
         Team = "imperium",
         Ranks = {
-            {ID = 1, Name = "Veteran", Rank_Prefix = "VET", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-            {ID = 2, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-            {ID = 3, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-	    {ID = 4, Name = "Staff Sergeant", Rank_Prefix = "SSG", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = false},
-            {ID = 5, Name = "Warrent Officer", Rank_Prefix = "WO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-	    {ID = 6, Name = "Tempestor", Rank_Prefix = "TMP", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-	    {ID = 7, Name = "Tempestor Prime", Rank_Prefix = "TPRM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
+            {ID = 1, Name = "Junior Trooper", Rank_Prefix = "JTRP", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 2, Name = "Trooper", Rank_Prefix = "TRP", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 3, Name = "Inquisitorial Operator", Rank_Prefix = "IO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+	    	{ID = 4, Name = "Inquisitorial Senior Operative", Rank_Prefix = "ISO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+			{ID = 5, Name = "Inquisitorial Tactician Operative", Rank_Prefix = "ITO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 6, Name = "Inquisitorial Commando Operative", Rank_Prefix = "ICO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+	    	{ID = 7, Name = "Inquisitorial Executive", Rank_Prefix = "IQE", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+	    	{ID = 8, Name = "Inquisitorial Magnate", Rank_Prefix = "IQM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
         },
         Classes = {
             {
