@@ -1085,12 +1085,13 @@ DivisionTypes = {
         Team = "imperium",
         Ranks = {
             {ID = 1, Name = "Junior Trooper", Rank_Prefix = "JTRP", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-            {ID = 2, Name = "Inquisitorial Operator", Rank_Prefix = "IO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-            {ID = 3, Name = "Inquisitorial Senior Operative", Rank_Prefix = "ISO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-	    {ID = 4, Name = "Inquisitorial Tactician Operative", Rank_Prefix = "ITO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = false},
-            {ID = 5, Name = "Inquisitorial Commando Operative", Rank_Prefix = "ICO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-	    {ID = 6, Name = "Inquisitorial Executive", Rank_Prefix = "IQE", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-	    {ID = 7, Name = "Inquisitorial Magnate", Rank_Prefix = "IQM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
+            {ID = 2, Name = "Trooper", Rank_Prefix = "TRP", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 3, Name = "Inquisitorial Operator", Rank_Prefix = "IO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+	    	{ID = 4, Name = "Inquisitorial Senior Operative", Rank_Prefix = "ISO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+			{ID = 5, Name = "Inquisitorial Tactician Operative", Rank_Prefix = "ITO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 6, Name = "Inquisitorial Commando Operative", Rank_Prefix = "ICO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+	    	{ID = 7, Name = "Inquisitorial Executive", Rank_Prefix = "IQE", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+	    	{ID = 8, Name = "Inquisitorial Magnate", Rank_Prefix = "IQM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
         },
         Classes = {
             {
