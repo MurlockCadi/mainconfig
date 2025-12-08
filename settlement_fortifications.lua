@@ -1,6 +1,28 @@
 -- Settlement Fortifications --
 
 SETTLEMENT_FORTIFICATIONS = {
+    ["Working Slot Machine"] = {
+        Model = "models/maxib123/slotmachine.mdl",
+        IsEntity = true,
+        Entity = "murlock_slot_machine",
+        Cost = 500,
+        MaxHealth = 500
+    },
+    ["Editable Sign"] = {
+        Model = "models/hunter/plates/plate1x2.mdl",
+        IsEntity = true,
+        Entity = "murlocksigns",
+        Cost = 5,
+        MaxHealth = 200
+    },
+    ["Working Poker Table"] = {
+        Model = "models/props/de_tides/restaurant_table.mdl",
+        Cost = 500,
+        IsEntity = true,
+        Entity = "ent_poker_game",
+        MaxHealth = 500,
+        Cost = 500
+    },
     ["Guard Post"] = {
         Model = "models/mosi/fallout4/props/fortifications/guardpost.mdl",
         Cost = 2000,
@@ -908,4 +930,5 @@ SETTLEMENT_FORTIFICATIONS = {
         MaxHealth = 150
     }
 }
+
 
