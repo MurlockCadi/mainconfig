@@ -26,7 +26,7 @@ SETTLEMENT_FORTIFICATIONS = {
     ["Guard Post"] = {
         Model = "models/mosi/fallout4/props/fortifications/guardpost.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Guard Tower"] = {
         Name = "Guard Tower",
@@ -37,7 +37,7 @@ SETTLEMENT_FORTIFICATIONS = {
     ["Junk Wall Corner"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwallcorner.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Skull"] = {
         Model = "models/mosi/fallout4/props/junk/skeleton/skull.mdl",
@@ -117,17 +117,17 @@ SETTLEMENT_FORTIFICATIONS = {
     ["Enclave Barrier 1"] = {
         Model = "models/fallout3/enclave/bunkerprefab01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Enclave Barrier 2"] = {
         Model = "models/fallout3/enclave/bunkerprefab03.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Enclave Barrier 3"] = {
         Model = "models/fallout3/enclave/bunkerprefab04.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Deathclaw Cage"] = {
         Model = "models/fallout3/enclave/deathclawcage.mdl",
@@ -482,27 +482,27 @@ SETTLEMENT_FORTIFICATIONS = {
     ["Junk Wall 1"] = {
         Model = "models/mccarran/parkinglot/misc/junkwall01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 2"] = {
         Model = "models/mccarran/parkinglot/misc/junkwall02.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 3"] = {
         Model = "models/mccarran/parkinglot/misc/junkwall03.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 4"] = {
         Model = "models/mccarran/parkinglot/misc/junkwall04.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 5"] = {
         Model = "models/mccarran/parkinglot/misc/junkwallcorner01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Metal Shelve"] = {
         Model = "models/mccarran/parkinglot/misc/metalshelving01.mdl",
@@ -557,12 +557,12 @@ SETTLEMENT_FORTIFICATIONS = {
     ["Tire Pile 5"] = {
         Model = "models/mccarran/parkinglot/misc/tirewall01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Tire Pile 6"] = {
         Model = "models/mccarran/parkinglot/misc/tirewall02.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Tent 1"] = {
         Model = "models/mccarran/tents/tent01.mdl",
@@ -577,7 +577,7 @@ SETTLEMENT_FORTIFICATIONS = {
     ["Green House"] = {
         Model = "models/mccarran/sharecropper/greenhousenv.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Tent 2"] = {
         Model = "models/mccarran/tents/tent_prefab01.mdl",
@@ -712,127 +712,127 @@ SETTLEMENT_FORTIFICATIONS = {
     ["Guard Tower"] = {
         Model = "models/mosi/fallout4/props/fortifications/guardtower.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Wall Shell Tower"] = {
         Model = "models/mosi/fallout4/props/fortifications/wallshelltower.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Guard Post"] = {
         Model = "models/mosi/fallout4/props/fortifications/guardpost.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Stone Wall Old 1"] = {
         Model = "models/mosi/fallout4/props/fortifications/stonewallold01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Stone Wall Old 2"] = {
         Model = "models/mosi/fallout4/props/fortifications/stonewallold02.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 1"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwall01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 2"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwall02.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 3"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwall03.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 4"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwall04.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 5"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwall05.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 6"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwall06.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall 7"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwall07.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Corner"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwallcorner.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Doorway"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwalldoorway.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Hallway"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwallhallway.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Tall 1"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwalltall01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Tall 2"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwalltall02.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Tall 3"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwalltall03.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Tall 4"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwalltall04.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Tall Angled 1"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwalltallangled01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Tall Angled 2"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwalltallangled02.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Tall Free 1"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwalltallfree01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Junk Wall Tall Free 2"] = {
         Model = "models/mosi/fallout4/props/fortifications/junkwalltallfree02.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["BOS Platform 3"] = {
         Model = "models/mosi/fallout4/props/fortifications/bos/platform03.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["BOS Platform 4"] = {
         Model = "models/mosi/fallout4/props/fortifications/bos/platform04.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Barricade Panel 1"] = {
         Model = "models/mosi/fallout4/props/fortifications/barricadepanel01.mdl",
@@ -918,7 +918,7 @@ SETTLEMENT_FORTIFICATIONS = {
         Model = "models/mosi/fallout4/props/fortifications/woodenbarrel.mdl",
         Cost = 5,
         MaxHealth = 150
-    }
+    },
     ["ADV Display"] = {
         Model = "models/maxib123/advpadisplay.mdl",
         Cost = 5,
@@ -1403,7 +1403,7 @@ SETTLEMENT_FORTIFICATIONS = {
         Model = "models/props_c17/FurnitureRadiator001a.mdl",
         Cost = 5,
         MaxHealth = 100
-    }
+    },
     ["Gravestone 001a"] = {
         Model = "models/props_c17/gravestone001a.mdl",
         Cost = 5,
@@ -1538,7 +1538,7 @@ SETTLEMENT_FORTIFICATIONS = {
         Model = "models/props_wasteland/kitchen_fridge001a.mdl",
         Cost = 5,
         MaxHealth = 100
-    }
+    },
     ["Soda Vending Machine"] = {
         Model = "models/props_interiors/VendingMachineSoda01a.mdl",
         Cost = 5,
@@ -1713,7 +1713,7 @@ SETTLEMENT_FORTIFICATIONS = {
         Model = "models/props_wasteland/prison_shelf002a.mdl",
         Cost = 5,
         MaxHealth = 100
-    }
+    },
     ["Breen Bust"] = {
         Model = "models/props_combine/breenbust.mdl",
         Cost = 5,
@@ -1803,51 +1803,51 @@ SETTLEMENT_FORTIFICATIONS = {
         Model = "models/props_lab/servers.mdl",
         Cost = 5,
         MaxHealth = 100
-    }
+    },
     ["Fancy Lads Board"] = {
         Model = "models/maxib123/fancyladsboard.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Fence 01a"] = {
         Model = "models/props_c17/fence01a.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Fence 02a"] = {
         Model = "models/props_c17/fence02a.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Fence 03a"] = {
         Model = "models/props_c17/fence03a.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Interior Fence 002d"] = {
         Model = "models/props_wasteland/interior_fence002d.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Gate Door 02a"] = {
         Model = "models/props_c17/gate_door02a.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Blast Door 001c"] = {
         Model = "models/props_lab/blastdoor001c.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Cargo Container 01"] = {
         Model = "models/props_wasteland/cargo_container01.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Horse Statue"] = {
         Model = "models/props_c17/statue_horse.mdl",
         Cost = 2000,
-        MaxHealth = 2000
+        MaxHealth = 5000
     },
     ["Interior Fence 002e"] = {
         Model = "models/props_wasteland/interior_fence002e.mdl",
