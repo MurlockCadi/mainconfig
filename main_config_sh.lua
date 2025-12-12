@@ -2136,13 +2136,13 @@ PASSIVE_ITEM_FLAGS["Bullet Vampirism 10"] = {
 -- Thorns (reflect damage)
 PASSIVE_ITEM_FLAGS["Thorns 10"] = {
     FunctionName = "Thorns10",
-    Description  = "Reflects 10% of incoming damage back to the attacker.",
+    Description  = "Reflects 100% of incoming damage back to the attacker.",
     Color        = Color(255, 120, 0)
 }
 
 PASSIVE_ITEM_FLAGS["Thorns 25"] = {
     FunctionName = "Thorns25",
-    Description  = "Reflects 25% of incoming damage back to the attacker.",
+    Description  = "Reflects 250% of incoming damage back to the attacker.",
     Color        = Color(200, 80, 0)
 }
 
