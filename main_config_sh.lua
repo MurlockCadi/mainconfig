@@ -5,6 +5,8 @@
 imperium_rp_font = "Sitka Text"
 gamemode_name = "WARHAMMER 40K ROLEPLAY"
 
+-- pp
+
 
 local MAIN_MAPS = {
     ["rp_40k_hammerfall_undead"] = true,
