@@ -1757,6 +1757,9 @@ CERTIFICATIONS = {
         Entitys = {
             { name = "Medical Supplies", entityname = "medic_box", description = "Lets soldiers heal themselves.", type = "Medic Box" }
         }
+    },
+	["Pilot"] = {
+        Weapons = {},
     }
 }
 
