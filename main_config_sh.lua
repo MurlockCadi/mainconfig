@@ -1760,7 +1760,10 @@ CERTIFICATIONS = {
     },
 	["Pilot"] = {
         Weapons = {},
-    }
+		Entitys = {
+			{ name = "Valkyrie", entityname = "lvs_starfighter_valkyrie", description = "Rain righteous fury upon thy enemies", type = "Vehicle" },
+		}
+    },
 }
 
 
