@@ -587,7 +587,8 @@ HOLY_MODELS = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk
 
 ADMECH_MODELS = { "models/astartes/mech/magos.mdl","models/jackswan/rogue_trader/wk_rt_secutor.mdl","models/wk/adeptus_mechanicus/wk_am_engenseer.mdl","models/wk/adeptus_mechanicus/wk_trippriest.mdl","models/wk/gans/wk_gans_priest.mdl","models/wk/fem_priast/wk_priestness_belka.mdl"}
 ADMECH_WEAPONS = {"cat_custom_galvanic","cat_custom_galvanic_rifle","cat_custom_omnissiahaxe"}
-
+-- AELDARI
+AELDARI_MODELS= { "models/astartes/eldar/avenger_lorian.mdl","models/astartes/eldar/bonesinger.mdl","models/astartes/eldar/dark_reapers_npc.mdl","models/astartes/eldar/guardian_redactus.mdl","models/astartes/eldar/ranger_mortis.mdl","models/astartes/eldar/farseer.mdl","models/astartes/eldar/arlequin.mdl","models/astartes/eldar/dark_reapers.mdl","models/dizcordum/wh/eldar/Yuraine.mdl"} 
 DivisionTypes = {
     ["Cult Mechanicus Conclave"] = {
         NiceName = "Cult Mechanicus Conclave",
@@ -1076,6 +1077,26 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"murlock_staff_player_new"},
                 Prefix = ""
+            }
+		}
+    },
+	 ["Aeldari"] = {
+        NiceName = "Aeldari",
+        Description = "Craftworld ",
+        Team = "imperium",
+		Ranks = {
+		    {ID = 1, Name = "Corsair", Rank_Prefix = "", ModelsAllowed = Aeldari_models, WeaponsAllowed = {}, CanPromote = false},   
+		},
+        Classes = {
+            {
+                Name = "Aeldari",
+                Core = true,
+				Default = true,
+                ForceModels = true,
+                Models = AELDARI_MODELS, 
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "AEL"
             }
 		}
     },
