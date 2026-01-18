@@ -585,7 +585,7 @@ HOLY_MODELS = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk
 
 -- Adeptus Mechanicus
 
-ADMECH_MODELS = { "models/astartes/mech/magos.mdl","models/jackswan/rogue_trader/wk_rt_secutor.mdl","models/wk/adeptus_mechanicus/wk_am_engenseer.mdl","models/wk/adeptus_mechanicus/wk_trippriest.mdl","models/wk/gans/wk_gans_priest.mdl","models/wk/fem_priast/wk_priestness_belka.mdl"}
+ADMECH_MODELS = 
 ADMECH_WEAPONS = {"cat_custom_galvanic","cat_custom_galvanic_rifle","cat_custom_omnissiahaxe"}
 
 DivisionTypes = {
