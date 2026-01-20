@@ -836,9 +836,9 @@ DivisionTypes = {
         }
     }
 },
-    ["Auxiliary"] = {
-        NiceName = "Auxiliary",
-        Description = "Auxiliary divisions are the backbone of the Imperium.",
+    ["Command"] = {
+        NiceName = "Command",
+        Description = "The highest ranks of their respective branches, holding total power.",
         Team = "imperium",
         Ranks = {
             {ID = 1, Name = "Auxiliary", Rank_Prefix = "", ModelsAllowed = {"models/dizcordum/wk/ecclesiarchy/priest.mdl"}, WeaponsAllowed = {}, CanPromote = false},
