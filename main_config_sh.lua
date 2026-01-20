@@ -837,8 +837,8 @@ DivisionTypes = {
     }
 },
 	
-    ["Auxilary"] = {
-        NiceName = "Auxilary",
+    ["Auxiliary"] = {
+        NiceName = "Auxiliary",
         Description = "Auxiliary divisions are the backbone of the Imperium.",
         Team = "imperium",
         Ranks = {
