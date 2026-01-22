@@ -583,6 +583,8 @@ PYSKER_MODELS = {"models/models/svin/pyromant.mdl","models/wk/psy/wk_alpha_psyke
 
 HOLY_MODELS = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl","models/wk/jackswan/crusader.mdl","models/wk/jackswan/executor.mdl","models/wk/jackswan/hexorcist.mdl","models/wk/jackswan/ministorum_priest.mdl","models/wk/jackswan/octavian_executor.mdl","models/wk/jackswan/zealot.mdl"}
 
+-- Comissariat
+COMMISSAR_MODELS = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl","models/wk/jackswan/scion/scion_commissar.mdl"}
 -- Adeptus Mechanicus
 
 ADMECH_MODELS = { "models/astartes/mech/magos.mdl","models/jackswan/rogue_trader/wk_rt_secutor.mdl","models/wk/adeptus_mechanicus/wk_am_engenseer.mdl","models/wk/adeptus_mechanicus/wk_trippriest.mdl","models/wk/gans/wk_gans_priest.mdl","models/wk/fem_priast/wk_priestness_belka.mdl"}
@@ -885,6 +887,76 @@ DivisionTypes = {
                 MaxHealth = 2000,
                 SpawnWeapons = {},
                 Prefix = ""
+            },
+		}
+    },
+ 	["Commissariat"] = {
+        NiceName = "Commissariat",
+        Description = "Commissars are tasked with keeping order by any means necessary.",
+        Team = "imperium",
+		Ranks = {
+		    {ID = 1, Name = "Cadet", Rank_Prefix = "CAD", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 2, Name = "Junior", Rank_Prefix = "JN", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 3, Name = "Commissar", Rank_Prefix = "COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 4, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 5, Name = "Lord", Rank_Prefix = "Lord", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true}
+		},
+        Classes = {
+            {
+                Name = "Trainee",
+                Core = true,
+				Default = true,
+                Models = {},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
+                MaxHealth = 750,
+                ForceModels = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            },
+            {
+                Name = "Commissar",
+                Core = true,
+                Models = {},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
+                MaxHealth = 1000,
+                ForceModels = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+ 	    	},
+            {
+                Name = "Commissar Command",
+                Core = true,
+                Models = {},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
+                MaxHealth = 1000,
+                PowerShield = true,
+                ForceModels = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
             },
 		}
     },
