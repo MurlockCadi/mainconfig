@@ -844,10 +844,20 @@ DivisionTypes = {
 	    {ID = 1, Name = "Mutant", Rank_Prefix = "", ModelsAllowed = {"models/dizcordum/wk/ecclesiarchy/priest.mdl"}, WeaponsAllowed = {}, CanPromote = false},
 		},
         Classes = {
+			{
+				Name = "Mutant",
+				Core = true,
+				Default = true,
+				Models = {"models/wk/civilian/wk_civilian.mdl"},
+				Weapons = {"cat_custom_knife"},
+				MaxHealth = 100,
+				ForceModels = true,
+		        SpawnWeapons = {},
+				Prefix = ""
+			}
             {
                 Name = "Ratling",
                 Core = true,
-	            Default = true,
                 Models = {"models/dizcordum/abhumans/ratling.mdl"},
                 Weapons = {"cat_custom_sniper"},
                 MaxHealth = 300,
