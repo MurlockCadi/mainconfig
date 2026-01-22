@@ -836,6 +836,48 @@ DivisionTypes = {
         }
     }
 },
+    ["Mutants"] = {
+        NiceName = "Mutants",
+        Description = "Mutants are the millions of people across the Imperium of Man who have been deformed from the baseline Human phenotypic state by genetic mutation. This mutation can be caused from birth by environmental factors like ionising radiation acting in utero or by exposure to the raw psychic power of Chaos.",
+        Team = "imperium",
+		Ranks = {
+	    {ID = 1, Name = "Mutant", Rank_Prefix = "", ModelsAllowed = {"models/dizcordum/wk/ecclesiarchy/priest.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+		},
+        Classes = {
+            {
+                Name = "Ratling",
+                Core = true,
+	            Default = true,
+                Models = {"models/dizcordum/abhumans/ratling.mdl"},
+                Weapons = {"cat_custom_sniper"},
+                MaxHealth = 300,
+                ForceModels = true,
+                SpawnWeapons = {"realistic_hook"},
+                Prefix = ""
+            },
+            {
+                Name = "Squat",
+                Core = true,
+                Models = SQUAT_MODELS,
+                Weapons = SQUAT_WEAPONS,
+	       		PowerShield = true,
+                ForceModels = true,
+                MaxHealth = 750,
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+            {
+                Name = "Ogryn",
+                Core = true,
+                Models = OGRYN_MODELS,
+                Weapons = OGRYN_WEAPONS,
+                ForceModels = true,
+                MaxHealth = 2000,
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+		}
+    },
 	
     ["Auxiliary"] = {
         NiceName = "Auxiliary",
