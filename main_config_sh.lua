@@ -1143,6 +1143,58 @@ DivisionTypes = {
             }
         }
     },
+    ["High Command"] = {
+        NiceName = "High Command",
+        Description = "The leadership of the Imperium from the militarum to the inquisition",
+        Team = "imperium",
+        Ranks = {
+            {ID = 1, Name = "High Command", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false}
+        },
+        Classes = {
+            {
+                Name = "Lord General",
+                Default = true,
+				Core = true,
+				ForceModels = true,
+                Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
+                MaxHealth = 1500,
+                PowerShield = true,
+				CanManageTaxes = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+
+            },
+            {
+                Name = "Inquisitorial Agent",
+                Core = true,
+                Models = {"models/muschi/characters/muschi_inq_sombra.mdl"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword"},
+                ForceModels = true,
+                MaxHealth = 1500,
+				CanManageTaxes = true,
+                PowerShield = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            }
+		}
+    },
     ["Ecclesiarchy"] = {
         NiceName = "Ecclesiarchy",
         Description = "Ecclesiarchy of the Imperium",
