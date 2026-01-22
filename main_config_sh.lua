@@ -854,7 +854,7 @@ DivisionTypes = {
 				ForceModels = true,
 		        SpawnWeapons = {},
 				Prefix = ""
-			}
+			},
             {
                 Name = "Ratling",
                 Core = true,
