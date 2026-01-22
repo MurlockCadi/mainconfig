@@ -2593,6 +2593,7 @@ end
 ---- New Weapon Forge Config ----
 --CRAFTABLE_ITEMS["itemid"] = cost
 --find the id in the /items menu
+CRAFTABLE_ITEMS = CRAFTABLE_ITEMS or {}
 CRAFTABLE_ITEMS["item_964668"] = 100 --Tritium Fuel
 CRAFTABLE_ITEMS["item_786207"] = 100 --Reactor Coolant
 
