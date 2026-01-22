@@ -603,7 +603,6 @@ DivisionTypes = {
                 Name = "Logis",
                 Default = true,
                 Core = true,
-                ForceModels = true,
 				atomic = true,
                 Models = {
                     "models/wk/adeptus_mechanicus/wk_am_engenseer.mdl",
