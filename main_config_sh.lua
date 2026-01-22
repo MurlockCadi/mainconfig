@@ -853,7 +853,6 @@ DivisionTypes = {
 				Models = {"models/wk/civilian/wk_civilian.mdl"},
 				Weapons = {"cat_custom_knife"},
 				MaxHealth = 100,
-				ForceModels = true,
 		        SpawnWeapons = {},
 				Prefix = ""
 			},
