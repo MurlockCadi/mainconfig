@@ -603,7 +603,6 @@ DivisionTypes = {
                 Name = "Logis",
                 Default = true,
                 Core = true,
-                ForceModels = true,
 				atomic = true,
                 Models = {
                     "models/wk/adeptus_mechanicus/wk_am_engenseer.mdl",
@@ -894,11 +893,11 @@ DivisionTypes = {
         Description = "Commissars are tasked with keeping order by any means necessary.",
         Team = "imperium",
 		Ranks = {
-		    {ID = 1, Name = "Cadet", Rank_Prefix = "CAD", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 2, Name = "Junior", Rank_Prefix = "JN", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 1, Name = "Cadet", Rank_Prefix = "CAD COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 2, Name = "Junior", Rank_Prefix = "JN COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
 		    {ID = 3, Name = "Commissar", Rank_Prefix = "COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 4, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true},
-		    {ID = 5, Name = "Lord", Rank_Prefix = "Lord", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true}
+		    {ID = 4, Name = "Captain", Rank_Prefix = "CPT COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 5, Name = "Lord", Rank_Prefix = "Lord COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true}
 		},
         Classes = {
             {
@@ -908,7 +907,6 @@ DivisionTypes = {
                 Models = {},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
                 MaxHealth = 750,
-                ForceModels = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
                 EntitySpawner = {
@@ -1240,7 +1238,8 @@ DivisionTypes = {
 		    {ID = 6, Name = "Savant-Adjunct", Rank_Prefix = "Adjunct", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
 		    {ID = 7, Name = "Scholar Empyrean", Rank_Prefix = "Scholar-Empyrean", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
 		    {ID = 8, Name = "Scholar Obscurus", Rank_Prefix = "Scholar Obscurus", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
-		    {ID = 9, Name = "Dominus", Rank_Prefix = "Dominus", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true}
+		    {ID = 9, Name = "Dominus", Rank_Prefix = "Dominus", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 10, Name = "Philosopher", Rank_Prefix = "Philosopher", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true}
 		},
         Classes = {
             {
