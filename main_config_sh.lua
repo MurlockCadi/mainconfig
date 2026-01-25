@@ -129,6 +129,7 @@ RESPAWN_TIMERS_IMPERIUMRP = {
     ["Armed Mechanized Vehicles"] = 360,
     ["Mobile Outpost"] = 500,
     ["Motercycles"] = 60
+	["Bike"] = 300
 }
 
 ENTITY_RESPAWN_TIMERS = {
@@ -141,6 +142,7 @@ ENTITY_RESPAWN_TIMERS = {
     ["Reactor"] = 1000,
     ["Turret"] = 120,
     ["Tanks"] = 120
+	
 }
 
 
@@ -1919,7 +1921,15 @@ CERTIFICATIONS = {
     ["Forge Master"] = {
         Weapons = {},
     },
-    ["Rough Rider"] = {
+   
+	["Biker"] = {
+        Weapons = {"ent_spawner","weapon_simrepair"},
+        Entitys = {
+            { name = "Bike", entityname = "sim_fphys_wk_charon_bike_armed", description = "Fastest two-wheeled vehicle in the imperium", type = "Vehicle" },
+            { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Make that engine purr", type = "Vehicle" }
+        }
+    },
+	    ["Rough Rider"] = {
         Weapons = {"ent_spawner"},
         Entitys = {
             { name = "Andalusian", entityname = "ent_horse_andalusian", description = "Horse!", type = "Vehicle" },
