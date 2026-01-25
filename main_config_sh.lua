@@ -128,7 +128,7 @@ RESPAWN_TIMERS_IMPERIUMRP = {
     ["Mechanized Vehicles"] = 250,
     ["Armed Mechanized Vehicles"] = 360,
     ["Mobile Outpost"] = 500,
-    ["Motercycles"] = 60
+    ["Motercycles"] = 60,
 	["Bike"] = 300
 }
 
@@ -1925,7 +1925,7 @@ CERTIFICATIONS = {
 	["Biker"] = {
         Weapons = {"ent_spawner","weapon_simrepair"},
         Entitys = {
-            { name = "Bike", entityname = "sim_fphys_wk_charon_bike_armed", description = "Fastest two-wheeled vehicle in the imperium", type = "Vehicle" },
+            { name = "Bike", entityname = "sim_fphys_wk_charon_bike_armed", description = "Fastest two-wheeled vehicle in the imperium", type = "Bike" },
             { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Make that engine purr", type = "Vehicle" }
         }
     },
