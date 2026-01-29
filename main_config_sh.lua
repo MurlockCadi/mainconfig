@@ -1910,8 +1910,11 @@ CERTIFICATIONS = {
             { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Gas for Tanks", type = "Vehicle" }
         }
     },
-    ["Provost"] = {
-        Weapons = {"weapon_cuff_elastic"},
+	["Provost"] = {
+    	Weapons = {"weapon_cuff_elastic"},
+    },
+    ["Tech Adept"] = {
+        Weapons = {"weapon_extinguisher_infinite","weapon_simrepair","alydus_fusioncutter"},
     },
     ["Quartermaster"] = {
         Weapons = {},
