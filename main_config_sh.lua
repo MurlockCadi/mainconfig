@@ -578,7 +578,7 @@ KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword"
 
 --SQUAT
 
-SQUAT_MODELS = {"models/dizcordum/abhumans/squat.mdl","models/squat_rig_v2.mdl"}
+SQUAT_MODELS = {"models/knight_ig/muschi_ig_squat.mdl","models/muschi/knight_ig/muschi_ig_squat.mdl","models/muschi/knight_ig/muschi_ig_squat_kalt.mdl"}
 SQUAT_WEAPONS = {"cat_legacy_boardingshield_volkitecharger","cat_legacy_poweraxecthonian"}
 
 PYSKER_MODELS = {"models/models/svin/pyromant.mdl","models/wk/psy/wk_alpha_psyker.mdl","models/wk/psy/wk_astropath.mdl","models/wk/psy/wk_mystic.mdl","models/wk/psy/wk_mystic_primus.mdl","models/wk/psy/wk_navigator.mdl","models/wk/psy/wk_primaris_fem.mdl","models/wk/psy/wk_primaris_psyker.mdl","models/wk/psy/wk_wyrdvane.mdl","models/wk/psy/wk_wyrdvane_fem.mdl","models/wk/sodium/sodium_astropath.mdl"}
