@@ -1192,6 +1192,28 @@ DivisionTypes = {
             }
 		}
     },
+
+	    ["Contracted Mercenaries"] = {
+        NiceName = "Contracted Mercenaries",
+        Prefix = "",
+        Description = "Whether you were enslaved, contracted or came freely. You now serve the Imperium.",
+        Team = "imperium",
+        VIP = true,
+        Ranks = {
+            {ID = 1, Name = "Contracted Mercenary", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {
+                Name = "Contracted Mercenary", 
+                Default = true, 
+                Models = {"models/wk/civilian/wk_civilian.mdl","models/muschi/orks/muschi_ork_boyzzz.mdl","models/dizcordum/imperium/enforcer/enf_female.mdl","models/dizcordum/imperium/enforcer/enf_male.mdl","models/dizcordum/wk/mercenary/croto_hark.mdl","models/dizcordum/notloyal/thugs/thug_female_npc.mdl","models/dizcordum/notloyal/thugs/thug_male.mdl","models/dizcordum/chaos/cultist/cultist4.mdl","models/dizcordum/abhumans/squat.mdl","models/wk/savlar/wk_savlar_veteran.mdl","models/wizard/kroot.mdl","models/tau/baron_tau.mdl","models/dizcordum/wh/eldar/yuraine.mdl"}, 
+                Weapons = {}, 
+                SpawnWeapons = {"refinery_spawner"}, 
+                Prefix = ""
+            }
+        }
+    },
+	
     ["Ecclesiarchy"] = {
         NiceName = "Ecclesiarchy",
         Description = "Ecclesiarchy of the Imperium",
@@ -1844,7 +1866,7 @@ ROLES = ROLES or {
             {
                 Name = "Rogue Trader", 
                 Default = true, 
-                Models = {"models/wk/civilian/wk_civilian.mdl","models/muschi/orks/muschi_ork_boyzzz.mdl","models/dizcordum/imperium/enforcer/enf_female.mdl","models/dizcordum/imperium/enforcer/enf_male.mdl","models/dizcordum/wk/mercenary/croto_hark.mdl","models/dizcordum/notloyal/thugs/thug_female_npc.mdl","models/dizcordum/notloyal/thugs/thug_male.mdl","models/dizcordum/chaos/cultist/cultist4.mdl","models/dizcordum/abhumans/squat.mdl","models/wk/savlar/wk_savlar_veteran.mdl","models/wizard/kroot.mdl","models/tau/baron_tau.mdl"}, 
+                Models = {"models/wk/civilian/wk_civilian.mdl","models/muschi/orks/muschi_ork_boyzzz.mdl","models/dizcordum/imperium/enforcer/enf_female.mdl","models/dizcordum/imperium/enforcer/enf_male.mdl","models/dizcordum/wk/mercenary/croto_hark.mdl","models/dizcordum/notloyal/thugs/thug_female_npc.mdl","models/dizcordum/notloyal/thugs/thug_male.mdl","models/dizcordum/chaos/cultist/cultist4.mdl","models/dizcordum/abhumans/squat.mdl","models/wk/savlar/wk_savlar_veteran.mdl","models/wizard/kroot.mdl","models/tau/baron_tau.mdl","models/dizcordum/wh/eldar/yuraine.mdl"}, 
                 Weapons = {}, 
                 SpawnWeapons = {"cat_custom_knife","refinery_spawner"}, 
                 Prefix = ""
@@ -1911,7 +1933,7 @@ CERTIFICATIONS = {
         }
     },
 	["Provost"] = {
-    	Weapons = {"weapon_cuff_elastic"},
+    	Weapons = {"weapon_cuff_elastic","weapon_stunstick"},
     },
     ["Tech Adept"] = {
         Weapons = {"weapon_extinguisher_infinite","weapon_simrepair","alydus_fusioncutter"},
