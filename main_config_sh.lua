@@ -552,8 +552,8 @@ OGRYN_WEAPONS = {"cat_custom_ogrynbang","cat_custom_rippergun"}
 
 KARSIKIN_MODELS_OLD = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl","models/krig_stormtrooper.mdl"}
 
-KARSIKIN_MODELS = {"models/murmag/inqus/soilder/inquisition_soilder_bk.mdl","models/murmag/inqus/medic/inquisition_medic_bk.mdl"}
-KARSKIN_OFFICER = {"models/murmag/inqus/commander/inquisition_commander_bk.mdl"}
+KARSIKIN_MODELS = {"models/astartes/scion/scion.mdl","models/astartes/scion/scion_w.mdl"}
+KARSKIN_OFFICER = {"models/astartes/scion/scion.mdl","models/astartes/scion/scion_w.mdl""}
 KARSKIN_OFFICER_OLD = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl","models/krig_stormtrooper.mdl"}
 KARSIKIN_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_knife","arccw_k_40k_hellgun_mk2"}
 KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol","arccw_k_40k_hellgun_mk2"}
@@ -1263,14 +1263,14 @@ DivisionTypes = {
         Description = "The 11th Kasrkin Wardens are the Imperium's shield, forged in the fires of Cadia to stand steadfast against any foe. Cadia Stands!",
         Team = "imperium",
         Ranks = {
-            {ID = 1, Name = "Junior Trooper", Rank_Prefix = "JTRP", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-            {ID = 2, Name = "Trooper", Rank_Prefix = "TRP", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-            {ID = 3, Name = "Inquisitorial Operator", Rank_Prefix = "IO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-	    	{ID = 4, Name = "Inquisitorial Senior Operative", Rank_Prefix = "ISO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-			{ID = 5, Name = "Inquisitorial Tactician Operative", Rank_Prefix = "ITO", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
-            {ID = 6, Name = "Inquisitorial Commando Operative", Rank_Prefix = "ICO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-	    	{ID = 7, Name = "Inquisitorial Executive", Rank_Prefix = "IQE", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
-	    	{ID = 8, Name = "Inquisitorial Magnate", Rank_Prefix = "IQM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
+            {ID = 1, Name = "Veteran", Rank_Prefix = "Vet", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 2, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 3, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+	    	{ID = 4, Name = "Staff Sergeant", Rank_Prefix = "SSG", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+			{ID = 5, Name = "Master Sergeant", Rank_Prefix = "MSG", ModelsAllowed = KARSIKIN_MODELS, WeaponsAllowed = KARSIKIN_WEAPONS, CanPromote = false},
+            {ID = 6, Name = "Warrant Officer", Rank_Prefix = "WO", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+	    	{ID = 7, Name = "Tempestor", Rank_Prefix = "TEMP", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true},
+	    	{ID = 8, Name = "Tempestor Prime", Rank_Prefix = "TPRM", ModelsAllowed = KARSKIN_OFFICER, WeaponsAllowed = KARSIKIN_OFFICER_WEAPONS, CanPromote = true}
         },
         Classes = {
             {
@@ -1278,7 +1278,7 @@ DivisionTypes = {
                 Default = true,
                 Models = {},
                 Weapons = {},
-                MaxHealth = 750,
+                MaxHealth = 1000,
                 SpawnWeapons = {"jet_mk1"},
                 Prefix = ""
             },
@@ -1286,7 +1286,7 @@ DivisionTypes = {
                 Name = "Kasrkin Medic",
                 Core = true,
                 Medic = true,
-                MaxHealth = 750,
+                MaxHealth = 1000,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak","ent_spawner","jet_mk1"},
@@ -1304,7 +1304,7 @@ DivisionTypes = {
                 Name = "Kasrkin Weapon Specialist",
                 Core = true,
                 Models = {},
-                MaxHealth = 750,
+                MaxHealth = 1000,
                 Weapons = {"cat_custom_flamer"},
                 SpawnWeapons = {"ent_spawner","jet_mk1"},
                 Prefix = "WS",
@@ -1321,7 +1321,7 @@ DivisionTypes = {
                 Name = "Kasrkin Sniper",
                 Core = true,
                 Models = {},
-                MaxHealth = 750,
+                MaxHealth = 1000,
                 Weapons = {"cat_custom_longlas_kantrael"},
                 SpawnWeapons = {"ent_spawner","jet_mk1","realistic_hook"},
                 Prefix = "SN",
@@ -1339,7 +1339,7 @@ DivisionTypes = {
                 Core = true,
                 Radio = true,
                 Models = {},
-                MaxHealth = 750,
+                MaxHealth = 1000,
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner","jet_mk1"},
                 EntitySpawner = {
