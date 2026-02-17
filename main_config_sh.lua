@@ -1140,7 +1140,7 @@ DivisionTypes = {
                 MaxHealth = 1500,
                 PowerShield = true,
 				CanManageTaxes = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","jet_mk1"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1161,7 +1161,7 @@ DivisionTypes = {
                 MaxHealth = 1500,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","jet_mk1"},
                 Prefix = "",
                 EntitySpawner = {
                     {
