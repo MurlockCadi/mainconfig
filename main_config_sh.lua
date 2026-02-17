@@ -553,7 +553,7 @@ OGRYN_WEAPONS = {"cat_custom_ogrynbang","cat_custom_rippergun"}
 KARSIKIN_MODELS_OLD = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl","models/krig_stormtrooper.mdl"}
 
 KARSIKIN_MODELS = {"models/astartes/scion/scion.mdl","models/astartes/scion/scion_w.mdl"}
-KARSKIN_OFFICER = {"models/astartes/scion/scion.mdl","models/astartes/scion/scion_w.mdl""}
+KARSKIN_OFFICER = {"models/astartes/scion/scion.mdl","models/astartes/scion/scion_w.mdl"}
 KARSKIN_OFFICER_OLD = {"models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl","models/krig_stormtrooper.mdl"}
 KARSIKIN_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_knife","arccw_k_40k_hellgun_mk2"}
 KARSIKIN_OFFICER_WEAPONS = {"cat_custom_hellgunstandard","cat_custom_chainsword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol","arccw_k_40k_hellgun_mk2"}
