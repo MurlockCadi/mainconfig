@@ -314,6 +314,8 @@ commands = {
 	["!cadia"] = function(ply) OpenURL(ply,"https://docs.google.com/document/d/1Tq9m4xMw-gSf3ShvMRIhv8R25ymphWLkjXwEHtcWvh4/edit?usp=sharing") end,
 	["/ranks"] = function(ply) OpenURL(ply,"https://xmind.ai/share/YIOgl1RA?xid=jXVrwaii") end,	
 	["!ranks"] = function(ply) OpenURL(ply,"https://xmind.ai/share/YIOgl1RA?xid=jXVrwaii") end,
+	["!weapons"] = function(ply) OpenURL(ply,"https://docs.google.com/spreadsheets/d/1yyeHDBZPI0VhXtXTiAv-DusKgDHZwDhonlLgaXRYO1I/edit?usp=sharing") end,
+	["/weapons"] = function(ply) OpenURL(ply,"https://docs.google.com/spreadsheets/d/1yyeHDBZPI0VhXtXTiAv-DusKgDHZwDhonlLgaXRYO1I/edit?usp=sharing") end,
     ["!logs"] = function(ply) mLogs.Open(ply) end,
     ["/logs"] = function(ply) mLogs.Open(ply) end,
     ["/pm"] = function(ply, args) return privat_radio_msg(ply, args) end,
@@ -1363,13 +1365,14 @@ DivisionTypes = {
             {ID = 2, Name = "Guardsman", Rank_Prefix = "GDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
             {ID = 3, Name = "Veteran Guardsman", Rank_Prefix = "VGDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 4, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
-            {ID = 5, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
-            {ID = 6, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
-            {ID = 7, Name = "Colour Sergeant", Rank_Prefix = "CSGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
-            {ID = 8, Name = "Sergeant Major", Rank_Prefix = "SGTM", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
-            {ID = 9, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = CADIAN_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
-            {ID = 10, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
-            {ID = 11, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
+            {ID = 6, Name = "Specialist", Rank_Prefix = "SPC", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 7, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 8, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 9, Name = "Colour Sergeant", Rank_Prefix = "CSGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 10, Name = "Sergeant Major", Rank_Prefix = "SGTM", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 11, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = CADIAN_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
+            {ID = 12, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
+            {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
         },
         Classes = {
             {
@@ -1478,13 +1481,14 @@ DivisionTypes = {
             {ID = 2, Name = "Korpsman", Rank_Prefix = "KRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
             {ID = 3, Name = "Senior Korpsman", Rank_Prefix = "SKRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 4, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
-            {ID = 5, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
-            {ID = 6, Name = "Watchmaster", Rank_Prefix = "WM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
-            {ID = 7, Name = "Senior Watchmaster", Rank_Prefix = "SWM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
-            {ID = 8, Name = "Quartermaster", Rank_Prefix = "QM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
-            {ID = 9, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
-            {ID = 10, Name = "Kaptain", Rank_Prefix = "KPT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
-            {ID = 11, Name = "Marshal", Rank_Prefix = "MAR", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
+            {ID = 5, Name = "Specialist", Rank_Prefix = "SPC", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 6, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 7, Name = "Watchmaster", Rank_Prefix = "WM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 8, Name = "Senior Watchmaster", Rank_Prefix = "SWM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 9, Name = "Quartermaster", Rank_Prefix = "QM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
+            {ID = 10, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
+            {ID = 11, Name = "Kaptain", Rank_Prefix = "KPT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
+            {ID = 12, Name = "Marshal", Rank_Prefix = "MAR", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
         },
         Classes = {
             {
