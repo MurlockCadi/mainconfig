@@ -3442,6 +3442,920 @@ FACTION_TYPES = {
     end,
 	},
 
+	["GOBLINS"] = {
+    STAGE = "DA LITTLE GREEN TIDE",
+    DeathsByType = {},
+    OffWorld = true,
+
+    CreateGoblin = function(self, bot, elite)
+        local health = GetHealthByTotalPlayers() * 0.5
+
+        -- 25% chance for elite squigs
+        local spawn_elite = elite or math.random(1, 100) <= 25
+
+        if spawn_elite then
+            -- Squig elite
+            bot.Elite = true
+            bot:SetNWString("Name", "Squig")
+            local model = "models/astartes/squig/squig.mdl"
+            bot:SetModel(model)
+            health = math.max(health * 2, 400)
+            bot:SetRunSpeed(360)
+            bot:SetWalkSpeed(360)
+            bot.FightType = "melee"
+            bot.weapon = "murlock_melee"
+            bot:SetNWString("Description", "A ravenous Squig that charges and bites anything in its path!")
+            bot:SetNWBool("ShieldEnable", false)
+        else
+            -- Normal goblins
+            local roll = math.random()
+            if roll <= 0.05 then
+                bot:SetNWString("Name", "Gretchin Wierdo")
+                local model = "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"
+                bot:SetModel(model)
+                health = math.max(health * 1, 350)
+                bot.FightType = "shooting"
+                bot.weapon = "cat_chaos_legacy_sorcererstaff"
+                bot.hasgun = true
+                bot:SetNWBool("ShieldEnable", true)
+                bot:SetNWString("Description", "Warp-touched Gretchin with a knack for sorcery.")
+            elseif roll <= 0.25 then
+                bot:SetNWString("Name", "Snotling")
+                local model = "models/barbossa/snotling/snotling_pm.mdl"
+                bot:SetModel(model)
+                bot:SetRunSpeed(250)
+                bot:SetWalkSpeed(250)
+                bot:SetModelScale(0.8, 0)
+                bot:SetNWString("Description", "A tiny, vicious little greenskin pest.")
+            elseif roll <= 0.5 then
+                bot:SetNWString("Name", "Gretchin")
+                local model = "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"
+                bot:SetModel(model)
+                health = math.max(health * 2, 300)
+                bot:SetRunSpeed(250)
+                bot:SetWalkSpeed(250)
+                bot:SetModelScale(0.9, 0)
+                bot:SetNWString("Description", "A sneaky little goblin with sharp teef and tricks.")
+            elseif roll <= 0.75 then
+                bot:SetNWString("Name", "Greater Snotling")
+                local model = "models/barbossa/snotling/snotling_pm.mdl"
+                bot:SetModel(model)
+                health = math.max(health * 3, 350)
+                bot:SetRunSpeed(250)
+                bot:SetWalkSpeed(250)
+                bot:SetNWString("Description", "A larger, meaner snotling that bosses around the smaller ones.")
+            elseif roll <= 0.90 then
+                bot:SetNWString("Name", "Greater Gretchin")
+                local model = "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"
+                bot:SetModel(model)
+                health = math.max(health * 4, 400)
+                bot:SetRunSpeed(250)
+                bot:SetWalkSpeed(250)
+                bot:SetNWString("Description", "A tough gretchin, eager to prove it's almost an ork.")
+            else
+                bot:SetNWString("Name", "Gretchin In Power Armor")
+                local model = "models/muschi/orks/muschi_ork_meganob.mdl"
+                bot:SetModel(model)
+                health = math.max(health * 5, 500)
+                bot:SetNWBool("ShieldEnable", true)
+                bot:SetRunSpeed(250)
+                bot.FightType = "melee"
+                bot.weapon = "tfa_big_choppa"
+                bot.hasgun = true
+                bot:SetModelScale(0.5, 0)
+                bot:SetWalkSpeed(250)
+                bot:SetNWString("Description", "A cunning gretchin that leads the others.")
+            end
+
+            if not bot.hasgun then
+                if math.random(100) <= 50 then
+                    bot.FightType = "melee"
+                    bot.weapon = "bowie_knife"
+                else
+                    bot.FightType = "shooting"
+                    bot.weapon = "tfa_slugga"
+                end
+            end
+        end
+
+        -- finalize
+        bot:StripWeapons()
+        bot.goblin = true
+        bot.ork = true
+        RandomonizeBodygroupsAndSkinsOrks(bot)
+        bot:SetNWString("MAX_HEALTH", health)
+        bot:SetNWString("Status", "GOBLINS")
+        bot:SetMaxHealth(health)
+        bot:SetHealth(health)
+        bot:SetNoTarget(true)
+    end,
+
+    OnDeathHook = function(self, bot, inflictor, attacker)
+        -- custom goblin death logic here if needed
+    end,
+
+    Think = function(self)
+        if BOT_INVASION ~= "GOBLINS" then return end
+        local AllBots = player.GetBots()
+        for _, bot in ipairs(AllBots) do
+            if bot:GetNWString("Status", "friendly") ~= "GOBLINS" then
+                self:CreateGoblin(bot,ALWAYS_SPAWN_ELITES)
+            end
+        end
+    end,
+	},
+
+	["DARK MECHANICUS"] = {
+    STAGE = "RISE OF THE MACHINES",
+    DeathsByType = {},
+    OffWorld = true,
+
+    CreateDarkMech = function(self, bot, elite)
+        local TotalPlayers = #player.GetHumans()
+        local health = 1000
+
+        if TotalPlayers < 5 then
+            health = 250
+        elseif TotalPlayers < 10 then
+            health = 400
+        elseif TotalPlayers < 20 then
+            health = 700
+        elseif TotalPlayers < 30 then
+            health = 1500
+        elseif TotalPlayers < 40 then
+            health = 2500
+        elseif TotalPlayers < 50 then
+            health = 3500
+        end
+        local spawn_elite = elite or math.random(1, 100) <= 30
+
+        if spawn_elite then
+            bot.Elite = true
+            local eliteRoll = math.random(1, 100)
+            if eliteRoll <= 40 then
+                bot:SetNWString("Name", "DARK ELECTRO PRIEST")
+                health = math.max(health * 4, 2500)
+                bot:SetModel("models/player/mechs_fulgurite.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "melee"
+                bot.weapon = "cat_legacy_chainglaive"              
+                bot:SetNWString("Description", "A CREEPY FIGURE WITH ELECTRICITY")
+            elseif eliteRoll <= 70 then
+                bot:SetNWString("Name", "CORRUPTED RED GUARD")
+                health = math.max(health * 6, 5000)
+                bot:SetModel("models/player/mechs_ragadast.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                if math.random(1,100) <= 50 then
+                    bot.FightType = "shooting"
+                    bot.weapon = "arccw_admech_volkiteblaster"
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "cat_chaos_legacy_chainaxeheresy"
+                end
+            elseif eliteRoll <= 90 then
+                bot:SetNWString("Name", "BROKEN DOMINATOR")
+                health = math.max(health * 6, 8000)
+                bot:SetModel("models/wk/gibus/gibus_dominator.mdl")
+                bot:SetModelScale(1.7, 0)
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "shooting"
+                bot.weapon = "cat_primaris_legacy_boltstormgauntlets"   
+                bot:SetNWString("Description", "A MACHINE WITH DEAD EYES ON HIS FACE")
+            else
+                bot:SetNWString("Name", "DARK MARSHALL")
+                health = math.max(health * 5, 4000)
+                bot:SetModel("models/wk/adeptus_mechanicus/wk_skitarii_marshal.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                local roll = math.random(1,100)
+                if roll <= 50 then
+                    bot.FightType = "shooting"
+                    bot.weapon = "arccw_admech_laslock"
+                elseif roll <= 70 then
+                    bot.FightType = "shooting"
+                    bot.weapon = "arccw_admech_arcrifle"
+                end
+                bot:SetNWString("Description", "LEAD OF SKITARIS OF THE DARK MECHANICUS")
+                bot:SetNWBool("ShieldEnable", true)
+            end
+        else
+            local botroll = math.random(1, 100)
+            if botroll <= 20 then
+                bot:SetNWString("Name", "CORRUPTED SERVITOR")
+                health = math.max(health * 0.5, 500)
+                bot:SetModel("models/wk/servitor/wk_servit.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "flamer"
+                bot.weapon = "cat_legacy_flamer"
+                bot:SetNWString("Description", "A BROKEN SERVITOR WITH FLAMES ON IT")
+                bot.goblin = true
+            elseif botroll <= 40 then
+                bot:SetNWString("Name", "DARK SKITARII")
+                health = math.max(health * 2, 600)
+                bot:SetModel("models/wk/adeptus_mechanicus/wk_secutarii_hoplites.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "shooting"
+                bot.weapon = "arccw_admech_galvanic_carabine"
+                bot:SetNWString("Description", "AN SKIITARII WITH DEAD EYES")
+            elseif botroll <= 80 then
+                bot:SetNWString("Name", "DARK RANGER")
+                bot:SetModel("models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "shooting"
+                bot.weapon = "arccw_admech_archebus"
+                bot:SetNWString("Description", "A DEADLY SNIPER")
+            else
+                bot:SetNWString("Name", "DARK PRIEST")
+                bot:SetModel("models/wk/adeptus_mechanicus/wk_trippriest.mdl")
+                bot.FightType = "shooting"
+                bot:SetColor(Color(74, 46, 255))
+                bot.weapon = "arccw_admech_heavy_arcrifle"
+                bot:SetNWString("Description", "DEAD ON THE INSIDE AND THE OUTSIDE")
+            end
+        end
+
+        bot:StripWeapons()
+        RandomonizeBodygroupsAndSkins(bot)
+        bot:SetNWString("MAX_HEALTH", health)
+        bot:SetNWString("Status", "DARK MECHANICUS")
+        bot.IsMechanical = true
+        bot:SetMaxHealth(health)
+        bot:SetHealth(health)
+        bot:SetNoTarget(true)
+    end,
+
+    OnDeathHook = function(self, bot, inflictor, attacker)
+    end,
+
+    Think = function(self)
+        if BOT_INVASION ~= "DARK MECHANICUS" then return end
+        for _, bot in ipairs(player.GetBots()) do
+            if bot:GetNWString("Status", "friendly") ~= "DARK MECHANICUS" then
+                self:CreateDarkMech(bot,ALWAYS_SPAWN_ELITES)
+            end
+        end
+    end,
+	},
+
+	["PRAETORIAN_GUARD"] = {
+    STAGE = "THE DARK PRINCE'S HOST",
+    DeathsByType = {},
+    OffWorld = true,
+
+    CreateGuard = function(self, bot, elite)
+        local health = GetHealthByTotalPlayers() * 1.5
+
+        local spawn_elite = elite or math.random(1, 100) <= 5
+
+        if spawn_elite then
+            local elite_roll = math.random(1, 100) 
+            bot.Elite = true
+            if elite_roll <= 90 then
+                health = health * 2
+                bot:SetNWString("Name", "Praetorian Officer")
+                bot:SetModel("models/wk/jackswan/scion/scion_tempestor_prime.mdl")
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+                bot:SetNWString("Description", "A loyal Praetorian Officer, armed and ready.")
+                bot:SetColor(Color(150, 0, 0))
+                bot.FightType = "shooting"
+                bot:SetNWBool("ShieldEnable", true)
+                bot.weapon = "cat_legacy_boltpistolpowersword"
+            else
+                health = health * 2
+                bot:SetNWString("Name", "Praetorian Commissar")
+                bot:SetModel("models/wk/jackswan/scion/scion_commissar.mdl")
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+                bot:SetNWString("Description", "A loyal Praetorian Commissar, armed and ready.")
+                bot:SetColor(Color(150, 0, 0))
+                bot.FightType = "shooting"
+                bot:SetNWBool("ShieldEnable", true)
+                bot.weapon = "cat_legacy_boltpistolpowersword"
+            end
+            bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+        else
+            local GuardsmanType = math.random(1, 100)
+            if GuardsmanType <= 70 then
+                bot:SetNWString("Name", "Praetorian Guardsman")
+                bot:SetModel("models/wk/jackswan/scion/scion.mdl")
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+                bot:SetNWString("Description", "A loyal Praetorian Guardsman, armed and ready.")
+                bot:SetColor(Color(150, 0, 0))
+                bot.FightType = "shooting"
+                bot:SetNWBool("ShieldEnable", true)
+                bot.weapon = "cat_custom_lasgun_galaxy"
+            elseif GuardsmanType <= 90 then
+                bot:SetNWString("Name", "Blood Axe Ork Mercenary")
+                health = health * 10
+                bot:SetModel("models/muschi/orks/muschi_ork_wild.mdl")
+                bot.FightType = "melee"
+                bot.weapon = "tfa_choppa"
+                bot:SetNWString("Description", "A brutal Ork mercenary, skilled in close combat.")
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+            else
+                bot:SetNWString("Name", "Praetorian Scout")
+                bot:SetModel("models/wk/jackswan/scion/scion_tempestor_lumena.mdl")
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+                bot:SetNWString("Description", "Fast and deadly Praetorian Scout.")
+                bot:SetColor(Color(150, 0, 0))
+                bot.FightType = "shooting"
+                bot:SetNWBool("ShieldEnable", true)
+                bot.weapon = "cat_custom_longlas_voss"
+                bot:SetRunSpeed(350)
+                bot:SetWalkSpeed(350)
+            end
+        end
+
+        bot:SetNWString("Status", "PRAETORIAN_GUARD")
+        bot:StripWeapons()
+        RandomonizeBodygroupsAndSkins(bot)
+        bot.IsHostile = true
+        bot.GoneMad = true
+        bot:SetNWString("MAX_HEALTH", health)
+        bot:SetMaxHealth(health)
+        bot:SetHealth(health)
+
+        SpawnHostileBot(bot)
+    end,
+
+    Think = function(self)
+        if BOT_INVASION ~= "PRAETORIAN_GUARD" then return end
+        for _, bot in ipairs(player.GetBots()) do
+            if bot:GetNWString("Status") ~= "PRAETORIAN_GUARD" then
+                self:CreateGuard(bot,ALWAYS_SPAWN_ELITES)
+            end
+        end
+    end,
+	},
+
+	["UNDIVIDED_HORDE"] = {
+    STAGE = "THE DARK GODS UNITE",
+    DeathsByType = {},
+    OffWorld = true,
+
+    CreateUndividedUnit = function(self, bot, elite)
+        local health = GetHealthByTotalPlayers()
+
+        local spawn_elite = elite or math.random(1, 100) <= 25
+
+        if spawn_elite then
+            bot.Elite = true
+            local EliteTypeRoll = math.random(1, 100)
+            -- Elite pool across all 4 gods
+            if EliteTypeRoll <= 20 then
+                -- Bloodletter
+                bot:SetModel(math.random(2) == 1 and "models/bloodletterc.mdl" or "models/bloodletter1.mdl")
+                bot:SetNWBool("ShieldEnable", true)
+                health = math.max(health * 2, 1500)
+                bot.FightType = "melee"
+                bot.demon = true
+                bot.weapon = "cat_chaos_legacy_powerswordkhorne"
+                bot:SetNWString("Name", "Bloodletter")
+                bot:SetNWString("Description", "A powerful servant of Khorne, eager to spill blood.")
+
+            elseif EliteTypeRoll <= 35 then
+                -- Blood Ogryn
+                bot:SetModel("models/dizcordum/wk/ogryn/ogryn_chaos.mdl")
+                health = math.max(health * 8.5, 3000)
+                if math.random(1, 2) == 1 then
+                    bot.FightType = "shooting"
+                    bot.weapon = "cat_chaos_legacy_heavyboltershoulder"
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "cat_chaos_legacy_crozius"
+                end
+                bot:SetNWString("Name", "Blood Ogryn")
+                bot:SetNWString("Description", "A hulking brute infused with Khorne’s rage.")
+
+            elseif EliteTypeRoll <= 50 then
+                -- Khorngor
+                bot:SetModel("models/dizcordum/wk/dizcordum/inq/godrik_kozlotaur_khorne.mdl")
+                health = math.max(health * 10, 3000)
+                bot.demon = true
+                bot.weapon = "cat_chaos_legacy_powerbattleaxe"
+                bot.FightType = "melee"
+                bot:SetNWString("Name", "Khorngor")
+                bot:SetNWString("Description", "A massive beast empowered by Khorne.")
+
+            elseif EliteTypeRoll <= 65 then
+                -- Champion of Nurgle
+                bot:SetModel("models/wk/nurglit/wk_nurgl.mdl")
+                bot.demon = true
+                health = math.max(health * 5, 2000)
+                if math.random(1, 2) == 1 then
+                    bot.FightType = "shooting"
+                    bot.weapon = "cat_chaos_legacy_boltpistoldual"
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "cat_chaos_legacy_powerswordnurgle"
+                end
+                bot.speed = 500
+                bot:SetNWString("Name", "Champion of Nurgle")
+                bot:SetNWString("Description", "A vile champion, spreading decay.")
+
+            elseif EliteTypeRoll <= 80 then
+                -- Tzeentch Daemon
+                local bloodlettermodel = math.random(2) == 1 and "models/bloodletterc.mdl" or "models/bloodletter1.mdl"
+                bot:SetModel(bloodlettermodel)
+                bot:SetNWBool("ShieldEnable", true)
+                bot.demon = true
+                health = math.max(health * 2, 1500)
+                bot.FightType = "melee"
+                bot.weapon = "cat_chaos_legacy_powerswordtzeentch"
+                bot:SetNWString("Name", "Tzeentch Daemon")
+                bot:SetNWString("Description", "A daemon of Tzeentch, sowing change.")
+                bot:SetColor(Color(80, 100, 255))
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+                bot:SetRenderFX(kRenderFxPulseFast)
+
+            elseif EliteTypeRoll <= 95 then
+                -- Daemonette
+                bot:SetNWString("Name", "Daemonette")
+                health = math.max(health * 2, 1000)
+                bot:SetModel("models/ulman/nkari_demoman.mdl")
+                bot.FightType = "melee"
+                bot:SetRunSpeed(500)
+                bot.demon = true
+                bot:SetWalkSpeed(500)
+                bot.weapon = "cat_chaos_legacy_powerswordslaanesh"
+                bot:SetNWString("Description", "A lithe daemonette of Slaanesh.")
+                bot:SetColor(Color(255, 100, 180))
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+
+            else
+                -- Keeper of Secrets
+                bot:SetNWString("Name", "Keeper of Secrets")
+                health = math.max(health * 8.5, 1000)
+                bot:SetModel("models/ulman/nkari_demoman.mdl")
+                bot.FightType = "melee"
+                bot:SetRunSpeed(400)
+                bot:SetWalkSpeed(400)
+                bot.demon = true
+                bot:SetModelScale(2.5)
+                bot.weapon = "murlock_melee"
+                bot:SetNWString("Description", "A towering daemon prince of Slaanesh.")
+                bot:SetColor(Color(255, 100, 180))
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+            end
+
+        else
+            -- Non-elite cultist pool
+            local roll = math.random(1, 100)
+            if roll <= 20 then
+                -- Khorne Cultist
+                bot:SetModel("models/dizcordum/sodium_blood_pact.mdl")
+                if math.random(1, 100) <= 50 then
+                    bot.FightType = "melee"
+                    bot.weapon = "murlock_chaos_knife"
+                else
+                    bot.FightType = "shooting"
+                    bot.weapon = "murlock_weapon_pistol"
+                end
+                bot:SetNWString("Name", "Khorne Cultist")
+                bot:SetNWString("Description", "A blood-mad cultist of Khorne.")
+
+            elseif roll <= 40 then
+                -- Nurgle Cultist / Poxwalker / Nurgling
+                local nurgle_roll = math.random(1, 3)
+                if nurgle_roll == 1 then
+                    bot:SetModel("models/wk/nurglit/poxwalker.mdl")
+                    bot.FightType = "melee"
+                    bot.weapon = "murlock_chaos_knife"
+                    bot:SetNWString("Name", "Poxwalker")
+                    bot:SetNWString("Description", "A grotesque servant of Nurgle.")
+                elseif nurgle_roll == 2 then
+                    bot:SetModel("models/wk/nurglit/wk_nuglin.mdl")
+                    bot.FightType = "melee"
+                    bot.weapon = "murlock_chaos_knife"
+                    bot.demon = true
+                    bot:SetNWString("Name", "Nurgling")
+                    bot:SetNWString("Description", "A tiny but dangerous daemon of Nurgle.")
+                else
+                    bot:SetModel("models/wk/nurglit/wk_nurcul.mdl")
+                    bot.FightType = "shooting"
+                    bot.weapon = "murlock_weapon_pistol"
+                    bot:SetNWString("Name", "Nurgle Cultist")
+                    bot:SetNWString("Description", "A diseased cultist of Nurgle.")
+                end
+
+            elseif roll <= 60 then
+                -- Tzeentch Cultist
+                local cult_models = {
+                    "models/wk/cult/tzeentch_cultist.mdl",
+                    "models/wk/cult/tzeentch_cultist_heavy.mdl"
+                }
+                bot:SetModel(cult_models[math.random(#cult_models)])
+                if math.random(1, 100) <= 25 then
+                    bot.FightType = "shooting"
+                    bot.weapon = "cat_chaos_legacy_sorcererstaff"
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "murlock_chaos_knife"
+                end
+                bot:SetNWString("Name", "Tzeentch Cultist")
+                bot:SetNWString("Description", "A cultist of Tzeentch.")
+
+            else
+                -- Slaaneshi Cultist / Sorcerer
+                if math.random(1, 100) <= 80 then
+                    bot:SetModel("models/gonzo/cultistcolours/cultistcolours.mdl")
+                    bot:SetSkin(1)
+                    bot:SetColor(Color(255, 100, 180))
+                    bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+                    bot.FightType = "melee"
+                    bot.weapon = "murlock_melee"
+                    bot:SetNWString("Name", "Slaaneshi Cultist")
+                    bot:SetNWString("Description", "A depraved mortal of Slaanesh.")
+                else
+                    bot:SetModel("models/gonzo/cultistcolours/cultistcolours.mdl")
+                    bot:SetSkin(1)
+                    bot.FightType = "shooting"
+                    bot.weapon = "cat_chaos_legacy_sorcererstaff"
+                    bot:SetNWString("Name", "Slaaneshi Sorcerer")
+                    bot:SetNWString("Description", "A warp-touched sorcerer of Slaanesh.")
+                    bot:SetColor(Color(255, 120, 200))
+                    bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+                    bot:SetNWBool("ShieldEnable", true)
+                end
+            end
+        end
+
+        -- Common setup
+        bot:StripWeapons()
+        bot:SetNWString("Status", "UNDIVIDED_HORDE")
+        bot.IsHostile = true
+        bot.GoneMad = true
+        bot:SetNWString("MAX_HEALTH", health)
+        bot:SetMaxHealth(health)
+        bot:SetHealth(health)
+        SpawnHostileBot(bot)
+    end,
+
+    Think = function(self)
+        if BOT_INVASION ~= "UNDIVIDED_HORDE" then return end
+        for _, bot in ipairs(player.GetBots()) do
+            if bot:GetNWString("Status", "friendly") ~= "UNDIVIDED_HORDE" then
+                self:CreateUndividedUnit(bot, ALWAYS_SPAWN_ELITES)
+            end
+        end
+    end,
+	},
+
+	["FLAYED_ONES"] = {
+    STAGE = "DEATH TO THE LIVING",
+    DeathsByType = {},
+    OffWorld = true,
+
+    CreateNecron = function(self, bot, force_elite)
+        local baseHealth = GetHealthByTotalPlayers()
+
+        baseHealth = baseHealth * 2
+
+        local spawn_elite = force_elite or (math.random(1, 100) <= 25)
+
+        if spawn_elite then
+            bot.Elite = true
+            local elite_roll = math.random(1, 100)
+
+            if elite_roll <= 10 then
+                bot:SetNWString("Name", "Blood Lychguard")
+                bot:SetModel("models/wk/necrons/base/wk_lychguard.mdl")
+                bot.weapon = "cat_legacy_murlock_necron_shield"
+                bot.FightType = "melee"
+                bot:SetNWString("Description", "Heavily armored Lychguard Gone Mad with The Disease")
+                bot:SetNWBool("ShieldEnable", true)
+                baseHealth = math.max(baseHealth * 3, 1000)
+                --Make Red
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+                bot:SetColor(Color(100, 0, 0))
+            else
+                bot:SetNWString("Name", "Greater Flayed One")
+                bot:SetModel("models/wk/necrons/base/wk_flayed_one.mdl")
+                bot.weapon = "murlock_melee"
+                bot.FightType = "melee"
+                bot:SetNWString("Description", "Terrifying melee unit covered in flayed skin.")
+                baseHealth = baseHealth * 5
+                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+                bot:SetColor(Color(100, 0, 0))
+            end
+        else
+            bot:SetNWString("Name", "Flayed One")
+            bot:SetModel("models/wk/necrons/base/wk_flayed_one.mdl")
+            bot.weapon = "murlock_melee"
+            bot.FightType = "melee"
+            bot:SetNWString("Description", "Terrifying melee unit covered in flayed skin.")
+            baseHealth = baseHealth * 2
+        end
+
+        bot:SetNWString("Status", "FLAYED_ONES")
+        bot:StripWeapons()
+        bot:SetModelScale(1.25, 0)
+        bot:SetRunSpeed(300)
+        bot:SetWalkSpeed(300)
+        RandomonizeBodygroupsAndSkins(bot)
+        bot.IsHostile = true
+        bot.CanRegenerate = true
+        bot.GoneMad = true
+        bot.hasGasMask = true
+        bot:SetNWString("MAX_HEALTH", baseHealth)
+        bot:SetMaxHealth(baseHealth)
+        bot:SetHealth(baseHealth)
+        SpawnHostileBot(bot)
+    end,
+
+    Think = function(self)
+        if BOT_INVASION ~= "FLAYED_ONES" then return end
+        for _, bot in ipairs(player.GetBots()) do
+            if bot:GetNWString("Status") ~= "FLAYED_ONES" then
+                self:CreateNecron(bot,ALWAYS_SPAWN_ELITES)
+            end
+        end
+    end,
+	},
+
+	["SKAVEN"] = {
+    STAGE = "THE UNDER-EMPIRE RISES",
+    DeathsByType = {},
+    OffWorld = true,
+
+    CreateSkaven = function(self, bot, elite)
+        local health = GetHealthByTotalPlayers()
+        local spawn_elite = elite or math.random(1, 100) <= 20
+        print("Spawning Skaven bot. Elite:", spawn_elite)
+        if spawn_elite then
+            bot.Elite = true
+            local r = math.random(1, 100)
+
+            if r <= 25 then
+                bot:SetModel("models/ulman/clan_rat_1.mdl")
+                bot:SetNWString("Name", "Skaven Warlock")
+                bot.FightType = "shooting"
+                bot.weapon = "cat_chaos_legacy_sorcererstaff"
+                bot:SetNWBool("ShieldEnable", true)
+                bot:SetNWString("Description", "A sorcerous Skaven empowered by warpstone.")
+                health = math.max(health * 3, 2000)
+
+            elseif r <= 50 then
+                bot:SetModel("models/ulman/clan_rat_1.mdl")
+                bot:SetModelScale(3, 0)
+                bot:SetNWString("Name", "Rat Ogre")
+                bot.FightType = "melee"
+                bot.weapon = "cat_chaos_legacy_crozius"
+                bot:SetNWString("Description", "A hulking Rat Ogre infused with chaos.")
+                health = math.max(health * 8, 4000)
+
+            elseif r <= 75 then
+                bot:SetModel("models/ulman/storm_rat.mdl")
+                bot:SetNWString("Name", "Stormvermin")
+                bot.FightType = "melee"
+                bot.weapon = "cat_legacy_murlock_necron_shield"
+                bot:SetNWBool("ShieldEnable", true)
+                bot:SetNWString("Description", "Elite Stormvermin warriors wielding heavy shields.")
+                health = math.max(health * 5, 3000)
+
+            else
+                bot:SetModel("models/ulman/skv_eshin.mdl")
+                bot:SetNWString("Name", "Warpfire Rattler")
+                bot.FightType = "shooting"
+                bot.weapon = "murlock_gauss_cannon"
+                bot:SetNWString("Description", "Elite rapid-fire Skaven gunner.")
+                health = math.max(health * 4, 2500)
+            end
+
+        else
+            local roll = math.random(1, 100)
+
+            if roll <= 45 then
+                bot:SetModel("models/ulman/clan_rat_1.mdl")
+                bot:SetNWString("Name", "Clanrat")
+                bot.FightType = "melee"
+                if math.random(1, 100) <= 25 then
+                    bot.weapon = "murlock_chaos_knife"
+                else
+                    bot.weapon = "murlock_melee"
+                end
+                bot:SetNWString("Description", "A basic Skaven Clanrat armed for melee.")
+                health = math.max(health * 1, 500)
+
+            elseif roll <= 75 then
+                bot:SetModel("models/ulman/red_war_skv.mdl")
+                bot:SetNWString("Name", "Red Guard Skaven")
+                bot.FightType = "melee"
+                bot.weapon = "cat_legacy_murlock_necron_shield"
+                bot:SetNWString("Description", "Skaven red warrior with a crude shield.")
+                health = math.max(health * 2, 1200)
+
+            else
+                bot:SetModel("models/ulman/skv_eshin.mdl")
+                bot:SetNWString("Name", "Plague Eshin")
+                -- if math.random(1, 2) == 1 then
+                    bot.FightType = "flamer"
+                    bot.weapon = "cat_custom_flamerchem"
+                -- else
+                --     bot.FightType = "shooting"
+                --     bot.weapon = "cat_custom_grenade_chem"
+                -- end
+                bot:SetNWString("Description", "Skaven Eshin armed with toxic weaponry.")
+                health = math.max(health * 2, 1500)
+            end
+        end
+
+        bot:SetNWString("Status", "SKAVEN")
+        bot:StripWeapons()
+        RandomonizeBodygroupsAndSkins(bot)
+        bot.IsHostile = true
+        bot.GoneMad = true
+        bot.nocrouch = true
+        bot:SetRunSpeed(300)
+        bot:SetWalkSpeed(300)
+        bot:SetNWString("MAX_HEALTH", health)
+        bot:SetMaxHealth(health)
+        bot:SetHealth(health)
+        SpawnHostileBot(bot)
+    end,
+
+    Think = function(self)
+        if BOT_INVASION ~= "SKAVEN" then return end
+        --print("Spawning Skaven bots...")
+        for _, bot in ipairs(player.GetBots()) do
+            if bot:GetNWString("Status") ~= "SKAVEN" then
+                self:CreateSkaven(bot,ALWAYS_SPAWN_ELITES)
+            end
+        end
+    end,
+	},
+
+	["GAUNTS"] = {
+    STAGE = "THE SWARM ADVANCES",
+    DeathsByType = {},
+    OffWorld = true,
+
+    CreateGaunt = function(self, bot, elite)
+        local health = GetHealthByTotalPlayers()
+        local spawn_elite = elite or math.random(1, 100) <= 5
+
+        if spawn_elite then
+            bot.Elite = true
+            local roll = math.random(1, 100)
+            if roll <= 50 then
+                bot:SetNWString("Name", "Tyranid Warrior")
+                bot:SetModel("models/tyranids/warrior/warrior.mdl")
+                bot:SetRunSpeed(400)
+                bot:SetWalkSpeed(400)
+                bot.FightType = "tyrranid"
+                bot.weapon = "murlock_melee"
+                bot:SetNWString("Description", "A Tyranid Warrior commanding smaller broods.")
+                health = math.max(health * 8, 1500)
+            else
+                bot:SetNWString("Name", "Tyranid Warrior Prime")
+                bot:SetModel("models/tyranids/warrior/warrior.mdl")
+                bot:SetRunSpeed(420)
+                bot:SetWalkSpeed(420)
+                bot.FightType = "tyrranid"
+                bot.weapon = "murlock_melee"
+                bot:SetNWString("Description", "An elite Tyranid Warrior adapted for greater strength.")
+                health = math.max(health * 10, 2000)
+            end
+        else
+            local roll = math.random(1, 100)
+            if roll <= 80 then
+                bot:SetNWString("Name", "Tyranid Hormagaunt")
+                bot:SetModel("models/tyranids/hormagaunt/hormaguant.mdl")
+                bot.FightType = "tyrranid"
+                bot.weapon = "murlock_melee"
+                bot:SetRunSpeed(300)
+                bot:SetWalkSpeed(300)
+                bot:SetNWString("Description", "Fast melee gaunt that swarms its enemies.")
+                health = math.max(health * 4, 600)
+            else
+                bot:SetNWString("Name", "Tyranid Termagant")
+                bot:SetModel("models/tyranids/termagaunt/thermagaunt.mdl")
+                bot.FightType = "shooting"
+                bot.weapon = "cat_legacy_librarianstaff"
+                bot:SetNWString("Description", "Ranged gaunt that fires living ammunition.")
+                health = math.max(health * 2, 800)
+            end
+        end
+
+        bot:SetNWString("Status", "GAUNTS")
+        bot:StripWeapons()
+        RandomonizeBodygroupsAndSkins(bot)
+        bot.IsHostile = true
+        bot.GoneMad = true
+        bot:SetNWString("MAX_HEALTH", health)
+        bot:SetMaxHealth(health)
+        bot:SetHealth(health)
+        SpawnHostileBot(bot)
+    end,
+
+    Think = function(self)
+        if BOT_INVASION ~= "GAUNTS" then return end
+        for _, bot in ipairs(player.GetBots()) do
+            if bot:GetNWString("Status") ~= "GAUNTS" then
+                self:CreateGaunt(bot, ALWAYS_SPAWN_ELITES)
+            end
+        end
+    end,
+	},
+
+	["AELDARI"] = {
+    STAGE = "Aeldari",
+    DeathsByType = {},
+    OffWorld = true,
+    CreateAeldari = function(self, bot, elite)
+        local health = GetHealthByTotalPlayers()
+
+        local spawn_elite = elite or math.random(1, 100) <= 5
+
+        if spawn_elite then
+            local elite_roll = math.random(1, 100)
+            bot.Elite = true
+
+            if elite_roll <= 90 then
+                bot:SetNWString("Name", "Warp Spider")
+                bot:SetModel("models/astartes/eldar/spiders_npc.mdl")
+                bot:SetNWString("Description", "A highly mobile Aspect Warrior specialising in hit-and-run tactics and close-quarters combat.")
+                bot.FightType = "shooting"
+                bot.weapon = "zad_eldar_spinneret"
+                health = health * 3
+                bot:SetNWBool("ShieldEnable", true)
+                bot:SetRunSpeed(350)
+                bot:SetWalkSpeed(350)
+            else
+                bot:SetNWString("Name", "Banshee")
+                bot:SetModel("models/astartes/eldar/banshees.mdl")
+                bot:SetNWString("Description", "An elite Aspect Warrior known for their terrifying close-combat prowess and ability to strike fear into the hearts of their enemies.")
+                bot.FightType = "melee"
+                bot.weapon = "murlock_melee"
+                health = health * 3
+                bot:SetNWBool("ShieldEnable", true)
+                bot:SetRunSpeed(450)
+                bot:SetWalkSpeed(450)
+            end
+        else
+            local EldarType = math.random(1, 100)
+
+            if EldarType <= 70 then
+                bot:SetNWString("Name", "Guardian Defender")
+                bot:SetModel("models/astartes/eldar/guardian_npc.mdl")
+                bot:SetNWString("Description", "A citizen-soldier of the Aeldari, called to war in times of need and armed with standard infantry weapons.")
+                bot.FightType = "shooting"
+                bot.weapon = "zad_eldar_lasblaster"
+                health = health
+                bot:SetRunSpeed(300)
+                bot:SetWalkSpeed(300)
+            elseif EldarType <= 90 then
+                bot:SetNWString("Name", "Dire Avenger")
+                bot:SetModel("models/astartes/eldar/avenger_npc.mdl")
+                bot:SetNWString("Description", "A disciplined Aspect Warrior specialising in mid-range firefights and rapid battlefield control.")
+                bot.FightType = "shooting"
+                bot.weapon = "zad_eldar_lasblaster"
+                health = health * 2
+                bot:SetRunSpeed(300)
+                bot:SetWalkSpeed(300)
+            else
+                bot:SetNWString("Name", "Dark Reaper")
+                bot:SetModel("models/astartes/eldar/dark_reapers_npc.mdl")
+                bot:SetNWString("Description", "A deadly long-range marksman, the Dark Reaper picks off high-value targets from afar with precision and lethality.")
+                bot.FightType = "shooting"
+                bot.weapon = "zad_eldar_longrifle"
+                health = health * 1.5
+                bot:SetRunSpeed(350)
+                bot:SetWalkSpeed(350)
+            end
+        end
+
+        if false then
+            bot:SetNWString("Name", "Harlequin")
+            bot:SetNWString("Description", "A master of agility and deception, the Harlequin dances through the battlefield, striking with lethal precision.")
+            bot:SetModel("models/arlequin.mdl")
+            bot.FightType = "shooting"
+            health = health * 2
+            bot:SetNWBool("ShieldEnable", true)
+            bot.weapon = "zad_eldar_shuriken_pistol"
+            bot:SetRunSpeed(400)
+            bot:SetWalkSpeed(400)
+        end
+
+        bot:SetNWString("Status", "AELDARI")
+        bot:StripWeapons()
+        RandomonizeBodygroupsAndSkins(bot)
+        bot.IsHostile = true
+        bot.GoneMad = true
+        bot:SetNWString("MAX_HEALTH", health)
+        bot:SetMaxHealth(health)
+        bot:SetHealth(health)
+
+        SpawnHostileBot(bot)
+    end,
+
+    Think = function(self)
+        if BOT_INVASION ~= "AELDARI" then return end
+        for _, bot in ipairs(player.GetBots()) do
+            if bot:GetNWString("Status") ~= "AELDARI" then
+                self:CreateAeldari(bot,ALWAYS_SPAWN_ELITES)
+            end
+        end
+    end,
+	},
 }
 
 --------MURLOCK LOADOUT SYSTEM-----------------
