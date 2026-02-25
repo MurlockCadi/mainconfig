@@ -4356,6 +4356,84 @@ FACTION_TYPES = {
         end
     end,
 	},
+
+	["CHAOS_DWARFS"] = {
+    STAGE = "Chaos Dwarfs",
+    DeathsByType = {},
+    OffWorld = true,
+    CreateDwarfs = function(self, bot, elite)
+        local health = GetHealthByTotalPlayers()
+
+        local spawn_elite = elite -- Only spawn elites when we want them to 
+
+        if spawn_elite then
+
+            local ShootingWeapons = {
+                "cat_chaos_legacy_heavyboltershoulder",
+                "cat_chaos_legacy_bolter",
+                "cat_chaos_legacy_stormbolter",
+                "cat_chaos_legacy_boltercombi"
+            }
+
+            local MeleeWeapons = {
+                "cat_chaos_legacy_poweraxe",
+                "cat_chaos_legacy_powerfist",
+                "cat_chaos_legacy_chainaxeheavy",
+                "cat_chaos_legacy_crozius",
+                "cat_chaos_legacy_chainsword"
+            }
+            bot.ChaosDwarf = true
+            bot.Elite = true
+            bot:SetNWString("Name", "BLOOD KIN")
+            bot:SetModel("models/knight_ig/muschi_ig_squat_kalt.mdl")
+            bot:SetNWString("Description", "Squats empowered by chaos, wielding unholy weaponry and armor.")
+            bot.FightType = "hybrid"
+            bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
+            bot.meleeweapon = MeleeWeapons[math.random(#MeleeWeapons)]
+            health = health * 50
+            bot:SetNWBool("ShieldEnable", false)
+            bot:SetRunSpeed(150)
+            bot:SetWalkSpeed(150)
+            --set bodygroup
+            local bodygroupchoice = math.random(1,2)
+            if bodygroupchoice == 1 then
+                bot:SetBodygroup(1, 2) -- cap_hair = Empty
+                bot:SetBodygroup(4, 0) -- beard off
+            else
+                bot:SetBodygroup(1, 2) -- cap_hair = Empty
+                bot:SetBodygroup(4, 1) -- beard on
+            end
+            bot.ShootingSkill = 2
+        else
+            bot:SetNWString("Name", "Ork Slave")
+            bot:SetModel("models/barbossa/orc_laborer/orc_laborer_pm.mdl")
+            bot:SetNWString("Description", "Forced to serve their masters, they fight or die.")
+            bot.FightType = "melee"
+            bot.weapon = "cat_chaos_legacy_combatknife"
+            health = health * 5
+        end
+
+        bot:SetNWString("Status", "CHAOS_DWARFS")
+        bot:StripWeapons()
+        bot.IsHostile = true
+        bot.GoneMad = true
+        bot:SetNWString("MAX_HEALTH", health)
+        bot:SetMaxHealth(health)
+        bot:SetHealth(health)
+
+        SpawnHostileBot(bot)
+    end,
+
+    Think = function(self)
+        if BOT_INVASION ~= "CHAOS_DWARFS" then return end
+        for _, bot in ipairs(player.GetBots()) do
+            if bot:GetNWString("Status") ~= "CHAOS_DWARFS" then
+                self:CreateDwarfs(bot,ALWAYS_SPAWN_ELITES)
+            end
+        end
+    end,
+	},
+
 }
 
 --------MURLOCK LOADOUT SYSTEM-----------------
