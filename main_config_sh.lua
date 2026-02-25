@@ -2150,7 +2150,7 @@ FACTION_TYPES = {
     end,
 	},
 
-FACTION_TYPES["KHORNE_HORDE"] = {
+["KHORNE_HORDE"] = {
     STAGE = "BLOOD FOR THE BLOOD GOD",
     DeathsByType = {},
     OffWorld = true,
