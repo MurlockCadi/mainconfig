@@ -1961,7 +1961,7 @@ CERTIFICATIONS = {
 }
 
 --------BOT FACTION TYPES----------
-FACTION _TYPES = {
+FACTION_TYPES = {
 ["ORKZ"] = {
     STAGE = "WAAAAGH!",
     DeathsByType = {},
