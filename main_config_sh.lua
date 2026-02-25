@@ -2477,7 +2477,7 @@ FACTION_TYPES = {
             end
         end
     end,
-	}
+	},
 
 
 ["TYRANIDS"] = {
