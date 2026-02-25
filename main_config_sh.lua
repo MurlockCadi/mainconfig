@@ -1977,7 +1977,15 @@ FACTION_TYPES = {
         if spawn_elite then
             bot.Elite = true
             local eliteRoll = math.random(1, 100)
-            if eliteRoll <= 35 then
+        	  if eliteRoll <= 5 then
+                bot:SetNWString("Name", "BOMB SQUIG")
+                health = math.max(health * 1, 1000)
+                local model = "models/astartes/squig/squig.mdl"
+                bot:SetModel(model)
+                bot.FightType = "melee"
+                bot.weapon = "cat_custom_meltabomb"
+                bot:SetNWString("Description", "SQUIG WIZ A BOMB!")
+			elseif eliteRoll <= 35 then
                 bot:SetNWString("Name", "ORK COMMANDO")
                 health = math.max(health * 5, 1000)
                 local model = "models/muschi/orks/muschi_ork_komandoz.mdl"
@@ -4083,8 +4091,25 @@ FACTION_TYPES = {
         if spawn_elite then
             bot.Elite = true
             local r = math.random(1, 100)
+			
+			if r <= 5 then
+                bot:SetModel("models/ulman/clan_rat_1.mdl")
+                bot:SetNWString("Name", "Bomb Rat")
+                bot.FightType = "melee"
+                bot.weapon = "cat_custom_meltabomb"
+                bot:SetNWString("Description", "BOOM BOOM!")
+                health = math.max(health * 1, 1000)
 
-            if r <= 25 then
+			elseif r <= 15 then
+                bot:SetModel("models/ulman/skv_eshin.mdl")
+                bot:SetNWString("Name", "RATTLING GUNNER!")
+                bot.FightType = "shooting"
+                bot.weapon = "murlock_rapid_fire"
+                bot:SetNWBool("ShieldEnable", true)
+                bot:SetNWString("Description", "RAT-TA-TAT-TAT")
+                health = math.max(health * 4, 2000)
+	
+			elseif r <= 25 then
                 bot:SetModel("models/ulman/clan_rat_1.mdl")
                 bot:SetNWString("Name", "Skaven Warlock")
                 bot.FightType = "shooting"
