@@ -4459,8 +4459,6 @@ FACTION_TYPES = {
     end,
 	},
 
-},
-
 	["PENAL_TRAITORS"] = {
     STAGE = "The damned rebel!.",
     DeathsByType = {},
