@@ -4519,7 +4519,7 @@ FACTION_TYPES = {
 
 			elseif roll <= 55 then
                 bot:SetNWString("Name", "Elite Penal Squat")
-                bot:SetModel("models/squat_rig_v2.mdl")
+                bot:SetModel("models/dizcordum/abhumans/squat.mdl")
                 bot.FightType = "shooting"
                 bot.weapon = "cat_legacy_boardingshield_bolterphobos"
                 bot:SetNWString("Description", "A kin tired of Imperial Authority.")
@@ -4600,7 +4600,7 @@ FACTION_TYPES = {
 
 			elseif roll <= 55 then
                 bot:SetNWString("Name", "Penal Squat")
-                bot:SetModel("models/squat_rig_v2.mdl")
+                bot:SetModel("models/dizcordum/abhumans/squat.mdl")
                 bot.FightType = "shooting"
                 bot.weapon = "cat_legacy_boardingshield_bolterphobos"
                 bot:SetNWString("Description", "A kin tired of Imperial Authority.")
