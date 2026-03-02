@@ -569,6 +569,17 @@ PYSKER_MODELS = {"models/models/svin/pyromant.mdl","models/wk/psy/wk_alpha_psyke
 
 HOLY_MODELS = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl","models/wk/jackswan/crusader.mdl","models/wk/jackswan/executor.mdl","models/wk/jackswan/hexorcist.mdl","models/wk/jackswan/ministorum_priest.mdl","models/wk/jackswan/octavian_executor.mdl","models/wk/jackswan/zealot.mdl"}
 
+---Mercenary
+MERC_MODELS = {
+"models/wk/civilian/wk_civilian.mdl",
+"models/muschi/orks/muschi_ork_boyzzz.mdl","models/player/necrosoup/gretchin_pm/gretchin_pm.mdl","models/barbossa/snotling/snotling_pm.mdl",
+"models/dizcordum/imperium/enforcer/enf_female.mdl","models/dizcordum/imperium/enforcer/enf_male.mdl",
+"models/dizcordum/wk/mercenary/croto_hark.mdl","models/dizcordum/chaos/cultist/cultist4.mdl",
+"models/dizcordum/abhumans/squat.mdl",
+"models/wk/savlar/wk_savlar_veteran.mdl",
+"models/wizard/kroot.mdl","models/tau/baron_tau.mdl",
+"models/dizcordum/wh/eldar/yuraine.mdl","models/astartes/eldar/guardian_redactus.mdl","models/astartes/eldar/banshees.mdl",
+}
 -- Comissariat
 COMMISSAR_MODELS = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl","models/wk/jackswan/scion/scion_commissar.mdl"}
 -- Adeptus Mechanicus
@@ -1184,13 +1195,13 @@ DivisionTypes = {
         Team = "imperium",
         VIP = true,
         Ranks = {
-            {ID = 1, Name = "Contracted Mercenary", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Contracted Mercenary", Rank_Prefix = "", ModelsAllowed = {""}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
                 Name = "Contracted Mercenary", 
                 Default = true, 
-                Models = {"models/wk/civilian/wk_civilian.mdl","models/muschi/orks/muschi_ork_boyzzz.mdl","models/dizcordum/imperium/enforcer/enf_female.mdl","models/dizcordum/imperium/enforcer/enf_male.mdl","models/dizcordum/wk/mercenary/croto_hark.mdl","models/dizcordum/notloyal/thugs/thug_female_npc.mdl","models/dizcordum/notloyal/thugs/thug_male.mdl","models/dizcordum/chaos/cultist/cultist4.mdl","models/dizcordum/abhumans/squat.mdl","models/wk/savlar/wk_savlar_veteran.mdl","models/wizard/kroot.mdl","models/tau/baron_tau.mdl","models/dizcordum/wh/eldar/yuraine.mdl"}, 
+                Models = MERC_MODELS, 
                 Weapons = {}, 
                 SpawnWeapons = {"refinery_spawner"}, 
                 Prefix = ""
@@ -1852,7 +1863,7 @@ ROLES = ROLES or {
             {
                 Name = "Rogue Trader", 
                 Default = true, 
-                Models = {"models/wk/civilian/wk_civilian.mdl","models/muschi/orks/muschi_ork_boyzzz.mdl","models/dizcordum/imperium/enforcer/enf_female.mdl","models/dizcordum/imperium/enforcer/enf_male.mdl","models/dizcordum/wk/mercenary/croto_hark.mdl","models/dizcordum/notloyal/thugs/thug_female_npc.mdl","models/dizcordum/notloyal/thugs/thug_male.mdl","models/dizcordum/chaos/cultist/cultist4.mdl","models/dizcordum/abhumans/squat.mdl","models/wk/savlar/wk_savlar_veteran.mdl","models/wizard/kroot.mdl","models/tau/baron_tau.mdl","models/dizcordum/wh/eldar/yuraine.mdl"}, 
+                Models = MERC_MODELS, 
                 Weapons = {}, 
                 SpawnWeapons = {"cat_custom_knife","refinery_spawner"}, 
                 Prefix = ""
