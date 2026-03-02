@@ -579,6 +579,7 @@ MERC_MODELS = {
 "models/wk/savlar/wk_savlar_veteran.mdl",
 "models/wizard/kroot.mdl","models/tau/baron_tau.mdl",
 "models/dizcordum/wh/eldar/yuraine.mdl","models/astartes/eldar/guardian_redactus.mdl","models/astartes/eldar/banshees.mdl",
+"models/ulman/clan_rat_1.mdl",
 }
 -- Comissariat
 COMMISSAR_MODELS = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl","models/wk/jackswan/scion/scion_commissar.mdl"}
