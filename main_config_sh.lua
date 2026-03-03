@@ -2168,7 +2168,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["KHORNE_HORDE"] = {
     STAGE = "BLOOD FOR THE BLOOD GOD",
@@ -2279,7 +2279,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["NURGLE_HORDE"] = {
     STAGE = "PLAGUE BREWS",
@@ -2402,7 +2402,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["CHEM_HORDE"] = {
     STAGE = "CHEM-LORDS ASCENDANT",
@@ -2497,7 +2497,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
     STAGE = "FREEDOM",
@@ -2565,7 +2565,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["TYRANIDS"] = {
     STAGE = "FREEDOM",
@@ -2673,7 +2673,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
     STAGE = "FREEDOM",
@@ -2772,7 +2772,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 
 
@@ -2880,7 +2880,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["CHANGE_HORDE"] = {
     STAGE = "BLOOD FOR THE BLOOD GOD",
@@ -2998,7 +2998,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 
 
@@ -3101,7 +3101,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 
 	FACTION_TYPES["TAU"] = {
@@ -3195,7 +3195,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["TAU-ORKS"] = {
     STAGE = "GREATER WAAAGH! FOR DA GREATER GOOD",
@@ -3366,7 +3366,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["SLAANESH_OFFWORLD"] = {
     STAGE = "THE DARK PRINCE'S HOST",
@@ -3460,7 +3460,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["GOBLINS"] = {
     STAGE = "DA LITTLE GREEN TIDE",
@@ -3583,7 +3583,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["DARK MECHANICUS"] = {
     STAGE = "RISE OF THE MACHINES",
@@ -3714,7 +3714,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["PRAETORIAN_GUARD"] = {
     STAGE = "THE DARK PRINCE'S HOST",
@@ -3804,7 +3804,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["UNDIVIDED_HORDE"] = {
     STAGE = "THE DARK GODS UNITE",
@@ -4017,7 +4017,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["FLAYED_ONES"] = {
     STAGE = "DEATH TO THE LIVING",
@@ -4089,7 +4089,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["SKAVEN"] = {
     STAGE = "THE UNDER-EMPIRE RISES",
@@ -4218,7 +4218,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["GAUNTS"] = {
     STAGE = "THE SWARM ADVANCES",
@@ -4291,7 +4291,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["AELDARI"] = {
     STAGE = "Aeldari",
@@ -4392,7 +4392,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["CHAOS_DWARFS"] = {
     STAGE = "Chaos Dwarfs",
@@ -4469,7 +4469,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 	FACTION_TYPES["PENAL_TRAITORS"] = {
     STAGE = "The damned rebel!.",
@@ -4663,7 +4663,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 
 	FACTION_TYPES["OOPSALLBOMBS"] = {
@@ -4798,7 +4798,7 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	},
+	}
 
 
 
