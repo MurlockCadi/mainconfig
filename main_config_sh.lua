@@ -1972,8 +1972,9 @@ CERTIFICATIONS = {
 }
 
 --------BOT FACTION TYPES----------
-FACTION_TYPES = {
-	["ORKZ"] = {
+FACTION_TYPES = FACTION_TYPES or {}
+
+	FACTION_TYPES["ORKZ"] = {
     STAGE = "WAAAAGH!",
     DeathsByType = {},
     OffWorld = true,
@@ -2169,7 +2170,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["KHORNE_HORDE"] = {
+	FACTION_TYPES["KHORNE_HORDE"] = {
     STAGE = "BLOOD FOR THE BLOOD GOD",
     DeathsByType = {},
     OffWorld = true,
@@ -2280,7 +2281,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["NURGLE_HORDE"] = {
+	FACTION_TYPES["NURGLE_HORDE"] = {
     STAGE = "PLAGUE BREWS",
     DeathsByType = {},
     OffWorld = true,
@@ -2403,7 +2404,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["CHEM_HORDE"] = {
+	FACTION_TYPES["CHEM_HORDE"] = {
     STAGE = "CHEM-LORDS ASCENDANT",
     DeathsByType = {},
     OffWorld = true,
@@ -2498,7 +2499,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["TRAITOR_GUARDSMEN"] = {
+	FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
     STAGE = "FREEDOM",
     DeathsByType = {},
     OffWorld = true,
@@ -2566,7 +2567,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["TYRANIDS"] = {
+	FACTION_TYPES["TYRANIDS"] = {
     STAGE = "FREEDOM",
     DeathsByType = {},
     OffWorld = true,
@@ -2674,7 +2675,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["TYRANIDS_MELEE_ONLY"] = {
+	FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
     STAGE = "FREEDOM",
     DeathsByType = {},
     OffWorld = true,
@@ -2776,7 +2777,7 @@ FACTION_TYPES = {
 
 
 
-	["NECRONS"] = {
+	FACTION_TYPES["NECRONS"] = {
     STAGE = "DEATH TO THE LIVING",
     DeathsByType = {},
     OffWorld = true,
@@ -2881,7 +2882,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["CHANGE_HORDE"] = {
+	FACTION_TYPES["CHANGE_HORDE"] = {
     STAGE = "BLOOD FOR THE BLOOD GOD",
     DeathsByType = {},
     OffWorld = true,
@@ -3001,7 +3002,7 @@ FACTION_TYPES = {
 
 
 
-	["VOTANN"] = {
+	FACTION_TYPES["VOTANN"] = {
     STAGE = "CHEM-LORDS ASCENDANT",
     DeathsByType = {},
     OffWorld = true,
@@ -3103,7 +3104,7 @@ FACTION_TYPES = {
 	},
 
 
-	["TAU"] = {
+	FACTION_TYPES["TAU"] = {
     STAGE = "CHEM-LORDS ASCENDANT",
     DeathsByType = {},
     OffWorld = true,
@@ -3196,7 +3197,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["TAU-ORKS"] = {
+	FACTION_TYPES["TAU-ORKS"] = {
     STAGE = "GREATER WAAAGH! FOR DA GREATER GOOD",
     DeathsByType = {},
     OffWorld = true,
@@ -3367,7 +3368,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["SLAANESH_OFFWORLD"] = {
+	FACTION_TYPES["SLAANESH_OFFWORLD"] = {
     STAGE = "THE DARK PRINCE'S HOST",
     DeathsByType = {},
     OffWorld = true,
@@ -3461,7 +3462,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["GOBLINS"] = {
+	FACTION_TYPES["GOBLINS"] = {
     STAGE = "DA LITTLE GREEN TIDE",
     DeathsByType = {},
     OffWorld = true,
@@ -3584,7 +3585,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["DARK MECHANICUS"] = {
+	FACTION_TYPES["DARK MECHANICUS"] = {
     STAGE = "RISE OF THE MACHINES",
     DeathsByType = {},
     OffWorld = true,
@@ -3715,7 +3716,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["PRAETORIAN_GUARD"] = {
+	FACTION_TYPES["PRAETORIAN_GUARD"] = {
     STAGE = "THE DARK PRINCE'S HOST",
     DeathsByType = {},
     OffWorld = true,
@@ -3805,7 +3806,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["UNDIVIDED_HORDE"] = {
+	FACTION_TYPES["UNDIVIDED_HORDE"] = {
     STAGE = "THE DARK GODS UNITE",
     DeathsByType = {},
     OffWorld = true,
@@ -4018,7 +4019,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["FLAYED_ONES"] = {
+	FACTION_TYPES["FLAYED_ONES"] = {
     STAGE = "DEATH TO THE LIVING",
     DeathsByType = {},
     OffWorld = true,
@@ -4090,7 +4091,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["SKAVEN"] = {
+	FACTION_TYPES["SKAVEN"] = {
     STAGE = "THE UNDER-EMPIRE RISES",
     DeathsByType = {},
     OffWorld = true,
@@ -4219,7 +4220,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["GAUNTS"] = {
+	FACTION_TYPES["GAUNTS"] = {
     STAGE = "THE SWARM ADVANCES",
     DeathsByType = {},
     OffWorld = true,
@@ -4292,7 +4293,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["AELDARI"] = {
+	FACTION_TYPES["AELDARI"] = {
     STAGE = "Aeldari",
     DeathsByType = {},
     OffWorld = true,
@@ -4393,7 +4394,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["CHAOS_DWARFS"] = {
+	FACTION_TYPES["CHAOS_DWARFS"] = {
     STAGE = "Chaos Dwarfs",
     DeathsByType = {},
     OffWorld = true,
@@ -4470,7 +4471,7 @@ FACTION_TYPES = {
     end,
 	},
 
-	["PENAL_TRAITORS"] = {
+	FACTION_TYPES["PENAL_TRAITORS"] = {
     STAGE = "The damned rebel!.",
     DeathsByType = {},
     OffWorld = true,
@@ -4665,7 +4666,7 @@ FACTION_TYPES = {
 	},
 
 
-	["OOPSALLBOMBS"] = {
+	FACTION_TYPES["OOPSALLBOMBS"] = {
     STAGE = "MORE BOMBS!",
     DeathsByType = {},
     OffWorld = true,
@@ -4799,7 +4800,7 @@ FACTION_TYPES = {
     end,
 	},
 
-}
+
 
 
 --------MURLOCK LOADOUT SYSTEM-----------------
