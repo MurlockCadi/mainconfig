@@ -2159,6 +2159,20 @@ FACTION_TYPES = FACTION_TYPES or {}
         end
     end,
 
+	RevolutionTrigger = function(self, BotType)
+
+        local location = GetLocationName(BotType)
+		
+        REVOLUTION_START_TIME = CurTime()
+
+        local AllBots = player.GetBots()
+        for _, bot in ipairs(AllBots) do
+            if bot.BotType then
+                bot:Kick()
+            end
+        end
+    end,
+
     Think = function(self)
         if BOT_INVASION ~= "ORKZ" then return end
         local AllBots = player.GetBots()
@@ -2168,9 +2182,9 @@ FACTION_TYPES = FACTION_TYPES or {}
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["KHORNE_HORDE"] = {
+FACTION_TYPES["KHORNE_HORDE"] = {
     STAGE = "BLOOD FOR THE BLOOD GOD",
     DeathsByType = {},
     OffWorld = true,
