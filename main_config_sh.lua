@@ -2252,7 +2252,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             local roll = math.random(1, 100)
             if roll <= 5 then
                 bot.FightType = "flamer"
-                bot.weapon = "cat_legacy_flamerheresy"
+                bot.weapon = "cat_chaos_legacy_flamer"
                 bot:SetNWString("Description", "A cultist who has been given a flamer!")
                 bot:SetNWBool("ShieldEnable", true)
             else
@@ -2454,7 +2454,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 local model = bot.IsFemale and "models/dizcordum/civ/workers/civ_female.mdl" or "models/dizcordum/civ/workers/civ_male.mdl"
                 bot:SetModel(model)
                 bot.FightType = "flamer"
-                bot.weapon = "cat_custom_flamerchem"
+                bot.weapon = "cat_legacy_flamerheresy"
                 bot:SetNWString("Description", "Chemical Expert responsible for the production of Spook")
             else
                 bot:SetNWString("Name", "Squat Mercenary")
@@ -3741,7 +3741,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 bot:SetModel("models/wk/servitor/wk_servit.mdl")
                 bot:SetColor(Color(74, 46, 255))
                 bot.FightType = "flamer"
-                bot.weapon = "cat_legacy_flamer"
+                bot.weapon = "cat_chaos_legacy_flamer"
                 bot:SetNWString("Description", "A BROKEN SERVITOR WITH FLAMES ON IT")
                 bot.goblin = true
             elseif botroll <= 40 then
@@ -4261,7 +4261,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 bot:SetNWString("Name", "Plague Eshin")
                 -- if math.random(1, 2) == 1 then
                     bot.FightType = "flamer"
-                    bot.weapon = "cat_custom_flamerchem"
+                    bot.weapon = "cat_legacy_flamerheresy"
                 -- else
                 --     bot.FightType = "shooting"
                 --     bot.weapon = "cat_custom_grenade_chem"
