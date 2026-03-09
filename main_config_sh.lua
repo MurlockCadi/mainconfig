@@ -3459,7 +3459,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
         bot:SetNWString("MAX_HEALTH", health)
         bot:SetNWString("Status", "TAU-ORKS")
         bot:SetMaxHealth(health)
-        bot.ork = true
+         = true
         bot:SetHealth(health)
         bot:SetNoTarget(true)
     end,
@@ -3732,7 +3732,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
         -- finalize
         bot:StripWeapons()
         bot.goblin = true
-        bot.ork = true
+         = true
         RandomonizeBodygroupsAndSkinsOrks(bot)
         bot:SetNWString("MAX_HEALTH", health)
         bot:SetNWString("Status", "GOBLINS")
@@ -4595,7 +4595,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
 			
 		if roll <= 5 then
             bot:SetNWString("Name", "Infernal Guard")
-            bot:SetModel("models/knight_ig/muschi_ig_squat.mdl")
+            bot:SetModel("models/knight_ig/muschi_ig_squat_kalt.mdl")
             bot:SetNWString("Description", "The most legendary warrior-cults within the Chaos Dwarf empire")
             bot.FightType = "hybrid"
             bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
@@ -4643,7 +4643,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
 
 		elseif roll <= 35 then
             bot:SetNWString("Name", "Black Ork")
-            bot:SetModel("models/barbossa/orc_laborer/orc_laborer_pm.mdl")
+            bot:SetModel("models/muschi/orks/muschi_ork_nob_boy.mdl")
                  if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
                     bot.weapon = "cat_chaos_legacy_boltercombi"
@@ -4651,7 +4651,6 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                      bot.FightType = "melee"
                      bot.weapon = "cat_chaos_legacy_chainaxeheavy"
                  end
-	        bot.ork = true
             bot:SetNWString("Description", "The strongest if not most unreliable of Chaos Dwarf slaves")
             bot:SetColor(Color(72, 72, 72))
             health = math.max(health * 5, 1000)
@@ -4666,7 +4665,6 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                      bot.FightType = "melee"
                      bot.weapon = "cat_chaos_legacy_powersword"
                  end
-            bot.goblin = true
             bot:SetNWString("Description", "Goblins cast out from their own kind for helping the Chaos Dwarfs.")
             health = math.max(health * 3, 2000)
             bot:SetColor(Color(255, 191, 0))
@@ -4680,24 +4678,22 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             bot:SetWalkSpeed(200)
             bot:SetNWString("Description", "An amalgam of Chaos Dwarf and ferocious bull.")
             health = math.max(health * 5, 1000)
-            bot:SetColor(Color(255, 38, 0))
+            bot:SetColor(Color(255, 161, 0))
 			
 		elseif roll <= 70 then
             bot:SetNWString("Name", "Chaos Daemon")
             bot:SetModel("models/wk/nurglit/wk_nuglin.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_combatknife"
-			bot.demon = true
             bot:SetNWString("Description", "The minor chaos gods manifestations.")
             health = math.max(health * 3, 1000)
-            bot:SetColor(Color(255, 38, 0))
+            bot:SetColor(Color(255, 161, 0))
 			
 		elseif roll <= 85 then
             bot:SetNWString("Name", "Ork Labourer")
             bot:SetModel("models/barbossa/orc_laborer/orc_laborer_pm.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_combatknife"
-	        bot.ork = true
             bot:SetNWString("Description", "Forced to serve their masters, they fight or die.")
             health = math.max(health *3, 1000)
 
@@ -4717,7 +4713,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
 
 		if roll <= 5 then
             bot:SetNWString("Name", "Infernal Guard")
-            bot:SetModel("models/knight_ig/muschi_ig_squat.mdl")
+            bot:SetModel("models/knight_ig/muschi_ig_squat_kalt.mdl")
             bot:SetNWString("Description", "The most legendary warrior-cults within the Chaos Dwarf empire")
             bot.FightType = "hybrid"
             bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
@@ -4765,7 +4761,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
 
 		elseif roll <= 35 then
             bot:SetNWString("Name", "Black Ork")
-            bot:SetModel("models/barbossa/orc_laborer/orc_laborer_pm.mdl")
+            bot:SetModel("models/muschi/orks/muschi_ork_nob_boy.mdl")
                  if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
                     bot.weapon = "cat_chaos_legacy_boltercombi"
@@ -4773,7 +4769,6 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                      bot.FightType = "melee"
                      bot.weapon = "cat_chaos_legacy_chainaxeheavy"
                  end
-	        bot.ork = true
             bot:SetNWString("Description", "The strongest if not most unreliable of Chaos Dwarf slaves")
             bot:SetColor(Color(72, 72, 72))
             health = math.max(health * 4, 1000)
@@ -4788,7 +4783,6 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                      bot.FightType = "melee"
                      bot.weapon = "cat_chaos_legacy_powersword"
                  end
-            bot.goblin = true
             bot:SetNWString("Description", "Goblins cast out from their own kind for helping the Chaos Dwarfs.")
             health = math.max(health * 2, 2000)
             bot:SetColor(Color(255, 191, 0))
@@ -4802,24 +4796,22 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             bot:SetWalkSpeed(200)
             bot:SetNWString("Description", "An amalgam of Chaos Dwarf and ferocious bull.")
             health = math.max(health * 4, 1000)
-            bot:SetColor(Color(255, 38, 0))
+            bot:SetColor(Color(255, 161, 0))
 			
 		elseif roll <= 70 then
             bot:SetNWString("Name", "Chaos Daemon")
             bot:SetModel("models/wk/nurglit/wk_nuglin.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_combatknife"
-			bot.demon = true
             bot:SetNWString("Description", "The minor chaos gods manifestations.")
             health = math.max(health * 2, 1000)
-            bot:SetColor(Color(255, 38, 0))
+            bot:SetColor(Color(255, 161, 0))
 			
 		elseif roll <= 85 then
             bot:SetNWString("Name", "Ork Labourer")
             bot:SetModel("models/barbossa/orc_laborer/orc_laborer_pm.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_combatknife"
-	        bot.ork = true
             bot:SetNWString("Description", "Forced to serve their masters, they fight or die.")
             health = math.max(health * 2, 1000)
 
