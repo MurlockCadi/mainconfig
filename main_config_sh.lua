@@ -3459,7 +3459,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
         bot:SetNWString("MAX_HEALTH", health)
         bot:SetNWString("Status", "TAU-ORKS")
         bot:SetMaxHealth(health)
-         = true
+        bot.ork = true
         bot:SetHealth(health)
         bot:SetNoTarget(true)
     end,
@@ -3732,7 +3732,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
         -- finalize
         bot:StripWeapons()
         bot.goblin = true
-         = true
+        bot.ork = true
         RandomonizeBodygroupsAndSkinsOrks(bot)
         bot:SetNWString("MAX_HEALTH", health)
         bot:SetNWString("Status", "GOBLINS")
