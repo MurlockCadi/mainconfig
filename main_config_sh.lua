@@ -4833,6 +4833,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             bot:SetNWString("Description", "Stolen, starved and whipped daily.")
             health = math.max(health * 1, 1000)
         end
+	end
 
         bot:SetNWString("Status", "CHAOS_DWARFS")
         bot:StripWeapons()
