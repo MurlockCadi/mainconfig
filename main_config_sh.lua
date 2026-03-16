@@ -5627,7 +5627,7 @@ PASSIVE_ITEM_FLAGS["Corrosive Damage"] = {
 
 PASSIVE_ITEM_FLAGS["ConvertArmorToDamage"] = {
     FunctionName = "ConvertArmorToDamage",
-    Description  = "Converts your Armour into Damage. (-100 Armour +1000 Damage)",
+    Description  = "Converts your Armour into Damage. (-50 Armour +100 Damage)",
     Color        = Color(100, 100, 200)
 }
 
@@ -5682,7 +5682,7 @@ PASSIVE_ITEM_FLAGS["Convert Stoicism to Health"] = {
 -- Convert 100 Stoicism into 100 Damage.
 PASSIVE_ITEM_FLAGS["Convert Stoicism to Damage"] = {
     FunctionName = "ConvertStoicismToDamage",
-    Description  = "Converts 100 Stoicism into +1000 Damage",
+    Description  = "Converts 100 Stoicism into +100 Damage",
     Color        = Color(200, 100, 255)
 }
 
@@ -5696,7 +5696,7 @@ PASSIVE_ITEM_FLAGS["Convert Resolve to Shield"] = {
 -- Convert 100 Resolve into 100 Damage.
 PASSIVE_ITEM_FLAGS["Convert Resolve to Damage"] = {
     FunctionName = "ConvertResolveToDamage",
-    Description  = "Converts 100 Resolve into +1000 Damage",
+    Description  = "Converts 100 Resolve into +100 Damage",
     Color        = Color(255, 200, 50)
 }
 
