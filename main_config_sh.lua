@@ -5493,28 +5493,28 @@ PASSIVE_ITEM_FLAGS["Damage Boost 25"] = {
 }
 
 -- Damage Reductions (incoming)
-PASSIVE_ITEM_FLAGS["Damage Reduction 10"] = {
-    FunctionName = "DamageReduction10",
-    Description  = "Decreases incoming damage by 5%.",
+PASSIVE_ITEM_FLAGS["Damage Reduction 2"] = {
+    FunctionName = "DamageReduction2",
+    Description  = "Decreases incoming damage by 2%.",
     Color        = Color(0, 150, 255)
 }
 
-PASSIVE_ITEM_FLAGS["Damage Reduction 25"] = {
-    FunctionName = "DamageReduction25",
-    Description  = "Decreases incoming damage by 10%.",
+PASSIVE_ITEM_FLAGS["Damage Reduction 4"] = {
+    FunctionName = "DamageReduction4",
+    Description  = "Decreases incoming damage by 4%.",
     Color        = Color(0, 200, 255)
 }
 
 -- Damage Taken Increases (incoming)
-PASSIVE_ITEM_FLAGS["Damage Taken Increase 10"] = {
-    FunctionName = "DamageTakenIncrease10",
-    Description  = "You take 10% more damage from all sources.",
+PASSIVE_ITEM_FLAGS["Damage Taken Increase 2"] = {
+    FunctionName = "DamageTakenIncrease2",
+    Description  = "You take 2% more damage from all sources.",
     Color        = Color(200, 50, 50)
 }
 
-PASSIVE_ITEM_FLAGS["Damage Taken Increase 25"] = {
-    FunctionName = "DamageTakenIncrease25",
-    Description  = "You take 25% more damage from all sources.",
+PASSIVE_ITEM_FLAGS["Damage Taken Increase 4"] = {
+    FunctionName = "DamageTakenIncrease4",
+    Description  = "You take 4% more damage from all sources.",
     Color        = Color(255, 0, 0)
 }
 
@@ -5623,7 +5623,7 @@ PASSIVE_ITEM_FLAGS["ConvertArmorToDamage"] = {
 
 PASSIVE_ITEM_FLAGS["Convert Health To Damage"] = {
     FunctionName = "ConvertHealthToDamage",
-    Description  = "Converts your Health into Damage. (-100 Health +1000 Damage)",
+    Description  = "Converts your Health into Damage. (-40 Health +100 Damage)",
     Color        = Color(180, 100, 200)
 }
 
