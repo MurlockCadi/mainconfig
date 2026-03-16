@@ -318,6 +318,7 @@ commands = {
 	["/weapons"] = function(ply) OpenURL(ply,"https://docs.google.com/spreadsheets/d/1yyeHDBZPI0VhXtXTiAv-DusKgDHZwDhonlLgaXRYO1I/edit?usp=sharing") end,
     ["!logs"] = function(ply) mLogs.Open(ply) end,
     ["/logs"] = function(ply) mLogs.Open(ply) end,
+	["/murlockdb"] = function(ply) MurlockDBTools(ply) end,
     ["/pm"] = function(ply, args) return privat_radio_msg(ply, args) end,
     ["!pm"] = function(ply, args) return privat_radio_msg(ply, args) end,
     ["!rank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
