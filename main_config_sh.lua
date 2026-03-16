@@ -2385,6 +2385,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 bot:SetModel("models/wk/nurglit/wk_nur_sor.mdl")
                 bot.FightType = "shooting"
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
+				bot.pysker = true
                 bot:SetNWString("Name", "Plague Sorcerer")
                 bot:SetNWString("Description", "A cultist who has been granted the power of decay by Nurgle.")
                 bot:SetNWBool("ShieldEnable", true)
@@ -2826,6 +2827,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 }))
                 bot.weapon = "cat_chaos_legacy_murlock_necron"
                 bot.FightType = "shooting"
+				bot.pysker = true
                 bot:SetNWString("Description", "A twisted Necron Cryptek wielding ancient eldritch technology.")
                 bot:SetNWBool("ShieldEnable", true)
                 baseHealth = math.max(baseHealth * 3, 1000)
@@ -3059,6 +3061,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 bot:SetRunSpeed(200)
                 bot:SetWalkSpeed(200)
                 bot.FightType = "shooting"
+				bot.pysker = true
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
                 bot:SetNWString("Description", "The only Kin able to interact with the warp.")
                 health = math.max(health * 3, 2000)
@@ -3140,6 +3143,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 bot:SetRunSpeed(200)
                 bot:SetWalkSpeed(200)
                 bot.FightType = "shooting"
+				bot.pysker = true
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
                 bot:SetNWString("Description", "The only Kin able to interact with the warp.")
                 health = math.max(health * 2, 2000)
@@ -3542,6 +3546,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 bot:SetSkin(1)
                 bot.FightType = "shooting"
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
+				bot.pysker = true
                 bot:SetNWString("Description", "A warp-touched psyker devoted to Slaanesh.")
                 bot:SetColor(Color(255, 120, 200))
                 bot:SetRenderMode(RENDERMODE_TRANSALPHA)
@@ -3666,6 +3671,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 bot:SetModel(model)
                 health = math.max(health * 1, 1000)
                 bot.FightType = "shooting"
+				bot.pysker = true
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
                 bot.hasgun = true
                 bot:SetNWBool("ShieldEnable", true)
@@ -4138,6 +4144,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 if math.random(1, 100) <= 25 then
                     bot.FightType = "shooting"
                     bot.weapon = "cat_chaos_legacy_sorcererstaff"
+					bot.pysker = true
                 else
                     bot.FightType = "melee"
                     bot.weapon = "murlock_chaos_knife"
@@ -4161,6 +4168,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                     bot:SetSkin(1)
                     bot.FightType = "shooting"
                     bot.weapon = "cat_chaos_legacy_sorcererstaff"
+					bot.pysker = true
                     bot:SetNWString("Name", "Slaaneshi Sorcerer")
                     bot:SetNWString("Description", "A warp-touched sorcerer of Slaanesh.")
                     bot:SetColor(Color(255, 120, 200))
@@ -4297,6 +4305,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 bot:SetModel("models/ulman/clan_rat_1.mdl")
                 bot:SetNWString("Name", "Skaven Warlock")
                 bot.FightType = "shooting"
+				bot.pysker = true
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A sorcerous Skaven empowered by warpstone.")
@@ -4741,6 +4750,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             bot:SetNWString("Description", "The priests and the primary artificers and engineers of Chaos Dwarf society")
             bot.FightType = "hybrid"
             bot.weapon = "cat_chaos_legacy_sorcererstaff"
+			bot.pysker = true
             bot.meleeweapon = MeleeWeapons[math.random(#MeleeWeapons)]
             bot:SetRunSpeed(200)
             bot:SetWalkSpeed(200)
