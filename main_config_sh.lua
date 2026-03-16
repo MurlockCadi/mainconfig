@@ -5410,16 +5410,10 @@ PASSIVE_ITEM_FLAGS["Remove 10 Health"] = {
     Color = Color(255, 0, 0)
 }
 
-PASSIVE_ITEM_FLAGS["Remove 25 Speed"] = {
-    FunctionName = "remove100speed",
-    Description = "Lowers Run Speed by 25",
+PASSIVE_ITEM_FLAGS["Remove 50 Speed"] = {
+    FunctionName = "remove50speed",
+    Description = "Lowers Run Speed by 50",
     Color = Color(255, 0, 0)
-}
-
-PASSIVE_ITEM_FLAGS["Add 100 Speed"] = {
-    FunctionName = "add100speed",
-    Description = "Increase Run Speed by 100",
-    Color = Color(0, 255, 0)
 }
 
 PASSIVE_ITEM_FLAGS["Add 50 Speed"] = {
@@ -5428,9 +5422,15 @@ PASSIVE_ITEM_FLAGS["Add 50 Speed"] = {
     Color = Color(0, 255, 0)
 }
 
-PASSIVE_ITEM_FLAGS["Remove 10 Speed"] = {
-    FunctionName = "remove50speed",
-    Description = "Lowers Run Speed by 10",
+PASSIVE_ITEM_FLAGS["Add 25 Speed"] = {
+    FunctionName = "add25speed",
+    Description = "Increase Run Speed by 25",
+    Color = Color(0, 255, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Remove 25 Speed"] = {
+    FunctionName = "remove25speed",
+    Description = "Lowers Run Speed by 25",
     Color = Color(255, 0, 0)
 }
 
@@ -5490,15 +5490,15 @@ PASSIVE_ITEM_FLAGS["Ammo Regen"] = {
 }
 
 -- Damage Boosts
-PASSIVE_ITEM_FLAGS["Damage Boost 10"] = {
-    FunctionName = "DamageBoost10",
-    Description  = "Increases your damage output by 10%.",
+PASSIVE_ITEM_FLAGS["Damage Boost 5"] = {
+    FunctionName = "DamageBoost5",
+    Description  = "Increases your damage output by 5%.",
     Color        = Color(0, 200, 0)
 }
 
-PASSIVE_ITEM_FLAGS["Damage Boost 25"] = {
-    FunctionName = "DamageBoost25",
-    Description  = "Increases your damage output by 25%.",
+PASSIVE_ITEM_FLAGS["Damage Boost 10"] = {
+    FunctionName = "DamageBoost10",
+    Description  = "Increases your damage output by 10%.",
     Color        = Color(0, 255, 0)
 }
 
@@ -5529,15 +5529,15 @@ PASSIVE_ITEM_FLAGS["Damage Taken Increase 4"] = {
 }
 
 -- Damage Dealt Reductions (outgoing)
-PASSIVE_ITEM_FLAGS["Damage Output Reduction 10"] = {
-    FunctionName = "DamageDealtReduction10",
-    Description  = "Your attacks deal 10% less damage.",
+PASSIVE_ITEM_FLAGS["Damage Output Reduction 5"] = {
+    FunctionName = "DamageDealtReduction5",
+    Description  = "Your attacks deal 5% less damage.",
     Color        = Color(200, 100, 100)
 }
 
-PASSIVE_ITEM_FLAGS["Damage Output Reduction 25"] = {
-    FunctionName = "DamageDealtReduction25",
-    Description  = "Your attacks deal 25% less damage.",
+PASSIVE_ITEM_FLAGS["Damage Output Reduction 10"] = {
+    FunctionName = "DamageDealtReduction10",
+    Description  = "Your attacks deal 10% less damage.",
     Color        = Color(200, 50, 50)
 }
 
