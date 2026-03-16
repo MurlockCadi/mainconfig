@@ -156,19 +156,19 @@ ALLIES_COLOR = Color(75, 150, 75, 255)
 
 function GetHealthByTotalPlayers()
     local TotalPlayers = #player.GetHumans()
-    local health = 2000
+    local health = 200
     if TotalPlayers < 5 then
-        health = 2000
+        health = 200
     elseif TotalPlayers < 10 then
-        health = 3000
+        health = 300
     elseif TotalPlayers < 20 then
-        health = 4000
+        health = 400
     elseif TotalPlayers < 30 then
-        health = 6000
+        health = 600
     elseif TotalPlayers < 40 then
-        health = 8000
+        health = 800
     elseif TotalPlayers < 50 then
-        health = 10000
+        health = 1000
     end
 	health = health * HEALTH_MULTIPLIER_BOTS
     return health
@@ -197,9 +197,9 @@ faction_player_count_limit = 0
 --------SPEED-----------
 
 WALK_SPEED = 135
-RUN_SPEED = 250
+RUN_SPEED = 240
 JUMP_POWER = 225
-MAX_HEALTH = 500
+MAX_HEALTH = 100
 SLOW_WALK_SPEED = 80
 
 function GetRunSpeed(athleticsLevel)
@@ -608,7 +608,7 @@ DivisionTypes = {
 					 "models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl",
 					"models/wk/adeptus_mechanicus/wk_skitarii_vanguard_alpha.mdl"
                 },
-                MaxHealth = 500,
+                MaxHealth = 100,
                 PowerShield = true,
                 Weapons = {
                     "cat_custom_galvanic_rifle",
@@ -633,7 +633,7 @@ DivisionTypes = {
                     "models/wk/adeptus_mechanicus/wk_tech_priest.mdl",
                     "models/wk/fem_priast/wk_priestness.mdl"
                 },
-                MaxHealth = 750,
+                MaxHealth = 150,
                 PowerShield = true,
 				atomic = true,
                 Weapons = {
@@ -677,7 +677,7 @@ DivisionTypes = {
                     "models/jackswan/rogue_trader/wk_rt_secutor.mdl",
                     "models/wk/fem_priast/wk_priestness_belka.mdl"
                 },
-                MaxHealth = 750,
+                MaxHealth = 150,
                 PowerShield = true,
 				atomic = true,
                 Medic = true,
@@ -703,7 +703,7 @@ DivisionTypes = {
                     "models/wk/gans/wk_gans_priest.mdl",
                     "models/wk/fem_priast/wk_priestness.mdl"
                 },
-                MaxHealth = 750,
+                MaxHealth = 150,
                 PowerShield = true,
                 Weapons = {
                     "cat_custom_galvanic",
@@ -727,7 +727,7 @@ DivisionTypes = {
                     "models/wk/adeptus_mechanicus/wk_trippriest.mdl",
                     "models/wk/fem_priast/wk_priestness.mdl"
                 },
-                MaxHealth = 750,
+                MaxHealth = 150,
 				atomic = true,
                 PowerShield = true,
                 Weapons = {
@@ -750,7 +750,7 @@ DivisionTypes = {
                 Models = {
                     "models/player/mechs_fulgurite.mdl"
                 },
-                MaxHealth = 750,
+                MaxHealth = 150,
                 PowerShield = false,
 				atomic = true,
                 Weapons = {
@@ -773,7 +773,7 @@ DivisionTypes = {
                 Models = {
                     "models/astartes/mech/magos.mdl"
                 },
-                MaxHealth = 1000,
+                MaxHealth = 200,
                 PowerShield = true,
                 Weapons = {
                     "cat_custom_galvanic",
@@ -797,7 +797,7 @@ DivisionTypes = {
                 Models = {"models/wk/servitor/wk_servit.mdl"},
                 ForceModels = true,
                 Weapons = {"cat_legacy_gravgun"},
-                MaxHealth = 750,
+                MaxHealth = 150,
                 SpawnWeapons = {},
                 Prefix = "Servitor"
             },
@@ -808,7 +808,7 @@ DivisionTypes = {
                 Models = {"models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard.mdl"},
                 ForceModels = true,
                 Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic"},
-                MaxHealth = 750,
+                MaxHealth = 150,
 				PowerShield = true,
                 SpawnWeapons = {"alydus_fusioncutter","weapon_extinguisher_infinite"},
                 Prefix = "Skitarii"
@@ -857,7 +857,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/dizcordum/abhumans/ratling.mdl"},
                 Weapons = {"cat_custom_sniper"},
-                MaxHealth = 300,
+                MaxHealth = 100,
                 ForceModels = true,
                 SpawnWeapons = {"realistic_hook"},
                 Prefix = ""
@@ -869,7 +869,7 @@ DivisionTypes = {
                 Weapons = SQUAT_WEAPONS,
 	       		PowerShield = true,
                 ForceModels = true,
-                MaxHealth = 750,
+                MaxHealth = 150,
                 SpawnWeapons = {},
                 Prefix = ""
             },
@@ -879,7 +879,7 @@ DivisionTypes = {
                 Models = OGRYN_MODELS,
                 Weapons = OGRYN_WEAPONS,
                 ForceModels = true,
-                MaxHealth = 2000,
+                MaxHealth = 400,
                 SpawnWeapons = {},
                 Prefix = ""
             },
@@ -903,7 +903,7 @@ DivisionTypes = {
 				Default = true,
                 Models = {},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
-                MaxHealth = 750,
+                MaxHealth = 150,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
                 EntitySpawner = {
@@ -920,7 +920,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
-                MaxHealth = 1000,
+                MaxHealth = 200,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
                 EntitySpawner = {
@@ -937,7 +937,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
-                MaxHealth = 1000,
+                MaxHealth = 200,
                 PowerShield = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
@@ -987,7 +987,7 @@ DivisionTypes = {
                 Models = OGRYN_MODELS,
                 Weapons = OGRYN_WEAPONS,
                 ForceModels = true,
-                MaxHealth = 2000,
+                MaxHealth = 400,
                 SpawnWeapons = {},
                 Prefix = ""
             },
@@ -999,7 +999,7 @@ DivisionTypes = {
 				PowerShield = true,
 				priest = true,
                 ForceModels = true,
-                MaxHealth = 500,
+                MaxHealth = 100,
                 SpawnWeapons = {"murlock_staff_player"},
                 Prefix = ""
             },
@@ -1011,7 +1011,7 @@ DivisionTypes = {
 				priest = true,
 				Medic = true,
                 ForceModels = true,
-                MaxHealth = 750,
+                MaxHealth = 150,
                 SpawnWeapons = {"murlock_staff_player"},
                 Prefix = ""
             },
@@ -1022,7 +1022,7 @@ DivisionTypes = {
                 Weapons = SQUAT_WEAPONS,
 	            PowerShield = true,
                 ForceModels = true,
-                MaxHealth = 750,
+                MaxHealth = 150,
                 SpawnWeapons = {},
                 Prefix = ""
             },
@@ -1031,7 +1031,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/dizcordum/abhumans/ratling.mdl"},
                 Weapons = {"cat_custom_sniper"},
-                MaxHealth = 300,
+                MaxHealth = 100,
                 ForceModels = true,
                 SpawnWeapons = {"realistic_hook"},
                 Prefix = ""
@@ -1041,7 +1041,7 @@ DivisionTypes = {
                 Core = true,
                 Models = ADMECH_MODELS,
                 Weapons = ADMECH_WEAPONS,
-                MaxHealth = 750,
+                MaxHealth = 150,
                 ForceModels = true,
                 atomic = true,
                 SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_simrepair"},
@@ -1078,7 +1078,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
-                MaxHealth = 1500,
+                MaxHealth = 300,
                 PowerShield = true,
 				CanManageTaxes = true,
                 ForceModels = true,
@@ -1098,7 +1098,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl","models/wk/jackswan/scion/scion_commissar.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
-                MaxHealth = 1000,
+                MaxHealth = 200,
                 PowerShield = true,
 				CanManageTaxes = true,
                 ForceModels = true,
@@ -1118,7 +1118,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/muschi/characters/muschi_inq_sombra.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword"},
-                MaxHealth = 1500,
+                MaxHealth = 300,
 				CanManageTaxes = true,
                 PowerShield = true,
                 ForceModels = true,
@@ -1150,7 +1150,7 @@ DivisionTypes = {
 				ForceModels = true,
                 Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
-                MaxHealth = 1500,
+                MaxHealth = 300,
                 PowerShield = true,
 				CanManageTaxes = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","jet_mk1"},
@@ -1171,7 +1171,7 @@ DivisionTypes = {
                 Models = {"models/muschi/characters/muschi_inq_sombra.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword"},
                 ForceModels = true,
-                MaxHealth = 1500,
+                MaxHealth = 300,
 				CanManageTaxes = true,
                 PowerShield = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","jet_mk1"},
@@ -1224,7 +1224,7 @@ DivisionTypes = {
 				priest = true,
                 Models = HOLY_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
-                MaxHealth = 500,
+                MaxHealth = 100,
                 SpawnWeapons = {"murlock_staff_player_new"},
                 Prefix = ""
             },
@@ -1236,7 +1236,7 @@ DivisionTypes = {
 				priest = true,
 				Medic = true,
                 ForceModels = true,
-                MaxHealth = 750,
+                MaxHealth = 150,
                 SpawnWeapons = {"murlock_staff_player_new"},
                 Prefix = ""
             }
@@ -1291,7 +1291,7 @@ DivisionTypes = {
                 Default = true,
                 Models = {},
                 Weapons = {},
-                MaxHealth = 1000,
+                MaxHealth = 200,
                 SpawnWeapons = {"jet_mk1"},
                 Prefix = ""
             },
@@ -1299,7 +1299,7 @@ DivisionTypes = {
                 Name = "Kasrkin Medic",
                 Core = true,
                 Medic = true,
-                MaxHealth = 1000,
+                MaxHealth = 200,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"fas2_ifak","ent_spawner","jet_mk1"},
@@ -1317,7 +1317,7 @@ DivisionTypes = {
                 Name = "Kasrkin Weapon Specialist",
                 Core = true,
                 Models = {},
-                MaxHealth = 1000,
+                MaxHealth = 200,
                 Weapons = {"cat_custom_flamer"},
                 SpawnWeapons = {"ent_spawner","jet_mk1"},
                 Prefix = "WS",
@@ -1334,7 +1334,7 @@ DivisionTypes = {
                 Name = "Kasrkin Sniper",
                 Core = true,
                 Models = {},
-                MaxHealth = 1000,
+                MaxHealth = 200,
                 Weapons = {"cat_custom_longlas_kantrael"},
                 SpawnWeapons = {"ent_spawner","jet_mk1","realistic_hook"},
                 Prefix = "SN",
@@ -1352,7 +1352,7 @@ DivisionTypes = {
                 Core = true,
                 Radio = true,
                 Models = {},
-                MaxHealth = 1000,
+                MaxHealth = 200,
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner","jet_mk1"},
                 EntitySpawner = {
@@ -1398,7 +1398,7 @@ DivisionTypes = {
                 Name = "Kasrkin",
                 Core = true,
                 Models = {"models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl"},
-				MaxHealth = 500,
+				MaxHealth = 150,
                 Weapons = {"cat_custom_hellgunstandard"},
                 SpawnWeapons = {"realistic_hook"},
                 Prefix = "KS"
@@ -1514,7 +1514,7 @@ DivisionTypes = {
                 Name = "Grenedier",
 				Core = true,
                 Models = {"models/krig_stormtrooper.mdl"},
-				MaxHealth = 500,
+				MaxHealth = 150,
                 Weapons = {"cat_custom_hellgun_lucius"},
                 SpawnWeapons = {},
                 Prefix = "GR"
@@ -1756,7 +1756,7 @@ ROLES = ROLES or {
                 Name = "Event Character",
                 Default = true,
                 Models = {"models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl"},
-				MaxHealth = 5000,
+				MaxHealth = 1200,
                 Weapons = {},
                 SpawnWeapons = {"weapon_physgun", "gmod_tool"},
                 Prefix = ""
@@ -1764,7 +1764,7 @@ ROLES = ROLES or {
             {
                 Name = "Boss Character",
                 Models = {"models/nemeroth_chaos_lord1.mdl","models/boss_grimskull.mdl","models/player/wh4000_lagariumpm9.mdl"},
-				MaxHealth = 300000,
+				MaxHealth = 6000,
                 Weapons = {},
                 SpawnWeapons = {"weapon_physgun", "gmod_tool","cat_primaris_legacy_boltstormgauntlets"},
                 Prefix = ""
