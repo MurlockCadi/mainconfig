@@ -5388,15 +5388,15 @@ PASSIVE_ITEM_FLAGS = PASSIVE_ITEM_FLAGS or {}
 
 MAX_PASSIVE_ITEMS = 5
 
-PASSIVE_ITEM_FLAGS["Extra 100 Health"] = {
-    FunctionName = "100health",
-    Description = "Increases max health by 100.",
+PASSIVE_ITEM_FLAGS["Extra 10 Health"] = {
+    FunctionName = "10health",
+    Description = "Increases max health by 10.",
     Color = Color(0, 255, 0)
 }
 
-PASSIVE_ITEM_FLAGS["Remove 100 Health"] = {
-    FunctionName = "remove100health",
-    Description = "Decreases max health by 100.",
+PASSIVE_ITEM_FLAGS["Remove 10 Health"] = {
+    FunctionName = "remove10health",
+    Description = "Decreases max health by 10.",
     Color = Color(255, 0, 0)
 }
 
@@ -5424,14 +5424,14 @@ PASSIVE_ITEM_FLAGS["Remove 10 Speed"] = {
     Color = Color(255, 0, 0)
 }
 
-PASSIVE_ITEM_FLAGS["Extra 200 Health"] = {
-    FunctionName = "200health",
+PASSIVE_ITEM_FLAGS["Extra 20 Health"] = {
+    FunctionName = "20health",
     Description = "Increases max health by 200.",
     Color = Color(0, 255, 0)
 }
 
-PASSIVE_ITEM_FLAGS["Remove 200 Health"] = {
-    FunctionName = "remove200health",
+PASSIVE_ITEM_FLAGS["Remove 20 Health"] = {
+    FunctionName = "remove20health",
     Description = "Decreases max health by 200.",
     Color = Color(255, 0, 0)
 }
