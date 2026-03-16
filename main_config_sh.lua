@@ -5426,13 +5426,13 @@ PASSIVE_ITEM_FLAGS["Remove 10 Speed"] = {
 
 PASSIVE_ITEM_FLAGS["Extra 20 Health"] = {
     FunctionName = "20health",
-    Description = "Increases max health by 200.",
+    Description = "Increases max health by 20.",
     Color = Color(0, 255, 0)
 }
 
 PASSIVE_ITEM_FLAGS["Remove 20 Health"] = {
     FunctionName = "remove20health",
-    Description = "Decreases max health by 200.",
+    Description = "Decreases max health by 20.",
     Color = Color(255, 0, 0)
 }
 
