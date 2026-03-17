@@ -5767,19 +5767,19 @@ PASSIVE_ITEM_FLAGS["Attunement"] = {
 
 PASSIVE_ITEM_FLAGS["AetherGenerator"] = {
     FunctionName = "AetherGenerator",
-    Description  = "Draws raw Aether from the Immaterium, storing it up to a maximum of 500.",
+    Description  = "Draws raw Aether from the Immaterium, storing it up to a maximum of 5000.",
     Color        = Color(160, 80, 255)
 }
 
 PASSIVE_ITEM_FLAGS["CapacitanceGenerator"] = {
     FunctionName = "CapacitanceGenerator",
-    Description  = "Generates and Stores Capacitance, up to a limit of 500.",
+    Description  = "Generates and Stores Capacitance, up to a limit of 5000.",
     Color        = Color(100, 220, 255)
 }
 
 PASSIVE_ITEM_FLAGS["FaithGenerator"] = {
     FunctionName = "FaithGenerator",
-    Description  = "Generates Faith for the User, up to a limit of 500.",
+    Description  = "Generates Faith for the User, up to a limit of 5000.",
     Color        = Color(255, 255, 100)
 }
 
