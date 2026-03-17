@@ -2026,7 +2026,7 @@ FACTION_TYPES = FACTION_TYPES or {}
                 bot:SetNWString("Description", "ORK PSYKER WIZ A BIG STICK AND LOTS OF WAAAGH!")
             elseif eliteRoll <= 95 then
                 bot:SetNWString("Name", "MEGA NOB")
-                health = math.max(health * 4, 4000)
+                health = math.max(health * 4, 3000)
                 bot:SetModel("models/muschi/orks/muschi_ork_meganob.mdl")
                 local weaponroll = math.random(1, 100)
                 if weaponroll <= 50 then
@@ -2053,7 +2053,7 @@ FACTION_TYPES = FACTION_TYPES or {}
                 bot:SetNWString("Description", "AN ORK WALKING TANK WIZ BIG SHOOTAS AND MEK GUNS")
             else --nob
                 bot:SetNWString("Name", "MEGA NOB")
-                health = math.max(health * 5, 1500)
+                health = math.max(health * 3, 1500)
                 bot:SetModel("models/muschi/orks/muschi_ork_meganob.mdl")
                 local weaponroll = math.random(1, 100)
                 if weaponroll <= 50 then
@@ -2107,7 +2107,7 @@ FACTION_TYPES = FACTION_TYPES or {}
                 bot:SetNWString("Name", "ORK BOY")
                 local model = ORK_BOY_MODELZ[math.random(#ORK_BOY_MODELZ)]
                 bot:SetModel(model)
-                health = math.max(health * 3, 500)
+                health = math.max(health * 3, 700)
                 local weaponroll = math.random(1, 100)
                 if weaponroll <= 25 then
                     bot.FightType = "shooting"
