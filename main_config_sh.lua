@@ -2039,7 +2039,7 @@ FACTION_TYPES = FACTION_TYPES or {}
                 bot:SetModelScale(1.25, 0)
                 bot:SetNWString("Description", "HUGE GREEN ORK WIZ A BIG SHINY ARMOUR AND BIG DAKA")
                 bot:SetNWBool("ShieldEnable", true)
-            elseif IN_FACTION_REVOLUTION == false then
+            elseif false then --IN_FACTION_REVOLUTION == false then
                 bot:SetModel("models/muschi/orks/muschi_ork_stompa.mdl")
                 health = math.max(health * 15, 2500)
                 bot:SetNWString("Name", "MINI STOMPA")
