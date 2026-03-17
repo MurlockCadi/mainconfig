@@ -479,8 +479,8 @@ commands = {
 	["!taxmenu"] = function(ply) OpenTaxMenu(ply) end,
 	["!cheatmagic"] = function(ply) GainAttunementCheat(ply) end,
 	["/cheatmagic"] = function(ply) GainAttunementCheat(ply) end,
-	["!"] = function(ply) OpenManagerMenu(ply) end,
-	["/"] = function(ply) OpenManagerMenu(ply) end,
+	["!faction"] = function(ply) OpenManagerMenu(ply) end,
+	["/faction"] = function(ply) OpenManagerMenu(ply) end,
 	["!missions"] = function(ply) OpenTaskMenu(ply) end,
 	["/missions"] = function(ply) OpenTaskMenu(ply) end,
 	["!mission"] = function(ply) OpenTaskMenu(ply) end,
@@ -1973,7 +1973,7 @@ CERTIFICATIONS = {
 }
 
 --------BOT  TYPES----------
-_TYPES = FACTION_TYPES or {}
+FACTION_TYPES = FACTION_TYPES or {}
 
 	FACTION_TYPES["ORKZ"] = {
     STAGE = "WAAAAGH!",
