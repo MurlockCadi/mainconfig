@@ -2324,7 +2324,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             local roll = math.random(1, 10)
             if roll <= 5 then
                 bot:SetModel("models/dizcordum/wk/ogryn/ogryn_chaos_plague.mdl")
-                health = math.max(health * 10, 3000)
+                health = math.max(health * 5, 3000)
                 if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
                     bot.weapon = "cat_chaos_legacy_heavyboltershoulder"
@@ -2460,7 +2460,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 bot:SetNWString("Description", "Chemical Expert responsible for the production of Spook")
             else
                 bot:SetNWString("Name", "Squat Mercenary")
-                health = math.max(health * 3, 1500)
+                health = math.max(health * 3, 1000)
                 bot:SetModel("models/dizcordum/abhumans/squat.mdl")
                 local weaponroll = math.random(1, 100)
                 if weaponroll <= 50 then
