@@ -2575,7 +2575,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             	bot.weapon = "cat_legacy_flamerheresy"
             	bot:SetNWString("Description", "Ratling who has turned against the Imperium.")
 
-				elseif roll <= 60 then
+			elseif roll <= 60 then
                 health = math.max(health * 3, 600)
 				bot:SetNWString("Name", "Traitor Commissar")
             	bot:SetModel("models/knight_ig/muschi_ig_comissar.mdl")
@@ -2648,7 +2648,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             	bot.weapon = "cat_legacy_flamerheresy"
             	bot:SetNWString("Description", "Ratling who has turned against the Imperium.")
 
-				elseif roll <= 60 then
+			elseif roll <= 60 then
                 health = math.max(health * 2, 500)
 				bot:SetNWString("Name", "Traitor Commissar")
             	bot:SetModel("models/knight_ig/muschi_ig_comissar.mdl")
