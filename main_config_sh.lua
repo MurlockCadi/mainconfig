@@ -89,30 +89,9 @@ non_attack_reduction = 0.25
 gas_grenade_cost = 50
 outpost_cost = 1000
 
---GAMEPLAY VARS------------------------
-
-preperation_stage_timer = 1800
-build_up_stage_timer = 900
-combat_phase = 2700
-
 ---RESPAWN_TIMERS_FOR_VEHICLES------------
 
 ORGANIZATION_MULTIPLIER = 0.5
-
-RESPAWN_TIMERS_IMPERIUMRP = {
-    ["Small Vehicles"] = 60,
-    ["Trucks"] = 60,
-    ["Tank Destroyers"] = 800,
-    ["Light Medium Tanks"] = 750,
-    ["Light Tanks"] = 500,
-    ["Medium Tanks"] = 950,
-    ["Heavy Tanks"] = 1900,
-    ["Mechanized Vehicles"] = 250,
-    ["Armed Mechanized Vehicles"] = 360,
-    ["Mobile Outpost"] = 500,
-    ["Motercycles"] = 60,
-	["Bike"] = 300
-}
 
 ENTITY_RESPAWN_TIMERS = {
     ["Ammo"] = 120,
@@ -124,21 +103,8 @@ ENTITY_RESPAWN_TIMERS = {
     ["Reactor"] = 1000,
     ["Turret"] = 120,
     ["Tanks"] = 120
-	
 }
 
-
-vehicleLimits = {
-    {players = 80, maxVehicles = 1},
-    {players = 70, maxVehicles = 2},
-    {players = 60, maxVehicles = 3},
-    {players = 50, maxVehicles = 4},
-    {players = 40, maxVehicles = 8},
-    {players = 30, maxVehicles = 8},
-    {players = 25, maxVehicles = 8},
-    {players = 20, maxVehicles = 10},
-    {players = 0, maxVehicles = 10}
-}
 
 ---------PROX CHAT------------------------------------------------------------------------------------
 
@@ -147,9 +113,6 @@ proximityDistance = 750
 -------------------------------------------------------------------------------------------------------
 
 CAPTURE_SIZE = 1250
-
-AXIS_COLOR = Color(175, 0, 0, 255)
-ALLIES_COLOR = Color(75, 150, 75, 255)
 
 ----------BOT HEALTH-----------------
 
@@ -173,7 +136,6 @@ function GetHealthByTotalPlayers()
 	health = health * HEALTH_MULTIPLIER_BOTS
     return health
 end
-
 
 
 -------XP SYSTEM CONFIG-----------------------
@@ -211,7 +173,6 @@ end
 REVIVE_TIME = 2
 
 LOOT_TIME = 3
-
 
 ----------------------TRENCH COOLDOWN
 
@@ -2294,9 +2255,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["NURGLE_HORDE"] = {
+FACTION_TYPES["NURGLE_HORDE"] = {
     STAGE = "PLAGUE BREWS",
     DeathsByType = {},
     OffWorld = true,
@@ -2417,10 +2378,10 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 self:CreatePoxwalker(bot, ALWAYS_SPAWN_ELITES)
             end
         end
-    end,
-	}
+    end
+}
 
-	FACTION_TYPES["CHEM_HORDE"] = {
+FACTION_TYPES["CHEM_HORDE"] = {
     STAGE = "CHEM-LORDS ASCENDANT",
     DeathsByType = {},
     OffWorld = true,
@@ -2513,9 +2474,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
+FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
     STAGE = "FREEDOM",
     DeathsByType = {},
     OffWorld = true,
@@ -2524,160 +2485,160 @@ FACTION_TYPES["KHORNE_HORDE"] = {
         local TotalPlayers = #player.GetHumans()
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite or math.random(1, 100) <= 5
-		
+
         local TraitorModels = {
-			"models/wk/cult/cult_shooter.mdl",
-			"models/wk/cult/cult_subof.mdl",
-			"models/wk/cult/tr_guardsmen.mdl",
-			"models/wk/cult/tr_cult_cu_sup.mdl",
-            }
+            "models/wk/cult/cult_shooter.mdl",
+            "models/wk/cult/cult_subof.mdl",
+            "models/wk/cult/tr_guardsmen.mdl",
+            "models/wk/cult/tr_cult_cu_sup.mdl"
+        }
+
         if spawn_elite then
             bot.Elite = true
-            local roll = math.random(1, 100)	
+            local roll = math.random(1, 100)
 
             if roll <= 10 then
                 health = math.max(health * 3, 1000)
                 bot:SetNWString("Name", "Traitor Officer")
-				bot:SetModel("models/wk/cult/cul_cap.mdl")
+                bot:SetModel("models/wk/cult/cul_cap.mdl")
                 bot.FightType = "shooting"
                 bot.weapon = "cat_chaos_legacy_boltpistolpowersword"
                 bot:SetNWString("Description", "Officer who has turned against the Imperium.")
                 bot:SetNWBool("ShieldEnable", true)
-          
-			elseif roll <= 30 then
+
+            elseif roll <= 30 then
                 health = math.max(health * 4, 2000)
                 bot:SetNWString("Name", "Traitor Ogryn")
                 bot:SetModel("models/dizcordum/wk/ogryn/ogryn_chaos.mdl")
-                 if math.random(1, 2) == 1 then
+                if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
                     bot.weapon = "cat_legacy_heavybolterheresy"
-                 else
-                     bot.FightType = "melee"
-                     bot.weapon = "cat_legacy_chainaxeheresy"
-                 end
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "cat_legacy_chainaxeheresy"
+                end
                 bot:SetNWString("Description", "Ogryn who has turned against the Imperium.")
-	
-			elseif roll <= 40 then
-                health = math.max(health * 3, 600)
-				bot:SetNWString("Name", "Heavy Traitor Guardsman")
-            	bot:SetModel("models/wk/cult/cult_cu_heavy.mdl")
-            	bot.FightType = "shooting"
-            	bot.weapon = "cat_legacy_boardingshield_bolterphobos"
-            	bot:SetNWString("Description", "Heavy Guardsman who has turned against the Imperium.")
 
-			elseif roll <= 50 then
+            elseif roll <= 40 then
+                health = math.max(health * 3, 600)
+                bot:SetNWString("Name", "Heavy Traitor Guardsman")
+                bot:SetModel("models/wk/cult/cult_cu_heavy.mdl")
+                bot.FightType = "shooting"
+                bot.weapon = "cat_legacy_boardingshield_bolterphobos"
+                bot:SetNWString("Description", "Heavy Guardsman who has turned against the Imperium.")
+
+            elseif roll <= 50 then
                 health = math.max(health * 2, 500)
-				bot:SetNWString("Name", "Flamer Traitor Ratling")
-            	bot:SetModel("models/dizcordum/abhumans/ratling.mdl")
-            	bot.FightType = "flamer"
+                bot:SetNWString("Name", "Flamer Traitor Ratling")
+                bot:SetModel("models/dizcordum/abhumans/ratling.mdl")
+                bot.FightType = "flamer"
                 bot:SetRunSpeed(400)
                 bot:SetWalkSpeed(400)
-            	bot.weapon = "cat_legacy_flamerheresy"
-            	bot:SetNWString("Description", "Ratling who has turned against the Imperium.")
+                bot.weapon = "cat_legacy_flamerheresy"
+                bot:SetNWString("Description", "Ratling who has turned against the Imperium.")
 
-			elseif roll <= 60 then
+            elseif roll <= 60 then
                 health = math.max(health * 3, 600)
-				bot:SetNWString("Name", "Traitor Commissar")
-            	bot:SetModel("models/knight_ig/muschi_ig_comissar.mdl")
-                 if math.random(1, 2) == 1 then
+                bot:SetNWString("Name", "Traitor Commissar")
+                bot:SetModel("models/knight_ig/muschi_ig_comissar.mdl")
+                if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
                     bot.weapon = "cat_chaos_legacy_boltpistol"
-                 else
-                     bot.FightType = "melee"
-                     bot.weapon = "cat_legacy_chainswordheresy"
-                 end
-            	bot:SetNWString("Description", "Commissar who has turned against the Imperium.")
-	
-			
-			elseif roll <= 70 then
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "cat_legacy_chainswordheresy"
+                end
+                bot:SetNWString("Description", "Commissar who has turned against the Imperium.")
+
+            elseif roll <= 70 then
                 health = math.max(health * 3, 600)
-				bot:SetNWString("Name", "Traitor Squat")
-            	bot:SetModel("models/dizcordum/abhumans/squat.mdl")
-            	bot.FightType = "shooting"
-            	bot.weapon = "cat_legacy_bolterheresy"
-            	bot:SetNWString("Description", "Squat who has turned against the Imperium.")
-	
-			else
+                bot:SetNWString("Name", "Traitor Squat")
+                bot:SetModel("models/dizcordum/abhumans/squat.mdl")
+                bot.FightType = "shooting"
+                bot.weapon = "cat_legacy_bolterheresy"
+                bot:SetNWString("Description", "Squat who has turned against the Imperium.")
+
+            else
                 health = math.max(health * 2, 400)
-				bot:SetNWString("Name", "Traitor Guardsman")
-            	bot:SetModel(TraitorModels[math.random(#TraitorModels)])
-            	bot.FightType = "shooting"
-            	bot.weapon = "cat_custom_lasgun_galaxy"
-            	bot:SetNWString("Description", "Guardsman who has turned against the Imperium.")
-			end
+                bot:SetNWString("Name", "Traitor Guardsman")
+                bot:SetModel(TraitorModels[math.random(#TraitorModels)])
+                bot.FightType = "shooting"
+                bot.weapon = "cat_custom_lasgun_galaxy"
+                bot:SetNWString("Description", "Guardsman who has turned against the Imperium.")
+            end
         else
-			local roll = math.random(1, 100)
-			
-			if roll <= 10 then
+            local roll = math.random(1, 100)
+
+            if roll <= 10 then
                 health = math.max(health * 2, 800)
                 bot:SetNWString("Name", "Traitor Officer")
-				bot:SetModel("models/wk/cult/cul_cap.mdl")
+                bot:SetModel("models/wk/cult/cul_cap.mdl")
                 bot.FightType = "shooting"
                 bot.weapon = "cat_chaos_legacy_boltpistolpowersword"
                 bot:SetNWString("Description", "Officer who has turned against the Imperium.")
                 bot:SetNWBool("ShieldEnable", true)
-          
-			elseif roll <= 30 then
+
+            elseif roll <= 30 then
                 health = math.max(health * 3, 1500)
                 bot:SetNWString("Name", "Traitor Ogryn")
                 bot:SetModel("models/dizcordum/wk/ogryn/ogryn_chaos.mdl")
-                 if math.random(1, 2) == 1 then
+                if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
                     bot.weapon = "cat_legacy_heavybolterheresy"
-                 else
-                     bot.FightType = "melee"
-                     bot.weapon = "cat_legacy_chainaxeheresy"
-                 end
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "cat_legacy_chainaxeheresy"
+                end
                 bot:SetNWString("Description", "Ogryn who has turned against the Imperium.")
-	
-			elseif roll <= 40 then
-                health = math.max(health * 2, 500)
-				bot:SetNWString("Name", "Heavy Traitor Guardsman")
-            	bot:SetModel("models/wk/cult/cult_cu_heavy.mdl")
-            	bot.FightType = "shooting"
-            	bot.weapon = "cat_legacy_boardingshield_bolterphobos"
-            	bot:SetNWString("Description", "Heavy Guardsman who has turned against the Imperium.")
 
-			elseif roll <= 50 then
+            elseif roll <= 40 then
+                health = math.max(health * 2, 500)
+                bot:SetNWString("Name", "Heavy Traitor Guardsman")
+                bot:SetModel("models/wk/cult/cult_cu_heavy.mdl")
+                bot.FightType = "shooting"
+                bot.weapon = "cat_legacy_boardingshield_bolterphobos"
+                bot:SetNWString("Description", "Heavy Guardsman who has turned against the Imperium.")
+
+            elseif roll <= 50 then
                 health = math.max(health * 1, 400)
-				bot:SetNWString("Name", "Flamer Traitor Ratling")
-            	bot:SetModel("models/dizcordum/abhumans/ratling.mdl")
-            	bot.FightType = "flamer"
+                bot:SetNWString("Name", "Flamer Traitor Ratling")
+                bot:SetModel("models/dizcordum/abhumans/ratling.mdl")
+                bot.FightType = "flamer"
                 bot:SetRunSpeed(400)
                 bot:SetWalkSpeed(400)
-            	bot.weapon = "cat_legacy_flamerheresy"
-            	bot:SetNWString("Description", "Ratling who has turned against the Imperium.")
+                bot.weapon = "cat_legacy_flamerheresy"
+                bot:SetNWString("Description", "Ratling who has turned against the Imperium.")
 
-			elseif roll <= 60 then
+            elseif roll <= 60 then
                 health = math.max(health * 2, 500)
-				bot:SetNWString("Name", "Traitor Commissar")
-            	bot:SetModel("models/knight_ig/muschi_ig_comissar.mdl")
-                 if math.random(1, 2) == 1 then
+                bot:SetNWString("Name", "Traitor Commissar")
+                bot:SetModel("models/knight_ig/muschi_ig_comissar.mdl")
+                if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
                     bot.weapon = "cat_chaos_legacy_boltpistol"
-                 else
-                     bot.FightType = "melee"
-                     bot.weapon = "cat_legacy_chainswordheresy"
-                 end
-            	bot:SetNWString("Description", "Commissar who has turned against the Imperium.")
-	
-			
-			elseif roll <= 70 then
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "cat_legacy_chainswordheresy"
+                end
+                bot:SetNWString("Description", "Commissar who has turned against the Imperium.")
+
+            elseif roll <= 70 then
                 health = math.max(health * 2, 500)
-				bot:SetNWString("Name", "Traitor Squat")
-            	bot:SetModel("models/dizcordum/abhumans/squat.mdl")
-            	bot.FightType = "shooting"
-            	bot.weapon = "cat_legacy_bolterheresy"
-            	bot:SetNWString("Description", "Squat who has turned against the Imperium.")
-	
-			else
+                bot:SetNWString("Name", "Traitor Squat")
+                bot:SetModel("models/dizcordum/abhumans/squat.mdl")
+                bot.FightType = "shooting"
+                bot.weapon = "cat_legacy_bolterheresy"
+                bot:SetNWString("Description", "Squat who has turned against the Imperium.")
+
+            else
                 health = math.max(health * 1, 300)
-				bot:SetNWString("Name", "Traitor Guardsman")
-            	bot:SetModel(TraitorModels[math.random(#TraitorModels)])
-            	bot.FightType = "shooting"
-            	bot.weapon = "cat_custom_lasgun_galaxy"
-            	bot:SetNWString("Description", "Guardsman who has turned against the Imperium.")
-			end
+                bot:SetNWString("Name", "Traitor Guardsman")
+                bot:SetModel(TraitorModels[math.random(#TraitorModels)])
+                bot.FightType = "shooting"
+                bot.weapon = "cat_custom_lasgun_galaxy"
+                bot:SetNWString("Description", "Guardsman who has turned against the Imperium.")
+            end
+        end
 
         bot:SetNWString("Status", "TRAITOR_GUARDSMEN")
         bot:StripWeapons()
@@ -2691,7 +2652,6 @@ FACTION_TYPES["KHORNE_HORDE"] = {
     end,
 
     OnDeathHook = function(self, bot, inflictor, attacker)
-        -- Optional: handle chem death effects
     end,
 
     Think = function(self)
@@ -2702,9 +2662,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["TYRANIDS"] = {
+FACTION_TYPES["TYRANIDS"] = {
     STAGE = "FREEDOM",
     DeathsByType = {},
     OffWorld = true,
@@ -2809,10 +2769,10 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 self:CreateTyranid(bot, ALWAYS_SPAWN_ELITES)
             end
         end
-    end,
-	}
+    end
+}
 
-	FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
+FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
     STAGE = "FREEDOM",
     DeathsByType = {},
     OffWorld = true,
@@ -2914,7 +2874,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
 
 
 
-	FACTION_TYPES["NECRONS"] = {
+FACTION_TYPES["NECRONS"] = {
     STAGE = "DEATH TO THE LIVING",
     DeathsByType = {},
     OffWorld = true,
@@ -3018,9 +2978,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["CHANGE_HORDE"] = {
+FACTION_TYPES["CHANGE_HORDE"] = {
     STAGE = "BLOOD FOR THE BLOOD GOD",
     DeathsByType = {},
     OffWorld = true,
@@ -3136,11 +3096,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-
-
-	FACTION_TYPES["VOTANN"] = {
+FACTION_TYPES["VOTANN"] = {
     STAGE = "CHEM-LORDS ASCENDANT",
     DeathsByType = {},
     OffWorld = true,
@@ -3336,10 +3294,10 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
 
-	FACTION_TYPES["TAU"] = {
+FACTION_TYPES["TAU"] = {
     STAGE = "CHEM-LORDS ASCENDANT",
     DeathsByType = {},
     OffWorld = true,
@@ -3430,9 +3388,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["TAU-ORKS"] = {
+FACTION_TYPES["TAU-ORKS"] = {
     STAGE = "GREATER WAAAGH! FOR DA GREATER GOOD",
     DeathsByType = {},
     OffWorld = true,
@@ -3601,9 +3559,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["SLAANESH_OFFWORLD"] = {
+FACTION_TYPES["SLAANESH_OFFWORLD"] = {
     STAGE = "THE DARK PRINCE'S HOST",
     DeathsByType = {},
     OffWorld = true,
@@ -3696,9 +3654,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["GOBLINS"] = {
+FACTION_TYPES["GOBLINS"] = {
     STAGE = "DA LITTLE GREEN TIDE",
     DeathsByType = {},
     OffWorld = true,
@@ -3882,9 +3840,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["DARK MECHANICUS"] = {
+FACTION_TYPES["DARK MECHANICUS"] = {
     STAGE = "RISE OF THE MACHINES",
     DeathsByType = {},
     OffWorld = true,
@@ -4013,9 +3971,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["PRAETORIAN_GUARD"] = {
+FACTION_TYPES["PRAETORIAN_GUARD"] = {
     STAGE = "THE DARK PRINCE'S HOST",
     DeathsByType = {},
     OffWorld = true,
@@ -4103,9 +4061,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["UNDIVIDED_HORDE"] = {
+FACTION_TYPES["UNDIVIDED_HORDE"] = {
     STAGE = "THE DARK GODS UNITE",
     DeathsByType = {},
     OffWorld = true,
@@ -4318,9 +4276,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["FLAYED_ONES"] = {
+FACTION_TYPES["FLAYED_ONES"] = {
     STAGE = "DEATH TO THE LIVING",
     DeathsByType = {},
     OffWorld = true,
@@ -4390,9 +4348,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["SKAVEN"] = {
+FACTION_TYPES["SKAVEN"] = {
     STAGE = "THE UNDER-EMPIRE RISES",
     DeathsByType = {},
     OffWorld = true,
@@ -4520,9 +4478,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["GAUNTS"] = {
+FACTION_TYPES["GAUNTS"] = {
     STAGE = "THE SWARM ADVANCES",
     DeathsByType = {},
     OffWorld = true,
@@ -4591,11 +4549,11 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             if bot:GetNWString("Status") ~= "GAUNTS" then
                 self:CreateGaunt(bot, ALWAYS_SPAWN_ELITES)
             end
-        end
-    end,
-	}
+        end 
+    end
+}
 
-	FACTION_TYPES["AELDARI"] = {
+FACTION_TYPES["AELDARI"] = {
     STAGE = "Aeldari",
     DeathsByType = {},
     OffWorld = true,
@@ -4693,10 +4651,10 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 self:CreateAeldari(bot,ALWAYS_SPAWN_ELITES)
             end
         end
-    end,
-	}
+    end
+}
 
-	FACTION_TYPES["CHAOS_DWARFS"] = {
+FACTION_TYPES["CHAOS_DWARFS"] = {
     STAGE = "Chaos Dwarfs",
     DeathsByType = {},
     OffWorld = true,
@@ -4977,9 +4935,9 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
+}
 
-	FACTION_TYPES["PENAL_TRAITORS"] = {
+FACTION_TYPES["PENAL_TRAITORS"] = {
     STAGE = "The damned rebel!.",
     DeathsByType = {},
     OffWorld = true,
@@ -5170,11 +5128,11 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                 self:CreatePenal(bot,ALWAYS_SPAWN_ELITES)
             end
         end
-    end,
-	}
+    end
+}
 
 
-	FACTION_TYPES["OOPSALLBOMBS"] = {
+FACTION_TYPES["OOPSALLBOMBS"] = {
     STAGE = "MORE BOMBS!",
     DeathsByType = {},
     OffWorld = true,
@@ -5306,210 +5264,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
             end
         end
     end,
-	}
-
-
-
-
---------MURLOCK LOADOUT SYSTEM-----------------
---doing this temp to test things murlock
---weaponsConfig = {
-    --primary = {
-
-
-        -- ARC CW WEAPONS
-
---        {name = "arccw_k_40k_m36", cost = 2000, viponly = false},
---        {name = "arccw_k_40k_luciuslasgun", cost = 2000, viponly = false},
---        {name = "arccw_k_40k_lasgun_mk2", cost = 2000, viponly = false},
---        {name = "arccw_k_40k_lasgun_triplex", cost = 20000, viponly = false},
---        {name = "arccw_k_40k_autoshotgun_semi", cost = 20000, viponly = false},
---        {name = "arccw_k_40k_lascarbine", cost = 20000, viponly = false},
-
---        {name = "arccw_k_40k_autogun", cost = 20000, viponly = false},
---         {name = "arccw_k_40k_autogun_carbine", cost = 20000, viponly = false},
---         {name = "arccw_k_40k_autogun_headhunter", cost = 20000, viponly = false},
---         {name = "arccw_k_40k_automaticshotgun", cost = 20000, viponly = false},
-
-
-        -- Normal Imperial Guard Weapons
--- 		{name = "cat_custom_lasgun", cost = 2000, viponly = false},
---         {name = "cat_custom_lasgun_lucius", cost = 2000, viponly = false},
---         {name = "cat_custom_lascarbine", cost = 20000, viponly = false},
---         {name = "cat_custom_autogun", cost = 25000, viponly = false},
---         {name = "cat_custom_autorifle", cost = 25000, viponly = false},
---         {name = "cat_custom_shotgun", cost = 30000, viponly = false},
---         {name = "cat_custom_rippergun", cost = 30000, viponly = false, classes = {"Ogryn"}},
---         {name = "cat_custom_stubber", cost = 20000, viponly = false},
---         {name = "cat_custom_autogun_agripinaa", cost = 25000, viponly = false},
---         {name = "cat_custom_stubber_agripinaa", cost = 25000, viponly = false},
---        {name = "cat_custom_lascarbine_catachan", cost = 20000, viponly = false},
---         {name = "arccw_admech_flechetteblaster", cost = 30000, viponly = false},
---         {name = "arccw_admech_flechettecarabine", cost = 30000, viponly = false},
---         {name = "arccw_admech_laslock", cost = 30000, viponly = false},
---         {name = "arccw_admech_mitralock", cost = 30000, viponly = false},
---         {name = "arccw_admech_radjezzail", cost = 30000, viponly = false},
---         {name = "arccw_admech_stubcarbine", cost = 30000, viponly = false},
-
-        -- Heavy Weapons
---         {name = "cat_custom_autocannonold", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
---         {name = "cat_custom_heavybolter", cost = 40000, viponly = false, classes = {"Heavy Weapons"}},
---         {name = "cat_custom_heavystubber", cost = 40000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
---         {name = "cat_custom_lascannon", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
---         {name = "cat_custom_missilelauncher", cost = 20000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
---         {name = "cat_custom_multilaser", cost = 30000, viponly = false, classes = {"Captain","Heavy Weapons","Ogryn"}},
---         {name = "cat_custom_plasmacannon", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
---         {name = "cat_legacy_multimeltashoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn","Servitor"}},
---         {name = "cat_legacy_heavyboltershoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn","Servitor"}},
--- 		{name = "cat_legacy_lascannonshoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn"}},
--- 		{name = "cat_legacy_plasmacannonshoulder", cost = 30000, viponly = false, classes = {"Heavy Weapons","Ogryn","Servitor"}},	
--- 		{name = "cat_legacy_assaultcannon", cost = 30000, viponly = false, classes = {"Ogryn"}},
-
-
-        -- Weapon Specialist Weapons
--- 		{name = "arccw_k_40k_plasmarifle", cost = 20000, viponly = false,  classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
---         {name = "cat_custom_flamer", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
---         {name = "cat_custom_flamerchem", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist","Servitor"}},
---         {name = "cat_custom_grenadelauncher", cost = 20000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
---         {name = "cat_custom_meltagun", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
---         {name = "cat_custom_plasmagun", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist"}},
---         {name = "cat_custom_bolter", cost = 30000, viponly = false, classes = {"Adepta Sororitas","Weapon Specialist","Kasrkin Weapon Specialist"}},
---         {name = "arccw_k_40k_bolter", cost = 30000, viponly = false, classes = {"Adepta Sororitas","Weapon Specialist","Kasrkin Weapon Specialist"}},
-
-        -- Scout Weapons
-
---        {name = "cat_custom_longlas", cost = 20000, viponly = false, classes = {"Scout","Ratling","Kasrkin Sniper"}},
---       {name = "cat_custom_sniper", cost = 30000, viponly = false, classes = {"Scout","Ratling","Kasrkin Sniper"}},
---        {name = "cat_legacy_sniper", cost = 50000, viponly = false, classes = {"Scout","Ratling","Kasrkin Sniper"}},
---         {name = "cat_custom_longlas_voss", cost = 30000, viponly = false, classes = {"Scout","Ratling","Kasrkin Sniper"}},
---         {name = "cat_custom_longlas_kantrael", cost = 30000, viponly = false, classes = {"Scout","Ratling","Kasrkin Sniper"}},
---         {name = "arccw_k_40k_longlas", cost = 20000, viponly = false, classes = {"Scout","Ratling","Kasrkin Sniper"}},
-
-        -- Storm Trooper Weapons
---         {name = "cat_custom_hellgun", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
---         {name = "cat_custom_hellgunstandard", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
---         {name = "cat_custom_volleygun", cost = 20000, viponly = false, classes = {"Kasrkin Weapon Specialist"}},
---         {name = "cat_custom_hellgun_scion", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
---         {name = "cat_custom_hellgun_lucius", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
---         {name = "cat_custom_hellgun_stormtrooper", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
---         {name = "arccw_k_40k_hellgun_mk1", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
---         {name = "arccw_k_40k_hellgun_mk2", cost = 30000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
--- 		{name = "cat_legacy_poweraxeshield", cost = 30000, viponly = false, classes = {"Adepta Sororitas","Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster","Squat"}},
---         {name = "cat_legacy_poweraxecthonian", cost = 20000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-
-        --SQUAT Weapons
---         {name = "cat_legacy_boardingshield_volkitecharger", cost = 20000, viponly = false, classes = {"Squat"}},
---         {name = "cat_legacy_poweraxe", cost = 20000, viponly = false, classes = {"Squat"}},
-
-		--OGRYN Weapons
--- 		{name = "cat_custom_ogrynstick", cost = 20000, viponly = false, classes = {"Ogryn"}},
-
-
-		--MELEE WEAPONS
--- 		{name = "cat_legacy_powerswordshield", cost = 40000, viponly = false},
---        {name = "cat_legacy_powerhalberd", cost = 30000, viponly = false},
--- 		{name = "cat_legacy_powermaul", cost = 30000, viponly = false},
--- 		{name = "cat_legacy_powergreatsword", cost = 30000, viponly = false},
--- 		{name = "cat_legacy_powerspear", cost = 30000, viponly = false},
---         {name = "cat_legacy_chainswordaquila", cost = 30000, viponly = false},
---         {name = "cat_custom_chainsword", cost = 30000, viponly = false},
--- 		{name = "cat_legacy_thunderhammer", cost = 30000, viponly = false, classes = {"Ogryn","Squat","Adepta Sororitas"}},
-		
-        -- Adeptus Mechanicus
-
---         {name = "cat_custom_galvanic", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "cat_custom_galvanic_rifle", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "arccw_admech_galvanic_carabine", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "arccw_admech_galvanic_rifle_long", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "arccw_admech_galvanic_rifle", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "arccw_admech_heavy_arcrifle", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "arccw_admech_heavy_radication", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "arccw_admech_heavy_gravcanon", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "arccw_admech_heavy_magnorail", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "arccw_admech_heavy_plasmagun", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
---         {name = "arccw_admech_heavy_heavytorcion", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
--- 		{name = "cat_custom_omnissiahaxe", cost = 20000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Skitarii"}},
--- 		{name = "cat_legacy_gravgun", cost = 20000, viponly = false, classes = {"Servitor"}},
-		
-		-- Adepta Sororitas
---         {name = "cat_legacy_shotguncombat", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}},
---      	{name = "cat_custom_stormbolter", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
--- 		{name = "cat_legacy_boltpistoldual", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
-		
-        -- Duel Weapons
---         {name = "cat_legacy_plasmapistolpowersword", cost = 40000, viponly = false, classes = {"Lord General","Adepta Sororitas","Commissar","Inquisitorial Agent","Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
---         {name = "cat_legacy_boltpistolpowersword", cost = 40000, viponly = false, classes = {"Lord General","Adepta Sororitas","Commissar","Inquisitorial Agent","Kasrkin","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-
-		--Volkite
---         {name = "arccw_admech_volkiteblaster", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist","Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
---         {name = "arccw_admech_volkitecharger", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist","Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
---         {name = "arccw_admech_volkiteserp", cost = 30000, viponly = false, classes = {"Weapon Specialist","Kasrkin Weapon Specialist","Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
--- 		{name = "arccw_admech_heavy_volkite", cost = 40000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
--- 		{name = "cat_legacy_volkitecaliver", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
--- 		{name = "cat_legacy_volkitecharger", cost = 30000, viponly = false, classes = {"Adeptus Mechanicus","Logis","Artisan","Biologis","Exorcist","Telephatica","Electromagneticus","Magos","Squat"}},
-
-		
---     },
-
---     secondary = {
-
-        --ARC CW WEAPONS
-
---         {name = "arccw_k_40k_boltpistol", cost = 20000, viponly = false},
---         {name = "arccw_k_40k_laspistol", cost = 1000, viponly = false},
---         {name = "arccw_k_40k_plasmapistol", cost = 20000, viponly = false},
---         {name = "arccw_k_40k_autopistol", cost = 10000, viponly = false},
-
---         {name = "arccw_k_40k_autopistol_hvy", cost = 14000, viponly = false},
---         {name = "arccw_k_40k_laspistol_hvy", cost = 14000, viponly = false},
-
-        --Admech
---         {name = "arccw_admech_pistol_blast", cost = 14000, viponly = false},
---         {name = "arccw_admech_pistol_gammapistol", cost = 14000, viponly = false},
---         {name = "arccw_admech_pistol_phosporpistol", cost = 14000, viponly = false},
---         {name = "arccw_admech_pistol_radpistol", cost = 14000, viponly = false},
-
---         {name = "cat_custom_hellpistol", cost = 10000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
---         {name = "arccw_k_40k_hellpistol", cost = 10000, viponly = false, classes = {"Kasrkin","Grenedier","Kasrkin Medic","Kasrkin Weapon Specialist","Kasrkin Vox Caster"}},
-        
---         {name = "cat_custom_autopistol", cost = 10000, viponly = false},
---         {name = "cat_custom_autopistol_talon", cost = 10000, viponly = false},
---        {name = "cat_custom_stubpistol_vraks", cost = 10000, viponly = false},
-
---        {name = "cat_custom_boltpistol", cost = 20000, viponly = false},
---        {name = "cat_custom_plasmapistol", cost = 20000, viponly = false},
---        {name = "cat_legacy_stormbolterterminator", cost = 20000, viponly = false},
-		
---        {name = "cat_custom_phosphor", cost = 20000, viponly = false},
-
---        {name = "cat_custom_laspistol", cost = 1000, viponly = false},
-
-		-- Adepta Sororitas
--- 		{name = "cat_legacy_plasmapistolheresy", cost = 30000, viponly = false, classes = {"Adepta Sororitas"}}, 
-
-		-- Melee
--- 		{name = "cat_custom_powersabre", cost = 30000, viponly = false},
--- 		{name = "cat_custom_powersword", cost = 20000, viponly = false},
--- 		{name = "cat_legacy_chainaxe", cost = 20000, viponly = false},
---     },
-
---     misc = {
---         {name = "cat_custom_sword", cost = 30000, viponly = false},
---         {name = "cat_custom_sabre", cost = 30000, viponly = false},
---         {name = "cat_custom_ogrynbang", cost = 20000, viponly = false, classes = {"Ogryn"}},
---         {name = "cat_custom_knife", cost = 2000, viponly = false},
---         {name = "cat_custom_grenade_chem", cost = 3000, viponly = false},
---         {name = "cat_custom_grenade_frag", cost = 3000, viponly = false},
---         {name = "cat_custom_grenade_fire", cost = 3000, viponly = false},
---         {name = "cat_custom_grenade_krak", cost = 3000, viponly = false},
---         {name = "cat_custom_grenade_stun", cost = 3000, viponly = false},
-
--- Heavy
--- 		{name = "cat_custom_meltabomb", cost = 3000, viponly = false, classes = {"Heavy Weapons","Adepta Sororitas","Kasrkin Weapon Specialist"}}
-		
-
---     }
--- } 
+}
 
 
 
