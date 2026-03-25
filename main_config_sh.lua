@@ -4762,7 +4762,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
 			
 		elseif roll <= 55 then
             bot:SetNWString("Name", "Bull Centaur")
-            bot:SetModel("models/dizcordum/wk/dizcordum/inq/godrik_kozlotaur.mdl")
+            bot:SetModel("models/dizcordum/wk/dizcordum/inq/godrik_minotaur.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_powerbattleaxe"
             bot:SetRunSpeed(200)
@@ -4881,7 +4881,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
 			
 		elseif roll <= 55 then
             bot:SetNWString("Name", "Bull Centaur")
-            bot:SetModel("models/dizcordum/wk/dizcordum/inq/godrik_kozlotaur.mdl")
+            bot:SetModel("models/dizcordum/wk/dizcordum/inq/godrik_minotaur.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_powerbattleaxe"
             bot:SetRunSpeed(200)
