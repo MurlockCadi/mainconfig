@@ -1454,7 +1454,7 @@ DivisionTypes = {
             {ID = 1, Name = "Conscript", Rank_Prefix = "CNS", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
             {ID = 2, Name = "Korpsman", Rank_Prefix = "KRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
 			{ID = 3, Name = "Veteran Korpsman", Rank_Prefix = "VKRP", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
-            {ID = 4, Name = "Senior Korpsman", Rank_Prefix = "SKRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false,
+            {ID = 4, Name = "Senior Korpsman", Rank_Prefix = "SKRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
             {ID = 5, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 6, Name = "Specialist", Rank_Prefix = "SPC", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 7, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
