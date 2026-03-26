@@ -784,18 +784,18 @@ DivisionTypes = {
         Ranks = {
             {ID = 1, Name = "Penal Conscript", Rank_Prefix = "", ModelsAllowed = PENAL_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = false}
 		},
-    Classes = {
-        {
-            Name = "Penal Conscript",
-            Default = true,
-            Core = true,
-            Models = {},
-            Weapons = {},
-            SpawnWeapons = {},
-            Prefix = "Conscript"
+        Classes = {
+            {
+                Name = "Penal Conscript",
+                Default = true,
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "Conscript"
+            }
         }
-    }
-},
+    },
     ["Mutants"] = {
         NiceName = "Mutants",
         Description = "Mutants are the millions of people across the Imperium of Man who have been deformed from the baseline Human phenotypic state by genetic mutation. This mutation can be caused from birth by environmental factors like ionising radiation acting in utero or by exposure to the raw psychic power of Chaos.",
@@ -914,7 +914,6 @@ DivisionTypes = {
             },
 		}
     },
-	
     ["Auxiliary"] = {
         NiceName = "Auxiliary",
         Description = "Auxiliary divisions are the backbone of the Imperium.",
@@ -1149,8 +1148,7 @@ DivisionTypes = {
             }
 		}
     },
-
-	    ["Contracted Mercenaries"] = {
+	["Contracted Mercenaries"] = {
         NiceName = "Contracted Mercenaries",
         Prefix = "",
         Description = "Whether you were enslaved, contracted or came freely. You now serve the Imperium.",
@@ -1170,7 +1168,6 @@ DivisionTypes = {
             }
         }
     },
-	
     ["Ecclesiarchy"] = {
         NiceName = "Ecclesiarchy",
         Description = "Ecclesiarchy of the Imperium",
@@ -1608,72 +1605,6 @@ DivisionTypes = {
         }
     }
 }
-
---Core Classes--
---These classes are added to all divisions, and are not division specific.
---You can set classes as "core" above by putting Core = true or below to be populated.
-
--- CORE_IMPERIUM_CLASSES = {
---     {
---         Name = "Medic",
---         Medic = true,
---         Models = {},
---         Core = false,
---         Max = 4,
---         Weapons = {},
---         SpawnWeapons = {"fas2_ifak","ent_spawner"},
---         Prefix = "MD",
---         EntitySpawner = {
---             {
---                 name = "Medic Box",
---                 entityname = "medic_box",
---                 description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.",
---                 price = 100
---             },
---             {
---                 name = "Radio",
---                 entityname = "newboombox",
---                 description = "Radio to play some War Music!",
---                 price = 0
---             },
---             {
---                 name = "Gas Mask",
---                 entityname = "item_sh_gasmask",
---                 description = "Protects against gas attacks.",
---                 price = 100
---             }
---         }
---     },
--- }
-
--- for _, division in pairs(DivisionTypes) do
---     division.Classes = division.Classes or {}
---     for _, coreClass in ipairs(CORE_IMPERIUM_CLASSES) do
---         table.insert(division.Classes, table.Copy(coreClass))
---     end
--- end
-
-
-
--- ALL_DIVISIONS = {}
--- ALLIED_DIVISIONS = {}
--- AXIS_DIVISIONS = {}
-
--- for divisionName, _ in pairs(DivisionTypes) do
---     table.insert(ALL_DIVISIONS, divisionName)
---     if DivisionTypes[divisionName].Team == "allies" then
---         table.insert(ALLIED_DIVISIONS, divisionName)
---     elseif DivisionTypes[divisionName].Team == "axis" then
---         table.insert(AXIS_DIVISIONS, divisionName)
---     end
--- end
-
---==============================================================================================
--- Specializations --
---==============================================================================================
-
---Prerequisites = {"Engineer", "Medic"},
---WeeklyActivity = 30,
 
 imperium_specializations = {
     -- Specializations are not in use for this server.
