@@ -1155,7 +1155,7 @@ DivisionTypes = {
         Team = "imperium",
         VIP = true,
         Ranks = {
-            {ID = 1, Name = "Contracted Mercenary", Rank_Prefix = "", ModelsAllowed = {""}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Contracted Mercenary", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
