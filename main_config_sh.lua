@@ -1380,7 +1380,7 @@ DivisionTypes = {
             {ID = 8, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 9, Name = "Colour Sergeant", Rank_Prefix = "CSGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 10, Name = "Sergeant Major", Rank_Prefix = "SGTM", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
-            {ID = 11, Name = "Warrant Officer", Rank_Prefix = "WO", ModelsAllowed = CADIAN_OFFICER WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
+            {ID = 11, Name = "Warrant Officer", Rank_Prefix = "WO", ModelsAllowed = CADIAN_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
             {ID = 12, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = CADIAN_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
             {ID = 13, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
         },
