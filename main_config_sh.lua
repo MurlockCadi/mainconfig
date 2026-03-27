@@ -1111,10 +1111,10 @@ DivisionTypes = {
 				ForceModels = true,
                 Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
-                MaxHealth = 300,
+                MaxHealth = 175,
                 PowerShield = true,
 				CanManageTaxes = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","jet_mk1"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic",},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1124,7 +1124,6 @@ DivisionTypes = {
                         type = "Skull"
                     }
                 },
-
             },
             {
                 Name = "Inquisitorial Agent",
@@ -1132,10 +1131,10 @@ DivisionTypes = {
                 Models = {"models/muschi/characters/muschi_inq_sombra.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword"},
                 ForceModels = true,
-                MaxHealth = 300,
+                MaxHealth = 175,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","jet_mk1"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1145,7 +1144,47 @@ DivisionTypes = {
                         type = "Skull"
                     }
                 },
-            }
+            },
+            {
+                Name = "Marshal of the Krieg",
+                Core = true,
+                Models = KRIEG_OFFICER,
+                Weapons = {"cat_custom_boltpistol"},
+                ForceModels = true,
+                MaxHealth = 175,
+				CanManageTaxes = true,
+                PowerShield = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "Marshal",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            },
+            {
+                Name = "Major of the Cadians",
+                Core = true,
+                Models = CADIAN_CAPTAIN,
+                Weapons = {"cat_custom_boltpistol"},
+                ForceModels = true,
+                MaxHealth = 175,
+				CanManageTaxes = true,
+                PowerShield = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "Major",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            },
 		}
     },
 	["Contracted Mercenaries"] = {
@@ -1333,17 +1372,17 @@ DivisionTypes = {
         Ranks = {
             {ID = 1, Name = "Whiteshield", Rank_Prefix = "RCT", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
             {ID = 2, Name = "Guardsman", Rank_Prefix = "GDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
-            {ID = 3, Name = "Veteran Guardsman", Rank_Prefix = "VGDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
-            {ID = 4, Name = "Senior Guardsman", Rank_Prefix = "SGDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 3, Name = "Senior Guardsman", Rank_Prefix = "SGDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
+            {ID = 4, Name = "Veteran Guardsman", Rank_Prefix = "VGDS", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 5, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 6, Name = "Specialist", Rank_Prefix = "SPC", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 7, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 8, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 9, Name = "Colour Sergeant", Rank_Prefix = "CSGT", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
             {ID = 10, Name = "Sergeant Major", Rank_Prefix = "SGTM", ModelsAllowed = CADIAN_NCOS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = true},
-            {ID = 11, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = CADIAN_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
-            {ID = 12, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
-            {ID = 13, Name = "Major", Rank_Prefix = "MAJ", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
+            {ID = 11, Name = "Warrant Officer", Rank_Prefix = "WO", ModelsAllowed = CADIAN_OFFICER WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
+            {ID = 12, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = CADIAN_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
+            {ID = 13, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = CADIAN_CAPTAIN, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
         },
         Classes = {
             {
@@ -1450,17 +1489,17 @@ DivisionTypes = {
         Ranks = {
             {ID = 1, Name = "Conscript", Rank_Prefix = "CNS", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
             {ID = 2, Name = "Korpsman", Rank_Prefix = "KRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
-			{ID = 3, Name = "Veteran Korpsman", Rank_Prefix = "VKRP", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
-            {ID = 4, Name = "Senior Korpsman", Rank_Prefix = "SKRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
+            {ID = 3, Name = "Senior Korpsman", Rank_Prefix = "SKRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = false},
+			{ID = 4, Name = "Veteran Korpsman", Rank_Prefix = "VKRP", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
             {ID = 5, Name = "Lance Corporal", Rank_Prefix = "LCPL", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 6, Name = "Specialist", Rank_Prefix = "SPC", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 7, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 8, Name = "Watchmaster", Rank_Prefix = "WM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 9, Name = "Senior Watchmaster", Rank_Prefix = "SWM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
             {ID = 10, Name = "Quartermaster", Rank_Prefix = "QM", ModelsAllowed = KRIEG_MODELS, WeaponsAllowed = KRIEG_WEAPONS, CanPromote = true},
-            {ID = 11, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
-            {ID = 12, Name = "Kaptain", Rank_Prefix = "KPT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false},
-            {ID = 13, Name = "Marshal", Rank_Prefix = "MAR", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = false}
+            {ID = 11, Name = "Warrant Officer", Rank_Prefix = "WO", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
+            {ID = 12, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
+            {ID = 13, Name = "Kaptain", Rank_Prefix = "KPT", ModelsAllowed = KRIEG_OFFICER, WeaponsAllowed = OFFICER_WEAPONS, CanPromote = true},
         },
         Classes = {
             {
