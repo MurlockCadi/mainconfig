@@ -6130,6 +6130,18 @@ PASSIVE_ITEM_FLAGS["FaithGenerator"] = {
     Color        = Color(255, 255, 100)
 }
 
+PASSIVE_ITEM_FLAGS["TzeentchGenerator"] = {
+    FunctionName = "TzeentchGenerator",
+    Description  = "Generates Fervor of Tzeentch up to a limit of 10,000",
+    Color        = Color(0, 255, 255,255)
+}
+
+PASSIVE_ITEM_FLAGS["FlowGenerator"] = {
+    FunctionName = "FlowGenerator",
+    Description  = "Generates 500 Flow up to a limit of 5000",
+    Color        = Color(0, 255, 255,255)
+}
+
 PASSIVE_ITEM_FLAGS["Common"] = {
     FunctionName = "none",
     Rarity       = true,
@@ -6171,6 +6183,8 @@ PASSIVE_ITEM_FLAGS["Mythic"] = {
     Description  = "[Mythic]",
     Color        = Color(255, 50, 255)
 }
+
+
 
 
 -----------------LOAD MODELS------------------
