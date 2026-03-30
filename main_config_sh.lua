@@ -6103,7 +6103,11 @@ PASSIVE_ITEM_FLAGS["Convert Stoicism to Fury"] = {
     Color        = Color(255, 100, 150)
 }
 
-
+PASSIVE_ITEM_FLAGS["Extra Damage at Max Health"] = {
+    FunctionName = "Extra Damage at Max Health",
+    Description = "When at Max Health, you deal 50% more damage",
+    Color        = Color(255, 200, 0)
+}
 -- Magic Shit
 
 PASSIVE_ITEM_FLAGS["Attunement"] = {
