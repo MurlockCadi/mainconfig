@@ -6313,6 +6313,10 @@ if APRIL_FOOLS then
         "https://blenderartists.org/uploads/default/original/4X/9/2/3/9232eeb294ecf091c05126556f3a14cf797ad0bf.jpeg",
         "https://spikeybits.com/wp-content/uploads/2024/05/orks-wahrammer-40k-hor-wal-4.jpg"
     }
+	intro_songs = {
+		"https://www.imperiumgaming.net/orks/eternalcrusade.mp3",
+		"https://www.imperiumgaming.net/orks/rig.mp3"
+	}
 end
 
 print("Imperium RP Config Loaded!")
