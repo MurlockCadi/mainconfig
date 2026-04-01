@@ -6239,8 +6239,11 @@ if APRIL_FOOLS then
 	    NiceName = "Greenskins",
 	    Prefix = "",
 	    Color = Color(0, 100, 12),
+		Rank = "Division",
+		Custom = true,
 	    Description = "The Orks plague the galaxy from end to end with their ceaseless warring and strife. They are a race rooted so deeply in war that peace is utterly incomprehensible to them.",
 	    Default = true,
+		is_main_division = true,
 	    Ranks = {
 	        {
 	            ID = 1,
