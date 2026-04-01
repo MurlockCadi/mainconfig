@@ -1721,7 +1721,7 @@ ROLES = ROLES or {
         NiceName = "Cadian Whiteshields",
         Prefix = "",
         Color = Color(0, 40, 150, 255),
-        Description = "The backbone of the Astra Militarum, Cadian Shock Troopers are the Imperiums most numerous and versatile soldiers.\nThe 11th, forged in the crucible of storm-lashed warzones, now stand vigilant in the defense of the Hive.\nCadia Stands! You will join as a Fresh Recruit from the Hive City.",
+        Description = "The backbone of the Astra Militarum, Cadian Shock Troopers are the Imperiums most numerous and versatile soldiers. The 11th, forged in the crucible of storm-lashed warzones, now stand vigilant in the defense of the Hive. Cadia Stands! You will join as a Fresh Recruit from the Hive City.",
         Default = true,
         Ranks = {
             {ID = 1, Name = "Whiteshield", Rank_Prefix = "WSHL", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
@@ -1742,7 +1742,7 @@ ROLES = ROLES or {
         NiceName = "Krieg Conscripts",
         Prefix = "",
         Color = Color(50, 50, 50, 255),
-        Description = "Hardened siege specialists from the Death World of Krieg.\nThe 236th are experts in attrition warfare and unyielding assaults.\nThey fight without fear, for death is their duty. You will join as a Fresh Recruit from the Hive City.",
+        Description = "Hardened siege specialists from the Death World of Krieg. The 236th are experts in attrition warfare and unyielding assaults. They fight without fear, for death is their duty. You will join as a Fresh Recruit from the Hive City.",
         Default = true,
         Ranks = {
             {
@@ -1787,7 +1787,7 @@ ROLES = ROLES or {
         NiceName = "Mercenary",
         Prefix = "",
         Color = Color(60, 25, 22, 255),
-        Description = "You are an Unknown Entity in the Sector.\nForge your own path, shape your own destiny, and carve your legend into the stars.",
+        Description = "You are an Unknown Entity in the Sector. Forge your own path, shape your own destiny, and carve your legend into the stars.",
         Team = "hivecitizenplayer",
         VIP = true,
         Ranks = {
@@ -6239,7 +6239,7 @@ if APRIL_FOOLS then
 	    NiceName = "Greenskins",
 	    Prefix = "",
 	    Color = Color(0, 100, 12),
-	    Description = "The Orks plague the galaxy from end to end with their ceaseless warring and strife. They are a race rooted so deeply in war that peace is utterly incomprehensible to them",
+	    Description = "The Orks plague the galaxy from end to end with their ceaseless warring and strife. They are a race rooted so deeply in war that peace is utterly incomprehensible to them.",
 	    Default = true,
 	    Ranks = {
 	        {
