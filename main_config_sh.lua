@@ -6298,6 +6298,7 @@ if APRIL_FOOLS then
 	        {
 	            Name = "Greenskin",
 	            Default = true,
+				MaxHealth = 500,
 	            Models = {},
 	            Weapons = {},
 	            SpawnWeapons = {"murlock_staff_player_new"},
