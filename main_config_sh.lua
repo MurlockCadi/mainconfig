@@ -6235,31 +6235,74 @@ if APRIL_FOOLS then
         "models/muschi/orks/muschi_ork_meganob.mdl"
     }
 
-    ROLES["Greenskin"] = {
-        NiceName = "GreenskinS",
-        Prefix = "",
-        Color = Color(0, 100, 12),
-        Description = "The Orks plague the galaxy from the end to end with their ceaseless warring and strife. They are a race rooted so deeply in war that peace is utterly incomprehensible to them",
-        Default = true,
-        Ranks = {
-            {ID = 1, Name = "Greenskin", Rank_Prefix = "GRNS", ModelsAllowed = ORK_MODELS, WeaponsAllowed = ORK_WEAPONS, CanPromote = false},
-        },
-        Classes = {
-            {
-                Name = "Greenskin",
-                Default = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"tfa_kustom_shoota", "tfa_rokkit_launcha", "tfa_big_choppa"},
-                Prefix = ""
-            },
-        },
-        Team = "imperium"
-    }
-
-    intro_songs = {
-        "https://www.imperiumgaming.net/40k/Shootas,%20Blood%20&%20Teef%20-%20Theme%20Song.mp3"
-    }
+	ROLES["Greenskin"] = {
+	    NiceName = "Greenskins",
+	    Prefix = "",
+	    Color = Color(0, 100, 12),
+	    Description = "The Orks plague the galaxy from end to end with their ceaseless warring and strife. They are a race rooted so deeply in war that peace is utterly incomprehensible to them",
+	    Default = true,
+	    Ranks = {
+	        {
+	            ID = 1,
+	            Name = "Snotling",
+	            Rank_Prefix = "SNOTLING",
+	            ModelsAllowed = {"models/barbossa/snotling/snotling_pm.mdl"},
+	            WeaponsAllowed = {"tfa_choppa", "tfa_slugga", "tfa_stikk_bomb", "murlock_staff_player_new"},
+	            CanPromote = false
+	        },
+	        {
+	            ID = 2,
+	            Name = "Gretench",
+	            Rank_Prefix = "GROT",
+	            ModelsAllowed = {"models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"},
+	            WeaponsAllowed = {"tfa_choppa", "tfa_slugga", "tfa_stikk_bomb", "murlock_staff_player_new"},
+	            CanPromote = false
+	        },
+	        {
+	            ID = 3,
+	            Name = "Boy",
+	            Rank_Prefix = "BOY",
+	            ModelsAllowed = {"models/muschi/orks/muschi_ork_komandoz.mdl"},
+	            WeaponsAllowed = {"tfa_speshul_shoota", "tfa_choppa", "tfa_stikk_bomb", "murlock_staff_player_new"},
+	            CanPromote = false
+	        },
+	        {
+	            ID = 4,
+	            Name = "Nob",
+	            Rank_Prefix = "NOB",
+	            ModelsAllowed = {"models/muschi/orks/muschi_ork_nob_boy.mdl"},
+	            WeaponsAllowed = {"tfa_big_choppa", "tfa_big_shoota", "tfa_stikk_bomb", "murlock_staff_player_new"},
+	            CanPromote = false
+	        },
+	        {
+	            ID = 5,
+	            Name = "Meganob",
+	            Rank_Prefix = "MEGA NOB",
+	            ModelsAllowed = {"models/muschi/orks/muschi_ork_meganob.mdl"},
+	            WeaponsAllowed = {"tfa_uge_hammer", "tfa_rokkit_launcha", "tfa_stikk_bomb", "tfa_big_shoota", "murlock_staff_player_new"},
+	            CanPromote = false
+	        },
+	        {
+	            ID = 6,
+	            Name = "Boss",
+	            Rank_Prefix = "DA BOSS",
+	            ModelsAllowed = {"models/boss_grimskull.mdl"},
+	            WeaponsAllowed = {"tfa_uge_hammer", "tfa_rokkit_launcha", "tfa_stikk_bomb", "tfa_big_shoota", "murlock_staff_player_new"},
+	            CanPromote = false
+	        },
+	    },
+	    Classes = {
+	        {
+	            Name = "Greenskin",
+	            Default = true,
+	            Models = {},
+	            Weapons = {},
+	            SpawnWeapons = {"murlock_staff_player_new"},
+	            Prefix = ""
+	        },
+	    },
+	    Team = "imperium"
+	}
 
     intro_image_urls = {
         "https://images3.alphacoders.com/480/thumb-1920-48007.jpg",
