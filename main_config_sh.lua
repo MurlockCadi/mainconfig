@@ -6250,7 +6250,7 @@ if APRIL_FOOLS then
 	            Name = "Snotling",
 	            Rank_Prefix = "SNOTLING",
 	            ModelsAllowed = {"models/barbossa/snotling/snotling_pm.mdl"},
-	            WeaponsAllowed = {"tfa_choppa", "tfa_slugga", "tfa_stikk_bomb", "murlock_staff_player_new"},
+	            SpawnWeapons = {"tfa_choppa", "tfa_slugga", "tfa_stikk_bomb", "murlock_staff_player_new"},
 	            CanPromote = false
 	        },
 	        {
@@ -6258,7 +6258,7 @@ if APRIL_FOOLS then
 	            Name = "Gretench",
 	            Rank_Prefix = "GROT",
 	            ModelsAllowed = {"models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"},
-	            WeaponsAllowed = {"tfa_choppa", "tfa_slugga", "tfa_stikk_bomb", "murlock_staff_player_new"},
+	            SpawnWeapons = {"tfa_choppa", "tfa_slugga", "tfa_stikk_bomb", "murlock_staff_player_new"},
 	            CanPromote = false
 	        },
 	        {
@@ -6266,7 +6266,7 @@ if APRIL_FOOLS then
 	            Name = "Boy",
 	            Rank_Prefix = "BOY",
 	            ModelsAllowed = {"models/muschi/orks/muschi_ork_komandoz.mdl"},
-	            WeaponsAllowed = {"tfa_speshul_shoota", "tfa_choppa", "tfa_stikk_bomb", "murlock_staff_player_new"},
+	            SpawnWeapons = {"tfa_speshul_shoota", "tfa_choppa", "tfa_stikk_bomb", "murlock_staff_player_new"},
 	            CanPromote = false
 	        },
 	        {
@@ -6274,7 +6274,7 @@ if APRIL_FOOLS then
 	            Name = "Nob",
 	            Rank_Prefix = "NOB",
 	            ModelsAllowed = {"models/muschi/orks/muschi_ork_nob_boy.mdl"},
-	            WeaponsAllowed = {"tfa_big_choppa", "tfa_big_shoota", "tfa_stikk_bomb", "murlock_staff_player_new"},
+	            SpawnWeapons = {"tfa_big_choppa", "tfa_big_shoota", "tfa_stikk_bomb", "murlock_staff_player_new"},
 	            CanPromote = false
 	        },
 	        {
@@ -6282,7 +6282,7 @@ if APRIL_FOOLS then
 	            Name = "Meganob",
 	            Rank_Prefix = "MEGA NOB",
 	            ModelsAllowed = {"models/muschi/orks/muschi_ork_meganob.mdl"},
-	            WeaponsAllowed = {"tfa_uge_hammer", "tfa_rokkit_launcha", "tfa_stikk_bomb", "tfa_big_shoota", "murlock_staff_player_new"},
+	            SpawnWeapons = {"tfa_uge_hammer", "tfa_rokkit_launcha", "tfa_stikk_bomb", "tfa_big_shoota", "murlock_staff_player_new"},
 	            CanPromote = false
 	        },
 	        {
@@ -6290,7 +6290,7 @@ if APRIL_FOOLS then
 	            Name = "Boss",
 	            Rank_Prefix = "DA BOSS",
 	            ModelsAllowed = {"models/boss_grimskull.mdl"},
-	            WeaponsAllowed = {"tfa_uge_hammer", "tfa_rokkit_launcha", "tfa_stikk_bomb", "tfa_big_shoota", "murlock_staff_player_new"},
+	            SpawnWeapons = {"tfa_uge_hammer", "tfa_rokkit_launcha", "tfa_stikk_bomb", "tfa_big_shoota", "murlock_staff_player_new"},
 	            CanPromote = false
 	        },
 	    },
