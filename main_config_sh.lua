@@ -6215,7 +6215,6 @@ CRAFTABLE_ITEMS = CRAFTABLE_ITEMS or {}
 CRAFTABLE_ITEMS["item_964668"] = 100 --Tritium Fuel
 CRAFTABLE_ITEMS["item_786207"] = 100 --Reactor Coolant
 
-
 APRIL_FOOLS = true
 
 if APRIL_FOOLS then
@@ -6226,7 +6225,7 @@ if APRIL_FOOLS then
 		"If I find out 'oo ate me favourite snottie then there is gonna be sum trouble. I wuz savin him, I wuz. Ded clever lil' feller - he could fetchit right quick. Cource it wuz never wot I asked fer, but yer could see he wuz eager. Poor lil' feller",
 		"Aww, just look at all those Snotlings, Jim. They're so cute! Tasty too…"
 	}
-    --defualt role using ork and goblin models
+
     ORK_MODELS = {
         "models/barbossa/orc_laborer/orc_laborer_pm.mdl",
         "models/barbossa/snotling/snotling_pm.mdl",
@@ -6235,11 +6234,12 @@ if APRIL_FOOLS then
         "models/muschi/orks/muschi_ork_komandoz.mdl",
         "models/muschi/orks/muschi_ork_meganob.mdl"
     }
+
     ROLES["Greenskin"] = {
         NiceName = "GreenskinS",
         Prefix = "",
         Color = Color(0, 100, 12),
-        Description = "The Orks plague the galaxy from the end to end with their ceaseless warring and strife. They are a race rooted so deeply in war that peace is utterly incomprehensible to them"
+        Description = "The Orks plague the galaxy from the end to end with their ceaseless warring and strife. They are a race rooted so deeply in war that peace is utterly incomprehensible to them",
         Default = true,
         Ranks = {
             {ID = 1, Name = "Greenskin", Rank_Prefix = "GRNS", ModelsAllowed = ORK_MODELS, WeaponsAllowed = ORK_WEAPONS, CanPromote = false},
@@ -6256,16 +6256,17 @@ if APRIL_FOOLS then
         },
         Team = "imperium"
     }
+
     intro_songs = {
         "https://www.imperiumgaming.net/40k/Shootas,%20Blood%20&%20Teef%20-%20Theme%20Song.mp3"
     }
+
     intro_image_urls = {
         "https://images3.alphacoders.com/480/thumb-1920-48007.jpg",
         "https://images4.alphacoders.com/140/1402434.jpg",
         "https://blenderartists.org/uploads/default/original/4X/9/2/3/9232eeb294ecf091c05126556f3a14cf797ad0bf.jpeg",
         "https://spikeybits.com/wp-content/uploads/2024/05/orks-wahrammer-40k-hor-wal-4.jpg"
     }
-
 end
 
 print("Imperium RP Config Loaded!")
