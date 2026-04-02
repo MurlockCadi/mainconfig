@@ -3886,7 +3886,7 @@ FACTION_TYPES["DARK MECHANICUS"] = {
                 bot:SetNWString("Description", "A DEADLY SNIPER")
 
             elseif roll <= 40 then
-                bot:SetNWString("Name", "DARK RUSTALKER")
+                bot:SetNWString("Name", "DARK RUST STALKER")
                 health = math.max(health * 5, 900)
                 bot:SetModel("models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers_alpha.mdl")
                 bot:SetColor(Color(74, 46, 255))
@@ -3980,7 +3980,7 @@ FACTION_TYPES["DARK MECHANICUS"] = {
                 bot:SetNWString("Description", "A DEADLY SNIPER")
 
             elseif roll <= 40 then
-                bot:SetNWString("Name", "DARK RUSTALKER")
+                bot:SetNWString("Name", "DARK RUST STALKER")
                 health = math.max(health * 4, 800)
                 bot:SetModel("models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers_alpha.mdl")
                 bot:SetColor(Color(74, 46, 255))
@@ -5020,7 +5020,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.FightType = "melee"
                 bot.weapon = "cat_custom_meltabomb"
                 bot:SetNWString("Description", "A fast rattling destined to die for freedom.")
-                health = math.max(health * 2, 1000)
+                health = math.max(health * 2, 200)
 
             elseif roll <= 15 then
                 bot:SetNWString("Name", "Elite Penal Heavy")
@@ -5028,7 +5028,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "cat_custom_lasgun_galaxy"
                 bot:SetNWString("Description", "A penal trooper with heavy scrap armor.")
-                health = math.max(health * 3, 1000)
+                health = math.max(health * 3, 800)
 
 			elseif roll <= 25 then
                 bot:SetNWString("Name", "Elite Penal Bonker Ogryn")
@@ -5036,17 +5036,17 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot:SetRunSpeed(300)
                 bot:SetWalkSpeed(300)
                 bot.FightType = "melee"
-                bot.weapon = "cat_custom_ogrynstick"
+                bot.weapon = "cat_custom_crozius"
                 bot:SetNWString("Description", "An ogryn really determined to hit you.")
-                health = math.max(health * 4, 1000)
+                health = math.max(health * 4, 2000)
 
 			elseif roll <= 35 then
                 bot:SetNWString("Name", "Elite Penal Ripper Ogryn")
                 bot:SetModel("models/dizcordum/wk/ogryn/ogryn_krieg.mdl")
                 bot.FightType = "shooting"
-                bot.weapon = "cat_custom_rippergun"
+                bot.weapon = "cat_legacy_heavybolterheresy"
                 bot:SetNWString("Description", "Was probably best not to bully him.")
-                health = math.max(health * 4, 1000)
+                health = math.max(health * 4, 2000)
 
 			elseif roll <= 45 then
                 bot:SetNWString("Name", "Elite Penal Sniper Ratling")
@@ -5056,7 +5056,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "cat_custom_longlas_voss"
                 bot:SetNWString("Description", "Exceptional shot for one so small.")
-                health = math.max(health * 2, 1500)
+                health = math.max(health * 2, 500)
 
 			elseif roll <= 55 then
                 bot:SetNWString("Name", "Elite Penal Squat")
@@ -5064,23 +5064,23 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "cat_legacy_boardingshield_bolterphobos"
                 bot:SetNWString("Description", "A kin tired of Imperial Authority.")
-                health = math.max(health * 2, 2000)
+                health = math.max(health * 3, 500)
 
 			elseif roll <= 65 then
                 bot:SetNWString("Name", "Elite Axe Servitor")
                 bot:SetModel("models/wk/servitor/wk_servit.mdl")
                 bot.FightType = "melee"
-                bot.weapon = "cat_custom_omnissiahaxe"
+                bot.weapon = "cat_legacy_chainaxeheresy"
                 bot:SetNWString("Description", "A servitor who has been hacked against its masters.")
-                health = math.max(health * 2, 2000)
+                health = math.max(health * 2, 500)
 
 			elseif roll <= 75 then
                 bot:SetNWString("Name", "Elite Las Servitor")
                 bot:SetModel("models/wk/servitor/wk_servit.mdl")
                 bot.FightType = "shooting"
-                bot.weapon = "cat_custom_laspistol"
+                bot.weapon = "weapon_laspistol"
                 bot:SetNWString("Description", "A servitor who has been hacked against its masters.")
-                health = math.max(health * 2, 1000)
+                health = math.max(health * 2, 400)
 
 			else
                 bot:SetNWString("Name", "Elite Penal Guard")
@@ -5088,7 +5088,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "cat_custom_lasgun_galaxy"
                 bot:SetNWString("Description", "A Penal trooper who would rather die than serve their sentence.")
-                health = math.max(health * 2, 1000)
+                health = math.max(health * 2, 500)
 
             end
         else
@@ -5101,7 +5101,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.FightType = "melee"
                 bot.weapon = "cat_custom_meltabomb"
                 bot:SetNWString("Description", "A fast rattling destined to die for freedom.")
-                health = math.max(health * 1, 1000)
+                health = math.max(health * 1, 100)
 
             elseif roll <= 15 then
                 bot:SetNWString("Name", "Penal Heavy")
@@ -5109,7 +5109,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "cat_custom_lasgun_galaxy"
                 bot:SetNWString("Description", "A penal trooper with heavy scrap armor.")
-                health = math.max(health * 2, 1000)
+                health = math.max(health * 2, 700)
 
 			elseif roll <= 25 then
                 bot:SetNWString("Name", "Penal Bonker Ogryn")
@@ -5117,17 +5117,17 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot:SetRunSpeed(300)
                 bot:SetWalkSpeed(300)
                 bot.FightType = "melee"
-                bot.weapon = "cat_custom_ogrynstick"
+                bot.weapon = "cat_custom_crozius"
                 bot:SetNWString("Description", "An ogryn really determined to hit you.")
-                health = math.max(health * 3, 1000)
+                health = math.max(health * 3, 1500)
 
 			elseif roll <= 35 then
                 bot:SetNWString("Name", "Penal Ripper Ogryn")
                 bot:SetModel("models/dizcordum/wk/ogryn/ogryn_krieg.mdl")
                 bot.FightType = "shooting"
-                bot.weapon = "cat_custom_rippergun"
+                bot.weapon = "cat_legacy_heavybolterheresy"
                 bot:SetNWString("Description", "Was probably best not to bully him.")
-                health = math.max(health * 3, 1000)
+                health = math.max(health * 3, 1500)
 
 			elseif roll <= 45 then
                 bot:SetNWString("Name", "Penal Sniper Ratling")
@@ -5145,23 +5145,23 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "cat_legacy_boardingshield_bolterphobos"
                 bot:SetNWString("Description", "A kin tired of Imperial Authority.")
-                health = math.max(health * 2, 1000)
+                health = math.max(health * 2, 400)
 
 			elseif roll <= 65 then
                 bot:SetNWString("Name", "Axe Servitor")
                 bot:SetModel("models/wk/servitor/wk_servit.mdl")
                 bot.FightType = "melee"
-                bot.weapon = "cat_custom_omnissiahaxe"
+                bot.weapon = "cat_legacy_chainaxeheresy"
                 bot:SetNWString("Description", "A servitor who has been hacked against its masters.")
-                health = math.max(health * 1, 2000)
+                health = math.max(health * 1, 400)
 
 			elseif roll <= 75 then
                 bot:SetNWString("Name", "Las Servitor")
                 bot:SetModel("models/wk/servitor/wk_servit.mdl")
                 bot.FightType = "shooting"
-                bot.weapon = "cat_custom_laspistol"
+                bot.weapon = "weapon_laspistol"
                 bot:SetNWString("Description", "A servitor who has been hacked against its masters.")
-                health = math.max(health * 1, 1000)
+                health = math.max(health * 1, 300)
 
 			else
                 bot:SetNWString("Name", "Penal Guard")
@@ -5169,7 +5169,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "cat_custom_lasgun_galaxy"
                 bot:SetNWString("Description", "A Penal trooper who would rather die than serve their sentence.")
-                health = math.max(health * 1, 1000)
+                health = math.max(health * 1, 400)
             end
         end
 
