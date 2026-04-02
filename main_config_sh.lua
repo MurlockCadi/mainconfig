@@ -6215,7 +6215,7 @@ CRAFTABLE_ITEMS = CRAFTABLE_ITEMS or {}
 CRAFTABLE_ITEMS["item_964668"] = 100 --Tritium Fuel
 CRAFTABLE_ITEMS["item_786207"] = 100 --Reactor Coolant
 
-APRIL_FOOLS = true
+APRIL_FOOLS = false
 
 if APRIL_FOOLS then
 	gamemode_name = "DA ORKZ WAAAAGH RP"
