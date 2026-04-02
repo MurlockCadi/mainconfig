@@ -3900,7 +3900,7 @@ FACTION_TYPES["DARK MECHANICUS"] = {
                 bot:SetModel(math.random(2) == 1 and "models/wk/gans/wk_gans_priest.mdl" or "models/wk/fem_priast/wk_priestness.mdl")
                 bot.FightType = "shooting"
                 bot:SetColor(Color(74, 46, 255))
-                bot.weapon = "arccw_admech_heavy_arcrifle"
+                bot.weapon = "murlock_galvanic_rifle"
                 bot:SetNWString("Description", "DEAD ON THE INSIDE AND THE OUTSIDE")
 
             else
@@ -3994,7 +3994,7 @@ FACTION_TYPES["DARK MECHANICUS"] = {
                 bot:SetModel(math.random(2) == 1 and "models/wk/gans/wk_gans_priest.mdl" or "models/wk/fem_priast/wk_priestness.mdl")
                 bot.FightType = "shooting"
                 bot:SetColor(Color(74, 46, 255))
-                bot.weapon = "arccw_admech_heavy_arcrifle"
+                bot.weapon = "murlock_galvanic_rifle"
                 bot:SetNWString("Description", "DEAD ON THE INSIDE AND THE OUTSIDE")
 
             else
