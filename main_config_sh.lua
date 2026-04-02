@@ -3820,105 +3820,197 @@ FACTION_TYPES["DARK MECHANICUS"] = {
     OffWorld = true,
 
     CreateDarkMech = function(self, bot, elite)
-        local TotalPlayers = #player.GetHumans()
-        local health = 1000
-
-        if TotalPlayers < 5 then
-            health = 250
-        elseif TotalPlayers < 10 then
-            health = 400
-        elseif TotalPlayers < 20 then
-            health = 700
-        elseif TotalPlayers < 30 then
-            health = 1500
-        elseif TotalPlayers < 40 then
-            health = 2500
-        elseif TotalPlayers < 50 then
-            health = 3500
-        end
-        local spawn_elite = elite or math.random(1, 100) <= 30
-
+        local health = GetHealthByTotalPlayers()
+		local spawn_elite = elite -- Only spawn elites when we want them to 
         if spawn_elite then
             bot.Elite = true
-            local eliteRoll = math.random(1, 100)
-            if eliteRoll <= 40 then
+            local roll = math.random(1, 100)
+
+            if roll <= 5 then
+                bot:SetNWString("Name", "DARK MAGOS")
+                health = math.max(health * 5, 3000)
+                bot:SetModel("models/astartes/mech/magos.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "hybrid"
+                bot.weapon = "murlock_volkite_blaster"    
+				bot.meleeweapon = "cat_legacy_chainswordheresy"
+                bot:SetNWBool("ShieldEnable", true)
+                bot:SetNWString("Description", "THE LEADER OF THE TECH HERETICS")
+
+           elseif roll <= 6 then
+                bot:SetNWString("Name", "DARK DOMINATOR")
+                health = math.max(health * 11, 5000)
+                bot:SetModel("models/wk/gibus/gibus_dominator.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(1.5, 0)
+                    end
+                end)
+	                if math.random(1,100) <= 50 then
+                bot.FightType = "shooting"
+                bot.weapon = "cat_legacy_assaultcannoncrusade"   
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "cat_legacy_thunderhammerterminator"
+                end
+				bot:SetNWString("Description", "THE END OF LEGIONS!")
+
+			elseif roll <= 10 then
                 bot:SetNWString("Name", "DARK ELECTRO PRIEST")
-                health = math.max(health * 4, 2500)
+                health = math.max(health * 5, 2500)
                 bot:SetModel("models/player/mechs_fulgurite.mdl")
                 bot:SetColor(Color(74, 46, 255))
                 bot.FightType = "melee"
-                bot.weapon = "cat_legacy_chainglaive"              
+                bot.weapon = "cat_legacy_powerclawcrusade"              
                 bot:SetNWString("Description", "A CREEPY FIGURE WITH ELECTRICITY")
-            elseif eliteRoll <= 70 then
-                bot:SetNWString("Name", "CORRUPTED RED GUARD")
-                health = math.max(health * 6, 5000)
-                bot:SetModel("models/player/mechs_ragadast.mdl")
-                bot:SetColor(Color(74, 46, 255))
-                if math.random(1,100) <= 50 then
-                    bot.FightType = "shooting"
-                    bot.weapon = "arccw_admech_volkiteblaster"
-                else
-                    bot.FightType = "melee"
-                    bot.weapon = "cat_chaos_legacy_chainaxeheresy"
-                end
-            elseif eliteRoll <= 90 then
-                bot:SetNWString("Name", "BROKEN DOMINATOR")
-                health = math.max(health * 6, 8000)
-                bot:SetModel("models/wk/gibus/gibus_dominator.mdl")
-                bot:SetModelScale(1.7, 0)
-                bot:SetColor(Color(74, 46, 255))
-                bot.FightType = "shooting"
-                bot.weapon = "cat_primaris_legacy_boltstormgauntlets"   
-                bot:SetNWString("Description", "A MACHINE WITH DEAD EYES ON HIS FACE")
-            else
+	
+ 
+            elseif roll <= 20 then
                 bot:SetNWString("Name", "DARK MARSHALL")
-                health = math.max(health * 5, 4000)
+                health = math.max(health * 6, 1200)
                 bot:SetModel("models/wk/adeptus_mechanicus/wk_skitarii_marshal.mdl")
                 bot:SetColor(Color(74, 46, 255))
-                local roll = math.random(1,100)
-                if roll <= 50 then
-                    bot.FightType = "shooting"
-                    bot.weapon = "arccw_admech_laslock"
-                elseif roll <= 70 then
-                    bot.FightType = "shooting"
-                    bot.weapon = "arccw_admech_arcrifle"
-                end
-                bot:SetNWString("Description", "LEAD OF SKITARIS OF THE DARK MECHANICUS")
+				bot.FightType = "shooting"
+                bot.weapon = "murlock_galvanic_rifle"
+                bot:SetNWString("Description", "LEAD OF THE SKITARIS OF THE DARK MECHANICUS")
                 bot:SetNWBool("ShieldEnable", true)
-            end
-        else
-            local botroll = math.random(1, 100)
-            if botroll <= 20 then
-                bot:SetNWString("Name", "CORRUPTED SERVITOR")
-                health = math.max(health * 0.5, 500)
-                bot:SetModel("models/wk/servitor/wk_servit.mdl")
-                bot:SetColor(Color(74, 46, 255))
-                bot.FightType = "flamer"
-                bot.weapon = "cat_chaos_legacy_flamer"
-                bot:SetNWString("Description", "A BROKEN SERVITOR WITH FLAMES ON IT")
-                bot.goblin = true
-            elseif botroll <= 40 then
-                bot:SetNWString("Name", "DARK SKITARII")
-                health = math.max(health * 2, 600)
-                bot:SetModel("models/wk/adeptus_mechanicus/wk_secutarii_hoplites.mdl")
-                bot:SetColor(Color(74, 46, 255))
-                bot.FightType = "shooting"
-                bot.weapon = "arccw_admech_galvanic_carabine"
-                bot:SetNWString("Description", "AN SKIITARII WITH DEAD EYES")
-            elseif botroll <= 80 then
+
+	        elseif roll <= 30 then
                 bot:SetNWString("Name", "DARK RANGER")
                 bot:SetModel("models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl")
+	            health = math.max(health * 5, 900)
                 bot:SetColor(Color(74, 46, 255))
                 bot.FightType = "shooting"
-                bot.weapon = "arccw_admech_archebus"
+                bot.weapon = "cat_custom_longlas_voss"
                 bot:SetNWString("Description", "A DEADLY SNIPER")
-            else
+
+            elseif roll <= 40 then
+                bot:SetNWString("Name", "DARK RUSTALKER")
+                health = math.max(health * 5, 900)
+                bot:SetModel("models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers_alpha.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "shooting"
+                bot.weapon = "murlock_galvanic_rifle"
+                bot:SetNWString("Description", "AN SKIITARII WITH DEAD EYES")
+
+	        elseif roll <= 60 then
                 bot:SetNWString("Name", "DARK PRIEST")
-                bot:SetModel("models/wk/adeptus_mechanicus/wk_trippriest.mdl")
+		        health = math.max(health * 4, 600)
+                bot:SetModel(math.random(2) == 1 and "models/wk/gans/wk_gans_priest.mdl" or "models/wk/fem_priast/wk_priestness.mdl")
                 bot.FightType = "shooting"
                 bot:SetColor(Color(74, 46, 255))
                 bot.weapon = "arccw_admech_heavy_arcrifle"
                 bot:SetNWString("Description", "DEAD ON THE INSIDE AND THE OUTSIDE")
+
+            else
+                bot:SetNWString("Name", "DARK SERVITOR")
+                health = math.max(health * 3, 500)
+                bot:SetModel("models/wk/servitor/wk_servit.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                if math.random(1,100) <= 50 then
+                    bot.FightType = "shooting"
+                    bot.weapon = "weapon_laspistol"
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "bowie_knife"
+                end
+			end
+        else
+
+            local roll = math.random(1, 100)
+
+            if roll <= 5 then
+                bot:SetNWString("Name", "DARK MAGOS")
+                health = math.max(health * 4, 2500)
+                bot:SetModel("models/astartes/mech/magos.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "hybrid"
+                bot.weapon = "murlock_volkite_blaster"    
+				bot.meleeweapon = "cat_legacy_chainswordheresy"
+                bot:SetNWBool("ShieldEnable", true)
+                bot:SetNWString("Description", "THE LEADER OF THE TECH HERETICS")
+
+           elseif roll <= 6 then
+                bot:SetNWString("Name", "DARK DOMINATOR")
+                health = math.max(health * 10, 4000)
+                bot:SetModel("models/wk/gibus/gibus_dominator.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(1.5, 0)
+                    end
+                end)
+	                if math.random(1,100) <= 50 then
+                bot.FightType = "shooting"
+                bot.weapon = "cat_legacy_assaultcannoncrusade"   
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "cat_legacy_thunderhammerterminator"
+                end
+				bot:SetNWString("Description", "THE END OF LEGIONS!")
+
+			elseif roll <= 10 then
+                bot:SetNWString("Name", "DARK ELECTRO PRIEST")
+                health = math.max(health * 4, 2000)
+                bot:SetModel("models/player/mechs_fulgurite.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "melee"
+                bot.weapon = "cat_legacy_powerclawcrusade"              
+                bot:SetNWString("Description", "A CREEPY FIGURE WITH ELECTRICITY")
+	
+ 
+            elseif roll <= 20 then
+                bot:SetNWString("Name", "DARK MARSHALL")
+                health = math.max(health * 5, 1000)
+                bot:SetModel("models/wk/adeptus_mechanicus/wk_skitarii_marshal.mdl")
+                bot:SetColor(Color(74, 46, 255))
+				bot.FightType = "shooting"
+                bot.weapon = "murlock_galvanic_rifle"
+                bot:SetNWString("Description", "LEAD OF THE SKITARIS OF THE DARK MECHANICUS")
+                bot:SetNWBool("ShieldEnable", true)
+
+	        elseif roll <= 30 then
+                bot:SetNWString("Name", "DARK RANGER")
+                bot:SetModel("models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl")
+	            health = math.max(health * 4, 800)
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "shooting"
+                bot.weapon = "cat_custom_longlas_voss"
+                bot:SetNWString("Description", "A DEADLY SNIPER")
+
+            elseif roll <= 40 then
+                bot:SetNWString("Name", "DARK RUSTALKER")
+                health = math.max(health * 4, 800)
+                bot:SetModel("models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers_alpha.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                bot.FightType = "shooting"
+                bot.weapon = "murlock_galvanic_rifle"
+                bot:SetNWString("Description", "AN SKIITARII WITH DEAD EYES")
+
+	        elseif roll <= 60 then
+                bot:SetNWString("Name", "DARK PRIEST")
+		        health = math.max(health * 3, 500)
+                bot:SetModel(math.random(2) == 1 and "models/wk/gans/wk_gans_priest.mdl" or "models/wk/fem_priast/wk_priestness.mdl")
+                bot.FightType = "shooting"
+                bot:SetColor(Color(74, 46, 255))
+                bot.weapon = "arccw_admech_heavy_arcrifle"
+                bot:SetNWString("Description", "DEAD ON THE INSIDE AND THE OUTSIDE")
+
+            else
+                bot:SetNWString("Name", "DARK SERVITOR")
+                health = math.max(health * 2, 400)
+                bot:SetModel("models/wk/servitor/wk_servit.mdl")
+                bot:SetColor(Color(74, 46, 255))
+                if math.random(1,100) <= 50 then
+                    bot.FightType = "shooting"
+                    bot.weapon = "weapon_laspistol"
+                else
+                    bot.FightType = "melee"
+                    bot.weapon = "bowie_knife"
+                end
+
+
             end
         end
 
