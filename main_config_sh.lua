@@ -3,7 +3,7 @@
 --DO NOT ANGER MURLOCK, EDIT IT IN GITHUB, OR 1. YOUR CHANGES WILL GET REMOVED, AND 2. HE WILL BE VERY ANGRY!!!!
 
 imperium_rp_font = "Sitka Text"
-gamemode_name = "ORK 40K ROLEPLAY"
+gamemode_name = "WARHAMMER 40K ROLEPLAY"
 
 
 local MAIN_MAPS = {
