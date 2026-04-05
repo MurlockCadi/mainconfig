@@ -799,17 +799,17 @@ DivisionTypes = {
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "Conscript"
+                Prefix = ""
             },
             {
                 Name = "Arbitrators",
-                Default = true,
+                Default = false,
                 Core = true,
 				MaxHealth = 200,
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"weapon_stunstick","weapon_cuff_shackles","weapon_cuff_elastic"},
-                Prefix = "Conscript"
+                Prefix = ""
             }
         }
     },
