@@ -1688,7 +1688,7 @@ ROLES = ROLES or {
                 ID = 1,
                 Name = "Staff",
                 Rank_Prefix = "",
-                ModelsAllowed = {"models/player/combine_super_soldier.mdl", "models/player/combine_soldier_prisonguard.mdl", "models/player/breen.mdl", "models/player/monk.mdl", "models/player/odessa.mdl", "models/player/skeleton.mdl"},
+                ModelsAllowed = {"models/obese_male.mdl","models/player/combine_super_soldier.mdl", "models/player/combine_soldier_prisonguard.mdl", "models/player/breen.mdl", "models/player/monk.mdl", "models/player/odessa.mdl", "models/player/skeleton.mdl"},
                 WeaponsAllowed = {},
                 CanPromote = true
             },
