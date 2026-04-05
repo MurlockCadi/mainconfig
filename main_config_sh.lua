@@ -172,7 +172,7 @@ end
 
 REVIVE_TIME = 2
 
-LOOT_TIME = 1.5
+LOOT_TIME = 2
 
 ----------------------TRENCH COOLDOWN
 
