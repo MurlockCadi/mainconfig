@@ -549,7 +549,7 @@ MERC_MODELS = {
 "models/dizcordum/wh/eldar/yuraine.mdl","models/astartes/eldar/guardian_redactus.mdl","models/astartes/eldar/banshees.mdl",
 }
 -- Comissariat
-COMMISSAR_MODELS = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl","models/wk/jackswan/scion/scion_commissar.mdl"}
+COMMISSAR_MODELS = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl","models/wk/jackswan/scion/scion_commissar.mdl","models/wk/comm/wk_comm.mdl","models/wk/comm/wk_comm_cadet.mdl","models/wk/comm/wk_comm_cadet_fm.mdl","models/wk/comm/wk_comm_fm.mdl","models/wk/comm/wk_comm_high.mdl"}
 -- Adeptus Mechanicus
 
 ADMECH_MODELS = { "models/astartes/mech/magos.mdl","models/jackswan/rogue_trader/wk_rt_secutor.mdl","models/wk/adeptus_mechanicus/wk_am_engenseer.mdl","models/wk/adeptus_mechanicus/wk_trippriest.mdl","models/wk/gans/wk_gans_priest.mdl","models/wk/fem_priast/wk_priestness_belka.mdl"}
