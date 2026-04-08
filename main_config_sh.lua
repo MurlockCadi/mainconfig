@@ -1746,6 +1746,7 @@ ROLES = ROLES or {
         Color = Color(0, 40, 150, 255),
         Description = "The backbone of the Astra Militarum, Cadian Shock Troopers are the Imperiums most numerous and versatile soldiers. The 11th, forged in the crucible of storm-lashed warzones, now stand vigilant in the defense of the Hive. Cadia Stands! You will join as a Fresh Recruit from the Hive City.",
         Default = true,
+		DefaultItems = {"item_702773","item_638820"},
         Ranks = {
             {ID = 1, Name = "Whiteshield", Rank_Prefix = "WSHL", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
         },
@@ -1767,6 +1768,7 @@ ROLES = ROLES or {
         Color = Color(50, 50, 50, 255),
         Description = "Hardened siege specialists from the Death World of Krieg. The 236th are experts in attrition warfare and unyielding assaults. They fight without fear, for death is their duty. You will join as a Fresh Recruit from the Hive City.",
         Default = true,
+		DefaultItems = {"item_702773","item_638820"},
         Ranks = {
             {
                 ID = 1,
@@ -1813,6 +1815,7 @@ ROLES = ROLES or {
         Description = "You are an Unknown Entity in the Sector. Forge your own path, shape your own destiny, and carve your legend into the stars.",
         Team = "hivecitizenplayer",
         VIP = true,
+		DefaultItems = {"item_702773","item_638820"},
         Ranks = {
             {ID = 1, Name = "Rogue Trader", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
