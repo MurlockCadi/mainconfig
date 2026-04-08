@@ -453,7 +453,13 @@ commands = {
 	["!quest"] = function(ply) OpenTaskMenu(ply) end,
 	["/quest"] = function(ply) OpenTaskMenu(ply) end,
 	["!quests"] = function(ply) OpenTaskMenu(ply) end,
-	["/quests"] = function(ply) OpenTaskMenu(ply) end
+	["/quests"] = function(ply) OpenTaskMenu(ply) end,
+	["!bossbot"] = function(ply) OpenBossCreationMenu(ply) end,
+	["/bossbot"] = function(ply) OpenBossCreationMenu(ply) end,
+	["!bossbots"] = function(ply) OpenBossCreationMenu(ply) end,
+	["/bossbots"] = function(ply) OpenBossCreationMenu(ply) end,
+	["!boss"] = function(ply) OpenBossCreationMenu(ply) end,
+	["/boss"] = function(ply) OpenBossCreationMenu(ply) end
 }
 
 
