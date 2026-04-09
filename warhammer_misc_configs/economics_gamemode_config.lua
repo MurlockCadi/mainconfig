@@ -704,3 +704,294 @@ if map == "rp_40k_hammerfall_undead" then
     
 
 end
+
+--- CONFIG FOR necromunda_v1 ---
+
+if not table.HasValue(EXTRA_ECON_MAPS, "necromunda_v1") then
+    table.insert(EXTRA_ECON_MAPS, "necromunda_v1")
+end
+
+if map == "necromunda_v1" then
+
+
+    SETTLEMENT_RAIDERS = false
+
+
+    --GLOBAL DUNGEON CONFIG--
+    MAX_ACTIVE_DUNGEONS = 0 -- if two make 1
+    GLOBAL_UNINFESTED_BOTS = 0
+    MAX_LOOT_ITEMS = 0 -- 10
+    LOOT_DESPAWN_TIME = 0 -- 1800 = 30 minutes
+
+    -- WASTELAND ENCOUNTERS --
+
+    ENCOUNTER_BOT_LIMITS[50] = 0 -- 50 players = 13 bots
+    ENCOUNTER_BOT_LIMITS[40] = 0 -- 40 players = 15 bots
+    ENCOUNTER_BOT_LIMITS[30] = 0 -- 30 players = 20 bots
+    ENCOUNTER_BOT_LIMITS[20] = 0 -- 20 players or below = 25 bots
+    ENCOUNTER_BOT_LIMITS[10] = 0 -- 10 players or below = 30 bots
+
+    -- RAW RESOURCES
+
+    RAW_RESOURCES = {
+        ["scrap"] = "item_410730",
+        ["raw_food"] = "item_707836",
+        ["preserved_food"] = "item_537656",
+        ["amenities"] = "item_296725",
+        ["cargo"] = "item_417492",
+        ["mechanical_tools"] = "item_376421",
+        ["machine_parts"] = "item_339128"
+    }
+
+    RAW_RESOURCES_RESILIENCE = {
+        ["item_707836"] = 500000, -- raw_food
+        ["item_410730"] = 250000, -- scrap
+        ["item_537656"] = 200000, -- processed_food
+        ["item_296725"] = 100000, -- amenities
+        ["item_417492"] = 500000, -- cargo
+        ["item_376421"] = 250000, -- mechanical_tools
+        ["item_339128"] = 200000, -- machine_parts
+    }
+
+    RAW_RESOURCES_LOOT_TABLE = {
+        "item_410730", -- scrap
+        "item_707836", -- raw_food
+        "item_339128", -- machine_parts
+        "item_417492" -- cargo
+    }
+    SETTLEMENT_INFO["The Upper Hive"] = {
+        Name = "The Upper Hive",
+        Description = "The Upper Hive is the domain of the higher in class citizens of Necromunda.It is where the planet’s wealthy nobility, senior administrators, and top industrial managers live in relative comfort, with far more space, power, and privilege than those below. Separated from the lower hive by heavily guarded barriers, it is a world of political influence, trade, and constant intrigue, protected from much of the violence and decay that define the depths beneath.",
+        Type = "major",
+        CanManageInventory = false,
+        CanWithDrawCaps = false,
+        Picture = "",
+        Trader = {
+            Name = "Head Market Administrator",
+            TraderModel = "models/wk/comm/wk_comm.mdl",
+            BodyGroups = { [6] = 5, [3] = 2, [4] = 4, [1] = 1, [2] = 1, [5] = 4},
+            SpawnPoint = {
+                Pos = Vector(-3006.73, 12297.03, 10856.03),
+                Ang = Angle(1.07, 90.80, 0.00)
+            }
+        },
+        WorkBench = {
+            Pos = Vector(-3023.56, 12720.96, 10876.02),
+            Ang = Angle(0.00, -90.00, 0.00)
+        },
+        ProductionMethod = {
+            Name = "Upper Hive Domestic Production",
+            Description = "The Upper Hive is responsible for producing a significant portion of the food and amenities consumed across the ship, as well as some machine parts and scrap that are produced as byproducts of their domestic activities. The wealthy citizens of the Upper Hive have a high demand for quality food and amenities, which drives much of the production in this area. Additionally, the maintenance of their luxurious living spaces and advanced machinery generates a steady output of scrap and machine parts that are essential for the functioning of the ship.",
+            Consumption = {
+                ["raw_food"] = 100,
+                ["machine_parts"] = 20,
+                ["cargo"] = 10,
+                ["amenities"] = 25,
+            },
+            Production = {
+                ["preserved_food"] = {
+                    Amount = 200,
+                    MaxStorage = 100000
+                },
+                ["amenities"] = {
+                    Amount = 300,
+                    MaxStorage = 50000
+                },
+                ["scrap"] = {
+                    Amount = 25,
+                    MaxStorage = 250000
+                },
+            }
+        },
+        SettlementBounderies = {
+            {
+                min = Vector(-6533.711426, 9886.348633, 10795.590820),
+                max = Vector(-1656.047607, 13668.430664, 12010.702148)
+            },
+        },
+        CoreNode = "settlement_core_1",
+    }
+
+    SETTLEMENT_INFO["The Lower Hive"] = {
+        Name = "The Lower Hive",
+        Description = "The Lower Hive is an area that serves as the primary residence for the working-class citizens of Necromunda. It is a labyrinthine network of cramped living quarters and bustling markets where the majority of the planet’s labor force resides. The Lower Hive is characterized by its stark contrast to the Upper Hive, with its overcrowded conditions, limited resources, and constant struggle for survival.",
+        Type = "major",
+        CanManageInventory = false,
+        CanWithDrawCaps = false,
+        Picture = "",
+        Trader = {
+            Name = "Adeptus Administratum Quartermaster",
+            TraderModel = "models/wk/adeptus_mechanicus/wk_am_hypaspists_alpha.mdl",
+            BodyGroups = {},
+            SpawnPoint = {
+                Pos = Vector(-5495.51, 2521.45, 7949.03),
+                Ang = Angle(0.00, 180.00, 0.00)
+            }
+        },
+        WorkBench = {
+            Pos = Vector(-5576.30, 2400.74, 7977.85),
+            Ang = Angle(0.00, -180.00, 0.00)
+        },
+        ProductionMethod = {
+            Name = "Adeptus Administratum Sanctioned Lower Hive Production",
+            Description = "The Adeptus Administratum oversees a portion of the production in the Lower Hive, sanctioning certain workshops and facilities to produce essential goods for the Lower Hives. These sanctioned producers focus on creating a variety of goods that are in high demand among the working-class citizens of the Lower Hive, as well as providing some materials that are necessary for the functioning of the Lower Hives. The production in this area is more focused on meeting the basic needs of the population, with an emphasis on affordability and accessibility.",
+            Consumption = {
+                ["cargo"] = 100,
+                ["scrap"] = 50
+            },
+            Production = {
+                ["mechanical_tools"] = {
+                    Amount = 200,
+                    MaxStorage = 500000
+                },
+                ["machine_parts"] = {
+                    Amount = 450,
+                    MaxStorage = 500000
+                },
+                ["raw_food"] = {
+                    Amount = 200,
+                    MaxStorage = 100000
+                },
+                ["amenities"] = {
+                    Amount = 50,
+                    MaxStorage = 50000
+                },
+            }
+        },
+        SettlementBounderies = {
+            {
+                min = Vector(-8202.344727, -5135.746094, 7733.286133),
+                max = Vector(-2052.551758, 3536.532715, 9839.038086)
+            },
+        },
+        CoreNode = "settlement_core_2",
+    }
+
+    SETTLEMENT_INFO["The Outer Hives"] = {
+        Name = "The Outer Hives",
+        Description = "The Outer Hives are a sprawling network of industrial zones, salvage yards, and freight depots that serve as the primary hubs for the processing and distribution of goods across Necromunda. The Outer Hives are responsible for a significant portion of the planet’s production, particularly in terms of machine parts, mechanical tools, and scrap that are salvaged from the various wrecks and derelict structures scattered across the planet. The Outer Hives also play a crucial role in the transportation and distribution of goods to the Upper and Lower Hives, as well as to other locations across the wider Imperium.",
+        Type = "major",
+        CanManageInventory = false,
+        CanWithDrawCaps = false,
+        Picture = "",
+        Trader = {
+            Name = "Frieght Master",
+            TraderModel = "models/wk/jackswan/scion/scion_tempestor_prime.mdl",
+            BodyGroups = { [0] = 0, [0] = 0, [0] = 0 },
+            SpawnPoint = {
+                Pos = Vector(6089.18, -10806.98, 7437.03),
+                Ang = Angle(0.00, 1.00, 0.00)
+            }
+        },
+        WorkBench = {
+            Pos = Vector(-6026.38, -11074.50, 7478.42),
+            Ang = Angle(0.00, 90.00, 0.00)
+        },
+        ProductionMethod = {
+            Name = "The Outer Hives Freight and Salvage Operations",
+            Description = "The Outer Hives are a sprawling network of industrial zones, salvage yards, and freight depots that serve as the primary hubs for the processing and distribution of goods across Necromunda. The Outer Hives are responsible for a significant portion of the planet’s production, particularly in terms of machine parts, mechanical tools, and scrap that are salvaged from the various wrecks and derelict structures scattered across the planet. The Outer Hives also play a crucial role in the transportation and distribution of goods to the Upper and Lower Hives, as well as to other locations across the wider Imperium.",
+            Consumption = {,
+                ["machine_parts"] = 50,
+                ["mechanical_tools"] = 50
+            },
+            Production = {
+                ["cargo"] = {
+                    Amount = 300,
+                    MaxStorage = 300000
+                },
+                ["raw_food"] = {
+                    Amount = 20,
+                    MaxStorage = 100000
+                },
+                ["amenities"] = {
+                    Amount = 25,
+                    MaxStorage = 50000
+                },
+                ["machine_parts"] = {
+                    Amount = 25,
+                    MaxStorage = 250000
+                },
+                ["mechanical_tools"] = {
+                    Amount = 25,
+                    MaxStorage = 250000
+                },
+                ["scrap"] = {
+                    Amount = 75,
+                    MaxStorage = 750000
+            }
+        },
+        SettlementBounderies = {
+            {
+                min = Vector(-7949.968750, -11112.874023, 7501.031250),
+                max = Vector(-3178.354004, -6716.566406, 8316.560547)
+            },
+        },
+        CoreNode = "settlement_core_3",
+    }
+},
+
+    EXTERNAL_MARKETS["Imperial Tithe"] = {
+        Name = "Imperial Tithe",
+        Description = "The Imperium forever demands its due. Worlds whom fail fulfill their tithes (stock is in the +) will face Imperial Tithe Collectors who will take what is owed without payment. Ensure the Tithe is fulfilled to avoid Tithe Collectors and to maintain good standing with the wider Imperium.",
+        SellModifier = 0.9, -- Players sell at 90% of base price into this market
+        MarketNode = "imperium_tithe_market",
+        Picture = "https://www.imperiumgaming.net/40k/fantasy/pictures/tithe.png",
+    }
+
+    EXTERNAL_MARKETS["The Cargo Bay"] = {
+        Name = "The Cargo Bay",
+        Description = "The Cargo Bay is a bustling hub of trade and commerce within the Outer Hives, where a wide variety of goods are bought and sold by merchants, traders, and scavengers. The market is known for its diverse selection of items, ranging from raw materials and industrial equipment to rare artifacts and contraband. The Cargo Bay serves as a critical link in the supply chain of Necromunda, facilitating the exchange of goods between the Outer Hives and other locations across the planet, as well as with off-world traders and buyers.",
+        SellModifier = 1.0, -- Players sell at 100% of base price into this market
+        MarketNode = "cargo_bay_market",
+        Picture = "",
+        OwnerRole = "extra_market_1"
+    }
+
+    EXTERNAL_MARKETS["The Lower Hive Networks"] = {
+        Name = "The Lower Hive Networks",
+        Description = "The Lower Hive Networks are a complex web of underground markets and trading hubs that operate within the Lower Hive, where a wide variety of goods are bought and sold by the working-class citizens of Necromunda. The market is known for its affordability and accessibility, with a focus on meeting the basic needs of the population. The Lower Hive Networks serve as a critical resource for the residents of the Lower Hive, providing access to essential goods and services that are often difficult to obtain through official channels.",
+        SellModifier = 1.1, -- Players sell at 110% of base price into this market
+        MarketNode = "extra_market_2",
+        Picture = ""
+    }
+
+    --- ALLOWED ECONOMIC BOTS TO RAID CARAVANS ---
+
+    ALLOWED_CARAVAN_RAIDERS = {
+        "Khornate Forces",
+        "Slaanesh Forces",
+        "Chem Lords",
+        "Nurgle Horde",
+        "Tzeentch Cult"
+    }
+    MURLOCK_DUNGEONS[""] = MURLOCK_DUNGEONS[""] or {
+        dungeon_node = "dungeon_core_node_1",
+        active = false,
+        health = 0,
+        cooldown = 0,
+        infestation = "none",
+        Bounderies = {
+            min = Vector(),
+            max = Vector()
+        }
+    }
+
+    MURLOCK_DUNGEONS[""] = MURLOCK_DUNGEONS[""] or {
+        dungeon_node = "",
+        active = false,
+        health = 0,
+        cooldown = 0,
+        infestation = "none",
+        Bounderies = {
+            min = Vector(),
+            max = Vector()
+        }
+    }
+
+    INFLUENCE_MAIN_MAP_GAMEMODE = true
+    BOT_SETTLEMENT_MAP["HigherHiveCitizen"] = "The Upper Hives"
+    BOT_SETTLEMENT_MAP["LowerHiveCitizen"] = "The Lower Hives"
+    BOT_SETTLEMENT_MAP["OuterHiveCitizen"] = "The Outer Hives"
+    
+
+end
