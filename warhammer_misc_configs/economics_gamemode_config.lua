@@ -6,6 +6,8 @@ if not table.HasValue(EXTRA_ECON_MAPS, "rp_warhammer") then
     table.insert(EXTRA_ECON_MAPS, "rp_warhammer")
 end
 
+local map = game.GetMap()
+
 if map == "rp_warhammer" then
 
     -- WASTELAND ENCOUNTERS
