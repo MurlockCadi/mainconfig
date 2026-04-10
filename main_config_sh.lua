@@ -72,7 +72,9 @@ intro_image_urls = {
     "https://www.imperiumgaming.net/warhammerload/backgrounds/images/17.png",
     "https://www.imperiumgaming.net/warhammerload/backgrounds/images/18.png",
     "https://www.imperiumgaming.net/warhammerload/backgrounds/images/19.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/20.png"
+    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/20.png",
+    "https://www.imperiumgaming.net/warhammerload/images/20260402220810_1.jpg",
+    "https://www.imperiumgaming.net/warhammerload/images/202A0B1.JPG"
 }
 
 -- Entity Respawn Timers for Entity Spawner
