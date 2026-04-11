@@ -54,6 +54,7 @@ CRAFTABLE_ITEMS["item_823479"] = 40000 -- heavy stubber tfa
 CRAFTABLE_ITEMS["item_801322"] = 40000 -- combat shotgun tfa
 CRAFTABLE_ITEMS["item_599451"] = 15000 -- heavy auto pistol arccw
 CRAFTABLE_ITEMS["item_658827"] = 40000 -- Heavy Bolter tfa
+CRAFTABLE_ITEMS["item_873492"] = 40000 -- Bolter and Shield
 
 CRAFTABLE_ITEMS["item_733572"] = 40000 -- Lucius hotshot lasgun tfa
 CRAFTABLE_ITEMS["item_869146"] = 40000 -- stormtrooper hellgun tfa
