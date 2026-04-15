@@ -2424,26 +2424,31 @@ PASSIVE_ITEM_FLAGS["FlowGenerator"] = {
 PASSIVE_ITEM_FLAGS["Xeno"] = {
     FunctionName = "classification",
     Description  = "[Xeno]",
+	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Loyal"] = {
     FunctionName = "classification",
     Description  = "[Loyal]",
+	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Chaos"] = {
     FunctionName = "classification",
     Description  = "[Chaos]",
+	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Illegal"] = {
     FunctionName = "classification",
     Description  = "[Illegal]",
+	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Psyker"] = {
     FunctionName = "classification",
     Description  = "[Psyker Only Item]",
+	Classification = true
 }
 
 -- Rarity Flags --
