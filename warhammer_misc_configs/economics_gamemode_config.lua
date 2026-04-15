@@ -266,7 +266,7 @@ if map == "rp_warhammer" then
                 },
                 ["amenities"] = {
                     Amount = 50,
-                    MaxStorage = 2500
+                    MaxStorage = 25000
                 },
             }
         },
