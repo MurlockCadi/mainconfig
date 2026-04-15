@@ -891,6 +891,47 @@ DivisionTypes = {
                 Prefix = ""
             },
             {
+                Name = "Penal Ratling",
+                Core = true,
+                Models = {"models/dizcordum/abhumans/ratling.mdl"},
+                Weapons = {"cat_custom_sniper"},
+                MaxHealth = 100,
+                ForceModels = true,
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+            {
+                Name = "Penal Squat",
+                Core = true,
+                Models = SQUAT_MODELS,
+                Weapons = SQUAT_WEAPONS,
+                ForceModels = true,
+                MaxHealth = 150,
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+            {
+                Name = "Penal Ogryn",
+                Core = true,
+                Models = OGRYN_MODELS,
+                Weapons = OGRYN_WEAPONS,
+                ForceModels = true,
+                MaxHealth = 300,
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+            {
+                Name = "Sister Repentia",
+                Core = true,
+                Models = {"models/sob_battlesister.mdl","models/sob_canones.mdl"},
+				priest = true,
+				Medic = true,
+                ForceModels = true,
+                MaxHealth = 125,
+                SpawnWeapons = {"cat_legacy_chainsword"},
+                Prefix = ""
+            },
+            {
                 Name = "Arbitrators",
                 Default = false,
                 Core = true,
