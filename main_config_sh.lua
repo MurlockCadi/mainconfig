@@ -2419,6 +2419,35 @@ PASSIVE_ITEM_FLAGS["FlowGenerator"] = {
     Color        = Color(0, 255, 255,255)
 }
 
+-- Classifications --
+
+PASSIVE_ITEM_FLAGS["Xeno"] = {
+    FunctionName = "classification",
+    Description  = "[Xeno]",
+}
+
+PASSIVE_ITEM_FLAGS["Loyal"] = {
+    FunctionName = "classification",
+    Description  = "[Loyal]",
+}
+
+PASSIVE_ITEM_FLAGS["Chaos"] = {
+    FunctionName = "classification",
+    Description  = "[Chaos]",
+}
+
+PASSIVE_ITEM_FLAGS["Illegal"] = {
+    FunctionName = "classification",
+    Description  = "[Illegal]",
+}
+
+PASSIVE_ITEM_FLAGS["Psyker"] = {
+    FunctionName = "classification",
+    Description  = "[Psyker Only Item]",
+}
+
+-- Rarity Flags --
+
 PASSIVE_ITEM_FLAGS["Common"] = {
     FunctionName = "none",
     Rarity       = true,
