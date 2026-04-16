@@ -89,3 +89,5 @@ CRAFTABLE_ITEMS["item_159820"] = 15000 -- Power axe
 CRAFTABLE_ITEMS["item_302788"] = 20000 -- power sword shield
 
 CRAFTABLE_ITEMS["item_864937"] = 10000 -- Frag grenade
+
+CRAFTABLE_ITEMS["item_958723"] = 5000 -- Vox Caster
