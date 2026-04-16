@@ -1449,7 +1449,7 @@ DivisionTypes = {
                 Models = {},
                 MaxHealth = 200,
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","jet_mk1"},
+                SpawnWeapons = {"ent_spawner","jet_mk1","wep_radio_usa_ww2"},
                 EntitySpawner = {
                     {
                         name = "Radio",
@@ -1563,7 +1563,7 @@ DivisionTypes = {
                 Radio = true,
                 Models = {"models/vintagethief/11th_imperial_guard/11th_vet_vox_grey.mdl","models/vintagethief/11th_imperial_guard/11th_vox_grey.mdl"},
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","wep_radio_usa_ww2"},
                 EntitySpawner = {
                     {
                         name = "Radio",
@@ -1727,7 +1727,7 @@ DivisionTypes = {
                 Radio = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","wep_radio_usa_ww2"},
                 EntitySpawner = {
                     {
                         name = "Radio",
