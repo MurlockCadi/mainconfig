@@ -419,7 +419,16 @@ commands = {
 	["!bossbots"] = function(ply) OpenBossCreationMenu(ply) end,
 	["/bossbots"] = function(ply) OpenBossCreationMenu(ply) end,
 	["!boss"] = function(ply) OpenBossCreationMenu(ply) end,
-	["/boss"] = function(ply) OpenBossCreationMenu(ply) end
+	["/boss"] = function(ply) OpenBossCreationMenu(ply) end,
+    ["/radio"] = function(ply, args) return radio_command(ply, args) end,
+    ["!radio"] = function(ply, args) return radio_command(ply, args) end,
+    ["/radio"] = function(ply, args) return radio_command(ply, args) end,
+	["/vox"] = function(ply, args) return radio_command(ply, args) end,
+	["!vox"] = function(ply, args) return radio_command(ply, args) end,
+    ["!r"] = function(ply, args) return radio_command(ply, args) end,
+    ["/r"] = function(ply, args) return radio_command(ply, args) end,
+    ["!gradio"] = function(ply, args) return radio_command(ply, args) end,
+    ["/gradio"] = function(ply, args) return radio_command(ply, args) end
 }
 
 
