@@ -5,165 +5,215 @@ FACTION_TYPES["GOBLINS"] = {
 
     CreateGoblin = function(self, bot, elite)
         local health = GetHealthByTotalPlayers() * 0.5
-
-        -- 25% chance for elite squigs
         local spawn_elite = elite or math.random(1, 100) <= 25
 
         if spawn_elite then
-            -- Squig elite
             bot.Elite = true
-			local roll = math.random()
-            if roll <= 0.02 then
-            bot:SetNWString("Name", "Squig")
-            local model = "models/astartes/squig/squig.mdl"
-            bot:SetModel(model)
-            health = math.max(health * 2, 5000)
-            bot:SetRunSpeed(360)
-            bot:SetWalkSpeed(360)
-            bot.FightType = "melee"
-            bot.weapon = "murlock_melee"
-            bot:SetNWString("Description", "A ravenous Squig that charges and bites anything in its path!")
-            bot:SetNWBool("ShieldEnable", false)
+            local roll = math.random(1, 100)
 
-			elseif roll <= 0.05 then
+            if roll <= 2 then
+                bot:SetNWString("Name", "Squig")
+                bot:SetModel("models/astartes/squig/squig.mdl")
+                bot:SetRunSpeed(360)
+                bot:SetWalkSpeed(360)
+                bot.FightType = "melee"
+                bot.weapon = "murlock_melee"
+                bot:SetNWString("Description", "A ravenous Squig that charges and bites anything in its path!")
+                bot:SetNWBool("ShieldEnable", false)
+                health = math.max(health * 2, 500)
+
+            elseif roll <= 5 then
                 bot:SetNWString("Name", "Gretchin Wierdo")
-                local model = "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 1, 1000)
+                bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
                 bot.FightType = "shooting"
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
-                bot.hasgun = true
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "Warp-touched Gretchin with a knack for sorcery.")
-            elseif roll <= 0.25 then
+                health = math.max(health * 1, 800)
+
+            elseif roll <= 25 then
                 bot:SetNWString("Name", "Snotling")
-                local model = "models/barbossa/snotling/snotling_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 2, 500)
+                bot:SetModel("models/barbossa/snotling/snotling_pm.mdl")
                 bot:SetRunSpeed(350)
                 bot:SetWalkSpeed(350)
-                bot:SetModelScale(0.8, 0)
+                timer.Simple(1, function()
+                    if IsValid(bot) then
+                        bot:SetModelScale(0.7, 0)
+                    end
+                end)
+                bot.FightType = "melee"
+                bot.weapon = "bowie_knife"
                 bot:SetNWString("Description", "A tiny, vicious little greenskin pest.")
-            elseif roll <= 0.5 then
+                health = math.max(health * 2, 250)
+
+            elseif roll <= 50 then
                 bot:SetNWString("Name", "Gretchin")
-                local model = "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 2, 1000)
+                bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
                 bot:SetRunSpeed(250)
                 bot:SetWalkSpeed(250)
-                bot:SetModelScale(0.9, 0)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(0.9, 0)
+                    end
+                end)
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_slugga"
                 bot:SetNWString("Description", "A sneaky little goblin with sharp teef and tricks.")
-            elseif roll <= 0.75 then
+                health = math.max(health * 2, 500)
+
+            elseif roll <= 75 then
                 bot:SetNWString("Name", "Greater Snotling")
-                local model = "models/barbossa/snotling/snotling_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 3, 1500)
+                bot:SetModel("models/barbossa/snotling/snotling_pm.mdl")
                 bot:SetRunSpeed(250)
                 bot:SetWalkSpeed(250)
+                bot.FightType = "melee"
+                bot.weapon = "bowie_knife"
                 bot:SetNWString("Description", "A larger, meaner snotling that bosses around the smaller ones.")
-            elseif roll <= 0.90 then
+                health = math.max(health * 3, 500)
+
+            elseif roll <= 90 then
                 bot:SetNWString("Name", "Greater Gretchin")
-                local model = "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 3, 2000)
+                bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
                 bot:SetRunSpeed(250)
                 bot:SetWalkSpeed(250)
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_slugga"
                 bot:SetNWString("Description", "A tough gretchin, eager to prove it's almost an ork.")
-            else
+                health = math.max(health * 3, 750)
+
+            elseif roll <= 100 then
                 bot:SetNWString("Name", "Gretchin In Power Armor")
-                local model = "models/muschi/orks/muschi_ork_meganob.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 5, 2000)
-                bot:SetNWBool("ShieldEnable", true)
+                bot:SetModel("models/muschi/orks/muschi_ork_meganob.mdl")
                 bot:SetRunSpeed(250)
+                bot:SetWalkSpeed(250)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(0.5, 0)
+                    end
+                end)
                 bot.FightType = "melee"
                 bot.weapon = "tfa_big_choppa"
-                bot.hasgun = true
-                bot:SetModelScale(0.5, 0)
-                bot:SetWalkSpeed(250)
+                bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A cunning gretchin that leads the others.")
+                health = math.max(health * 5, 1000)
             end
         else
-            -- Normal goblins
-            local roll = math.random()
-            if roll <= 0.05 then
+            local roll = math.random(1, 100)
+
+            if roll <= 5 then
                 bot:SetNWString("Name", "Gretchin Wierdo")
-                local model = "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 1, 1000)
+                bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
                 bot.FightType = "shooting"
-				bot.pysker = true
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
-                bot.hasgun = true
+                bot.pysker = true
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "Warp-touched Gretchin with a knack for sorcery.")
-            elseif roll <= 0.25 then
+                health = math.max(health * 1, 800)
+
+            elseif roll <= 25 then
                 bot:SetNWString("Name", "Snotling")
-                local model = "models/barbossa/snotling/snotling_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 2, 500)
+                bot:SetModel("models/barbossa/snotling/snotling_pm.mdl")
                 bot:SetRunSpeed(350)
                 bot:SetWalkSpeed(350)
-                bot:SetModelScale(0.8, 0)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(0.8, 0)
+                    end
+                end)
+                bot.FightType = "melee"
+                bot.weapon = "bowie_knife"
                 bot:SetNWString("Description", "A tiny, vicious little greenskin pest.")
-            elseif roll <= 0.5 then
+                health = math.max(health * 2, 250)
+
+            elseif roll <= 50 then
                 bot:SetNWString("Name", "Gretchin")
-                local model = "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 2, 1000)
+                bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
                 bot:SetRunSpeed(250)
                 bot:SetWalkSpeed(250)
-                bot:SetModelScale(0.9, 0)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(0.9, 0)
+                    end
+                end)
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_slugga"
                 bot:SetNWString("Description", "A sneaky little goblin with sharp teef and tricks.")
-            elseif roll <= 0.75 then
+                health = math.max(health * 2, 500)
+
+            elseif roll <= 75 then
                 bot:SetNWString("Name", "Greater Snotling")
-                local model = "models/barbossa/snotling/snotling_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 3, 1500)
+                bot:SetModel("models/barbossa/snotling/snotling_pm.mdl")
                 bot:SetRunSpeed(250)
                 bot:SetWalkSpeed(250)
+                bot.FightType = "melee"
+                bot.weapon = "bowie_knife"
                 bot:SetNWString("Description", "A larger, meaner snotling that bosses around the smaller ones.")
-            elseif roll <= 0.90 then
+                health = math.max(health * 3, 500)
+
+            elseif roll <= 90 then
                 bot:SetNWString("Name", "Greater Gretchin")
-                local model = "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 3, 2000)
+                bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
                 bot:SetRunSpeed(250)
                 bot:SetWalkSpeed(250)
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_slugga"
                 bot:SetNWString("Description", "A tough gretchin, eager to prove it's almost an ork.")
-            else
-                bot:SetNWString("Name", "Gretchin In Power Armor")
-                local model = "models/muschi/orks/muschi_ork_meganob.mdl"
-                bot:SetModel(model)
-                health = math.max(health * 5, 2000)
-                bot:SetNWBool("ShieldEnable", true)
+                health = math.max(health * 3, 750)
+
+            elseif roll <= 95 then
+                bot:SetNWString("Name", "Gretchin Brute")
+                bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
                 bot:SetRunSpeed(250)
+                bot:SetWalkSpeed(150)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(0.9, 0)
+                    end
+                end)
+                bot.FightType = "melee"
+                bot.weapon = "iron_spear"
+                bot:SetNWString("Description", "A brutish gretchin that relies on strength and a big spear to crush its foes.")
+                health = math.max(health * 3, 850)
+
+            elseif roll <= 98 then
+                bot:SetNWString("Name", "fast Snotling")
+                bot:SetModel("models/barbossa/snotling/snotling_pm.mdl")
+                bot:SetRunSpeed(430)
+                bot:SetWalkSpeed(350)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(0.6, 0)
+                    end
+                end)
+                bot.FightType = "melee"
+                bot.weapon = "bowie_knife"
+                bot:SetNWString("Description", "A smaller, faster snotling that zips around the battlefield.")
+                health = math.max(health * 2, 100)
+
+            elseif roll <= 100 then
+                bot:SetNWString("Name", "Gretchin In Power Armor")
+                bot:SetModel("models/muschi/orks/muschi_ork_meganob.mdl")
+                bot:SetRunSpeed(250)
+                bot:SetWalkSpeed(250)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(0.5, 0)
+                    end
+                end)
                 bot.FightType = "melee"
                 bot.weapon = "tfa_big_choppa"
-                bot.hasgun = true
-                bot:SetModelScale(0.5, 0)
-                bot:SetWalkSpeed(250)
+                bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A cunning gretchin that leads the others.")
-            end
-
-            if not bot.hasgun then
-                if math.random(100) <= 50 then
-                    bot.FightType = "melee"
-                    bot.weapon = "bowie_knife"
-                else
-                    bot.FightType = "shooting"
-                    bot.weapon = "tfa_slugga"
-                end
+                health = math.max(health * 5, 1000)
             end
         end
 
-        -- finalize
+        bot:SetNWString("Status", "GOBLINS")
         bot:StripWeapons()
         bot.goblin = true
         bot.ork = true
         RandomonizeBodygroupsAndSkinsOrks(bot)
         bot:SetNWString("MAX_HEALTH", health)
-        bot:SetNWString("Status", "GOBLINS")
         bot:SetMaxHealth(health)
         bot:SetHealth(health)
         bot:SetNoTarget(true)
