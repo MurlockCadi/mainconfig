@@ -71,22 +71,18 @@ if map == "rp_warhammer" then
             Description = "A traditional method of production that prioritizes manual labor and craftsmanship. In this system, workers are organized into guilds or workshops, where they produce tools, amenities and preserved food using Feudal techniques. The Guilds of Adderoth go back centuries and are deeply ingrained in the culture of the region.",
             Consumption = {
                 ["raw_food"] = 100,
-                ["lumber"] = 50,
-                ["metals"] = 35,
-                ["tools"] = 25
+                ["lumber"] = 100,
+                ["metals"] = 200,
+                ["tools"] = 75
             },
             Production = {
                 ["preserved_food"] = {
                     Amount = 200,
-                    MaxStorage = 100000
-                },
-                ["tools"] = {
-                    Amount = 200,
-                    MaxStorage = 100000
+                    MaxStorage = 200000
                 },
                 ["amenities"] = {
-                    Amount = 75,
-                    MaxStorage = 50000
+                    Amount = 300,
+                    MaxStorage = 300000
                 }
             }
         },
@@ -134,21 +130,17 @@ if map == "rp_warhammer" then
             Name = "Votann Industry",
             Description = "The Kin are an Industrial Race of Mutants on Adderoth, they require preserved food for there mining expeditions and lumber for supports and also to make charcoal to fuel their forges. They produce tools, metals and amenities that support the rest of the region.",
             Consumption = {
-                ["lumber"] = 100,
-                ["preserved_food"] = 100
+                ["lumber"] = 400,
+                ["preserved_food"] = 150
             },
             Production = {
                 ["metals"] = {
-                    Amount = 300,
-                    MaxStorage = 100000
+                    Amount = 250,
+                    MaxStorage = 250000
                 },
                 ["tools"] = {
-                    Amount = 150,
-                    MaxStorage = 100000
-                },
-                ["amenities"] = {
-                    Amount = 75,
-                    MaxStorage = 50000
+                    Amount = 400,
+                    MaxStorage = 400000
                 }
             }
         },
@@ -197,17 +189,17 @@ if map == "rp_warhammer" then
             Name = "Foresters Guild",
             Description = "The Foresters Guild is a traditional organization of lumberjacks and woodworkers on Adderoth who are responsible for harvesting and processing timber in the region. They need preserved food for their lumbering expeditions, and in return produce lumber for the rest of the region.",
             Consumption = {
-                ["tools"] = 125,
-                ["preserved_food"] = 25
+                ["tools"] = 110,
+                ["preserved_food"] = 50
             },
             Production = {
                 ["lumber"] = {
-                    Amount = 300,
-                    MaxStorage = 200000
+                    Amount = 800,
+                    MaxStorage = 800000
                 },
-                ["raw_food"] = {
-                    Amount = 150,
-                    MaxStorage = 100000
+                ["amenities"] = {
+                     Amount = 100,
+                     MaxStorage = 100000
                 },
             }
         },
@@ -261,12 +253,12 @@ if map == "rp_warhammer" then
             },
             Production = {
                 ["raw_food"] = {
-                    Amount = 400,
+                    Amount = 1000,
                     MaxStorage = 100000
                 },
-                ["amenities"] = {
-                    Amount = 50,
-                    MaxStorage = 2500
+                ["preserved_food"] = {
+                    Amount = 400,
+                    MaxStorage = 40000
                 },
             }
         },
