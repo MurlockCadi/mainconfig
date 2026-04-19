@@ -1724,7 +1724,7 @@ DivisionTypes = {
                     },
                     {
                         name = "Siege Cannon",
-                        entityname = "or_gun_platform_artillery",
+                        entityname = "or_gun_platform_artillery1",
                         description = "Huge Siege Cannon of Krieg. WARNING: VERY LARGE!",
                         type = "Artillery"
                     }
