@@ -580,8 +580,10 @@ HOLY_MODELS = {
     "models/dizcordum/wk/ecclesiarchy/abbat.mdl",
     "models/dizcordum/wk/ecclesiarchy/priest.mdl",
     "models/wk/jackswan/ministorum_priest.mdl",
-    "models/wk/jackswan/zealot.mdl"
+    "models/wk/jackswan/zealot.mdl",
+    "models/wk/jackswan/hexorcist.mdl"
 }
+
 CRUSADER_MODELS = {
     "models/wk/jackswan/crusader.mdl",
     "models/wk/jackswan/executor.mdl",
@@ -1335,6 +1337,7 @@ DivisionTypes = {
             },
             {
                 Name = "Crusader",
+                Core = true,
 				ForceModels = true,
 				priest = true,
                 Models = CRUSADER_MODELS,
