@@ -70,23 +70,19 @@ if map == "rp_warhammer" then
             Name = "Guilds of Adderoth",
             Description = "A traditional method of production that prioritizes manual labor and craftsmanship. In this system, workers are organized into guilds or workshops, where they produce tools, amenities and preserved food using Feudal techniques. The Guilds of Adderoth go back centuries and are deeply ingrained in the culture of the region.",
             Consumption = {
-                ["raw_food"] = 100,
-                ["lumber"] = 50,
-                ["metals"] = 35,
-                ["tools"] = 25
+                ["raw_food"] = 200,
+                ["lumber"] = 100,
+                ["metals"] = 80,
+                ["tools"] = 50
             },
             Production = {
                 ["preserved_food"] = {
-                    Amount = 200,
-                    MaxStorage = 100000
-                },
-                ["tools"] = {
-                    Amount = 200,
-                    MaxStorage = 100000
+                    Amount = 650,
+                    MaxStorage = 750000
                 },
                 ["amenities"] = {
-                    Amount = 75,
-                    MaxStorage = 50000
+                    Amount = 200,
+                    MaxStorage = 250000
                 }
             }
         },
@@ -134,21 +130,17 @@ if map == "rp_warhammer" then
             Name = "Votann Industry",
             Description = "The Kin are an Industrial Race of Mutants on Adderoth, they require preserved food for there mining expeditions and lumber for supports and also to make charcoal to fuel their forges. They produce tools, metals and amenities that support the rest of the region.",
             Consumption = {
-                ["lumber"] = 100,
-                ["preserved_food"] = 100
+                ["lumber"] = 250,
+                ["preserved_food"] = 250
             },
             Production = {
                 ["metals"] = {
-                    Amount = 300,
-                    MaxStorage = 100000
+                    Amount = 200,
+                    MaxStorage = 180000
                 },
                 ["tools"] = {
-                    Amount = 150,
-                    MaxStorage = 100000
-                },
-                ["amenities"] = {
-                    Amount = 75,
-                    MaxStorage = 50000
+                    Amount = 600,
+                    MaxStorage = 600000
                 }
             }
         },
@@ -197,15 +189,15 @@ if map == "rp_warhammer" then
             Name = "Foresters Guild",
             Description = "The Foresters Guild is a traditional organization of lumberjacks and woodworkers on Adderoth who are responsible for harvesting and processing timber in the region. They need preserved food for their lumbering expeditions, and in return produce lumber for the rest of the region.",
             Consumption = {
-                ["tools"] = 125,
-                ["preserved_food"] = 25
+                ["tools"] = 80,
+                ["preserved_food"] = 50
             },
             Production = {
                 ["lumber"] = {
-                    Amount = 300,
-                    MaxStorage = 200000
+                    Amount = 900,
+                    MaxStorage = 900000
                 },
-                ["raw_food"] = {
+                ["amenities"] = {
                     Amount = 150,
                     MaxStorage = 100000
                 },
@@ -256,17 +248,18 @@ if map == "rp_warhammer" then
             Name = "Morbid Extraction",
             Description = "The Dead yet provides, in Grim Spire the locals have turned into Morbid Scavengers who exhume the dead and extract resources from them to produce raw food and amenities for the rest of the region. They consume tools to perform their grim work, and lumber to cremate what is left.",
             Consumption = {
-                ["tools"] = 125,
-                ["lumber"] = 25
+                ["tools"] = 100,
+                ["lumber"] = 120,
+                ["preserved_food"] = 100
             },
             Production = {
                 ["raw_food"] = {
-                    Amount = 400,
-                    MaxStorage = 100000
+                    Amount = 1200,
+                    MaxStorage = 1200000
                 },
-                ["amenities"] = {
-                    Amount = 50,
-                    MaxStorage = 2500
+                ["preserved_food"] = {
+                    Amount = 300,
+                    MaxStorage = 300000
                 },
             }
         },
@@ -494,22 +487,22 @@ if map == "rp_40k_hammerfall_undead" then
             Name = "Officers of the Hammerfall",
             Description = "The Men and Women of the Navis Imperialis fulfill a number of critical roles aboard the Hammerfall, from cooks producing better food for the crew, to officers maintaining the amenities needed to keep morale high across the decks. They are pompous in there demeanor and take pride in their work, and will refuse to work if they do not have amenities themselves.",
             Consumption = {
-                ["raw_food"] = 100,
-                ["machine_parts"] = 20,
-                ["cargo"] = 10,
-                ["amenities"] = 25,
+                ["mechanical_tools"] = 50,
+                ["machine_parts"] = 50,                
+                ["cargo"] = 100,
+                ["preserved_food"] = 40,
             },
             Production = {
+                ["raw_food"] = {
+                    Amount = 1000,
+                    MaxStorage = 1000000
+                },
                 ["preserved_food"] = {
-                    Amount = 200,
-                    MaxStorage = 100000
+                    Amount = 500,
+                    MaxStorage = 500000
                 },
                 ["amenities"] = {
-                    Amount = 300,
-                    MaxStorage = 50000
-                },
-                ["scrap"] = {
-                    Amount = 25,
+                    Amount = 250,
                     MaxStorage = 250000
                 },
             }
@@ -547,33 +540,16 @@ if map == "rp_40k_hammerfall_undead" then
             Name = "Hammerfall Cargo Bay Operations",
             Description = "The Cargo Bay, operated by low-ranking personnel under the oversight of the Navis Imperialis, is critical to the importation of supplies required for daily operations across the ship. Large quantities of pre-processed rations preserved for long-term transport, a wide variety of amenities, and vital machine parts and maintenance tools are first received here before being distributed throughout the vessel. Most are locked away in Crates that need to be opened in the Ships Manufactorum to be accessed.",
             Consumption = {
-                ["machine_parts"] = 50,
-                ["mechanical_tools"] = 50
+                ["scrap"] = 48,
+                ["mechanical_tools"] = 50,
+                ["machine_parts"] = 40,
+                ["preserved_food"] = 100
+                
             },
             Production = {
                 ["cargo"] = {
-                    Amount = 300,
-                    MaxStorage = 300000
-                },
-                ["raw_food"] = {
-                    Amount = 20,
-                    MaxStorage = 100000
-                },
-                ["amenities"] = {
-                    Amount = 25,
-                    MaxStorage = 50000
-                },
-                ["machine_parts"] = {
-                    Amount = 25,
-                    MaxStorage = 250000
-                },
-                ["mechanical_tools"] = {
-                    Amount = 25,
-                    MaxStorage = 250000
-                },
-                ["scrap"] = {
-                    Amount = 75,
-                    MaxStorage = 750000
+                    Amount = 400,
+                    MaxStorage = 400000
                 }
             }
         },
@@ -610,26 +586,22 @@ if map == "rp_40k_hammerfall_undead" then
             Name = "The Manufactorum",
             Description = "The Manufactorum is a vast industrial complex where scrap and cargo are processed into usable materials and goods. Workers toil tirelessly to open locked Cargo Crates, and extract the needed resources to keep the ship running. They are also responsible for recycling and repurposing scrap and junk produced across the ship into usable materials to extract every last bit of value from the limited resources available.",
             Consumption = {
-                ["cargo"] = 100,
-                ["scrap"] = 50
+                ["cargo"] = 60,
+                ["preserved_food"] = 60
             },
             Production = {
+                ["scrap"] = {
+                    Amount = 120,
+                    MaxStorage = 120000
+                },
                 ["mechanical_tools"] = {
-                    Amount = 200,
-                    MaxStorage = 500000
+                    Amount = 220,
+                    MaxStorage = 220000
                 },
                 ["machine_parts"] = {
-                    Amount = 450,
-                    MaxStorage = 500000
-                },
-                ["raw_food"] = {
                     Amount = 200,
-                    MaxStorage = 100000
-                },
-                ["amenities"] = {
-                    Amount = 50,
-                    MaxStorage = 50000
-                },
+                    MaxStorage = 200000
+                }
             }
         },
         SettlementBounderies = {
