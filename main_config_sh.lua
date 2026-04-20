@@ -579,14 +579,15 @@ PYSKER_MODELS = {
 HOLY_MODELS = {
     "models/dizcordum/wk/ecclesiarchy/abbat.mdl",
     "models/dizcordum/wk/ecclesiarchy/priest.mdl",
+    "models/wk/jackswan/ministorum_priest.mdl",
+    "models/wk/jackswan/zealot.mdl"
+}
+CRUSADER_MODELS = {
     "models/wk/jackswan/crusader.mdl",
     "models/wk/jackswan/executor.mdl",
     "models/wk/jackswan/hexorcist.mdl",
-    "models/wk/jackswan/ministorum_priest.mdl",
-    "models/wk/jackswan/octavian_executor.mdl",
-    "models/wk/jackswan/zealot.mdl"
+    "models/wk/jackswan/octavian_executor.mdl"
 }
-
 -- Mercenary
 MERC_MODELS = {
     "models/wk/civilian/wk_civilian.mdl",
@@ -1329,6 +1330,16 @@ DivisionTypes = {
                 Models = HOLY_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
                 MaxHealth = 100,
+                SpawnWeapons = {"murlock_staff_player_new"},
+                Prefix = ""
+            },
+            {
+                Name = "Crusader",
+				ForceModels = true,
+				priest = true,
+                Models = CRUSADER_MODELS,
+                Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
+                MaxHealth = 150,
                 SpawnWeapons = {"murlock_staff_player_new"},
                 Prefix = ""
             },
