@@ -12,7 +12,7 @@ FACTION_TYPES["TYRANIDS"] = {
             local EliteTypeRoll = math.random(1, 100)
             if EliteTypeRoll <= 45 then
                 bot.Elite = true
-                health = math.max(health * 3, 1000)
+                health = math.max(health * 3, 350)
                 bot:SetNWString("Name", "Genestealer")
                 local model = "models/stealer.mdl"
                 bot:SetModel(model)
@@ -22,7 +22,7 @@ FACTION_TYPES["TYRANIDS"] = {
                 bot:SetNWBool("ShieldEnable", true)
             elseif EliteTypeRoll <= 85 then
                 bot.Elite = true
-                health = math.max(health * 6.5, 1000)
+                health = math.max(health * 6.5, 450)
                 bot:SetNWString("Name", "Tyranid Warrior")
                 local model = "models/tyranids/warrior/warrior.mdl"
                 bot:SetModel(model)
@@ -33,7 +33,7 @@ FACTION_TYPES["TYRANIDS"] = {
                 bot:SetNWString("Description", "A powerful servant of the Tyranids, ready to spill blood in the name of the Hive Mind.")
             elseif EliteTypeRoll <= 90 then
                 bot.Elite = true
-                health = math.max(health * 13, 1000)
+                health = math.max(health * 13, 600)
                 bot:SetNWString("Name", "Tyranid Swarmlord")
                 local model = "models/tyranids/swarmlord/swarmlord.mdl"
                 bot:SetModel(model)
@@ -45,7 +45,7 @@ FACTION_TYPES["TYRANIDS"] = {
                 bot:SetNWString("Description", "The ultimate bio-engineered commander of the Tyranid swarm.")
             else
                 bot.Elite = true
-                health = math.max(health * 30, 1000)
+                health = math.max(health * 30, 750)
                 bot:SetNWString("Name", "Tyranid Carnifex")
                 local model = "models/tyranids/carnifex/carnifex.mdl"
                 bot:SetModel(model)
