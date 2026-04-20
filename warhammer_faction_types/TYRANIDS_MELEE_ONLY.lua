@@ -13,7 +13,7 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
             local EliteTypeRoll = math.random(1, 100)
             if EliteTypeRoll <= 45 then
                 bot.Elite = true
-                health = math.max(health * 3, 1000)
+                health = math.max(health * 3, 250)
                 bot:SetNWString("Name", "Genestealer")
                 local model = "models/stealer.mdl"
                 bot:SetModel(model)
@@ -23,7 +23,7 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
                 bot:SetNWBool("ShieldEnable", true)
             elseif EliteTypeRoll <= 85 then
                 bot.Elite = true
-                health = math.max(health * 6.5, 1000)
+                health = math.max(health * 6.5, 350)
                 bot:SetNWString("Name", "Tyranid Warrior")
                 local model = "models/tyranids/warrior/warrior.mdl"
                 bot:SetModel(model)
@@ -34,7 +34,7 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
                 bot:SetNWString("Description", "A powerful servant of the Tyranids, ready to spill blood in the name of the Hive Mind.")
             elseif EliteTypeRoll <= 90 then
                 bot.Elite = true
-                health = math.max(health * 13, 1000)
+                health = math.max(health * 13, 500)
                 bot:SetNWString("Name", "Tyranid Swarmlord")
                 local model = "models/tyranids/swarmlord/swarmlord.mdl"
                 bot:SetModel(model)
@@ -46,7 +46,7 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
                 bot:SetNWString("Description", "The ultimate bio-engineered commander of the Tyranid swarm.")
             else
                 bot.Elite = true
-                health = math.max(health * 30, 1000)
+                health = math.max(health * 30, 750)
                 bot:SetNWString("Name", "Tyranid Carnifex")
                 local model = "models/tyranids/carnifex/carnifex.mdl"
                 bot:SetModel(model)
@@ -111,14 +111,14 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
 
     CreateNecron = function(self, bot, force_elite)
         local TotalPlayers = #player.GetHumans()
-        local baseHealth = 1000
+        local baseHealth = 250
 
-        if TotalPlayers < 5 then baseHealth = 1000
-        elseif TotalPlayers < 10 then baseHealth = 3000
-        elseif TotalPlayers < 20 then baseHealth = 2500
-        elseif TotalPlayers < 30 then baseHealth = 3500
-        elseif TotalPlayers < 40 then baseHealth = 8500
-        elseif TotalPlayers < 50 then baseHealth = 1000 end
+        if TotalPlayers < 5 then baseHealth = 250
+        elseif TotalPlayers < 10 then baseHealth = 500
+        elseif TotalPlayers < 20 then baseHealth = 750
+        elseif TotalPlayers < 30 then baseHealth = 1000
+        elseif TotalPlayers < 40 then baseHealth = 1250
+        elseif TotalPlayers < 50 then baseHealth = 1500 end
 
         local spawn_elite = force_elite or (math.random(1, 100) <= 10)
 
@@ -141,7 +141,7 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
 				bot.pysker = true
                 bot:SetNWString("Description", "A twisted Necron Cryptek wielding ancient eldritch technology.")
                 bot:SetNWBool("ShieldEnable", true)
-                baseHealth = math.max(baseHealth * 3, 1000)
+                baseHealth = math.max(baseHealth * 3, 350)
             elseif elite_roll <= 60 then
                 bot:SetNWString("Name", "Necron Lychguard")
                 bot:SetModel("models/wk/necrons/base/wk_lychguard.mdl")
@@ -149,14 +149,14 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
                 bot.FightType = "melee"
                 bot:SetNWString("Description", "Heavily armored Lychguard serving the Silent King.")
                 bot:SetNWBool("ShieldEnable", true)
-                baseHealth = math.max(baseHealth * 3, 1000)
+                baseHealth = math.max(baseHealth * 3, 500)
             else
                 bot:SetNWString("Name", "Necron Destroyer")
                 bot:SetModel("models/lorddestroyer.mdl")
                 bot.weapon = "murlock_gauss_cannon"
                 bot.FightType = "shooting"
                 bot:SetNWString("Description", "A floating harbinger of annihilation.")
-                baseHealth = math.max(baseHealth * 10, 1000)
+                baseHealth = math.max(baseHealth * 10, 750)
             end
         else
             local normal_roll = math.random(1, 100)
@@ -187,7 +187,11 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
 
         bot:SetNWString("Status", "NECRONS")
         bot:StripWeapons()
-        bot:SetModelScale(1.25, 0)
+        timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.2, 0)
+                 end
+            end)
         RandomonizeBodygroupsAndSkins(bot)
         bot.IsHostile = true
         bot.CanRegenerate = true
