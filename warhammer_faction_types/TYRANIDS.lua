@@ -106,4 +106,4 @@ Think = function(self)
         end
     end
 end,
-    
+}
