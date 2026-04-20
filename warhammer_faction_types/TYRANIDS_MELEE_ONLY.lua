@@ -4,99 +4,96 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
     OffWorld = true,
 
     CreateTyranid = function(self, bot, elite)
-        local health = GetHealthByTotalPlayers()
+    local health = GetHealthByTotalPlayers()
+    local spawn_elite = elite or math.random(1, 100) <= 15
 
+    if spawn_elite then
+        bot.Elite = true
+        local roll = math.random(1, 100)
 
-        local spawn_elite = elite or math.random(1, 100) <= 15
+        if roll <= 45 then
+            bot:SetNWString("Name", "Genestealer")
+            bot:SetModel("models/stealer.mdl")
+            bot.FightType = "tyrranid"
+            bot.weapon = "murlock_melee"
+            bot:SetNWString("Description", "A powerful servant of the Tyranids, ready to spill blood in the name of the Hive Mind.")
+            bot:SetNWBool("ShieldEnable", true)
+            health = math.max(health * 3, 250)
 
-        if spawn_elite then
-            local EliteTypeRoll = math.random(1, 100)
-            if EliteTypeRoll <= 45 then
-                bot.Elite = true
-                health = math.max(health * 3, 250)
-                bot:SetNWString("Name", "Genestealer")
-                local model = "models/stealer.mdl"
-                bot:SetModel(model)
-                bot.FightType = "tyrranid"
-                bot.weapon = "murlock_melee"
-                bot:SetNWString("Description", "A powerful servant of the Tyranids, ready to spill blood in the name of the Hive Mind.")
-                bot:SetNWBool("ShieldEnable", true)
-            elseif EliteTypeRoll <= 85 then
-                bot.Elite = true
-                health = math.max(health * 6.5, 350)
-                bot:SetNWString("Name", "Tyranid Warrior")
-                local model = "models/tyranids/warrior/warrior.mdl"
-                bot:SetModel(model)
-                bot:SetRunSpeed(400)
-                bot:SetWalkSpeed(400)
-                bot.FightType = "tyrranid"
-                bot.weapon = "murlock_melee"
-                bot:SetNWString("Description", "A powerful servant of the Tyranids, ready to spill blood in the name of the Hive Mind.")
-            elseif EliteTypeRoll <= 90 then
-                bot.Elite = true
-                health = math.max(health * 13, 500)
-                bot:SetNWString("Name", "Tyranid Swarmlord")
-                local model = "models/tyranids/swarmlord/swarmlord.mdl"
-                bot:SetModel(model)
-                bot:SetRunSpeed(400)
-                bot:SetWalkSpeed(400)
-                bot.BigBoy = true
-                bot.FightType = "tyrranid"
-                bot.weapon = "murlock_melee"
-                bot:SetNWString("Description", "The ultimate bio-engineered commander of the Tyranid swarm.")
-            else
-                bot.Elite = true
-                health = math.max(health * 30, 750)
-                bot:SetNWString("Name", "Tyranid Carnifex")
-                local model = "models/tyranids/carnifex/carnifex.mdl"
-                bot:SetModel(model)
-                bot.FightType = "tyrranid"
-                bot.BigBoy = true
-                bot.weapon = "murlock_melee"
-                bot:SetNWString("Description", "A massive Tyranid bio-engineered for destruction.")
-            end
+        elseif roll <= 85 then
+            bot:SetNWString("Name", "Tyranid Warrior")
+            bot:SetModel("models/tyranids/warrior/warrior.mdl")
+            bot:SetRunSpeed(400)
+            bot:SetWalkSpeed(400)
+            bot.FightType = "tyrranid"
+            bot.weapon = "murlock_melee"
+            bot:SetNWString("Description", "A powerful servant of the Tyranids, ready to spill blood in the name of the Hive Mind.")
+            health = math.max(health * 6.5, 350)
+
+        elseif roll <= 90 then
+            bot:SetNWString("Name", "Tyranid Swarmlord")
+            bot:SetModel("models/tyranids/swarmlord/swarmlord.mdl")
+            bot:SetRunSpeed(400)
+            bot:SetWalkSpeed(400)
+            bot.BigBoy = true
+            bot.FightType = "tyrranid"
+            bot.weapon = "murlock_melee"
+            bot:SetNWString("Description", "The ultimate bio-engineered commander of the Tyranid swarm.")
+            health = math.max(health * 13, 500)
+
         else
-            local whatype = math.random(1, 100)
-            if whatype <= 50 then
-                health = health * 2
-                bot:SetNWString("Name", "Tyranid Hormagaunt")
-                bot:SetModel("models/tyranids/hormagaunt/hormaguant.mdl")
-                bot.FightType = "tyrranid"
-                bot.weapon = "murlock_melee"
-                bot:SetNWString("Description", "A fast and agile Tyranid, perfect for close combat.")
-            else
-                health = health * 2
-                bot.FightType = "melee"
-                bot.weapon = "murlock_chaos_knife"
-                bot:SetNWString("Name", "Genestealer Cultist")
-                bot:SetModel("models/wk/civilian/wk_civilian.mdl")
-                bot:SetColor(Color(200, 160, 255))
-                bot:SetRenderMode(RENDERMODE_TRANSALPHA)
-                bot:SetNWString("Description", "Imperium Civilian who has sworn allegiance to the Tyranids.")
-            end
+            bot:SetNWString("Name", "Tyranid Carnifex")
+            bot:SetModel("models/tyranids/carnifex/carnifex.mdl")
+            bot.FightType = "tyrranid"
+            bot.BigBoy = true
+            bot.weapon = "murlock_melee"
+            bot:SetNWString("Description", "A massive Tyranid bio-engineered for destruction.")
+            health = math.max(health * 30, 750)
         end
+    else
+        local roll = math.random(1, 100)
 
-        bot:SetNWString("Status", "TYRANIDS_MELEE_ONLY")
-        bot:StripWeapons()
-        RandomonizeBodygroupsAndSkins(bot)
-        bot.IsHostile = true
-        bot.GoneMad = true
-        bot:SetNWString("MAX_HEALTH", health)
-        bot:SetMaxHealth(health)
-        bot:SetHealth(health)
-        SpawnHostileBot(bot)
-    end,
+        if roll <= 50 then
+            bot:SetNWString("Name", "Tyranid Hormagaunt")
+            bot:SetModel("models/tyranids/hormagaunt/hormaguant.mdl")
+            bot.FightType = "tyrranid"
+            bot.weapon = "murlock_melee"
+            bot:SetNWString("Description", "A fast and agile Tyranid, perfect for close combat.")
+            health = health * 2
 
-    Think = function(self)
-        if BOT_INVASION ~= "TYRANIDS_MELEE_ONLY" then return end
-        for _, bot in ipairs(player.GetBots()) do
-            if bot:GetNWString("Status") ~= "TYRANIDS_MELEE_ONLY" then
-                self:CreateTyranid(bot,ALWAYS_SPAWN_ELITES)
-            end
+        else
+            bot:SetNWString("Name", "Genestealer Cultist")
+            bot:SetModel("models/wk/civilian/wk_civilian.mdl")
+            bot:SetColor(Color(200, 160, 255))
+            bot:SetRenderMode(RENDERMODE_TRANSALPHA)
+            bot.FightType = "melee"
+            bot.weapon = "murlock_chaos_knife"
+            bot:SetNWString("Description", "Imperium Civilian who has sworn allegiance to the Tyranids.")
+            health = health * 2
         end
-    end,
-	}
+    end
 
+    bot:SetNWString("Status", "TYRANIDS_MELEE_ONLY")
+    bot:StripWeapons()
+    RandomonizeBodygroupsAndSkins(bot)
+    bot.IsHostile = true
+    bot.GoneMad = true
+    bot:SetNWString("MAX_HEALTH", health)
+    bot:SetMaxHealth(health)
+    bot:SetHealth(health)
+    SpawnHostileBot(bot)
+end,
+
+Think = function(self)
+    if BOT_INVASION ~= "TYRANIDS_MELEE_ONLY" then return end
+
+    for _, bot in ipairs(player.GetBots()) do
+        if bot:GetNWString("Status") ~= "TYRANIDS_MELEE_ONLY" then
+            self:CreateTyranid(bot, ALWAYS_SPAWN_ELITES)
+        end
+    end
+end,
+}
 
 
 
