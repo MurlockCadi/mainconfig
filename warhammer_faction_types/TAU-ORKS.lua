@@ -4,136 +4,337 @@ FACTION_TYPES["TAU-ORKS"] = {
     OffWorld = true,
 
     CreateTauOrk = function(self, bot, elite)
-        local TotalPlayers = #player.GetHumans()
         local health = GetHealthByTotalPlayers()
 
-        local orkWeapons = {
-            melee = {"tfa_choppa", "tfa_big_choppa", "bowie_knife"},
-            shoota = {"tfa_slugga", "tfa_shoota", "tfa_big_shoota", "tfa_rokkit_launcha"}
-        }
-        local tauWeapons = {"murlock_pulserifle"}
-
-        local spawn_elite = elite or math.random(1, 100) <= 30
-
         if spawn_elite then
-            bot.Elite = true
-            local eliteRoll = math.random(1, 100)
-            if eliteRoll <= 40 then
-                bot:SetNWString("Name", "ORK CRISIS LOOTA")
-                health = math.max(health * 8, 30000)
-                bot:SetModel("models/player/crisis_battlesuit.mdl")
-                bot:SetModelScale(1.4, 0)
-                bot:SetColor(Color(100, 0, 0))
-                if math.random(1,100) <= 50 then
-                    bot.FightType = "shooting"
-                    bot.weapon = "cat_murlock_crisis"
-                else
-                    bot.FightType = "melee"
-                    bot.weapon = "tfa_big_choppa"
-                    health = health * 2
-                end
-                bot:SetNWString("Description", "ORK LOOTED A CRISIS SUIT AND PAINTED IT RED")
-            elseif eliteRoll <= 80 then
-                bot:SetNWString("Name", "ORK BROADSIDE LOOTA")
-                health = math.max(health * 10, 50000)
-                bot:SetModel("models/broadside.mdl")
-                bot:SetModelScale(2.0, 0)
-                bot:SetColor(Color(100, 0, 0))
-                if math.random(1,100) <= 50 then
-                    bot.FightType = "shooting"
-                    bot.weapon = "cat_murlock_broadside"
-                else
-                    bot.FightType = "melee"
-                    bot.weapon = "tfa_big_choppa"
-                    health = health * 2
-                end
-                bot:SetNWString("Description", "ORK LOOTED A BROADSIDE SUIT AND PAINTED IT RED")
-            else
-                bot:SetNWString("Name", "DA ORK NOB")
-                health = math.max(health * 5, 4000)
-                bot:SetModel("models/muschi/orks/muschi_ork_meganob.mdl")
-                bot:SetModelScale(1.3, 0)
-                local roll = math.random(1,100)
-                if roll <= 40 then
-                    bot.FightType = "shooting"
-                    bot.weapon = orkWeapons.shoota[math.random(#orkWeapons.shoota)]
-                elseif roll <= 70 then
-                    bot.FightType = "shooting"
-                    bot.weapon = tauWeapons[1]
-                else
-                    bot.FightType = "melee"
-                    bot.weapon = orkWeapons.melee[math.random(#orkWeapons.melee)]
-                end
-                bot:SetNWString("Description", "ORK NOB BOSS LOOTED SOME TAU DAKKA")
-                bot:SetNWBool("ShieldEnable", true)
-            end
-        else
-            local botroll = math.random(1, 100)
-            if botroll <= 20 then
-                bot:SetNWString("Name", "Snotling")
-                health = math.max(health * 0.5, 250)
-                bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
-                bot:SetModelScale(0.5, 0)
-                bot:SetPlayerColor(Vector(1, 0, 0))
-                if math.random(1,100) <= 50 then
-                    bot.FightType = "melee"
-                    bot.weapon = "bowie_knife"
-                else
-                    bot.FightType = "shooting"
-                    bot.weapon = orkWeapons.shoota[math.random(#orkWeapons.shoota)]
-                end
-                bot:SetNWString("Description", "A LITTLZ RED SNOTLING WIV A STIK OR TINY DAKKA")
-                bot.goblin = true
-            elseif botroll <= 40 then
-                bot:SetNWString("Name", "Gretchin")
-                health = math.max(health * 2, 500)
-                bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
-                local roll = math.random(1,100)
-                if roll <= 40 then
-                    bot.FightType = "melee"
-                    bot.weapon = "bowie_knife"
-                elseif roll <= 70 then
-                    bot.FightType = "shooting"
-                    bot.weapon = orkWeapons.shoota[math.random(#orkWeapons.shoota)]
-                else
-                    bot.FightType = "shooting"
-                    bot.weapon = tauWeapons[1]
-                end
-                bot:SetNWString("Description", "RED GRETCHIN WIV A KNIFE OR LOOTED TAU DAKKA")
-                bot.goblin = true
-            elseif botroll <= 60 then
-                bot:SetNWString("Name", "ORK BOY LOOTA")
-                bot:SetModel(ORK_BOY_MODELZ[math.random(#ORK_BOY_MODELZ)])
-                if math.random(1,100) <= 50 then
-                    bot.FightType = "shooting"
-                    bot.weapon = orkWeapons.shoota[math.random(#orkWeapons.shoota)]
-                else
-                    bot.FightType = "shooting"
-                    bot.weapon = tauWeapons[1]
-                end
-                bot:SetNWString("Description", "ORK BOY WIV SLUGGA OR LOOTED PULSE RIFLE")
-            elseif botroll <= 80 then
-                bot:SetNWString("Name", "ORK SHOOTA BOY")
-                bot:SetModel(ORK_BOY_MODELZ[math.random(#ORK_BOY_MODELZ)])
+            local roll = math.random(1, 100)
+
+            
+		if roll <= 1 then
+            bot:SetNWString("Name", "DA GREATAH LOOTAH BOZZ!")
+            bot:SetModel("models/boss_grimskull.mdl")
+            bot:SetNWString("Description", "This boss was conviced about the greater good and is now leading the greatest WAAAGH!")
+            bot.FightType = "hybrid"
+            bot.weapon = "tfa_big_shoota"
+            bot.meleeweapon = "tfa_uge_hammer"
+            bot:SetRunSpeed(200)
+            bot:SetWalkSpeed(200)
+	        bot:SetNWBool("ShieldEnable", true)
+            health = math.max(health * 7, 5000)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 8 then
+            bot:SetNWString("Name", "CRISIS LOOTAH!")
+            bot:SetModel("models/player/crisis_battlesuit.mdl")
+            bot:SetNWString("Description", "A looted crisis suit, still functional and deadly in the hands of an ork.")
+            if math.random(1, 2) == 1 then
                 bot.FightType = "shooting"
-                if math.random(1,100) <= 50 then
-                    bot.weapon = orkWeapons.shoota[math.random(#orkWeapons.shoota)]
-                else
-                    bot.weapon = tauWeapons[1]
-                end
-                bot:SetNWString("Description", "ORK SHOOTA BOY WIV ORKY OR TAU DAKKA")
+                bot.weapon = "cat_murlock_crisis"
             else
-                bot:SetNWString("Name", "ORK MELEE BOY")
-                bot:SetModel(ORK_BOY_MODELZ[math.random(#ORK_BOY_MODELZ)])
-                bot:SetPlayerColor(Vector(1, 0, 0))
                 bot.FightType = "melee"
-                bot.weapon = orkWeapons.melee[math.random(#orkWeapons.melee)]
-                bot:SetNWString("Description", "ORK BOY WIV BIG MELEE")
+                bot.weapon = "tfa_big_choppa"
+                health = health * 1.2
             end
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 7, 2000)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 15 then
+            bot:SetNWString("Name", "BROADSIDE LOOTAH!")
+            bot:SetModel("models/broadside.mdl")
+            bot:SetNWString("Description", "A looted broadside battlesuit, still functional and deadly in the hands of an ork.")
+            bot.FightType = "shooting"
+            bot.weapon = "cat_murlock_broadside"
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 6, 2000)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 25 then
+            bot:SetNWString("Name", "GOOD WIERD BOY!")
+            bot:SetModel("models/muschi/orks/muschi_ork_komandoz.mdl")
+            bot:SetNWString("Description", "Gave up on Gork and Mork and now serves the greater good.")
+            bot.FightType = "shooting"
+            bot.weapon = "cat_chaos_legacy_sorcererstaff"
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 4, 700)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 35 then
+            bot:SetNWString("Name", "GOOD BOY?")
+            bot:SetModel("models/wizard/kroot.mdl")
+            bot:SetNWString("Description", "Ate to many orks and now thinks they are an ork.")
+            if math.random(1, 2) == 1 then
+                bot.FightType = "shooting"
+                bot.weapon = "murlock_pulserifle"
+            else
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_kustom_shoota"
+            end
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            RandomonizeBodygroupsAndSkins(bot)
+            health = math.max(health * 4, 600)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 45 then
+            bot:SetNWString("Name", "GOOD HEAVY BOY!")
+            bot:SetModel("models/muschi/orks/muschi_ork_heavy_boy.mdl")
+            bot:SetNWString("Description", "A well armored ork that now lives for the greater good.")
+            bot.FightType = "shooting"
+            bot.weapon = "tfa_big_shoota"
+            bot:SetRunSpeed(250)
+            bot:SetWalkSpeed(250)
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            RandomonizeBodygroupsAndSkins(bot)
+            health = math.max(health * 4, 1000)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 55 then
+            bot:SetNWString("Name", "GOOD BOY!")
+            bot:SetModel("models/muschi/orks/muschi_ork_wild.mdl")
+            bot:SetNWString("Description", "A wild ork that has looted tau technology.")
+            bot.FightType = "shooting"
+            if math.random(1, 2) == 1 then
+                bot.weapon = "murlock_pulserifle"
+            else
+                bot.weapon = "tfa_shoota"
+            end
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 4, 800)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 70 then
+            bot:SetNWString("Name", "GOOD SLAVE BOY!")
+            bot:SetModel("models/barbossa/orc_laborer/orc_laborer_pm.mdl")
+            bot:SetNWString("Description", "Forced to believe in the greater good.")
+            bot.FightType = "melee"
+            bot.weapon = "murlock_fists"
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 3, 400)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 85 then
+            bot:SetNWString("Name", "GOOD GRETCHIN!")
+            bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
+            bot:SetNWString("Description", "A Gretchin that now lives for the greater good.")
+            if math.random(1, 2) == 1 then
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_slugga"
+            else
+                bot.FightType = "melee"
+                bot.weapon = "tfa_choppa"
+            end
+            health = math.max(health * 3, 400)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 100 then
+            bot:SetNWString("Name", "GOOD SNOTLING!")
+            bot:SetModel("models/barbossa/snotling/snotling_pm.mdl")
+            bot:SetNWString("Description", "A Snotling that now lives for the greater good.")
+            if math.random(1, 2) == 1 then
+                bot.FightType = "shooting"
+                bot.weapon = "murlock_pulserifle"
+            else
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_slugga"
+            end
+            health = math.max(health * 3, 300)
+            bot:SetColor(Color(124, 207, 255))
+
         end
 
+        else
+            local roll = math.random(1, 100)
+
+		if roll <= 1 then
+            bot:SetNWString("Name", "DA GREATAH LOOTAH BOZZ!")
+            bot:SetModel("models/boss_grimskull.mdl")
+            bot:SetNWString("Description", "This boss was conviced about the greater good and is now leading the greatest WAAAGH!")
+            bot.FightType = "hybrid"
+            bot.weapon = "tfa_big_shoota"
+            bot.meleeweapon = "tfa_uge_hammer"
+            bot:SetRunSpeed(200)
+            bot:SetWalkSpeed(200)
+	        bot:SetNWBool("ShieldEnable", true)
+            health = math.max(health * 6, 4000)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 8 then
+            bot:SetNWString("Name", "CRISIS LOOTAH!")
+            bot:SetModel("models/player/crisis_battlesuit.mdl")
+            bot:SetNWString("Description", "A looted crisis suit, still functional and deadly in the hands of an ork.")
+            if math.random(1, 2) == 1 then
+                bot.FightType = "shooting"
+                bot.weapon = "cat_murlock_crisis"
+            else
+                bot.FightType = "melee"
+                bot.weapon = "tfa_big_choppa"
+                health = health * 1.2
+            end
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 6, 1800)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 15 then
+            bot:SetNWString("Name", "BROADSIDE LOOTAH!")
+            bot:SetModel("models/broadside.mdl")
+            bot:SetNWString("Description", "A looted broadside battlesuit, still functional and deadly in the hands of an ork.")
+            bot.FightType = "shooting"
+            bot.weapon = "cat_murlock_broadside"
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 5, 1800)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 25 then
+            bot:SetNWString("Name", "GOOD WIERD BOY!")
+            bot:SetModel("models/muschi/orks/muschi_ork_komandoz.mdl")
+            bot:SetNWString("Description", "Gave up on Gork and Mork and now serves the greater good.")
+            bot.FightType = "shooting"
+            bot.weapon = "cat_chaos_legacy_sorcererstaff"
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 5, 600)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 35 then
+            bot:SetNWString("Name", "GOOD BOY?")
+            bot:SetModel("models/wizard/kroot.mdl")
+            bot:SetNWString("Description", "Ate to many orks and now thinks they are an ork.")
+            if math.random(1, 2) == 1 then
+                bot.FightType = "shooting"
+                bot.weapon = "murlock_pulserifle"
+            else
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_kustom_shoota"
+            end
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            RandomonizeBodygroupsAndSkins(bot)
+            health = math.max(health * 3, 500)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 45 then
+            bot:SetNWString("Name", "GOOD HEAVY BOY!")
+            bot:SetModel("models/muschi/orks/muschi_ork_heavy_boy.mdl")
+            bot:SetNWString("Description", "A well armored ork that now lives for the greater good.")
+            bot.FightType = "shooting"
+            bot.weapon = "tfa_big_shoota"
+            bot:SetRunSpeed(250)
+            bot:SetWalkSpeed(250)
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            RandomonizeBodygroupsAndSkins(bot)
+            health = math.max(health * 3, 900)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 55 then
+            bot:SetNWString("Name", "GOOD BOY!")
+            bot:SetModel("models/muschi/orks/muschi_ork_wild.mdl")
+            bot:SetNWString("Description", "A wild ork that has looted tau technology.")
+            bot.FightType = "shooting"
+            if math.random(1, 2) == 1 then
+                bot.weapon = "murlock_pulserifle"
+            else
+                bot.weapon = "tfa_shoota"
+            end
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 3, 700)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 70 then
+            bot:SetNWString("Name", "GOOD SLAVE BOY!")
+            bot:SetModel("models/barbossa/orc_laborer/orc_laborer_pm.mdl")
+            bot:SetNWString("Description", "Forced to believe in the greater good.")
+            bot.FightType = "melee"
+            bot.weapon = "murlock_fists"
+            timer.Simple(1, function() 
+                if IsValid(bot) then
+                    bot:SetModelScale(1.1, 0)
+                end
+            end)
+            health = math.max(health * 2, 500)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 85 then
+            bot:SetNWString("Name", "GOOD GRETCHIN!")
+            bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
+            bot:SetNWString("Description", "A Gretchin that now lives for the greater good.")
+            if math.random(1, 2) == 1 then
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_slugga"
+            else
+                bot.FightType = "melee"
+                bot.weapon = "tfa_choppa"
+            end
+            health = math.max(health * 2, 400)
+            bot:SetColor(Color(124, 207, 255))
+
+        elseif roll <= 100 then
+            bot:SetNWString("Name", "GOOD SNOTLING!")
+            bot:SetModel("models/barbossa/snotling/snotling_pm.mdl")
+            bot:SetNWString("Description", "A Snotling that now lives for the greater good.")
+            if math.random(1, 2) == 1 then
+                bot.FightType = "shooting"
+                bot.weapon = "murlock_pulserifle"
+            else
+                bot.FightType = "shooting"
+                bot.weapon = "tfa_slugga"
+            end
+            health = math.max(health * 2, 300)
+            bot:SetColor(Color(124, 207, 255))
+
+        end
+	end
+
         bot:StripWeapons()
-        RandomonizeBodygroupsAndSkinsOrks(bot)
         bot:SetNWString("MAX_HEALTH", health)
         bot:SetNWString("Status", "TAU-ORKS")
         bot:SetMaxHealth(health)
