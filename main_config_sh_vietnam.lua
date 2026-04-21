@@ -92,7 +92,8 @@ intro_songs = {
 }
 
 intro_image_urls = {
-    "https://www.imperiumgaming.net/vietnamload/js/12312321.png",
+    "https://www.imperiumgaming.net/vietnamload/backgrounds/images/20260419170357_1.jpg",
+    "https://www.imperiumgaming.net/vietnamload/backgrounds/images/wedawdawd.png"
 }
 
 
