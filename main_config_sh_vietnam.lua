@@ -530,7 +530,6 @@ US_PILOT_MODELS = {
     "models/hitboxedit/us/army/us_pilot_3.mdl",
     "models/hitboxedit/us/army/us_pilot_4.mdl",
     "models/hitboxedit/us/army/us_pilot_5.mdl",
-    "models/vietnam/pilot_us.mdl",
 }
 
 VIETCONG_MODELS = {
@@ -546,20 +545,6 @@ PAVN_MODELS = {
     "models/hitboxedit/player/arvn.mdl",
 }
 
-MACV_MODELS = {
-    "models/vietnam/soldier1_us.mdl",
-    "models/vietnam/soldier1b_us.mdl",
-    "models/vietnam/soldier1berdl_us.mdl",
-    "models/vietnam/soldier1bm81_us.mdl",
-    "models/vietnam/soldier1erdl_us.mdl",
-    "models/vietnam/soldier1tiger_us.mdl",
-    "models/vietnam/soldier2_us.mdl",
-    "models/vietnam/soldier2b_us.mdl",
-    "models/vietnam/soldier2berdl_us.mdl",
-    "models/vietnam/soldier2bm81_us.mdl",
-    "models/vietnam/soldier2erdl_us.mdl",
-    "models/vietnam/soldier2tiger_us.mdl",
-}
 
 -- ============================================================
 -- SHARED FORTIFICATION TEMPLATES
@@ -703,6 +688,8 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle", "Shotgun", "Submachine Gun" },
                 Prefix             = "MG",
                 EntitySpawner = {
+                    { name = "Quad Vickers",     entityname = "sw_4m",                description = "Four Vickers machine guns mounted on a single platform, used for suppressing enemy infantry and light vehicles.",                type = "Machine Gun" },
+                    { name = "MTPU",             entityname = "sw_mtpu",              description = "A large machine gun turret used for anti-aircraft and anti-infantry purposes, often mounted on vehicles or fortifications.",      type = "Machine Gun" },
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",    type = "Ammo" },
                     { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
                 },
@@ -767,6 +754,8 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle", "Shotgun", "Submachine Gun" },
                 Prefix             = "MG",
                 EntitySpawner = {
+                    { name = "Quad Vickers",     entityname = "sw_4m",                description = "Four Vickers machine guns mounted on a single platform, used for suppressing enemy infantry and light vehicles.",           type = "Machine Gun" },
+                    { name = "MTPU",             entityname = "sw_mtpu",              description = "A large machine gun turret used for anti-aircraft and anti-infantry purposes, often mounted on vehicles or fortifications.", type = "Machine Gun" },
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
                 },
@@ -1115,22 +1104,22 @@ DivisionTypes = {
         Description = "The MACV-SOG special forces.",
         Team        = "us",
         Ranks = {
-            { ID = 1,  Name = "Private",            Rank_Prefix = "PVT",   ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = false },
-            { ID = 2,  Name = "Private First Class", Rank_Prefix = "PFC",  ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = false },
-            { ID = 3,  Name = "Lance Corporal",      Rank_Prefix = "LCPL", ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = false },
-            { ID = 4,  Name = "Corporal",            Rank_Prefix = "CPL",  ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 5,  Name = "Sergeant",            Rank_Prefix = "SGT",  ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 6,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT", ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 7,  Name = "Gunnery Sergeant",    Rank_Prefix = "GYSGT",ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 8,  Name = "Master Sergeant",     Rank_Prefix = "MSGT", ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 9,  Name = "First Sergeant",      Rank_Prefix = "1SGT", ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 10, Name = "Sergeant Major",      Rank_Prefix = "SGM",  ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 11, Name = "Second Lieutenant",   Rank_Prefix = "2LT",  ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 12, Name = "First Lieutenant",    Rank_Prefix = "1LT",  ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 13, Name = "Captain",             Rank_Prefix = "CPT",  ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 14, Name = "Major",               Rank_Prefix = "MAJ",  ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 15, Name = "Lieutenant Colonel",  Rank_Prefix = "LTCOL",ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
-            { ID = 16, Name = "Colonel",             Rank_Prefix = "COL",  ModelsAllowed = MACV_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 1,  Name = "Private",            Rank_Prefix = "PVT",   ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = false },
+            { ID = 2,  Name = "Private First Class", Rank_Prefix = "PFC",  ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = false },
+            { ID = 3,  Name = "Lance Corporal",      Rank_Prefix = "LCPL", ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = false },
+            { ID = 4,  Name = "Corporal",            Rank_Prefix = "CPL",  ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 5,  Name = "Sergeant",            Rank_Prefix = "SGT",  ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 6,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT", ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 7,  Name = "Gunnery Sergeant",    Rank_Prefix = "GYSGT",ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 8,  Name = "Master Sergeant",     Rank_Prefix = "MSGT", ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 9,  Name = "First Sergeant",      Rank_Prefix = "1SGT", ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 10, Name = "Sergeant Major",      Rank_Prefix = "SGM",  ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 11, Name = "Second Lieutenant",   Rank_Prefix = "2LT",  ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 12, Name = "First Lieutenant",    Rank_Prefix = "1LT",  ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 13, Name = "Captain",             Rank_Prefix = "CPT",  ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 14, Name = "Major",               Rank_Prefix = "MAJ",  ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 15, Name = "Lieutenant Colonel",  Rank_Prefix = "LTCOL",ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
+            { ID = 16, Name = "Colonel",             Rank_Prefix = "COL",  ModelsAllowed = US_MODELS, WeaponsAllowed = {}, CanPromote = true  },
         },
         Classes = {
             {
@@ -1164,6 +1153,8 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle", "Shotgun", "Submachine Gun" },
                 Prefix             = "MG",
                 EntitySpawner = {
+                    { name = "Quad Vickers",     entityname = "sw_4m",                description = "Four Vickers machine guns mounted on a single platform, used for suppressing enemy infantry and light vehicles.",           type = "Machine Gun" },
+                    { name = "MTPU",             entityname = "sw_mtpu",              description = "A large machine gun turret used for anti-aircraft and anti-infantry purposes, often mounted on vehicles or fortifications.", type = "Machine Gun" },
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
                 },
