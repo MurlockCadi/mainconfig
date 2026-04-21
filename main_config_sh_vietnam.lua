@@ -545,6 +545,8 @@ PAVN_MODELS = {
     "models/hitboxedit/player/arvn.mdl",
 }
 
+MACV_MODELS = {
+
 
 -- ============================================================
 -- SHARED FORTIFICATION TEMPLATES
@@ -688,8 +690,6 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle", "Shotgun", "Submachine Gun" },
                 Prefix             = "MG",
                 EntitySpawner = {
-                    { name = "Quad Vickers",     entityname = "sw_4m",                description = "Four Vickers machine guns mounted on a single platform, used for suppressing enemy infantry and light vehicles.",                type = "Machine Gun" },
-                    { name = "MTPU",             entityname = "sw_mtpu",              description = "A large machine gun turret used for anti-aircraft and anti-infantry purposes, often mounted on vehicles or fortifications.",      type = "Machine Gun" },
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",    type = "Ammo" },
                     { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
                 },
@@ -754,8 +754,6 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle", "Shotgun", "Submachine Gun" },
                 Prefix             = "MG",
                 EntitySpawner = {
-                    { name = "Quad Vickers",     entityname = "sw_4m",                description = "Four Vickers machine guns mounted on a single platform, used for suppressing enemy infantry and light vehicles.",           type = "Machine Gun" },
-                    { name = "MTPU",             entityname = "sw_mtpu",              description = "A large machine gun turret used for anti-aircraft and anti-infantry purposes, often mounted on vehicles or fortifications.", type = "Machine Gun" },
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
                 },
@@ -1153,8 +1151,6 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle", "Shotgun", "Submachine Gun" },
                 Prefix             = "MG",
                 EntitySpawner = {
-                    { name = "Quad Vickers",     entityname = "sw_4m",                description = "Four Vickers machine guns mounted on a single platform, used for suppressing enemy infantry and light vehicles.",           type = "Machine Gun" },
-                    { name = "MTPU",             entityname = "sw_mtpu",              description = "A large machine gun turret used for anti-aircraft and anti-infantry purposes, often mounted on vehicles or fortifications.", type = "Machine Gun" },
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
                 },
