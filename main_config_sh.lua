@@ -1368,7 +1368,6 @@ DivisionTypes = {
             {
                 Name = "Ministorum Priest",
                 Default = true,
-				ForceModels = true,
 				priest = true,
                 Models = HOLY_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
@@ -1383,7 +1382,7 @@ DivisionTypes = {
 				priest = true,
                 Models = CRUSADER_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
-                MaxHealth = 150,
+                MaxHealth = 200,
                 SpawnWeapons = {"murlock_staff_player_new"},
                 Prefix = ""
             },
