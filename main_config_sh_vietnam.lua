@@ -557,7 +557,7 @@ MACV_MODELS = {
     "models/vietnam/soldier2berdl_us.mdl",
     "models/vietnam/soldier2bm81_us.mdl",
     "models/vietnam/soldier2erdl_us.mdl",
-    "models/vietnam/soldier2tiger_us.mdl"
+    "models/vietnam/soldier2tiger_us.mdl",
 }
 
 -- ============================================================
