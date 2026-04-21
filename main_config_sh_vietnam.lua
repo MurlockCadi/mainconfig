@@ -530,6 +530,7 @@ US_PILOT_MODELS = {
     "models/hitboxedit/us/army/us_pilot_3.mdl",
     "models/hitboxedit/us/army/us_pilot_4.mdl",
     "models/hitboxedit/us/army/us_pilot_5.mdl",
+    "models/vietnam/pilot_us.mdl",
 }
 
 VIETCONG_MODELS = {
