@@ -547,6 +547,7 @@ PAVN_MODELS = {
 
 MACV_MODELS = {
 
+}
 
 -- ============================================================
 -- SHARED FORTIFICATION TEMPLATES
