@@ -2034,7 +2034,6 @@ CERTIFICATIONS = {
     ["Forge Master"] = {
         Weapons = {},
     },
-   
 	["Biker"] = {
         Weapons = {"ent_spawner","weapon_simrepair"},
         Entitys = {
