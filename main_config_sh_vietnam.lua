@@ -881,7 +881,7 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Shotgun", "Submachine Gun", "Rifle", "Machine Gun" },
                 Prefix             = "MG",
                 EntitySpawner = {
-                    { name = "DSHK",             entityname = "sw_dshk",              description = "A heavy machine gun used for anti-aircraft and anti-vehicle purposes, often mounted on a tripod or vehicle.",           type = "Machine Gun" },
+                    { name = "DSHK",             entityname = "lvs_trailer_dshk_12mm",              description = "A heavy machine gun used for anti-aircraft and anti-vehicle purposes, often mounted on a tripod or vehicle.",           type = "Machine Gun" },
                     { name = "ZU 23-2",          entityname = "sw_zu232",             description = "A large machine gun turret used for anti-aircraft and anti-infantry purposes, often mounted on vehicles or fortifications.", type = "Machine Gun" },
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
@@ -973,7 +973,7 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Shotgun", "Submachine Gun", "Rifle", "Machine Gun" },
                 Prefix             = "MG",
                 EntitySpawner = {
-                    { name = "DSHK",             entityname = "sw_dshk",              description = "A heavy machine gun used for anti-aircraft and anti-vehicle purposes, often mounted on a tripod or vehicle.",           type = "Machine Gun" },
+                    { name = "DSHK",             entityname = "lvs_trailer_dshk_12mm",              description = "A heavy machine gun used for anti-aircraft and anti-vehicle purposes, often mounted on a tripod or vehicle.",           type = "Machine Gun" },
                     { name = "ZU 23-2",          entityname = "sw_zu232",             description = "A large machine gun turret used for anti-aircraft and anti-infantry purposes, often mounted on vehicles or fortifications.", type = "Machine Gun" },
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
@@ -1079,7 +1079,7 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Shotgun", "Submachine Gun", "Rifle", "Machine Gun" },
                 Prefix             = "MG",
                 EntitySpawner = {
-                    { name = "DSHK",             entityname = "sw_dshk",              description = "A heavy machine gun used for anti-aircraft and anti-vehicle purposes, often mounted on a tripod or vehicle.",           type = "Machine Gun" },
+                    { name = "DSHK",             entityname = "lvs_trailer_dshk_12mm",              description = "A heavy machine gun used for anti-aircraft and anti-vehicle purposes, often mounted on a tripod or vehicle.",           type = "Machine Gun" },
                     { name = "ZU 23-2",          entityname = "sw_zu232",             description = "A large machine gun turret used for anti-aircraft and anti-infantry purposes, often mounted on vehicles or fortifications.", type = "Machine Gun" },
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
