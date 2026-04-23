@@ -510,7 +510,19 @@ commands = {
     ["!trustfunctions"]  = function(ply) GeneratedTrustedFunctions(ply)    end,
     ["/trustfunctions"]  = function(ply) GeneratedTrustedFunctions(ply)    end,
 }
-
+--- attachment stuff
+RESTRICTED_ATTACHMENTS = {
+	["doi_atow_m2carbineconv"] = true,
+	["doi_atow_zf4"] = true,
+	["doi_atow_zf39"] = true,
+	["doi_atow_unertl"] = true,
+	["doi_atow_wina5"] = true,
+	["doi_atow_m73"] = true,
+	["doi_atow_no32"] = true,
+	["doi_atow_zfg42"] = true,
+	["md_glsmle"] = true,
+	
+}
 
 -- ============================================================
 -- PLAYER MODELS
