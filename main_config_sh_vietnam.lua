@@ -962,6 +962,7 @@ DivisionTypes = {
                 Weapons            = {},
                 SpawnWeapons       = {},
                 AllowedWeaponFlags = { "Assault Rifle", "Side Arm", "Shotgun", "Submachine Gun", "Rifle" },
+				Attachments = {"doi_atow_m2carbineconv","doi_atow_thompson50rnd"},
                 Prefix             = "",
             },
             {
