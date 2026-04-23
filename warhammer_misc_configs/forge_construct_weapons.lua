@@ -43,6 +43,13 @@ CRAFTABLE_ITEMS["item_213921"] = 30000 -- longlas tfa
 CRAFTABLE_ITEMS["item_511229"] = 20000 -- force sabre tfa
 CRAFTABLE_ITEMS["item_365811"] = 40000 -- shoulder plasma cannon tfa
 
+CRAFTABLE_ITEMS["item_558224"] = 45000 -- Meltagun tfa
+CRAFTABLE_ITEMS["item_410131"] = 47500 -- Shoulder Multi Melta tfa
+CRAFTABLE_ITEMS["item_724346"] = 45000 -- volleygun tfa
+CRAFTABLE_ITEMS["item_803813"] = 40000 -- shoulder lascannon tfa
+CRAFTABLE_ITEMS["item_978118"] = 50000 -- Missile Launcher tfa
+CRAFTABLE_ITEMS["item_427737"] = 15000 -- Krak grenade
+
 CRAFTABLE_ITEMS["item_410757"] = 40000 -- Assault Cannon tfa
 CRAFTABLE_ITEMS["item_502346"] = 15000 -- Power sword TFA
 CRAFTABLE_ITEMS["item_249622"] = 35000 -- chem flamer tfa
