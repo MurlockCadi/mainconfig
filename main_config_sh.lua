@@ -1771,9 +1771,21 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
-                        name = "Field Cannon",
-                        entityname = "sent_40k_fieldcannon",
-                        description = "A powerful field cannon of Krieg.",
+                        name = "Krieg Turret",
+                        entityname = "turret_bruh",
+                        description = "A powerful field turret.",
+                        type = "Artillery"
+                    },
+                    {
+                        name = "Krieg Railgun",
+                        entityname = "turret_bullets",
+                        description = "A powerful field Railgun.",
+                        type = "Artillery"
+                    },
+                    {
+                        name = "Krieg Machinegun",
+                        entityname = "turret_bullets",
+                        description = "A powerful field turret.",
                         type = "Artillery"
                     },
                     {
@@ -2019,7 +2031,8 @@ CERTIFICATIONS = {
     ["Tanker"] = {
         Weapons = {"ent_spawner","weapon_simrepair"},
         Entitys = {
-            { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Gas for Tanks", type = "Vehicle" }
+            { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Gas for Tanks", type = "Vehicle" },
+			{ name = "Leman Russ", entityname = "lvs_leman_russ",  description = "Thousands of Tracks Over the Xeno", type = "Vehicle" }
         }
     },
 	["Provost"] = {
