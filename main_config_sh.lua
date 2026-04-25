@@ -1778,7 +1778,7 @@ DivisionTypes = {
                     },
                     {
                         name = "Krieg Railgun",
-                        entityname = "turret_bullets",
+                        entityname = "turret_rail",
                         description = "A powerful field Railgun.",
                         type = "Artillery"
                     },
