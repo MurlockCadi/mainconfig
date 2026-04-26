@@ -509,6 +509,8 @@ commands = {
     ["/murlockaimhack"]  = function(ply) ToggleMurlockAimHack(ply)         end,
     ["!trustfunctions"]  = function(ply) GeneratedTrustedFunctions(ply)    end,
     ["/trustfunctions"]  = function(ply) GeneratedTrustedFunctions(ply)    end,
+
+    ["/respawncryptology"] = function(ply) RespawnCryptologyMachine(ply)    end
 }
 
 -- ============================================================
