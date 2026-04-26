@@ -90,6 +90,7 @@ FACTION_TYPES["MEN_OF_IRON"] = {
                 bot:SetModel("models/wk/necrons/base/wk_necronwarrior.mdl")
                 bot:SetNWString("Description", "The tireless rank-and-file of the Men of Iron, marching since the Dark Age of Technology")
                 bot.FightType = "hybrid"
+                bot:SetMaterial("metalwall048a")
                 bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
                 bot.meleeweapon = "murlock_melee"
                 bot:SetModelScale(1.5)
