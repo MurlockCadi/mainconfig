@@ -1771,6 +1771,12 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
+                        name = "Vehicle Ammo Supplies",
+                        entityname = "lvs_item_ammocrate",
+                        description = "Use to resupply any vehicle in the field!",
+                        type = "Ammo"
+                    },
+                    {
                         name = "Krieg Turret",
                         entityname = "turret_bruh",
                         description = "A powerful field turret.",
@@ -2035,7 +2041,7 @@ group_ranks = {
 
 CERTIFICATIONS = {
     ["Tanker"] = {
-        Weapons = {"ent_spawner","weapon_simrepair"},
+        Weapons = {"ent_spawner","weapon_lvsrepair"},
         Entitys = {
             { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Gas for Tanks", type = "Vehicle" },
 			{ name = "Leman Russ", entityname = "lvs_leman_russ",  description = "Thousands of Tracks Over the Xeno", type = "Vehicle" },
@@ -2046,7 +2052,7 @@ CERTIFICATIONS = {
     	Weapons = {"weapon_cuff_elastic","weapon_stunstick"},
     },
     ["Tech Adept"] = {
-        Weapons = {"weapon_extinguisher_infinite","weapon_simrepair","alydus_fusioncutter"},
+        Weapons = {"weapon_extinguisher_infinite","alydus_fusioncutter"},
     },
     ["Quartermaster"] = {
         Weapons = {},
@@ -2055,7 +2061,7 @@ CERTIFICATIONS = {
         Weapons = {},
     },
 	["Biker"] = {
-        Weapons = {"ent_spawner","weapon_simrepair"},
+        Weapons = {"ent_spawner"},
         Entitys = {
             { name = "Bike", entityname = "sim_fphys_wk_charon_bike_armed", description = "Fastest two-wheeled vehicle in the imperium", type = "Bike" },
             { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Make that engine purr", type = "Vehicle" }
