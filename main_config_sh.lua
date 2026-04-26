@@ -1777,6 +1777,12 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                     {
+                        name = "Promethium",
+                        entityname = "lvs_item_jerrycan",
+                        description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.",
+                        type = "Ammo"
+                    },
+                    {
                         name = "Krieg Turret",
                         entityname = "turret_bruh",
                         description = "A powerful field turret.",
