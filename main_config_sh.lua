@@ -2049,7 +2049,6 @@ CERTIFICATIONS = {
     ["Tanker"] = {
         Weapons = {"ent_spawner","weapon_lvsrepair"},
         Entitys = {
-            { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Gas for Tanks", type = "Vehicle" },
 			{ name = "Leman Russ", entityname = "lvs_leman_russ",  description = "Thousands of Tracks Over the Xeno", type = "Vehicle" },
 			{ name = "Chimera", entityname = "lvs_himera",  description = "Famous Infantry Transport", type = "Vehicle" }
         }
