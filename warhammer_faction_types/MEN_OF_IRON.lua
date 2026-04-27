@@ -20,7 +20,7 @@ FACTION_TYPES["MEN_OF_IRON"] = {
         }
 
         local AndroidModels = {
-            "models/bloocobalt/dow/guardsman.mdl",
+            "models/wk/cult/cult_cherur_guardsmen.mdl",
             "models/wk/savlar/wk_savlar.mdl",
             "models/gonzo/cultistcolours/cultistcolours.mdl",
             "models/astartes/eldar/incubus_avery.mdl"
