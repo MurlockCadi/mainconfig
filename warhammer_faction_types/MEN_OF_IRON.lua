@@ -197,6 +197,8 @@ FACTION_TYPES["MEN_OF_IRON"] = {
     end,
 }
 
+BOT_SOUND_MANAGER = BOT_SOUND_MANAGER or {}
+
 BOT_SOUND_MANAGER["MEN_OF_IRON"] = {
     SONG_LOCAL = {
         "vj_necron/idle_tone_01_06.wav",
