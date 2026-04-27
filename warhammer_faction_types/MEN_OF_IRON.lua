@@ -11,9 +11,7 @@ FACTION_TYPES["MEN_OF_IRON"] = {
 
         local ShootingWeapons = {
             "cat_custom_heavystubber",
-            "cat_custom_stubber",
-            "arccw_admech_flechetteblaster",
-            "arccw_admech_flechettecarabine"
+            "cat_custom_stubber"
         }
 
         local AndroidModels = {
@@ -34,7 +32,7 @@ FACTION_TYPES["MEN_OF_IRON"] = {
                 bot:SetMaterial("metalwall048a")
                 bot:SetNWString("Description", "A supreme command-class construct whose hatred for organic life is burned into every circuit")
                 bot.FightType = "hybrid"
-                bot.weapon = ShootingWeapons[math.random(#EliteShootingWeapons)]
+                bot.weapon = EliteShootingWeapons[math.random(#EliteShootingWeapons)]
                 bot.meleeweapon = "murlock_melee"
                 timer.Simple(1, function() 
                     if IsValid(bot) then
