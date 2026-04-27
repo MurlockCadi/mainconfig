@@ -6,15 +6,12 @@ FACTION_TYPES["MEN_OF_IRON"] = {
         local health = GetHealthByTotalPlayers()
 
         local EliteShootingWeapons = {
-            "cat_legacy_assaultcannon",
-            "arccw_admech_heavy_radication",
-            "arccw_admech_arcrifle"
+            "cat_legacy_assaultcannon"
         }
 
         local ShootingWeapons = {
             "cat_custom_heavystubber",
             "cat_custom_stubber",
-            "arccw_admech_stubcarbine",
             "arccw_admech_flechetteblaster",
             "arccw_admech_flechettecarabine"
         }
