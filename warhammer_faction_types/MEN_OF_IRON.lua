@@ -32,7 +32,7 @@ FACTION_TYPES["MEN_OF_IRON"] = {
             local roll = math.random(1, 100)
 
             if roll <= 5 then
-                bot:SetNWString("Name", "A Metal Man")
+                bot:SetNWString("Name", "Man of Iron")
                 bot:SetModel("models/wk/necrons/base/wk_necronwarrior.mdl")
                 bot:SetMaterial("metalwall048a")
                 bot:SetNWString("Description", "A supreme command-class construct whose hatred for organic life is burned into every circuit")
