@@ -512,6 +512,7 @@ commands = {
 
     ["/respawncryptology"] = function(ply) RespawnCryptologyMachine(ply)    end,
     ["/respawntap"] = function(ply) PlayerRequestsRespawnTap(ply) end,
+    ["/rts"] = function(ply) OpenRTS(ply) end,
 }
 
 -- ============================================================
