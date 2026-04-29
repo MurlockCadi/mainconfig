@@ -91,11 +91,6 @@ ENTITY_RESPAWN_TIMERS = {
     ["Tanks"] = 120
 }
 
-RESPAWN_TIMERS_IMPERIUMRP = {
-    ["Small Vehicle"]        = 60,
-    ["Tanks"]				 = 300,
-}
-
 
 ---------PROX CHAT------------------------------------------------------------------------------------
 
@@ -2057,10 +2052,7 @@ CERTIFICATIONS = {
         Entitys = {
 			{ name = "Leman Russ", entityname = "lvs_leman_russ",  description = "Thousands of Tracks Over the Xeno", type = "Vehicle" },
 			{ name = "Chimera", entityname = "lvs_himera",  description = "Famous Infantry Transport", type = "Vehicle" }
-        },
-		vehicles = {
-            { name = "Leman Russ", entityname = "lvs_leman_russ", description = "A fucking tnak idk", type = "Tanks"},
-        },
+        }
     },
 	["Provost"] = {
     	Weapons = {"weapon_cuff_elastic","weapon_stunstick"},
