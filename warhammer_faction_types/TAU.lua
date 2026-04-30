@@ -1,4 +1,4 @@
-FACTION_TYPES["Tau"] = {
+FACTION_TYPES["TAU"] = {
     STAGE = "Tau",
     DeathsByType = {},
     OffWorld = true,
