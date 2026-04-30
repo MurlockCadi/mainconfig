@@ -514,6 +514,7 @@ commands = {
     ["/respawntap"] = function(ply) PlayerRequestsRespawnTap(ply) end,
     ["/rts"] = function(ply) OpenRTS(ply) end,
     ["/tunnel"] = function(ply) OpenTunnelMap(ply) end,
+    ["/elections"] = function(ply) OpenMidtermMap(ply) end,
 }
 
 -- ============================================================
