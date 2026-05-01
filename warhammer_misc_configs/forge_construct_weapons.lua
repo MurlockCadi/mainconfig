@@ -89,6 +89,16 @@ CRAFTABLE_ITEMS["item_639701"] = 30000 -- Plasma Gun tfa
 CRAFTABLE_ITEMS["item_709920"] = 15000 -- Plasma Pistol arccw
 CRAFTABLE_ITEMS["item_857640"] = 15000 -- Plastma pistol tfa
 
+CRAFTABLE_ITEMS["item_598560"] = 40000 -- godwyn boltpistol + powersword
+CRAFTABLE_ITEMS["item_607501"] = 20000 -- Power axe + shield
+CRAFTABLE_ITEMS["item_885960"] = 15000 -- chain shovel
+CRAFTABLE_ITEMS["item_634683"] = 20000 -- force axe
+CRAFTABLE_ITEMS["item_285839"] = 20000 -- force halberd
+CRAFTABLE_ITEMS["item_319275"] = 15000 -- Power maul
+CRAFTABLE_ITEMS["item_121044"] = 15000 -- power greatsword
+
+
+
 CRAFTABLE_ITEMS["item_214114"] = 20000 -- Chainsword
 CRAFTABLE_ITEMS["item_889608"] = 20000 -- Ogryn Club
 CRAFTABLE_ITEMS["item_533025"] = 20000 -- ommnisiah axe
