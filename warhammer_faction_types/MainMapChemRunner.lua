@@ -129,7 +129,7 @@ FACTION_TYPES["Chem Runner"] = {
                     bot.weapon = "cat_chaos_legacy_boltercombi"
                 else
                     bot.FightType = "melee"
-                    bot.weapon = "cat_legacy_forceaxe"
+                    bot.weapon = "cat_custom_poweraxe"
                 end
                 bot:SetNWString("Description", "A mercenary from the Squat Clans, paid by the Chem Lords.")
                 bot:SetNWBool("ShieldEnable", true)
