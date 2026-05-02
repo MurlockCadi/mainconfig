@@ -515,6 +515,16 @@ commands = {
     ["/rts"] = function(ply) OpenRTS(ply) end,
     ["/tunnel"] = function(ply) OpenTunnelMap(ply) end,
     ["/elections"] = function(ply) OpenMidtermMap(ply) end,
+
+    ["/radio"] = function(ply, args) return radio_command(ply, args) end,
+    ["!radio"] = function(ply, args) return radio_command(ply, args) end,
+    ["/radio"] = function(ply, args) return radio_command(ply, args) end,
+	["/vox"] = function(ply, args) return radio_command(ply, args) end,
+	["!vox"] = function(ply, args) return radio_command(ply, args) end,
+    ["!r"] = function(ply, args) return radio_command(ply, args) end,
+    ["/r"] = function(ply, args) return radio_command(ply, args) end,
+    ["!gradio"] = function(ply, args) return radio_command(ply, args) end,
+    ["/gradio"] = function(ply, args) return radio_command(ply, args) end
 }
 
 -- ============================================================
