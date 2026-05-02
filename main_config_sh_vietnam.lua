@@ -524,7 +524,12 @@ commands = {
     ["!r"] = function(ply, args) return radio_command(ply, args) end,
     ["/r"] = function(ply, args) return radio_command(ply, args) end,
     ["!gradio"] = function(ply, args) return radio_command(ply, args) end,
-    ["/gradio"] = function(ply, args) return radio_command(ply, args) end
+    ["/gradio"] = function(ply, args) return radio_command(ply, args) end,
+
+	["/rtv"] = function (ply) OpenRTVMenu(ply) end,
+	["/rockthevote"] = function (ply) OpenRTVMenu(ply) end,
+	["!rtv"] = function (ply) OpenRTVMenu(ply) end,
+	["!rockthevote"] = function (ply) OpenRTVMenu(ply) end
 }
 
 -- ============================================================
