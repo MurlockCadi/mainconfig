@@ -102,7 +102,7 @@ intro_image_urls = {
 -- ============================================================
 
 WALK_SPEED      = 135
-RUN_SPEED       = 250
+RUN_SPEED       = 280
 SLOW_WALK_SPEED = 80
 JUMP_POWER      = 250
 MAX_HEALTH      = 100
