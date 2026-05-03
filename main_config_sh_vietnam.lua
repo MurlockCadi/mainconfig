@@ -1014,7 +1014,8 @@ DivisionTypes = {
                 },
                 vehicles = {
                     { name = "T-59",  entityname = "lvs_wheeldrive_t59", description = "The famous T-59 tank, used for engaging enemy armor and providing fire support to infantry units.",  type = "Heavy Tanks" },
-                    { name = "BMP-1", entityname = "lvs_wheeldrive_bmp", description = "Heavily armored infantry transport vehicle, more of a tank than an APC.",                           type = "Light Tanks" },
+                    { name = "T-58", entityname = "lvs_type58_wt", description = "The Type 58 is a Chinese copy of the Soviet T-34-85 medium tank, used during the early Cold War period.", type = "Heavy Tanks" },
+                    { name = "BMP-1", entityname = "lvs_wheeldrive_bmp", description = "Heavily armored infantry transport vehicle, more of a tank than an APC.", type = "Light Tanks" },
                 },
             },
             {
