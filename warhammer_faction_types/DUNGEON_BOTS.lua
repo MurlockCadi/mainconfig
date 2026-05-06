@@ -1516,7 +1516,7 @@ FALLOUT_HOSTILE_FACTIONS["Chem Lords"] = {
                 weapon = "cat_chaos_legacy_bolter"
                 fighttype = "shooting"
             else
-                weapon = "cat_legacy_forceaxe"
+                weapon = "cat_custom_poweraxe"
                 fighttype = "melee"
             end
         end
