@@ -78,7 +78,7 @@ FACTION_TYPES["VOTANN"] = {
                 health = math.max(health * 3, 800)
 
 			else
-                bot:SetNWString("Name", " elite Ironkin")
+                bot:SetNWString("Name", "Elite Ironkin")
                 bot:SetModel("models/robots/spectre/player/imc_spectre.mdl")
                 if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
