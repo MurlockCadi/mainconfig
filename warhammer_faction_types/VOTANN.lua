@@ -195,3 +195,37 @@ FACTION_TYPES["VOTANN"] = {
         end
     end,
 }
+
+
+BOT_SOUND_MANAGER["VOTANN"] = {
+    SONGS_URL = {
+		"https://www.imperiumgaming.net/votann/Bites%20the%20dust.mp3",
+		"https://www.imperiumgaming.net/votann/Boom%20Baby!.mp3",
+		"https://www.imperiumgaming.net/votann/By%20the%20Beard%20Abomination.mp3",
+		"https://www.imperiumgaming.net/votann/Crawl%20Back%20to%20hell.mp3",
+		"https://www.imperiumgaming.net/votann/Die%20After%20All.mp3",
+		"https://www.imperiumgaming.net/votann/Eat%20Lead.mp3",
+		"https://www.imperiumgaming.net/votann/FOR%20KARL!.mp3",
+		"https://www.imperiumgaming.net/votann/Focus%20Fire.mp3",
+		"https://www.imperiumgaming.net/votann/For%20Karl.mp3",
+		"https://www.imperiumgaming.net/votann/For%20rock%20and%20stone!.mp3",
+		"https://www.imperiumgaming.net/votann/Like%20That%20rock%20and%20stone.mp3",
+		"https://www.imperiumgaming.net/votann/Make%20It%20Out%20Alive.mp3",
+		"https://www.imperiumgaming.net/votann/None%20can%20stand%20before%20us!.mp3",
+		"https://www.imperiumgaming.net/votann/Roar.mp3",
+		"https://www.imperiumgaming.net/votann/Rock%20Solid.mp3",
+		"https://www.imperiumgaming.net/votann/Rock%20and%20stone.mp3",
+		"https://www.imperiumgaming.net/votann/Shoot%20Ass.mp3",
+		"https://www.imperiumgaming.net/votann/Stop%20shooting%20leaf%20lover.mp3",
+		"https://www.imperiumgaming.net/votann/Watch%20The%20Overheating.mp3",
+		"https://www.imperiumgaming.net/votann/Watch%20where%20you're%20shooting%20moron.mp3",
+		"https://www.imperiumgaming.net/votann/Work%20you%20piece%20of%20shit..mp3",
+		"https://www.imperiumgaming.net/votann/You're%20cute%20but%20dead.mp3",
+		"https://www.imperiumgaming.net/votann/bloody%20hell%20hard%20to%20kill.mp3",
+		"https://www.imperiumgaming.net/votann/old%20lady%20all%20day.mp3",
+		"https://www.imperiumgaming.net/votann/think%20you%20could%20kill%20me.mp3"
+    },
+
+    COOLDOWN_MIN = 5,
+    COOLDOWN_MAX = 10
+}
