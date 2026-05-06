@@ -1,5 +1,5 @@
 FACTION_TYPES["VOTANN"] = {
-    STAGE = "CHEM-LORDS ASCENDANT",
+    STAGE = "FOR ROCK AND STONE!",
     DeathsByType = {},
     OffWorld = true,
 
@@ -12,7 +12,7 @@ FACTION_TYPES["VOTANN"] = {
             local roll = math.random(1, 100)
 
 	            if roll <= 5 then
-                bot:SetNWString("Name", "Einhyr Champion")
+                bot:SetNWString("Name", "Elite Einhyr Champion")
                 bot:SetModel("models/muschi/knight_ig/muschi_ig_squat_kalt.mdl")
                 bot:SetRunSpeed(100)
                 bot:SetWalkSpeed(100)
@@ -20,10 +20,10 @@ FACTION_TYPES["VOTANN"] = {
                 bot.weapon = "cat_legacy_thunderhammerterminator"
                 bot:SetNWString("Description", "The champion of the Hearthguard, slow and brutal.")
                 bot:SetNWBool("ShieldEnable", true)
-                health = math.max(health * 8, 2000)
+                health = math.max(health * 8, 3000)
 			
 			elseif roll <= 25 then
-                bot:SetNWString("Name", "Einhyr Hearthguard")
+                bot:SetNWString("Name", "Elite Einhyr Hearthguard")
                 bot:SetModel("models/muschi/knight_ig/muschi_ig_squat_kalt.mdl")
                 bot:SetRunSpeed(200)
                 bot:SetWalkSpeed(200)
@@ -32,10 +32,10 @@ FACTION_TYPES["VOTANN"] = {
 			    bot.meleeweapon = "cat_legacy_poweraxelegatine"
                 bot:SetNWString("Description", "Elite Kin tasked with defending what matters most. ")
                 bot:SetNWBool("ShieldEnable", true)
-                health = math.max(health * 5, 2000)
+                health = math.max(health * 5, 1200)
 				
             elseif roll <= 35 then
-                bot:SetNWString("Name", "Grymnyr")
+                bot:SetNWString("Name", "Elite Grymnyr")
                 bot:SetModel("models/muschi/knight_ig/muschi_ig_squat.mdl")
                 bot:SetRunSpeed(200)
                 bot:SetWalkSpeed(200)
@@ -43,10 +43,10 @@ FACTION_TYPES["VOTANN"] = {
 				bot.pysker = true
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
                 bot:SetNWString("Description", "The only Kin able to interact with the warp.")
-                health = math.max(health * 3, 2000)
+                health = math.max(health * 3, 800)
             
 			elseif roll <= 55 then
-                bot:SetNWString("Name", "Brokhyr Thunderkin")
+                bot:SetNWString("Name", "Elite Brokhyr Thunderkin")
                 bot:SetModel("models/muschi/knight_ig/muschi_ig_squat_kalt.mdl")
                 bot:SetRunSpeed(200)
                 bot:SetWalkSpeed(200)
@@ -54,20 +54,20 @@ FACTION_TYPES["VOTANN"] = {
                 bot.weapon = "cat_legacy_assaultcannoncrusade"
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "The most talented engineers of the Kin, in heavy armor and heavier weapons.")
-                health = math.max(health * 4, 2000)
+                health = math.max(health * 4, 1500)
 					
 			elseif roll <= 65 then
-                bot:SetNWString("Name", "Cthonian Berserks")
+                bot:SetNWString("Name", "Elite Cthonian Berserks")
                 bot:SetModel("models/muschi/knight_ig/muschi_ig_squat.mdl")
                 bot:SetRunSpeed(300)
                 bot:SetWalkSpeed(300)
                 bot.FightType = "melee"
                 bot.weapon = "cat_legacy_poweraxecthonian"
                 bot:SetNWString("Description", "Heavily augmented for speed and strength")
-                health = math.max(health * 2, 2000)
+                health = math.max(health * 2, 1000)
 
 			elseif roll <= 75 then
-                bot:SetNWString("Name", "Hearthkyn Warriors")
+                bot:SetNWString("Name", "Elite Hearthkyn Warriors")
                 bot:SetModel("models/muschi/knight_ig/muschi_ig_squat_kalt.mdl")
                 bot:SetRunSpeed(200)
                 bot:SetWalkSpeed(200)
@@ -75,10 +75,10 @@ FACTION_TYPES["VOTANN"] = {
                 bot.weapon = "murlock_volkite_blaster"
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A Kin warrior well trained and well armed.")
-                health = math.max(health * 3, 2000)
+                health = math.max(health * 3, 800)
 
 			else
-                bot:SetNWString("Name", "Ironkin")
+                bot:SetNWString("Name", " elite Ironkin")
                 bot:SetModel("models/robots/spectre/player/imc_spectre.mdl")
                 if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
@@ -89,7 +89,7 @@ FACTION_TYPES["VOTANN"] = {
                 end
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "Sapient fodder of the Votann to avoid Kin loss.")
-                health = math.max(health * 2, 1000)		
+                health = math.max(health * 2, 500)		
             end
         else
             local roll = math.random(1, 100)
@@ -112,9 +112,9 @@ FACTION_TYPES["VOTANN"] = {
                 bot.FightType = "hybrid"
                 bot.weapon = "murlock_volkite_blaster"
 			    bot.meleeweapon = "cat_legacy_poweraxelegatine"
-                bot:SetNWString("Description", "Elite Kin tasked with defending what matters most. ")
+                bot:SetNWString("Description", "Elite Kin tasked with defending what matters most.")
                 bot:SetNWBool("ShieldEnable", true)
-                health = math.max(health * 4, 2000)
+                health = math.max(health * 4, 1000)
 				
             elseif roll <= 35 then
                 bot:SetNWString("Name", "Grymnyr")
@@ -125,7 +125,7 @@ FACTION_TYPES["VOTANN"] = {
 				bot.pysker = true
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
                 bot:SetNWString("Description", "The only Kin able to interact with the warp.")
-                health = math.max(health * 2, 2000)
+                health = math.max(health * 2, 700)
             
 			elseif roll <= 55 then
                 bot:SetNWString("Name", "Brokhyr Thunderkin")
@@ -136,7 +136,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot.weapon = "cat_legacy_assaultcannoncrusade"
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "The most talented engineers of the Kin, in heavy armor and heavier weapons.")
-                health = math.max(health * 3, 2000)
+                health = math.max(health * 3, 1000)
 					
 			elseif roll <= 65 then
                 bot:SetNWString("Name", "Cthonian Berserks")
@@ -146,7 +146,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot.FightType = "melee"
                 bot.weapon = "cat_legacy_poweraxecthonian"
                 bot:SetNWString("Description", "Heavily augmented for speed and strength")
-                health = math.max(health * 1, 2000)
+                health = math.max(health * 1, 800)
 
 			elseif roll <= 75 then
                 bot:SetNWString("Name", "Hearthkyn Warriors")
@@ -157,7 +157,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot.weapon = "murlock_volkite_blaster"
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A Kin warrior well trained and well armed.")
-                health = math.max(health * 2, 2000)
+                health = math.max(health * 2, 700)
 
 			else
                 bot:SetNWString("Name", "Ironkin")
@@ -171,7 +171,7 @@ FACTION_TYPES["VOTANN"] = {
                 end
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "Sapient fodder of the Votann to avoid Kin loss.")
-                health = math.max(health * 1, 1000)		
+                health = math.max(health * 1, 500)		
             end
         end
 
