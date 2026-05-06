@@ -5,13 +5,13 @@ FACTION_TYPES["VOTANN"] = {
 
     	CreateVotann = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
-        local spawn_elite = elite or math.random(1, 100)
+        local spawn_elite = elite
 
         if spawn_elite then
             bot.Elite = true
             local roll = math.random(1, 100)
 
-	            if roll <= 5 then
+	        if roll <= 5 then
                 bot:SetNWString("Name", "Elite Einhyr Champion")
                 bot:SetModel("models/muschi/knight_ig/muschi_ig_squat_kalt.mdl")
                 bot:SetRunSpeed(100)
