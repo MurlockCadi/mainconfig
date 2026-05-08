@@ -98,7 +98,7 @@ CRAFTABLE_ITEMS["item_319275"] = 15000 -- Power maul
 CRAFTABLE_ITEMS["item_121044"] = 15000 -- power greatsword
 
 CRAFTABLE_ITEMS["item_506025"] = 30000 -- Heavy Flamer
-CRAFTABLE_ITEMS["item_881186"] = 30000 -- Ogryn Mace + shield
+CRAFTABLE_ITEMS["item_881186"] = 20000 -- Ogryn Mace + shield
 
 CRAFTABLE_ITEMS["item_214114"] = 20000 -- Chainsword
 CRAFTABLE_ITEMS["item_889608"] = 20000 -- Ogryn Club
