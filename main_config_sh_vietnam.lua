@@ -806,8 +806,11 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Side Arm", "Shotgun", "Submachine Gun", "Rifle" },
                 Prefix             = "PL",
                 vehicles = {
-                    { name = "UH-1B Huey",  entityname = "lvs_helicopter_uh1b", description = "The iconic UH-1B Huey helicopter, used for troop transport, medical evacuation, and close air support with its mounted machine guns.",                                                    type = "Transport Helicopter" },
-                    { name = "AH-1G Cobra", entityname = "lvs_helicopter_ah1g", description = "A dedicated attack helicopter, equipped with a 20mm cannon and the ability to carry rockets and anti-tank missiles, used for providing close air support and engaging enemy armor.", type = "Attack Helicopter"    },
+                    { name = "UH-1B Huey",  entityname = "lvs_helicopter_uh1b", description = "The iconic UH-1B Huey helicopter, used for troop transport, medical evacuation, and close air support with its mounted machine guns.",type = "Transport Helicopter" },
+					{ name = "OH-6",  entityname = "lvs_helicopter_oh6", description = "An unarmed little bird for reconnaissance and single person drops.",type = "Transport Helicopter" },
+					{ name = "OH-6A",  entityname = "lvs_helicopter_oh6a", description = "An armed little bird for taking out soft targets.",type = "Attack Helicopter" },
+					{ name = "UH-1B Huey Gunship",  entityname = "lvs_helicopter_uh1b_gunship", description = "The iconic UH-1B Huey, swapping its mounted machine guns for rocket mounts and a forward cannon.",type = "Attack Helicopter" },
+                    { name = "AH-1G Cobra", entityname = "lvs_helicopter_ah1g", description = "A dedicated attack helicopter, equipped with a 20mm cannon and the ability to carry rockets and anti-tank missiles, used for providing close air support and engaging enemy armor.", type = "Attack Helicopter" },
                 },
                 EntitySpawner = {
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
@@ -1014,7 +1017,7 @@ DivisionTypes = {
                 },
                 vehicles = {
                     { name = "T-59",  entityname = "lvs_wheeldrive_t59", description = "The famous T-59 tank, used for engaging enemy armor and providing fire support to infantry units.",  type = "Heavy Tanks" },
-                    { name = "T-58", entityname = "lvs_type58_wt", description = "The Type 58 is a Chinese copy of the Soviet T-34-85 medium tank, used during the early Cold War period.", type = "Heavy Tanks" },
+                    { name = "T-58", entityname = "lvs_type58_wt", description = "The Type 58 is a Chinese copy of the Soviet T-34-85 medium tank, used during the early Cold War period.", type = "Light Tanks" },
                     { name = "BMP-1", entityname = "lvs_wheeldrive_bmp", description = "Heavily armored infantry transport vehicle, more of a tank than an APC.", type = "Light Tanks" },
                 },
             },
