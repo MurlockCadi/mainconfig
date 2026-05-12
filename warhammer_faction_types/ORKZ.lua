@@ -37,7 +37,12 @@ FACTION_TYPES["ORKZ"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "tfa_rokkit_launcha"
                 bot:SetNWString("Description", "BIG GREEN NOB WIZ A BIG ROKIT DAKKA")
-                bot:SetModelScale(1.25, 0)
+				bot.ChaosDwarf = true
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(1.25, 0)
+                    end
+                end)
             elseif eliteRoll <= 75 then
                 bot:SetNWString("Name", "WEIRD BOY")
                 health = math.max(health * 2, 500)
@@ -59,21 +64,14 @@ FACTION_TYPES["ORKZ"] = {
                     bot.FightType = "melee"
                     bot.weapon = "tfa_big_choppa"
                 end
-                bot:SetModelScale(1.25, 0)
+				bot.ChaosDwarf = true
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(1.25, 0)
+                    end
+                end)
                 bot:SetNWString("Description", "HUGE GREEN ORK WIZ A BIG SHINY ARMOUR AND BIG DAKA")
                 bot:SetNWBool("ShieldEnable", true)
-            elseif false then --IN_FACTION_REVOLUTION == false then
-                bot:SetModel("models/muschi/orks/muschi_ork_stompa.mdl")
-                health = math.max(health * 15, 2500)
-                bot:SetNWString("Name", "MINI STOMPA")
-                bot.NoRagdoll = true
-                bot.ExplodeOnDeath = true
-                bot.FightType = "shooting"
-                bot.weapon = "cat_murlock_broadside"
-                bot:SetModelScale(0.1, 0)
-                bot:SetRunSpeed(150)
-                bot:SetWalkSpeed(150)
-                bot:SetNWString("Description", "AN ORK WALKING TANK WIZ BIG SHOOTAS AND MEK GUNS")
             else --nob
                 bot:SetNWString("Name", "MEGA NOB")
                 health = math.max(health * 3, 1500)
@@ -86,7 +84,12 @@ FACTION_TYPES["ORKZ"] = {
                     bot.FightType = "melee"
                     bot.weapon = "tfa_big_choppa"
                 end
-                bot:SetModelScale(1.25, 0)
+				bot.ChaosDwarf = true
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(1.25, 0)
+                    end
+                end)
                 bot:SetNWString("Description", "HUGE GREEN ORK WIZ A BIG SHINY ARMOUR AND BIG DAKA")
                 bot:SetNWBool("ShieldEnable", true)
             end
@@ -107,7 +110,11 @@ FACTION_TYPES["ORKZ"] = {
                 end
                 bot:SetNWString("Description", "A LITTLZ GREEN SHIT")
                 bot.goblin = true
-                bot:SetModelScale(0.5, 0)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(0.5, 0)
+                    end
+                end)
             elseif gretichenroll <= 0.3 then
                 bot:SetNWString("Name", "Gretchin")
                 health = math.max(health * 1, 500)
