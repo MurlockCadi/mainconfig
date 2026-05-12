@@ -215,6 +215,8 @@ FACTION_TYPES["ORKZ"] = {
     end,
 }
 
+BOT_SOUND_MANAGER = BOT_SOUND_MANAGER or {}
+
 BOT_SOUND_MANAGER["ORKZ"] = {
     SONGS_URL = {
 	    "https://www.imperiumgaming.net/orksounds/Apr 24 at 1-52 PM.mp3",
