@@ -214,3 +214,28 @@ FACTION_TYPES["ORKZ"] = {
         end
     end,
 }
+
+BOT_SOUND_MANAGER["ORKZ"] = {
+    SONGS_URL = {
+	    "https://www.imperiumgaming.net/orksounds/Apr 24 at 1-52 PM.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Bone_Jammies.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Color_Song.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Imbach_Taunt.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Ork Voice 1.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Ork Voice 2.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Ork Voice 3.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Over_Here_Git.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Psyker_Taunt.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Ratling_Taunt.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Red_Boot.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Squat_Taunt.mp3",
+	    "https://www.imperiumgaming.net/orksounds/Squig_Stew.mp3",
+	    "https://www.imperiumgaming.net/orksounds/War_Machine.mp3"
+    },
+
+    COOLDOWN_MIN = 5,
+    COOLDOWN_MAX = 10
+}
+
+
+
