@@ -728,7 +728,8 @@ DivisionTypes = {
                 ForceModels = true,
                 Models = {
                     "models/jackswan/rogue_trader/wk_rt_secutor.mdl",
-                    "models/wk/fem_priast/wk_priestness_belka.mdl"
+                    "models/wk/fem_priast/wk_priestness_belka.mdl",
+					"models/wk/fem_priast/wk_priestness.mdl"
                 },
                 MaxHealth = 150,
                 PowerShield = true,
@@ -741,6 +742,33 @@ DivisionTypes = {
                 SpawnWeapons = {"fas2_ifak","ent_spawner"},
                 EntitySpawner = {
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
+                    { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
+                    { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
+                    { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
+                },
+                Prefix = ""
+            },
+			 {
+                Name = "Cybernetican",
+                Core = true,
+                ForceModels = true,
+                Models = {
+                    "models/jackswan/rogue_trader/wk_rt_secutor.mdl",
+                    "models/wk/fem_priast/wk_priestness_belka.mdl",
+					"models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers_alpha.mdl",
+					"models/wk/adeptus_mechanicus/wk_sicarian_infiltrators_alpha.mdl"
+                },
+                MaxHealth = 125,
+                PowerShield = true,
+				atomic = true,
+                Medic = true,
+                Weapons = {
+					"weapon_cuff_elastic","weapon_stunstick",
+                    "cat_custom_galvanic",
+                    "cat_legacy_omnissiahaxe"
+                },
+                SpawnWeapons = {"fas2_ifak","ent_spawner"},
+                EntitySpawner = {
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
