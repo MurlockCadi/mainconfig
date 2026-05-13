@@ -54,8 +54,8 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
                 bot:SetNWString("Name", "Flamer Traitor Ratling")
                 bot:SetModel("models/dizcordum/abhumans/ratling.mdl")
                 bot.FightType = "flamer"
-                bot:SetRunSpeed(400)
-                bot:SetWalkSpeed(400)
+                bot:SetRunSpeed(300)
+                bot:SetWalkSpeed(300)
                 bot.weapon = "cat_legacy_flamerheresy"
                 bot:SetNWString("Description", "Ratling who has turned against the Imperium.")
 
@@ -126,8 +126,8 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
                 bot:SetNWString("Name", "Flamer Traitor Ratling")
                 bot:SetModel("models/dizcordum/abhumans/ratling.mdl")
                 bot.FightType = "flamer"
-                bot:SetRunSpeed(400)
-                bot:SetWalkSpeed(400)
+                bot:SetRunSpeed(300)
+                bot:SetWalkSpeed(300)
                 bot.weapon = "cat_legacy_flamerheresy"
                 bot:SetNWString("Description", "Ratling who has turned against the Imperium.")
 
