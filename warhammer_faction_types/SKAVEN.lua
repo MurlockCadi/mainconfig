@@ -5,7 +5,7 @@ FACTION_TYPES["SKAVEN"] = {
 
     CreateSkaven = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
-        local spawn_elite = elite or math.random(1, 100) <= 20
+        local spawn_elite = elite
         print("Spawning Skaven bot. Elite:", spawn_elite)
         if spawn_elite then
             bot.Elite = true
