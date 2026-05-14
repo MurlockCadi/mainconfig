@@ -143,6 +143,8 @@ FACTION_TYPES["SKAVEN"] = {
                 else
                     bot.weapon = "murlock_melee"
                 end
+                bot:SetRunSpeed(300)
+                bot:SetWalkSpeed(300)
                 bot:SetNWString("Description", "Skaven foot soldier, expendable but dangerous in large numbers.")
                 health = math.max(health * 3, 500)
             
@@ -306,6 +308,8 @@ FACTION_TYPES["SKAVEN"] = {
                 else
                     bot.weapon = "murlock_melee"
                 end
+                bot:SetRunSpeed(300)
+                bot:SetWalkSpeed(300)
                 bot:SetNWString("Description", "Skaven foot soldier, expendable but dangerous in large numbers.")
                 health = math.max(health * 2, 400)
             
