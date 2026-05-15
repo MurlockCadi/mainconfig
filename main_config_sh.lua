@@ -662,7 +662,7 @@ DivisionTypes = {
 			{ID = 14, Name = "Admech", Rank_Prefix = "Genetor", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
 			{ID = 15, Name = "Admech", Rank_Prefix = "Genetor Primaris", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
 			{ID = 16, Name = "Admech", Rank_Prefix = "Genetor Major", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
-			{ID = 17, Name = "Admech", Rank_Prefix = "Arch Magos", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
+			{ID = 17, Name = "Admech", Rank_Prefix = "Arch Magos", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true}
         },
         Classes = {
             {
