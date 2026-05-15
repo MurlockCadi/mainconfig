@@ -657,11 +657,11 @@ DivisionTypes = {
 			{ID = 9, Name = "Admech", Rank_Prefix = "Artisan", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
 			{ID = 10, Name = "Admech", Rank_Prefix = "Master Artisan", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
 			{ID = 11, Name = "Admech", Rank_Prefix = "Artisan Supreme", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
-			{ID = 12, Name = "Admech", Rank_Prefix = "Technomancer", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
-			{ID = 13, Name = "Admech", Rank_Prefix = "Technomancer-At-Arms", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
-			{ID = 14, Name = "Admech", Rank_Prefix = "Biologist", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
-			{ID = 15, Name = "Admech", Rank_Prefix = "Cheif Biologis", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
-			{ID = 16, Name = "Admech", Rank_Prefix = "Biologis Major", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
+			{ID = 12, Name = "Admech", Rank_Prefix = "Metasurgeon", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
+			{ID = 13, Name = "Admech", Rank_Prefix = "Corpus-Illuminator", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
+			{ID = 14, Name = "Admech", Rank_Prefix = "Genetor", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
+			{ID = 15, Name = "Admech", Rank_Prefix = "Genetor Primaris", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
+			{ID = 16, Name = "Admech", Rank_Prefix = "Genetor Major", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
 			{ID = 17, Name = "Admech", Rank_Prefix = "Arch Magos", ModelsAllowed = ADMECH_MODELS, WeaponsAllowed = ADMECH_WEAPONS, CanPromote = true},
         },
         Classes = {
@@ -739,7 +739,7 @@ DivisionTypes = {
                 Prefix = ""
             },
             {
-                Name = "Biologis",
+                Name = "GENETOR",
                 Core = true,
                 ForceModels = true,
                 Models = {
@@ -939,7 +939,7 @@ DivisionTypes = {
             {
                 Name = "Penal Ratling",
                 Core = true,
-                Models = {"models/dizcordum/abhumans/ratling.mdl"},
+                Models = {"models/dizcordum/abhumans/ratling.mdl","models/wk/jackswan/abhumans/ratling/ratling.mdl","models/wk/jackswan/abhumans/ratling/ratling_boss.mdl","models/wk/jackswan/abhumans/ratling/ratling_vip.mdl"},
                 Weapons = {"cat_custom_sniper"},
                 MaxHealth = 100,
                 ForceModels = true,
@@ -1010,7 +1010,7 @@ DivisionTypes = {
             {
                 Name = "Ratling",
                 Core = true,
-                Models = {"models/dizcordum/abhumans/ratling.mdl"},
+                Models = {"models/dizcordum/abhumans/ratling.mdl","models/wk/jackswan/abhumans/ratling/ratling.mdl","models/wk/jackswan/abhumans/ratling/ratling_boss.mdl","models/wk/jackswan/abhumans/ratling/ratling_vip.mdl"},
                 Weapons = {"cat_custom_sniper"},
                 MaxHealth = 100,
                 ForceModels = true,
@@ -1304,7 +1304,7 @@ DivisionTypes = {
 				ForceModels = true,
                 Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
-                MaxHealth = 175,
+                MaxHealth = 200,
                 PowerShield = true,
 				CanManageTaxes = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic",},
@@ -1329,6 +1329,26 @@ DivisionTypes = {
                 PowerShield = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            },
+			{
+                Name = "Lord General",
+                Core = true,
+                Models = CADIAN_CAPTAIN,
+                Weapons = {"cat_custom_boltpistol"},
+                ForceModels = true,
+                MaxHealth = 300,
+				CanManageTaxes = true,
+                PowerShield = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "Lord General",
                 EntitySpawner = {
                     {
                         name = "Servo Skull",
