@@ -1338,26 +1338,6 @@ DivisionTypes = {
                     }
                 },
             },
-			{
-                Name = "Lord General",
-                Core = true,
-                Models = CADIAN_CAPTAIN,
-                Weapons = {"cat_custom_boltpistol"},
-                ForceModels = true,
-                MaxHealth = 300,
-				CanManageTaxes = true,
-                PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
-                Prefix = "Lord General",
-                EntitySpawner = {
-                    {
-                        name = "Servo Skull",
-                        entityname = "servoskullremote",
-                        description = "Used to monitor the hive.",
-                        type = "Skull"
-                    }
-                },
-            },
             {
                 Name = "Marshal of the Krieg",
                 Core = true,
