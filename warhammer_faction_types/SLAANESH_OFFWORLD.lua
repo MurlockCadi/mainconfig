@@ -31,7 +31,11 @@ FACTION_TYPES["SLAANESH_OFFWORLD"] = {
                 bot.FightType = "melee"
                 bot:SetRunSpeed(450)
                 bot.demon = true
-                bot:SetModelScale(2.5)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(2.5, 0)
+                    end
+                end)
                 bot:SetWalkSpeed(450)
                 bot.weapon = "murlock_melee"
                 bot:SetNWString("Description", "A towering Daemon Prince of Slaanesh, embodying excess and pleasure.")
