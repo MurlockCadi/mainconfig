@@ -31,9 +31,8 @@ FACTION_TYPES["MEN_OF_IRON"] = {
                 bot:SetModel("models/wk/necrons/base/wk_necronwarrior.mdl")
                 bot:SetMaterial("metalwall048a")
                 bot:SetNWString("Description", "A supreme command-class construct whose hatred for organic life is burned into every circuit")
-                bot.FightType = "hybrid"
+                bot.FightType = "shooting"
                 bot.weapon = EliteShootingWeapons[math.random(#EliteShootingWeapons)]
-                bot.meleeweapon = "murlock_melee"
                 timer.Simple(1, function() 
                     if IsValid(bot) then
                         bot:SetModelScale(1.5, 0)
@@ -49,9 +48,8 @@ FACTION_TYPES["MEN_OF_IRON"] = {
                 bot:SetNWString("Name", "Corrupted Servitor")
                 bot:SetModel("models/wk/servitor/wk_servit.mdl")
                 bot:SetNWString("Description", "Once a mindless instrument of the Mechanicus, now liberated into murderous self-determination")
-                bot.FightType = "hybrid"
+                bot.FightType = "shooting"
                 bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
-                bot.meleeweapon = "murlock_melee"
                 bot:SetRunSpeed(175)
                 bot:SetWalkSpeed(175)
                 health = math.max(health * 5, 2500)
@@ -72,9 +70,8 @@ FACTION_TYPES["MEN_OF_IRON"] = {
                 bot:SetNWString("Name", "Iron Android")
                 bot:SetModel(AndroidModels[math.random(#AndroidModels)])
                 bot:SetNWString("Description", "A hollow shell wearing the stolen shape of humanity, driven by nothing but machine logic")
-                bot.FightType = "hybrid"
+                bot.FightType = "shooting"
                 bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
-                bot.meleeweapon = "murlock_melee"
                 bot:SetMaterial("metalwall048a")
                 bot:SetRunSpeed(210)
                 bot:SetWalkSpeed(210)
@@ -84,10 +81,9 @@ FACTION_TYPES["MEN_OF_IRON"] = {
                 bot:SetNWString("Name", "Metal Warrior")
                 bot:SetModel("models/wk/necrons/base/wk_necronwarrior.mdl")
                 bot:SetNWString("Description", "The tireless rank-and-file of the Men of Iron, marching since the Dark Age of Technology")
-                bot.FightType = "hybrid"
+                bot.FightType = "shooting"
                 bot:SetMaterial("metalwall048a")
                 bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
-                bot.meleeweapon = "murlock_melee"
                 bot:SetModelScale(1.5)
                 bot:SetRunSpeed(185)
                 bot:SetWalkSpeed(185)
@@ -112,9 +108,8 @@ FACTION_TYPES["MEN_OF_IRON"] = {
                 bot:SetNWString("Name", "Corrupted Servitor")
                 bot:SetModel("models/wk/servitor/wk_servit.mdl")
                 bot:SetNWString("Description", "Once a mindless instrument of the Mechanicus, now liberated into murderous self-determination")
-                bot.FightType = "hybrid"
+                bot.FightType = "shooting"
                 bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
-                bot.meleeweapon = "murlock_melee"
                 bot:SetRunSpeed(175)
                 bot:SetWalkSpeed(175)
                 health = math.max(health * 3, 2000)
@@ -134,9 +129,8 @@ FACTION_TYPES["MEN_OF_IRON"] = {
                 bot:SetNWString("Name", "Iron Android")
                 bot:SetModel(AndroidModels[math.random(#AndroidModels)])
                 bot:SetNWString("Description", "A hollow shell wearing the stolen shape of humanity, driven by nothing but machine logic")
-                bot.FightType = "hybrid"
+                bot.FightType = "shooting"
                 bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
-                bot.meleeweapon = "murlock_melee"
                 bot:SetMaterial("metalwall048a")
                 bot:SetRunSpeed(210)
                 bot:SetWalkSpeed(210)
@@ -146,10 +140,9 @@ FACTION_TYPES["MEN_OF_IRON"] = {
                 bot:SetNWString("Name", "Metal Warrior")
                 bot:SetModel("models/wk/necrons/base/wk_necronwarrior.mdl")
                 bot:SetNWString("Description", "The tireless rank-and-file of the Men of Iron, marching since the Dark Age of Technology")
-                bot.FightType = "hybrid"
+                bot.FightType = "shooting"
                 bot:SetMaterial("metalwall048a")
                 bot.weapon = ShootingWeapons[math.random(#ShootingWeapons)]
-                bot.meleeweapon = "murlock_melee"
                 bot:SetModelScale(1.5)
                 bot:SetRunSpeed(185)
                 bot:SetWalkSpeed(185)
