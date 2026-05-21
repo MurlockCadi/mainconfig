@@ -315,8 +315,8 @@ commands = {
     ["/murlockaimhack"] = function(ply) ToggleMurlockAimHack(ply) end,
     ["/endevent"] = function(ply) PlayerVotedToEndEvent(ply) end,
     ["!endevent"] = function(ply) PlayerVotedToEndEvent(ply) end,
-    ["!eventoutpost"] = function(ply, args) CreateCommandOutpost(ply, args) end,
-    ["/eventoutpost"] = function(ply, args) CreateCommandOutpost(ply, args) end,
+    ["!event"] = function(ply, args) CreateCommand(ply, args) end,
+    ["/event"] = function(ply, args) CreateCommand(ply, args) end,
     ["/bot"] = function(ply, args) AdminRequestSpawnBot(ply, args) end,
     ["!bot"] = function(ply, args) AdminRequestSpawnBot(ply, args) end,
     ["/drugs"] = function(ply) OpenDrugInventory(ply) end,
@@ -431,7 +431,7 @@ commands = {
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--------- MAP OUTPOSTS --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------- MAP S --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 MAP_OUTPOSTS = {
     ["necromunda_v1"] = {
@@ -442,6 +442,25 @@ MAP_OUTPOSTS = {
         {
             name = "Upper Hive Barracks",
             pos = Vector(-7089.150879, 15290.420898, 11179.031250)
+        }
+    },
+
+	["rp_paris_wwii"] = {
+        {
+            name = "Fort Galando",
+            pos = Vector(-6566.282227, -13036.454102, 8905.394531)
+        },
+        {
+            name = "Gilden Spire Train Station",
+            pos = Vector(-9665.150391, 5533.566406, 7454.614746)
+        },
+        {
+            name = "Church",
+            pos = Vector(-9447.313477, 10787.389648, 7465.031250)
+        },
+        {
+            name = "Outer Cottage",
+            pos = Vector(-6042.056641 3407.634277 7546.614746)
         }
     },
 
