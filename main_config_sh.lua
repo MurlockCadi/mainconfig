@@ -448,7 +448,7 @@ MAP_OUTPOSTS = {
 	["rp_paris_wwii"] = {
         {
             name = "Fort Galando",
-            pos = Vector(-6566.282227, -13036.454102, 8905.394531)
+            pos = Vector(-6387.607910, -12898.430664, 8910.192383)
         },
         {
             name = "Gilden Spire Train Station",
@@ -456,11 +456,11 @@ MAP_OUTPOSTS = {
         },
         {
             name = "Church",
-            pos = Vector(-9447.313477, 10787.389648, 7465.031250)
+            pos = Vector(-9501.965820, 10925.320312, 7451.869629)
         },
         {
             name = "Outer Cottage",
-            pos = Vector(-6042.056641, 3407.634277, 7546.614746)
+            pos = Vector(6042.056641, 3407.634277, 7546.614746)
         }
     },
 
