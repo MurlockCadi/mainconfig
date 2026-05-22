@@ -56,9 +56,9 @@ FACTION_TYPES["AELDARI"] = {
             else
                 bot:SetNWString("Name", "Dark Reaper")
                 bot:SetModel("models/astartes/eldar/dark_reapers_npc.mdl")
-                bot:SetNWString("Description", "A deadly long-range marksman, the Dark Reaper picks off high-value targets from afar with precision and lethality.")
+                bot:SetNWString("Description", "A deadly -range marksman, the Dark Reaper picks off high-value targets from afar with precision and lethality.")
                 bot.FightType = "shooting"
-                bot.weapon = "zad_eldar_longrifle"
+                bot.weapon = "zad_eldar_longrifle_bot"
                 health = health * 1.5
                 bot:SetRunSpeed(350)
                 bot:SetWalkSpeed(350)
