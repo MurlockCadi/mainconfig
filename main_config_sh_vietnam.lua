@@ -823,7 +823,6 @@ DivisionTypes = {
                 },
                 EntitySpawner = {
                     { name = "Ammo Supplies",    entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
-                    { name = "Vehicle Ammo Crate",entityname = "lvs_item_ammocrate", description = "Filled with various ammo types for vehicles", type = "Ammo" },
                 },
             },
             {
