@@ -27,7 +27,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             local roll = math.random(1, 100)	
 			
 		if roll <= 5 then
-            bot:SetNWString("Name", "Infernal Guard")
+            bot:SetNWString("Name", "Elite Infernal Guard")
             bot:SetModel("models/knight_ig/muschi_ig_squat_kalt.mdl")
             bot:SetNWString("Description", "The most legendary warrior-cults within the Chaos Dwarf empire")
             bot.FightType = "hybrid"
@@ -37,7 +37,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetRunSpeed(150)
             bot:SetWalkSpeed(150)
 	        bot:SetNWBool("ShieldEnable", true)
-            health = math.max(health * 5, 2000)
+            health = math.max(health * 6, 2000)
 	            --set bodygroup
             local bodygroupchoice = math.random(1,2)
             if bodygroupchoice == 1 then
@@ -50,7 +50,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot.ShootingSkill = 2
 			
 		elseif roll <= 15 then
-            bot:SetNWString("Name", "Daemonsmith")
+            bot:SetNWString("Name", "Elite Daemonsmith")
             bot:SetModel("models/knight_ig/muschi_ig_squat.mdl")
             bot:SetNWString("Description", "The priests and the primary artificers and engineers of Chaos Dwarf society")
             bot.FightType = "hybrid"
@@ -59,10 +59,10 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetRunSpeed(200)
             bot:SetWalkSpeed(200)
             bot.ChaosDwarf = true
-            health = math.max(health * 4, 2000)
+            health = math.max(health * 4, 1000)
 			
 		elseif roll <= 25 then
-            bot:SetNWString("Name", "Chaos Dwarf Warrior")
+            bot:SetNWString("Name", "Elite Chaos Dwarf Warrior")
             bot:SetModel("models/knight_ig/muschi_ig_squat.mdl")
             bot:SetNWString("Description", "The main melee and ranged infantry of the Chaos Dwarfs' industrial empire")
             bot.FightType = "hybrid"
@@ -72,10 +72,10 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetWalkSpeed(200)
             bot.ChaosDwarf = true
             bot:SetNWBool("ShieldEnable", true)
-            health = math.max(health * 4, 2000)
+            health = math.max(health * 4, 1000)
 
 		elseif roll <= 35 then
-            bot:SetNWString("Name", "Black Ork")
+            bot:SetNWString("Name", "Elite Black Ork")
             bot:SetModel("models/muschi/orks/muschi_ork_nob_boy.mdl")
                  if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
@@ -86,10 +86,10 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
                  end
             bot:SetNWString("Description", "The strongest if not most unreliable of Chaos Dwarf slaves")
             bot:SetColor(Color(72, 72, 72))
-            health = math.max(health * 5, 1000)
+            health = math.max(health * 5, 1500)
 
 		elseif roll <= 45 then
-            bot:SetNWString("Name", "Hobgoblin")
+            bot:SetNWString("Name", "Elite Hobgoblin")
             bot:SetModel("models/player/necrosoup/gretchin_pm/gretchin_pm.mdl")
                  if math.random(1, 2) == 1 then
                     bot.FightType = "shooting"
@@ -99,46 +99,46 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
                      bot.weapon = "cat_chaos_legacy_powersword"
                  end
             bot:SetNWString("Description", "Goblins cast out from their own kind for helping the Chaos Dwarfs.")
-            health = math.max(health * 3, 2000)
+            health = math.max(health * 3, 500)
             bot:SetColor(Color(255, 191, 0))
 			
 		elseif roll <= 55 then
-            bot:SetNWString("Name", "Bull Centaur")
+            bot:SetNWString("Name", "Elite Bull Centaur")
             bot:SetModel("models/dizcordum/wk/dizcordum/inq/godrik_minotaur.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_powerbattleaxe"
             bot:SetRunSpeed(200)
             bot:SetWalkSpeed(200)
             bot:SetNWString("Description", "An amalgam of Chaos Dwarf and ferocious bull.")
-            health = math.max(health * 5, 1000)
+            health = math.max(health * 5, 1500)
             bot:SetColor(Color(255, 161, 0))
 			
 		elseif roll <= 70 then
-            bot:SetNWString("Name", "Chaos Daemon")
+            bot:SetNWString("Name", "Elite Chaos Daemon")
             bot:SetModel("models/wk/nurglit/wk_nuglin.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_combatknife"
             bot:SetNWString("Description", "The minor chaos gods manifestations.")
-            health = math.max(health * 3, 1000)
+            health = math.max(health * 3, 500)
             bot:SetColor(Color(255, 161, 0))
 			
 		elseif roll <= 85 then
-            bot:SetNWString("Name", "Ork Labourer")
+            bot:SetNWString("Name", "Elite Ork Labourer")
             bot:SetModel("models/barbossa/orc_laborer/orc_laborer_pm.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_combatknife"
             bot:SetNWString("Description", "Forced to serve their masters, they fight or die.")
-            health = math.max(health *3, 1000)
+            health = math.max(health *3, 300)
 
 		else
-            bot:SetNWString("Name", "Skaven Labourer")
+            bot:SetNWString("Name", "Elite Skaven Labourer")
         	bot:SetModel("models/ulman/clan_rat_1.mdl")
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_combatknife"
 	        bot:SetRunSpeed(400)
             bot:SetWalkSpeed(400)
             bot:SetNWString("Description", "Stolen, starved and whipped daily.")
-            health = math.max(health * 2, 1000)
+            health = math.max(health * 2, 200)
         end
 
         else
@@ -178,7 +178,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetRunSpeed(200)
             bot:SetWalkSpeed(200)
             bot.ChaosDwarf = true
-            health = math.max(health * 3, 2000)
+            health = math.max(health * 3, 1000)
 			
 		elseif roll <= 25 then
             bot:SetNWString("Name", "Chaos Dwarf Warrior")
@@ -191,7 +191,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetWalkSpeed(200)
             bot.ChaosDwarf = true
             bot:SetNWBool("ShieldEnable", true)
-            health = math.max(health * 3, 2000)
+            health = math.max(health * 3, 1000)
 
 		elseif roll <= 35 then
             bot:SetNWString("Name", "Black Ork")
@@ -205,7 +205,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
                  end
             bot:SetNWString("Description", "The strongest if not most unreliable of Chaos Dwarf slaves")
             bot:SetColor(Color(72, 72, 72))
-            health = math.max(health * 4, 1000)
+            health = math.max(health * 4, 1500)
 
 		elseif roll <= 45 then
             bot:SetNWString("Name", "Hobgoblin")
@@ -218,7 +218,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
                      bot.weapon = "cat_chaos_legacy_powersword"
                  end
             bot:SetNWString("Description", "Goblins cast out from their own kind for helping the Chaos Dwarfs.")
-            health = math.max(health * 2, 2000)
+            health = math.max(health * 2, 500)
             bot:SetColor(Color(255, 191, 0))
 			
 		elseif roll <= 55 then
@@ -229,7 +229,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetRunSpeed(200)
             bot:SetWalkSpeed(200)
             bot:SetNWString("Description", "An amalgam of Chaos Dwarf and ferocious bull.")
-            health = math.max(health * 4, 1000)
+            health = math.max(health * 4, 1500)
 			
 		elseif roll <= 70 then
             bot:SetNWString("Name", "Chaos Daemon")
@@ -237,7 +237,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_combatknife"
             bot:SetNWString("Description", "The minor chaos gods manifestations.")
-            health = math.max(health * 2, 1000)
+            health = math.max(health * 2, 500)
             bot:SetColor(Color(255, 161, 0))
 			
 		elseif roll <= 85 then
@@ -246,7 +246,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot.FightType = "melee"
             bot.weapon = "cat_chaos_legacy_combatknife"
             bot:SetNWString("Description", "Forced to serve their masters, they fight or die.")
-            health = math.max(health * 2, 1000)
+            health = math.max(health * 2, 300)
 
 		else
             bot:SetNWString("Name", "Skaven Labourer")
@@ -256,7 +256,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
 	        bot:SetRunSpeed(400)
             bot:SetWalkSpeed(400)
             bot:SetNWString("Description", "Stolen, starved and whipped daily.")
-            health = math.max(health * 1, 1000)
+            health = math.max(health * 1, 200)
         end
 	end
 
