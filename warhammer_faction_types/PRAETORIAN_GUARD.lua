@@ -20,7 +20,7 @@ FACTION_TYPES["PRAETORIAN_GUARD"] = {
                 bot:SetColor(Color(150, 0, 0))
                 bot.FightType = "shooting"
                 bot:SetNWBool("ShieldEnable", true)
-                bot.weapon = "cat_legacy_boltpistolpowersword"
+                bot.weapon = "cat_chaos_legacy_boltpistolpowerfist"
             else
                 health = health * 2
                 bot:SetNWString("Name", "Praetorian Commissar")
@@ -30,7 +30,7 @@ FACTION_TYPES["PRAETORIAN_GUARD"] = {
                 bot:SetColor(Color(150, 0, 0))
                 bot.FightType = "shooting"
                 bot:SetNWBool("ShieldEnable", true)
-                bot.weapon = "cat_legacy_boltpistolpowersword"
+                bot.weapon = "cat_chaos_legacy_boltpistolpowersword"
             end
             bot:SetRenderMode(RENDERMODE_TRANSALPHA)
         else
