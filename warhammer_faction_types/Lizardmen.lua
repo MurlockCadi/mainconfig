@@ -44,7 +44,7 @@ FACTION_TYPES["Lizardmen"] = {
                     end
                 end)
                 bot:SetNWString("Description", "A hulking reptilian behemoth bred in the oldest spawning pits, all teeth, muscle, and primeval rage.")
-                health = math.max(health * 10, 5000)
+                health = math.max(health * 7, 3000)
 
             elseif roll <= 60 then
                 bot:SetNWString("Name", "Greater Giant Toad")
@@ -64,7 +64,7 @@ FACTION_TYPES["Lizardmen"] = {
                     end
                 end)
                 bot:SetNWString("Description", "A swollen sacred toad of the deep marsh-temples, monstrously enlarged and maddened into violence.")
-                health = math.max(health * 10)
+                health = math.max(health * 5)
 
             elseif roll <= 90 then
                 bot:SetNWString("Name", "Kroxigor")
@@ -77,7 +77,7 @@ FACTION_TYPES["Lizardmen"] = {
                     end
                 end)
                 bot:SetNWString("Description", "A massive temple-guardian spawned for war.")
-                health = math.max(health * 10, 5000)
+                health = math.max(health * 6, 4000)
 
             else
                 bot:SetNWString("Name", "Carnosaur")
@@ -87,7 +87,7 @@ FACTION_TYPES["Lizardmen"] = {
                 bot:SetRunSpeed(300)
                 bot:SetWalkSpeed(300)
                 bot:SetNWString("Description", "An apex predator unleashed from the jungles of an ancient world")
-                health = math.max(health * 30)
+                health = math.max(health * 15)
             end
         else
             local roll = math.random(1, 100)
@@ -116,7 +116,7 @@ FACTION_TYPES["Lizardmen"] = {
                     bot:SetNWString("Description", "A swift cold-blooded hunter armed with bow and spear")
                 end
 
-                health = math.max(health, 450)
+                health = math.max(health *3, 450)
 
             elseif roll <= 75 then
                 bot:SetNWString("Name", "Saurus Warrior")
@@ -124,7 +124,7 @@ FACTION_TYPES["Lizardmen"] = {
                 bot.FightType = "melee"
                 bot.weapon = math.random(1, 100) <= 50 and "chitin_spear" or "cat_chaos_legacy_crozius"
                 bot:SetNWString("Description", "A broad-scaled warrior bred for nothing but disciplined slaughter.")
-                health = math.max(health * 4, 1800)
+                health = math.max(health * 4, 1000)
 
             elseif roll <= 80 then
                 bot:SetNWString("Name", "Slann Shaman")
@@ -133,7 +133,7 @@ FACTION_TYPES["Lizardmen"] = {
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "Through croaks and whispered rites, it bends ancient powers to annihilate intruders.")
-                health = math.max(health * 5, 2500)
+                health = math.max(health * 5, 1500)
 
             elseif roll <= 90 then
                 bot:SetNWString("Name", "Giant Lizard")
@@ -158,7 +158,7 @@ FACTION_TYPES["Lizardmen"] = {
                     bot.weapon = "tfa_big_shoota"
                 end
                 bot:SetNWString("Description", "A bloated swamp horror worshipped as a sacred beast by the lesser spawnings.")
-                health = math.max(health * 5, 2500)
+                health = math.max(health * 3, 1000)
             end
         end
 
