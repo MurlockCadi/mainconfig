@@ -72,7 +72,7 @@ FACTION_TYPES["AELDARI"] = {
             bot.FightType = "shooting"
             health = health * 2
             bot:SetNWBool("ShieldEnable", true)
-            bot.weapon = "zad_eldar_shuriken_pistol"
+            bot.weapon = "zad_eldar_cloudsweeper"
             bot:SetRunSpeed(400)
             bot:SetWalkSpeed(400)
         end
