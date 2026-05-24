@@ -45,7 +45,7 @@ FACTION_TYPES["Frogs"] = {
                 bot:SetWalkSpeed(280)
                 bot:SetNWString("Description", "A hulking sacred swamp brute swollen with age, rage, and impossible strength.")
                 ApplyFrogLook(2.4, 3.2)
-                health = math.max(health * 10, 5000)
+                health = math.max(health * 5, 4000)
 
                 --50% chance to be hybrid with a shoota
                 if math.random(1, 100) <= 50 then
@@ -65,7 +65,7 @@ FACTION_TYPES["Frogs"] = {
                 bot:SetWalkSpeed(320)
                 bot:SetNWString("Description", "A brilliantly coloured terror whose toxins and spite make it feared by all lesser swamp-things.")
                 ApplyFrogLook(1.4, 1.9)
-                health = math.max(health * 6, 3200)
+                health = math.max(health * 4, 2500)
 
             elseif roll <= 80 then
                 bot:SetNWString("Name", "Bullywug War-Chief")
@@ -77,7 +77,7 @@ FACTION_TYPES["Frogs"] = {
                 bot:SetWalkSpeed(280)
                 bot:SetNWString("Description", "A towering bullywug chieftain bellowing orders as it crashes through mud and reeds.")
                 ApplyFrogLook(1.15, 1.45)
-                health = math.max(health * 8, 4000)
+                health = math.max(health * 4, 2000)
 
             else
                 bot:SetNWString("Name", "Bullywug Oracle")
@@ -89,7 +89,7 @@ FACTION_TYPES["Frogs"] = {
                 bot:SetWalkSpeed(250)
                 bot:SetNWString("Description", "A croaking seer-priest wrapped in fetishes and swamp-lore, blasting intruders with eldritch force.")
                 ApplyFrogLook(1.1, 1.35)
-                health = math.max(health * 9, 4500)
+                health = math.max(health * 5, 1500)
             end
         else
             local roll = math.random(1, 100)
