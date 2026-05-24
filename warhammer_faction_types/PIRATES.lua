@@ -15,7 +15,7 @@ FACTION_TYPES["PIRATES"] = {
                 bot:SetNWString("Name", "Pirate Officer")
                 bot:SetModel("models/dizcordum/wk/mercenary/croto_hark.mdl")
                 bot.FightType = "shooting"
-                bot.weapon = "zad_eldar_shuriken_pistol"
+                bot.weapon = "zad_eldar_lasblaster"
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A swaggering void-captain draped in stolen finery and armed with the best loot on the deck.")
                 health = math.max(health * 4, 2000)
@@ -53,7 +53,7 @@ FACTION_TYPES["PIRATES"] = {
                     bot.weapon = "tfa_big_choppa"
                 else
                     bot.FightType = "melee"
-                    bot.weapon = "cat_custom_ogrynstick"
+                    bot.weapon = "cat_custom_crozius"
                 end
                 bot:SetRunSpeed(250)
                 bot:SetWalkSpeed(250)
@@ -64,7 +64,7 @@ FACTION_TYPES["PIRATES"] = {
                 bot:SetNWString("Name", "Harlequin Reaver")
                 bot:SetModel("models/arlequin.mdl")
                 bot.FightType = "shooting"
-                bot.weapon = "zad_eldar_shuriken_pistol"
+                bot.weapon = "zad_eldar_cloudsweeper"
                 bot:SetRunSpeed(400)
                 bot:SetWalkSpeed(400)
                 bot:SetNWBool("ShieldEnable", true)
