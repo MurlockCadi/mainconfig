@@ -67,7 +67,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.FightType = "melee"
                 bot.weapon = "murlock_fists"
                 bot.poisonous = true
-                bot.Damage = 200
+                bot.Damage = 100
                 bot:SetRunSpeed(400)
                 bot:SetWalkSpeed(400)
                 bot:SetColor(Color(127, 95, 0))
@@ -137,7 +137,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.FightType = "melee"
                 bot.weapon = "murlock_fists"
                 bot.poisonous = true
-                bot.Damage = 200
+                bot.Damage = 100
                 bot:SetRunSpeed(400)
                 bot:SetWalkSpeed(400)
                 bot:SetColor(Color(127, 95, 0))
