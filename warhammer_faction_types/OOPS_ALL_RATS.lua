@@ -20,7 +20,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.Damage = 500
                 timer.Simple(1, function() 
                     if IsValid(bot) then
-                        bot:SetModelScale(3, 0)
+                        bot:SetModelScale(2.5, 0)
                     end
                 end)
                 bot:SetColor(Color(255, 191, 0))
@@ -36,6 +36,11 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.Damage = 400
                 bot:SetRunSpeed(300)
                 bot:SetWalkSpeed(300)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(.3, 0)
+                    end
+                end)
                 bot:SetColor(Color(127, 95, 0))
                 health = math.max(health * 4, 700) 
                 bot:SetNWString("Description", "Not really a rat but glad to be here")
@@ -49,7 +54,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.Damage = 200
                 timer.Simple(1, function() 
                     if IsValid(bot) then
-                        bot:SetModelScale(2, 0)
+                        bot:SetModelScale(1.5, 0)
                     end
                 end)
                 health = math.max(health * 7, 7000) 
@@ -83,7 +88,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.Damage = 500
                 timer.Simple(1, function() 
                     if IsValid(bot) then
-                        bot:SetModelScale(3, 0)
+                        bot:SetModelScale(2.5, 0)
                     end
                 end)
                 bot:SetColor(Color(255, 191, 0))
@@ -99,6 +104,11 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.Damage = 400
                 bot:SetRunSpeed(300)
                 bot:SetWalkSpeed(300)
+                timer.Simple(1, function() 
+                    if IsValid(bot) then
+                        bot:SetModelScale(.3, 0)
+                    end
+                end)
                 bot:SetColor(Color(127, 95, 0))
                 health = math.max(health * 2, 500) 
                 bot:SetNWString("Description", "Not really a rat but glad to be here")
@@ -112,7 +122,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.Damage = 200
                 timer.Simple(1, function() 
                     if IsValid(bot) then
-                        bot:SetModelScale(2, 0)
+                        bot:SetModelScale(1.5, 0)
                     end
                 end)
                 health = math.max(health * 5, 5000) 
