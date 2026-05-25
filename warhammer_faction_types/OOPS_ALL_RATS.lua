@@ -57,6 +57,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                         bot:SetModelScale(1.5, 0)
                     end
                 end)
+                bot:SetColor(Color(127, 95, 0))
                 health = math.max(health * 7, 7000) 
                 bot:SetNWString("Description", "A larger rat")
 
@@ -69,6 +70,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.Damage = 200
                 bot:SetRunSpeed(400)
                 bot:SetWalkSpeed(400)
+                bot:SetColor(Color(127, 95, 0))
                 health = math.max(health * 4, 400) 
                 bot:SetNWString("Description", "A swarm of smaller rats acting as one")
             end
@@ -125,6 +127,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                         bot:SetModelScale(1.5, 0)
                     end
                 end)
+                bot:SetColor(Color(127, 95, 0))
                 health = math.max(health * 5, 5000) 
                 bot:SetNWString("Description", "A larger rat")
 
@@ -137,6 +140,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
                 bot.Damage = 200
                 bot:SetRunSpeed(400)
                 bot:SetWalkSpeed(400)
+                bot:SetColor(Color(127, 95, 0))
                 health = math.max(health * 2, 200) 
                 bot:SetNWString("Description", "A swarm of smaller rats acting as one")
             end
