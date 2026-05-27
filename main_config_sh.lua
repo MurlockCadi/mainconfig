@@ -14,7 +14,7 @@ local MAIN_MAPS = {
 }
 
 local ORK_MAPS = {
-	["rp_zombiewars_v1"] = true
+	["gm_spoon"] = true
 }
 
 if ORK_MAPS[game.GetMap()] then
