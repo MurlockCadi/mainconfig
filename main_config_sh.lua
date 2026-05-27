@@ -445,7 +445,16 @@ MAP_OUTPOSTS = {
             pos = Vector(-7089.150879, 15290.420898, 11179.031250)
         }
     },
-
+    ["rp_zombiewars_v1"] = {
+        {
+            name = "Front Gate Watchhouse",
+            pos = Vector(5509.134277, 6443.677734, 144.024292)
+        },
+        {
+            name = "Destoyed House",
+            pos = Vector(-2373.003906, -407.544891, 182.834595)
+        }
+    },
 	["rp_paris_wwii"] = {
         {
             name = "Fort Galando",
