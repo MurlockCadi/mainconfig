@@ -6,6 +6,7 @@
 --In general, we want 5000HP to be for big elites, 2500 for mid tier doods, and 500 for non elites, but this can be adjusted as needed for balance and fun.
 --The higher the HP, the more XP and loot chance the bot should have. HP is currently the only factor.
 
+ORK_HOSTILE_FACTIONS = ORK_HOSTILE_FACTIONS or {}
 FALLOUT_HOSTILE_FACTIONS = FALLOUT_HOSTILE_FACTIONS or {}
 BOT_SOUND_MANAGER = BOT_SOUND_MANAGER or {}
 
@@ -2250,4 +2251,415 @@ BOT_SOUND_MANAGER["Lizardmen"] = {
 
     COOLDOWN_MIN = 5,
     COOLDOWN_MAX = 10
+}
+
+
+ORK_HOSTILE_FACTIONS["Goblins"] = {
+    Name = "Goblins",
+    RandomEncounter = true,
+    WasteLandSpawnWeight = 2,
+    DungeonBot = true,
+    DungeonHealth = 100,
+
+    CreateBot = function(bot, type)
+        local chance = math.random(1, 100)
+        local health, damage, model, name, description, weapon, fighttype
+        local status = "Goblins"
+        bot.HasLoot = true
+        if chance <= 45 then
+            local variants = {
+                {
+                    m = "models/barbossa/goblin/goblin_pm.mdl",
+                    n = "Goblin",
+                    d = "A sneaky little goblin armed with crude weapons and spite.",
+                    hp = 100,
+                    dmg = 90,
+                    scale = 1,
+                    speed = 260,
+                    weapons = {
+                        {w = "murlock_chaos_knife", t = "melee"},
+                        {w = "chitin_spear", t = "melee"},
+                        {w = "weapon_huntingbow", t = "shooting"}
+                    }
+                },
+                {
+                    m = "models/barbossa/snotling/snotling_pm.mdl",
+                    n = "Snotling",
+                    d = "A tiny vicious greenskin that bites, stabs, and scampers underfoot.",
+                    hp = 200,
+                    dmg = 75,
+                    scale = 1,
+                    speed = 320,
+                    weapons = {
+                        {w = "murlock_chaos_knife", t = "melee"},
+                        {w = "chitin_spear", t = "melee"},
+                    }
+                }
+            }
+
+            local pick = table.Random(variants)
+            model = pick.m
+            name = pick.n
+            description = pick.d
+            health = pick.hp
+            damage = pick.dmg
+            bot.xp = 180
+            bot.lootchancebonus = 4
+
+            if pick.scale then
+                timer.Simple(2, function()
+                    if IsValid(bot) then
+                        bot:SetModelScale(pick.scale, 0)
+                    end
+                end)
+            end
+
+            if pick.speed then
+                bot:SetRunSpeed(pick.speed)
+                bot:SetWalkSpeed(pick.speed)
+            end
+
+            local wpick = table.Random(pick.weapons)
+            weapon = wpick.w
+            fighttype = wpick.t
+
+        elseif chance <= 70 then
+            local variants = {
+                {
+                    m = "models/barbossa/goblin/goblin_pm.mdl",
+                    n = "Goblin Archer",
+                    d = "A cruel goblin archer loosing arrows from behind the bigger lads.",
+                    hp = 500,
+                    dmg = 110,
+                    scale = 1.1,
+                    speed = 250,
+                    w = "weapon_huntingbow",
+                    t = "shooting"
+                },
+                {
+                    m = "models/barbossa/snotling/snotling_pm.mdl",
+                    n = "Greater Snotling",
+                    d = "A meaner, nastier snotling that throws itself at enemies in a frenzy.",
+                    hp = 500,
+                    dmg = 105,
+                    speed = 300,
+                    w = "murlock_chaos_knife",
+                    t = "melee"
+                },
+                {
+                    m = "models/barbossa/goblin/goblin_pm.mdl",
+                    n = "Greater Goblin",
+                    d = "A tougher goblin who has survived enough fights to become bold.",
+                    hp = 500,
+                    dmg = 125,
+                    speed = 255,
+                    w = "murlock_chaos_knife",
+                    t = "melee"
+                }
+            }
+
+            local pick = table.Random(variants)
+            model = pick.m
+            name = pick.n
+            description = pick.d
+            health = pick.hp
+            damage = pick.dmg
+            weapon = pick.w
+            fighttype = pick.t
+            bot.xp = 300
+            bot.lootchancebonus = 6
+
+            if pick.scale then
+                timer.Simple(2, function()
+                    if IsValid(bot) then
+                        bot:SetModelScale(pick.scale, 0)
+                    end
+                end)
+            end
+
+            if pick.speed then
+                bot:SetRunSpeed(pick.speed)
+                bot:SetWalkSpeed(pick.speed)
+            end
+
+        elseif chance <= 85 then
+            local variants = {
+                {
+                    m = "models/barbossa/goblin/goblin_pm.mdl",
+                    n = "Goblin Weirdo",
+                    d = "A warp-touched goblin shaman muttering curses and hurling foul magic.",
+                    hp = 800,
+                    dmg = 150,
+                    scale = 1.4,
+                    speed = 240,
+                    w = "cat_chaos_legacy_sorcererstaff",
+                    t = "shooting",
+                    shield = true,
+                    psyker = true
+                },
+                {
+                    m = "models/astartes/squig/squig.mdl",
+                    n = "Squig",
+                    d = "A ravenous squig that bounds forward to tear flesh with fang and fury.",
+                    hp = 800,
+                    dmg = 170,
+                    speed = 340,
+                    w = "murlock_melee",
+                    t = "melee"
+                },
+                {
+                    m = "models/barbossa/goblin/goblin_pm.mdl",
+                    n = "Goblin Stabba",
+                    d = "A vicious goblin veteran armed with a filthy blade and too much confidence.",
+                    hp = 1000,
+                    dmg = 160,
+                    scale = 1.2,
+                    speed = 270,
+                    w = "murlock_chaos_knife",
+                    t = "melee"
+                }
+            }
+
+            local pick = table.Random(variants)
+            model = pick.m
+            name = pick.n
+            description = pick.d
+            health = pick.hp
+            damage = pick.dmg
+            weapon = pick.w
+            fighttype = pick.t
+            bot.xp = 500
+            bot.lootchancebonus = 9
+
+            if pick.scale then
+                timer.Simple(2, function()
+                    if IsValid(bot) then
+                         bot:SetModelScale(pick.scale, 0)
+                    end
+                end)
+            end
+
+            if pick.speed then
+                bot:SetRunSpeed(pick.speed)
+                bot:SetWalkSpeed(pick.speed)
+            end
+
+            if pick.shield then
+                bot:SetNWBool("ShieldEnable", true)
+            end
+
+            if pick.psyker then
+                bot.pysker = true
+            end
+
+        elseif chance <= 96 then
+            local variants = {
+                {
+                    m = "models/astartes/squig/squig.mdl",
+                    n = "Great Squig",
+                    d = "A huge snapping squig that barrels into battle with unstoppable hunger.",
+                    hp = 2000,
+                    dmg = 220,
+                    speed = 360,
+                    w = "murlock_melee",
+                    t = "melee"
+                },
+                {
+                    m = "models/barbossa/goblin/goblin_pm.mdl",
+                    n = "Goblin Hexer",
+                    d = "A sinister goblin sorcerer wielding unstable and spiteful magic.",
+                    hp = 2000,
+                    dmg = 210,
+                    scale = 1.3,
+                    speed = 245,
+                    w = "cat_chaos_legacy_sorcererstaff",
+                    t = "shooting",
+                    shield = true,
+                    psyker = true
+                },
+                {
+                    m = "models/barbossa/goblin/goblin_pm.mdl",
+                    n = "Goblin Arrowboss",
+                    d = "A seasoned goblin archer capable of peppering foes with relentless arrows.",
+                    hp = 2500,
+                    dmg = 190,
+                    scale = 1.4,
+                    speed = 255,
+                    w = "weapon_huntingbow",
+                    t = "shooting"
+                }
+            }
+
+            local pick = table.Random(variants)
+            model = pick.m
+            name = pick.n
+            description = pick.d
+            health = pick.hp
+            damage = pick.dmg
+            weapon = pick.w
+            fighttype = pick.t
+            bot.xp = 750
+            bot.lootchancebonus = 12
+            bot.Elite = true
+
+            if pick.scale then
+                timer.Simple(2, function()
+                    if IsValid(bot) then
+                         bot:SetModelScale(pick.scale, 0)
+                    end
+                end)
+            end
+
+            if pick.speed then
+                bot:SetRunSpeed(pick.speed)
+                bot:SetWalkSpeed(pick.speed)
+            end
+
+            if pick.shield then
+                bot:SetNWBool("ShieldEnable", true)
+            end
+
+            if pick.psyker then
+                bot.pysker = true
+            end
+
+        else
+            local variants = {
+                {
+                    m = "models/astartes/squig/squig.mdl",
+                    n = "Squig Alpha",
+                    d = "A monstrous squig beast that leads the charge in a blur of teeth and muscle.",
+                    hp = 5000,
+                    dmg = 280,
+                    speed = 380,
+                    w = "murlock_melee",
+                    t = "melee"
+                },
+                {
+                    m = "models/barbossa/goblin/goblin_pm.mdl",
+                    n = "Goblin Warshaman",
+                    d = "A crazed goblin warshaman shrieking curses and channeling baleful magic.",
+                    hp = 5000,
+                    dmg = 250,
+                    scale = 1.5,
+                    speed = 250,
+                    w = "cat_chaos_legacy_sorcererstaff",
+                    t = "shooting",
+                    shield = true,
+                    psyker = true
+                },
+                {
+                    m = "models/barbossa/goblin/goblin_pm.mdl",
+                    n = "Goblin Boss",
+                    d = "A nasty goblin leader with enough cunning and cruelty to command the mob.",
+                    hp = 10000,
+                    dmg = 240,
+                    scale = 2,
+                    speed = 270,
+                    weapons = {
+                        {w = "cat_chaos_legacy_crozius", t = "melee"},
+                        {w = "tfa_big_shoota", t = "shooting"}
+                    }
+                }
+            }
+
+            local pick = table.Random(variants)
+            model = pick.m
+            name = pick.n
+            description = pick.d
+            health = pick.hp
+            damage = pick.dmg
+            bot.xp = 1000
+            bot.lootchancebonus = 15
+            bot.Elite = true
+
+            if pick.scale then
+                --set it 2 seconds later to prevent model issues on spawn
+                timer.Simple(2, function()
+                    if IsValid(bot) then
+                         bot:SetModelScale(pick.scale, 0)
+                    end
+                end)
+            end
+
+            if pick.speed then
+                bot:SetRunSpeed(pick.speed)
+                bot:SetWalkSpeed(pick.speed)
+            end
+
+            if pick.weapons then
+                local wpick = table.Random(pick.weapons)
+                weapon = wpick.w
+                fighttype = wpick.t
+            else
+                weapon = pick.w
+                fighttype = pick.t
+            end
+
+            if pick.shield then
+                bot:SetNWBool("ShieldEnable", true)
+            end
+
+            if pick.psyker then
+                bot.pysker = true
+            end
+        end
+
+        bot:StripWeapons()
+        bot.goblin = true
+        bot.ork = true
+        bot:SetNWString("Status", status)
+        bot:SetNWInt("MAX_HEALTH", health)
+        bot:SetMaxHealth(health)
+        bot:SetHealth(health)
+        bot.Damage = damage
+        bot:SetModel(model)
+
+        RandomonizeBodygroupsAndSkins(bot)
+
+        bot.weapon = weapon
+        bot.FightType = fighttype
+
+        bot:SetNWString("Name", name)
+        bot:SetNWString("Description", description)
+        bot.IsHostile = true
+        bot.GoneMad = true
+        bot:SetNoTarget(true)
+    end
+}
+
+BOT_SOUND_MANAGER["Goblins"] = {
+    SONG_LOCAL = {
+            "ork/waaagh_1-01.wav",
+            "ork/waaagh_1-02.wav",
+            "ork/waaagh_1-03.wav",
+            "ork/Ork_Grenade_Attack1.mp3",
+            "ork/Ork_Grenade_Attack2.mp3",
+            "ork/Ork_Grenade_Attack3.mp3",
+            "ork/Ork_Grenade_Attack4.mp3",
+            "ork/Ork_Grenade_Attack5.mp3",
+            "ork/Ork_Alert1.mp3",
+            "ork/Ork_Alert2.mp3",
+            "ork/Ork_Alert3.mp3",
+            "ork/Ork_Alert4.mp3",
+            "ork/Ork_Alert5.mp3",
+            "ork/Ork_Alert6.mp3",
+            "ork/Ork_Alert7.mp3",
+            "ork/Ork_Alert8.mp3",
+            "ork/Ork_Alert9.mp3",
+            "ork/Ork_Idle1.mp3",
+            "ork/Ork_Idle2.mp3",
+            "ork/Ork_Idle3.mp3",
+            "ork/Ork_Idle4.mp3",
+            "ork/Ork_Idle5.mp3",
+            "ork/Ork_Idle6.mp3",
+            "ork/Ork_Idle7.mp3",
+            "ork/Ork_Idle8.mp3",
+            "ork/Ork_Idle9.mp3",
+            "ork/Ork_Idle10.mp3"
+    },
+
+    COOLDOWN_MIN = 5,
+    COOLDOWN_MAX = 10,
+    Pitch = {min = 150, max = 200}
 }
