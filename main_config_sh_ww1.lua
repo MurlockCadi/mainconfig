@@ -594,8 +594,8 @@ OTTOMAN_MODELS_CO  = {"models/babafingo/ottoman/officer/osmanliofficer_6.mdl"}
 -- COLORS
 -- ============================================================
 
-BRITISH_COLOR = Color(0,  75, 135)
-GERMAN_COLOR  = Color(80, 60, 20)
+BRITISH_COLOR = Color(0,  80, 0)
+GERMAN_COLOR  = Color(0,  80, 70)
 
 -- ============================================================
 -- DIVISION TYPES
