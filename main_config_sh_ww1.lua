@@ -106,6 +106,7 @@ end
 -- PLAYER MOVEMENT
 -- ============================================================
 
+SLOW_WALK_SPEED = 80
 WALK_SPEED = 105
 RUN_SPEED = 280
 JUMP_POWER = 230
