@@ -51,26 +51,25 @@ mapMessage_defualt = "Somewhere on the Western Front..."
 
 -- Quotes shown on the loading screen
 configTexts = {
-    "The lamps are going out all over Europe, we shall not see them lit again in our lifetime.\n― Edward Grey",
-    "To the last man, to the last round.\n― Philip Neame",
-    "War is the unfolding of miscalculations.\n― Barbara W. Tuchman",
-    "The war has developed not necessarily to Japan's advantage.\n― Emperor Hirohito",
-    "The soldier above all others prays for peace, for it is the soldier who must suffer and bear the deepest wounds and scars of war.\n― Douglas MacArthur",
-    "In war, there are no unwounded soldiers.\n― José Narosky",
-    "A soldier will fight long and hard for a bit of colored ribbon.\n― Napoleon Bonaparte",
-    "The first casualty of war is truth.\n― Hiram Johnson",
-    "War does not determine who is right - only who is left.\n― Bertrand Russell",
-    "The object of war is not to die for your country but to make the other bastard die for his.\n― George S. Patton",
-    "Never think that war, no matter how necessary, nor how justified, is not a crime.\n― Ernest Hemingway",
-    "Older men declare war. But it is the youth that must fight and die.\n― Herbert Hoover",
-    "Only the dead have seen the end of war.\n― Plato",
-    "War is hell.\n― William Tecumseh Sherman",
-    "It is well that war is so terrible, or we should grow too fond of it.\n― Robert E. Lee",
-    "The supreme art of war is to subdue the enemy without fighting.\n― Sun Tzu",
-    "War is peace. Freedom is slavery. Ignorance is strength.\n― George Orwell",
-    "War is a series of catastrophes that results in a victory.\n― Georges Clemenceau",
-    "War makes strange bedfellows.\n― Helen Thomas",
-    "War is the continuation of politics by other means.\n― Carl von Clausewitz"
+    "The lamps are going out all over Europe, we shall not see them lit again in our lifetime.\n- Edward Grey",
+    "To the last man, to the last round.\n- Philip Neame",
+    "War is the unfolding of miscalculations.\n- Barbara W. Tuchman",
+    "The soldier above all others prays for peace, for it is the soldier who must suffer and bear the deepest wounds and scars of war.\n- Douglas MacArthur",
+    "In war, there are no unwounded soldiers.\n- José Narosky",
+    "A soldier will fight long and hard for a bit of colored ribbon.\n- Napoleon Bonaparte",
+    "The first casualty of war is truth.\n- Hiram Johnson",
+    "War does not determine who is right - only who is left.\n- Bertrand Russell",
+    "The object of war is not to die for your country but to make the other bastard die for his.\n- George S. Patton",
+    "Never think that war, no matter how necessary, nor how justified, is not a crime.\n- Ernest Hemingway",
+    "Older men declare war. But it is the youth that must fight and die.\n- Herbert Hoover",
+    "Only the dead have seen the end of war.\n- Plato",
+    "War is hell.\n- William Tecumseh Sherman",
+    "It is well that war is so terrible, or we should grow too fond of it.\n- Robert E. Lee",
+    "The supreme art of war is to subdue the enemy without fighting.\n- Sun Tzu",
+    "War is peace. Freedom is slavery. Ignorance is strength.\n- George Orwell",
+    "War is a series of catastrophes that results in a victory.\n- Georges Clemenceau",
+    "War makes strange bedfellows.\n- Helen Thomas",
+    "War is the continuation of politics by other means.\n- Carl von Clausewitz"
 }
 -- Music played during the loading/intro screen
 
