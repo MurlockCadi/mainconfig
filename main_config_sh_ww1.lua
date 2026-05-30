@@ -2504,8 +2504,8 @@ PASSIVE_ITEM_FLAGS["Loot Crate"] = { FunctionName = "none", Description = "This 
 
 ---- Store visibility flags ----
 
-PASSIVE_ITEM_FLAGS["vietcong_buyable"] = { FunctionName = "none", Description = "This item can be bought by the Vietcong in the store.", Color = Color(200, 200, 200) }
-PASSIVE_ITEM_FLAGS["us_buyable"]       = { FunctionName = "none", Description = "This item can be bought by the US in the store.",       Color = Color(200, 200, 200) }
+PASSIVE_ITEM_FLAGS["british_buyable"] = { FunctionName = "none", Description = "This item can be bought by the British in the store.", Color = Color(200, 200, 200) }
+PASSIVE_ITEM_FLAGS["german_buyable"]       = { FunctionName = "none", Description = "This item can be bought by the German in the store.",       Color = Color(200, 200, 200) }
 
 
 -- ============================================================
