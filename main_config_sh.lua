@@ -1757,12 +1757,48 @@ DivisionTypes = {
                 },
             },
             {
-                Name = "Scout",
+                Name = "Logistics",
                 Core = true,
-                Models = {"models/vintagethief/11th_imperial_guard/11th_swt_sniper_grey.mdl","models/vintagethief/11th_imperial_guard/11th_razvedka_grey.mdl"},
-                Weapons = {"cat_custom_longlas"},
-                SpawnWeapons = {"realistic_hook"},
-                Prefix = "SC",
+                Models = {"models/vintagethief/11th_imperial_guard/11th_penal.mdl","models/vintagethief/11th_imperial_guard/11th_swt_flamer_grey.mdl","models/vintagethief/11th_imperial_guard/11th_swt_flamer_grey.mdl"},
+                Weapons = {},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+                Prefix = "LO",
+                Fortifications = {
+                    {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
+                    {name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
+                    {name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
+                    {name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
+                    {name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
+                    {name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
+                    {name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
+                    {name = "Sandbags Line 2 Tall", model = "models/props_fortifications/sandbags_line2_tall.mdl"},
+                },
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Vehicle Ammo Supplies",
+                        entityname = "lvs_item_ammocrate",
+                        description = "Use to resupply any vehicle in the field!",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Promethium",
+                        entityname = "lvs_item_jerrycan",
+                        description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Medical Box",
+                        entityname = "medic_box",
+                        description = "Used to let your soldiers heal themselves!",
+                        type = "Medic Box"
+                    },
+                },
             },
             {
                 Name = "Vox Caster",
