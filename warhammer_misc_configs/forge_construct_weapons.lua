@@ -84,6 +84,8 @@ CRAFTABLE_ITEMS["item_109177"] = 50000 -- Heavy Plasma Gun arccw
 
 CRAFTABLE_ITEMS["item_649078"] = 15000 -- phospor pistol arccw
 
+CRAFTABLE_ITEMS["item_165893"] = 40000 -- dual bolt pistols tfa
+
 CRAFTABLE_ITEMS["item_111115"] = 30000 -- Plasma rifle arccw
 CRAFTABLE_ITEMS["item_639701"] = 30000 -- Plasma Gun tfa
 CRAFTABLE_ITEMS["item_709920"] = 15000 -- Plasma Pistol arccw
