@@ -445,6 +445,16 @@ MAP_OUTPOSTS = {
             pos = Vector(-7089.150879, 15290.420898, 11179.031250)
         }
     },
+	["rp_snow_warfare"] = {
+        {
+            name = "Base Gate",
+            pos = Vector(-13132.442383, 9937.503906, -14960.808594)
+        },
+        {
+            name = "Watchtower",
+            pos = Vector(1526.467651, -6295.471680, -13983.889648)
+        }
+    },
     ["rp_zombiewars_v1"] = {
         {
             name = "Front Gate Watchhouse",
