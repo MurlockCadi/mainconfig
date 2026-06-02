@@ -34,7 +34,7 @@ MAIN_MAP = "none"
 if MAIN_MAPS[game.GetMap()] then
     MAIN_MAP = game.GetMap()
 end
-
+ARE_WE_ON_MAIN_MAP = (game.GetMap() == MAIN_MAP)
 -- Per-map flavour text shown to players on load
 mapMessages = {
     ["gm_flatgrass"] = "Welcome to Murlocks Testing gm_flatgrass. If you have money... I would run...",
