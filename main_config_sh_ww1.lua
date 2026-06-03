@@ -156,7 +156,7 @@ end
 ----------------------TRENCH COOLDOWN
 
 TEAM_COOLDOWN = 1200
-GLOBAL_COOLDOWN = 600
+GLOBAL_COOLDOWN = 900
 
 
 -- ============================================================
