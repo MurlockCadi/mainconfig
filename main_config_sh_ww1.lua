@@ -277,6 +277,8 @@ commands = {
     ["!w"]             = function(ply, args) whisper_command(ply, args)         end,
     ["/pm"]            = function(ply, args) return privat_radio_msg(ply, args) end,
     ["!pm"]            = function(ply, args) return privat_radio_msg(ply, args) end,
+	["!combatlog"] = function(ply) if SERVER then net.Start("CombatLog_OpenPanel") net.Send(ply) end end,
+	["/combatlog"] = function(ply) if SERVER then net.Start("CombatLog_OpenPanel") net.Send(ply) end end,
 
     -- Announcements & songs
     ["!announce"]      = function(ply, args) return announce_command(ply, args) end,
