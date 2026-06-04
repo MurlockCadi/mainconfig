@@ -429,10 +429,10 @@ commands = {
     ["/r"] = function(ply, args) return radio_command(ply, args) end,
     ["!gradio"] = function(ply, args) return radio_command(ply, args) end,
     ["/gradio"] = function(ply, args) return radio_command(ply, args) end,
-	["!binary"] = function(ply) if SERVER then net.Start("Technalingua_Chat") net.Send(ply) end end,
-	["/binary"] = function(ply) if SERVER then net.Start("Technalingua_Chat") net.Send(ply) end end,
-	["!vbinary"] = function(ply) if SERVER then net.Start("Technalingua_Chat") net.Send(ply) end end,
-	["/vbinary"] = function(ply) if SERVER then net.Start("Technalingua_Chat") net.Send(ply) end end
+	["!binary"]  = function(ply) end,
+	["/binary"]  = function(ply) end,
+	["!vbinary"] = function(ply) end,
+	["/vbinary"] = function(ply) end
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
