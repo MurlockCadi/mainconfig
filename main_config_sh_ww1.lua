@@ -2330,7 +2330,7 @@ PASSIVE_ITEM_FLAGS["Critical Fail 5"]        = { FunctionName = "CritFail5",    
 PASSIVE_ITEM_FLAGS["Critical Fail 10"]        = { FunctionName = "CritFail10",      Description = "10% chance for your attacks to deal 100% less damage.",   Color = Color(255, 50, 0)   }
 PASSIVE_ITEM_FLAGS["Critical Vulnerability 10"]={ FunctionName = "CritVulnerable10",Description = "10% chance to take 75% more damage when hit.",           Color = Color(255, 50, 50)  }
 
-PASSIVE_ITEM_FLAGS["Lucky InVulnerability 10"]={ FunctionName = "LuckyInVulnerability10",Description = "10% chance to take 50% less damage when hit.",           Color = Color(0, 200, 255)  }
+PASSIVE_ITEM_FLAGS["Lucky InVulnerability 10"]={ FunctionName = "LuckyInVulnerability10",Description = "Adds head protection against shrapnel and might even stop a bullet if lucky.",           Color = Color(0, 200, 255)  }
 
 ---- Weapon handling ----
 
