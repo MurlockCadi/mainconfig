@@ -2296,6 +2296,8 @@ PASSIVE_ITEM_FLAGS["Extra Damage at Max Health"] = { FunctionName = "Extra Damag
 
 ---- Damage taken ----
 
+PASSIVE_ITEM_FLAGS["Gas Mask"]          = { FunctionName = "GasMask",         Description = "Protects against chemical weapons, without it, you will be vulnerable to gas attacks.",          Color = Color(0, 200, 0)   }
+
 PASSIVE_ITEM_FLAGS["Damage Reduction 5"]       = { FunctionName = "DamageReduction5",       Description = "Decreases incoming damage by 5%.",           Color = Color(0, 150, 255)  }
 PASSIVE_ITEM_FLAGS["Damage Reduction 10"]       = { FunctionName = "DamageReduction10",       Description = "Decreases incoming damage by 10%.",           Color = Color(0, 200, 255)  }
 PASSIVE_ITEM_FLAGS["Damage Taken Increase 5"]  = { FunctionName = "DamageTakenIncrease5",   Description = "You take 5% more damage from all sources.",  Color = Color(200, 50, 50)   }
