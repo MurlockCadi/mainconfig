@@ -592,6 +592,42 @@ OTTOMAN_MODELS_NCO = {"models/babafingo/ottoman/officer/osmanlisubay_6.mdl"}
 OTTOMAN_MODELS_CO  = {"models/babafingo/ottoman/officer/osmanliofficer_6.mdl"}
 
 -- ============================================================
+-- Global Fortifications
+-- ============================================================
+--Fortifications = Global_Fortifications,
+Global_Fortifications = {
+	{name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
+	{name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
+	{name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
+	{name = "Sandbags Corner 3", model = "models/props_fortifications/sandbags_corner3.mdl"},
+	{name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
+	{name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
+	{name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
+	{name = "Sandbags Line 2 Tall", model = "models/props_fortifications/sandbags_line2_tall.mdl"},
+	{name = "Sandbags Line 3", model = "models/props_fortifications/sandbags_line2b.mdl"},
+
+	{name = "Trench Bunker", model = "models/bunker/bunck.mdl"},
+	{name = "Dragons Teeth", model = "models/props_trenches/dragonsteeth.mdl"},
+	{name = "Tank Traps", model = "models/props_trenches/r_czech_hedgehog.mdl"},
+
+	{name = "Bunker", model = "models/props_phx/misc/bunker01.mdl"},
+	{name = "Wooden Wall Short", model = "models/props_fences/gate02.mdl"},
+	{name = "Hay Bale", model = "models/props_farm/ah_round_hay_bale001.mdl"},
+	{name = "Shooting Door", model = "models/props_interior/s_door02.mdl"},
+	{name = "Stone Wall", model = "models/props_fences/ah_stone_wall_256.mdl"},
+	{name = "Concrete Tube", model = "models/props_trenches/r_concretetube.mdl"},
+	{name = "Wooden Stairs", model = "models/hunter/misc/stair1x1.mdl"},
+
+	{name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
+	{name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
+	{name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
+	{name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
+	{name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
+	{name = "Barbed Wire", model = "models/fortification collection/barbed_wire3.mdl"},
+	{name = "Barbed Fence", model = "models/fortification collection/barbed_wire2.mdl"},
+}
+
+-- ============================================================
 -- COLORS
 -- ============================================================
 
@@ -658,6 +694,7 @@ DivisionTypes = {
                 Create_Outposts    = true,
                 Models             = {},
                 Weapons            = {},
+				Fortifications = Global_Fortifications,
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
                 Prefix             = "ENG",
@@ -792,6 +829,7 @@ DivisionTypes = {
                 Core               = true,
                 Create_Outposts    = true,
                 Models             = {},
+				Fortifications = Global_Fortifications,
                 Weapons            = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
@@ -995,6 +1033,7 @@ DivisionTypes = {
                 Core               = true,
                 Create_Outposts    = true,
                 Models             = {},
+				Fortifications = Global_Fortifications,
                 Weapons            = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
@@ -1198,6 +1237,7 @@ DivisionTypes = {
                 Core               = true,
                 Create_Outposts    = true,
                 Models             = {},
+				Fortifications = Global_Fortifications,
                 Weapons            = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
@@ -1400,6 +1440,7 @@ DivisionTypes = {
                 Name               = "Engineer",
                 Core               = true,
                 Create_Outposts    = true,
+				Fortifications = Global_Fortifications,
                 Models             = {},
                 Weapons            = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
@@ -1728,6 +1769,7 @@ DivisionTypes = {
                 Core               = true,
                 Create_Outposts    = true,
                 Models             = {},
+				Fortifications = Global_Fortifications,
                 Weapons            = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
@@ -1918,6 +1960,7 @@ DivisionTypes = {
                 Name               = "Engineer",
                 Core               = true,
                 Create_Outposts    = true,
+				Fortifications = Global_Fortifications,
                 Models             = {},
                 Weapons            = {"tfa_verdun_winchester1897","tfa_ww1_remington8_police_version","tfa_ww1_remington8_standard","tfa_ww1_mausersebslander1916","weapon_lvsmines","tfa_ww1_geballte_ladung"},
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
