@@ -649,7 +649,6 @@ DivisionTypes = {
                 Prefix             = "MD",
                 EntitySpawner = {
                     { name = "Medic Box",  entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.", type = "Medic Box" },
-                    { name = "Gas Mask",   entityname = "item_sh_gasmask", description = "Protects against gas attacks.",                                                                     type = "Equipment" },
                     { name = "Radio",      entityname = "newboombox",      description = "Radio to play some War Music!",                                                                     type = "Misc"      },
                 },
             },
@@ -718,7 +717,6 @@ DivisionTypes = {
                 Prefix             = "TR",
                 Max                = 2,
                 EntitySpawner = {
-                    { name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", type = "Equipment" },
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
             },
@@ -786,7 +784,6 @@ DivisionTypes = {
                 Max                = 4,
                 EntitySpawner = {
                     { name = "Medic Box", entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves.", type = "Medic Box" },
-                    { name = "Gas Mask",  entityname = "item_sh_gasmask", description = "Protects against gas attacks.",                                     type = "Equipment" },
                     { name = "Radio",     entityname = "newboombox",      description = "Radio to play some War Music!",                                     type = "Misc"      },
                 },
             },
@@ -902,7 +899,6 @@ DivisionTypes = {
                 Prefix             = "ST",
                 Max                = 4,
                 EntitySpawner = {
-                    { name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", type = "Equipment" },
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
             },
@@ -991,7 +987,6 @@ DivisionTypes = {
                 Max                = 4,
                 EntitySpawner = {
                     { name = "Medic Box", entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves.", type = "Medic Box" },
-                    { name = "Gas Mask",  entityname = "item_sh_gasmask", description = "Protects against gas attacks.",                                     type = "Equipment" },
                     { name = "Radio",     entityname = "newboombox",      description = "Radio to play some War Music!",                                     type = "Misc"      },
                 },
             },
@@ -1107,7 +1102,6 @@ DivisionTypes = {
                 Prefix             = "ST",
                 Max                = 4,
                 EntitySpawner = {
-                    { name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", type = "Equipment" },
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
             },
@@ -1196,7 +1190,6 @@ DivisionTypes = {
                 Max                = 4,
                 EntitySpawner = {
                     { name = "Medic Box", entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves.", type = "Medic Box" },
-                    { name = "Gas Mask",  entityname = "item_sh_gasmask", description = "Protects against gas attacks.",                                     type = "Equipment" },
                     { name = "Radio",     entityname = "newboombox",      description = "Radio to play some War Music!",                                     type = "Misc"      },
                 },
             },
@@ -1312,7 +1305,6 @@ DivisionTypes = {
                 Prefix             = "ST",
                 Max                = 4,
                 EntitySpawner = {
-                    { name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", type = "Equipment" },
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
             },
@@ -1401,7 +1393,6 @@ DivisionTypes = {
                 Max                = 4,
                 EntitySpawner = {
                     { name = "Medic Box", entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves.", type = "Medic Box" },
-                    { name = "Gas Mask",  entityname = "item_sh_gasmask", description = "Protects against gas attacks.",                                     type = "Equipment" },
                     { name = "Radio",     entityname = "newboombox",      description = "Radio to play some War Music!",                                     type = "Misc"      },
                 },
             },
@@ -1505,7 +1496,6 @@ DivisionTypes = {
                 Prefix             = "ST",
                 Max                = 4,
                 EntitySpawner = {
-                    { name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", type = "Equipment" },
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
             },
@@ -1595,7 +1585,6 @@ DivisionTypes = {
                 Prefix             = "MD",
                 EntitySpawner = {
                     { name = "Medic Box", entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves.", type = "Medic Box" },
-                    { name = "Gas Mask",  entityname = "item_sh_gasmask", description = "Protects against gas attacks.",                                     type = "Equipment" },
                     { name = "Radio",     entityname = "newboombox",      description = "Radio to play some War Music!",                                     type = "Misc"      },
                 },
             },
@@ -1664,7 +1653,6 @@ DivisionTypes = {
                 Prefix             = "ST",
                 Max                = 2,
                 EntitySpawner = {
-                    { name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", type = "Equipment" },
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
             },
@@ -1732,7 +1720,6 @@ DivisionTypes = {
                 Max                = 4,
                 EntitySpawner = {
                     { name = "Medic Box", entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves.", type = "Medic Box" },
-                    { name = "Gas Mask",  entityname = "item_sh_gasmask", description = "Protects against gas attacks.",                                     type = "Equipment" },
                     { name = "Radio",     entityname = "newboombox",      description = "Radio to play some War Music!",                                     type = "Misc"      },
                 },
             },
@@ -1836,7 +1823,6 @@ DivisionTypes = {
                 Prefix             = "ST",
                 Max                = 4,
                 EntitySpawner = {
-                    { name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", type = "Equipment" },
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
             },
@@ -1925,7 +1911,6 @@ DivisionTypes = {
                 Max                = 4,
                 EntitySpawner = {
                     { name = "Medic Box", entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves.", type = "Medic Box" },
-                    { name = "Gas Mask",  entityname = "item_sh_gasmask", description = "Protects against gas attacks.",                                     type = "Equipment" },
                     { name = "Radio",     entityname = "newboombox",      description = "Radio to play some War Music!",                                     type = "Misc"      },
                 },
             },
@@ -2029,7 +2014,6 @@ DivisionTypes = {
                 Prefix             = "ST",
                 Max                = 4,
                 EntitySpawner = {
-                    { name = "Gas Mask", entityname = "item_sh_gasmask", description = "Protects against gas attacks.", type = "Equipment" },
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
             },
