@@ -2284,6 +2284,8 @@ PASSIVE_ITEM_FLAGS["Add 10 Speed"]    = { FunctionName = "add10speed",    Descri
 PASSIVE_ITEM_FLAGS["Remove 5 Speed"]  = { FunctionName = "remove5speed",  Description = "Lowers Run Speed by 5.",     Color = Color(255, 0, 0)  }
 PASSIVE_ITEM_FLAGS["Remove 10 Speed"] = { FunctionName = "remove10speed", Description = "Lowers Run Speed by 10.",    Color = Color(255, 0, 0)  }
 
+PASSIVE_ITEM_FLAGS["Helmet Light"] = { FunctionName = "MurlockHelmetLight", Description = "Your helmet is a light source for the darkest places of this world.",    Color = Color(0, 100, 0)  }
+
 PASSIVE_ITEM_FLAGS["Ammo Regen"] = { FunctionName = "AmmoRegen", Description = "Grants passive ammo regeneration for your active weapon.", Color = Color(200, 200, 50) }
 
 ---- Damage output ----
