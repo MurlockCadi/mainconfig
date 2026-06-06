@@ -2302,18 +2302,18 @@ PASSIVE_ITEM_FLAGS["Ammo Regen"] = { FunctionName = "AmmoRegen", Description = "
 
 ---- Damage output ----
 
-PASSIVE_ITEM_FLAGS["Damage Boost 2"]          = { FunctionName = "DamageBoost2",         Description = "Increases your damage output by 2%.",          Color = Color(0, 200, 0)   }
-PASSIVE_ITEM_FLAGS["Damage Boost 5"]          = { FunctionName = "DamageBoost5",         Description = "Increases your damage output by 5%.",          Color = Color(0, 255, 0)   }
+PASSIVE_ITEM_FLAGS["Damage Boost 5"]          = { FunctionName = "DamageBoost5",         Description = "Increases your damage output by 5%.",          Color = Color(0, 200, 0)   }
+PASSIVE_ITEM_FLAGS["Damage Boost 10"]          = { FunctionName = "DamageBoost10",         Description = "Increases your damage output by 10%.",          Color = Color(0, 255, 0)   }
 PASSIVE_ITEM_FLAGS["Damage Output Reduction 5"]  = { FunctionName = "DamageDealtReduction5",  Description = "Your attacks deal 5% less damage.",        Color = Color(200, 100, 100) }
 PASSIVE_ITEM_FLAGS["Damage Output Reduction 10"] = { FunctionName = "DamageDealtReduction10", Description = "Your attacks deal 10% less damage.",       Color = Color(200, 50, 50)   }
 PASSIVE_ITEM_FLAGS["Extra Damage at Max Health"] = { FunctionName = "Extra Damage at Max Health", Description = "When at max health, you deal 10% more damage.", Color = Color(255, 200, 0) }
 
 ---- Damage taken ----
 
-PASSIVE_ITEM_FLAGS["Damage Reduction 2"]       = { FunctionName = "DamageReduction2",       Description = "Decreases incoming damage by 2%.",           Color = Color(0, 150, 255)  }
-PASSIVE_ITEM_FLAGS["Damage Reduction 4"]       = { FunctionName = "DamageReduction4",       Description = "Decreases incoming damage by 4%.",           Color = Color(0, 200, 255)  }
-PASSIVE_ITEM_FLAGS["Damage Taken Increase 2"]  = { FunctionName = "DamageTakenIncrease2",   Description = "You take 2% more damage from all sources.",  Color = Color(200, 50, 50)   }
-PASSIVE_ITEM_FLAGS["Damage Taken Increase 4"]  = { FunctionName = "DamageTakenIncrease4",   Description = "You take 4% more damage from all sources.",  Color = Color(255, 0, 0)     }
+PASSIVE_ITEM_FLAGS["Damage Reduction 5"]       = { FunctionName = "DamageReduction5",       Description = "Decreases incoming damage by 5%.",           Color = Color(0, 150, 255)  }
+PASSIVE_ITEM_FLAGS["Damage Reduction 10"]       = { FunctionName = "DamageReduction10",       Description = "Decreases incoming damage by 10%.",           Color = Color(0, 200, 255)  }
+PASSIVE_ITEM_FLAGS["Damage Taken Increase 5"]  = { FunctionName = "DamageTakenIncrease5",   Description = "You take 5% more damage from all sources.",  Color = Color(200, 50, 50)   }
+PASSIVE_ITEM_FLAGS["Damage Taken Increase 10"]  = { FunctionName = "DamageTakenIncrease10",   Description = "You take 10% more damage from all sources.",  Color = Color(255, 0, 0)     }
 PASSIVE_ITEM_FLAGS["Last Stand"]               = { FunctionName = "LastStand",              Description = "When below 35% health, you take 15% less damage.", Color = Color(255, 200, 0) }
 
 ---- Lifesteal / vampirism ----
@@ -2324,11 +2324,13 @@ PASSIVE_ITEM_FLAGS["Bullet Vampirism 10"]= { FunctionName = "BulletVampirism10",
 
 ---- Critical effects ----
 
-PASSIVE_ITEM_FLAGS["Critical Strikes 2"]      = { FunctionName = "CritStrike10",    Description = "2% chance for your attacks to deal 50% more damage.",    Color = Color(0, 200, 255)  }
-PASSIVE_ITEM_FLAGS["Critical Strikes 5"]      = { FunctionName = "CritStrike25",    Description = "5% chance for your attacks to deal 50% more damage.",    Color = Color(0, 255, 255)  }
-PASSIVE_ITEM_FLAGS["Critical Fail 10"]        = { FunctionName = "CritFail10",      Description = "2% chance for your attacks to deal 100% less damage.",   Color = Color(255, 100, 0)  }
-PASSIVE_ITEM_FLAGS["Critical Fail 25"]        = { FunctionName = "CritFail25",      Description = "5% chance for your attacks to deal 100% less damage.",   Color = Color(255, 50, 0)   }
+PASSIVE_ITEM_FLAGS["Critical Strikes 5"]      = { FunctionName = "CritStrike5",    Description = "5% chance for your attacks to deal 50% more damage.",    Color = Color(0, 200, 255)  }
+PASSIVE_ITEM_FLAGS["Critical Strikes 10"]      = { FunctionName = "CritStrike10",    Description = "10% chance for your attacks to deal 50% more damage.",    Color = Color(0, 255, 255)  }
+PASSIVE_ITEM_FLAGS["Critical Fail 5"]        = { FunctionName = "CritFail5",      Description = "5% chance for your attacks to deal 100% less damage.",   Color = Color(255, 100, 0)  }
+PASSIVE_ITEM_FLAGS["Critical Fail 10"]        = { FunctionName = "CritFail10",      Description = "10% chance for your attacks to deal 100% less damage.",   Color = Color(255, 50, 0)   }
 PASSIVE_ITEM_FLAGS["Critical Vulnerability 10"]={ FunctionName = "CritVulnerable10",Description = "10% chance to take 75% more damage when hit.",           Color = Color(255, 50, 50)  }
+
+PASSIVE_ITEM_FLAGS["Lucky InVulnerability 10"]={ FunctionName = "LuckyInVulnerability10",Description = "10% chance to take 50% less damage when hit.",           Color = Color(0, 200, 255)  }
 
 ---- Weapon handling ----
 
