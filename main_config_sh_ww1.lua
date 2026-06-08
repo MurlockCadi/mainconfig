@@ -2411,7 +2411,7 @@ PASSIVE_ITEM_FLAGS["Loot Crate"] = { FunctionName = "none", Description = "This 
 
 PASSIVE_ITEM_FLAGS["british_buyable"] = { FunctionName = "none", Description = "This item can be bought by the British in the store.", Color = Color(200, 200, 200) }
 PASSIVE_ITEM_FLAGS["german_buyable"]       = { FunctionName = "none", Description = "This item can be bought by the German in the store.",       Color = Color(200, 200, 200) }
-
+PASSIVE_ITEM_FLAGS["Food"]       = { FunctionName = "none", Description = "Display Calories",       Color = Color(200, 200, 200) }
 
 -- ============================================================
 -- ITEM EQUIP VALIDATION
