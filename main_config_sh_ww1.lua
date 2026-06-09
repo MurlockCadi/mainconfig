@@ -2307,6 +2307,9 @@ CERTIFICATIONS = {
     ["Cook"] = {
         Weapons = {},
     },
+    ["Surgeon"] = {
+        Weapons = {"weapon_healer"},
+    },
 }
 
 
