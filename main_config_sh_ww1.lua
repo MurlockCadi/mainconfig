@@ -2308,6 +2308,9 @@ CERTIFICATIONS = {
     },
     ["Surgeon"] = {
         Weapons = {"weapon_healer"},
+    }, --weapon_cuff_elastic
+    ["Military Police"] = {
+        Weapons = {"weapon_cuff_elastic"},
     },
 }
 
