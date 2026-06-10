@@ -2204,7 +2204,7 @@ ROLES = ROLES or {
         Description = "You have been conscripted into the British Expeditionary Force. Pick up your rifle soldier! The Western Front awaits.",
         Default     = true,
         Team        = "british",
-		DefaultItems = {"item_533128","item_719690","item_104153","item_431285"},
+		DefaultItems = {"item_613574","item_149084","item_991648","item_875713"},
         Ranks = {
             { ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = BRITISH_MODELS, WeaponsAllowed = BRITISH_LOADOUT, CanPromote = false },
         },
@@ -2228,7 +2228,7 @@ ROLES = ROLES or {
         Description = "You have enlisted for Kaiser and Fatherland. The Entente will not stop the German advance. Gott mit uns!",
         Default     = true,
         Team        = "german",
-		DefaultItems = {"item_169086","item_960781","item_104153","item_431285"},
+		DefaultItems = {"item_553483","item_149084","item_991648","item_335500"},
         Ranks = {
             { ID = 1, Name = "Rekrut", Rank_Prefix = "RKT", ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = false },
         },
