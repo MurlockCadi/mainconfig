@@ -696,7 +696,7 @@ DivisionTypes = {
                 Weapons            = {},
 				Fortifications = Global_Fortifications,
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair","outpost_maker" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun", "Heavy Explosive" },
                 Prefix             = "ENG",
                 EntitySpawner = {
                     { name = "Ammo Supplies",        entityname = "universal_ammo_small",  description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",                                                        type = "Ammo"      },
@@ -716,7 +716,7 @@ DivisionTypes = {
                 Models             = {},
                 Weapons            = {},
                 SpawnWeapons       = { "ent_spawner" },
-                AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle", },
+                AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle" },
                 Prefix             = "MG",
                 EntitySpawner = {
                     { name = "Ammo Supplies",      entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
@@ -731,7 +731,7 @@ DivisionTypes = {
                 Models             = {},
                 Weapons            = {},
                 SpawnWeapons       = { "ent_spawner" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive" },
                 Prefix             = "ARTY",
 				Max                = 2,
                 EntitySpawner = {
@@ -764,11 +764,10 @@ DivisionTypes = {
                 Models             = {},
                 Weapons            = {},
                 SpawnWeapons       = { "ent_spawner" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun", "Heavy Explosive" },
                 Prefix             = "SAP",
                 EntitySpawner = {
                     { name = "Ammo Box",      entityname = "universal_ammo_small", description = "Deploy some Ammo!",                              type = "Ammo"      },
-                    { name = "Transport Cart",entityname = "fuel_store",           description = "Cart to store Scrap and move it around.",         type = "Misc"      },
                     { name = "Blast Charge",  entityname = "tfa_ww1_tnt",         description = "Destroys Bedrock but will cause Caveins...",       type = "Equipment" },
                     { name = "Lamp",          entityname = "ent_oil",             description = "Lights the way in the dark...",                   type = "Misc"      },
                     { name = "Radio",         entityname = "newboombox",          description = "Radio to play some War Music!",                   type = "Misc"      },
@@ -1119,7 +1118,7 @@ DivisionTypes = {
                 Models             = {},
                 Weapons            = {},
                 SpawnWeapons       = { "ent_spawner", "cw_nam_m79_thumper" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun", "Heavy Explosive" },
                 Prefix             = "ARTY",
                 EntitySpawner = {
                     { name = "Artillery Gun",  entityname = "lvs_arty_john_temp", description = "Powerful artillery gun that can destroy enemy fortifications and infantry.", type = "Equipment" },
@@ -1636,7 +1635,7 @@ DivisionTypes = {
                 Models             = {},
                 Weapons            = {},
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun", "Heavy Explosive" },
                 Prefix             = "PNR",
                 EntitySpawner = {
                     { name = "Ammo Supplies",           entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",                                                      type = "Ammo"      },
@@ -1704,7 +1703,7 @@ DivisionTypes = {
                 Models             = {},
                 Weapons            = {},
                 SpawnWeapons       = { "ent_spawner" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive" },
                 Prefix             = "SAP",
                 EntitySpawner = {
                     { name = "Ammo Box",       entityname = "universal_ammo_small", description = "Deploy some Ammo!",                        type = "Ammo"      },
