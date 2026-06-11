@@ -735,7 +735,9 @@ DivisionTypes = {
                 Prefix             = "ARTY",
 				Max                = 2,
                 EntitySpawner = {
-                    { name = "Artillery Gun",  entityname = "lvs_arty_john_temp", description = "Powerful artillery gun that can destroy enemy fortifications and infantry.", type = "Equipment" },
+                    { name = "15cm SFH 18",  entityname = "lvs_15sfh", description = "The 15 cm schwere Feldhaubitze 18 or sFH 18, nicknamed Immergrün", type = "Artillery" },
+					{ name = "21cm Mrs.18",  entityname = "lvs_12sfh", description = "Large gun, with a massive range and insane firepower.", type = "Artillery" },
+					{ name = "7.5cm leIG18",  entityname = "lvs_lei18", description = "A 'Small' field gun used to combat tanks or to be used as short range firepower.", type = "Artillery" },
                     { name = "Transport Cart", entityname = "fuel_store",          description = "Cart to store Scrap and move it around.",                                   type = "Misc"      },
                     { name = "Radio",          entityname = "newboombox",          description = "Radio to play some War Music!",                                             type = "Misc"      },
                 },
@@ -1517,7 +1519,9 @@ DivisionTypes = {
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun" },
                 Prefix             = "ARTY",
                 EntitySpawner = {
-                    { name = "Artillery Gun",  entityname = "lvs_arty_john_temp", description = "Powerful artillery gun that can destroy enemy fortifications and infantry.", type = "Equipment" },
+                    { name = "15cm SFH 18",  entityname = "lvs_15sfh", description = "The 15 cm schwere Feldhaubitze 18 or sFH 18, nicknamed Immergrün", type = "Artillery" },
+					{ name = "21cm Mrs.18",  entityname = "lvs_12sfh", description = "Large gun, with a massive range and insane firepower.", type = "Artillery" },
+					{ name = "7.5cm leIG18",  entityname = "lvs_lei18", description = "A 'Small' field gun used to combat tanks or to be used as short range firepower.", type = "Artillery" },
                     { name = "Transport Cart", entityname = "fuel_store",          description = "Cart to store Scrap and move it around.",                                   type = "Misc"      },
                     { name = "Radio",          entityname = "newboombox",          description = "Radio to play some War Music!",                                             type = "Misc"      },
                 },
@@ -1674,7 +1678,9 @@ DivisionTypes = {
                 Prefix             = "ARTY",
 				Max                = 2,
                 EntitySpawner = {
-                    { name = "Artillery Gun",  entityname = "lvs_arty_john_temp", description = "Powerful artillery gun that can destroy enemy fortifications and infantry.", type = "Equipment" },
+                    { name = "15cm SFH 18",  entityname = "lvs_15sfh", description = "The 15 cm schwere Feldhaubitze 18 or sFH 18, nicknamed Immergrün", type = "Artillery" },
+					{ name = "21cm Mrs.18",  entityname = "lvs_12sfh", description = "Large gun, with a massive range and insane firepower.", type = "Artillery" },
+					{ name = "7.5cm leIG18",  entityname = "lvs_lei18", description = "A 'Small' field gun used to combat tanks or to be used as short range firepower.", type = "Artillery" },
                     { name = "Transport Cart", entityname = "fuel_store",          description = "Cart to store Scrap and move it around.",                                   type = "Misc"      },
                     { name = "Radio",          entityname = "newboombox",          description = "Radio to play some War Music!",                                             type = "Misc"      },
                 },
