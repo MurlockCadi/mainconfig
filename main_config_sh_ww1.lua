@@ -2319,7 +2319,7 @@ CERTIFICATIONS = {
         Weapons = {"weapon_cuff_elastic"},
     },
     ["Musician"] = {
-        Weapons = {},
+        Weapons = {"playablebagpipe"},
     },
     ["Chaplain"] = {
         Weapons = {"the_bible_cpdv"},
