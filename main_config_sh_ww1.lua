@@ -2322,7 +2322,7 @@ CERTIFICATIONS = {
         Weapons = {},
     },
     ["Chaplain"] = {
-        Weapons = {the_bible_cpdv},
+        Weapons = {"the_bible_cpdv"},
     },
 }
 
