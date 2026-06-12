@@ -2318,6 +2318,12 @@ CERTIFICATIONS = {
     ["Military Police"] = {
         Weapons = {"weapon_cuff_elastic"},
     },
+    ["Musician"] = {
+        Weapons = {},
+    },
+    ["Chaplain"] = {
+        Weapons = {the_bible_cpdv},
+    },
 }
 
 
