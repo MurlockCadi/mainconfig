@@ -683,6 +683,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "fas2_ifak", "ent_spawner" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", },
                 Prefix             = "MD",
+				Max                = 4,
                 EntitySpawner = {
                     { name = "Medic Box",  entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves. Also cures radiation over time.", type = "Medic Box" },
                     { name = "Radio",      entityname = "newboombox",      description = "Radio to play some War Music!",                                                                     type = "Misc"      },
@@ -698,6 +699,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair","outpost_maker" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun", "Heavy Explosive" },
                 Prefix             = "ENG",
+				Max                = 2,
                 EntitySpawner = {
                     { name = "Ammo Supplies",        entityname = "universal_ammo_small",  description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",                                                        type = "Ammo"      },
                     { name = "Vehicle Ammo Crate",   entityname = "lvs_item_ammocrate",    description = "Restores a vehicles ammo.",                                                                        type = "Ammo"      },
@@ -718,6 +720,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "ent_spawner" },
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle" },
                 Prefix             = "MG",
+				Max                = 4,
                 EntitySpawner = {
                     { name = "Ammo Supplies",      entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate", entityname = "lvs_item_ammocrate",   description = "Filled with various ammo types for vehicles.", type = "Ammo" },
@@ -1597,10 +1600,10 @@ DivisionTypes = {
             { ID = 3,  Name = "Gefreiter",            Rank_Prefix = "GFR",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = false },
             { ID = 4,  Name = "Obergefreiter",        Rank_Prefix = "OGFR", ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
             { ID = 5,  Name = "Unteroffizier",        Rank_Prefix = "UFZ",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
-			{ ID = 6,  Name = "Vize-Feldwebel",       Rank_Prefix = "VFW",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
-            { ID = 7,  Name = "Feldwebel",            Rank_Prefix = "FW",   ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
-            { ID = 8,  Name = "Etätmassige Feldwebel",Rank_Prefix = "OFW",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
-            { ID = 9,  Name = "Fähnrich",             Rank_Prefix = "FHN",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
+			{ ID = 6,  Name = "Sergeant",             Rank_Prefix = "SGT",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
+			{ ID = 7,  Name = "Vize-Feldwebel",       Rank_Prefix = "VFW",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
+            { ID = 9,  Name = "Feldwebel",            Rank_Prefix = "FW",   ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
+            { ID = 9,  Name = "Etätmassige Feldwebel",Rank_Prefix = "OFW",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
             { ID = 10, Name = "Leutnant",             Rank_Prefix = "LT",   ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
             { ID = 11, Name = "Oberleutnant",         Rank_Prefix = "OLT",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
             { ID = 12, Name = "Hauptmann",            Rank_Prefix = "HPT",  ModelsAllowed = GERMAN_MODELS, WeaponsAllowed = GERMAN_LOADOUT, CanPromote = true  },
@@ -1627,6 +1630,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "fas2_ifak", "ent_spawner" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", },
                 Prefix             = "MD",
+				Max                = 4,
                 EntitySpawner = {
                     { name = "Medic Box", entityname = "medic_box",       description = "Deploy a Box filled with medic items so they can heal themselves.", type = "Medic Box" },
                     { name = "Radio",     entityname = "newboombox",      description = "Radio to play some War Music!",                                     type = "Misc"      },
@@ -1641,6 +1645,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Shotgun", "Heavy Explosive" },
                 Prefix             = "PNR",
+				Max                = 2,
                 EntitySpawner = {
                     { name = "Ammo Supplies",           entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",                                                      type = "Ammo"      },
                     { name = "Vehicle Ammo Crate",      entityname = "lvs_item_ammocrate",   description = "Restores a vehicles ammo.",                                                                      type = "Ammo"      },
@@ -1661,6 +1666,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "ent_spawner" },
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle" },
                 Prefix             = "MG",
+				Max                = 4,
                 EntitySpawner = {
                     { name = "Ammo Supplies",      entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate", entityname = "lvs_item_ammocrate",   description = "Filled with various ammo types for vehicles.", type = "Ammo" },
