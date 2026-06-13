@@ -807,6 +807,9 @@ DivisionTypes = {
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
                 },
+				vehicles = {
+                    { name = "Jeep",  entityname = "lvs_wheeldrive_dodwillyjeep",  description = "It's a Jeep",  type = "Support" },
+				},
                 Prefix = ""
             },
             {
