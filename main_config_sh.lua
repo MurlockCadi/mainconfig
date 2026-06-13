@@ -2041,7 +2041,7 @@ ROLES = ROLES or {
                 Models = {},
                 Weapons = {},
                 SpawnWeapons = {"weapon_physgun", "gmod_tool"},
-                Prefix = ""
+                Prefix = "",
 				
         		vehicles = {
             		{
