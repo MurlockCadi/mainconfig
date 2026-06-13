@@ -2042,10 +2042,16 @@ ROLES = ROLES or {
                 Weapons = {},
                 SpawnWeapons = {"weapon_physgun", "gmod_tool"},
                 Prefix = ""
-            },
-			vehicles = {
-    			{ name = "Baneblade",    entityname = "lvs_wheeldrive_baneblade",   description = "IT'S A BANEBLADE", 	type = "Vehicle" },
-            },
+				
+        		vehicles = {
+            		{
+                		name = "Baneblade",
+                		entityname = "lvs_wheeldrive_baneblade",
+                		description = "IT'S A BANEBLADE",
+                		type = "Vehicle"
+            		}
+				}
+			},
         },
         Ranks = {
             {
