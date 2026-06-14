@@ -432,7 +432,11 @@ commands = {
 	["!binary"]  = function(ply) end,
 	["/binary"]  = function(ply) end,
 	["!vbinary"] = function(ply) end,
-	["/vbinary"] = function(ply) end
+	["/vbinary"] = function(ply) end,
+	["!highgothic"]  = function(ply) end,
+	["/highgothic"]  = function(ply) end,
+	["!vhighgothic"] = function(ply) end,
+	["/vhighgothic"] = function(ply) end
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2254,6 +2258,9 @@ CERTIFICATIONS = {
     ["Tech Adept"] = {
         Weapons = {"weapon_extinguisher_infinite","weapon_lvsrepair"},
     },
+	["High Gothic"] = {
+		Weapons = {},
+	},
     ["Quartermaster"] = {
         Weapons = {},
     },
