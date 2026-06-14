@@ -82,7 +82,11 @@ intro_image_urls = {
     "https://www.imperiumgaming.net/ww1songs/2.jpg",
     "https://www.imperiumgaming.net/ww1songs/3.jpg",
     "https://www.imperiumgaming.net/ww1songs/4.jpg",
-    "https://www.imperiumgaming.net/ww1songs/5.jpg"
+    "https://www.imperiumgaming.net/ww1songs/5.jpg",
+	"https://www.imperiumgaming.net/ww1perks/cavesounds/loading/20260613233920_1.jpg",
+	"https://www.imperiumgaming.net/ww1perks/cavesounds/loading/20260613235142_1.jpg",
+	"https://www.imperiumgaming.net/ww1perks/cavesounds/loading/20260614002320_1.jpg",
+	"https://www.imperiumgaming.net/ww1perks/cavesounds/loading/20260614013029_1.jpg"
 }
 
 ----IS_ZULU_EVENT-------------
