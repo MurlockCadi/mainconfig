@@ -2529,6 +2529,19 @@ SETTLEMENT_FORTIFICATIONS = {
 
     ----ENTITIES----
 
+
+	--models/props_industrial/oil_storage.mdl
+    ["Medical Workshop"] = {
+        Model = "models/props_industrial/oil_storage.mdl",
+        IsEntity = true,
+        Entity = "medical_workshop",
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 800,
+        Category = "Entities",
+    },
+
+
     ["Firepit"] = {
         Model = "models/props_exterior/r_fireplace.mdl",
         IsEntity = true,
