@@ -2520,4 +2520,1024 @@ end
 FACTION_TYPES = FACTION_TYPES or {}
 
 -- ============================================================
+-- SETTLEMENT_FORTIFICATIONS
+-- ============================================================
+
+SETTLEMENT_FORTIFICATIONS = SETTLEMENT_FORTIFICATIONS or {}
+
+SETTLEMENT_FORTIFICATIONS = {
+
+    ----ENTITIES----
+
+    ["Firepit"] = {
+        Model = "models/props_exterior/r_fireplace.mdl",
+        IsEntity = true,
+        Entity = "field_firepit",
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 50,
+        Category = "Entities",
+    },
+
+    ["Industrial Cooker"] = {
+        Model = "models/props_wasteland/kitchen_stove001a.mdl",
+        IsEntity = true,
+        Entity = "industrial_cooker",
+        Cost = 100,
+        WoodCost = 20,
+        MaxHealth = 1000,
+        Category = "Entities",
+    },
+
+    ["Pantry"] = {
+        Model = "models/world war 1/props/furniture/closet.mdl",
+        IsEntity = true,
+        Entity = "pantry",
+        Cost = 5,
+        WoodCost = 25,
+        MaxHealth = 500,
+        Category = "Entities",
+    },
+
+    ["Cast Iron Stove"] = {
+        Model = "models/world war 1/props/trench/stove.mdl",
+        IsEntity = true,
+        Entity = "cast_iron_stove",
+        Cost = 50,
+        WoodCost = 10,
+        MaxHealth = 500,
+        Category = "Entities",
+    },
+
+    ["Wire of Death"] = {
+        Model = "models/fortification collection/barbed_wire3.mdl",
+        IsEntity = true,
+        Entity = "electric_fence",
+        Cost = 45,
+        WoodCost = 10,
+        MaxHealth = 750,
+        Category = "Entities",
+        MaxPerSettlement = 20
+    },
+
+    ["Ore Extractor"] = {
+        Model = "models/props_silo/processor.mdl",
+        IsEntity = true,
+        Entity = "ore_extractor",
+        Cost = 250,
+        WoodCost = 100,
+        MaxHealth = 2500,
+        Category = "Entities",
+        MaxPerSettlement = 2
+    },
+
+    ["Fence Control Panel"] = {
+        Model = "models/props_silo/desk_console1a.mdl",
+        IsEntity = true,
+        Entity = "fence_control_panel",
+        Cost = 50,
+        WoodCost = 20,
+        MaxHealth = 600,
+        Category = "Entities",
+        MaxPerSettlement = 1
+    },
+
+    ["Capacitor"] = {
+        Model = "models/props_c17/substation_transformer01d.mdl",
+        IsEntity = true,
+        Entity = "capacitor",
+        Cost = 75,
+        WoodCost = 20,
+        MaxHealth = 800,
+        Category = "Entities",
+        MaxPerSettlement = 10
+    },
+
+    ["Electric Sawmill"] = {
+        Model = "models/props_wasteland/laundry_washer003.mdl",
+        IsEntity = true,
+        Entity = "electric_sawmill",
+        Cost = 100,
+        WoodCost = 20,
+        MaxHealth = 1200,
+        Category = "Entities",
+    },
+
+    ["Manual Sawmill"] = {
+        Model = "models/props/cs_militia/sawhorse.mdl",
+        IsEntity = true,
+        Entity = "manual_sawmill",
+        Cost = 5,
+        WoodCost = 25,
+        MaxHealth = 200,
+        Category = "Entities",
+    },
+
+    ["Ration Stockpile"] = {
+        Model = "models/props_supplies/german/acrate01_group.mdl",
+        IsEntity = true,
+        Entity = "ration_stockpile",
+        Cost = 10,
+        WoodCost = 50,
+        MaxHealth = 200,
+        Category = "Entities",
+    },
+
+    ["Electric Arc Furnace"] = {
+        Model = "models/props_wasteland/laundry_washer001a.mdl",
+        IsEntity = true,
+        Entity = "electric_arc_furnace",
+        Cost = 150,
+        WoodCost = 30,
+        MaxHealth = 2000,
+        Category = "Entities",
+    },
+
+    ["Canning Machine"] = {
+        Model = "models/props_mining/elevator_winch_empty.mdl",
+        IsEntity = true,
+        Entity = "canning_machine",
+        Cost = 75,
+        WoodCost = 20,
+        MaxHealth = 800,
+        Category = "Entities",
+    },
+
+    ["Simple Generator"] = {
+        Model = "models/props_outland/generator_static01a.mdl",
+        IsEntity = true,
+        Entity = "simple_generator",
+        Cost = 35,
+        WoodCost = 15,
+        MaxHealth = 600,
+        Category = "Entities",
+    },
+
+    ["Coal Generator"] = {
+        Model = "models/props_c17/factorymachine01.mdl",
+        IsEntity = true,
+        Entity = "coal_generator",
+        Cost = 125,
+        WoodCost = 10,
+        MaxHealth = 1500,
+        Category = "Entities",
+    },
+
+    ["Charcoal Burner"] = {
+        Model = "models/props_c17/furnitureboiler001a.mdl",
+        IsEntity = true,
+        Entity = "charcoal_burner",
+        Cost = 50,
+        WoodCost = 25,
+        MaxHealth = 800,
+        Category = "Entities",
+    },
+
+    ["Coke Oven"] = {
+        Model = "models/props_forest/sawmill_boiler.mdl",
+        IsEntity = true,
+        Entity = "coke_oven",
+        Cost = 100,
+        WoodCost = 5,
+        MaxHealth = 1000,
+        Category = "Entities",
+    },
+
+    ["Editable Sign"] = {
+        Model = "models/hunter/plates/plate1x2.mdl",
+        IsEntity = true,
+        Entity = "murlocksigns",
+        Cost = 5,
+        WoodCost = 5,
+        MaxHealth = 200,
+        Category = "Entities",
+    },
+
+    ["Maxim Machinegun"] = {
+        Model = "models/max/Maxim.mdl",
+        IsEntity = true,
+        Entity = "maxim",
+        Cost = 100,
+        WoodCost = 25,
+        MaxHealth = 1000,
+        Category = "Entities",
+    },
+
+    ----FURNITURE & PROPS----
+
+    ["Wood Crate"] = {
+        Model = "models/props_junk/wood_crate001a.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 2,
+        MaxHealth = 80,
+        Category = "Furniture",
+    },
+
+    --models/props_sam/cratestack_german.mdl
+    ["German Crate Stack"] = {
+        Model = "models/props_sam/cratestack_german.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 90,
+        Category = "Furniture",
+    },
+
+    --models/bf1/gadgets/ammo crate.mdl
+    ["Ammo Crate"] = {
+        Model = "models/bf1/gadgets/ammo crate.mdl",
+        IsEntity = false,
+        Cost = 2,
+        WoodCost = 1,
+        MaxHealth = 80,
+        Category = "Furniture",
+    },
+
+    ["Skull"] = {
+        Model = "models/Gibs/HGIBS.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 0,
+        MaxHealth = 20,
+        Category = "Furniture",
+    },
+
+    ["Small Wall"] = {
+        Model = "models/props_wasteland/wood_fence01a.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 140,
+        Category = "Furniture",
+    },
+
+    ["Globe"] = {
+        Model = "models/props_combine/breenglobe.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 2,
+        MaxHealth = 60,
+        Category = "Furniture",
+    },
+
+    ["Bust"] = {
+        Model = "models/props_combine/breenbust.mdl",
+        IsEntity = false,
+        Cost = 3,
+        WoodCost = 0,
+        MaxHealth = 90,
+        Category = "Furniture",
+    },
+
+    ["Clock"] = {
+        Model = "models/props_combine/breenclock.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 2,
+        MaxHealth = 60,
+        Category = "Furniture",
+    },
+
+    ["Fancy Desk"] = {
+        Model = "models/props_combine/breendesk.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 150,
+        Category = "Furniture",
+    },
+
+    ["Radio"] = {
+        Model = "models/props_lab/citizenradio.mdl",
+        IsEntity = false,
+        Cost = 2,
+        WoodCost = 1,
+        MaxHealth = 50,
+        Category = "Furniture",
+    },
+
+    ["Barrel"] = {
+        Model = "models/props_junk/ah_barrel_lg_single001.mdl",
+        IsEntity = false,
+        Cost = 0,
+        WoodCost = 5,
+        MaxHealth = 120,
+        Category = "Furniture",
+    },
+
+    ["German Crate 1"] = {
+        Model = "models/props_supplies/german/acrate01.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 90,
+        Category = "Furniture",
+    },
+
+    ["German Crate 3"] = {
+        Model = "models/props_supplies/german/acrate03.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 90,
+        Category = "Furniture",
+    },
+
+    ["Field Table"] = {
+        Model = "models/props_supplies/german/fieldtable01.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 100,
+        Category = "Furniture",
+    },
+
+    ["Piano"] = {
+        Model = "models/props_furniture/piano.mdl",
+        IsEntity = false,
+        Cost = 2,
+        WoodCost = 5,
+        MaxHealth = 180,
+        Category = "Furniture",
+    },
+
+    ["Bunk Bed"] = {
+        Model = "models/props_furniture/r_bunkbed1.mdl",
+        IsEntity = false,
+        Cost = 4,
+        WoodCost = 2,
+        MaxHealth = 160,
+        Category = "Furniture",
+    },
+
+    ["Wooden Chair"] = {
+        Model = "models/props_furniture/r_chair1.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 3,
+        MaxHealth = 50,
+        Category = "Furniture",
+    },
+
+    ["Corner Bench"] = {
+        Model = "models/props_furniture/r_cornerbench1.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 110,
+        Category = "Furniture",
+    },
+
+    ["Soup Table"] = {
+        Model = "models/props_furniture/souptable01.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 3,
+        MaxHealth = 110,
+        Category = "Furniture",
+    },
+
+    ["Work Desk"] = {
+        Model = "models/props_furniture/workdesk01.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 120,
+        Category = "Furniture",
+    },
+
+    ["Basic Bed"] = {
+        Model = "models/props_furniture/bed01.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 150,
+        Category = "Furniture",
+    },
+
+    ["Iron Bed"] = {
+        Model = "models/props_furniture/bed02.mdl",
+        IsEntity = false,
+        Cost = 3,
+        WoodCost = 1,
+        MaxHealth = 170,
+        Category = "Furniture",
+    },
+
+    ["Office Desk"] = {
+        Model = "models/props_furniture/desk02.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 130,
+        Category = "Furniture",
+    },
+
+    ["Dresser"] = {
+        Model = "models/props_furniture/dresser01.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 130,
+        Category = "Furniture",
+    },
+
+    ["Grandfather Clock"] = {
+        Model = "models/props_furniture/grandfatherclock01.mdl",
+        IsEntity = false,
+        Cost = 2,
+        WoodCost = 10,
+        MaxHealth = 110,
+        Category = "Furniture",
+    },
+
+    ["Upright Piano"] = {
+        Model = "models/props_furniture/piano_up.mdl",
+        IsEntity = false,
+        Cost = 2,
+        WoodCost = 10,
+        MaxHealth = 170,
+        Category = "Furniture",
+    },
+
+    ["Piano Bench"] = {
+        Model = "models/props_furniture/piano_bench.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 60,
+        Category = "Furniture",
+    },
+
+    ["Cushioned Chair"] = {
+        Model = "models/props_furniture/chair02.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 3,
+        MaxHealth = 60,
+        Category = "Furniture",
+    },
+
+    ["Medical Kit"] = {
+        Model = "models/world war 1/props/trench/medicalkit.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 1,
+        MaxHealth = 40,
+        Category = "Furniture",
+    },
+
+    ["Medicine Crate"] = {
+        Model = "models/bf1/gadgets/medicine crate.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 2,
+        MaxHealth = 80,
+        Category = "Furniture",
+    },
+
+    ["Metal Bucket 1"] = {
+        Model = "models/props_junk/MetalBucket01a.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 0,
+        MaxHealth = 70,
+        Category = "Furniture",
+    },
+
+    ["Metal Bucket 2"] = {
+        Model = "models/props_junk/MetalBucket02a.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 0,
+        MaxHealth = 70,
+        Category = "Furniture",
+    },
+
+    ["Pot 1"] = {
+        Model = "models/props_interiors/pot01a.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 0,
+        MaxHealth = 60,
+        Category = "Furniture",
+    },
+
+    ["Pot 2"] = {
+        Model = "models/props_interiors/pot02a.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 0,
+        MaxHealth = 60,
+        Category = "Furniture",
+    },
+
+    ["Folding Chair"] = {
+        Model = "models/props_c17/FurnitureChair001a.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 3,
+        MaxHealth = 60,
+        Category = "Furniture",
+    },
+
+    ["Breen Chair"] = {
+        Model = "models/props_combine/breenchair.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 3,
+        MaxHealth = 90,
+        Category = "Furniture",
+    },
+
+    ["Cushion Chair"] = {
+        Model = "models/props_interiors/Furniture_chair01a.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 3,
+        MaxHealth = 60,
+        Category = "Furniture",
+    },
+
+    ["Gravestone A"] = {
+        Model = "models/props_c17/gravestone003a.mdl",
+        IsEntity = false,
+        Cost = 2,
+        WoodCost = 0,
+        MaxHealth = 140,
+        Category = "Furniture",
+    },
+
+    ["Gravestone Cross"] = {
+        Model = "models/props_c17/gravestone_cross001a.mdl",
+        IsEntity = false,
+        Cost = 4,
+        WoodCost = 0,
+        MaxHealth = 160,
+        Category = "Furniture",
+    },
+
+    ["Bathtub"] = {
+        Model = "models/props_c17/FurnitureBathtub001a.mdl",
+        IsEntity = false,
+        Cost = 4,
+        WoodCost = 0,
+        MaxHealth = 160,
+        Category = "Furniture",
+    },
+    ["Armchair"] = {
+        Model = "models/props/misc/armchair01.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 90,
+        Category = "Furniture",
+    },
+
+    ["Drum"] = {
+        Model = "models/props/misc/drum.mdl",
+        IsEntity = false,
+        Cost = 3,
+        WoodCost = 0,
+        MaxHealth = 120,
+        Category = "Furniture",
+    },
+
+    ["Statue Base"] = {
+        Model = "models/props_exterior/mar_statuebase.mdl",
+        IsEntity = false,
+        Cost = 10,
+        WoodCost = 0,
+        MaxHealth = 180,
+        Category = "Furniture",
+    },
+
+    ["Static Crate"] = {
+        Model = "models/props_crates/static_crate_64.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 90,
+        Category = "Furniture",
+    },
+
+    ["Large Barrel"] = {
+        Model = "models/props_junk/ah_barrel_lg_single001.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 120,
+        Category = "Furniture",
+    },
+
+    --- Fort Stuff ---
+
+    ["Sandbags Corner 1"] = {
+        Model = "models/props_fortifications/sandbags_corner1.mdl",
+        IsEntity = false,
+        Cost = 50,
+        WoodCost = 25,
+        MaxHealth = 2000,
+        Category = "Fortifications",
+    },
+
+    ["Sandbags Corner 1 Tall"] = {
+        Model = "models/props_fortifications/sandbags_corner1_tall.mdl",
+        IsEntity = false,
+        Cost = 60,
+        WoodCost = 30,
+        MaxHealth = 2200,
+        Category = "Fortifications",
+    },
+
+    ["Sandbags Corner 2 Tall"] = {
+        Model = "models/props_fortifications/sandbags_corner2_tall.mdl",
+        IsEntity = false,
+        Cost = 60,
+        WoodCost = 30,
+        MaxHealth = 2500,
+        Category = "Fortifications",
+    },
+
+    ["Sandbags Corner 3"] = {
+        Model = "models/props_fortifications/sandbags_corner3.mdl",
+        IsEntity = false,
+        Cost = 50,
+        WoodCost = 25,
+        MaxHealth = 2100,
+        Category = "Fortifications",
+    },
+
+    ["Sandbags Line 1"] = {
+        Model = "models/props_fortifications/sandbags_line1.mdl",
+        IsEntity = false,
+        Cost = 50,
+        WoodCost = 25,
+        MaxHealth = 2100,
+        Category = "Fortifications",
+    },
+
+    ["Sandbags Line 1 Tall"] = {
+        Model = "models/props_fortifications/sandbags_line1_tall.mdl",
+        IsEntity = false,
+        Cost = 60,
+        WoodCost = 30,
+        MaxHealth = 3300,
+        Category = "Fortifications",
+    },
+
+    ["Sandbags Line 2"] = {
+        Model = "models/props_fortifications/sandbags_line2.mdl",
+        IsEntity = false,
+        Cost = 65,
+        WoodCost = 35,
+        MaxHealth = 3000,
+        Category = "Fortifications",
+    },
+
+    ["Sandbags Line 2 Tall"] = {
+        Model = "models/props_fortifications/sandbags_line2_tall.mdl",
+        IsEntity = false,
+        Cost = 75,
+        WoodCost = 40,
+        MaxHealth = 3100,
+        Category = "Fortifications",
+    },
+
+    ["Sandbags Line 3"] = {
+        Model = "models/props_fortifications/sandbags_line2b.mdl",
+        IsEntity = false,
+        Cost = 70,
+        WoodCost = 35,
+        MaxHealth = 3000,
+        Category = "Fortifications",
+    },
+
+    ["Bunker"] = {
+        Model = "models/props_phx/misc/bunker01.mdl",
+        IsEntity = false,
+        Cost = 150,
+        WoodCost = 50,
+        MaxHealth = 7500,
+        Category = "Fortifications",
+    },
+
+    ["Trench Bunker"] = {
+        Model = "models/bunker/bunck.mdl",
+        IsEntity = false,
+        Cost = 120,
+        WoodCost = 40,
+        MaxHealth = 3000,
+        Category = "Fortifications",
+    },
+
+    ["Dragons Teeth"] = {
+        Model = "models/props_trenches/dragonsteeth.mdl",
+        IsEntity = false,
+        Cost = 50,
+        WoodCost = 5,
+        MaxHealth = 2000,
+        Category = "Fortifications",
+    },
+
+    ["Tank Traps"] = {
+        Model = "models/props_trenches/r_czech_hedgehog.mdl",
+        IsEntity = false,
+        Cost = 50,
+        WoodCost = 5,
+        MaxHealth = 2000,
+        Category = "Fortifications",
+    },
+
+    ["Fence 1"] = {
+        Model = "models/fortification collection/fence1.mdl",
+        IsEntity = false,
+        Cost = 20,
+        WoodCost = 45,
+        MaxHealth = 1500,
+        Category = "Fortifications",
+    },
+
+    ["Small Bunker 1"] = {
+        Model = "models/fortification collection/small_bunker1.mdl",
+        IsEntity = false,
+        Cost = 80,
+        WoodCost = 30,
+        MaxHealth = 4000,
+        Category = "Fortifications",
+    },
+
+    ["Small Bunker 1A"] = {
+        Model = "models/fortification collection/small_bunker1a.mdl",
+        IsEntity = false,
+        Cost = 90,
+        WoodCost = 35,
+        MaxHealth = 4500,
+        Category = "Fortifications",
+    },
+
+    ["Small Bunker 1B"] = {
+        Model = "models/fortification collection/small_bunker1b.mdl",
+        IsEntity = false,
+        Cost = 90,
+        WoodCost = 35,
+        MaxHealth = 4500,
+        Category = "Fortifications",
+    },
+
+    ["Small Bunker 2"] = {
+        Model = "models/fortification collection/small_bunker2.mdl",
+        IsEntity = false,
+        Cost = 90,
+        WoodCost = 35,
+        MaxHealth = 4500,
+        Category = "Fortifications",
+    },
+
+    ["Small Bunker 2A"] = {
+        Model = "models/fortification collection/small_bunker2a.mdl",
+        IsEntity = false,
+        Cost = 90,
+        WoodCost = 35,
+        MaxHealth = 4500,
+        Category = "Fortifications",
+    },
+
+    ["Small Bunker 2B"] = {
+        Model = "models/fortification collection/small_bunker2b.mdl",
+        IsEntity = false,
+        Cost = 90,
+        WoodCost = 35,
+        MaxHealth = 4500,
+        Category = "Fortifications",
+    },
+
+    ["Small Bunker 3"] = {
+        Model = "models/fortification collection/small_bunker3.mdl",
+        IsEntity = false,
+        Cost = 90,
+        WoodCost = 35,
+        MaxHealth = 4500,
+        Category = "Fortifications",
+    },
+
+    ["Bar Stool"] = {
+        Model = "models/fortification collection/bar_stool1.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 3,
+        MaxHealth = 60,
+        Category = "Furniture",
+    },
+
+    ["Crate 1"] = {
+        Model = "models/fortification collection/crate1.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 90,
+        Category = "Furniture",
+    },
+
+    ["Table 1"] = {
+        Model = "models/fortification collection/table1.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 110,
+        Category = "Furniture",
+    },
+
+    ["Table 2"] = {
+        Model = "models/fortification collection/table2.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 110,
+        Category = "Furniture",
+    },
+
+    ["Table 3"] = {
+        Model = "models/fortification collection/table3.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 120,
+        Category = "Furniture",
+    },
+
+    ["Table 4"] = {
+        Model = "models/fortification collection/table4.mdl",
+        IsEntity = false,
+        Cost = 1,
+        WoodCost = 5,
+        MaxHealth = 120,
+        Category = "Furniture",
+    },
+
+    ["Closet 1"] = {
+        Model = "models/fortification collection/closet1.mdl",
+        IsEntity = false,
+        Cost = 2,
+        WoodCost = 8,
+        MaxHealth = 150,
+        Category = "Furniture",
+    },
+
+    ["Single Sandbag"] = {
+        Model = "models/fortification collection/sandbag01.mdl",
+        IsEntity = false,
+        Cost = 8,
+        WoodCost = 4,
+        MaxHealth = 400,
+        Category = "Fortifications",
+    },
+
+    ["Small Sandbag Nest"] = {
+        Model = "models/fortification collection/sandbag_nest01.mdl",
+        IsEntity = false,
+        Cost = 30,
+        WoodCost = 15,
+        MaxHealth = 1400,
+        Category = "Fortifications",
+    },
+
+    ["Barbed Wire Small"] = {
+        Model = "models/fortification collection/barbed_wire2.mdl",
+        IsEntity = false,
+        Cost = 10,
+        WoodCost = 5,
+        MaxHealth = 500,
+        Category = "Fortifications",
+    },
+
+    ["Barbed Wire Medium"] = {
+        Model = "models/fortification collection/barbed_wire1.mdl",
+        IsEntity = false,
+        Cost = 15,
+        WoodCost = 10,
+        MaxHealth = 625,
+        Category = "Fortifications",
+    },
+
+    ["Trench Straight"] = {
+        Model = "models/fortification collection/trench_straight.mdl",
+        IsEntity = false,
+        Cost = 100,
+        WoodCost = 40,
+        MaxHealth = 10000,
+        Category = "Fortifications",
+    },
+
+    ["Trench Turn"] = {
+        Model = "models/fortification collection/trench_turn.mdl",
+        IsEntity = false,
+        Cost = 100,
+        WoodCost = 40,
+        MaxHealth = 10000,
+        Category = "Fortifications",
+    },
+
+    ["Trench 3 Way"] = {
+        Model = "models/fortification collection/trench_3way.mdl",
+        IsEntity = false,
+        Cost = 100,
+        WoodCost = 40,
+        MaxHealth = 5000,
+        Category = "Fortifications",
+    },
+
+    ["Trench 4 Way"] = {
+        Model = "models/fortification collection/trench_4way.mdl",
+        IsEntity = false,
+        Cost = 100,
+        WoodCost = 40,
+        MaxHealth = 5000,
+        Category = "Fortifications",
+    },
+
+    ["Trench End Corridor"] = {
+        Model = "models/fortification collection/trench_end_corridor.mdl",
+        IsEntity = false,
+        Cost = 100,
+        WoodCost = 40,
+        MaxHealth = 5000,
+        Category = "Fortifications",
+    },
+
+    ["Trench End Single"] = {
+        Model = "models/fortification collection/trench_end_single.mdl",
+        IsEntity = false,
+        Cost = 100,
+        WoodCost = 40,
+        MaxHealth = 5000,
+        Category = "Fortifications",
+    },
+
+    ["Trench Free A"] = {
+        Model = "models/fortification collection/trench_free_a.mdl",
+        IsEntity = false,
+        Cost = 100,
+        WoodCost = 40,
+        MaxHealth = 5000,
+        Category = "Fortifications",
+    },
+
+    ["Trench Free A Double"] = {
+        Model = "models/fortification collection/trench_free_a_double.mdl",
+        IsEntity = false,
+        Cost = 100,
+        WoodCost = 40,
+        MaxHealth = 5000,
+        Category = "Fortifications",
+    },
+
+    ["Trench Step Small"] = {
+        Model = "models/fortification collection/trench_step_small.mdl",
+        IsEntity = false,
+        Cost = 2,
+        WoodCost = 8,
+        MaxHealth = 150,
+        Category = "Furniture",
+    },
+
+    ["Trench Elevation Bridge"] = {
+        Model = "models/fortification collection/trench_elevation01.mdl",
+        IsEntity = false,
+        Cost = 20,
+        WoodCost = 30,
+        MaxHealth = 1000,
+        Category = "Fortifications",
+    },
+
+    ["Trench Cover Small"] = {
+        Model = "models/fortification collection/trench_cover_small.mdl",
+        IsEntity = false,
+        Cost = 8,
+        WoodCost = 35,
+        MaxHealth = 1250,
+        Category = "Fortifications",
+    },
+
+    ["Trench Cover Medium"] = {
+        Model = "models/fortification collection/trench_cover_medium.mdl",
+        IsEntity = false,
+        Cost = 15,
+        WoodCost = 50,
+        MaxHealth = 1500,
+        Category = "Fortifications",
+    },
+
+    ["Trench Cover Big"] = {
+        Model = "models/fortification collection/trench_cover_big.mdl",
+        IsEntity = false,
+        Cost = 20,
+        WoodCost = 65,
+        MaxHealth = 1750,
+        Category = "Fortifications",
+    },
+}
+
+-- ============================================================
 print("Imperium RP Config Loaded!")
