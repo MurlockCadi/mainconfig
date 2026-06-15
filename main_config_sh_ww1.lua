@@ -3234,6 +3234,7 @@ SETTLEMENT_FORTIFICATIONS = {
         WoodCost = 50,
         MaxHealth = 7500,
         Category = "Fortifications",
+		Mat = "models/props_wasteland/wood_fence01a"
     },
 
     ["Trench Bunker"] = {
@@ -3243,6 +3244,7 @@ SETTLEMENT_FORTIFICATIONS = {
         WoodCost = 40,
         MaxHealth = 3000,
         Category = "Fortifications",
+		Mat = "models/props_wasteland/wood_fence01a"
     },
 
     ["Dragons Teeth"] = {
