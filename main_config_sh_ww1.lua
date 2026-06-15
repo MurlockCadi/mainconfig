@@ -759,7 +759,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "hide_player", "weapon_sh_mustardgas", "ent_spawner" },
                 AllowedWeaponFlags = { "Submachine Gun", "Shotgun", "Side Arm", "Rifle" },
                 Prefix             = "TR",
-                Max                = 2,
+                Max                = 4,
                 EntitySpawner = {
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
@@ -773,7 +773,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "ent_spawner" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive", "Shotgun" },
                 Prefix             = "SAP",
-				Max                = 2,
+				Max                = 3,
                 EntitySpawner = {
                     { name = "Ammo Box",      entityname = "universal_ammo_small", description = "Deploy some Ammo!",                              type = "Ammo"      },
                     { name = "Blast Charge",  entityname = "tfa_ww1_tnt",         description = "Destroys Bedrock but will cause Caveins...",       type = "Equipment" },
@@ -1704,7 +1704,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "weapon_sh_mustardgas", "ent_spawner" },
                 AllowedWeaponFlags = { "Submachine Gun", "Shotgun", "Side Arm", "Rifle" },
                 Prefix             = "ST",
-                Max                = 2,
+                Max                = 4,
                 EntitySpawner = {
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
@@ -1718,7 +1718,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "ent_spawner" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive", "Shotgun" },
                 Prefix             = "SAP",
-				Max                = 2,
+				Max                = 3,
                 EntitySpawner = {
                     { name = "Ammo Box",       entityname = "universal_ammo_small", description = "Deploy some Ammo!",                        type = "Ammo"      },
                     { name = "Transport Cart", entityname = "fuel_store",           description = "Cart to store Scrap and move it around.",   type = "Misc"      },
