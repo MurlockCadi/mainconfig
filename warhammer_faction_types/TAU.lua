@@ -31,6 +31,7 @@ FACTION_TYPES["TAU"] = {
                         bot:SetModelScale(1.2, 0)
                     end
                 end)
+			bot.ShootingSkill = .5
             bot:SetNWString("Description", "An elite commander of the T'au Empire.")
             bot:SetNWBool("ShieldEnable", true)
             health = math.max(health * 10, 8000)
@@ -178,6 +179,7 @@ FACTION_TYPES["TAU"] = {
                     end
                 end)
             bot:SetNWString("Description", "A commander of the T'au Empire.")
+			bot.ShootingSkill = .5
             bot:SetNWBool("ShieldEnable", true)
             health = math.max(health * 8, 7000)
 
