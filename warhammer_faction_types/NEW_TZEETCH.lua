@@ -110,7 +110,7 @@ FACTION_TYPES["NEW_TZEETCH"] = {
     end,
 }
 
-BOT_SOUND_MANAGER["CHANGE_HORDE"] = {
+BOT_SOUND_MANAGER["NEW_TZEETCH"] = {
     SONGS_URL = {
         "https://www.imperiumgaming.net/40k/tzeetch/newvoice/LINE4.mp3",
         "https://www.imperiumgaming.net/40k/tzeetch/newvoice/line1.mp3",
