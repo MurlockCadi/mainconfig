@@ -2571,6 +2571,7 @@ SETTLEMENT_FORTIFICATIONS = {
         WoodCost = 100,
         MaxHealth = 200,
         Category = "Entities",
+	    MaxPerSettlement = 6
     },
 
 	["Communion Alter"]= {
