@@ -89,7 +89,7 @@ FACTION_TYPES["NEW_TZEETCH"] = {
         end
 
         bot:StripWeapons()
-        bot:SetNWString("Status", "CHANGE_HORDE")
+        bot:SetNWString("Status", "NEW_TZEETCH")
         bot.IsHostile = true
         bot.GoneMad = true
         bot.Chaos = true
@@ -101,9 +101,9 @@ FACTION_TYPES["NEW_TZEETCH"] = {
     end,
 
     Think = function(self)
-        if BOT_INVASION ~= "CHANGE_HORDE" then return end
+        if BOT_INVASION ~= "NEW_TZEETCH" then return end
         for _, bot in ipairs(player.GetBots()) do
-            if bot:GetNWString("Status", "friendly") ~= "CHANGE_HORDE" then
+            if bot:GetNWString("Status", "friendly") ~= "NEW_TZEETCH" then
                 self:CreateTzeentchCult(bot,ALWAYS_SPAWN_ELITES)
             end
         end
