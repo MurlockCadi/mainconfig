@@ -2529,7 +2529,16 @@ SETTLEMENT_FORTIFICATIONS = {
 
     ----ENTITIES----
 
-	--Alter models/props_church/sme_alter01.mdl
+	--models/props_exterior/r_planter.mdl
+	["Potato Garden"]= {
+        Model = "models/props_exterior/r_planter.mdl",
+        IsEntity = true,
+        Entity = "potato_garden",
+        Cost = 10,
+        WoodCost = 100,
+        MaxHealth = 200,
+        Category = "Entities",
+    },
 
 	["Communion Alter"]= {
         Model = "models/props_church/sme_alter01.mdl",
