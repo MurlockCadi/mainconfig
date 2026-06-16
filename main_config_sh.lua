@@ -436,7 +436,8 @@ commands = {
 	["!highgothic"]  = function(ply) end,
 	["/highgothic"]  = function(ply) end,
 	["!vhighgothic"] = function(ply) end,
-	["/vhighgothic"] = function(ply) end
+	["/vhighgothic"] = function(ply) end,
+	["/generatenavmesh"] = function(ply) luanodegraph_rebuild_from_navmesh(ply) end
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
