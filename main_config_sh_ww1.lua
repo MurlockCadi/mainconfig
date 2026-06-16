@@ -2529,6 +2529,17 @@ SETTLEMENT_FORTIFICATIONS = {
 
     ----ENTITIES----
 
+	--Alter models/props_church/sme_alter01.mdl
+
+	["Communion Alter"]= {
+        Model = "models/props_church/sme_alter01.mdl",
+        IsEntity = true,
+        Entity = "church_altar",
+        Cost = 5,
+        WoodCost = 25,
+        MaxHealth = 200,
+        Category = "Entities",
+    },
 
 	--models/props_industrial/oil_storage.mdl
     ["Medical Workshop"] = {
