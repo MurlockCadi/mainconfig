@@ -2330,7 +2330,7 @@ CERTIFICATIONS = {
         Weapons = {"playablebagpipe"},
     },
     ["Chaplain"] = {
-        Weapons = {"the_bible_cpdv"},
+        Weapons = {"the_bible_cpdv","weapon_chaplin"},
     },
 }
 
