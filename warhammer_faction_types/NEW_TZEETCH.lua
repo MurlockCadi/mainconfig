@@ -149,7 +149,7 @@ if SERVER then
     }
 
     local function WarpEffect(target)
-        PlayEffectOnEntity(target, "[0]_polar_light", 5, Vector(0, 0, 0))
+        PlayEffectOnEntity(target, "[0]_polar_light", 1, Vector(0, 0, 0))
 
         target:EmitSound(table.Random(sounds), 85, math.random(80, 120), 1, CHAN_AUTO)
     end
