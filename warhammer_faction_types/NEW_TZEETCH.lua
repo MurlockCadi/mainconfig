@@ -189,27 +189,27 @@ if SERVER then
         if not target:IsPlayer() then return end
         if not target:IsBot() then return end
         if not target.TzeentchChampion then return end
-
+        if target.TzeentchChampionHalfDone then return end
+    
         local attacker = dmginfo:GetAttacker()
-
+    
         if not IsValid(attacker) then return end
         if not attacker:IsPlayer() then return end
         if attacker == target then return end
-
-        target.TzeentchChampionMaxHP = target.TzeentchChampionMaxHP or target:GetMaxHealth()
-        target.TzeentchChampionNextHP = target.TzeentchChampionNextHP or 0.8
-
+    
+        local maxHP = target:GetMaxHealth()
         local hpAfterDamage = math.max(target:Health() - dmginfo:GetDamage(), 0)
-        local hpPercent = hpAfterDamage / target.TzeentchChampionMaxHP
-
-        if hpPercent > target.TzeentchChampionNextHP then return end
-
-        while target.TzeentchChampionNextHP > 0 and hpPercent <= target.TzeentchChampionNextHP do
-            target.TzeentchChampionNextHP = target.TzeentchChampionNextHP - 0.2
+    
+        if hpAfterDamage > maxHP * 0.5 then return end
+    
+        target.TzeentchChampionHalfDone = true
+    
+        if math.random(1, 5) == 1 then
+            SwapPlaces(target, attacker)
+            return
         end
-
+        
         WarpEffect(target)
-        SwapPlaces(target, attacker)
     end)
 
     timer.Create("TzeentchBotTimer", 20, 0, function()
@@ -219,10 +219,10 @@ if SERVER then
             end
 
             if bot.TzeentchChampion then
-                bot.TzeentchNextEffect = bot.TzeentchNextEffect or CurTime() + math.random(120, 500)
+                bot.TzeentchNextEffect = bot.TzeentchNextEffect or CurTime() + math.random(400, 1000)
 
                 if CurTime() >= bot.TzeentchNextEffect then
-                    bot.TzeentchNextEffect = CurTime() + math.random(120, 500)
+                    bot.TzeentchNextEffect = CurTime() + math.random(400, 1000)
 
                     WarpEffect(bot)
                     PlayerChat(bot, table.Random(lines))
