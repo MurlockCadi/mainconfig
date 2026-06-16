@@ -122,3 +122,112 @@ BOT_SOUND_MANAGER["CHANGE_HORDE"] = {
     COOLDOWN_MIN = 5,
     COOLDOWN_MAX = 10
 }
+
+if SERVER then
+    local sounds = {
+        "ambient/levels/citadel/strange_talk1.wav",
+        "ambient/levels/citadel/strange_talk10.wav",
+        "ambient/levels/citadel/strange_talk11.wav",
+        "ambient/levels/citadel/strange_talk3.wav",
+        "ambient/levels/citadel/strange_talk4.wav",
+        "ambient/levels/citadel/strange_talk5.wav",
+        "ambient/levels/citadel/strange_talk6.wav",
+        "ambient/levels/citadel/strange_talk7.wav",
+        "ambient/levels/citadel/strange_talk8.wav",
+        "ambient/levels/citadel/strange_talk9.wav"
+    }
+
+    local lines = {
+        "Your Mine",
+        "The warp claims you.",
+        "Fate has already chosen.",
+        "Change is inevitable.",
+        "The Changer of Ways watches.",
+        "Reality bends before me.",
+        "All paths lead to Tzeentch.",
+        "You cannot escape the plan."
+    }
+
+    local function WarpEffect(target)
+        PlayEffectOnEntity(target, "[0]_polar_light", 5, Vector(0, 0, 0))
+
+        target:EmitSound(table.Random(sounds), 85, math.random(80, 120), 1, CHAN_AUTO)
+    end
+
+    local function SwapPlaces(bot, target)
+        local botPos = bot:GetPos()
+        local targetPos = target:GetPos()
+
+        local safePos1 = FindFreePos(targetPos, 80, 100, 16)
+        local safePos2 = FindFreePos(botPos, 150, 100, 16)
+
+        if safePos1 then
+            bot:SetPos(safePos1)
+            PlayEffectOnEntity(bot, "[2]_fire_aura_blue", 12, Vector(0, 0, 40), true)
+            bot:EmitSound("ambient/energy/zap9.wav", 80, 50, 1, CHAN_AUTO)
+        end
+
+        if safePos2 then
+            target:SetPos(safePos2)
+            PlayEffectOnEntity(target, "[2]_fire_aura_blue", 12, Vector(0, 0, 40), true)
+            target:EmitSound("ambient/energy/zap9.wav", 80, 50, 1, CHAN_AUTO)
+        end
+
+        local botName = bot:GetNWString("Name", "unknown")
+        local targetName = target:GetNWString("Name", "unknown")
+
+        NotifyPlayer(bot, "The warp tears you from where you stand and hurls you towards " .. targetName .. "!", 8, true)
+        NotifyPlayer(target, "The warp tears you from where you stand and hurls you towards " .. botName .. "!", 8, true)
+
+        WarpEffect(bot)
+        WarpEffect(target)
+
+        PlayerChat(bot, table.Random(lines))
+    end
+
+    hook.Add("EntityTakeDamage", "TzeentchChampionDamageSwap", function(target, dmginfo)
+        if not target:IsPlayer() then return end
+        if not target:IsBot() then return end
+        if not target.TzeentchChampion then return end
+
+        local attacker = dmginfo:GetAttacker()
+
+        if not IsValid(attacker) then return end
+        if not attacker:IsPlayer() then return end
+        if attacker == target then return end
+
+        target.TzeentchChampionMaxHP = target.TzeentchChampionMaxHP or target:GetMaxHealth()
+        target.TzeentchChampionNextHP = target.TzeentchChampionNextHP or 0.8
+
+        local hpAfterDamage = math.max(target:Health() - dmginfo:GetDamage(), 0)
+        local hpPercent = hpAfterDamage / target.TzeentchChampionMaxHP
+
+        if hpPercent > target.TzeentchChampionNextHP then return end
+
+        while target.TzeentchChampionNextHP > 0 and hpPercent <= target.TzeentchChampionNextHP do
+            target.TzeentchChampionNextHP = target.TzeentchChampionNextHP - 0.2
+        end
+
+        WarpEffect(target)
+        SwapPlaces(target, attacker)
+    end)
+
+    timer.Create("TzeentchBotTimer", 20, 0, function()
+        for _, bot in ipairs(player.GetBots()) do
+            if bot.TzeentchChampion then
+                PlayerChat(bot, table.Random(lines))
+            end
+
+            if bot.TzeentchChampion then
+                bot.TzeentchNextEffect = bot.TzeentchNextEffect or CurTime() + math.random(120, 500)
+
+                if CurTime() >= bot.TzeentchNextEffect then
+                    bot.TzeentchNextEffect = CurTime() + math.random(120, 500)
+
+                    WarpEffect(bot)
+                    PlayerChat(bot, table.Random(lines))
+                end
+            end
+        end
+    end)
+end
