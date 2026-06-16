@@ -2528,6 +2528,27 @@ SETTLEMENT_FORTIFICATIONS = SETTLEMENT_FORTIFICATIONS or {}
 SETTLEMENT_FORTIFICATIONS = {
 
     ----ENTITIES----
+    ["Working Poker Table"] = {
+        Model = "models/props/de_tides/restaurant_table.mdl",
+        Cost = 50,
+		WoodCost = 50,
+        IsEntity = true,
+        Entity = "ent_poker_game",
+        MaxHealth = 500,
+        Cost = 500,
+		Category = "Entities",
+    },
+	--gmt_instrument_piano
+	["Potato Garden"]= {
+        Model = "models/props_exterior/r_planter.mdl",
+        IsEntity = true,
+        Entity = "models/fishy/furniture/piano.mdl",
+        Cost = 100,
+        WoodCost = 100,
+        MaxHealth = 200,
+        Category = "Entities",
+    },
+
 
 	--models/props_exterior/r_planter.mdl
 	["Potato Garden"]= {
