@@ -2528,6 +2528,18 @@ SETTLEMENT_FORTIFICATIONS = SETTLEMENT_FORTIFICATIONS or {}
 SETTLEMENT_FORTIFICATIONS = {
 
     ----ENTITIES----
+	--models/fishy/furniture/piano.mdl
+    ["Working Piano"] = {
+        Model = "models/fishy/furniture/piano.mdl",
+        Cost = 50,
+		WoodCost = 50,
+        IsEntity = true,
+        Entity = "gmt_instrument_piano",
+        MaxHealth = 500,
+        Cost = 500,
+		Category = "Entities",
+    },
+
     ["Working Poker Table"] = {
         Model = "models/props/de_tides/restaurant_table.mdl",
         Cost = 50,
