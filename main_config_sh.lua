@@ -517,6 +517,10 @@ MAP_OUTPOSTS = {
         {
             name = "Upper Decks Access",
             pos = Vector(-49.943832, -7892.916504, -1276.968750)
+        },
+		{
+            name = "Chapel",
+            pos = Vector(-146, 4154, -1718)
         }
     },
 
