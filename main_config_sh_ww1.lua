@@ -738,7 +738,7 @@ DivisionTypes = {
                 Core               = true,
                 Models             = {},
                 Weapons            = {},
-                SpawnWeapons       = { "ent_spawner" },
+                SpawnWeapons       = { "ent_spawner", "weapon_rpw_binoculars_vintage" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive" },
                 Prefix             = "ARTY",
 				Max                = 2,
@@ -1683,7 +1683,7 @@ DivisionTypes = {
                 Core               = true,
                 Models             = {},
                 Weapons            = {},
-                SpawnWeapons       = { "ent_spawner" },
+                SpawnWeapons       = { "ent_spawner", "weapon_rpw_binoculars_vintage" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", },
                 Prefix             = "ARTY",
 				Max                = 2,
@@ -2330,7 +2330,7 @@ CERTIFICATIONS = {
         Weapons = {"weapon_cuff_elastic"},
     },
     ["Musician"] = {
-        Weapons = {"playablebagpipe"},
+        Weapons = {"playablebagpipe", "britishbugle", "britishdrum", "britishflute"},
     },
     ["Chaplain"] = {
         Weapons = {"the_bible_cpdv","weapon_chaplin"},
