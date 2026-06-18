@@ -872,7 +872,8 @@ DivisionTypes = {
                 Models = {
                     "models/jackswan/rogue_trader/wk_rt_secutor.mdl",
                     "models/wk/fem_priast/wk_priestness_belka.mdl",
-					"models/wk/fem_priast/wk_priestness.mdl"
+					"models/wk/fem_priast/wk_priestness.mdl",
+					"models/wk/adeptus_mechanicus/wk_am_hypaspists_alpha.mdl"
                 },
                 MaxHealth = 150,
                 PowerShield = true,
