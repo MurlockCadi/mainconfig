@@ -899,7 +899,8 @@ DivisionTypes = {
                     "models/jackswan/rogue_trader/wk_rt_secutor.mdl",
                     "models/wk/fem_priast/wk_priestness_belka.mdl",
 					"models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers_alpha.mdl",
-					"models/wk/adeptus_mechanicus/wk_sicarian_infiltrators_alpha.mdl"
+					"models/wk/adeptus_mechanicus/wk_sicarian_infiltrators_alpha.mdl".
+					"models/wk/gans/wk_gans_priest.mdl"
                 },
                 MaxHealth = 125,
                 PowerShield = true,
