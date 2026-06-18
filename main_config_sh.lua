@@ -751,7 +751,8 @@ ADMECH_MODELS = {
     "models/wk/adeptus_mechanicus/wk_am_engenseer.mdl",
     "models/wk/adeptus_mechanicus/wk_trippriest.mdl",
     "models/wk/gans/wk_gans_priest.mdl",
-    "models/wk/fem_priast/wk_priestness_belka.mdl"
+    "models/wk/fem_priast/wk_priestness_belka.mdl",
+	"models/wk/adeptus_mechanicus/wk_am_hypaspists_alpha.mdl"
 }
 
 ADMECH_WEAPONS = {
