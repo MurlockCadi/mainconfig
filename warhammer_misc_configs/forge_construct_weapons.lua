@@ -76,7 +76,6 @@ CRAFTABLE_ITEMS["item_960305"] = 20000 -- Flechette Carbine
 CRAFTABLE_ITEMS["item_160749"] = 40000 -- Galvanic Carbine TFA
 CRAFTABLE_ITEMS["item_971561"] = 40000 -- Galvanic Carbine ARCCW
 CRAFTABLE_ITEMS["item_384092"] = 45000 -- Galvanic Long-Rifle ARCCW
-CRAFTABLE_ITEMS["item_223998"] = 40000 -- Heavy Transonic Cannon
 CRAFTABLE_ITEMS["item_552007"] = 35000 -- Radium Jezzail
 CRAFTABLE_ITEMS["item_655158"] = 20000 -- Radium Pistol
 CRAFTABLE_ITEMS["item_865728"] = 15000 -- Gamma Pistol
@@ -85,6 +84,7 @@ CRAFTABLE_ITEMS["item_291140"] = 50000 -- Heavy Magnorail cannon arccw
 CRAFTABLE_ITEMS["item_869044"] = 50000 -- Heavy Graviton Cannon arccw
 CRAFTABLE_ITEMS["item_801954"] = 50000 -- Heavy Eradication Ray arccw
 CRAFTABLE_ITEMS["item_109177"] = 50000 -- Heavy Plasma Gun arccw
+CRAFTABLE_ITEMS["item_223998"] = 50000 -- Heavy Transonic Cannon
 
 CRAFTABLE_ITEMS["item_649078"] = 15000 -- phospor pistol arccw
 
