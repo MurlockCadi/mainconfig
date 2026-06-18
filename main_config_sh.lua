@@ -1184,7 +1184,7 @@ DivisionTypes = {
                 Core = true,
 				Default = true,
                 Models = {},
-                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol","weapon_taser"},
                 MaxHealth = 150,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
@@ -1201,7 +1201,7 @@ DivisionTypes = {
                 Name = "Commissar",
                 Core = true,
                 Models = {},
-                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol","weapon_taser"},
                 MaxHealth = 200,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
                 Prefix = "",
@@ -1218,7 +1218,7 @@ DivisionTypes = {
                 Name = "Commissar Command",
                 Core = true,
                 Models = {},
-                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
+                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol","weapon_taser"},
                 MaxHealth = 200,
                 PowerShield = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
@@ -2258,7 +2258,7 @@ CERTIFICATIONS = {
         }
     },
 	["Provost"] = {
-    	Weapons = {"weapon_cuff_elastic","weapon_stunstick"},
+    	Weapons = {"weapon_cuff_elastic","weapon_stunstick","weapon_taser"},
     },
     ["Tech Adept"] = {
         Weapons = {"weapon_extinguisher_infinite","weapon_lvsrepair"},
