@@ -866,7 +866,7 @@ DivisionTypes = {
                 Prefix = ""
             },
             {
-                Name = "GENETOR",
+                Name = "Biologis",
                 Core = true,
                 ForceModels = true,
                 Models = {
