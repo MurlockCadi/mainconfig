@@ -1648,8 +1648,8 @@ DivisionTypes = {
                 Create_Outposts    = true,
                 Models             = {},
                 Weapons            = {},
-                SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive" },
+                SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair","outpost_maker" },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive", },
                 Prefix             = "PNR",
                 EntitySpawner = {
                     { name = "Ammo Supplies",           entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",                                                      type = "Ammo"      },
