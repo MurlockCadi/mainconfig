@@ -808,7 +808,8 @@ DivisionTypes = {
                     "cat_custom_galvanic_rifle",
                     "cat_custom_galvanic",
                     "cat_custom_phosphor",
-                    "cat_legacy_omnissiahaxe"
+                    "cat_legacy_omnissiahaxe",
+					"rope_tool"
                 },
                 SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
                 EntitySpawner = {
@@ -828,14 +829,16 @@ DivisionTypes = {
                 ForceModels = true,
                 Models = {
                     "models/wk/adeptus_mechanicus/wk_tech_priest.mdl",
-                    "models/wk/fem_priast/wk_priestness.mdl"
+                    "models/wk/fem_priast/wk_priestness.mdl",
+					"models/astartes/mech/magos.mdl"
                 },
                 MaxHealth = 150,
                 PowerShield = true,
 				atomic = true,
                 Weapons = {
                     "cat_custom_galvanic",
-                    "cat_legacy_omnissiahaxe"
+                    "cat_legacy_omnissiahaxe",
+					"rope_tool"
                 },
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -874,7 +877,8 @@ DivisionTypes = {
                     "models/jackswan/rogue_trader/wk_rt_secutor.mdl",
                     "models/wk/fem_priast/wk_priestness_belka.mdl",
 					"models/wk/fem_priast/wk_priestness.mdl",
-					"models/wk/adeptus_mechanicus/wk_am_hypaspists_alpha.mdl"
+					"models/wk/adeptus_mechanicus/wk_am_hypaspists_alpha.mdl",
+					"models/astartes/mech/magos.mdl"
                 },
                 MaxHealth = 150,
                 PowerShield = true,
@@ -882,7 +886,8 @@ DivisionTypes = {
                 Medic = true,
                 Weapons = {
                     "cat_custom_galvanic",
-                    "cat_legacy_omnissiahaxe"
+                    "cat_legacy_omnissiahaxe",
+					"rope_tool"
                 },
                 SpawnWeapons = {"fas2_ifak","ent_spawner"},
                 EntitySpawner = {
@@ -902,16 +907,19 @@ DivisionTypes = {
                     "models/wk/fem_priast/wk_priestness_belka.mdl",
 					"models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers_alpha.mdl",
 					"models/wk/adeptus_mechanicus/wk_sicarian_infiltrators_alpha.mdl",
-					"models/wk/gans/wk_gans_priest.mdl"
+					"models/wk/gans/wk_gans_priest.mdl",
+					"models/astartes/mech/magos.mdl"
                 },
                 MaxHealth = 125,
                 PowerShield = true,
 				atomic = true,
                 Medic = true,
                 Weapons = {
-					"weapon_cuff_elastic","weapon_stunstick",
+					"weapon_cuff_elastic",
+					"weapon_stunstick",
                     "cat_custom_galvanic",
-                    "cat_legacy_omnissiahaxe"
+                    "cat_legacy_omnissiahaxe",
+					"rope_tool"
                 },
                 SpawnWeapons = {"fas2_ifak","ent_spawner"},
                 EntitySpawner = {
@@ -1005,7 +1013,8 @@ DivisionTypes = {
                 Weapons = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe",
-                    "weapon_simrepair"
+                    "weapon_simrepair",
+					"rope_tool"
                 },
                 SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic","weapon_lvsrepair","weapon_extinguisher_infinite"},
                 EntitySpawner = {
@@ -2254,7 +2263,7 @@ group_ranks = {
 
 CERTIFICATIONS = {
     ["Tanker"] = {
-        Weapons = {"ent_spawner","weapon_lvsrepair"},
+        Weapons = {"ent_spawner","weapon_lvsrepair","rope_tool"},
         Entitys = {
 			{ name = "Leman Russ", entityname = "lvs_leman_russ",  description = "Thousands of Tracks Over the Xeno", type = "Vehicle" },
 			{ name = "Chimera", entityname = "lvs_himera",  description = "Famous Infantry Transport", type = "Vehicle" }
@@ -2264,7 +2273,7 @@ CERTIFICATIONS = {
     	Weapons = {"weapon_cuff_elastic","weapon_stunstick","weapon_taser"},
     },
     ["Tech Adept"] = {
-        Weapons = {"weapon_extinguisher_infinite","weapon_lvsrepair"},
+        Weapons = {"weapon_extinguisher_infinite","weapon_lvsrepair","rope_tool"},
     },
 	["High Gothic"] = {
 		Weapons = {},
@@ -2304,7 +2313,7 @@ CERTIFICATIONS = {
         }
     },
 	["Pilot"] = {
-        Weapons = {},
+        Weapons = {"rope_tool"},
 		Entitys = {
 			{ name = "Valkyrie", entityname = "lvs_starfighter_valkyrie", description = "Rain righteous fury upon thy enemies", type = "Vehicle" },
 		}
