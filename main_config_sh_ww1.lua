@@ -726,6 +726,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "ent_spawner" },
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle" },
                 Prefix             = "MG",
+				Max                = 3,
                 EntitySpawner = {
                     { name = "Ammo Supplies",      entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate", entityname = "lvs_item_ammocrate",   description = "Filled with various ammo types for vehicles.", type = "Ammo" },
@@ -762,7 +763,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "hide_player", "weapon_sh_mustardgas", "ent_spawner" },
                 AllowedWeaponFlags = { "Submachine Gun", "Shotgun", "Side Arm", "Rifle" },
                 Prefix             = "TR",
-                Max                = 4,
+                Max                = 3,
                 EntitySpawner = {
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
@@ -1671,6 +1672,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "ent_spawner" },
                 AllowedWeaponFlags = { "Side Arm", "Machine Gun", "Rifle" },
                 Prefix             = "MG",
+				Max                = 3,
                 EntitySpawner = {
                     { name = "Ammo Supplies",      entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
                     { name = "Vehicle Ammo Crate", entityname = "lvs_item_ammocrate",   description = "Filled with various ammo types for vehicles.", type = "Ammo" },
@@ -1707,7 +1709,7 @@ DivisionTypes = {
                 SpawnWeapons       = { "weapon_sh_mustardgas", "ent_spawner" },
                 AllowedWeaponFlags = { "Submachine Gun", "Shotgun", "Side Arm", "Rifle" },
                 Prefix             = "ST",
-                Max                = 4,
+                Max                = 3,
                 EntitySpawner = {
                     { name = "Radio",    entityname = "newboombox",      description = "Radio to play some War Music!", type = "Misc"      },
                 },
