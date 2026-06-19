@@ -2299,7 +2299,8 @@ CERTIFICATIONS = {
     ["Cook"] = {
         Weapons = {"ent_spawner"},
         Entitys = {
-            { name = "Cooker", entityname = "cat_iron_stove", description = "Make food for the troops.", type = "Other" }
+            { name = "Cooker", entityname = "cat_iron_stove", description = "Make food for the troops.", type = "Other" },
+			{ name = "Pantry", entityname = "warhammer_pantry", description = "Buy Raw Goods to turn into Food", type = "Other" }
         }
     },
 	["Pilot"] = {
