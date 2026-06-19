@@ -2296,6 +2296,12 @@ CERTIFICATIONS = {
             { name = "Medical Supplies", entityname = "medic_box", description = "Lets soldiers heal themselves.", type = "Medic Box" }
         }
     },
+    ["Cook"] = {
+        Weapons = {"ent_spawner"},
+        Entitys = {
+            { name = "Cooker", entityname = "cat_iron_stove", description = "Make food for the troops.", type = "Other" }
+        }
+    },
 	["Pilot"] = {
         Weapons = {},
 		Entitys = {
