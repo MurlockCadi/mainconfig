@@ -2529,7 +2529,7 @@ function CanPlayerEquipItemType(ply, item_id)
         local flag = PASSIVE_ITEM_FLAGS and PASSIVE_ITEM_FLAGS[flagName]
         if flag and flag.WeaponType then
             local IsVIP = ply:GetNWBool("IsVIP", false)
-            if flagName == "VIP"then
+            if flagName == "VIP" then
                 if IsVIP then
                     return true
                 else
