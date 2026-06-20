@@ -766,7 +766,7 @@ DivisionTypes = {
                 Prefix             = "RTR",
                 Max                = 2,
                 vehicles = {
-                    { name = "Mark 1 Landship",   entityname = "lvs_mark1_tb",  description = "The standard tank for the British.",                        type = "Tank" },
+                    { name = "Mark 1 Landship",   entityname = "lvs_mark1_tb",  description = "The standard tank for the British.",                        type = "Heavy Tanks" },
                 },
             },
 			{
@@ -1737,7 +1737,7 @@ DivisionTypes = {
                 Prefix             = "ITR",
                 Max                = 2,
                 vehicles = {
-                    { name = "Captured Saint Chamond",   entityname = "lvs_char_b",  description = "A Captured French Tank.",                        type = "Tank" },
+                    { name = "Captured Saint Chamond",   entityname = "lvs_char_b",  description = "A Captured French Tank.",                        type = "Heavy Tanks" },
                 },
             },
 			{
