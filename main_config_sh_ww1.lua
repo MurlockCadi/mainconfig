@@ -2484,8 +2484,6 @@ PASSIVE_ITEM_FLAGS["Sniper Rifle"]   = { FunctionName = "none", WeaponType = tru
 PASSIVE_ITEM_FLAGS["Submachine Gun"] = { FunctionName = "none", WeaponType = true, Description = "[Submachine Gun]", Color = Color(200, 200, 200) }
 PASSIVE_ITEM_FLAGS["Machine Gun"]    = { FunctionName = "none", WeaponType = true, Description = "[Machine Gun]",    Color = Color(200, 200, 200) }
 PASSIVE_ITEM_FLAGS["Heavy Explosive"]= { FunctionName = "none", WeaponType = true, Description = "[Heavy Explosive]",Color = Color(200, 200, 200) }
-PASSIVE_ITEM_FLAGS["Explosive"]      = { FunctionName = "none", WeaponType = true, Description = "[Explosive]",Color = Color(200, 200, 200) }
-PASSIVE_ITEM_FLAGS["Anti-Tank"]      = { FunctionName = "none", WeaponType = true, Description = "[Anti-Tank]",Color = Color(200, 200, 200) }
 PASSIVE_ITEM_FLAGS["VIP"]            = { FunctionName = "none", WeaponType = true, Description = "[VIP]",            Color = Color(0, 255, 204)   }
 
 ---- Loot ----
