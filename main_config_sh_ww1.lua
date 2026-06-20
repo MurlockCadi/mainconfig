@@ -728,10 +728,11 @@ DivisionTypes = {
                 Prefix             = "MG",
 				Max                = 3,
                 EntitySpawner = {
-                    { name = "Ammo Supplies",      entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
-                    { name = "Vehicle Ammo Crate", entityname = "lvs_item_ammocrate",   description = "Filled with various ammo types for vehicles.", type = "Ammo" },
-                    { name = "Radio",              entityname = "newboombox",           description = "Radio to play some War Music!",                type = "Misc" },
-                    { name = "Transport Cart",     entityname = "fuel_store",           description = "Cart to store Scrap and move it around.",      type = "Misc" },
+                    { name = "Ammo Supplies",           entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",    type = "Ammo" },
+                    { name = "Vehicle Ammo Crate",      entityname = "lvs_item_ammocrate",   description = "Filled with various ammo types for vehicles.", type = "Ammo" },
+					{ name = "Machine Gun Emplacement", entityname = "maxim",                description = "Deploy a machine gun for defense.",            type = "Equipment" },
+                    { name = "Radio",                   entityname = "newboombox",           description = "Radio to play some War Music!",                type = "Misc" },
+                    { name = "Transport Cart",           entityname = "fuel_store",           description = "Cart to store Scrap and move it around.",     type = "Misc" },
                 },
             },
             {
@@ -755,12 +756,36 @@ DivisionTypes = {
                     { name = "Pelekys", entityname = "lvs_pelekys", description = "Mounted artillery gun. Designed to penetrate armor.", type = "Artillery" },
                 },
             },
+			{
+                Name               = "Royal Tankers",
+                Core               = true,
+                Models             = {},
+                Weapons            = {},
+                SpawnWeapons       = { "weapon_lvsrepair" },
+                AllowedWeaponFlags = { "Side Arm", "Rifle"},
+                Prefix             = "RTR",
+                Max                = 2,
+                vehicles = {
+                    { name = "Mark 1 Landship",   entityname = "lvs_mark1_tb",  description = "The standard tank for the British.",                        type = "Tank" },
+                },
+            },
+			{
+                Name               = "Sniper",
+                Core               = true,
+                Models             = {},
+                Weapons            = {},
+                SpawnWeapons       = { "weapon_lvsrepair" },
+                AllowedWeaponFlags = { "Side Arm", "Sniper Rifle"},
+                Prefix             = "SP",
+                Max                = 1,
+                },
+            },
             {
                 Name               = "Trench Raider",
                 Core               = true,
                 Models             = {},
                 Weapons            = {},
-                SpawnWeapons       = { "hide_player", "weapon_sh_mustardgas", "ent_spawner" },
+                SpawnWeapons       = { "weapon_sh_mustardgas", "ent_spawner" },
                 AllowedWeaponFlags = { "Submachine Gun", "Shotgun", "Side Arm", "Rifle" },
                 Prefix             = "TR",
                 Max                = 3,
@@ -774,8 +799,8 @@ DivisionTypes = {
                 Miner              = true,
                 Models             = {},
                 Weapons            = {},
-                SpawnWeapons       = { "ent_spawner" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive", "Shotgun" },
+                SpawnWeapons       = { "ent_spawner", "weapon_lvsmines" },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive", "Shotgun", },
                 Prefix             = "SAP",
 				Max                = 3,
                 EntitySpawner = {
@@ -1674,10 +1699,11 @@ DivisionTypes = {
                 Prefix             = "MG",
 				Max                = 3,
                 EntitySpawner = {
-                    { name = "Ammo Supplies",      entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",   type = "Ammo" },
-                    { name = "Vehicle Ammo Crate", entityname = "lvs_item_ammocrate",   description = "Filled with various ammo types for vehicles.", type = "Ammo" },
-                    { name = "Radio",              entityname = "newboombox",           description = "Radio to play some War Music!",                type = "Misc" },
-                    { name = "Transport Cart",     entityname = "fuel_store",           description = "Cart to store Scrap and move it around.",      type = "Misc" },
+                    { name = "Ammo Supplies",           entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",    type = "Ammo" },
+                    { name = "Vehicle Ammo Crate",      entityname = "lvs_item_ammocrate",   description = "Filled with various ammo types for vehicles.", type = "Ammo" },
+                    { name = "Radio",                   entityname = "newboombox",           description = "Radio to play some War Music!",                type = "Misc" },
+					{ name = "Machine Gun Emplacement", entityname = "maxim",                description = "Deploy a machine gun for defense.",            type = "Equipment" },
+                    { name = "Transport Cart",          entityname = "fuel_store",           description = "Cart to store Scrap and move it around.",      type = "Misc" },
                 },
             },
             {
@@ -1699,6 +1725,30 @@ DivisionTypes = {
                 vehicles = {
                     { name = "Cain",    entityname = "lvs_caine",   description = "A mobile mortar platform.",                          type = "Artillery" },
                     { name = "Pelekys", entityname = "lvs_pelekys", description = "Mounted artillery gun. Designed to penetrate armor.", type = "Artillery" },
+                },
+            },
+			{
+                Name               = "Imperial Tankers",
+                Core               = true,
+                Models             = {},
+                Weapons            = {},
+                SpawnWeapons       = { "weapon_lvsrepair" },
+                AllowedWeaponFlags = { "Side Arm", "Rifle"},
+                Prefix             = "ITR",
+                Max                = 2,
+                vehicles = {
+                    { name = "Captured Saint Chamond",   entityname = "lvs_mark1_tb",  description = "A Captured French Tank.",                        type = "Tank" },
+                },
+            },
+			{
+                Name               = "Sniper",
+                Core               = true,
+                Models             = {},
+                Weapons            = {},
+                SpawnWeapons       = { "weapon_lvsrepair" },
+                AllowedWeaponFlags = { "Side Arm", "Rifle", "Sniper Rifle"},
+                Prefix             = "SP",
+                Max                = 1,
                 },
             },
             {
@@ -2434,6 +2484,8 @@ PASSIVE_ITEM_FLAGS["Sniper Rifle"]   = { FunctionName = "none", WeaponType = tru
 PASSIVE_ITEM_FLAGS["Submachine Gun"] = { FunctionName = "none", WeaponType = true, Description = "[Submachine Gun]", Color = Color(200, 200, 200) }
 PASSIVE_ITEM_FLAGS["Machine Gun"]    = { FunctionName = "none", WeaponType = true, Description = "[Machine Gun]",    Color = Color(200, 200, 200) }
 PASSIVE_ITEM_FLAGS["Heavy Explosive"]= { FunctionName = "none", WeaponType = true, Description = "[Heavy Explosive]",Color = Color(200, 200, 200) }
+PASSIVE_ITEM_FLAGS["Explosive"]      = { FunctionName = "none", WeaponType = true, Description = "[Explosive]",Color = Color(200, 200, 200) }
+PASSIVE_ITEM_FLAGS["Anti-Tank"]      = { FunctionName = "none", WeaponType = true, Description = "[Anti-Tank]",Color = Color(200, 200, 200) }
 PASSIVE_ITEM_FLAGS["VIP"]            = { FunctionName = "none", WeaponType = true, Description = "[VIP]",            Color = Color(0, 255, 204)   }
 
 ---- Loot ----
@@ -2470,21 +2522,14 @@ function CanPlayerEquipItemType(ply, item_id)
     local meta = INVENTORY_ITEMS and INVENTORY_ITEMS[item_id]
     if not meta or not meta.PassiveFlags then
         print("Item with ID " .. item_id .. " does not exist or has no PassiveFlags. This is likely an error.")
-        return false
+        return true
     end
 
     local weaponTypeFlags = {}
     for _, flagName in ipairs(meta.PassiveFlags) do
         local flag = PASSIVE_ITEM_FLAGS and PASSIVE_ITEM_FLAGS[flagName]
         if flag and flag.WeaponType then
-            local IsVIP = ply:GetNWBool("IsVIP", false)
-            if flagName == "VIP"then
-                if IsVIP then
-                    return true
-                else
-                    return false
-                end
-            end
+            if flagName == "VIP" then return true end
             table.insert(weaponTypeFlags, flagName)
         end
     end
