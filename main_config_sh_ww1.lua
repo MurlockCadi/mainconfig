@@ -2470,14 +2470,21 @@ function CanPlayerEquipItemType(ply, item_id)
     local meta = INVENTORY_ITEMS and INVENTORY_ITEMS[item_id]
     if not meta or not meta.PassiveFlags then
         print("Item with ID " .. item_id .. " does not exist or has no PassiveFlags. This is likely an error.")
-        return true
+        return false
     end
 
     local weaponTypeFlags = {}
     for _, flagName in ipairs(meta.PassiveFlags) do
         local flag = PASSIVE_ITEM_FLAGS and PASSIVE_ITEM_FLAGS[flagName]
         if flag and flag.WeaponType then
-            if flagName == "VIP" then return true end
+            local IsVIP = ply:GetNWBool("IsVIP", false)
+            if flagName == "VIP"then
+                if IsVIP then
+                    return true
+                else
+                    return false
+                end
+            end
             table.insert(weaponTypeFlags, flagName)
         end
     end
