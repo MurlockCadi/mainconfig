@@ -704,7 +704,7 @@ DivisionTypes = {
                 Weapons            = {},
 				Fortifications = Global_Fortifications,
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair","outpost_maker" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive" },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive", "Anti-Tank" },
                 Prefix             = "ENG",
                 EntitySpawner = {
                     { name = "Ammo Supplies",        entityname = "universal_ammo_small",  description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",                                                        type = "Ammo"      },
@@ -1674,7 +1674,7 @@ DivisionTypes = {
                 Models             = {},
                 Weapons            = {},
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair", "outpost_maker" },
-                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive" },
+                AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive", "Anti-Tank" },
                 Prefix             = "PNR",
 				Max                = 3,
                 EntitySpawner = {
