@@ -29,7 +29,7 @@ FACTION_TYPES["NEW_TZEETCH"] = {
         if spawn_elite then
             bot.Elite = true
             local EliteTypeRoll = math.random(1, 100)
-            if false then --EliteTypeRoll <= 99 then
+            if EliteTypeRoll <= 99 then
                 --Champion of Tzeentch
                 bot:SetModel("models/astartes/cul/ast_cultist.mdl")
                 bot:SetNWBool("ShieldEnable", true)
