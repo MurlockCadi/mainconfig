@@ -2297,10 +2297,15 @@ CERTIFICATIONS = {
         Weapons = {},
     },
 	["Biker"] = {
+        Weapons = {},
+    },
+	["Emplacement"] = {
         Weapons = {"ent_spawner"},
         Entitys = {
-            { name = "Bike", entityname = "sim_fphys_wk_charon_bike_armed", description = "Fastest two-wheeled vehicle in the imperium", type = "Bike" },
-            { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Make that engine purr", type = "Vehicle" }
+            { name = "ATGM", entityname = "lvs_trailer_wh_emp_atgm", description = "A bipoded Anti Tank Guided Missile.", type = "Turret" },
+            { name = "Auto Cannon", entityname = "lvs_trailer_wh_emp_auto",  description = "A tripod mounted Auto Cannon Emplacement", type = "Turret" },
+            { name = "Bolter", entityname = "lvs_trailer_wh_emp_bolter", description = "A tripod mounted heavy bolter emplacement.", type = "Turret" },
+            { name = "Lascannon", entityname = "lvs_trailer_wh_emp_laser",  description = "A tripod mounted Lascannon Emplacement", type = "Turret" }
         }
     },
 	    ["Rough Rider"] = {
