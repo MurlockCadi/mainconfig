@@ -440,7 +440,13 @@ commands = {
 	["/highgothic"]  = function(ply) end,
 	["!vhighgothic"] = function(ply) end,
 	["/vhighgothic"] = function(ply) end,
-	["/generatenavmesh"] = function(ply) luanodegraph_rebuild_from_navmesh(ply) end
+	["/generatenavmesh"] = function(ply) luanodegraph_rebuild_from_navmesh(ply) end,
+	["!rob"]  = function(ply) PickpocketPlayerInfrontOfMe(ply) end,
+	["/rob"]  = function(ply) PickpocketPlayerInfrontOfMe(ply) end,
+	["!pickpocket"] = function(ply) PickpocketPlayerInfrontOfMe(ply) end,
+	["/pickpocket"] = function(ply) PickpocketPlayerInfrontOfMe(ply) end,
+	["!steal"] = function(ply) PickpocketPlayerInfrontOfMe(ply) end,
+	["/steal"] = function(ply) PickpocketPlayerInfrontOfMe(ply) end
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
