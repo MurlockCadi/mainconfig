@@ -105,6 +105,13 @@ vehicleLimits = {
     { players = 0,  maxVehicles = 8 },
 }
 
+RESPAWN_TIMERS_IMPERIUMRP = {
+    ["Small Vehicle"]          = 300,
+	["Heavy Emplacements"]     = 180,
+    ["Light Vehicle"]          = 600,
+    ["Heavy Vehicle"]          = 900,
+}
+
 ---------PROX CHAT------------------------------------------------------------------------------------
 
 proximityDistance = 750
