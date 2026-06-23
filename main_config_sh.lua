@@ -94,15 +94,12 @@ ENTITY_RESPAWN_TIMERS = {
 }
 
 -- Maximum vehicles per team scales down as the server fills up
-vehicleLimits = {
-    { players = 40, maxVehicles = 3  },
-    { players = 35, maxVehicles = 3  },
-    { players = 30, maxVehicles = 4  },
-    { players = 25, maxVehicles = 4  },
-    { players = 20, maxVehicles = 5  },
-    { players = 15, maxVehicles = 5  },
-    { players = 10, maxVehicles = 6  },
-    { players = 5, maxVehicles = 7 },
+VEHICLE_LIMITS = {
+    { players = 40, maxVehicles = 3 },
+    { players = 30, maxVehicles = 4 },
+    { players = 20, maxVehicles = 5 },
+    { players = 10, maxVehicles = 6 },
+    { players = 5,  maxVehicles = 7 },
     { players = 0,  maxVehicles = 8 },
 }
 
