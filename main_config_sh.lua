@@ -55,28 +55,14 @@ intro_songs = {
 }
 
 intro_image_urls = {
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/1.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/2.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/3.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/4.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/5.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/6.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/7.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/8.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/9.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/10.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/11.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/12.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/13.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/14.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/15.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/16.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/17.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/18.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/19.png",
-    "https://www.imperiumgaming.net/warhammerload/backgrounds/images/20.png",
-    "https://www.imperiumgaming.net/warhammerload/images/20260402220810_1.jpg",
-    "https://www.imperiumgaming.net/warhammerload/images/202A0B1.JPG"
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/3242.jpg",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/20260623020137_1.jpg",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/1.jpg",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/20251019044023_1.jpg",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/kriege.jpg",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/51.png",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/52.jpg",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/53.jpg"
 }
 
 -- Entity Respawn Timers for Entity Spawner
