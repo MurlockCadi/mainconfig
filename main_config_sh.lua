@@ -1765,6 +1765,10 @@ DivisionTypes = {
                 Weapons = {"cat_custom_hellgunstandard"},
                 SpawnWeapons = {"realistic_hook"},
                 Prefix = "KS"
+	            vehicles = {
+                    { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two seat, unarmed tauros.", type = "Small Vehicle" },
+	                { name = "HMG Tauros",   entityname = "lvs_wheeldrive_tauros_hmg",  description = "A tauros with a mounted heavy stubber.", type = "Small Vehicle" },
+                },
             },
             {
                 Name = "Medic",
