@@ -107,7 +107,7 @@ vehicleLimits = {
 
 RESPAWN_TIMERS_IMPERIUMRP = {
     ["Small Vehicle"]          = 300,
-	["Heavy Emplacements"]     = 180,
+	["Heavy Emplacement"]     = 180,
     ["Light Vehicle"]          = 600,
     ["Heavy Vehicle"]          = 900,
 }
@@ -1766,7 +1766,7 @@ DivisionTypes = {
                 SpawnWeapons = {"realistic_hook"},
                 Prefix = "KS",
 	            vehicles = {
-                    { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two seat, unarmed tauros.", type = "Small Vehicle" },
+                    { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
 	                { name = "HMG Tauros",   entityname = "lvs_wheeldrive_tauros_hmg",  description = "A tauros with a mounted heavy stubber.", type = "Small Vehicle" },
                 },
             },
@@ -1858,7 +1858,7 @@ DivisionTypes = {
                     },
                 },
 	            vehicles = {
-                    { name = "Base Taurox",   entityname = "lvs_wheeldrive_taurox_base",  description = "A slighly armored, multi-seat troop transport vehicle.", type = "Light Vehicle" },
+                    { name = "Base Taurox",   entityname = "lvs_wheeldrive_taurox_base",  description = "A slighly armored, multi-seat troop transport vehicle.", type = "Small Vehicle" },
 	                { name = "Autocannon Taurox",   entityname = "lvs_wheeldrive_taurox_auto",  description = "A taurox with mounted Autocannon", type = "Light Vehicle" },
 	                { name = "Minigun Taurox",   entityname = "lvs_wheeldrive_taurox_minigun",  description = "A taurox with mounted minigun", type = "Light Vehicle" },
 	                { name = "HMG Taurox",   entityname = "lvs_wheeldrive_taurox_hmg",  description = "A taurox with mounted heavy stubber", type = "Light Vehicle" },
@@ -1922,6 +1922,10 @@ DivisionTypes = {
                 Weapons = {"cat_custom_hellgun_lucius"},
                 SpawnWeapons = {},
                 Prefix = "GR"
+	            vehicles = {
+                    { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
+	                { name = "GMG Tauros",   entityname = "lvs_wheeldrive_tauros_gmg",  description = "A tauros with a mounted grenade launcher.", type = "Small Vehicle" },
+                },
             },
             {
                 Name = "Medic",
@@ -2026,36 +2030,12 @@ DivisionTypes = {
                         description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.",
                         type = "Ammo"
                     },
-                    {
-                        name = "Krieg Turret",
-                        entityname = "turret_bruh",
-                        description = "A powerful field turret.",
-                        type = "Artillery"
-                    },
-                    {
-                        name = "Krieg Railgun",
-                        entityname = "turret_rail",
-                        description = "A powerful field Railgun.",
-                        type = "Artillery"
-                    },
-                    {
-                        name = "Krieg Machinegun",
-                        entityname = "turret_bullets",
-                        description = "A powerful field turret.",
-                        type = "Artillery"
-                    },
-                    {
-                        name = "Siege Cannon",
-                        entityname = "or_gun_platform_artillery1",
-                        description = "Huge Siege Cannon of Krieg. WARNING: VERY LARGE!",
-                        type = "Artillery"
-                    }, --lvs_vasilisk
-                    {
-                        name = "Basilisk",
-                        entityname = "lvs_vasilisk",
-                        description = "Famous siege artillery tank",
-                        type = "Artillery"
-					}
+                },
+	            vehicles = {
+                    { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
+	                { name = "Assault Cannon Emplacement",   entityname = "wh_mgcannon",  description = "An armored assault cannon trailer emplacement", type = "Heavy Emplacement" },
+	                { name = "Auto Cannon Emplacement",   entityname = "wh_acannon",  description = "An armored auto cannon trailer emplacement", type = "Heavy Emplacement" },
+	                { name = "Field Cannon Emplacement",   entityname = "wh_fcannon",  description = "An armored field cannon trailer emplacement", type = "Heavy Emplacement" },
                 },
             },
             {
