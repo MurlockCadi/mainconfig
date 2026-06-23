@@ -1921,7 +1921,7 @@ DivisionTypes = {
 				MaxHealth = 150,
                 Weapons = {"cat_custom_hellgun_lucius"},
                 SpawnWeapons = {},
-                Prefix = "GR"
+                Prefix = "GR",
 	            vehicles = {
                     { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
 	                { name = "GMG Tauros",   entityname = "lvs_wheeldrive_tauros_gmg",  description = "A tauros with a mounted grenade launcher.", type = "Small Vehicle" },
