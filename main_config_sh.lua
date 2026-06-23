@@ -10,7 +10,8 @@ local MAIN_MAPS = {
     ["rp_40k_hammerfall_undead"] = true,
     ["necromunda_v1"] = true,
 	["rp_bremergard_forest"] = true,
-	["rp_snow_warfare"] = true
+	["rp_snow_warfare"] = true,
+	["rp_warhammer_frontiers"] = true
 }
 
 local ORK_MAPS = {
