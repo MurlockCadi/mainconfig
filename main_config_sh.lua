@@ -1825,7 +1825,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/vintagethief/11th_imperial_guard/11th_swt_flamer_grey.mdl","models/vintagethief/11th_imperial_guard/11th_swt.mdl","models/vintagethief/11th_imperial_guard/11th_penal.mdl"},
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","rope_tool"},
                 Prefix = "LO",
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -1856,6 +1856,12 @@ DivisionTypes = {
                         description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.",
                         type = "Ammo"
                     },
+                },
+	            vehicles = {
+                    { name = "Base Taurox",   entityname = "lvs_wheeldrive_taurox_base",  description = "A slighly armored, multi-seat troop transport vehicle.", type = "Light Vehicle" },
+	                { name = "Autocannon Taurox",   entityname = "lvs_wheeldrive_taurox_auto",  description = "A taurox with mounted Autocannon", type = "Light Vehicle" },
+	                { name = "Minigun Taurox",   entityname = "lvs_wheeldrive_taurox_minigun",  description = "A taurox with mounted minigun", type = "Light Vehicle" },
+	                { name = "HMG Taurox",   entityname = "lvs_wheeldrive_taurox_hmg",  description = "A taurox with mounted heavy stubber", type = "Light Vehicle" },
                 },
             },
             {
@@ -1978,7 +1984,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","rope_tool"},
                 Prefix = "ENG",
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
