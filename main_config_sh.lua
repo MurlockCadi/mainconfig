@@ -1043,6 +1043,9 @@ DivisionTypes = {
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
                 },
+                vehicles = {
+                    { name = "Imperial Knight",   entityname = "lvs_wk_walker_imperialknight",  description = "A large walker armed with multiple cannons, a loud horn, and an ion shield.",  type = "Heavy Vehicle" },
+                },
                 Prefix = ""
             },
 			{
