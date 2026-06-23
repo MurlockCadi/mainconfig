@@ -2730,6 +2730,30 @@ PASSIVE_ITEM_FLAGS["FlowGenerator"] = {
     Color        = Color(0, 255, 255,255)
 }
 
+PASSIVE_ITEM_FLAGS["FaithOnDamage"] = {
+    FunctionName = "FaithOnDamage",
+    Description  = "Gain Faith when dealing damage, up to a limit of 5000.",
+    Color        = Color(255, 255, 100)
+}
+
+PASSIVE_ITEM_FLAGS["ConvertFaithToHealth"] = {
+    FunctionName = "ConvertFaithToHealth",
+    Description  = "Converts Faith into Health over time.",
+    Color        = Color(255, 255, 100)
+}
+
+PASSIVE_ITEM_FLAGS["ConvertFaithToDamage"] = {
+    FunctionName = "ConvertFaithToDamage",
+    Description  = "Converts Faith into damage when attacking.",
+    Color        = Color(255, 255, 100)
+}
+
+PASSIVE_ITEM_FLAGS["ConvertHealthToFaith"] = {
+    FunctionName = "ConvertHealthToFaith",
+    Description  = "Converts Health into Faith over time.",
+    Color        = Color(255, 255, 100)
+}
+
 -- Classifications --
 
 PASSIVE_ITEM_FLAGS["Xeno"] = {
