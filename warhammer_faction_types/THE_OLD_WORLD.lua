@@ -36,7 +36,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
                 bot.ShootingSkill = 2
                 bot:SetNWString("Description", "A wood elf tasked with defending the last remnants of the old world's forests, armed with a longbow and a razor-sharp sword.")
                 health = math.max(health * 5, 1500)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 5 then
                 bot:SetNWString("Name", "Black Orc")
@@ -127,7 +127,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
                 bot.weapon = "cat_chaos_legacy_poweraxe"
                 bot:SetNWString("Description", "A seasoned dwarf warrior who has turned to the worship of dark gods, wielding a wicked axe and a grudge against the world.")
                 health = math.max(health * 4, 800)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 46 then
                 bot:SetNWString("Name", "Irondrake")
@@ -138,7 +138,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
                 bot.weapon = "cat_chaos_legacy_flamer"
                 bot:SetNWString("Description", "The irondrake is the pinnacle of dwarven craftsmanship, a master of fire and steel who unleashes a torrent of flame upon their enemies.")
                 health = math.max(health * 4, 1000)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 51 then
                 bot:SetNWString("Name", "Skeleton Spearman")
@@ -164,7 +164,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A high elf mage wielding powerful arcane spells.")
                 health = math.max(health * 3, 500)
-				Human = true
+				bot.Human = true
             
             elseif roll <= 66 then
                 bot:SetNWString("Name", "Beastigor")
@@ -237,7 +237,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A devout priest of Sigmar, wielding holy magic to smite the enemies of the old world.")
                 health = math.max(health * 3, 500)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 100 then
                 bot:SetNWString("Name", "Marauders")
@@ -246,7 +246,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
                 bot.weapon = "cat_chaos_legacy_chainsword"
                 bot:SetNWString("Description", "Marauders are savage and brutal warriors who have pledged themselves to the dark gods, wielding crude weapons and reveling in chaos and destruction.")
                 health = math.max(health * 3, 600)
-				Human = true
+				bot.Human = true
 
             end
 
@@ -278,7 +278,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
                 bot.ShootingSkill = 2
                 bot:SetNWString("Description", "A wood elf tasked with defending the last remnants of the old world's forests, armed with a longbow and a razor-sharp sword.")
                 health = math.max(health * 4, 1500)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 5 then
                 bot:SetNWString("Name", "Black Orc")
@@ -369,7 +369,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
                 bot.weapon = "cat_chaos_legacy_poweraxe"
                 bot:SetNWString("Description", "A seasoned dwarf warrior who has turned to the worship of dark gods, wielding a wicked axe and a grudge against the world.")
                 health = math.max(health * 3, 800)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 46 then
                 bot:SetNWString("Name", "Irondrake")
@@ -380,7 +380,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
                 bot.weapon = "cat_chaos_legacy_flamer"
                 bot:SetNWString("Description", "The irondrake is the pinnacle of dwarven craftsmanship, a master of fire and steel who unleashes a torrent of flame upon their enemies.")
                 health = math.max(health * 3, 1000)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 51 then
                 bot:SetNWString("Name", "Skeleton Spearman")
@@ -406,7 +406,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A high elf mage wielding powerful arcane spells.")
                 health = math.max(health * 2, 500)
-				Human = true
+				bot.Human = true
             
             elseif roll <= 66 then
                 bot:SetNWString("Name", "Beastigor")
@@ -479,7 +479,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A devout priest of Sigmar, wielding holy magic to smite the enemies of the old world.")
                 health = math.max(health * 2, 500)
-				Human = true
+				bot.Human = true
 
 	        elseif roll <= 100 then
                 bot:SetNWString("Name", "Marauders")
@@ -488,7 +488,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
                 bot.weapon = "cat_chaos_legacy_chainsword"
                 bot:SetNWString("Description", "Marauders are savage and brutal warriors who have pledged themselves to the dark gods, wielding crude weapons and reveling in chaos and destruction.")
                 health = math.max(health * 2, 600)
-				Human = true
+				bot.Human = true
         end
 	end
         bot:SetNWString("Status", "THE_OLD_WORLD")
