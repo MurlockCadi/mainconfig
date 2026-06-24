@@ -1523,7 +1523,7 @@ DivisionTypes = {
             {
                 Name = "Major of the Cadians",
                 Core = true,
-                Models = CADIAN_CAPTAIN,
+                Models = { "models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl" },
                 Weapons = {"cat_custom_boltpistol"},
                 ForceModels = true,
                 MaxHealth = 175,
@@ -1753,7 +1753,7 @@ DivisionTypes = {
             {
                 Name = "Guardsman",
                 Default = true,
-                Models = {},
+                Models = { "models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl" },
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
@@ -2150,7 +2150,7 @@ ROLES = ROLES or {
             {
                 Name = "Whiteshield",
                 Default = true,
-                Models = {},
+                Models = { "models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl" },
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
