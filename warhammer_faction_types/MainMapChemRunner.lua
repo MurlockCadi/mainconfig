@@ -105,7 +105,7 @@ FACTION_TYPES["Chem Runner"] = {
             if eliteRoll <= 15 then
                 bot:SetNWString("Name", "Chem Enforcer")
                 health = math.max(health * 3, 1000)
-                Human = true
+                bot.Human = true
                 local model = bot.IsFemale and "models/dizcordum/imperium/enforcer/enf_female.mdl" or "models/dizcordum/imperium/enforcer/enf_male.mdl"
                 bot:SetModel(model)
                 bot.FightType = "shooting"
@@ -115,7 +115,7 @@ FACTION_TYPES["Chem Runner"] = {
             elseif eliteRoll <= 80 then
                 bot:SetNWString("Name", "Spook Manufacturer")
                 health = math.max(health * 3, 500)
-                Human = true
+                bot.Human = true
                 local model = bot.IsFemale and "models/dizcordum/civ/workers/civ_female.mdl" or "models/dizcordum/civ/workers/civ_male.mdl"
                 bot:SetModel(model)
                 bot.FightType = "flamer"
@@ -124,7 +124,7 @@ FACTION_TYPES["Chem Runner"] = {
             else
                 bot:SetNWString("Name", "Squat Mercenary")
                 health = math.max(health * 3, 1000)
-                Human = true
+                bot.Human = true
                 bot:SetModel("models/dizcordum/abhumans/squat.mdl")
                 local weaponroll = math.random(1, 100)
                 if weaponroll <= 50 then
