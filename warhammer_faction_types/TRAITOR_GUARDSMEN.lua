@@ -21,7 +21,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             if roll <= 10 then
                 health = math.max(health * 3, 1000)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Traitor Officer")
                 bot:SetModel("models/wk/cult/cul_cap.mdl")
                 bot.FightType = "shooting"
@@ -44,7 +44,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             elseif roll <= 40 then
                 health = math.max(health * 3, 600)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Heavy Traitor Guardsman")
                 bot:SetModel("models/wk/cult/cult_cu_heavy.mdl")
                 bot.FightType = "shooting"
@@ -53,7 +53,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             elseif roll <= 50 then
                 health = math.max(health * 2, 500)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Flamer Traitor Ratling")
                 bot:SetModel("models/dizcordum/abhumans/ratling.mdl")
                 bot.FightType = "flamer"
@@ -64,7 +64,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             elseif roll <= 60 then
                 health = math.max(health * 3, 600)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Traitor Commissar")
                 bot:SetModel("models/knight_ig/muschi_ig_comissar.mdl")
                 if math.random(1, 2) == 1 then
@@ -78,7 +78,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             elseif roll <= 70 then
                 health = math.max(health * 3, 600)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Traitor Squat")
                 bot:SetModel("models/dizcordum/abhumans/squat.mdl")
                 bot.FightType = "shooting"
@@ -87,7 +87,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             else
                 health = math.max(health * 2, 400)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Traitor Guardsman")
                 bot:SetModel(TraitorModels[math.random(#TraitorModels)])
                 bot.FightType = "shooting"
@@ -99,7 +99,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             if roll <= 10 then
                 health = math.max(health * 2, 800)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Traitor Officer")
                 bot:SetModel("models/wk/cult/cul_cap.mdl")
                 bot.FightType = "shooting"
@@ -122,7 +122,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             elseif roll <= 40 then
                 health = math.max(health * 2, 500)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Heavy Traitor Guardsman")
                 bot:SetModel("models/wk/cult/cult_cu_heavy.mdl")
                 bot.FightType = "shooting"
@@ -131,7 +131,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             elseif roll <= 50 then
                 health = math.max(health * 1, 400)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Flamer Traitor Ratling")
                 bot:SetModel("models/dizcordum/abhumans/ratling.mdl")
                 bot.FightType = "flamer"
@@ -142,7 +142,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             elseif roll <= 60 then
                 health = math.max(health * 2, 500)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Traitor Commissar")
                 bot:SetModel("models/knight_ig/muschi_ig_comissar.mdl")
                 if math.random(1, 2) == 1 then
@@ -156,7 +156,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             elseif roll <= 70 then
                 health = math.max(health * 2, 500)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Traitor Squat")
                 bot:SetModel("models/dizcordum/abhumans/squat.mdl")
                 bot.FightType = "shooting"
@@ -165,7 +165,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
 
             else
                 health = math.max(health * 1, 300)
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Name", "Traitor Guardsman")
                 bot:SetModel(TraitorModels[math.random(#TraitorModels)])
                 bot.FightType = "shooting"
