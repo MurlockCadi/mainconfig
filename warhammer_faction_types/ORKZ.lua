@@ -24,6 +24,7 @@ FACTION_TYPES["ORKZ"] = {
 			elseif eliteRoll <= 35 then
                 bot:SetNWString("Name", "ORK COMMANDO")
                 health = math.max(health * 3, 500)
+				Human = true
                 local model = "models/muschi/orks/muschi_ork_komandoz.mdl"
                 bot:SetModel(model)
                 bot.FightType = "shooting"
