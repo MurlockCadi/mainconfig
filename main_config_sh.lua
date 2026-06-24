@@ -1753,12 +1753,7 @@ DivisionTypes = {
             {
                 Name = "Guardsman",
                 Default = true,
-                Models = {
-							"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
-							"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl",
-							"models/hazo/ouch/wh40k/sm2/cadian_male_2.mdl",
-							"models/hazo/ouch/wh40k/sm2/cadian_male_3.mdl"
-				},
+                Models = {"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl","models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl","models/hazo/ouch/wh40k/sm2/cadian_male_2.mdl","models/hazo/ouch/wh40k/sm2/cadian_male_3.mdl"},
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
