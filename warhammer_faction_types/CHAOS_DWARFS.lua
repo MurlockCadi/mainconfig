@@ -38,7 +38,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetWalkSpeed(150)
 	        bot:SetNWBool("ShieldEnable", true)
             health = math.max(health * 6, 2000)
-			Human = true
+			bot.Human = true
 	            --set bodygroup
             local bodygroupchoice = math.random(1,2)
             if bodygroupchoice == 1 then
@@ -61,7 +61,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetWalkSpeed(200)
             bot.ChaosDwarf = true
             health = math.max(health * 4, 1000)
-			Human = true
+			bot.Human = true
 			
 		elseif roll <= 25 then
             bot:SetNWString("Name", "Elite Chaos Dwarf Warrior")
@@ -75,7 +75,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot.ChaosDwarf = true
             bot:SetNWBool("ShieldEnable", true)
             health = math.max(health * 4, 1000)
-			Human = true
+			bot.Human = true
 
 		elseif roll <= 35 then
             bot:SetNWString("Name", "Elite Black Ork")
@@ -103,7 +103,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
                  end
             bot:SetNWString("Description", "Goblins cast out from their own kind for helping the Chaos Dwarfs.")
             health = math.max(health * 3, 500)
-			Human = true
+			bot.Human = true
             bot:SetColor(Color(255, 191, 0))
 			
 		elseif roll <= 55 then
@@ -160,7 +160,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetRunSpeed(150)
             bot:SetWalkSpeed(150)
             health = math.max(health * 4, 2000)
-			Human = true
+			bot.Human = true
 	            --set bodygroup
             local bodygroupchoice = math.random(1,2)
             if bodygroupchoice == 1 then
@@ -184,7 +184,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot:SetWalkSpeed(200)
             bot.ChaosDwarf = true
             health = math.max(health * 3, 1000)
-			Human = true
+			bot.Human = true
 			
 		elseif roll <= 25 then
             bot:SetNWString("Name", "Chaos Dwarf Warrior")
@@ -198,7 +198,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
             bot.ChaosDwarf = true
             bot:SetNWBool("ShieldEnable", true)
             health = math.max(health * 3, 1000)
-			Human = true
+			bot.Human = true
 
 		elseif roll <= 35 then
             bot:SetNWString("Name", "Black Ork")
@@ -226,7 +226,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
                  end
             bot:SetNWString("Description", "Goblins cast out from their own kind for helping the Chaos Dwarfs.")
             health = math.max(health * 2, 500)
-			Human = true
+			bot.Human = true
             bot:SetColor(Color(255, 191, 0))
 			
 		elseif roll <= 55 then
