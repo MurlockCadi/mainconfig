@@ -70,7 +70,6 @@ FACTION_TYPES["CHANGE_HORDE"] = {
                 bot:SetNWString("Description", "Powerful Sorcerer of Tzeentch, master of change and manipulation.")
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Name", "Tzeentch Sister")
-                Human = true
                 bot:SetColor(Color(80, 100, 255))
                 bot:SetRenderMode(RENDERMODE_TRANSALPHA)
                 bot:SetRenderFX(kRenderFxPulseFast)
