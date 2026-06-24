@@ -21,7 +21,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot:SetNWString("Description", "The champion of the Hearthguard, slow and brutal.")
                 bot:SetNWBool("ShieldEnable", true)
                 health = math.max(health * 8, 3000)
-				Human = true
+				bot.Human = true
 			
 			elseif roll <= 25 then
                 bot:SetNWString("Name", "Elite Einhyr Hearthguard")
@@ -34,7 +34,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot:SetNWString("Description", "Elite Kin tasked with defending what matters most. ")
                 bot:SetNWBool("ShieldEnable", true)
                 health = math.max(health * 5, 1200)
-				Human = true
+				bot.Human = true
 				
             elseif roll <= 35 then
                 bot:SetNWString("Name", "Elite Grymnyr")
@@ -46,7 +46,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
                 bot:SetNWString("Description", "The only Kin able to interact with the warp.")
                 health = math.max(health * 3, 800)
-				Human = true
+				bot.Human = true
             
 			elseif roll <= 55 then
                 bot:SetNWString("Name", "Elite Brokhyr Thunderkin")
@@ -58,7 +58,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "The most talented engineers of the Kin, in heavy armor and heavier weapons.")
                 health = math.max(health * 4, 1500)
-				Human = true
+				bot.Human = true
 					
 			elseif roll <= 65 then
                 bot:SetNWString("Name", "Elite Cthonian Berserks")
@@ -80,7 +80,7 @@ FACTION_TYPES["VOTANN"] = {
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A Kin warrior well trained and well armed.")
                 health = math.max(health * 3, 800)
-				Human = true
+				bot.Human = true
 
 			else
                 bot:SetNWString("Name", "Elite Ironkin")
@@ -95,7 +95,7 @@ FACTION_TYPES["VOTANN"] = {
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "Sapient fodder of the Votann to avoid Kin loss.")
                 health = math.max(health * 2, 500)	
-				Human = true
+				bot.Human = true
             end
         else
             local roll = math.random(1, 100)
@@ -109,7 +109,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot:SetNWString("Description", "The champion of the Hearthguard, slow and brutal.")
                 bot:SetNWBool("ShieldEnable", true)
                 health = math.max(health * 7, 2000)
-				Human = true
+				bot.Human = true
 			
 			elseif roll <= 25 then
                 bot:SetNWString("Name", "Einhyr Hearthguard")
@@ -122,7 +122,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot:SetNWString("Description", "Elite Kin tasked with defending what matters most.")
                 bot:SetNWBool("ShieldEnable", true)
                 health = math.max(health * 4, 1000)
-				Human = true
+				bot.Human = true
 				
             elseif roll <= 35 then
                 bot:SetNWString("Name", "Grymnyr")
@@ -134,7 +134,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot.weapon = "cat_chaos_legacy_sorcererstaff"
                 bot:SetNWString("Description", "The only Kin able to interact with the warp.")
                 health = math.max(health * 2, 700)
-				Human = true
+				bot.Human = true
             
 			elseif roll <= 55 then
                 bot:SetNWString("Name", "Brokhyr Thunderkin")
@@ -146,7 +146,7 @@ FACTION_TYPES["VOTANN"] = {
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "The most talented engineers of the Kin, in heavy armor and heavier weapons.")
                 health = math.max(health * 3, 1000)
-				Human = true
+				bot.Human = true
 					
 			elseif roll <= 65 then
                 bot:SetNWString("Name", "Cthonian Berserks")
@@ -168,7 +168,7 @@ FACTION_TYPES["VOTANN"] = {
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A Kin warrior well trained and well armed.")
                 health = math.max(health * 2, 700)
-				Human = true
+				bot.Human = true
 
 			else
                 bot:SetNWString("Name", "Ironkin")
@@ -183,7 +183,7 @@ FACTION_TYPES["VOTANN"] = {
 	            bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "Sapient fodder of the Votann to avoid Kin loss.")
                 health = math.max(health * 1, 500)	
-				Human = true
+				bot.Human = true
             end
         end
 
