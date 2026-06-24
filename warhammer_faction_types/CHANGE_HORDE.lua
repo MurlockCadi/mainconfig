@@ -70,7 +70,7 @@ FACTION_TYPES["CHANGE_HORDE"] = {
                 bot:SetNWString("Description", "Powerful Sorcerer of Tzeentch, master of change and manipulation.")
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Name", "Tzeentch Sister")
-
+                Human = true
                 bot:SetColor(Color(80, 100, 255))
                 bot:SetRenderMode(RENDERMODE_TRANSALPHA)
                 bot:SetRenderFX(kRenderFxPulseFast)
@@ -89,6 +89,7 @@ FACTION_TYPES["CHANGE_HORDE"] = {
                 bot.FightType = "melee"
                 bot.weapon = "murlock_chaos_knife"
             end
+            Human = true
             bot:SetNWString("Name", "Tzeentch Cultist")
             bot:SetNWString("Description", "A cultist of Tzeentch, ready to warp reality in his name.")
         end
