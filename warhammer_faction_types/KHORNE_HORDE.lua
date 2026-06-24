@@ -87,6 +87,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
                     bot.weapon = "murlock_weapon_pistol"
                 end
                 bot:SetNWString("Description", "A cultist of Khorne, ready to spill blood in the name of the Blood God.")
+                Human = true
             end
             bot:SetNWString("Name", "Khorne Cultist")
         end
