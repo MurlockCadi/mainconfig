@@ -74,7 +74,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
                 bot:SetWalkSpeed(200)
                 bot:SetNWString("Description", "Ironhead Squats are a rare breed of squat that have adapted to the toxic and irradiated environment of the underhives, their dense bones and toughened skin making them incredibly resilient.")
                 health = math.max(health * 5, 800)
-				Human = true
+				bot.Human = true
     
             elseif roll <= 35 then
                 bot:SetNWString("Name", "Corpse Grinder")
@@ -108,7 +108,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
                  end
                bot:SetNWString("Description", "Scabber and Slopper are a pair of ogryn who have taken to becoming the best chefs in the underhives.")
                 health = math.max(health * 5, 800)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 55 then
                 bot:SetNWString("Name", "Underhive Doc")
@@ -118,7 +118,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
              bot:SetColor(Color(109, 109, 109))
                 bot:SetNWString("Description", "Underhive Docs are a gang of deranged medics who have taken to performing gruesome experiments on the living and the dead alike.")
                 health = math.max(health * 5, 800)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 65 then
                 bot:SetNWString("Name", "Ratling Slopper")
@@ -127,7 +127,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
                 bot.weapon = "murlock_weapon_pistol"
                 bot:SetNWString("Description", "Ratling Sloppers are the finest chefs in the underhives coveted for their culinary skills and their delicious rat pies.")
                 health = math.max(health * 5, 700)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 70 then
                 bot:SetNWString("Name", "Cawdor Bomb Rat")
@@ -164,7 +164,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
                  end
                 bot:SetNWString("Description", "Hive scum are the lowest of the low, scavengers and thieves who eke out a miserable existence in the underhives by preying on the weak and desperate.")
                 health = math.max(health * 3, 500)
-				Human = true
+				bot.Human = true
     
             end
         else
@@ -233,7 +233,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
                 bot:SetWalkSpeed(200)
                 bot:SetNWString("Description", "Ironhead Squats are a rare breed of squat that have adapted to the toxic and irradiated environment of the underhives, their dense bones and toughened skin making them incredibly resilient.")
                 health = math.max(health * 4, 700)
-				Human = true
+				bot.Human = true
     
             elseif roll <= 35 then
                 bot:SetNWString("Name", "Corpse Grinder")
@@ -267,7 +267,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
                  end
                bot:SetNWString("Description", "Scabber and Slopper are a pair of ogryn who have taken to becoming the best chefs in the underhives.")
                 health = math.max(health * 4, 700)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 55 then
                 bot:SetNWString("Name", "Underhive Doc")
@@ -277,7 +277,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
              bot:SetColor(Color(109, 109, 109))
                 bot:SetNWString("Description", "Underhive Docs are a gang of deranged medics who have taken to performing gruesome experiments on the living and the dead alike.")
                 health = math.max(health * 4, 700)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 65 then
                 bot:SetNWString("Name", "Ratling Slopper")
@@ -286,7 +286,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
                 bot.weapon = "murlock_weapon_pistol"
                 bot:SetNWString("Description", "Ratling Sloppers are the finest chefs in the underhives coveted for their culinary skills and their delicious rat pies.")
                 health = math.max(health * 4, 600)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 70 then
                 bot:SetNWString("Name", "Cawdor Bomb Rat")
@@ -323,7 +323,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
                  end
                 bot:SetNWString("Description", "Hive scum are the lowest of the low, scavengers and thieves who eke out a miserable existence in the underhives by preying on the weak and desperate.")
                 health = math.max(health * 2, 400)
-				Human = true
+				bot.Human = true
         end
 	end
         bot:SetNWString("Status", "NECROMUNDAN_GANGS")
