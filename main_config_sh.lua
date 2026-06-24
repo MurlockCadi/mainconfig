@@ -2150,7 +2150,7 @@ ROLES = ROLES or {
             {
                 Name = "Whiteshield",
                 Default = true,
-                Models = {},
+                Models = { CADIAN_MODELS },
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
