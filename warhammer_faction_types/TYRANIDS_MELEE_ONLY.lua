@@ -70,6 +70,7 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
             bot.weapon = "murlock_chaos_knife"
             bot:SetNWString("Description", "Imperium Civilian who has sworn allegiance to the Tyranids.")
             health = health * 2
+			Human = true
         end
     end
 
