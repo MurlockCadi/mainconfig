@@ -19,7 +19,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_custom_meltabomb"
                 bot:SetNWString("Description", "A fast rattling destined to die for freedom.")
                 health = math.max(health * 2, 200)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 15 then
                 bot:SetNWString("Name", "Elite Penal Heavy")
@@ -28,7 +28,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_custom_lasgun_galaxy"
                 bot:SetNWString("Description", "A penal trooper with heavy scrap armor.")
                 health = math.max(health * 3, 800)
-				Human = true
+				bot.Human = true
 
 			elseif roll <= 25 then
                 bot:SetNWString("Name", "Elite Penal Bonker Ogryn")
@@ -57,7 +57,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_custom_longlas_voss"
                 bot:SetNWString("Description", "Exceptional shot for one so small.")
                 health = math.max(health * 2, 500)
-				Human = true
+				bot.Human = true
 
 			elseif roll <= 55 then
                 bot:SetNWString("Name", "Elite Penal Squat")
@@ -66,7 +66,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_legacy_boardingshield_bolterphobos"
                 bot:SetNWString("Description", "A kin tired of Imperial Authority.")
                 health = math.max(health * 3, 500)
-				Human = true
+				bot.Human = true
 
 			elseif roll <= 65 then
                 bot:SetNWString("Name", "Elite Axe Servitor")
@@ -91,7 +91,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_custom_lasgun_galaxy"
                 bot:SetNWString("Description", "A Penal trooper who would rather die than serve their sentence.")
                 health = math.max(health * 2, 500)
-				Human = true
+				bot.Human = true
 
             end
         else
@@ -105,7 +105,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_custom_meltabomb"
                 bot:SetNWString("Description", "A fast rattling destined to die for freedom.")
                 health = math.max(health * 1, 100)
-				Human = true
+				bot.Human = true
 
             elseif roll <= 15 then
                 bot:SetNWString("Name", "Penal Heavy")
@@ -114,7 +114,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_custom_lasgun_galaxy"
                 bot:SetNWString("Description", "A penal trooper with heavy scrap armor.")
                 health = math.max(health * 2, 700)
-				Human = true
+				bot.Human = true
 
 			elseif roll <= 25 then
                 bot:SetNWString("Name", "Penal Bonker Ogryn")
@@ -144,7 +144,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_custom_longlas_voss"
                 bot:SetNWString("Description", "Exceptional shot for one so small.")
                 health = math.max(health * 1, 1500)
-				Human = true
+				bot.Human = true
 
 			elseif roll <= 55 then
                 bot:SetNWString("Name", "Penal Squat")
@@ -153,7 +153,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_legacy_boardingshield_bolterphobos"
                 bot:SetNWString("Description", "A kin tired of Imperial Authority.")
                 health = math.max(health * 2, 400)
-				Human = true
+				bot.Human = true
 
 			elseif roll <= 65 then
                 bot:SetNWString("Name", "Axe Servitor")
@@ -178,7 +178,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
                 bot.weapon = "cat_custom_lasgun_galaxy"
                 bot:SetNWString("Description", "A Penal trooper who would rather die than serve their sentence.")
                 health = math.max(health * 1, 400)
-				Human = true
+				bot.Human = true
             end
         end
 
