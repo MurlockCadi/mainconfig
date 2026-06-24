@@ -21,6 +21,7 @@ FACTION_TYPES["TAU-ORKS"] = {
             bot:SetWalkSpeed(200)
 	        bot:SetNWBool("ShieldEnable", true)
             health = math.max(health * 7, 5000)
+			Human = true
             bot:SetColor(Color(124, 207, 255))
 
         elseif roll <= 8 then
@@ -184,6 +185,7 @@ FACTION_TYPES["TAU-ORKS"] = {
             bot:SetWalkSpeed(200)
 	        bot:SetNWBool("ShieldEnable", true)
             health = math.max(health * 6, 4000)
+			Human = true
             bot:SetColor(Color(124, 207, 255))
 
         elseif roll <= 8 then
