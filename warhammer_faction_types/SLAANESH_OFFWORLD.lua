@@ -52,6 +52,7 @@ FACTION_TYPES["SLAANESH_OFFWORLD"] = {
                 bot:SetColor(Color(255, 100, 180))
                 bot:SetRenderMode(RENDERMODE_TRANSALPHA)
                 bot:SetNWString("Description", "A depraved mortal in thrall to the Dark Prince.")
+				Human = true
                 local shootroll = math.random(1, 100)
                 if shootroll <= 70 then
                     bot.FightType = "shooting"
