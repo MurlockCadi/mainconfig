@@ -19,7 +19,7 @@ FACTION_TYPES["PIRATES"] = {
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A swaggering void-captain draped in stolen finery and armed with the best loot on the deck.")
                 health = math.max(health * 4, 2000)
-                Human = true
+                bot.Human = true
 
             elseif roll <= 35 then
                 bot:SetNWString("Name", "Spook Bosun")
@@ -29,7 +29,7 @@ FACTION_TYPES["PIRATES"] = {
                 bot.hasGasMask = true
                 bot:SetNWString("Description", "A chem-soaked deck boss hurling burning death through the corridors of captured ships.")
                 health = math.max(health * 3, 1500)
-                Human = true
+                bot.Human = true
 
             elseif roll <= 50 then
                 bot:SetNWString("Name", "Freebooter Nob")
@@ -72,7 +72,7 @@ FACTION_TYPES["PIRATES"] = {
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A laughing void-raider dancing through gunfire with impossible grace.")
                 health = math.max(health * 3, 1800)
-                Human = true
+                bot.Human = true
 
             else
                 bot:SetNWString("Name", "Void Corsair")
@@ -84,7 +84,7 @@ FACTION_TYPES["PIRATES"] = {
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A murderous xenos raider that slips between shadows and leaves only corpses behind.")
                 health = math.max(health * 3, 1800)
-                Human = true
+                bot.Human = true
             end
         else
             local roll = math.random(1, 100)
@@ -102,7 +102,7 @@ FACTION_TYPES["PIRATES"] = {
                 bot.hasGasMask = true
                 bot:SetNWString("Description", "A chem-addled voidsman turned pirate, wild-eyed and desperate for plunder.")
                 health = math.max(health * 1.5, 600)
-                Human = true
+                bot.Human = true
 
             elseif roll <= 65 then
                 bot:SetNWString("Name", "Void Marauder")
@@ -149,7 +149,7 @@ FACTION_TYPES["PIRATES"] = {
                 bot.hasGasMask = true
                 bot:SetNWString("Description", "A scarred raider with a stolen long gun and a taste for void combat.")
                 health = math.max(health * 2, 900)
-                Human = true
+                bot.Human = true
             end
         end
 
