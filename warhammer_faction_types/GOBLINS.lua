@@ -205,7 +205,7 @@ FACTION_TYPES["GOBLINS"] = {
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetNWString("Description", "A cunning gretchin that leads the others.")
                 health = math.max(health * 5, 1000)
-                Human = true
+                bot.Human = true
             end
         end
 
