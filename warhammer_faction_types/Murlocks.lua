@@ -25,7 +25,7 @@ FACTION_TYPES["Murlocks"] = {
         bot:SetNWString("MAX_HEALTH", health)
         bot:SetMaxHealth(health)
         bot:SetHealth(health)
-        Human = true
+        bot.Human = true
         SpawnHostileBot(bot)
         bot.MirrorImage = true
     end,
