@@ -57,6 +57,7 @@ FACTION_TYPES["Slaanesh"] = {
             if cultistType <= 90 then
                 bot:SetNWString("Name", "Slaaneshi Cultist")
                 bot:SetModel("models/gonzo/cultistcolours/cultistcolours.mdl")
+                Human = true
                 bot:SetSkin(1)
                 bot:SetColor(Color(255, 100, 180))
                 bot:SetRenderMode(RENDERMODE_TRANSALPHA)
