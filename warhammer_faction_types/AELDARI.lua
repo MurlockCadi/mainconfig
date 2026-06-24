@@ -18,7 +18,6 @@ FACTION_TYPES["AELDARI"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "zad_eldar_spinneret"
                 health = health * 3
-                Human = true
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetRunSpeed(350)
                 bot:SetWalkSpeed(350)
@@ -29,7 +28,6 @@ FACTION_TYPES["AELDARI"] = {
                 bot.FightType = "melee"
                 bot.weapon = "murlock_melee"
                 health = health * 3
-                Human = true
                 bot:SetNWBool("ShieldEnable", true)
                 bot:SetRunSpeed(450)
                 bot:SetWalkSpeed(450)
@@ -44,7 +42,6 @@ FACTION_TYPES["AELDARI"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "zad_eldar_lasblaster"
                 health = health
-                Human = true
                 bot:SetRunSpeed(300)
                 bot:SetWalkSpeed(300)
             elseif EldarType <= 90 then
@@ -54,7 +51,6 @@ FACTION_TYPES["AELDARI"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "zad_eldar_lasblaster"
                 health = health * 2
-                Human = true
                 bot:SetRunSpeed(300)
                 bot:SetWalkSpeed(300)
             else
@@ -64,7 +60,6 @@ FACTION_TYPES["AELDARI"] = {
                 bot.FightType = "shooting"
                 bot.weapon = "zad_eldar_longrifle_bot"
                 health = health * 1.5
-                Human = true
                 bot:SetRunSpeed(350)
                 bot:SetWalkSpeed(350)
             end
@@ -76,7 +71,6 @@ FACTION_TYPES["AELDARI"] = {
             bot:SetModel("models/arlequin.mdl")
             bot.FightType = "shooting"
             health = health * 2
-            Human = true
             bot:SetNWBool("ShieldEnable", true)
             bot.weapon = "zad_eldar_cloudsweeper"
             bot:SetRunSpeed(400)
