@@ -2625,7 +2625,6 @@ ORK_HOSTILE_FACTIONS["Goblins"] = {
         end
 
         bot:StripWeapons()
-        bot. = true
         bot.ork = true
         bot:SetNWString("Status", status)
         bot:SetNWInt("MAX_HEALTH", health)
