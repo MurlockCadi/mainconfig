@@ -576,21 +576,31 @@ imperium_rp_defualt_weapons = {
 
 -- 11th Cadian Storm Guards
 CADIAN_MODELS = {
-    "models/vintagethief/11th_imperial_guard/11th_guard_grey.mdl",
-    "models/vintagethief/11th_imperial_guard/11th_penal.mdl"
+	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl"
 }
 
 CADIAN_NCOS = {
-    "models/vintagethief/11th_imperial_guard/11th_vet_sgt_grey.mdl",
-    "models/vintagethief/11th_imperial_guard/11th_vet_grey.mdl"
+	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl"
 }
 
 CADIAN_OFFICER = {
-    "models/vintagethief/11th_imperial_guard/11th_let_grey.mdl"
+	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl"
 }
 
 CADIAN_CAPTAIN = {
-    "models/vintagethief/11th_imperial_guard/11th_maj_grey.mdl"
+	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl",
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl"
 }
 
 CADIAN_WEAPONS = {
