@@ -143,7 +143,7 @@ end
 WALK_SPEED = 135
 RUN_SPEED = 240
 JUMP_POWER = 225
-MAX_HEALTH = 100
+MAX_HEALTH = 200
 SLOW_WALK_SPEED = 80
 
 function GetRunSpeed(athleticsLevel)
