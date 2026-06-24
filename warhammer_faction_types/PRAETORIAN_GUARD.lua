@@ -21,6 +21,7 @@ FACTION_TYPES["PRAETORIAN_GUARD"] = {
                 bot.FightType = "shooting"
                 bot:SetNWBool("ShieldEnable", true)
                 bot.weapon = "cat_chaos_legacy_boltpistolpowerfist"
+                Human = true
             else
                 health = health * 2
                 bot:SetNWString("Name", "Praetorian Commissar")
@@ -31,6 +32,7 @@ FACTION_TYPES["PRAETORIAN_GUARD"] = {
                 bot.FightType = "shooting"
                 bot:SetNWBool("ShieldEnable", true)
                 bot.weapon = "cat_chaos_legacy_boltpistolpowersword"
+                Human = true
             end
             bot:SetRenderMode(RENDERMODE_TRANSALPHA)
         else
@@ -44,6 +46,7 @@ FACTION_TYPES["PRAETORIAN_GUARD"] = {
                 bot.FightType = "shooting"
                 bot:SetNWBool("ShieldEnable", true)
                 bot.weapon = "cat_custom_lasgun_galaxy"
+                Human = true
             elseif GuardsmanType <= 90 then
                 bot:SetNWString("Name", "Blood Axe Ork Mercenary")
                 health = health * 10
@@ -61,6 +64,7 @@ FACTION_TYPES["PRAETORIAN_GUARD"] = {
                 bot.FightType = "shooting"
                 bot:SetNWBool("ShieldEnable", true)
                 bot.weapon = "cat_custom_lasgun_galaxy"
+                Human = true
                 bot:SetRunSpeed(350)
                 bot:SetWalkSpeed(350)
             end
