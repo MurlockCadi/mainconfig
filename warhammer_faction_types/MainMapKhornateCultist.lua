@@ -165,7 +165,6 @@ FACTION_TYPES["Khornate Cultist"] = {
                 bot.FightType = "flamer"
                 bot.weapon = "cat_chaos_legacy_flamer"
                 bot:SetNWString("Description", "A cultist who has been given a flamer!")
-                bot.Human = true
                 bot:SetNWBool("ShieldEnable", true)
             else
                 bot:SetNWString("Description", "A cultist of Khorne, ready to spill blood in the name of the Blood God.")
