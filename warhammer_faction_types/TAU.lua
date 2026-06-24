@@ -35,6 +35,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWString("Description", "An elite commander of the T'au Empire.")
             bot:SetNWBool("ShieldEnable", true)
             health = math.max(health * 10, 8000)
+			Human = true
 
         elseif roll <= 9 then
             bot:SetNWString("Name", "Elite Crisis Battle Suit")
@@ -63,6 +64,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWBool("ShieldEnable", true)
             bot:SetNWString("Description", "An elite broadside battlesuit of the T'au Empire.")
             health = math.max(health * 5, 4000)
+			Human = true
 
         elseif roll <= 23 then
             bot:SetNWString("Name", "Elite Tau Stealth Suit")
@@ -79,6 +81,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWBool("ShieldEnable", true)
             bot:SetNWString("Description", "An elite Tau stealth suit of the T'au Empire.")
             health = math.max(health * 4, 3000)
+			Human = true
 
         elseif roll <= 33 then
             bot:SetNWString("Name", "Elite Tau Fire Warrior")
@@ -98,6 +101,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWBool("ShieldEnable", true)
             bot:SetNWString("Description", "An elite Tau fire warrior of the T'au Empire.")
             health = math.max(health * 4, 2000)
+			Human = true
 
         elseif roll <= 41 then
             bot:SetNWString("Name", "Elite Kroot Carnivore")
@@ -160,6 +164,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWBool("ShieldEnable", true)
             bot:SetNWString("Description", "An elite Tau Pathfinder of the T'au Empire.")
             health = math.max(health * 3, 500)
+			Human = true
 
         end
 
@@ -182,6 +187,7 @@ FACTION_TYPES["TAU"] = {
 			bot.ShootingSkill = .5
             bot:SetNWBool("ShieldEnable", true)
             health = math.max(health * 8, 7000)
+			Human = true
 
         elseif roll <= 9 then
             bot:SetNWString("Name", "Crisis Battle Suit")
@@ -196,6 +202,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWBool("ShieldEnable", true)
             bot:SetNWString("Description", "A crisis battlesuit of the T'au Empire.")
             health = math.max(health * 5, 3500)
+			Human = true
 
         elseif roll <= 16 then
             bot:SetNWString("Name", "Broadside Battle Suit")
@@ -210,6 +217,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWBool("ShieldEnable", true)
             bot:SetNWString("Description", "A broadside battlesuit of the T'au Empire.")
             health = math.max(health * 5, 3500)
+			Human = true
 
         elseif roll <= 23 then
             bot:SetNWString("Name", "Tau Stealth Suit")
@@ -226,6 +234,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWBool("ShieldEnable", true)
             bot:SetNWString("Description", "A Tau stealth suit of the T'au Empire.")
             health = math.max(health * 4, 2500)
+			Human = true
 
         elseif roll <= 33 then
             bot:SetNWString("Name", "Tau Fire Warrior")
@@ -245,6 +254,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWBool("ShieldEnable", true)
             bot:SetNWString("Description", "A Tau fire warrior of the T'au Empire.")
             health = math.max(health * 3, 1500)
+			Human = true
 
         elseif roll <= 41 then
             bot:SetNWString("Name", "Kroot Carnivore")
@@ -307,6 +317,7 @@ FACTION_TYPES["TAU"] = {
             bot:SetNWBool("ShieldEnable", true)
             bot:SetNWString("Description", "A Tau Pathfinder of the T'au Empire.")
             health = math.max(health * 2, 400)
+			Human = true
 
         end
 	end
