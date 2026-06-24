@@ -88,7 +88,7 @@ FACTION_TYPES["CHANGE_HORDE"] = {
                 bot.FightType = "melee"
                 bot.weapon = "murlock_chaos_knife"
             end
-            Human = true
+            bot.Human = true
             bot:SetNWString("Name", "Tzeentch Cultist")
             bot:SetNWString("Description", "A cultist of Tzeentch, ready to warp reality in his name.")
         end
