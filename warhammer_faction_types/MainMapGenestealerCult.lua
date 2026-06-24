@@ -54,7 +54,7 @@ FACTION_TYPES["Genestealer Cult"] = {
                 bot:SetRenderMode(RENDERMODE_TRANSALPHA)
                 bot.FightType = "shooting"
                 bot.weapon = "murlock_weapon_pistol"
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Description", "A neophyte agent of the cult, blending in until it's too late.")
             elseif cultistType <= 90 then
                 bot:SetNWString("Name", "Hormaguant")
