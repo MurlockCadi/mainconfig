@@ -1673,6 +1673,7 @@ DivisionTypes = {
                 Create_Outposts    = true,
                 Models             = {},
                 Weapons            = {},
+				Fortifications = Global_Fortifications,
                 SpawnWeapons       = { "rope_tool", "ent_spawner", "alydus_fortificationbuildertablet", "weapon_lvsrepair", "outpost_maker" },
                 AllowedWeaponFlags = { "Rifle", "Side Arm", "Heavy Explosive", "Anti-Tank" },
                 Prefix             = "PNR",
