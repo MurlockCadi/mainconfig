@@ -117,3 +117,6 @@ CRAFTABLE_ITEMS["item_302788"] = 20000 -- power sword shield
 CRAFTABLE_ITEMS["item_864937"] = 10000 -- Frag grenade
 
 CRAFTABLE_ITEMS["item_958723"] = 5000 -- Vox Caster
+
+CRAFTABLE_ITEMS["item_847768"] = 15000 -- Ogryn Rock
+CRAFTABLE_ITEMS["item_107235"] = 15000 -- Slug Revolver
