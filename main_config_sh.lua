@@ -663,8 +663,8 @@ KARSIKIN_MODELS_OLD = {
 }
 
 KARSIKIN_MODELS = {
-    "models/astartes/scion/scion.mdl",
-    "models/astartes/scion/scion_w.mdl"
+    "models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl",
+    "models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl"
 }
 
 KARSKIN_OFFICER = {
@@ -1761,7 +1761,7 @@ DivisionTypes = {
 			{
                 Name = "Kasrkin",
                 Core = true,
-                Models = CADIAN_MODELS,
+                Models = KARSIKIN_MODELS,
 				MaxHealth = 150,
                 Weapons = {"cat_custom_hellgunstandard"},
                 SpawnWeapons = {"realistic_hook"},
