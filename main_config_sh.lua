@@ -583,30 +583,22 @@ imperium_rp_defualt_weapons = {
 -- 11th Cadian Storm Guards
 CADIAN_MODELS = {
 	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl"
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl"
 }
 
 CADIAN_NCOS = {
 	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl"
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl"
 }
 
 CADIAN_OFFICER = {
 	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl"
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl"
 }
 
 CADIAN_CAPTAIN = {
 	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl"
+	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl"
 }
 
 CADIAN_WEAPONS = {
