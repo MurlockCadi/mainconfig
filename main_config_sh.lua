@@ -2821,9 +2821,15 @@ PASSIVE_ITEM_FLAGS["Admech"] = {
 	Classification = true
 }
 
-PASSIVE_ITEM_FLAGS["Mutant"] = {
+PASSIVE_ITEM_FLAGS["Ogryn"] = {
     FunctionName = "classification",
-    Description  = "[Abhuman Only Item]",
+    Description  = "[Ogryn Only Item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Squat"] = {
+    FunctionName = "classification",
+    Description  = "[Squat Only Item]",
 	Classification = true
 }
 
