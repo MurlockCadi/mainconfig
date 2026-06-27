@@ -2809,6 +2809,24 @@ PASSIVE_ITEM_FLAGS["Psyker"] = {
 	Classification = true
 }
 
+PASSIVE_ITEM_FLAGS["Ecclesiarchy"] = {
+    FunctionName = "classification",
+    Description  = "[Ecclesiarchy Only Item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Admech"] = {
+    FunctionName = "classification",
+    Description  = "[Admech Only Item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Mutant"] = {
+    FunctionName = "classification",
+    Description  = "[Abhuman Only Item]",
+	Classification = true
+}
+
 -- Rarity Flags --
 
 PASSIVE_ITEM_FLAGS["Common"] = {
