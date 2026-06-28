@@ -7,6 +7,8 @@ FACTION_TYPES["CHEM_HORDE"] = {
         local TotalPlayers = #player.GetHumans()
         local health = GetHealthByTotalPlayers()
 
+        local spawn_elite = elite or math.random(1, 100) <= 15
+
         if spawn_elite then
             bot.Elite = true
             local eliteRoll = math.random(1, 100)
