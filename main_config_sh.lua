@@ -452,7 +452,13 @@ commands = {
 	["!pickpocket"] = function(ply) PickpocketPlayerInfrontOfMe(ply) end,
 	["/pickpocket"] = function(ply) PickpocketPlayerInfrontOfMe(ply) end,
 	["!steal"] = function(ply) PickpocketPlayerInfrontOfMe(ply) end,
-	["/steal"] = function(ply) PickpocketPlayerInfrontOfMe(ply) end
+	["/steal"] = function(ply) PickpocketPlayerInfrontOfMe(ply) end,
+	["/rprequest"] = function(ply) return handleRPRequestCommand(ply) end,
+	["!rprequest"] = function(ply) return handleRPRequestCommand(ply) end,
+	["/gmqueue"]   = function(ply) return handleGMQueueCommand(ply)   end,
+	["!gmqueue"]   = function(ply) return handleGMQueueCommand(ply)   end,
+	["/rphistory"] = function(ply) return handleRPHistoryCommand(ply) end,
+	["!rphistory"] = function(ply) return handleRPHistoryCommand(ply) end
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
