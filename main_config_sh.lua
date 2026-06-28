@@ -588,23 +588,8 @@ imperium_rp_defualt_weapons = {
 
 -- 11th Cadian Storm Guards
 CADIAN_MODELS = {
-	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl"
-}
-
-CADIAN_NCOS = {
-	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl"
-}
-
-CADIAN_OFFICER = {
-	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl"
-}
-
-CADIAN_CAPTAIN = {
-	"models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl",
-	"models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl"
+	"models\wh40k\cadian_male_1.mdl",
+	"models\wh40k\cadian_female.mdl"
 }
 
 CADIAN_WEAPONS = {
