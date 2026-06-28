@@ -588,8 +588,8 @@ imperium_rp_defualt_weapons = {
 
 -- 11th Cadian Storm Guards
 CADIAN_MODELS = {
-	"models\wh40k\cadian_male_1.mdl",
-	"models\wh40k\cadian_female.mdl"
+	"models/wh40k/cadian_male_1.mdl",
+	"models/wh40k/cadian_female.mdl"
 }
 
 CADIAN_WEAPONS = {
