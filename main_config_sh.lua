@@ -2266,10 +2266,6 @@ group_ranks = {
 CERTIFICATIONS = {
     ["Tanker"] = {
         Weapons = {"ent_spawner","weapon_lvsrepair","rope_tool"},
-        Entitys = {
-			{ name = "Leman Russ", entityname = "lvs_leman_russ",  description = "Thousands of Tracks Over the Xeno", type = "Vehicle" },
-			{ name = "Chimera", entityname = "lvs_himera",  description = "Famous Infantry Transport", type = "Vehicle" }
-        }
     },
 	["Provost"] = {
     	Weapons = {"weapon_cuff_elastic","weapon_stunstick","weapon_taser"},
