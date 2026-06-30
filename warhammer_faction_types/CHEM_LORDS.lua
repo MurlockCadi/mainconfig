@@ -178,7 +178,7 @@ FACTION_TYPES["CHEM_LORDS"] = {
                 bot:SetNWString("Description", "An Ork gunner from the KAPTAIN's crews, trading dakka for chem barrels and loot.")
                 health = math.max(health * 5, 2200)
 
-            elseif roll <= 93 then
+            else
                 bot:SetNWString("Name", "Chem Aberrant")
                 bot:SetModel("models/dizcordum/wk/dizcordum/inq/godrik_minotaur.mdl")
                 bot.FightType = "melee"
@@ -189,18 +189,6 @@ FACTION_TYPES["CHEM_LORDS"] = {
                 bot:SetNWString("Description", "A failed spook experiment, all muscle, claws, twitching eyes, and chemical fury.")
                 bot.hasGasMask = true
                 health = math.max(health * 5, 2400)
-
-            else
-                bot:SetNWString("Name", "Bomb Squig Dealer")
-                bot:SetModel("models/astartes/squig/squig.mdl")
-                bot.FightType = "melee"
-                bot.weapon = "cat_custom_meltabomb"
-                bot:SetRunSpeed(390)
-                bot:SetWalkSpeed(390)
-                bot:SetColor(Color(170, 255, 60))
-                bot:SetNWString("Description", "A squig packed with unstable chem barrels and sent sprinting by laughing Ork handlers.")
-                bot.ork = true
-                health = math.max(health * 1, 350)
             end
         else
             local roll = math.random(1, 100)
