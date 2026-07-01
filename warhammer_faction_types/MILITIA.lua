@@ -25,7 +25,7 @@ FACTION_TYPES["MILITIA"] = {
                 bot.poisonous = true
                 bot.Damage = 500
                 health = math.max(health * 8, 2000) 
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Description", "The leader of the local rebelling militia")
 
             elseif roll <= 53 then
@@ -37,7 +37,7 @@ FACTION_TYPES["MILITIA"] = {
                 bot.poisonous = true
                 bot.Damage = 300
                 health = math.max(health * 4, 600) 
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Description", "The armed musketman of the local rebelling militia")
                 
             else
@@ -47,7 +47,7 @@ FACTION_TYPES["MILITIA"] = {
                 bot.weapon = "murlock_melee"
                 bot.poisonous = true
                 health = math.max(health * 4, 800) 
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Description", "The armed soldier of the local rebelling militia")
  
             end
@@ -65,7 +65,7 @@ FACTION_TYPES["MILITIA"] = {
                 bot.poisonous = true
                 bot.Damage = 500
                 health = math.max(health * 7, 1500) 
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Description", "The leader of the local rebelling militia")
 
             elseif roll <= 53 then
@@ -77,7 +77,7 @@ FACTION_TYPES["MILITIA"] = {
                 bot.poisonous = true
                 bot.Damage = 300
                 health = math.max(health * 2, 500) 
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Description", "The armed musketman of the local rebelling militia")
                 
             else
@@ -87,7 +87,7 @@ FACTION_TYPES["MILITIA"] = {
                 bot.weapon = "murlock_melee"
                 bot.poisonous = true
                 health = math.max(health * 2, 700) 
-                Human = true
+                bot.Human = true
                 bot:SetNWString("Description", "The armed soldier of the local rebelling militia")
            
             end
