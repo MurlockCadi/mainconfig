@@ -723,7 +723,6 @@ CRUSADER_MODELS = {
 }
 -- Mercenary
 MERC_MODELS = {
-    "models/wk/civilian/wk_civilian.mdl",
     "models/muschi/orks/muschi_ork_boyzzz.mdl",
     "models/player/necrosoup/gretchin_pm/gretchin_pm.mdl",
     "models/barbossa/snotling/snotling_pm.mdl",
@@ -1538,7 +1537,7 @@ DivisionTypes = {
         Team = "imperium",
         VIP = true,
         Ranks = {
-            {ID = 1, Name = "Contracted Mercenary", Rank_Prefix = "", ModelsAllowed = {}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Contracted Mercenary", Rank_Prefix = "", ModelsAllowed = {"models/wk/civilian/wk_civilian.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
