@@ -1528,6 +1528,26 @@ DivisionTypes = {
                     }
                 },
             },
+		    {
+                Name = "Lord Commissar",
+                Core = true,
+                Models = { "models/hazo/ouch/wh40k/sm2/COMMISSAR.mdl", "models/krig_commissar.mdl", "models/knight_ig/muschi_ig_comissar.mdl", "models/wk/jackswan/scion/scion_commissar.mdl", "models/wk/comm/wk_comm.mdl", "models/wk/comm/wk_comm_cadet.mdl", "models/wk/comm/wk_comm_cadet_fm.mdl", "models/wk/comm/wk_comm_fm.mdl", "models/wk/comm/wk_comm_high.mdl" },
+                Weapons = {"cat_custom_boltpistol"},
+                ForceModels = true,
+                MaxHealth = 175,
+				CanManageTaxes = true,
+                PowerShield = true,
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                Prefix = "Major",
+                EntitySpawner = {
+                    {
+                        name = "Servo Skull",
+                        entityname = "servoskullremote",
+                        description = "Used to monitor the hive.",
+                        type = "Skull"
+                    }
+                },
+            },
 		}
     },
 	["Contracted Mercenaries"] = {
