@@ -114,7 +114,7 @@ end
 -- --------------------------------------------------
 
 WALK_SPEED = 135
-RUN_SPEED = 250
+RUN_SPEED = 350
 MAX_SPEED = 400
 JUMP_POWER = 225
 MAX_HEALTH = 500
