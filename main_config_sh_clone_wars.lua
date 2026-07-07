@@ -9,7 +9,7 @@
 -- ---------- BASE CONFIG ---------------------------
 -- --------------------------------------------------
 
-imperium_rp_font = "Bahnschrift"
+imperium_rp_font = "Segoe UI Black"
 gamemode_name = "Clone Wars RP"
 
 configTexts = {
