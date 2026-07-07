@@ -15,16 +15,56 @@ imperium_rp_font = "Bahnschrift"
 gamemode_name = "Clone Wars RP"
 
 configTexts = {
-    "In A Galaxy Far, Far Away.",
-    "Welcome to the Imperium!",
-    "May the Force be with you!",
-    "Live long and prosper!",
-    "Resistance is futile!",
-    "Do or do not, there is no try!",
-    "I am your father!",
-    "May the odds be ever in your favor!",
-    "The needs of the many outweigh the needs of the few.",
-    "All power to the people!",
+    -- Episode I: The Phantom Menace
+    "The ability to speak does not make you intelligent.",
+    "There’s always a bigger fish.",
+    "Fear is the path to the dark side.",
+    "Fear leads to anger. Anger leads to hate. Hate leads to suffering.",
+    "Your focus determines your reality.",
+    "I will make it legal.",
+    "Always two there are. No more. No less. A master and an apprentice.",
+    "At last we will reveal ourselves to the Jedi. At last we will have revenge.",
+
+    -- Episode II: Attack of the Clones
+    "I don’t want to sell you death sticks.",
+    "I want to go home and rethink my life.",
+    "Truly wonderful the mind of a child is.",
+    "I don’t like sand. It’s coarse and rough and irritating, and it gets everywhere.",
+    "I’m just a simple man trying to make my way in the universe.",
+    "I love democracy. I love the Republic.",
+    "It’s all Obi-Wan’s fault! He’s jealous! He’s holding me back!",
+    "Compassion, which I would define as unconditional love, is central to a Jedi’s life.",
+
+    -- Episode III: Revenge of the Sith
+    "This is where the fun begins.",
+    "Chancellor Palpatine, Sith Lords are our specialty.",
+    "I’ve been looking forward to this.",
+    "Do it.",
+    "Your lightsabers will make a fine addition to my collection.",
+    "Another happy landing.",
+    "Train yourself to let go of everything you fear to lose.",
+    "You are on this council, but we do not grant you the rank of Master.",
+    "Did you ever hear the tragedy of Darth Plagueis the Wise?",
+    "The dark side of the Force is a pathway to many abilities some consider to be unnatural.",
+    "Hello there.",
+    "General Kenobi! You are a bold one.",
+    "So uncivilized.",
+    "So this is how liberty dies. With thunderous applause.",
+    "It’s over, Anakin. I have the high ground.",
+    "You were my brother, Anakin. I loved you.",
+
+    -- The Clone Wars
+    "That’s your plan? Just fly there, land, hope they don’t spot us, and walk in the door?",
+    "Today we fight for more than the Republic. Today we fight for all our brothers back home.",
+    "To answer power with power, the Jedi way this is not.",
+    "In this war, a danger there is, of losing who we are.",
+    "I would kill you both right now if I did not have to drag your bodies.",
+    "A great leap forward often requires first taking two steps back.",
+    "You don’t have to look tough to be tough.",
+    "If there’s one thing I’ve learned from you, master, it’s that following direct orders isn’t always the best way.",
+    "You cannot imagine the depths I would go to to stay alive, fueled by my singular hatred for you.",
+    "It takes strength to resist the dark side. Only the weak embrace it.",
+    "There can only be two. And you are no longer my apprentice.",
 }
 
 mapMessage_defualt = "Somewhere in a Galaxy Far, Far Away..."
