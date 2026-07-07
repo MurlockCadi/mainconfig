@@ -11,7 +11,7 @@
 
 --Bahnschrift
 
-imperium_rp_font = "Bahnschrift"
+imperium_rp_font = "starurmel"
 gamemode_name = "Clone Wars RP"
 
 configTexts = {
