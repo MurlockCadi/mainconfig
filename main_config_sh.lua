@@ -653,7 +653,8 @@ KARSIKIN_MODELS_OLD = {
 
 KARSIKIN_MODELS = {
     "models/vintagethief/11th_imperial_guard/11th_kasrkin.mdl",
-    "models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl"
+    "models/vintagethief/11th_imperial_guard/11th_kasrkin_sgt.mdl",
+	"models/wh40k/cadian_kask_1.mdl"
 }
 
 KARSKIN_OFFICER = {
