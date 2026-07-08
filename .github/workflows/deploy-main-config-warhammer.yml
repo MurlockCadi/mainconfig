@@ -10,16 +10,17 @@ on:
 permissions:
   contents: read
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+env:
+  FTP_SERVER: "sftp://chi-s-game-2.physgun.com:2022"
+  FTP_USER: "987crazymuffin@gmail.com.fcd13098"
+  REMOTE_PATH: "/garrysmod/gamemodes/warhammer40k/gamemode/"
+  FILE_TO_UPLOAD: "main_config_sh.lua"
+  TEMP_FILE: "temp_main_config_sh.lua"
 
-    env:
-      FTP_SERVER: "sftp://chi-s-game-2.physgun.com:2022"
-      FTP_USER: "987crazymuffin@gmail.com.fcd13098"
-      REMOTE_PATH: "/garrysmod/gamemodes/warhammer40k/gamemode/"
-      FILE_TO_UPLOAD: "main_config_sh.lua"
-      TEMP_FILE: "temp_main_config_sh.lua"
+jobs:
+  lua-check:
+    name: Lua syntax check
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -32,15 +33,27 @@ jobs:
             exit 1
           fi
 
-      - name: Install Lua syntax checker
+      - name: Install Lua
         run: |
           sudo apt-get update
           sudo apt-get install -y lua5.1
 
-      - name: Check Lua syntax
+      - name: Run Lua syntax check
         run: |
           echo "Checking Lua syntax for $FILE_TO_UPLOAD..."
           luac5.1 -p "$FILE_TO_UPLOAD"
+
+  compare-server-file:
+    name: Compare with server file
+    runs-on: ubuntu-latest
+    needs: lua-check
+
+    outputs:
+      should_upload: ${{ steps.compare.outputs.should_upload }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Download existing server file
         run: |
@@ -50,14 +63,31 @@ jobs:
             --output "$TEMP_FILE" \
             "$FTP_SERVER$REMOTE_PATH$FILE_TO_UPLOAD"
 
-      - name: Compare and upload if changed
+      - name: Compare files
+        id: compare
         run: |
           if cmp -s "$FILE_TO_UPLOAD" "$TEMP_FILE"; then
-            echo "The file on the server is already the same. Skipping upload."
-            exit 0
+            echo "The file on the server is already the same. Upload not needed."
+            echo "should_upload=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "File differs. Upload needed."
+            echo "should_upload=true" >> "$GITHUB_OUTPUT"
           fi
 
-          echo "File differs. Uploading $FILE_TO_UPLOAD to server..."
+  upload-to-server:
+    name: Upload to Warhammer server
+    runs-on: ubuntu-latest
+    needs: compare-server-file
+
+    if: needs.compare-server-file.outputs.should_upload == 'true'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Upload file
+        run: |
+          echo "Uploading $FILE_TO_UPLOAD to Warhammer server..."
 
           curl --insecure \
             --fail \
