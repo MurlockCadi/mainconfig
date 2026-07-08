@@ -742,7 +742,6 @@ MERC_MODELS = {
 
 -- Commissariat
 COMMISSAR_MODELS = {
-	"models/hazo/ouch/wh40k/sm2/COMMISSAR.mdl",
     "models/krig_commissar.mdl",
     "models/knight_ig/muschi_ig_comissar.mdl",
     "models/wk/jackswan/scion/scion_commissar.mdl",
