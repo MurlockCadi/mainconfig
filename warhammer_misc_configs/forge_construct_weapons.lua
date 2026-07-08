@@ -121,3 +121,6 @@ CRAFTABLE_ITEMS["item_958723"] = 5000 -- Vox Caster
 CRAFTABLE_ITEMS["item_847768"] = 15000 -- Ogryn Rock
 CRAFTABLE_ITEMS["item_107235"] = 15000 -- Slug Revolver
 CRAFTABLE_ITEMS["item_341334"] = 1000 -- TFA LASGUNS
+
+CRAFTABLE_ITEMS["item_543569"] = 30000 -- Stormbolter
+CRAFTABLE_ITEMS["item_929749"] = 25000 -- Thunder Hammer & Shield
