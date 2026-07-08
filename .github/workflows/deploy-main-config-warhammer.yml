@@ -1,0 +1,68 @@
+name: Deploy main_config_sh.lua to Warhammer
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "main_config_sh.lua"
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      FTP_SERVER: "sftp://chi-s-game-2.physgun.com:2022"
+      FTP_USER: "987crazymuffin@gmail.com.fcd13098"
+      REMOTE_PATH: "/garrysmod/gamemodes/warhammer40k/gamemode/"
+      FILE_TO_UPLOAD: "main_config_sh.lua"
+      TEMP_FILE: "temp_main_config_sh.lua"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check file exists
+        run: |
+          if [ ! -f "$FILE_TO_UPLOAD" ]; then
+            echo "File $FILE_TO_UPLOAD not found."
+            exit 1
+          fi
+
+      - name: Install Lua syntax checker
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua5.1
+
+      - name: Check Lua syntax
+        run: |
+          echo "Checking Lua syntax for $FILE_TO_UPLOAD..."
+          luac5.1 -p "$FILE_TO_UPLOAD"
+
+      - name: Download existing server file
+        run: |
+          curl --insecure \
+            --fail \
+            --user "$FTP_USER:${{ secrets.IMPERIUMRP_PASSWORD }}" \
+            --output "$TEMP_FILE" \
+            "$FTP_SERVER$REMOTE_PATH$FILE_TO_UPLOAD"
+
+      - name: Compare and upload if changed
+        run: |
+          if cmp -s "$FILE_TO_UPLOAD" "$TEMP_FILE"; then
+            echo "The file on the server is already the same. Skipping upload."
+            exit 0
+          fi
+
+          echo "File differs. Uploading $FILE_TO_UPLOAD to server..."
+
+          curl --insecure \
+            --fail \
+            --user "$FTP_USER:${{ secrets.IMPERIUMRP_PASSWORD }}" \
+            --upload-file "$FILE_TO_UPLOAD" \
+            "$FTP_SERVER$REMOTE_PATH$FILE_TO_UPLOAD"
+
+          echo "Upload complete."
