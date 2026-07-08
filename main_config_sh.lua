@@ -1539,7 +1539,7 @@ DivisionTypes = {
 				CanManageTaxes = true,
                 PowerShield = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
-                Prefix = "Major",
+                Prefix = "",
                 EntitySpawner = {
                     {
                         name = "Servo Skull",
