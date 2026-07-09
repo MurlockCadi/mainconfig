@@ -1452,6 +1452,7 @@ DivisionTypes = {
                 Name = "Lord General",
                 Default = true,
 				Core = true,
+				ForceModels = true,
                 Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
                 MaxHealth = 200,
