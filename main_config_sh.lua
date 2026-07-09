@@ -686,7 +686,8 @@ SQUAT_MODELS = {
     "models/knight_ig/muschi_ig_squat.mdl",
     "models/muschi/knight_ig/muschi_ig_squat.mdl",
     "models/muschi/knight_ig/muschi_ig_squat_kalt.mdl",
-    "models/knight_ig/muschi_ig_squat_kalt.mdl"
+    "models/knight_ig/muschi_ig_squat_kalt.mdl",
+	"models/barbossa/dwarf_ranger/dwf_ranger_pm.mdl"
 }
 
 SQUAT_WEAPONS = {
