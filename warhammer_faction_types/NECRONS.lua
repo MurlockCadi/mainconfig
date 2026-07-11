@@ -1,4 +1,4 @@
-    FACTION_TYPES["NECRONS"] = {
+FACTION_TYPES["NECRONS"] = {
     STAGE = "DEATH TO THE LIVING",
     DeathsByType = {},
     OffWorld = true,
