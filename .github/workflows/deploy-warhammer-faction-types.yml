@@ -19,7 +19,7 @@ concurrency:
 
 env:
   FTP_SERVER: "sftp://chi-s-game-2.physgun.com:2022"
-  FTP_USER: "matty.cooke@hotmail.com.fcd13098"
+  FTP_USER: "987crazymuffin@gmail.com.fcd13098"
   SOURCE_DIR: "warhammer_faction_types"
   REMOTE_PATH: "/garrysmod/addons/murlock_bot_types/lua/autorun/server/"
   OUTPUT_FILE: "murlock_bot_types.lua"
