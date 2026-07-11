@@ -34,6 +34,7 @@
                 bot.FightType = "shooting"
 				bot.pysker = true
                 bot:SetNWString("Description", "A twisted Necron Cryptek wielding ancient eldritch technology.")
+				bot.MarchingAI = false
                 bot:SetNWBool("ShieldEnable", true)
                 baseHealth = math.max(baseHealth * 3, 350)
             elseif elite_roll <= 60 then
@@ -50,6 +51,7 @@
                 bot.weapon = "murlock_gauss_cannon"
                 bot.FightType = "shooting"
                 bot:SetNWString("Description", "A floating harbinger of annihilation.")
+				bot.MarchingAI = false
                 baseHealth = math.max(baseHealth * 10, 750)
             end
         else
@@ -60,6 +62,7 @@
                 bot:SetModel("models/wk/necrons/base/wk_necronwarrior.mdl")
                 bot.weapon = "murlock_gauss"
                 bot.FightType = "shooting"
+				bot.MarchingAI = true
                 bot:SetNWString("Description", "A basic yet deadly Necron foot soldier.")
                 baseHealth = baseHealth * 2
             elseif normal_roll <= 90 then
@@ -68,6 +71,7 @@
                 bot.weapon = "murlock_melee"
                 bot.FightType = "melee"
                 bot:SetNWString("Description", "Terrifying melee unit covered in flayed skin.")
+				bot.MarchingAI = false
                 baseHealth = baseHealth * 3
             else
                 bot:SetNWString("Name", "Necron Immortal")
@@ -75,6 +79,7 @@
                 bot.FightType = "shooting"
                 bot.weapon = "murlock_gauss_cannon"
                 bot:SetNWString("Description", "Elite ranged unit with deadly firepower.")
+				bot.MarchingAI = true
                 baseHealth = baseHealth * 4
             end
         end
@@ -93,7 +98,6 @@
         bot.IsMechanical = true
         bot.hasGasMask = true
 		bot.ChaosDwarf = true
-		bot.MarchingAI = true
         bot:SetNWString("MAX_HEALTH", baseHealth)
         bot:SetMaxHealth(baseHealth)
         bot:SetHealth(baseHealth)
