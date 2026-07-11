@@ -92,6 +92,8 @@
         bot.GoneMad = true
         bot.IsMechanical = true
         bot.hasGasMask = true
+		bot.ChaosDwarf = true
+		bot.MarchingAI = true
         bot:SetNWString("MAX_HEALTH", baseHealth)
         bot:SetMaxHealth(baseHealth)
         bot:SetHealth(baseHealth)
