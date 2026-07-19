@@ -1,0 +1,116 @@
+name: Deploy main_config_sh.lua to CloneWars
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "main_config_sh_clone_wars.lua"
+      - ".github/workflows/deploy-clonewars.yml"
+
+permissions:
+  contents: read
+
+env:
+  FTP_SERVER: "sftp://chi-s-game-4.physgun.com:2022"
+  FTP_USER: "987crazymuffin@gmail.com.866d5d36"
+  REMOTE_PATH: "/garrysmod/gamemodes/starwarsrp/gamemode/"
+  FILE_TO_UPLOAD: "main_config_sh_clone_wars.lua"
+  TEMP_FILE: "temp_main_config_sh.lua"
+  SERVER_FILE: "main_config_sh.lua"
+
+jobs:
+  lua-check:
+    name: Lua syntax check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Check file exists
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "$FILE_TO_UPLOAD" ]; then
+            echo "File $FILE_TO_UPLOAD not found."
+            exit 1
+          fi
+
+      - name: Install Lua
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua5.1
+
+      - name: Run Lua syntax check
+        run: |
+          set -euo pipefail
+
+          echo "Checking Lua syntax for $FILE_TO_UPLOAD..."
+          luac5.1 -p "$FILE_TO_UPLOAD"
+
+  compare-server-file:
+    name: Compare with CloneWars server file
+    runs-on: ubuntu-latest
+    needs: lua-check
+
+    outputs:
+      should_upload: ${{ steps.compare.outputs.should_upload }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Download existing server file
+        run: |
+          set -euo pipefail
+
+          curl \
+            --insecure \
+            --fail \
+            --show-error \
+            --silent \
+            --user "$FTP_USER:${{ secrets.IMPERIUMRP_PASSWORD }}" \
+            --output "$TEMP_FILE" \
+            "$FTP_SERVER$REMOTE_PATH$SERVER_FILE"
+
+      - name: Compare files
+        id: compare
+        run: |
+          set -euo pipefail
+
+          if cmp -s "$FILE_TO_UPLOAD" "$TEMP_FILE"; then
+            echo "The file on the server is already identical. Upload not needed."
+            echo "should_upload=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "The server file differs. Upload needed."
+            echo "should_upload=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  upload-to-server:
+    name: Upload to CloneWars server
+    runs-on: ubuntu-latest
+    needs: compare-server-file
+
+    if: needs.compare-server-file.outputs.should_upload == 'true'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Upload file
+        run: |
+          set -euo pipefail
+
+          echo "Uploading $FILE_TO_UPLOAD as $SERVER_FILE to the CloneWars server..."
+
+          curl \
+            --insecure \
+            --fail \
+            --show-error \
+            --silent \
+            --user "$FTP_USER:${{ secrets.IMPERIUMRP_PASSWORD }}" \
+            --upload-file "$FILE_TO_UPLOAD" \
+            "$FTP_SERVER$REMOTE_PATH$SERVER_FILE"
+
+          echo "Upload complete."
