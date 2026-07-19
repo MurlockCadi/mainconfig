@@ -190,10 +190,7 @@ IS_SERVER_MANAGED = false
 helpTopics = {
     ["Intro"] = [[
 Welcome to Imperium Gaming's Clone Wars RP Server! Click on a tab on the left to learn more about a specific system.
-]],
-    --[[ ["Character Creation"] = [[
-    Welcome to the Character Creation system! Here you can create and customize your character.
-    ]]
+]]
 }
 
 -- --------------------------------------------------
