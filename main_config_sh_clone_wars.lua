@@ -1400,8 +1400,12 @@ PASSIVE_ITEM_FLAGS["Convert Fury to Resolve"] = {
     Color        = Color(255, 170, 80)
 }
 
--- Convert 100 Stoicism into 50 Resolve.
-
+-- Jetpack
+PASSIVE_ITEM_FLAGS["Jetpack"] = {
+    FunctionName = "Jetpack",
+    Description  = "Enables the use of a Jetpack / Jumpack",
+    Color        = Color(80, 180, 255)
+}
 
 -- --------------------------------------------------
 -- ---------- PASSIVE ITEM FLAGS: MISC EFFECTS ------
