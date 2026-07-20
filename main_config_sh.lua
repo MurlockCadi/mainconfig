@@ -2620,7 +2620,7 @@ PASSIVE_ITEM_FLAGS["Resolve"] = {
 -- Gain Fury from dealing damage.
 PASSIVE_ITEM_FLAGS["Fury"] = {
     FunctionName = "Fury",
-    Description  = "Enables Fury: Gain 1 Fury per 100 damage dealt.",
+    Description  = "Enables Fury: Gain 10 Fury per 100 damage dealt.",
     Color        = Color(255, 80, 80)
 }
 
