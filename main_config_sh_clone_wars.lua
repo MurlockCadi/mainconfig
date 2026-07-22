@@ -101,6 +101,23 @@ intro_songs = {
     "https://www.imperiumgaming.net/starwars/John%20Williams%20Battle%20of%20the%20Heroes%20Audio.mp3",
 }
 
+VEHICLE_LIMITS = {
+    { players = 40, maxVehicles = 3 },
+    { players = 30, maxVehicles = 4 },
+    { players = 20, maxVehicles = 5 },
+    { players = 10, maxVehicles = 6 },
+    { players = 5,  maxVehicles = 7 },
+    { players = 0,  maxVehicles = 8 },
+}
+
+RESPAWN_TIMERS_IMPERIUMRP = {
+    ["Small Vehicle"]         = 300,
+	["Heavy Emplacement"]     = 180,
+    ["Light Vehicle"]         = 600,
+    ["Heavy Vehicle"]         = 900,
+}
+
+
 -- --------------------------------------------------
 -- ---------- PROXIMITY CHAT ------------------------
 -- --------------------------------------------------
