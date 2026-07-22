@@ -499,352 +499,729 @@ imperium_rp_defualt_weapons = {
 -- ---------- MODELS AND WEAPONS --------------------
 -- --------------------------------------------------
 
-RCT_MODELS = {}
-CT_MODELS = {}
-NCO_CT = {}
-OFFICER_CT = {}
+-- 442ND Models
 
+RCT_442ND = {
+    "models/cadet_green/pm_training_cadet_domino.mdl",
+}
+MODELS_442ND = {
+    "models/aussiwozzi/cgi/base/442nd_trooper.mdl",
+}
+NCO_442ND = {
+    "models/aussiwozzi/cgi/base/442nd_trooper.mdl",
+}
+OFFICER_442ND = {
+    "models/aussiwozzi/cgi/base/442nd_officer.mdl",
+    "models/aussiwozzi/cgi/base/442nd_medic_officer.mdl",
+    "models/aussiwozzi/cgi/base/442nd_tyger_officer.mdl",
+    "models/aussiwozzi/cgi/base/442nd_commander.mdl",
+
+    "models/jajoff/sps/republic/tc13j/army_01.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+}
+-- 501ST Models
+
+RCT_501ST = {
+    "models/cadet_blue/pm_training_cadet_alpha.mdl",
+}
+MODELS_501ST = {
+    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
+}
+NCO_501ST = {
+    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
+}
+OFFICER_501ST = {
+    "models/aussiwozzi/cgi/base/501st_officer.mdl",
+    "models/aussiwozzi/cgi/base/501st_medic_officer.mdl",
+    "models/aussiwozzi/cgi/base/501st_torrent_officer.mdl",
+    "models/aussiwozzi/cgi/base/501st_vaughn.mdl",
+
+    "models/jajoff/sps/republic/tc13j/army_01.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+}
+-- 212TH Models
+
+RCT_212TH = {
+    "models/cadet_orange/pm_training_cadet_zeta.mdl",
+}
+MODELS_212TH = {
+    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
+    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+}
+NCO_212TH = {
+    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
+    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+}
+OFFICER_212TH = {
+    "models/aussiwozzi/cgi/base/212th_officer.mdl",
+    "models/aussiwozzi/cgi/base/212th_ghost_officer.mdl",
+    "models/aussiwozzi/cgi/base/2ndac_officer.mdl",
+    "models/aussiwozzi/cgi/base/212th_medic_officer.mdl",
+    "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl",
+    "models/aussiwozzi/cgi/base/212th_boil.mdl",
+
+    "models/jajoff/sps/republic/tc13j/army_01.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+}
+-- NAVY MODELS
+
+NAVY_MODELS = {
+    "models/jajoff/sps/republic/tc13j/navy_03.mdl",
+    "models/jajoff/sps/republic/tc13j/navy03_female.mdl",
+}
+NAVY_OFFICER = {
+    "models/jajoff/sps/republic/tc13j/navy_01.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_02.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/navy01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
+}
 -- --------------------------------------------------
 -- ---------- DIVISION TYPES ------------------------
 -- --------------------------------------------------
 
 DivisionTypes = {
-        ["Shinies"] = {
-        NiceName = "Clone Recruits",
-        Description = "Straight from Kamino and ready to fight for The Republic.",
-        Team = "Republic",
-        Default = true,
-        DefaultItems = {},
+
+    ["442nd"] = {
+        NiceName = "442nd Battalion",
+        Description = "The 442nd Battalion specializes in reconnaissance, operating ahead of the main force.",
+        Team = "Republic", 
+        Default_items = {},
         Ranks = {
-            {ID = 1, Name = "Recruit", Rank_Prefix = "RCT", ModelsAllowed = RCT_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-            {ID = 2, Name = "Trooper", Rank_Prefix = "CT", ModelsAllowed = CT_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-            {ID = 3, Name = "Corporal", Rank_Prefix = "CPL", ModelsAllowed = CT_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-            {ID = 4, Name = "Sergeant", Rank_Prefix = "SGT", ModelsAllowed = NCO_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 5, Name = "Sergeant Major", Rank_Prefix = "SMJR", ModelsAllowed = NCO_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 6, Name = "Second Lieutenant", Rank_Prefix = "2LT", ModelsAllowed = OFFICER_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 7, Name = "Lieutenant", Rank_Prefix = "LT", ModelsAllowed = OFFICER_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 8, Name = "Captain", Rank_Prefix = "CPT", ModelsAllowed = OFFICER_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 9, Name = "Major", Rank_Prefix = "MJR", ModelsAllowed = OFFICER_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 10, Name = "Battalion Commander", Rank_Prefix = "BCMDR", ModelsAllowed = OFFICER_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 11, Name = "Regimental Commander", Rank_Prefix = "RCMDR", ModelsAllowed = OFFICER_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 12, Name = "Senior Commander", Rank_Prefix = "SCMDR", ModelsAllowed = OFFICER_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 13, Name = "Clone Marshal Commander", Rank_Prefix = "CMCMDR", ModelsAllowed = OFFICER_CT, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_442ND,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            -- Enlisted
+            {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = MODELS_442ND,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = MODELS_442ND,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = MODELS_442ND,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            -- NCO
+            {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_442ND,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_442ND,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_442ND,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_442ND,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_442ND,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            -- Officers
+            {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_442ND, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_442ND, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            -- Commanders
+            {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_442ND, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_442ND, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_442ND, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_442ND, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+            {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_442ND, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+        },
+        Classes = {
+
+                --[[    
+                If you want to add vehicles to a class, you can do so by adding them to the vehicles table specifically like this. I might need to set up the car spawner to work with this, but for now, you can add vehicles to a class like this. 
+                        Example:
+                        vehicles = {
+                            {
+                                name = "",
+                                entityname = "",
+                                description = "",
+                                type = ""
+                            },
+                        },
+                ]]
+
+            {
+                Name = "Recruit",
+                Default = true,
+                Core = true,
+                Models = {
+                    "models/cadet_green/pm_training_cadet_domino.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "RCT",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Trooper",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/442nd_trooper.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "TRP",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Tanker",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/442nd_trooper.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "TNK",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Recon",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/442nd_arf.mdl",
+                    "models/aussiwozzi/cgi/base/442nd_trooper.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "REC",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Heavy Weapon",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/442nd_trooper.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "HW",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Medic",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/442nd_medic.mdl",
+                    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "MD",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Engineer",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/442nd_tyger.mdl",
+                    "models/jajoff/sps/republic/tc13j/engineer.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "ENG",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "ARC Trooper",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/442nd_arc.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "ARC",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+        }
+    },
+
+    ["501st"] = {
+        NiceName = "501st Battalion",
+        Description = "The 501st Battalion is a frontline unit that thrives in fast-paced infantry assaults and tanker operations.",
+        Team = "Republic",
+        Default_items = {},
+        Ranks = {
+                {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                -- Enlisted
+                {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = MODELS_501ST,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = MODELS_501ST,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = MODELS_501ST,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                -- NCO
+                {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                -- Officers
+                {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                -- Commanders
+                {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+                {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+            },
+        Classes = {
+            {
+                Name = "Recruit",
+                Default = true,
+                Core = true,
+                Models = {
+                    "models/cadet_blue/pm_training_cadet_alpha.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "RCT",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Trooper",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "TRP",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Recon",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/501st_arf.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "REC",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Heavy Weapon",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/501st_torrent.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "HW",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Medic",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/501st_medic.mdl",
+                    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "MED",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Engineer",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
+                    "models/jajoff/sps/republic/tc13j/engineer.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "ENG",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "ARC Trooper",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/501st_arc.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "ARC",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+        }
+    },
+    ["212th"] = {
+        NiceName = "212th Battalion",
+        Description = "The 212th Battalion specializes in heavy assaults, armored warfare, and airborne operations.",
+        Team = "Republic",
+        Default_items = {},
+        Ranks = {
+            {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            -- Enlisted
+            {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = MODELS_212TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = MODELS_212TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = MODELS_212TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            -- NCO
+            {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            -- Officers
+            {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            -- Commanders
+            {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+            {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
         },
         Classes = {
             {
                 Name = "Recruit",
                 Default = true,
                 Core = true,
-                Models = {},
+                Models = {
+                    "models/cadet_orange/pm_training_cadet_zeta.mdl",
+                },
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
+                Prefix = "RCT",
+                EntitySpawner = {},
+                vehicles = {},
             },
 
             {
-
                 Name = "Trooper",
                 Core = true,
-                Models = {},
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
+                    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+                },
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "TRP",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
+                EntitySpawner = {},
+                vehicles = {},
             },
 
             {
-
-                Name = "Demolitions Specialist",
+                Name = "Recon",
                 Core = true,
-                Models = {},
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_arf.mdl",
+                    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
+                    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+                },
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "Demo",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
+                Prefix = "REC",
+                EntitySpawner = {},
+                vehicles = {},
             },
 
             {
-                Name = "Officer",
+                Name = "Heavy Weapon",
                 Core = true,
-                Models = {},
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_boil.mdl",
+                    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+                },
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "OFF",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
-            },
-
-            {
-                Name = "Weapon Specialist",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "WS",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
-
+                Prefix = "HW",
+                EntitySpawner = {},
+                vehicles = {},
             },
 
             {
                 Name = "Medic",
                 Core = true,
-                Models = {},
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_medic.mdl",
+                    "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl",
+                    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+                },
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "MED",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
+                EntitySpawner = {},
+                vehicles = {},
             },
 
             {
                 Name = "Engineer",
                 Core = true,
-                Models = {},
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_ghost_company.mdl",
+                    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+                    "models/jajoff/sps/republic/tc13j/engineer.mdl",
+                },
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "ENG",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
-
+                EntitySpawner = {},
+                vehicles = {},
             },
 
             {
-                Name = "Pioneer",
+                Name = "ARC Trooper",
                 Core = true,
-                Models = {},
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_arc.mdl",
+                },
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "PN",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
-
+                Prefix = "ARC",
+                EntitySpawner = {},
+                vehicles = {},
             },
 
             {
-                Name = "Arc Trooper",
+                Name = "Airborne",
                 Core = true,
-                Models = {},
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_boil.mdl",
+                },
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "ARC-TPR",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
-
+                Prefix = "AB",
+                EntitySpawner = {},
+                vehicles = {},
             },
 
             {
-                Name = "Arc Medic",
+                Name = "Pilot",
                 Core = true,
-                Models = {},
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_pilot.mdl",
+                },
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "ARC-MD",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
-
+                Prefix = "PLT",
+                EntitySpawner = {},
+                vehicles = {},
             },
-
-            {
-                Name = "Arc Heavy Specialist",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "ARC-HVY",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
-
-            },
-
-            {
-                Name = "Arc Pioneer",
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "ARC-PN",
-                EntitySpawner = {
-                          {
-                          name = "",
-                          entityname = "",
-                          description = "",
-                          type = ""
-                        },
-                    },
-                vehicles = {
-                    {
-                        name = "",
-                        entityname = "",
-                        description = "",
-                        type = ""
-                    },
-                },
-
-            }
-        },
+        }
     },
+    ["Navy"] = {
+        NiceName = "Navy",
+        Description = "The Navy is a unit of the Grand Army of the Republic, known for their bravery and skill in battle.",
+        Team = "Republic",
+        Default_items = {},
+        Ranks = {
+            {ID = 1,  Name = "Crewman Recruit",           Rank_Prefix = "CR",     ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            -- Enlisted
+            {ID = 2,  Name = "Crewman Apprentice",        Rank_Prefix = "CA",     ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 3,  Name = "Crewman",                   Rank_Prefix = "CM",     ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 4,  Name = "Petty Officer 3rd Class",   Rank_Prefix = "PO3",    ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            -- NCO
+            {ID = 5,  Name = "Petty Officer 2nd Class",   Rank_Prefix = "PO2",    ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 6,  Name = "Petty Officer 1st Class",   Rank_Prefix = "PO1",    ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 7,  Name = "Chief Petty Officer",       Rank_Prefix = "CPO",    ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 8,  Name = "Senior Chief Petty Officer",Rank_Prefix = "SCPO",   ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            -- Officers
+            {ID = 9,  Name = "Ensign",                    Rank_Prefix = "ENS",    ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 10, Name = "Sub-Lieutenant",            Rank_Prefix = "SLT",    ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 11, Name = "Lieutenant",                Rank_Prefix = "LT",     ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            -- Command
+            {ID = 12, Name = "Lieutenant Commander",      Rank_Prefix = "LTCDR",  ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 13, Name = "Commander",                 Rank_Prefix = "CDR",    ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 14, Name = "Captain",                   Rank_Prefix = "CAPT",   ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+            {ID = 15, Name = "Commodore",                 Rank_Prefix = "COMM",   ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+        },
+        Classes = {
+            {
+                Name = "Crewman",
+                Default = true,
+                Core = true,
+                Models = {
+                    "models/jajoff/sps/republic/tc13j/navy_03.mdl",
+                    "models/jajoff/sps/republic/tc13j/navy03_female.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "CM",
+                EntitySpawner = {},
+                vehicles = {},
+            },
 
+            {
+                Name = "Gunner",
+                Core = true,
+                Models = {
+                    "models/jajoff/sps/republic/tc13j/navy_04.mdl",
+                    "models/jajoff/sps/republic/tc13j/navy04_female.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "GNR",
+                EntitySpawner = {},
+                vehicles = {},
+            },
 
+            {
+                Name = "Military Police",
+                Core = true,
+                Models = {
+                    "models/jajoff/sps/republic/tc13j/rsb02.mdl",
+                    "models/jajoff/sps/republic/tc13j/rsb02_female.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "MP",
+                EntitySpawner = {},
+                vehicles = {},
+            },
 
+            {
+                Name = "Doctor",
+                Core = true,
+                Models = {
+                    "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
+                    "models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "DOC",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Engineer",
+                Core = true,
+                Models = {
+                    "models/jajoff/sps/republic/tc13j/navy_02.mdl",
+                    "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "ENG",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Pilot",
+                Core = true,
+                Models = {
+                    "models/jajoff/sps/republic/tc13j/navy_01.mdl",
+                    "models/jajoff/sps/republic/tc13j/navy01_female.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "PLT",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+        }
+    },
+    ["VIP"] = {
+        NiceName = "VIP",
+        Description = "Special personnel and support assets assigned to the Grand Army of the Republic.",
+        Team = "Republic",
+        VIP = true,
+        Default_items = {},
+
+        Classes = {
+            {
+                Name = "Auxiliary",
+                Default = true,
+                Core = true,
+                Models = {
+                    "models/ace/sw/r2.mdl"
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "AUX",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            --[[ models not yet discused so putting this in a multi line comment until that's sorted
+                {
+                Name = "Mercenary",
+                Core = true,
+                Models = {
+
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "MERC",
+                EntitySpawner = {},
+                vehicles = {},
+            },]]
+
+            {
+                Name = "Astromech",
+                Core = true,
+                Models = {
+                    "models/ace/sw/r2.mdl",
+                    "models/ace/sw/r4.mdl",
+                    "models/ace/sw/r5.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "ASTRO",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Republic Captured Droid",
+                Core = true,
+                Models = {
+                    "models/bx_training/pm_droid_cis_bx_training.mdl",
+                    "models/aussiwozzi/cgi/b1droids/b1_battledroid_training_pm.mdl",
+                    "models/aussiwozzi/cgi/b1droids/b2_battledroid_training_pm.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "RCD",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            --[[ jedi as i was told is not for launch so i also put this in a comment for later use
+            {
+                Name = "Jedi",
+                Core = true,
+                Models = {
+
+                },
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = "JEDI",
+                EntitySpawner = {},
+                vehicles = {},
+            },]]
+        }
+    },
 }
 
 -- --------------------------------------------------
@@ -883,19 +1260,66 @@ ROLES = ROLES or {
         staff = true
     },
 
-    DIVISION_RECRUIT = {
-        NiceName = "Recruit",
-        Prefix = "RCT",
-        Color = Color(125, 58, 0),
-        Description = "You've come just from Kamino. Ready to fight for the Republic.",
+        DIVISION_501STRECRUIT = {
+        NiceName = "501st Recruit",
+        Prefix = "501st RCT",
+        Color = Color(17, 0, 167),
+        Description = "You've come just from Kamino. Ready to fight for the 501st!",
         Default = true,
         DefaultItems = {"item_437413"},
         Ranks = {
-            {ID = 1, Name = "Wastelander", Rank_Prefix = "", ModelsAllowed = {"models/player/breen.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/cadet_blue/pm_training_cadet_alpha.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
-                Name = "Wastelander",
+                Name = "501st RCT",
+                Default = true,
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+        },
+        Team = "wastelanders"
+    },
+
+        DIVISION_442NDRECRUIT = {
+        NiceName = "442nd Recruit",
+        Prefix = "442nd RCT",
+        Color = Color(0, 87, 33),
+        Description = "You've come just from Kamino. Ready to fight for the 442nd!",
+        Default = true,
+        DefaultItems = {"item_437413"},
+        Ranks = {
+            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/cadet_green/pm_training_cadet_domino.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {
+                Name = "442nd RCT",
+                Default = true,
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {},
+                Prefix = ""
+            },
+        },
+        Team = "wastelanders"
+    },
+        DIVISION_212THRECRUIT = {
+        NiceName = "212th Recruit",
+        Prefix = "212th RCT",
+        Color = Color(255, 145, 0),
+        Description = "You've come just from Kamino. Ready to fight for the 212th!",
+        Default = true,
+        DefaultItems = {"item_437413"},
+        Ranks = {
+            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/cadet_orange/pm_training_cadet_zeta.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {
+                Name = "442nd RCT",
                 Default = true,
                 Core = true,
                 Models = {},
@@ -950,37 +1374,75 @@ group_ranks = {
 -- --------------------------------------------------
 
 CERTIFICATIONS = {
-
-        ["Pilot"] = {
+    -- Heavy Weapon only
+    ["Grenadier"] = {
         Weapons = {},
-        Entitys = {
-            { name = "Valkyrie", entityname = "lvs_starfighter_valkyrie", description = "Rain righteous fury upon thy enemies", type = "Vehicle" },
-        }
     },
-    --[[ ["Tanker"] = {
-         Weapons = {"ent_spawner","weapon_simrepair"},
-        Entitys = {
-             { name = "Gas Pump", entityname = "gmod_sent_vehicle_fphysics_gaspump",  description = "Gas for Tanks", type = "Vehicle" }
-         }
-     },]]
 
-    --[[ ["Provost"] = {
-         Weapons = {"weapon_cuff_elastic"},
-     },
-     ["Rough Rider"] = {
-         Weapons = {"ent_spawner"},
-         Entitys = {
-             { name = "Andalusian", entityname = "ent_horse_andalusian", description = "Horse!", type = "Vehicle" },
-             { name = "Arabian", entityname = "ent_horse_arabian", description = "Horse!", type = "Vehicle" },
-       }
-     },]]
+    -- Heavy Weapon only
+    ["Flametrooper"] = {
+        Weapons = {},
+    },
 
-        ["Surgeon"] = {
-        Weapons = {"weapon_healer"},
-        Entitys = {
-            { name = "Medical Supplies", entityname = "medic_box", description = "Lets soldiers heal themselves.", type = "Medic Box" }
-        }
-    }
+    ["Jetpack"] = {
+        Weapons = {},
+    },
+
+    -- 212th and Navy only
+    ["Pilot"] = {
+        Weapons = {},
+        Entitys = {},
+    },
+
+    -- 501st only
+    ["Tanker"] = {
+        Weapons = {},
+        Entitys = {},
+    },
+
+    ["Logistics"] = {
+        Weapons = {},
+    },
+
+    -- Not available to 212th BARC. Intended for NCO+.
+    ["Speeders"] = {
+        Weapons = {},
+        Entitys = {},
+    },
+
+    ["EOD"] = {
+        Weapons = {},
+    },
+
+    -- Heavy Weapon only
+    ["Anti Tank Specialist"] = {
+        Weapons = {},
+    },
+
+    -- Heavy Weapon & Engineer only
+    ["Emplacement Specialist"] = {
+        Weapons = {},
+        Entitys = {},
+    },
+
+    ["BARC & AT-TE"] = {
+        Weapons = {},
+        Entitys = {},
+    },
+
+    -- Navy & ARC only
+    ["Hacker"] = {
+        Weapons = {},
+    },
+
+    ["Quartermaster"] = {
+        Weapons = {},
+    },
+
+    ["Surgeon"] = {
+        Weapons = {},
+        Entitys = {},
+    },
 }
 
 -- --------------------------------------------------
