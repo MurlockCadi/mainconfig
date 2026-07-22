@@ -1259,8 +1259,7 @@ ROLES = ROLES or {
         Team = "staff",
         staff = true
     },
-
-        DIVISION_501STRECRUIT = {
+    DIVISION_501STRECRUIT = {
         NiceName = "501st Recruit",
         Prefix = "501st RCT",
         Color = Color(17, 0, 167),
@@ -1283,8 +1282,7 @@ ROLES = ROLES or {
         },
         Team = "wastelanders"
     },
-
-        DIVISION_442NDRECRUIT = {
+    DIVISION_442NDRECRUIT = {
         NiceName = "442nd Recruit",
         Prefix = "442nd RCT",
         Color = Color(0, 87, 33),
@@ -1307,7 +1305,7 @@ ROLES = ROLES or {
         },
         Team = "wastelanders"
     },
-        DIVISION_212THRECRUIT = {
+    DIVISION_212THRECRUIT = {
         NiceName = "212th Recruit",
         Prefix = "212th RCT",
         Color = Color(255, 145, 0),
@@ -1330,7 +1328,6 @@ ROLES = ROLES or {
         },
         Team = "wastelanders"
     },
-
     HOSTILE_BOT_ROLE = {
         NiceName = "Hostile Bot",
         Prefix = "",
@@ -1355,7 +1352,7 @@ ROLES = ROLES or {
     }
 }
 
-DEFAULT_ROLE = ROLES.DIVISION_RECRUIT
+DEFAULT_ROLE = "DIVISION_501STRECRUIT"
 
 -- --------------------------------------------------
 -- ---------- GROUP RANKS ---------------------------
