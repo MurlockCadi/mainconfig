@@ -502,7 +502,7 @@ imperium_rp_defualt_weapons = {
 -- 442ND Models
 
 RCT_442ND = {
-    "models/cadet_green/pm_training_cadet_domino.mdl",
+    "models/aussiwozzi/cgi/base/442nd_trooper.mdl",
 }
 MODELS_442ND = {
     "models/aussiwozzi/cgi/base/442nd_trooper.mdl",
@@ -527,7 +527,7 @@ OFFICER_442ND = {
 -- 501ST Models
 
 RCT_501ST = {
-    "models/cadet_blue/pm_training_cadet_alpha.mdl",
+    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
 }
 MODELS_501ST = {
     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
@@ -552,7 +552,7 @@ OFFICER_501ST = {
 -- 212TH Models
 
 RCT_212TH = {
-    "models/cadet_orange/pm_training_cadet_zeta.mdl",
+    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
 }
 MODELS_212TH = {
     "models/aussiwozzi/cgi/base/212th_trooper.mdl",
@@ -645,7 +645,7 @@ DivisionTypes = {
                 Default = true,
                 Core = true,
                 Models = {
-                    "models/cadet_green/pm_training_cadet_domino.mdl",
+                    "models/aussiwozzi/cgi/base/442nd_trooper.mdl",
                 },
                 Weapons = {},
                 SpawnWeapons = {},
@@ -783,7 +783,7 @@ DivisionTypes = {
                 Default = true,
                 Core = true,
                 Models = {
-                    "models/cadet_blue/pm_training_cadet_alpha.mdl",
+                    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                 },
                 Weapons = {},
                 SpawnWeapons = {},
@@ -906,7 +906,7 @@ DivisionTypes = {
                 Default = true,
                 Core = true,
                 Models = {
-                    "models/cadet_orange/pm_training_cadet_zeta.mdl",
+                    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
                 },
                 Weapons = {},
                 SpawnWeapons = {},
@@ -1267,7 +1267,7 @@ ROLES = ROLES or {
         Default = true,
         DefaultItems = {"item_437413"},
         Ranks = {
-            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/cadet_blue/pm_training_cadet_alpha.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/501st_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
@@ -1290,7 +1290,7 @@ ROLES = ROLES or {
         Default = true,
         DefaultItems = {"item_437413"},
         Ranks = {
-            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/cadet_green/pm_training_cadet_domino.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/442nd_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
@@ -1313,7 +1313,7 @@ ROLES = ROLES or {
         Default = true,
         DefaultItems = {"item_437413"},
         Ranks = {
-            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/cadet_orange/pm_training_cadet_zeta.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/212th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
