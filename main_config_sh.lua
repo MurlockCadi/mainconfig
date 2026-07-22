@@ -2775,6 +2775,13 @@ PASSIVE_ITEM_FLAGS["ConvertHealthToFaith"] = {
     Color        = Color(255, 255, 100)
 }
 
+-- Jetpack
+PASSIVE_ITEM_FLAGS["Jetpack"] = {
+    FunctionName = "Jetpack",
+    Description  = "Enables the use of a Jetpack / Jumpack",
+    Color        = Color(80, 180, 255)
+}
+
 -- Classifications --
 
 PASSIVE_ITEM_FLAGS["Xeno"] = {
