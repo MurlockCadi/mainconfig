@@ -250,8 +250,8 @@ commands = {
     ["/claim"] = function(ply) RedeemQMPackage(ply) end,
     ["!cleanup"] = function(ply) PlayerWantsToCleanUpAllForts(ply) end,
     ["/cleanup"] = function(ply) PlayerWantsToCleanUpAllForts(ply) end,
-    ["!content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3596850163") end,
-    ["/content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3596850163") end,
+    ["!content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3764689804") end,
+    ["/content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3764689804") end,
     ["!createdivision"] = function(ply) OpenDivisionCreationMenuForPlayer(ply) end,
     ["/createdivision"] = function(ply) OpenDivisionCreationMenuForPlayer(ply) end,
 
