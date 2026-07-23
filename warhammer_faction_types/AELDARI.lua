@@ -5,7 +5,7 @@ FACTION_TYPES["AELDARI"] = {
     CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
-        local spawn_elite = elite or math.random(1, 100) <= 5
+        local spawn_elite = elite or math.random(1, 100) <= 10
 
         if spawn_elite then
             local elite_roll = math.random(1, 100)
