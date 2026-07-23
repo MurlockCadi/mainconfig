@@ -738,7 +738,11 @@ MERC_MODELS = {
     "models/tau/baron_tau.mdl",
     "models/dizcordum/wh/eldar/yuraine.mdl",
     "models/astartes/eldar/guardian_redactus.mdl",
-    "models/astartes/eldar/banshees.mdl"
+    "models/astartes/eldar/banshees.mdl",
+	"models/ulman/storm_rat.mdl",
+	"models/ulman/grey_seer.mdl",
+	"models/ulman/clan_rat_1.mdl",
+	"models/ulman/skv_eshin.mdl"
 }
 
 -- Commissariat
