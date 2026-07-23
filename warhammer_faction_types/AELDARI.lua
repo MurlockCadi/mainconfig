@@ -2,7 +2,7 @@ FACTION_TYPES["AELDARI"] = {
     STAGE = "Aeldari",
     DeathsByType = {},
     OffWorld = true,
-    CreateAeldari = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
         local spawn_elite = elite or math.random(1, 100) <= 5
@@ -93,7 +93,7 @@ FACTION_TYPES["AELDARI"] = {
         if BOT_INVASION ~= "AELDARI" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "AELDARI" then
-                self:CreateAeldari(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end
