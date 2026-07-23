@@ -18,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  FTP_SERVER: "sftp://chi-s-game-2.physgun.com:2022"
+  FTP_SERVER: "sftp://chi-s-game-3.physgun.com:2022"
   FTP_USER: "987crazymuffin@gmail.com.fcd13098"
   SOURCE_DIR: "warhammer_faction_types"
   REMOTE_PATH: "/garrysmod/addons/murlock_bot_types/lua/autorun/server/"
