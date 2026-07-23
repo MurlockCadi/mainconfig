@@ -3,7 +3,7 @@ FACTION_TYPES["SKAVEN"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateSkaven = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite
         print("Spawning Skaven bot. Elite:", spawn_elite)
@@ -355,7 +355,7 @@ FACTION_TYPES["SKAVEN"] = {
         --print("Spawning Skaven bots...")
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "SKAVEN" then
-                self:CreateSkaven(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
