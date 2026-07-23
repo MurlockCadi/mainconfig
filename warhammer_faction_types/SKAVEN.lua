@@ -13,7 +13,7 @@ FACTION_TYPES["SKAVEN"] = {
 			
 			if roll <= 1 then
                 bot:SetModel("models/ulman/clan_rat_1.mdl")
-                bot:SetNWString("Name", "Elite Bomb Rat")
+                bot:SetNWString("Name", "Bomb Rat")
                 timer.Simple(1, function() 
                     if IsValid(bot) then
                         bot:SetModelScale(.5, 0)
@@ -26,7 +26,7 @@ FACTION_TYPES["SKAVEN"] = {
 
 			elseif roll <= 14 then
                 bot:SetModel("models/ulman/skv_eshin.mdl")
-                bot:SetNWString("Name", "Elite RATTLING GUNNER!")
+                bot:SetNWString("Name", "RATTLING GUNNER!")
                 timer.Simple(1, function() 
                     if IsValid(bot) then
                         bot:SetModelScale(1.2, 0)
@@ -40,7 +40,7 @@ FACTION_TYPES["SKAVEN"] = {
 	
 			elseif roll <= 21 then
                 bot:SetModel("models/ulman/clan_rat_1.mdl")
-                bot:SetNWString("Name", "Elite Prophet of the Horned Rat")
+                bot:SetNWString("Name", "Prophet of the Horned Rat")
                 timer.Simple(1, function() 
                     if IsValid(bot) then
                         bot:SetModelScale(1.2, 0)
@@ -54,7 +54,7 @@ FACTION_TYPES["SKAVEN"] = {
 
             elseif roll <= 28 then
                 bot:SetModel("models/ulman/clan_rat_1.mdl")
-                bot:SetNWString("Name", "Elite Rat Ogre")
+                bot:SetNWString("Name", "Rat Ogre")
                 timer.Simple(1, function() 
                     if IsValid(bot) then
                         bot:SetModelScale(2, 0)
@@ -69,7 +69,7 @@ FACTION_TYPES["SKAVEN"] = {
 
             elseif roll <= 35 then
                 bot:SetModel("models/ulman/storm_rat.mdl")
-                bot:SetNWString("Name", "Elite Stormvermin")
+                bot:SetNWString("Name", "Stormvermin")
                 bot.FightType = "melee"
                 bot.weapon = "cat_legacy_murlock_necron_shield"
                 bot:SetRunSpeed(300)
@@ -80,7 +80,7 @@ FACTION_TYPES["SKAVEN"] = {
 
             elseif roll <= 42 then
                 bot:SetModel("models/ulman/skv_eshin.mdl")
-                bot:SetNWString("Name", "Elite Warpfire Rattler")
+                bot:SetNWString("Name", "Warpfire Rattler")
                 bot.FightType = "shooting"
                 bot.weapon = "murlock_gauss_cannon"
                 bot:SetRunSpeed(300)
@@ -90,7 +90,7 @@ FACTION_TYPES["SKAVEN"] = {
 
             elseif roll <= 49 then
                 bot:SetModel("models/ulman/storm_rat.mdl")
-                bot:SetNWString("Name", "Elite Gutter Runner")
+                bot:SetNWString("Name", "Gutter Runner")
                 bot.FightType = "melee"
                 bot.weapon = "cat_legacy_powerclawcrusade"
                 bot:SetRunSpeed(300)
@@ -101,7 +101,7 @@ FACTION_TYPES["SKAVEN"] = {
 
             elseif roll <= 56 then
                 bot:SetModel("models/ulman/skv_eshin.mdl")
-                bot:SetNWString("Name", "Elite Poison Wind Globadier")
+                bot:SetNWString("Name", "Poison Wind Globadier")
                 bot.FightType = "shooting"
                 bot.weapon = "cat_custom_grenade_chem_bot"
                 timer.Simple(1, function() 
@@ -116,7 +116,7 @@ FACTION_TYPES["SKAVEN"] = {
 
             elseif roll <= 63 then
                 bot:SetModel("models/ulman/red_war_skv.mdl")
-                bot:SetNWString("Name", "Elite Red Guard Skaven")
+                bot:SetNWString("Name", "Red Guard Skaven")
                 bot.FightType = "melee"
                 bot.weapon = "cat_legacy_murlock_necron_shield"
                 bot:SetRunSpeed(300)
@@ -126,7 +126,7 @@ FACTION_TYPES["SKAVEN"] = {
 
             elseif roll <= 70 then
                 bot:SetModel("models/ulman/skv_eshin.mdl")
-                bot:SetNWString("Name", "Elite Warpfire Thrower")
+                bot:SetNWString("Name", "Warpfire Thrower")
                 bot.FightType = "flamer"
                 bot.weapon = "cat_legacy_flamerheresy"
                 bot:SetRunSpeed(200)
@@ -136,7 +136,7 @@ FACTION_TYPES["SKAVEN"] = {
 
             elseif roll <= 80 then
                 bot:SetModel("models/ulman/clan_rat_1.mdl")
-                bot:SetNWString("Name", "Elite Clanrat")
+                bot:SetNWString("Name", "Clanrat")
                 bot.FightType = "melee"
                 if math.random(1, 100) <= 72 then
                     bot.weapon = "murlock_chaos_knife"
@@ -150,7 +150,7 @@ FACTION_TYPES["SKAVEN"] = {
             
             elseif roll <= 90 then
                 bot:SetModel("models/ulman/clan_rat_1.mdl")
-                bot:SetNWString("Name", "Elite Skavenslave")
+                bot:SetNWString("Name", "Skavenslave")
                 bot.FightType = "melee"
                 if math.random(1, 100) <= 25 then
                     bot.weapon = "murlock_chaos_knife"
@@ -175,21 +175,7 @@ FACTION_TYPES["SKAVEN"] = {
 
         else
             local roll = math.random(1, 100)
-
-			if roll <= 1 then
-                bot:SetModel("models/ulman/clan_rat_1.mdl")
-                bot:SetNWString("Name", "Bomb Rat")
-                timer.Simple(1, function() 
-                    if IsValid(bot) then
-                        bot:SetModelScale(.5, 0)
-                    end
-                end)
-                bot.FightType = "melee"
-                bot.weapon = "cat_custom_meltabomb"
-                bot:SetNWString("Description", "BOOM BOOM!")
-                health = math.max(health * 1.5, 300)
-
-			elseif roll <= 14 then
+			if roll <= 15 then
                 bot:SetModel("models/ulman/skv_eshin.mdl")
                 bot:SetNWString("Name", "RATTLING GUNNER!")
                 timer.Simple(1, function() 
