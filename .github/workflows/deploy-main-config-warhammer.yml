@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 env:
-  FTP_SERVER: "sftp://chi-s-game-2.physgun.com:2022"
+  FTP_SERVER: "sftp://chi-s-game-3.physgun.com:2022"
   FTP_USER: "987crazymuffin@gmail.com.fcd13098"
   REMOTE_PATH: "/garrysmod/gamemodes/warhammer40k/gamemode/"
   FILE_TO_UPLOAD: "main_config_sh.lua"
