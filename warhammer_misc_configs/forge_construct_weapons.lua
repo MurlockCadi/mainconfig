@@ -124,3 +124,4 @@ CRAFTABLE_ITEMS["item_341334"] = 1000 -- TFA LASGUNS
 
 CRAFTABLE_ITEMS["item_543569"] = 30000 -- Stormbolter
 CRAFTABLE_ITEMS["item_929749"] = 25000 -- Thunder Hammer & Shield
+CRAFTABLE_ITEMS["item_445240"] = 40000 -- Flamer & Shield
