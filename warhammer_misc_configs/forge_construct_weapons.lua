@@ -125,3 +125,4 @@ CRAFTABLE_ITEMS["item_543569"] = 30000 -- Stormbolter
 CRAFTABLE_ITEMS["item_929749"] = 25000 -- Thunder Hammer & Shield
 CRAFTABLE_ITEMS["item_445240"] = 40000 -- Flamer & Shield
 CRAFTABLE_ITEMS["item_515619"] = 40000 -- Reaper Autocannon
+CRAFTABLE_ITEMS["item_870495"] = 40000 -- Heavy Autocannon
