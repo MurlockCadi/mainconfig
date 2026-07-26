@@ -156,9 +156,12 @@ end
 
 MIN_XP = 1000
 MAX_XP = 30000
-MAX_LEVEL = 200
-
+MAX_LEVEL = 100
+-- 5000 XP per level
 function getXPForNextLevel(level)
+	if true then
+		return 5000
+	end
     if level < 1 then return MIN_XP end
     if level > MAX_LEVEL then return MAX_XP end
 
