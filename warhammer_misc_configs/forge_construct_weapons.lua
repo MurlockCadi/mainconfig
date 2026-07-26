@@ -96,7 +96,7 @@ CRAFTABLE_ITEMS["item_857640"] = 15000 -- Plastma pistol tfa
 
 CRAFTABLE_ITEMS["item_598560"] = 40000 -- godwyn boltpistol + powersword
 CRAFTABLE_ITEMS["item_607501"] = 20000 -- Power axe + shield
-CRAFTABLE_ITEMS["item_885960"] = 15000 -- chain shovel
+CRAFTABLE_ITEMS["item_885960"] = 12500 -- chain shovel
 CRAFTABLE_ITEMS["item_634683"] = 20000 -- force axe
 CRAFTABLE_ITEMS["item_285839"] = 20000 -- force halberd
 CRAFTABLE_ITEMS["item_319275"] = 15000 -- Power maul
@@ -107,7 +107,7 @@ CRAFTABLE_ITEMS["item_838799"] = 50000 -- Plasma Pistol + powersword
 CRAFTABLE_ITEMS["item_506025"] = 30000 -- Heavy Flamer
 CRAFTABLE_ITEMS["item_881186"] = 20000 -- Ogryn Mace + shield
 
-CRAFTABLE_ITEMS["item_214114"] = 20000 -- Chainsword
+CRAFTABLE_ITEMS["item_214114"] = 12500 -- Chainsword
 CRAFTABLE_ITEMS["item_889608"] = 20000 -- Ogryn Club
 CRAFTABLE_ITEMS["item_533025"] = 20000 -- ommnisiah axe
 CRAFTABLE_ITEMS["item_159820"] = 15000 -- Power axe
@@ -126,3 +126,4 @@ CRAFTABLE_ITEMS["item_929749"] = 25000 -- Thunder Hammer & Shield
 CRAFTABLE_ITEMS["item_445240"] = 40000 -- Flamer & Shield
 CRAFTABLE_ITEMS["item_515619"] = 40000 -- Reaper Autocannon
 CRAFTABLE_ITEMS["item_870495"] = 40000 -- Heavy Autocannon
+CRAFTABLE_ITEMS["item_977413"] = 15000 -- Power Halberd
