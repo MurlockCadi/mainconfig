@@ -1629,6 +1629,7 @@ DivisionTypes = {
 		    {ID = 5, Name = "Savant-Warrant", Rank_Prefix = "Savant-Warrant", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = false},
 		    {ID = 6, Name = "Savant-Adjunct", Rank_Prefix = "Adjunct", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
 		    {ID = 7, Name = "Scholar Empyrean", Rank_Prefix = "Scholar-Empyrean", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 7, Name = "Scholar", Rank_Prefix = "Scholar", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
 		    {ID = 8, Name = "Scholar Obscurus", Rank_Prefix = "Scholar Obscurus", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
 		    {ID = 9, Name = "Dominus", Rank_Prefix = "Dominus", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true},
 		    {ID = 10, Name = "Philosopher", Rank_Prefix = "Philosopher", ModelsAllowed = PYSKER_MODELS, WeaponsAllowed = {}, CanPromote = true}
