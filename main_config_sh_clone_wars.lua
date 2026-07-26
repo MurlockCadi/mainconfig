@@ -130,20 +130,20 @@ proximityDistance = 750
 
 function GetHealthByTotalPlayers()
     local TotalPlayers = #player.GetHumans()
-    local health = 2000
+    local health = 500
 
     if TotalPlayers < 5 then
-        health = 2000
+        health = 500
     elseif TotalPlayers < 10 then
-        health = 3000
+        health = 1000
     elseif TotalPlayers < 20 then
-        health = 4000
+        health = 2000
     elseif TotalPlayers < 30 then
-        health = 6000
+        health = 4000
     elseif TotalPlayers < 40 then
-        health = 8000
+        health = 5000
     elseif TotalPlayers < 50 then
-        health = 10000
+        health = 6000
     end
 
     health = health * HEALTH_MULTIPLIER_BOTS
