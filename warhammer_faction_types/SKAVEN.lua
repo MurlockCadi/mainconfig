@@ -124,7 +124,7 @@ FACTION_TYPES["SKAVEN"] = {
                 bot:SetNWString("Description", "Eshin assassin. It tunnels beneath the floor and bursts up behind you.")
                 health = math.max(health * 4, 800)
 
-            elseif roll <= 56 then
+            elseif roll <= 52 then
                 bot:SetModel("models/ulman/skv_eshin.mdl")
                 bot:SetNWString("Name", "Poison Wind Globadier")
                 bot.FightType = "shooting"
@@ -306,7 +306,7 @@ FACTION_TYPES["SKAVEN"] = {
                 bot:SetNWString("Description", "Skaven assassin, swift and deadly with razor-sharp claws.")
                 health = math.max(health * 3, 600)
 
-            elseif roll <= 56 then
+            elseif roll <= 52 then
                 bot:SetModel("models/ulman/skv_eshin.mdl")
                 bot:SetNWString("Name", "Poison Wind Globadier")
                 bot.FightType = "shooting"
