@@ -2307,7 +2307,7 @@ CERTIFICATIONS = {
         Weapons = {},
     },
 	["Biker"] = {
-        Weapons = {},
+        Weapons = {"rope_tool","weapon_lvsrepair"},
     },
 	["Emplacement"] = {
         Weapons = {"ent_spawner"},
@@ -2341,8 +2341,6 @@ CERTIFICATIONS = {
     },
 	["Pilot"] = {
         Weapons = {"rope_tool"},
-		Entitys = {
-			{ name = "Valkyrie", entityname = "lvs_starfighter_valkyrie", description = "Rain righteous fury upon thy enemies", type = "Vehicle" },
 		}
     },
 }
