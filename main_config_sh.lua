@@ -2304,6 +2304,9 @@ CERTIFICATIONS = {
 	["High Gothic"] = {
 		Weapons = {},
 	},
+	["Xeno Speech"] = {
+		Weapons = {},
+	},
     ["Quartermaster"] = {
         Weapons = {},
     },
