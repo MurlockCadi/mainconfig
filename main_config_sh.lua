@@ -2314,7 +2314,7 @@ CERTIFICATIONS = {
         Weapons = {"rope_tool","weapon_lvsrepair"},
     },
 	["Emplacement"] = {
-        Weapons = {"ent_spawner"},
+        Weapons = {"ent_spawner","weapon_physcannon"},
         Entitys = {
             { name = "ATGM", entityname = "lvs_trailer_wh_emp_atgm", description = "A bipoded Anti Tank Guided Missile.", type = "Turret" },
             { name = "Auto Cannon", entityname = "lvs_trailer_wh_emp_auto",  description = "A tripod mounted Auto Cannon Emplacement", type = "Turret" },
