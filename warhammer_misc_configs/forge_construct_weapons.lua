@@ -127,3 +127,4 @@ CRAFTABLE_ITEMS["item_445240"] = 40000 -- Flamer & Shield
 CRAFTABLE_ITEMS["item_515619"] = 40000 -- Reaper Autocannon
 CRAFTABLE_ITEMS["item_870495"] = 40000 -- Heavy Autocannon
 CRAFTABLE_ITEMS["item_977413"] = 15000 -- Power Halberd
+CRAFTABLE_ITEMS["item_554260"] = 5000 -- Talon Autopistol tfa
