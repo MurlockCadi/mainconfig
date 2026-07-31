@@ -56,7 +56,7 @@ CRAFTABLE_ITEMS["item_249622"] = 35000 -- chem flamer tfa
 CRAFTABLE_ITEMS["item_993951"] = 35000 -- stubber tfa
 CRAFTABLE_ITEMS["item_823479"] = 40000 -- heavy stubber tfa
 CRAFTABLE_ITEMS["item_801322"] = 40000 -- combat shotgun tfa
-CRAFTABLE_ITEMS["item_599451"] = 15000 -- heavy auto pistol arccw
+CRAFTABLE_ITEMS["item_599451"] = 10000 -- heavy auto pistol arccw
 CRAFTABLE_ITEMS["item_658827"] = 40000 -- Heavy Bolter tfa
 
 CRAFTABLE_ITEMS["item_733572"] = 40000 -- Lucius hotshot lasgun tfa
@@ -128,3 +128,4 @@ CRAFTABLE_ITEMS["item_515619"] = 40000 -- Reaper Autocannon
 CRAFTABLE_ITEMS["item_870495"] = 40000 -- Heavy Autocannon
 CRAFTABLE_ITEMS["item_977413"] = 15000 -- Power Halberd
 CRAFTABLE_ITEMS["item_554260"] = 5000 -- Talon Autopistol tfa
+CRAFTABLE_ITEMS["item_220428"] = 10000 -- Stub Pistol tfa
