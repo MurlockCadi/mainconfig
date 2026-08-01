@@ -2788,6 +2788,12 @@ PASSIVE_ITEM_FLAGS["ConvertHealthToFaith"] = {
     Color        = Color(255, 255, 100)
 }
 
+PASSIVE_ITEM_FLAGS["Greed"] = {
+    FunctionName = "Greed",
+    Description  = "Gain twice the credits and xp reward for killing enemies.",
+    Color        = Color(50, 200, 50)
+}
+
 -- Jetpack
 PASSIVE_ITEM_FLAGS["Jetpack"] = {
     FunctionName = "Jetpack",
@@ -2894,6 +2900,7 @@ PASSIVE_ITEM_FLAGS["Mythic"] = {
     Description  = "[Mythic]",
     Color        = Color(255, 50, 255)
 }
+
 
 
 
