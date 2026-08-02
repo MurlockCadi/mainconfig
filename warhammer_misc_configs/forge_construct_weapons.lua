@@ -129,3 +129,5 @@ CRAFTABLE_ITEMS["item_870495"] = 40000 -- Heavy Autocannon
 CRAFTABLE_ITEMS["item_977413"] = 15000 -- Power Halberd
 CRAFTABLE_ITEMS["item_664260"] = 5000 -- Talon Autopistol tfa
 CRAFTABLE_ITEMS["item_220428"] = 10000 -- Stub Pistol tfa
+CRAFTABLE_ITEMS["item725176"] = 40000 -- Multi-Laser tfa
+CRAFTABLE_ITEMS["item_723545"] = 40000 -- Grenade Launcher
