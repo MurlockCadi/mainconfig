@@ -113,3 +113,16 @@ FACTION_TYPES["NECRONS"] = {
         end
     end,
 }
+
+BOT_SOUND_MANAGER["NECRON_SOUNDS"] = {
+    SONG_LOCAL = {
+        "vj_necron/idle_tone_01_06.wav",
+        "vj_necron/idle_tone_02_06.wav",
+        "vj_necron/flayed/beep.wav",
+        "vj_necron/flayed/select_02.wav"
+    },
+
+    COOLDOWN_MIN = 5,
+    COOLDOWN_MAX = 10
+}
+
