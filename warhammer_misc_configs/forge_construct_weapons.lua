@@ -133,4 +133,4 @@ CRAFTABLE_ITEMS["item_725176"] = 40000 -- Multi-Laser tfa
 CRAFTABLE_ITEMS["item_723545"] = 40000 -- Grenade Launcher
 CRAFTABLE_ITEMS["item_181630"] = 15000 -- Chain Glaive
 CRAFTABLE_ITEMS["item_330071"] = 12500 -- Chain Axe
-CRAFTABLE_ITESM["item_875155"] = 6000 -- Heavy Laspistol
+CRAFTABLE_ITEMS["item_875155"] = 6000 -- Heavy Laspistol
