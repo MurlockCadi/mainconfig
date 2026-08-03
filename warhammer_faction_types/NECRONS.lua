@@ -114,7 +114,7 @@ FACTION_TYPES["NECRONS"] = {
     end,
 }
 
-BOT_SOUND_MANAGER["NECRON_SOUNDS"] = {
+BOT_SOUND_MANAGER["NECRONS"] = {
     SONG_LOCAL = {
         "vj_necron/idle_tone_01_06.wav",
         "vj_necron/idle_tone_02_06.wav",
