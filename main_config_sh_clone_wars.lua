@@ -1163,8 +1163,8 @@ DivisionTypes = {
             },
         }
     },
-    ["VIP"] = {
-        NiceName = "VIP",
+    ["Auxiliary"] = {
+        NiceName = "Auxiliary",
         Description = "Special personnel and support assets assigned to the Grand Army of the Republic.",
         Team = "Republic",
         VIP = true,
@@ -1185,19 +1185,39 @@ DivisionTypes = {
                 vehicles = {},
             },
 
-            --[[ models not yet discused so putting this in a multi line comment until that's sorted
+            
                 {
                 Name = "Mercenary",
                 Core = true,
                 Models = {
-
+					"models/assassin/pm_civ_assassin_human_male_f.mdl",
+					"models/assassin/pm_civ_assassin_human_female.mdl",
+					"models/enforcer/pm_civ_enforcer_costume_male.mdl",
+					"models/dweller/pm_civ_dweller_human_male_h.mdl",
+					"models/engineer/pm_civ_engineer_human_male.mdl",
+					"models/fighter/pm_civ_fighter_costume_male.mdl",
+					"models/formal/pm_civ_formal_human_male_f.mdl",
+					"models/guard/pm_civ_guard_human_female_f.mdl",
+					"models/guard/pm_civ_guard_human_male_h.mdl",
+					"models/merc/pm_civ_merc_human_male_f.mdl",
+					"models/merc/pm_civ_merc_zabrak_male_f.mdl",
+					"models/merc/pm_civ_merc_human_female.mdl",
+					"models/miner/pm_civ_miner_human_male.mdl",
+					"models/nemesis/pm_civ_nemesis_costume_male.mdl",
+					"models/noble/pm_civ_noble_human_male.mdl",
+					"models/prisoner/pm_civ_prisoner_human_male_h.mdl",
+					"models/prisoner/pm_civ_prisoner_human_female.mdl",
+					"models/snowsuit/pm_civ_snowsuit_human_male.mdl",
+					"models/snowsuit/pm_civ_snowsuit_human_female.mdl",
+					"models/smuggler/pm_civ_smuggler_human_male.mdl",
+					"models/smuggler/pm_civ_smuggler_togruta_female.mdl"
                 },
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "MERC",
                 EntitySpawner = {},
                 vehicles = {},
-            },]]
+            },
 
             {
                 Name = "Astromech",
