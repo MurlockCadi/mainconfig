@@ -1163,34 +1163,35 @@ DivisionTypes = {
             },
         }
     },
-    ["Auxiliary"] = {
-        NiceName = "Auxiliary",
-        Description = "Special personnel and support assets assigned to the Grand Army of the Republic.",
-        Team = "Republic",
-        VIP = true,
-        Default_items = {},
-
-        Classes = {
-            {
-                Name = "Auxiliary",
-                Default = true,
-                Core = true,
-                Models = {
-                    "models/ace/sw/r2.mdl"
-                },
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "AUX",
-                EntitySpawner = {},
-                vehicles = {},
-            },
-
-            
-                {
-                Name = "Mercenary",
-                Core = true,
-                Models = {
-					"models/assassin/pm_civ_assassin_human_male_f.mdl",
+	["Auxiliary"] = {
+	    NiceName = "Auxiliary",
+	    Description = "Special personnel and support assets assigned to the Grand Army of the Republic.",
+	    Team = "Republic",
+	    VIP = true,
+	    Default_items = {},
+	    Ranks = {
+	        {ID = 1, Name = "Auxiliary", Rank_Prefix = "AUX", ModelsAllowed = {"models/ace/sw/r2.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+	    },
+	    Classes = {
+	        {
+	            Name = "Auxiliary",
+	            Default = true,
+	            Core = true,
+	            Models = {
+	                "models/ace/sw/r2.mdl"
+	            },
+	            Weapons = {},
+	            SpawnWeapons = {},
+	            Prefix = "AUX",
+	            EntitySpawner = {},
+	            vehicles = {},
+	        },
+	        
+	            {
+	            Name = "Mercenary",
+	            Core = true,
+	            Models = {
+	                "models/assassin/pm_civ_assassin_human_male_f.mdl",
 					"models/assassin/pm_civ_assassin_human_female.mdl",
 					"models/enforcer/pm_civ_enforcer_costume_male.mdl",
 					"models/dweller/pm_civ_dweller_human_male_h.mdl",
@@ -1210,60 +1211,61 @@ DivisionTypes = {
 					"models/snowsuit/pm_civ_snowsuit_human_male.mdl",
 					"models/snowsuit/pm_civ_snowsuit_human_female.mdl",
 					"models/smuggler/pm_civ_smuggler_human_male.mdl",
-					"models/smuggler/pm_civ_smuggler_togruta_female.mdl"
-                },
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "MERC",
-                EntitySpawner = {},
-                vehicles = {},
-            },
-
-            {
-                Name = "Astromech",
-                Core = true,
-                Models = {
-                    "models/ace/sw/r2.mdl",
-                    "models/ace/sw/r4.mdl",
-                    "models/ace/sw/r5.mdl",
-                },
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "ASTRO",
-                EntitySpawner = {},
-                vehicles = {},
-            },
-
-            {
-                Name = "Republic Captured Droid",
-                Core = true,
-                Models = {
-                    "models/bx_training/pm_droid_cis_bx_training.mdl",
-                    "models/aussiwozzi/cgi/b1droids/b1_battledroid_training_pm.mdl",
-                    "models/aussiwozzi/cgi/b1droids/b2_battledroid_training_pm.mdl",
-                },
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "RCD",
-                EntitySpawner = {},
-                vehicles = {},
-            },
-
-            --[[ jedi as i was told is not for launch so i also put this in a comment for later use
-            {
-                Name = "Jedi",
-                Core = true,
-                Models = {
-
-                },
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = "JEDI",
-                EntitySpawner = {},
-                vehicles = {},
-            },]]
-        }
-    },
+					"models/smuggler/pm_civ_smuggler_togruta_female.mdl",
+	                "models/npc/aussiwozzi/mandalorians/male_mando_blue.mdl",
+	                "models/npc/aussiwozzi/mandalorians/male_mando_green.mdl",
+	                "models/npc/aussiwozzi/mandalorians/male_mando_purple.mdl",
+	                "models/player/aussiwozzi/mandalorians/female_mando_gold.mdl",
+	                "models/player/aussiwozzi/mandalorians/female_mando_color.mdl"
+	            },
+	            Weapons = {},
+	            SpawnWeapons = {},
+	            Prefix = "MERC",
+	            EntitySpawner = {},
+	            vehicles = {},
+	        },
+	        {
+	            Name = "Astromech",
+	            Core = true,
+	            Models = {
+	                "models/ace/sw/r2.mdl",
+	                "models/ace/sw/r4.mdl",
+	                "models/ace/sw/r5.mdl",
+	            },
+	            Weapons = {},
+	            SpawnWeapons = {},
+	            Prefix = "ASTRO",
+	            EntitySpawner = {},
+	            vehicles = {},
+	        },
+	        {
+	            Name = "Republic Captured Droid",
+	            Core = true,
+	            Models = {
+	                "models/bx_training/pm_droid_cis_bx_training.mdl",
+	                "models/aussiwozzi/cgi/b1droids/b1_battledroid_training_pm.mdl",
+	                "models/aussiwozzi/cgi/b1droids/b2_battledroid_training_pm.mdl",
+	            },
+	            Weapons = {},
+	            SpawnWeapons = {},
+	            Prefix = "RCD",
+	            EntitySpawner = {},
+	            vehicles = {},
+	        },
+	        --[[ jedi as i was told is not for launch so i also put this in a comment for later use
+	        {
+	            Name = "Jedi",
+	            Core = true,
+	            Models = {
+	            },
+	            Weapons = {},
+	            SpawnWeapons = {},
+	            Prefix = "JEDI",
+	            EntitySpawner = {},
+	            vehicles = {},
+	        },]]
+	    }
+	},
 }
 
 -- --------------------------------------------------
