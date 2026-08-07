@@ -2425,6 +2425,12 @@ PASSIVE_ITEM_FLAGS["relic_buyable"] = {
     Color = Color(127, 0, 95)
 }
 
+PASSIVE_ITEM_FLAGS["do_not_sell_or_buy"] = {
+    FunctionName = "none",
+    Description = "Merchants will not want to buy or sell these items.",
+    Color = Color(127, 0, 95)
+}
+
 PASSIVE_ITEM_FLAGS["do_not_wipe"] = {
     FunctionName = "none",
     Description = "This relic wont be removed.",
