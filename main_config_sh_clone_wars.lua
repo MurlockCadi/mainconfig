@@ -1498,6 +1498,12 @@ PASSIVE_ITEM_FLAGS["Corrosive Damage"] = {
 }
 
 
+PASSIVE_ITEM_FLAGS["do_not_sell_or_buy"] = {
+    FunctionName = "none",
+    Description = "Merchants will not want to buy or sell these items.",
+    Color = Color(127, 0, 95)
+}
+
 -- --------------------------------------------------
 -- ---------- PASSIVE ITEM FLAGS: CRITICAL EFFECTS --
 -- --------------------------------------------------
