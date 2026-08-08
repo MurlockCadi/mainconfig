@@ -508,6 +508,13 @@ commands = {
     ["/y"] = function(ply, args) PlayerYell(ply, args) end,
     ["!yell"] = function(ply, args) PlayerYell(ply, args) end,
     ["/yell"] = function(ply, args) PlayerYell(ply, args) end,
+
+	["!bossbot"] = function(ply) OpenBossCreationMenu(ply) end,
+	["/bossbot"] = function(ply) OpenBossCreationMenu(ply) end,
+	["!bossbots"] = function(ply) OpenBossCreationMenu(ply) end,
+	["/bossbots"] = function(ply) OpenBossCreationMenu(ply) end,
+	["!boss"] = function(ply) OpenBossCreationMenu(ply) end,
+	["/boss"] = function(ply) OpenBossCreationMenu(ply) end
 }
 
 -- --------------------------------------------------
