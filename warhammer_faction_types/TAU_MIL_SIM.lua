@@ -358,7 +358,7 @@ FACTION_TYPES["TAU_MIL_SIM"] = {
         end
 	end
 
-        bot:SetNWString("Status", "TAU")
+        bot:SetNWString("Status", "TAU_MIL_SIM")
         bot:StripWeapons()
         bot.IsHostile = true
         bot.GoneMad = true
@@ -369,9 +369,9 @@ FACTION_TYPES["TAU_MIL_SIM"] = {
     end,
 
     Think = function(self)
-        if BOT_INVASION ~= "TAU" then return end
+        if BOT_INVASION ~= "TAU_MIL_SIM" then return end
         for _, bot in ipairs(player.GetBots()) do
-            if bot:GetNWString("Status") ~= "TAU" then
+            if bot:GetNWString("Status") ~= "TAU_MIL_SIM" then
                 self:CreateTau(bot,ALWAYS_SPAWN_ELITES)
             end
         end
