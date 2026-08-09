@@ -3,7 +3,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateOld = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite
 
@@ -506,7 +506,7 @@ FACTION_TYPES["THE_OLD_WORLD"] = {
         if BOT_INVASION ~= "THE_OLD_WORLD" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "THE_OLD_WORLD" then
-                self:CreateOld(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
