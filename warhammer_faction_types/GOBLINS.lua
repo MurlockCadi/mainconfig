@@ -3,7 +3,7 @@ FACTION_TYPES["GOBLINS"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateGoblin = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers() * 0.5
         local spawn_elite = elite or math.random(1, 100) <= 25
 
@@ -229,7 +229,7 @@ FACTION_TYPES["GOBLINS"] = {
         local AllBots = player.GetBots()
         for _, bot in ipairs(AllBots) do
             if bot:GetNWString("Status", "friendly") ~= "GOBLINS" then
-                self:CreateGoblin(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
