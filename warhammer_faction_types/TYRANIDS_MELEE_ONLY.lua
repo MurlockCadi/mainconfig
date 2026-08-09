@@ -3,7 +3,7 @@ FACTION_TYPES["TYRANIDS_MELEE_ONLY"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateTyranid = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
     local health = GetHealthByTotalPlayers()
     local spawn_elite = elite or math.random(1, 100) <= 15
 
@@ -90,7 +90,7 @@ Think = function(self)
 
     for _, bot in ipairs(player.GetBots()) do
         if bot:GetNWString("Status") ~= "TYRANIDS_MELEE_ONLY" then
-            self:CreateTyranid(bot, ALWAYS_SPAWN_ELITES)
+            self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
         end
     end
 end,
