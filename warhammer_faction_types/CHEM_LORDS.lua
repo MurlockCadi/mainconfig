@@ -5,7 +5,7 @@ FACTION_TYPES["CHEM_LORDS"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateChemLords = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local TotalPlayers = #player.GetHumans()
         local health = GetHealthByTotalPlayers() * 1.3
         local spawn_elite = elite or math.random(1, 100) <= 20
@@ -335,7 +335,7 @@ FACTION_TYPES["CHEM_LORDS"] = {
         if BOT_INVASION ~= "CHEM_LORDS" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "CHEM_LORDS" then
-                self:CreateChemLords(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
