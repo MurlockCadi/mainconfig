@@ -1058,9 +1058,9 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/wk/servitor/wk_servit.mdl"},
                 ForceModels = true,
-                Weapons = {"cat_legacy_gravgun", "cat_legacy_powerfistcrusade"},
+                Weapons = {"cat_legacy_gravgun"},
                 MaxHealth = 150,
-                SpawnWeapons = {},
+                SpawnWeapons = {"cat_legacy_powerfistcrusade"},
                 Prefix = "Servitor"
             },
 			{
