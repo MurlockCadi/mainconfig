@@ -1083,12 +1083,6 @@ DivisionTypes = {
 	    Ranks = {
 	        {ID = 1, Name = "Penal Conscript", Rank_Prefix = "Conscript", ModelsAllowed = PENAL_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
 	        {ID = 2, Name = "Penal Trooper", Rank_Prefix = "Trooper", ModelsAllowed = PENAL_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-	        {ID = 3, Name = "Penal Sergeant", Rank_Prefix = "Sergeant", ModelsAllowed = PENAL_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-	        {ID = 4, Name = "Arbites Enforcer", Rank_Prefix = "Enforcer", ModelsAllowed = ARBITES_MODELS, WeaponsAllowed = ARBITES_WEAPONS, CanPromote = true},
-	        {ID = 5, Name = "Arbites Regulator", Rank_Prefix = "Regulator", ModelsAllowed = ARBITES_MODELS, WeaponsAllowed = ARBITES_WEAPONS, CanPromote = true},
-	        {ID = 6, Name = "Arbites Arbitrator", Rank_Prefix = "Arbitrator", ModelsAllowed = ARBITES_MODELS, WeaponsAllowed = ARBITES_WEAPONS, CanPromote = true},
-	        {ID = 7, Name = "Arbites Judge", Rank_Prefix = "Judge", ModelsAllowed = ARBITES_MODELS, WeaponsAllowed = ARBITES_WEAPONS, CanPromote = true},
-	        {ID = 8, Name = "Arbites Marshal", Rank_Prefix = "Marshal", ModelsAllowed = ARBITES_MODELS, WeaponsAllowed = ARBITES_WEAPONS, CanPromote = false}
 	    },
         Classes = {
             {
@@ -1141,17 +1135,7 @@ DivisionTypes = {
                 SpawnWeapons = {"cat_legacy_chainsword"},
                 Prefix = ""
             },
-            {
-                Name = "Arbitrators",
-                Default = false,
-                Core = true,
-				MaxHealth = 200,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"weapon_stunstick","weapon_cuff_shackles","weapon_cuff_elastic"},
-                Prefix = ""
-            }
-        }
+		}
     },
     ["Mutants"] = {
         NiceName = "Mutants",
