@@ -3,7 +3,7 @@ FACTION_TYPES["CHANGE_HORDE"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateTzeentchCult = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
         -- print("Creating Tzeentch Cultist Bot. Base Health:", health)
@@ -110,7 +110,7 @@ FACTION_TYPES["CHANGE_HORDE"] = {
         if BOT_INVASION ~= "CHANGE_HORDE" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status", "friendly") ~= "CHANGE_HORDE" then
-                self:CreateTzeentchCult(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
