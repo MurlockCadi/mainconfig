@@ -252,7 +252,8 @@ commands = {
     ["/bombardment"] = function(ply) call_in_arty(ply) end,
     ["!bot"] = function(ply) AdminOpenBotGroupManager(ply) end,
     ["/bot"] = function(ply) AdminOpenBotGroupManager(ply) end,
-
+    ["!bots"] = function(ply) AdminOpenBotGroupManager(ply) end,
+    ["/bots"] = function(ply) AdminOpenBotGroupManager(ply) end,
     -- C commands
     ["!changerank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
     ["/changerank"] = function(ply, args) return promote_player_by_rank(ply, args) end,
