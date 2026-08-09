@@ -3,7 +3,7 @@ FACTION_TYPES["FLAYED_ONES"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateNecron = function(self, bot, force_elite)
+    CreateBot = function(self, bot, force_elite)
         local baseHealth = GetHealthByTotalPlayers()
 
         baseHealth = baseHealth * 2
@@ -64,7 +64,7 @@ FACTION_TYPES["FLAYED_ONES"] = {
         if BOT_INVASION ~= "FLAYED_ONES" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "FLAYED_ONES" then
-                self:CreateNecron(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
