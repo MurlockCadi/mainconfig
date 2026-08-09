@@ -3,7 +3,7 @@ FACTION_TYPES["OOPSALLBOMBS"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateBombs = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite or math.random(1, 100) <= 5
 
@@ -126,7 +126,7 @@ FACTION_TYPES["OOPSALLBOMBS"] = {
         if BOT_INVASION ~= "OOPSALLBOMBS" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "OOPSALLBOMBS" then
-                self:CreateBombs(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
