@@ -2,7 +2,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
     STAGE = "RATS",
     DeathsByType = {},
     OffWorld = true,
-    CreateRat = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite
         if spawn_elite then
@@ -163,7 +163,7 @@ FACTION_TYPES["OOPS_ALL_RATS"] = {
         if BOT_INVASION ~= "OOPS_ALL_RATS" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "OOPS_ALL_RATS" then
-                self:CreateRat(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
