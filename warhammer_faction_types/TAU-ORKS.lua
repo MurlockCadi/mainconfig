@@ -3,7 +3,7 @@ FACTION_TYPES["TAU-ORKS"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateTauOrk = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
         if spawn_elite then
@@ -352,7 +352,7 @@ FACTION_TYPES["TAU-ORKS"] = {
         if BOT_INVASION ~= "TAU-ORKS" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status", "friendly") ~= "TAU-ORKS" then
-                self:CreateTauOrk(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
