@@ -3,7 +3,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateKhorneUnit = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
 
@@ -112,7 +112,7 @@ FACTION_TYPES["KHORNE_HORDE"] = {
         if BOT_INVASION ~= "KHORNE_HORDE" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status", "friendly") ~= "KHORNE_HORDE" then
-                self:CreateKhorneUnit(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
