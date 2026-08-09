@@ -3,7 +3,7 @@ FACTION_TYPES["ORKZ"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateCultist = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local TotalPlayers = #player.GetHumans()
         local health = GetHealthByTotalPlayers() * 1.2
 
@@ -210,7 +210,7 @@ FACTION_TYPES["ORKZ"] = {
         local AllBots = player.GetBots()
         for _, bot in ipairs(AllBots) do
             if bot:GetNWString("Status", "friendly") ~= "ORKZ" then
-                self:CreateCultist(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
