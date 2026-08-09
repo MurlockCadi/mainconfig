@@ -3,7 +3,7 @@ FACTION_TYPES["DARK MECHANICUS"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateDarkMech = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 		local spawn_elite = elite -- Only spawn elites when we want them to 
         if spawn_elite then
@@ -215,7 +215,7 @@ FACTION_TYPES["DARK MECHANICUS"] = {
         if BOT_INVASION ~= "DARK MECHANICUS" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status", "friendly") ~= "DARK MECHANICUS" then
-                self:CreateDarkMech(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
