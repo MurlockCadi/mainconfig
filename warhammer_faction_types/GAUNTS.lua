@@ -3,7 +3,7 @@ FACTION_TYPES["GAUNTS"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateGaunt = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite or math.random(1, 100) <= 5
 
@@ -65,7 +65,7 @@ FACTION_TYPES["GAUNTS"] = {
         if BOT_INVASION ~= "GAUNTS" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "GAUNTS" then
-                self:CreateGaunt(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end 
     end
