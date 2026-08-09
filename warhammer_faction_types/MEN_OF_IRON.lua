@@ -2,7 +2,7 @@ FACTION_TYPES["MEN_OF_IRON"] = {
     STAGE = "Men of Iron",
     DeathsByType = {},
     OffWorld = true,
-    CreateIron = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
         local EliteShootingWeapons = {
@@ -179,7 +179,7 @@ FACTION_TYPES["MEN_OF_IRON"] = {
         if BOT_INVASION ~= "MEN_OF_IRON" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "MEN_OF_IRON" then
-                self:CreateIron(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
