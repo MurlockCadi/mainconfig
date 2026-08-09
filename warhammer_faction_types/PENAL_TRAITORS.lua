@@ -2,7 +2,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
     STAGE = "The damned rebel!.",
     DeathsByType = {},
     OffWorld = true,
-    CreatePenal = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
         local spawn_elite = elite -- Only spawn elites when we want them to 
@@ -197,7 +197,7 @@ FACTION_TYPES["PENAL_TRAITORS"] = {
         if BOT_INVASION ~= "PENAL_TRAITORS" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "PENAL_TRAITORS" then
-                self:CreatePenal(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end
