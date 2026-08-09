@@ -2,7 +2,7 @@ FACTION_TYPES["TAU"] = {
     STAGE = "Tau",
     DeathsByType = {},
     OffWorld = true,
-    CreateTau = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 		
 
@@ -336,7 +336,7 @@ FACTION_TYPES["TAU"] = {
         if BOT_INVASION ~= "TAU" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "TAU" then
-                self:CreateTau(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
