@@ -3,7 +3,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateTraitorGuardsmen = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local TotalPlayers = #player.GetHumans()
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite or math.random(1, 100) <= 5
@@ -192,7 +192,7 @@ FACTION_TYPES["TRAITOR_GUARDSMEN"] = {
         if BOT_INVASION ~= "TRAITOR_GUARDSMEN" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "TRAITOR_GUARDSMEN" then
-                self:CreateTraitorGuardsmen(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
