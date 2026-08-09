@@ -3,7 +3,7 @@ FACTION_TYPES["PIRATES"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreatePirate = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers() * 1.4
         local spawn_elite = elite or math.random(1, 100) <= 20
 
@@ -172,7 +172,7 @@ FACTION_TYPES["PIRATES"] = {
         if BOT_INVASION ~= "PIRATES" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "PIRATES" then
-                self:CreatePirate(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
