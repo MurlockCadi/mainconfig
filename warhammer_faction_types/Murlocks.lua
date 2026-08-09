@@ -3,7 +3,7 @@ FACTION_TYPES["Murlocks"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateTraitorGuardsmen = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local TotalPlayers = #player.GetHumans()
         local health = GetHealthByTotalPlayers() * 10
 
@@ -37,7 +37,7 @@ FACTION_TYPES["Murlocks"] = {
         if BOT_INVASION ~= "Murlocks" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "Murlocks" then
-                self:CreateTraitorGuardsmen(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
