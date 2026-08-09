@@ -3,7 +3,7 @@ FACTION_TYPES["SLAANESH_OFFWORLD"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateSlaaneshInvader = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
 
@@ -92,7 +92,7 @@ FACTION_TYPES["SLAANESH_OFFWORLD"] = {
         if BOT_INVASION ~= "SLAANESH_OFFWORLD" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "SLAANESH_OFFWORLD" then
-                self:CreateSlaaneshInvader(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
