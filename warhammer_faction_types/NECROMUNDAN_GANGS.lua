@@ -3,7 +3,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateGangs = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite
 
@@ -341,7 +341,7 @@ FACTION_TYPES["NECROMUNDAN_GANGS"] = {
         if BOT_INVASION ~= "NECROMUNDAN_GANGS" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "NECROMUNDAN_GANGS" then
-                self:CreateGangs(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
