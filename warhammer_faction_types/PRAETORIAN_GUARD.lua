@@ -3,7 +3,7 @@ FACTION_TYPES["PRAETORIAN_GUARD"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateGuard = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers() * 1.5
 
         local spawn_elite = elite or math.random(1, 100) <= 5
@@ -86,7 +86,7 @@ FACTION_TYPES["PRAETORIAN_GUARD"] = {
         if BOT_INVASION ~= "PRAETORIAN_GUARD" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "PRAETORIAN_GUARD" then
-                self:CreateGuard(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
