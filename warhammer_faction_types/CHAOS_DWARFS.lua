@@ -2,7 +2,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
     STAGE = "Chaos Dwarfs",
     DeathsByType = {},
     OffWorld = true,
-    CreateDwarfs = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 		
             local ShootingWeapons = {
@@ -282,7 +282,7 @@ FACTION_TYPES["CHAOS_DWARFS"] = {
         if BOT_INVASION ~= "CHAOS_DWARFS" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "CHAOS_DWARFS" then
-                self:CreateDwarfs(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
