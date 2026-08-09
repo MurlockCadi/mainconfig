@@ -3,7 +3,7 @@ FACTION_TYPES["VOTANN"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    	CreateVotann = function(self, bot, elite)
+    	CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite
 
@@ -202,7 +202,7 @@ FACTION_TYPES["VOTANN"] = {
         if BOT_INVASION ~= "VOTANN" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "VOTANN" then
-                self:CreateVotann(bot,ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot,ALWAYS_SPAWN_ELITES)
             end
         end
     end,
