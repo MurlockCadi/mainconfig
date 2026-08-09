@@ -9,7 +9,7 @@ FACTION_TYPES["MILITIA"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateMilitia = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
         local spawn_elite = elite
         if spawn_elite then
@@ -110,7 +110,7 @@ FACTION_TYPES["MILITIA"] = {
         if BOT_INVASION ~= "MILITIA" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "MILITIA" then
-                self:CreateMilitia(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
