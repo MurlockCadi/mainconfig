@@ -2256,6 +2256,20 @@ ROLES = ROLES or {
         Classes = {
             {Name = "OFFWORLD", Default = true, Models = {"models/dizcordum/notloyal/thugs/thug_male.mdl"}, Weapons = {}, SpawnWeapons = {}, Prefix = ""}
         }
+    },
+    HOSTILE_BOT_ROLE = {
+        NiceName = "Offworld Bot",
+        Prefix = "",
+        Color = Color(50, 50, 50, 255),
+        Description = "Offworld Bot",
+        Bots = true,
+        Team = "OFFWORLD",
+        Ranks = {
+            {ID = 1, Name = "OFFWORLD", Rank_Prefix = "", ModelsAllowed = {"models/dizcordum/notloyal/thugs/thug_male.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {Name = "OFFWORLD", Default = true, Models = {"models/dizcordum/notloyal/thugs/thug_male.mdl"}, Weapons = {}, SpawnWeapons = {}, Prefix = ""}
+        }
     }
 }
 DEFAULT_ROLE = ROLES.DIVISION_CADIAN
