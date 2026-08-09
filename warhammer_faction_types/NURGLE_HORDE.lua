@@ -3,7 +3,7 @@ FACTION_TYPES["NURGLE_HORDE"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreatePoxwalker = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local TotalPlayers = 0
         for _, ply in ipairs(player.GetHumans()) do
             if ply:IsPlayer() and ply:Alive() then
@@ -110,7 +110,7 @@ FACTION_TYPES["NURGLE_HORDE"] = {
         if BOT_INVASION ~= "NURGLE_HORDE" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "NURGLE_HORDE" then
-                self:CreatePoxwalker(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end
