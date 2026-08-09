@@ -3,7 +3,7 @@ FACTION_TYPES["Frogs"] = {
     DeathsByType = {},
     OffWorld = true,
 
-    CreateCultist = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
         health = health * 2
         local spawn_elite = elite or math.random(1, 100) <= 6
@@ -212,7 +212,7 @@ FACTION_TYPES["Frogs"] = {
         if BOT_INVASION ~= "Frogs" then return end
         for _, bot in ipairs(player.GetBots()) do
             if bot:GetNWString("Status") ~= "Frogs" then
-                self:CreateCultist(bot, ALWAYS_SPAWN_ELITES)
+                self:CreateBot(bot, ALWAYS_SPAWN_ELITES)
             end
         end
     end,
