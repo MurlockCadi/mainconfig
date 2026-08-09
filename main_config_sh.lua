@@ -911,7 +911,7 @@ DivisionTypes = {
                     "cat_legacy_omnissiahaxe",
 					"rope_tool"
                 },
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_fists"},
                 EntitySpawner = {
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -932,6 +932,7 @@ DivisionTypes = {
 					"models/wk/gans/wk_gans_priest.mdl",
 					"models/astartes/mech/magos.mdl"
                 },
+				SpawnWeapons = {"weapon_fists"},
                 MaxHealth = 125,
                 PowerShield = true,
 				atomic = true,
@@ -943,7 +944,7 @@ DivisionTypes = {
                     "cat_legacy_omnissiahaxe",
 					"rope_tool"
                 },
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_fists"},
                 EntitySpawner = {
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
@@ -966,7 +967,7 @@ DivisionTypes = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe",
                 },
-                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -991,7 +992,7 @@ DivisionTypes = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe"
                 },
-                SpawnWeapons = {"murlock_staff_player","ent_spawner","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"murlock_staff_player","ent_spawner","weapon_extinguisher_infinite","weapon_fists"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -1013,7 +1014,7 @@ DivisionTypes = {
                 Weapons = {
                     "cat_legacy_omnissiahaxe"
                 },
-                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -1038,7 +1039,7 @@ DivisionTypes = {
                     "weapon_simrepair",
 					"rope_tool"
                 },
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic","weapon_lvsrepair","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
@@ -1057,7 +1058,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/wk/servitor/wk_servit.mdl"},
                 ForceModels = true,
-                Weapons = {"cat_legacy_gravgun"},
+                Weapons = {"cat_legacy_gravgun", "cat_legacy_powerfistcrusade"},
                 MaxHealth = 150,
                 SpawnWeapons = {},
                 Prefix = "Servitor"
@@ -1068,10 +1069,10 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/wk/adeptus_mechanicus/wk_secutarii_hoplites.mdl","models/wk/adeptus_mechanicus/wk_secutarii_hoplites_alpha.mdl","models/wk/adeptus_mechanicus/wk_sicarian_infiltrators.mdl","models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_marshal.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard_alpha.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard_mars.mdl"},
                 ForceModels = true,
-                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic"},
+                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic" },
                 MaxHealth = 150,
 				PowerShield = true,
-                SpawnWeapons = {"weapon_lvsrepair","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists"},
                 Prefix = "Skitarii"
             }
         }
@@ -1091,7 +1092,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1101,7 +1102,7 @@ DivisionTypes = {
                 Weapons = {"cat_custom_sniper"},
                 MaxHealth = 100,
                 ForceModels = true,
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1111,7 +1112,7 @@ DivisionTypes = {
                 Weapons = SQUAT_WEAPONS,
                 ForceModels = true,
                 MaxHealth = 150,
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1121,7 +1122,7 @@ DivisionTypes = {
                 Weapons = OGRYN_WEAPONS,
                 ForceModels = true,
                 MaxHealth = 300,
-                SpawnWeapons = {},
+                SpawnWeapons = {"cat_legacy_powerfistcrusade"},
                 Prefix = ""
             },
             {
@@ -1132,7 +1133,7 @@ DivisionTypes = {
 				Medic = true,
                 ForceModels = true,
                 MaxHealth = 125,
-                SpawnWeapons = {"cat_legacy_chainsword"},
+                SpawnWeapons = {"cat_legacy_chainsword","weapon_fists"},
                 Prefix = ""
             },
 		}
@@ -1162,7 +1163,7 @@ DivisionTypes = {
                 Weapons = {"cat_custom_sniper"},
                 MaxHealth = 100,
                 ForceModels = true,
-                SpawnWeapons = {"realistic_hook"},
+                SpawnWeapons = {"realistic_hook","weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1173,7 +1174,7 @@ DivisionTypes = {
 	       		PowerShield = true,
                 ForceModels = true,
                 MaxHealth = 150,
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1183,7 +1184,7 @@ DivisionTypes = {
                 Weapons = OGRYN_WEAPONS,
                 ForceModels = true,
                 MaxHealth = 400,
-                SpawnWeapons = {},
+                SpawnWeapons = {"cat_legacy_powerfistcrusade"},
                 Prefix = ""
             },
 		}
@@ -1224,7 +1225,7 @@ DivisionTypes = {
                 Models = {},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol","weapon_taser"},
                 MaxHealth = 200,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1242,7 +1243,7 @@ DivisionTypes = {
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol","weapon_taser"},
                 MaxHealth = 200,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1280,7 +1281,7 @@ DivisionTypes = {
                 Magic = true,
                 Models = {"models/models/svin/pyromant.mdl","models/wk/psy/wk_alpha_psyker.mdl","models/wk/psy/wk_astropath.mdl","models/wk/psy/wk_mystic.mdl","models/wk/psy/wk_mystic_primus.mdl","models/wk/psy/wk_navigator.mdl","models/wk/psy/wk_primaris_fem.mdl","models/wk/psy/wk_primaris_psyker.mdl","models/wk/psy/wk_wyrdvane.mdl","models/wk/psy/wk_wyrdvane_fem.mdl","models/wk/sodium/sodium_astropath.mdl"},
                 Weapons = {},
-                SpawnWeapons = {"murlock_staff_player"},
+                SpawnWeapons = {"murlock_staff_player","weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1290,7 +1291,7 @@ DivisionTypes = {
                 Weapons = OGRYN_WEAPONS,
                 ForceModels = true,
                 MaxHealth = 400,
-                SpawnWeapons = {},
+                SpawnWeapons = {"cat_legacy_powerfistcrusade"},
                 Prefix = ""
             },
             {
@@ -1302,7 +1303,7 @@ DivisionTypes = {
 				priest = true,
                 ForceModels = true,
                 MaxHealth = 100,
-                SpawnWeapons = {"murlock_staff_player"},
+                SpawnWeapons = {"murlock_staff_player","weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1314,7 +1315,7 @@ DivisionTypes = {
 				Medic = true,
                 ForceModels = true,
                 MaxHealth = 150,
-                SpawnWeapons = {"murlock_staff_player"},
+                SpawnWeapons = {"murlock_staff_player","weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1325,7 +1326,7 @@ DivisionTypes = {
 	            PowerShield = true,
                 ForceModels = true,
                 MaxHealth = 150,
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1335,7 +1336,7 @@ DivisionTypes = {
                 Weapons = {"cat_custom_sniper"},
                 MaxHealth = 100,
                 ForceModels = true,
-                SpawnWeapons = {"realistic_hook"},
+                SpawnWeapons = {"realistic_hook","weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1346,7 +1347,7 @@ DivisionTypes = {
                 MaxHealth = 150,
                 ForceModels = true,
                 atomic = true,
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_simrepair"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_simrepair","weapon_fists"},
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -1384,7 +1385,7 @@ DivisionTypes = {
                 PowerShield = true,
 				CanManageTaxes = true,
                 ForceModels = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1404,7 +1405,7 @@ DivisionTypes = {
                 PowerShield = true,
 				CanManageTaxes = true,
                 ForceModels = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1424,7 +1425,7 @@ DivisionTypes = {
 				CanManageTaxes = true,
                 PowerShield = true,
                 ForceModels = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1454,7 +1455,7 @@ DivisionTypes = {
                 MaxHealth = 200,
                 PowerShield = true,
 				CanManageTaxes = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic",},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1474,7 +1475,7 @@ DivisionTypes = {
                 MaxHealth = 175,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1494,7 +1495,7 @@ DivisionTypes = {
                 MaxHealth = 175,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "Marshal",
                 EntitySpawner = {
                     {
@@ -1514,7 +1515,7 @@ DivisionTypes = {
                 MaxHealth = 175,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "Major",
                 EntitySpawner = {
                     {
@@ -1534,7 +1535,7 @@ DivisionTypes = {
                 MaxHealth = 175,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1562,7 +1563,7 @@ DivisionTypes = {
                 Default = true, 
                 Models = MERC_MODELS, 
                 Weapons = {}, 
-                SpawnWeapons = {"refinery_spawner"}, 
+                SpawnWeapons = {"refinery_spawner","weapon_fists"}, 
                 Prefix = ""
             }
         }
@@ -1582,7 +1583,7 @@ DivisionTypes = {
                 Models = HOLY_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
                 MaxHealth = 100,
-                SpawnWeapons = {"murlock_staff_player_new"},
+                SpawnWeapons = {"murlock_staff_player_new","weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1593,7 +1594,7 @@ DivisionTypes = {
                 Models = CRUSADER_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
                 MaxHealth = 200,
-                SpawnWeapons = {"murlock_staff_player_new"},
+                SpawnWeapons = {"murlock_staff_player_new","weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1605,7 +1606,7 @@ DivisionTypes = {
 				Medic = true,
                 ForceModels = true,
                 MaxHealth = 150,
-                SpawnWeapons = {"murlock_staff_player_new"},
+                SpawnWeapons = {"murlock_staff_player_new","weapon_fists"},
                 Prefix = ""
             }
 		}
@@ -1635,7 +1636,7 @@ DivisionTypes = {
                 ForceModels = true,
                 Models = PYSKER_MODELS,
                 Weapons = {},
-                SpawnWeapons = {"murlock_staff_player_new"},
+                SpawnWeapons = {"murlock_staff_player_new","weapon_fists"},
                 Prefix = ""
             }
 		}
@@ -1661,7 +1662,7 @@ DivisionTypes = {
                 Models = {},
                 Weapons = {},
                 MaxHealth = 200,
-                SpawnWeapons = {"jet_mk1"},
+                SpawnWeapons = {"jet_mk1","weapon_fists"},
                 Prefix = ""
             },
             {
@@ -1671,7 +1672,7 @@ DivisionTypes = {
                 MaxHealth = 200,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"fas2_ifak","ent_spawner","jet_mk1"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","jet_mk1","weapon_fists"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
@@ -1688,7 +1689,7 @@ DivisionTypes = {
                 Models = {},
                 MaxHealth = 200,
                 Weapons = {"cat_custom_flamer"},
-                SpawnWeapons = {"ent_spawner","jet_mk1"},
+                SpawnWeapons = {"ent_spawner","jet_mk1","weapon_fists"},
                 Prefix = "WS",
                 EntitySpawner = {
                     {
@@ -1705,7 +1706,7 @@ DivisionTypes = {
                 Models = {},
                 MaxHealth = 200,
                 Weapons = {"cat_custom_longlas_kantrael"},
-                SpawnWeapons = {"ent_spawner","jet_mk1","realistic_hook"},
+                SpawnWeapons = {"ent_spawner","jet_mk1","realistic_hook","weapon_fists"},
                 Prefix = "SN",
                 EntitySpawner = {
                     {
@@ -1723,7 +1724,7 @@ DivisionTypes = {
                 Models = {},
                 MaxHealth = 200,
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","jet_mk1","wep_radio_usa_ww2"},
+                SpawnWeapons = {"ent_spawner","jet_mk1","wep_radio_usa_ww2","weapon_fists"},
                 EntitySpawner = {
                     {
                         name = "Radio",
@@ -1761,7 +1762,7 @@ DivisionTypes = {
                 Default = true,
                 Models = CADIAN_MODELS,
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
 			{
@@ -1770,7 +1771,7 @@ DivisionTypes = {
                 Models = KARSIKIN_MODELS,
 				MaxHealth = 150,
                 Weapons = {"cat_custom_hellgunstandard"},
-                SpawnWeapons = {"realistic_hook"},
+                SpawnWeapons = {"realistic_hook","weapon_fists"},
                 Prefix = "KS",
 	            vehicles = {
                     { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
@@ -1784,7 +1785,7 @@ DivisionTypes = {
                 Models = CADIAN_MODELS,
                 Weapons = {},
                 ForceModels = true,
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_fists"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
@@ -1800,7 +1801,7 @@ DivisionTypes = {
                 Core = true,
                 Models = CADIAN_MODELS,
                 Weapons = {"cat_custom_missilelauncher","cat_custom_laspistol"},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "HW",
                 EntitySpawner = {
                     {
@@ -1816,7 +1817,7 @@ DivisionTypes = {
                 Core = true,
                 Models = CADIAN_MODELS,
                 Weapons = {"cat_custom_flamer","cat_custom_laspistol"},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "WS",
                 EntitySpawner = {
                     {
@@ -1832,7 +1833,7 @@ DivisionTypes = {
                 Core = true,
                 Models = CADIAN_MODELS,
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","rope_tool"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","rope_tool","weapon_fists"},
                 Prefix = "LO",
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -1877,7 +1878,7 @@ DivisionTypes = {
                 Radio = true,
                 Models = CADIAN_MODELS,
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","wep_radio_usa_ww2"},
+                SpawnWeapons = {"ent_spawner","wep_radio_usa_ww2","weapon_fists"},
                 EntitySpawner = {
                     {
                         name = "Radio",
@@ -1918,7 +1919,7 @@ DivisionTypes = {
                 Default = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
 			{
@@ -1927,7 +1928,7 @@ DivisionTypes = {
                 Models = {"models/krig_stormtrooper.mdl"},
 				MaxHealth = 150,
                 Weapons = {"cat_custom_hellgun_lucius"},
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = "GR",
 	            vehicles = {
                     { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
@@ -1941,7 +1942,7 @@ DivisionTypes = {
                 Models = {"models/krig_medic.mdl"},
                 Weapons = {},
                 ForceModels = true,
-                SpawnWeapons = {"fas2_ifak","ent_spawner"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_fists"},
                 Prefix = "MD",
                 EntitySpawner = {
                     {
@@ -1957,7 +1958,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {"cat_custom_missilelauncher","cat_custom_laspistol"},
-                SpawnWeapons = {"ent_spawner"},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "HW",
                 EntitySpawner = {
                     {
@@ -1973,19 +1974,13 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {"cat_custom_flamer","cat_custom_laspistol"},
-                SpawnWeapons = {"ent_spawner","weapon_sh_mustardgas"},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "WS",
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
                         entityname = "universal_ammo_small",
                         description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Gas Mask",
-                        entityname = "item_sh_gasmask",
-                        description = "10 Uses.",
                         type = "Ammo"
                     },
                 },
@@ -1995,7 +1990,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","rope_tool"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","rope_tool","weapon_fists"},
                 Prefix = "ENG",
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -2051,7 +2046,7 @@ DivisionTypes = {
                 Radio = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","wep_radio_usa_ww2"},
+                SpawnWeapons = {"ent_spawner","wep_radio_usa_ww2","weapon_fists"},
                 EntitySpawner = {
                     {
                         name = "Radio",
