@@ -686,6 +686,7 @@ DivisionTypes = {
 
             {
                 Name = "Medic",
+				Medic = true,
                 Core = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_medic.mdl",
@@ -813,6 +814,7 @@ DivisionTypes = {
 
             {
                 Name = "Medic",
+				Medic = true,
                 Core = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_medic.mdl",
@@ -954,6 +956,7 @@ DivisionTypes = {
             {
                 Name = "Doctor",
                 Core = true,
+				Medic = true,
                 Models = {
                     "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
                     "models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
