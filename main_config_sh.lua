@@ -467,7 +467,9 @@ commands = {
 	["!gmqueue"]   = function(ply) return handleGMQueueCommand(ply)   end,
 	["/rphistory"] = function(ply) return handleRPHistoryCommand(ply) end,
 	["!rphistory"] = function(ply) return handleRPHistoryCommand(ply) end,
-	["/spawn_items"] = function(ply, args) return AdminSpawnItem(ply, args) end
+	["/spawn_items"] = function(ply, args) return AdminSpawnItem(ply, args) end,
+    ["/civbots"] = function(ply) AdminBotOpenMenu(ply) end,
+    ["!civbots"] = function(ply) AdminBotOpenMenu(ply) end,
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
