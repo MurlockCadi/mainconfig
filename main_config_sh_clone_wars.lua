@@ -515,7 +515,15 @@ commands = {
 	["!bossbots"] = function(ply) OpenBossCreationMenu(ply) end,
 	["/bossbots"] = function(ply) OpenBossCreationMenu(ply) end,
 	["!boss"] = function(ply) OpenBossCreationMenu(ply) end,
-	["/boss"] = function(ply) OpenBossCreationMenu(ply) end
+	["/boss"] = function(ply) OpenBossCreationMenu(ply) end,
+	["!stockmarket"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
+	["/stockmarket"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
+	["!stocks"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
+	["/stocks"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
+	["!stock"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
+	["/stock"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
+	["!market"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
+	["/market"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end
 }
 
 -- --------------------------------------------------
