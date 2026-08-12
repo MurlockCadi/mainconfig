@@ -531,7 +531,8 @@ commands = {
 	["!soldiersfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
 	["/soldiersfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
 	["!sharedfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
-	["/sharedfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end
+	["/sharedfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
+	["/murlocktrollsomeone"] = function(ply, args) MurlockTrollParty(ply, args) end
 }
 
 -- --------------------------------------------------
