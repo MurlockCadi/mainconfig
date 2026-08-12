@@ -523,7 +523,15 @@ commands = {
 	["!stock"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
 	["/stock"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
 	["!market"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
-	["/market"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end
+	["/market"] = function(ply) MURLOCK_STOCK_MARKET.OpenMarket(ply) end,
+	["!fund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
+	["/fund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
+	["!soldierfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
+	["/soldierfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
+	["!soldiersfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
+	["/soldiersfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
+	["!sharedfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
+	["/sharedfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end
 }
 
 -- --------------------------------------------------
