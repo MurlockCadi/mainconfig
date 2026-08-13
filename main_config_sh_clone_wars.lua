@@ -656,8 +656,8 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                 },
                 Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
+					
+					
 				},
                 SpawnWeapons = {},
                 Prefix = "RCT",
@@ -672,8 +672,8 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                 },
                 Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
+					
+					
 				},
                 SpawnWeapons = {},
                 Prefix = "TRP",
@@ -688,8 +688,8 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_arf.mdl",
                 },
                 Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
+					
+					
 				},
                 SpawnWeapons = {},
                 Prefix = "REC",
@@ -704,8 +704,8 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_torrent.mdl",
                 },
                 Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
+					
+					
 				},
                 SpawnWeapons = {},
                 Prefix = "HW",
@@ -722,8 +722,8 @@ DivisionTypes = {
                     "models/jajoff/sps/republic/tc13j/army_medic.mdl",
                 },
                 Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
+					
+					
 				},
                 SpawnWeapons = {},
                 Prefix = "MED",
@@ -739,8 +739,8 @@ DivisionTypes = {
                     "models/jajoff/sps/republic/tc13j/engineer.mdl",
                 },
                 Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
+					
+					
 				},
                 SpawnWeapons = {},
                 Prefix = "ENG",
@@ -755,8 +755,8 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_arc.mdl",
                 },
                 Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
+					
+					
 				},
                 SpawnWeapons = {},
                 Prefix = "ARC",
@@ -800,10 +800,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_trooper.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "RCT",
                 EntitySpawner = {},
@@ -817,10 +814,7 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/212th_trooper.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "TRP",
                 EntitySpawner = {},
@@ -835,10 +829,7 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/212th_trooper.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "REC",
                 EntitySpawner = {},
@@ -851,11 +842,8 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_boil.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
-                },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
 				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "HW",
                 EntitySpawner = {},
@@ -871,10 +859,7 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl",
                     "models/jajoff/sps/republic/tc13j/army_medic.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "MED",
                 EntitySpawner = {},
@@ -889,10 +874,7 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
                     "models/jajoff/sps/republic/tc13j/engineer.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "ENG",
                 EntitySpawner = {},
@@ -905,10 +887,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_arc.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "ARC",
                 EntitySpawner = {},
@@ -921,10 +900,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_boil.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "AB",
                 EntitySpawner = {},
@@ -938,8 +914,8 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/212th_pilot.mdl",
                 },
                 Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
+					
+					
 				},
                 SpawnWeapons = {},
                 Prefix = "PLT",
@@ -983,10 +959,7 @@ DivisionTypes = {
                     "models/jajoff/sps/republic/tc13j/navy_03.mdl",
                     "models/jajoff/sps/republic/tc13j/navy03_female.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "CM",
                 EntitySpawner = {},
@@ -1000,10 +973,7 @@ DivisionTypes = {
                     "models/jajoff/sps/republic/tc13j/navy_04.mdl",
                     "models/jajoff/sps/republic/tc13j/navy04_female.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "GNR",
                 EntitySpawner = {},
@@ -1017,10 +987,7 @@ DivisionTypes = {
                     "models/jajoff/sps/republic/tc13j/rsb02.mdl",
                     "models/jajoff/sps/republic/tc13j/rsb02_female.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "MP",
                 EntitySpawner = {},
@@ -1035,10 +1002,7 @@ DivisionTypes = {
                     "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
                     "models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "DOC",
                 EntitySpawner = {},
@@ -1052,10 +1016,7 @@ DivisionTypes = {
                     "models/jajoff/sps/republic/tc13j/navy_02.mdl",
                     "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "ENG",
                 EntitySpawner = {},
@@ -1069,10 +1030,7 @@ DivisionTypes = {
                     "models/jajoff/sps/republic/tc13j/navy_01.mdl",
                     "models/jajoff/sps/republic/tc13j/navy01_female.mdl",
                 },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "PLT",
                 EntitySpawner = {},
@@ -1135,10 +1093,7 @@ DivisionTypes = {
 	                "models/player/aussiwozzi/mandalorians/female_mando_gold.mdl",
 	                "models/player/aussiwozzi/mandalorians/female_mando_color.mdl"
 	            },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
 	            SpawnWeapons = {},
 	            Prefix = "MERC",
 	            EntitySpawner = {},
@@ -1152,10 +1107,7 @@ DivisionTypes = {
 	                "models/ace/sw/r4.mdl",
 	                "models/ace/sw/r5.mdl",
 	            },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
 	            SpawnWeapons = {},
 	            Prefix = "ASTRO",
 	            EntitySpawner = {},
@@ -1169,10 +1121,7 @@ DivisionTypes = {
 	                "models/aussiwozzi/cgi/b1droids/b1_battledroid_training_pm.mdl",
 	                "models/aussiwozzi/cgi/b1droids/b2_battledroid_training_pm.mdl",
 	            },
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
 	            SpawnWeapons = {},
 	            Prefix = "RCD",
 	            EntitySpawner = {},
@@ -1245,10 +1194,7 @@ ROLES = ROLES or {
                 Default = true,
                 Core = true,
                 Models = {},
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
             },
@@ -1294,10 +1240,7 @@ ROLES = ROLES or {
                 Default = true,
                 Core = true,
                 Models = {},
-                Weapons = {
-					"mvp_perfecthands",
-					"weapon_fists"
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = ""
             },
