@@ -62,7 +62,7 @@ FACTION_TYPES["Nurgle Infected"] = {
         end
     end,
 
-    CreateCultist = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
                 --10% Chance to Spawn as an Elite
 
