@@ -656,7 +656,7 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                 },
                 Weapons = {},
-                SpawnWeapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = "RCT",
                 EntitySpawner = {},
                 vehicles = {},
