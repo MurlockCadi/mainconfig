@@ -657,7 +657,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "RCT",
@@ -673,7 +673,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "TRP",
@@ -689,7 +689,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "REC",
@@ -705,7 +705,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "HW",
@@ -723,7 +723,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "MED",
@@ -740,7 +740,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "ENG",
@@ -756,7 +756,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "ARC",
@@ -802,7 +802,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "RCT",
@@ -819,7 +819,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "TRP",
@@ -837,7 +837,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "REC",
@@ -854,7 +854,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "HW",
@@ -873,7 +873,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "MED",
@@ -891,7 +891,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "ENG",
@@ -907,7 +907,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "ARC",
@@ -923,7 +923,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "AB",
@@ -939,7 +939,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "PLT",
@@ -985,7 +985,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "CM",
@@ -1002,7 +1002,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "GNR",
@@ -1019,7 +1019,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "MP",
@@ -1037,7 +1037,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "DOC",
@@ -1054,7 +1054,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "ENG",
@@ -1071,7 +1071,7 @@ DivisionTypes = {
                 },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = "PLT",
@@ -1137,7 +1137,7 @@ DivisionTypes = {
 	            },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
 	            SpawnWeapons = {},
 	            Prefix = "MERC",
@@ -1154,7 +1154,7 @@ DivisionTypes = {
 	            },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
 	            SpawnWeapons = {},
 	            Prefix = "ASTRO",
@@ -1171,7 +1171,7 @@ DivisionTypes = {
 	            },
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
 	            SpawnWeapons = {},
 	            Prefix = "RCD",
@@ -1247,7 +1247,7 @@ ROLES = ROLES or {
                 Models = {},
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = ""
@@ -1296,7 +1296,7 @@ ROLES = ROLES or {
                 Models = {},
                 Weapons = {
 					"mvp_perfecthands",
-					"murlock_fists"
+					"weapon_fists"
 				},
                 SpawnWeapons = {},
                 Prefix = ""
