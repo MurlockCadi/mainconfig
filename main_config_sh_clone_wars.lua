@@ -1217,7 +1217,7 @@ ROLES = ROLES or {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
         },
