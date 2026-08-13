@@ -60,7 +60,7 @@ FACTION_TYPES["Tzeentch Cult"] = {
         end
     end,
 
-    CreateCultist = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
         local roll = math.random(1, 100)
