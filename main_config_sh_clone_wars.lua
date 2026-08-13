@@ -655,10 +655,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                 },
-                Weapons = {
-					
-					
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "RCT",
                 EntitySpawner = {},
@@ -671,10 +668,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                 },
-                Weapons = {
-					
-					
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "TRP",
                 EntitySpawner = {},
@@ -687,10 +681,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_arf.mdl",
                 },
-                Weapons = {
-					
-					
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "REC",
                 EntitySpawner = {},
@@ -703,10 +694,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_torrent.mdl",
                 },
-                Weapons = {
-					
-					
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "HW",
                 EntitySpawner = {},
@@ -721,10 +709,7 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_medic.mdl",
                     "models/jajoff/sps/republic/tc13j/army_medic.mdl",
                 },
-                Weapons = {
-					
-					
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "MED",
                 EntitySpawner = {},
@@ -738,10 +723,7 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                     "models/jajoff/sps/republic/tc13j/engineer.mdl",
                 },
-                Weapons = {
-					
-					
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "ENG",
                 EntitySpawner = {},
@@ -754,10 +736,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_arc.mdl",
                 },
-                Weapons = {
-					
-					
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "ARC",
                 EntitySpawner = {},
@@ -842,7 +821,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_boil.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
-				},
+                },
                 Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "HW",
@@ -913,10 +892,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_pilot.mdl",
                 },
-                Weapons = {
-					
-					
-				},
+                Weapons = {},
                 SpawnWeapons = {},
                 Prefix = "PLT",
                 EntitySpawner = {},
@@ -1045,7 +1021,7 @@ DivisionTypes = {
 	    VIP = true,
 	    Default_items = {},
 	    Ranks = {
-	        {ID = 1, Name = "Auxiliary", Rank_Prefix = "", ModelsAllowed = {"models/ace/sw/r2.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+	        {ID = 1, Name = "Auxiliary", Rank_Prefix = "AUX", ModelsAllowed = {"models/ace/sw/r2.mdl"}, WeaponsAllowed = {}, CanPromote = false},
 	    },
 	    Classes = {
 	        {
@@ -1093,7 +1069,7 @@ DivisionTypes = {
 	                "models/player/aussiwozzi/mandalorians/female_mando_gold.mdl",
 	                "models/player/aussiwozzi/mandalorians/female_mando_color.mdl"
 	            },
-                Weapons = {},
+	            Weapons = {},
 	            SpawnWeapons = {},
 	            Prefix = "MERC",
 	            EntitySpawner = {},
@@ -1107,7 +1083,7 @@ DivisionTypes = {
 	                "models/ace/sw/r4.mdl",
 	                "models/ace/sw/r5.mdl",
 	            },
-                Weapons = {},
+	            Weapons = {},
 	            SpawnWeapons = {},
 	            Prefix = "ASTRO",
 	            EntitySpawner = {},
@@ -1121,7 +1097,7 @@ DivisionTypes = {
 	                "models/aussiwozzi/cgi/b1droids/b1_battledroid_training_pm.mdl",
 	                "models/aussiwozzi/cgi/b1droids/b2_battledroid_training_pm.mdl",
 	            },
-                Weapons = {},
+	            Weapons = {},
 	            SpawnWeapons = {},
 	            Prefix = "RCD",
 	            EntitySpawner = {},
@@ -1194,8 +1170,8 @@ ROLES = ROLES or {
                 Default = true,
                 Core = true,
                 Models = {},
-                Weapons = {"weapon_fists"},
-                SpawnWeapons = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
         },
@@ -1240,8 +1216,8 @@ ROLES = ROLES or {
                 Default = true,
                 Core = true,
                 Models = {},
-                Weapons = {"weapon_fists"},
-                SpawnWeapons = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists},
                 Prefix = ""
             },
         },
