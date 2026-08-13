@@ -2,7 +2,7 @@ FACTION_TYPES["Chem Runner"] = {
     STAGE = "Low Crime",
     DeathsByType = {},
 
-    RecruitDruggy = function(self, amount)
+    CreateBot = function(self, amount)
         local AllBots = player.GetBots()
         local druggyCount = 0
         for _, bot in ipairs(AllBots) do
@@ -281,7 +281,7 @@ FACTION_TYPES["Chem Runner"] = {
 
         for _, bot in ipairs(AllBots) do
             if bot.BotType == BotType and bot:GetNWString("Status", "friendly") ~= "Chem Runner" and not bot.Summon then
-                self:CreateCultist(bot)
+                self:CreateBot(bot)
             end
         end
 
