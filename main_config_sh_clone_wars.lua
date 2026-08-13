@@ -670,7 +670,7 @@ DivisionTypes = {
                 },
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "TRP",
+                Prefix = "",
                 EntitySpawner = {},
                 vehicles = {},
             },
@@ -795,7 +795,7 @@ DivisionTypes = {
                 },
                 Weapons = {},
                 SpawnWeapons = {},
-                Prefix = "TRP",
+                Prefix = "",
                 EntitySpawner = {},
                 vehicles = {},
             },
@@ -1021,7 +1021,7 @@ DivisionTypes = {
 	    VIP = true,
 	    Default_items = {},
 	    Ranks = {
-	        {ID = 1, Name = "Auxiliary", Rank_Prefix = "AUX", ModelsAllowed = {"models/ace/sw/r2.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+	        {ID = 1, Name = "Auxiliary", Rank_Prefix = "", ModelsAllowed = {"models/ace/sw/r2.mdl"}, WeaponsAllowed = {}, CanPromote = false},
 	    },
 	    Classes = {
 	        {
@@ -1212,7 +1212,7 @@ ROLES = ROLES or {
         },
         Classes = {
             {
-                Name = "442nd RCT",
+                Name = "212th RCT",
                 Default = true,
                 Core = true,
                 Models = {},
