@@ -3,7 +3,7 @@ FACTION_TYPES["Slaanesh"] = {
     DeathsByType = {},
     OffWorld = false,
 
-    CreateCultist = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
         local spawn_elite = false
