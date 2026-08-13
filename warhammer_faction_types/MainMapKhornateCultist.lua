@@ -13,7 +13,7 @@ FACTION_TYPES["Khornate Cultist"] = {
         end
     end,
 
-    RecruitCultist = function(self, amount)
+    CreateBot = function(self, amount)
         local AllBots = player.GetBots()
         local cultistCount = 0
         for _, bot in ipairs(AllBots) do
