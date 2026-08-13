@@ -1194,7 +1194,7 @@ ROLES = ROLES or {
                 Default = true,
                 Core = true,
                 Models = {},
-                Weapons = {},
+                Weapons = {"weapon_fists"},
                 SpawnWeapons = {},
                 Prefix = ""
             },
@@ -1240,7 +1240,7 @@ ROLES = ROLES or {
                 Default = true,
                 Core = true,
                 Models = {},
-                Weapons = {},
+                Weapons = {"weapon_fists"},
                 SpawnWeapons = {},
                 Prefix = ""
             },
