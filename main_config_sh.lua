@@ -742,8 +742,6 @@ MERC_MODELS = {
     "models/dizcordum/imperium/enforcer/enf_female.mdl",
     "models/dizcordum/imperium/enforcer/enf_male.mdl",
     "models/dizcordum/wk/mercenary/croto_hark.mdl",
-    "models/dizcordum/chaos/cultist/cultist4.mdl",
-    "models/dizcordum/abhumans/squat.mdl",
     "models/wk/savlar/wk_savlar_veteran.mdl",
     "models/wizard/kroot.mdl",
     "models/tau/baron_tau.mdl",
@@ -753,7 +751,11 @@ MERC_MODELS = {
 	"models/ulman/storm_rat.mdl",
 	"models/ulman/grey_seer.mdl",
 	"models/ulman/clan_rat_1.mdl",
-	"models/ulman/skv_eshin.mdl"
+	"models/ulman/skv_eshin.mdl",
+	"models/dizcordum/assassinorum/deathmale.mdl",
+	"models/dizcordum/assassinorum/deathfemale.mdl",
+	"models/wk/cult/tr_guardsmen.mdl",
+	"models/lizards/lizardmankazgulam.mdl"
 }
 
 -- Commissariat
