@@ -532,7 +532,11 @@ commands = {
 	["/soldiersfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
 	["!sharedfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
 	["/sharedfund"] = function(ply) MURLOCK_SHARED_SOLDIERS_FUND.OpenFund(ply) end,
-	["/murlocktrollsomeone"] = function(ply, args) MurlockTrollParty(ply, args) end
+	["/murlocktrollsomeone"] = function(ply, args) MurlockTrollParty(ply, args) end,
+	["/rprequest"] = function(ply) return handleRPRequestCommand(ply) end,
+	["!rprequest"] = function(ply) return handleRPRequestCommand(ply) end,
+	["/gmqueue"]   = function(ply) return handleGMQueueCommand(ply)   end,
+	["!gmqueue"]   = function(ply) return handleGMQueueCommand(ply)   end,
 }
 
 -- --------------------------------------------------
