@@ -537,6 +537,9 @@ commands = {
 	["!rprequest"] = function(ply) return handleRPRequestCommand(ply) end,
 	["/gmqueue"]   = function(ply) return handleGMQueueCommand(ply)   end,
 	["!gmqueue"]   = function(ply) return handleGMQueueCommand(ply)   end,
+
+	["/jediwhitelist"] = function(ply) return OpenJediWhitelister(ply) end,
+	["!jediwhitelist"] = function(ply) return OpenJediWhitelister(ply) end,
 }
 
 -- --------------------------------------------------
