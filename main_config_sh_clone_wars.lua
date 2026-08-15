@@ -1251,7 +1251,6 @@ ROLES = ROLES or {
         Prefix = "",
         Color = Color(63, 78, 86),
         Description = "Insert Merc Descriptions",
-        Default = true,
 		NotClone = true,
 		VIP = true,
 		CustomPerks = "mercenary",
