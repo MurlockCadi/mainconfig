@@ -622,6 +622,10 @@ NAVY_OFFICER = {
 -- ---------- DIVISION TYPES ------------------------
 -- --------------------------------------------------
 
+-- Clone Wars Specific Classifications
+-- .NotClone = true -- this means the division is not made up of clones so we dont need to enforce the number, just nickname in character creation
+-- .CustomPerks = "jedi" -- if this is set and not nil, they can only select perks where the perk data CustomPerkType = "type" a certain type
+
 DivisionTypes = {
 
     ["501st"] = {
@@ -908,6 +912,7 @@ DivisionTypes = {
         NiceName = "Navy",
         Description = "The Navy is a unit of the Grand Army of the Republic, known for their bravery and skill in battle.",
         Team = "Republic",
+		NotClone = true,
         Default_items = {},
         Ranks = {
             {ID = 1,  Name = "Crewman Recruit",           Rank_Prefix = "CR",     ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
@@ -1023,6 +1028,8 @@ DivisionTypes = {
 	    Description = "Special personnel and support assets assigned to the Grand Army of the Republic.",
 	    Team = "Republic",
 	    VIP = true,
+		NotClone = true,
+		CustomPerks = "mercenary",
 	    Default_items = {},
 	    Ranks = {
 	        {ID = 1, Name = "Auxiliary", Rank_Prefix = "", ModelsAllowed = {"models/ace/sw/r2.mdl"}, WeaponsAllowed = {}, CanPromote = false},
@@ -1107,7 +1114,8 @@ DivisionTypes = {
 	            EntitySpawner = {},
 	            vehicles = {},
 	        },
-	        --[[ jedi as i was told is not for launch so i also put this in a comment for later use
+	        --[[ jedi as i was told is not for launch so i also put this in a comment for later use. Jedi need to go into there own div
+			--Murmur here, please make jedi its own role please and CustomPerks = "jedi" so they use the jedi perks. Also NotClone = true,
 	        {
 	            Name = "Jedi",
 	            Core = true,
@@ -1134,6 +1142,7 @@ ROLES = ROLES or {
         Prefix = "",
         Color = Color(0, 0, 0, 255),
         Description = "Staff",
+		NotClone = true,
         Default = false,
         Classes = {
             {
@@ -1230,6 +1239,7 @@ ROLES = ROLES or {
     HOSTILE_BOT_ROLE = {
         NiceName = "Hostile Bot",
         Prefix = "",
+		NotClone = true,
         Color = Color(125, 0, 0),
         Description = "Hostile Bot Role",
         Default = false,
