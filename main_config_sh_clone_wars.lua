@@ -1052,7 +1052,6 @@ DivisionTypes = {
 	            {
 	            Name = "Mercenary",
 	            Core = true,
-				NotClone = true,
 	            Models = {
 	                "models/assassin/pm_civ_assassin_human_male_f.mdl",
 					"models/assassin/pm_civ_assassin_human_female.mdl",
@@ -1090,7 +1089,6 @@ DivisionTypes = {
 	        {
 	            Name = "Astromech",
 	            Core = true,
-				NotClone = true,
 	            Models = {
 	                "models/ace/sw/r2.mdl",
 	                "models/ace/sw/r4.mdl",
@@ -1105,7 +1103,6 @@ DivisionTypes = {
 	        {
 	            Name = "Republic Captured Droid",
 	            Core = true,
-				NotClone = true,
 	            Models = {
 	                "models/bx_training/pm_droid_cis_bx_training.mdl",
 	                "models/aussiwozzi/cgi/b1droids/b1_battledroid_training_pm.mdl",
@@ -1219,7 +1216,58 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "wastelanders"
+        Team = "republic"
+    },
+    DIVISION_JEDI_NEW = {
+        NiceName = "Jedi",
+        Prefix = "",
+        Color = Color(92, 55, 255),
+        Description = "Insert New Jedi Description",
+        IsJedi = true,
+		NotClone = true,
+		CustomPerks = "jedi",
+        DefaultItems = {},
+        Ranks = {
+            {ID = 1, Name = "Jedi", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/501st_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {
+                Name = "Jedi",
+                Default = true,
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = ""
+            },
+        },
+        Team = "republic"
+    },
+    DIVISION_MERC_NEW = {
+        NiceName = "Merc",
+        Prefix = "",
+        Color = Color(63, 78, 86),
+        Description = "Insert Merc Descriptions",
+        Default = true,
+		NotClone = true,
+		VIP = true,
+		CustomPerks = "mercenary",
+        DefaultItems = {},
+        Ranks = {
+            {ID = 1, Name = "Merc", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/501st_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {
+                Name = "Merc",
+                Default = true,
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = ""
+            },
+        },
+        Team = "republic"
     },
     --[[DIVISION_442NDRECRUIT = {
         NiceName = "442nd Recruit",
@@ -1265,7 +1313,7 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "wastelanders"
+        Team = "republic"
     },
     HOSTILE_BOT_ROLE = {
         NiceName = "Hostile Bot",
