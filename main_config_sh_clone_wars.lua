@@ -1052,6 +1052,7 @@ DivisionTypes = {
 	            {
 	            Name = "Mercenary",
 	            Core = true,
+				NotClone = true,
 	            Models = {
 	                "models/assassin/pm_civ_assassin_human_male_f.mdl",
 					"models/assassin/pm_civ_assassin_human_female.mdl",
@@ -1089,6 +1090,7 @@ DivisionTypes = {
 	        {
 	            Name = "Astromech",
 	            Core = true,
+				NotClone = true,
 	            Models = {
 	                "models/ace/sw/r2.mdl",
 	                "models/ace/sw/r4.mdl",
@@ -1103,6 +1105,7 @@ DivisionTypes = {
 	        {
 	            Name = "Republic Captured Droid",
 	            Core = true,
+				NotClone = true,
 	            Models = {
 	                "models/bx_training/pm_droid_cis_bx_training.mdl",
 	                "models/aussiwozzi/cgi/b1droids/b1_battledroid_training_pm.mdl",
