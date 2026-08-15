@@ -1269,29 +1269,6 @@ ROLES = ROLES or {
         },
         Team = "republic"
     },
-    --[[DIVISION_442NDRECRUIT = {
-        NiceName = "442nd Recruit",
-        Prefix = "442nd RCT",
-        Color = Color(0, 87, 33),
-        Description = "You've come just from Kamino. Ready to fight for the 442nd!",
-        Default = true,
-        DefaultItems = {"item_437413"},
-        Ranks = {
-            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/442nd_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
-        },
-        Classes = {
-            {
-                Name = "442nd RCT",
-                Default = true,
-                Core = true,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
-            },
-        },
-        Team = "wastelanders"
-    },]]
     DIVISION_212THRECRUIT = {
         NiceName = "212th Recruit",
         Prefix = "212th RCT",
