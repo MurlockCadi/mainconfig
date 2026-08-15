@@ -1154,8 +1154,9 @@ DivisionTypes = {
 	            Prefix = "AUX",
 	            EntitySpawner = {},
 	            vehicles = {},
-	    }
-	},
+	    	}
+		},
+	}
 }
 
 -- --------------------------------------------------
