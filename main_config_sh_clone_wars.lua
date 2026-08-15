@@ -1116,6 +1116,7 @@ DivisionTypes = {
 	        },
 	        --[[ jedi as i was told is not for launch so i also put this in a comment for later use. Jedi need to go into there own div
 			--Murmur here, please make jedi its own role please and CustomPerks = "jedi" so they use the jedi perks. Also NotClone = true,
+			--Added Jedi below
 	        {
 	            Name = "Jedi",
 	            Core = true,
@@ -1127,6 +1128,32 @@ DivisionTypes = {
 	            EntitySpawner = {},
 	            vehicles = {},
 	        },]]
+	    }
+	},
+	["Jedi"] = {
+	    NiceName = "Jedi",
+	    Description = "Anakin skywalker is not the messiah he's a naughty boy",
+	    Team = "Republic",
+	    VIP = true,
+		NotClone = true,
+		CustomPerks = "jedi",
+	    Default_items = {},
+	    Ranks = {
+	        {ID = 1, Name = "Jedi", Rank_Prefix = "", ModelsAllowed = {"models/ace/sw/r2.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+	    },
+	    Classes = {
+	        {
+	            Name = "Jedi",
+	            Default = true,
+	            Core = true,
+	            Models = {
+	                "models/ace/sw/r2.mdl"
+	            },
+	            Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+	            Prefix = "AUX",
+	            EntitySpawner = {},
+	            vehicles = {},
 	    }
 	},
 }
