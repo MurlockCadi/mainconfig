@@ -2375,7 +2375,7 @@ PASSIVE_ITEM_FLAGS["Remove 10 Health"] = {
 
 PASSIVE_ITEM_FLAGS["Remove 50 Speed"] = {
     FunctionName = "remove50speed",
-    Description = "Lowers Run Speed by 50",
+    Description = "Lowers Run Speed by 25",
     Color = Color(255, 0, 0)
 }
 
@@ -2393,7 +2393,7 @@ PASSIVE_ITEM_FLAGS["Add 25 Speed"] = {
 
 PASSIVE_ITEM_FLAGS["Remove 25 Speed"] = {
     FunctionName = "remove25speed",
-    Description = "Lowers Run Speed by 25",
+    Description = "Lowers Run Speed by 15",
     Color = Color(255, 0, 0)
 }
 
