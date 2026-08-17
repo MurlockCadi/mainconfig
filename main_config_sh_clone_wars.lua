@@ -1278,7 +1278,7 @@ ROLES = ROLES or {
         Color = Color(255, 145, 0),
         Description = "You've come just from Kamino. Ready to fight for the 212th!",
         Default = true,
-        DefaultItems = {"item_437413"},
+        DefaultItems = {"item_763539"},
         Ranks = {
             {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/212th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
