@@ -1081,7 +1081,8 @@ DivisionTypes = {
 	                "models/npc/aussiwozzi/mandalorians/male_mando_green.mdl",
 	                "models/npc/aussiwozzi/mandalorians/male_mando_purple.mdl",
 	                "models/player/aussiwozzi/mandalorians/female_mando_gold.mdl",
-	                "models/player/aussiwozzi/mandalorians/female_mando_color.mdl"
+	                "models/player/aussiwozzi/mandalorians/female_mando_color.mdl",
+					"models/player/valley/gamorreanguard_01.mdl"
 	            },
 	            Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
