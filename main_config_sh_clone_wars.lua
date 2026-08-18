@@ -729,6 +729,7 @@ DivisionTypes = {
 
             {
                 Name = "Engineer",
+				Engineer = true,
                 Core = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
@@ -859,6 +860,7 @@ DivisionTypes = {
             {
                 Name = "Engineer",
                 Core = true,
+				Engineer = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_ghost_company.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
@@ -1000,6 +1002,7 @@ DivisionTypes = {
             {
                 Name = "Engineer",
                 Core = true,
+				Engineer = true,
                 Models = {
                     "models/jajoff/sps/republic/tc13j/navy_02.mdl",
                     "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
