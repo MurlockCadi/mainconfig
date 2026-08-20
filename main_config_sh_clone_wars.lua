@@ -621,6 +621,27 @@ NAVY_OFFICER = {
     "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
     "models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
 }
+
+-- 104th Models
+RCT_104TH = {
+    "models/aussiwozzi/cgi/base/104th_trooper.mdl"
+}
+MODELS_104TH = {
+    "models/aussiwozzi/cgi/base/104th_trooper.mdl"
+}
+NCO_104TH = {
+    "models/aussiwozzi/cgi/base/104th_trooper.mdl"
+}
+OFFICER_104TH = {
+    "models/jajoff/sps/republic/tc13j/army_01.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
+    "models/jajoff/sps/republic/tc13j/engineer.mdl",
+    "models/aussiwozzi/cgi/base/104th_officer.mdl",
+    "models/aussiwozzi/cgi/base/104th_medic_officer.mdl",
+    "models/aussiwozzi/cgi/base/104th_jet_officer.mdl",
+    "models/aussiwozzi/cgi/base/104th_evo_officer.mdl"
+}
 -- --------------------------------------------------
 -- ---------- DIVISION TYPES ------------------------
 -- --------------------------------------------------
@@ -913,6 +934,129 @@ DivisionTypes = {
             },
         }
     },
+	["104th"] = {
+        NiceName = "104th Battalion",
+        Description = "The 104th Battalion is a recon unit of the Grand Army of the Republic.",
+        Team = "Republic",
+        Default_items = {},
+        Ranks = {
+                {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                -- Enlisted
+                {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = MODELS_104TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = MODELS_104TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = MODELS_104TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                -- NCO
+                {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                -- Officers
+                {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                -- Commanders
+                {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+                {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+            },
+        Classes = {
+            {
+                Name = "Recruit",
+                Default = true,
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "RCT",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Trooper",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Jetpack Trooper",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "JET",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Recon",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_arf.mdl",
+                },
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "REC",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Heavy Weapon",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_trooper.mdl"
+                },
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "HW",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "Medic",
+				Medic = true,
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_medic.mdl"
+                },
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "MED",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+
+            {
+                Name = "ARC Trooper",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_arc.mdl"
+                },
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "ARC",
+                EntitySpawner = {},
+                vehicles = {},
+            },
+        }
+    },
+	
     ["Navy"] = {
         NiceName = "Navy",
         Description = "The Navy is a unit of the Grand Army of the Republic, known for their bravery and skill in battle.",
@@ -1215,6 +1359,29 @@ ROLES = ROLES or {
         Classes = {
             {
                 Name = "501st RCT",
+                Default = true,
+                Core = true,
+                Models = {},
+                Weapons = {},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = ""
+            },
+        },
+        Team = "republic"
+    },
+	DIVISION_104THRECRUIT = {
+        NiceName = "104th Recruit",
+        Prefix = "104th RCT",
+        Color = Color(17, 0, 167),
+        Description = "You've come just from Kamino. Ready to fight for the 104th!",
+        Default = true,
+        DefaultItems = {"item_437413"},
+        Ranks = {
+            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/104th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+        },
+        Classes = {
+            {
+                Name = "104th RCT",
                 Default = true,
                 Core = true,
                 Models = {},
