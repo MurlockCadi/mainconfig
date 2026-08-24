@@ -700,7 +700,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {},
@@ -713,7 +713,7 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_arf.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "REC",
                 EntitySpawner = {},
@@ -726,10 +726,12 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_torrent.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "HW",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "ammo" },
+				},
                 vehicles = {},
             },
 
@@ -741,10 +743,12 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_medic.mdl",
                     "models/jajoff/sps/republic/tc13j/army_medic.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "MED",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
+				},
                 vehicles = {},
             },
 
@@ -756,10 +760,12 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                     "models/jajoff/sps/republic/tc13j/engineer.mdl",
                 },
-                Weapons = {},
+                Weapons = {ent_spawner},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "ENG",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+				},
                 vehicles = {},
             },
 
@@ -769,10 +775,12 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_arc.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "ARC",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+				},
                 vehicles = {},
             },
         }
@@ -855,10 +863,12 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/212th_boil.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "HW",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "ammo" },
+				},
                 vehicles = {},
             },
 
@@ -871,10 +881,12 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl",
                     "models/jajoff/sps/republic/tc13j/army_medic.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "MED",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
+				},
                 vehicles = {},
             },
 
@@ -887,10 +899,12 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
                     "models/jajoff/sps/republic/tc13j/engineer.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "ENG",
-                EntitySpawner = {},
+               EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+			   },
                 vehicles = {},
             },
 
@@ -900,10 +914,13 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_arc.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "ARC",
-                EntitySpawner = {},
+                EntitySpawner = {
+					
+				{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" }
+				},
                 vehicles = {},
             },
 
@@ -1021,10 +1038,12 @@ DivisionTypes = {
                 Models = {
                     "models/aussiwozzi/cgi/base/104th_trooper.mdl"
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "HW",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" }
+				},
                 vehicles = {},
             },
 
@@ -1038,7 +1057,9 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "MED",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
+				},
                 vehicles = {},
             },
 
@@ -1051,7 +1072,9 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "ARC",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" }
+				},
                 vehicles = {},
             },
         }
