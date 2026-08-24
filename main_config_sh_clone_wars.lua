@@ -2119,7 +2119,11 @@ PASSIVE_ITEM_FLAGS["boss_loot"] = {
     Color = Color(127, 0, 95)
 }
 
-
+PASSIVE_ITEM_FLAGS["growable"] = {
+    FunctionName = "none",
+    Description = "This item can be cultivated in a personal hydroponic planter.",
+    Color = Color(70, 220, 110)
+}
 -- --------------------------------------------------
 -- ---------- LOAD MODELS ---------------------------
 -- --------------------------------------------------
