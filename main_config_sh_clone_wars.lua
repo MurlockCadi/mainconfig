@@ -2121,7 +2121,7 @@ PASSIVE_ITEM_FLAGS["boss_loot"] = {
 
 PASSIVE_ITEM_FLAGS["growable"] = {
     FunctionName = "none",
-    Description = "This item can be cultivated in a personal hydroponic planter.",
+    Description = "This item can be cultivated in a personal hydroponic planter. MAX 500 VALUE OR IT WONT WORK.",
     Color = Color(70, 220, 110)
 }
 -- --------------------------------------------------
