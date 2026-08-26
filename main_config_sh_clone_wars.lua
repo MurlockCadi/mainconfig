@@ -657,7 +657,7 @@ DivisionTypes = {
         NiceName = "501st Battalion",
         Description = "The 501st Battalion is a frontline unit that thrives in fast-paced infantry assaults and tanker operations.",
         Team = "Republic",
-        Default_items = {},
+        Default_items = {item_906103},
         Ranks = {
                 {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
@@ -790,7 +790,7 @@ DivisionTypes = {
         NiceName = "212th Battalion",
         Description = "The 212th Battalion specializes in heavy assaults, armored warfare, and airborne operations.",
         Team = "Republic",
-        Default_items = {},
+        Default_items = {item_456503},
         Ranks = {
             {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- Enlisted
@@ -956,7 +956,7 @@ DivisionTypes = {
         NiceName = "104th Battalion",
         Description = "The 104th Battalion is a recon unit of the Grand Army of the Republic.",
         Team = "Republic",
-        Default_items = {},
+        Default_items = {item_747013},
         Ranks = {
                 {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
