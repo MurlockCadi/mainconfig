@@ -1332,7 +1332,7 @@ ROLES = ROLES or {
         NiceName = "501st Cadet",
         Prefix = "501st",
         Color = Color(17, 0, 167),
-		Default_items = {"item_906103","item_926118"},
+		DefaultItems = {"item_906103","item_926118"},
         Description = "This will be replaced to who the 501st are, what they get, and stuff.",
         Default = true,
         Ranks = {
@@ -1357,7 +1357,7 @@ ROLES = ROLES or {
         Color = Color(178, 190, 181),
         Description = "This will be replaced with who the 104th are, aht they get, and stuff.",
         Default = true,
-        Default_items = {"item_747013","item_926118"},
+        DefaultItems = {"item_747013","item_926118"},
         Ranks = {
             {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/104th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
@@ -1430,7 +1430,7 @@ ROLES = ROLES or {
         Color = Color(255, 145, 0),
         Description = "THIS WILL BE REPLACED with info on who they are and what they get",
         Default = true,
-        Default_items = {"item_456503","item_926118"},
+        DefaultItems = {"item_456503","item_926118"},
         Ranks = {
             {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/212th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
