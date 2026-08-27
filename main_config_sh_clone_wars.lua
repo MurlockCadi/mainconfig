@@ -657,7 +657,6 @@ DivisionTypes = {
         NiceName = "501st Battalion",
         Description = "The 501st Battalion is a frontline unit that thrives in fast-paced infantry assaults and tanker operations.",
         Team = "Republic",
-        Default_items = {item_906103},
         Ranks = {
                 {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
@@ -682,22 +681,9 @@ DivisionTypes = {
             },
         Classes = {
             {
-                Name = "Recruit",
-                Default = true,
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
-                },
-                Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "RCT",
-                EntitySpawner = {},
-                vehicles = {},
-            },
-
-            {
                 Name = "Trooper",
                 Core = true,
+				Default = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
                 },
@@ -790,7 +776,6 @@ DivisionTypes = {
         NiceName = "212th Battalion",
         Description = "The 212th Battalion specializes in heavy assaults, armored warfare, and airborne operations.",
         Team = "Republic",
-        Default_items = {item_456503},
         Ranks = {
             {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- Enlisted
@@ -815,22 +800,9 @@ DivisionTypes = {
         },
         Classes = {
             {
-                Name = "Recruit",
-                Default = true,
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
-                },
-                Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "RCT",
-                EntitySpawner = {},
-                vehicles = {},
-            },
-
-            {
                 Name = "Trooper",
                 Core = true,
+				Default = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_trooper.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
@@ -956,7 +928,6 @@ DivisionTypes = {
         NiceName = "104th Battalion",
         Description = "The 104th Battalion is a recon unit of the Grand Army of the Republic.",
         Team = "Republic",
-        Default_items = {item_747013},
         Ranks = {
                 {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
@@ -981,22 +952,9 @@ DivisionTypes = {
             },
         Classes = {
             {
-                Name = "Recruit",
-                Default = true,
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
-                },
-                Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "RCT",
-                EntitySpawner = {},
-                vehicles = {},
-            },
-
-            {
                 Name = "Trooper",
                 Core = true,
+				Default = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/104th_trooper.mdl",
                 },
@@ -1371,46 +1329,46 @@ ROLES = ROLES or {
         staff = true
     },
     DIVISION_501STRECRUIT = {
-        NiceName = "501st Recruit",
-        Prefix = "501st RCT",
+        NiceName = "501st Cadet",
+        Prefix = "501st",
         Color = Color(17, 0, 167),
-        Description = "You've come just from Kamino. Ready to fight for the 501st!",
+		Default_items = {"item_906103","item_926118"},
+        Description = "This will be replaced to who the 501st are, what they get, and stuff.",
         Default = true,
-        DefaultItems = {"item_437413"},
         Ranks = {
-            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/501st_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/501st_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
-                Name = "501st RCT",
+                Name = "Cadet",
                 Default = true,
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {},
                 Prefix = ""
             },
         },
         Team = "republic"
     },
 	DIVISION_104THRECRUIT = {
-        NiceName = "104th Recruit",
-        Prefix = "104th RCT",
+        NiceName = "104th Cadet",
+        Prefix = "104th",
         Color = Color(178, 190, 181),
-        Description = "You've come just from Kamino. Ready to fight for the 104th!",
+        Description = "This will be replaced with who the 104th are, aht they get, and stuff.",
         Default = true,
-        DefaultItems = {"item_437413"},
+        Default_items = {"item_747013","item_926118"},
         Ranks = {
-            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/104th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/104th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
-                Name = "104th RCT",
+                Name = "Cadet",
                 Default = true,
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {},
                 Prefix = ""
             },
         },
@@ -1467,23 +1425,23 @@ ROLES = ROLES or {
         Team = "republic"
     },
     DIVISION_212THRECRUIT = {
-        NiceName = "212th Recruit",
-        Prefix = "212th RCT",
+        NiceName = "212th Cadet",
+        Prefix = "212th",
         Color = Color(255, 145, 0),
-        Description = "You've come just from Kamino. Ready to fight for the 212th!",
+        Description = "THIS WILL BE REPLACED with info on who they are and what they get",
         Default = true,
-        DefaultItems = {"item_763539"},
+        Default_items = {"item_456503","item_926118"},
         Ranks = {
-            {ID = 1, Name = "RCT", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/212th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/212th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
-                Name = "212th RCT",
+                Name = "Cadet",
                 Default = true,
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {},
                 Prefix = ""
             },
         },
