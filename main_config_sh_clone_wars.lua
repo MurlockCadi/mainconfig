@@ -1599,7 +1599,7 @@ CERTIFICATIONS = {
     },
 
     ["Surgeon"] = {
-        Weapons = {},
+        Weapons = {"weapon_healer"},
         Entitys = {},
     },
 }
