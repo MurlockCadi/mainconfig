@@ -136,3 +136,7 @@ CRAFTABLE_ITEMS["item_330071"] = 12500 -- Chain Axe
 CRAFTABLE_ITEMS["item_875155"] = 6000 -- Heavy Laspistol
 CRAFTABLE_ITEMS["item_746740"] = 5000 -- Crowbar
 CRAFTABLE_ITEMS["item_673318"] = 45000 -- Meltagun arccw
+CRAFTABLE_ITEMS["item_152977"] = 8500 -- Sabre
+CRAFTABLE_ITEMS["item_528616"] = 20000 -- Storm Bolt Pistol tfa
+CRAFTABLE_ITEMS["item_298890"] = 20000 -- Heavy Bolt Pistol tfa
+CRAFTABLE_ITEMS["item_item_955976"] = 25000 -- Thunderhammer
