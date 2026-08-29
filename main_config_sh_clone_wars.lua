@@ -2055,25 +2055,13 @@ PASSIVE_ITEM_FLAGS["Mythic"] = {
 
 PASSIVE_ITEM_FLAGS["bot_buyable"] = {
     FunctionName = "none",
-    Description = "This item will be sold by bots in the world.",
+    Description = "This item will be sold by bots in the world, but also found by looting bots.",
     Color = Color(127, 0, 95)
 }
 
 PASSIVE_ITEM_FLAGS["relic_buyable"] = {
     FunctionName = "none",
-    Description = "This item will be sold by the black market.",
-    Color = Color(127, 0, 95)
-}
-
-PASSIVE_ITEM_FLAGS["bot_loot"] = {
-    FunctionName = "none",
-    Description = "This item can be found as loot on bots.",
-    Color = Color(127, 0, 95)
-}
-
-PASSIVE_ITEM_FLAGS["boss_loot"] = {
-    FunctionName = "none",
-    Description = "This item can be found as loot from bosses.",
+    Description = "This item is a relic of worth, and merchants will sell these, or be found as rare loot.",
     Color = Color(127, 0, 95)
 }
 
