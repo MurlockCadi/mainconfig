@@ -785,38 +785,20 @@ DivisionTypes = {
                 EntitySpawner = {},
                 vehicles = {},
             },
-
             {
-                Name = "Recon",
+                Name = "Explosive Ordnance Disposal Expert",
                 Core = true,
+				Default = true,
                 Models = {
-                    "models/aussiwozzi/cgi/base/212th_arf.mdl",
                     "models/aussiwozzi/cgi/base/212th_trooper.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
-                Prefix = "REC",
+                Prefix = "",
                 EntitySpawner = {},
                 vehicles = {},
             },
-
-            {
-                Name = "Heavy Weapon",
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/212th_boil.mdl",
-                    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
-                },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "HW",
-                EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "ammo" },
-				},
-                vehicles = {},
-            },
-
             {
                 Name = "Medic",
 				Medic = true,
@@ -834,7 +816,6 @@ DivisionTypes = {
 				},
                 vehicles = {},
             },
-
             {
                 Name = "Engineer",
                 Core = true,
@@ -847,51 +828,9 @@ DivisionTypes = {
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "ENG",
-               EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
-			   },
-                vehicles = {},
-            },
-
-            {
-                Name = "ARC Trooper",
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/212th_arc.mdl",
-                },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "ARC",
                 EntitySpawner = {
-					
-				{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" }
-				},
-                vehicles = {},
-            },
-
-            {
-                Name = "Airborne",
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/212th_boil.mdl",
-                },
-                Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "AB",
-                EntitySpawner = {},
-                vehicles = {},
-            },
-
-            {
-                Name = "Pilot",
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/212th_pilot.mdl",
-                },
-                Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "PLT",
-                EntitySpawner = {},
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+			    },
                 vehicles = {},
             },
         }
@@ -936,22 +875,23 @@ DivisionTypes = {
                 EntitySpawner = {},
                 vehicles = {},
             },
-
             {
-                Name = "Jetpack Trooper",
+                Name = "Engineer",
                 Core = true,
+				Default = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/104th_trooper.mdl",
                 },
-                Weapons = {},
+                Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
-                Prefix = "JET",
-                EntitySpawner = {},
+                Prefix = "ENG",
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+			    },
                 vehicles = {},
             },
-
             {
-                Name = "Recon",
+                Name = "Reconnaissance",
                 Core = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/104th_arf.mdl",
@@ -962,22 +902,6 @@ DivisionTypes = {
                 EntitySpawner = {},
                 vehicles = {},
             },
-
-            {
-                Name = "Heavy Weapon",
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/104th_trooper.mdl"
-                },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "HW",
-                EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" }
-				},
-                vehicles = {},
-            },
-
             {
                 Name = "Medic",
 				Medic = true,
@@ -990,21 +914,6 @@ DivisionTypes = {
                 Prefix = "MED",
                 EntitySpawner = {
 					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
-				},
-                vehicles = {},
-            },
-
-            {
-                Name = "ARC Trooper",
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/104th_arc.mdl"
-                },
-                Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "ARC",
-                EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" }
 				},
                 vehicles = {},
             },
