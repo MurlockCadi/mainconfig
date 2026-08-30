@@ -1463,74 +1463,55 @@ group_ranks = {
 -- --------------------------------------------------
 
 CERTIFICATIONS = {
-    -- Heavy Weapon only
-    ["Grenadier"] = {
-        Weapons = {},
-    },
-
-    -- Heavy Weapon only
-    ["Flametrooper"] = {
-        Weapons = {},
-    },
-
-    ["Jetpack"] = {
-        Weapons = {},
-    },
-
-    -- 212th and Navy only
-    ["Pilot"] = {
+	--LVS Certs (Kill Me)
+	
+    ["Pilot"] = { --Able to spawn some basic fighters / basic transport.
         Weapons = {},
         Entitys = {},
     },
-
-    -- 501st only
-    ["Tanker"] = {
+    ["Tanker"] = { --Able to spawn in a huge range of heavy to light tanks.
         Weapons = {},
         Entitys = {},
     },
-
-    ["Logistics"] = {
+    ["Logistics"] = { --Able to spawn in slow moving logi stuff, including speeders
         Weapons = {},
     },
 
-    -- Not available to 212th BARC. Intended for NCO+.
-    ["Speeders"] = {
-        Weapons = {},
-        Entitys = {},
-    },
+	--Class Certs
 
-    ["EOD"] = {
+	["Jetpack"] = { --Able to use Jetpacks. You arent given one, just able to use jetpacks.
         Weapons = {},
     },
 
-    -- Heavy Weapon only
-    ["Anti Tank Specialist"] = {
+    ["Explosive Ordnance Disposal Expert"] = { --Unlocks the ability to defuse bombs better, as well as use a number of explosives.
         Weapons = {},
     },
 
-    -- Heavy Weapon & Engineer only
-    ["Emplacement Specialist"] = {
-        Weapons = {},
-        Entitys = {},
-    },
-
-    ["BARC & AT-TE"] = {
-        Weapons = {},
-        Entitys = {},
-    },
-
-    -- Navy & ARC only
-    ["Hacker"] = {
+	["Heavy Weapons"] = {--Unlocks the ability to use Heavy Weapons
         Weapons = {},
     },
 
-    ["Quartermaster"] = {
+	["Reconnaissance"] = { --Unlocks the ability to use a grappling hook, snipers, as well as spawning in speeders.
         Weapons = {},
     },
 
-    ["Surgeon"] = {
+	["Engineer"] = { --Unlocks the ability to manage the engineering system, including building fortifications. Unable to manage clone reinforcements.
+        Weapons = {},
+    },
+
+	-- RP Certs:
+    ["Drone Operator"] = { --Unlocks a mobile drone that can be used for scouting, or automated for attacking.
+        Weapons = {},
+    },
+    ["Quartermaster"] = { --Allows you to buy the most expensive goods, and hand them out to players.
+        Weapons = {},
+    },
+    ["Surgeon"] = { --Able to do mental evulations, as well as healing mortal wounds.
         Weapons = {"weapon_healer"},
         Entitys = {},
+    },
+    ["Slicing Specialist"] = { --Unlocks the ability to hack computers, as well as use tools to hack droids.
+        Weapons = {},
     },
 }
 
