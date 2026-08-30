@@ -2068,7 +2068,7 @@ PASSIVE_ITEM_FLAGS["reconnaissance_only"] = {
 PASSIVE_ITEM_FLAGS["eod_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
-	Cert = "Reconnaissance",
+	Cert = "Explosive Ordnance Disposal Expert",
     Description = "You must be certified as a Explosive Ordnance Disposal Expert to use this item.",
     Color = Color(127, 0, 95)
 }
