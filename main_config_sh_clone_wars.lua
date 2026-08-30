@@ -684,35 +684,18 @@ DivisionTypes = {
                 Name = "Trooper",
                 Core = true,
 				Default = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
-                },
+                Models = {"models/aussiwozzi/cgi/base/501st_trooper.mdl",},
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {},
                 vehicles = {},
             },
-
             {
-                Name = "Recon",
+                Name = "Heavy Weapons",
                 Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/501st_arf.mdl",
-                },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "REC",
-                EntitySpawner = {},
-                vehicles = {},
-            },
-
-            {
-                Name = "Heavy Weapon",
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/501st_torrent.mdl",
-                },
+				CombatShield = true,
+                Models = {"models/aussiwozzi/cgi/base/501st_torrent.mdl",},
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "HW",
@@ -721,55 +704,44 @@ DivisionTypes = {
 				},
                 vehicles = {},
             },
-
+            {
+                Name = "Juggernaut",
+                Core = true,
+                Models = {"models/aussiwozzi/cgi/base/501st_torrent.mdl",},
+                Weapons = {"ent_spawner"},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "HW",
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "ammo" },
+				},
+                vehicles = {},
+            },
             {
                 Name = "Medic",
 				Medic = true,
                 Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/501st_medic.mdl",
-                    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
-                },
+                Models = {"models/aussiwozzi/cgi/base/501st_medic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl"},
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "MED",
                 EntitySpawner = {
-					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
+					{ name = "Kolto Crate",    entityname = "medic_box", description = "Allows Clones to Heal when Close", type = "Medic Box" },
 				},
                 vehicles = {},
             },
-
             {
                 Name = "Engineer",
 				Engineer = true,
                 Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
-                    "models/jajoff/sps/republic/tc13j/engineer.mdl",
-                },
+                Models = {"models/aussiwozzi/cgi/base/501st_trooper.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
                 Weapons = {ent_spawner},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "ENG",
                 EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "Gives Ammo to Clones", type = "Ammo" },
 				},
                 vehicles = {},
-            },
-
-            {
-                Name = "ARC Trooper",
-                Core = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/501st_arc.mdl",
-                },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "ARC",
-                EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
-				},
-                vehicles = {},
-            },
+            }
         }
     },
     ["212th"] = {
