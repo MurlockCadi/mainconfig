@@ -2147,6 +2147,7 @@ ROLES = ROLES or {
         Color = Color(0, 150, 0, 255),
         Description = "The backbone of the Astra Militarum. The 11th, forged in the crucible of storm-lashed warzones, now stand vigilant in the defense of the Sector. Cadia Stands!",
         Default = true,
+		Type = "11th Cadian Storm Guards",
 		DefaultItems = {"item_702773","item_638820"},
         Ranks = {
             {ID = 1, Name = "Whiteshield", Rank_Prefix = "WSHL", ModelsAllowed = CADIAN_MODELS, WeaponsAllowed = CADIAN_WEAPONS, CanPromote = false},
@@ -2169,6 +2170,7 @@ ROLES = ROLES or {
         Color = Color(50, 50, 50, 255),
         Description = "Hardened siege specialists from the Death World of Krieg. The 236th are experts in attrition warfare and unyielding assaults. They fight without fear, for death is their duty.",
         Default = true,
+		Type = "236th Death Korps of Krieg",
 		DefaultItems = {"item_702773","item_638820"},
         Ranks = {
             {
