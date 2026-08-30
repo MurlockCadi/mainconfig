@@ -1999,9 +1999,6 @@ PASSIVE_ITEM_FLAGS["Mythic"] = {
     Color        = Color(255, 50, 255)
 }
 
---- Relic/Item Flags ---
-
-
 -- --------------------------------------------------
 -- ---------- PASSIVE ITEM FLAGS: ITEM SOURCES ------
 -- --------------------------------------------------
@@ -2023,6 +2020,59 @@ PASSIVE_ITEM_FLAGS["growable"] = {
     Description = "This item can be cultivated in a personal hydroponic planter. MAX 500 VALUE OR IT WONT WORK.",
     Color = Color(70, 220, 110)
 }
+
+-- --------------------------------------------------
+-- ---------- PASSIVE ITEM FLAGS: WHITLISTS ---------
+-- --------------------------------------------------
+
+PASSIVE_ITEM_FLAGS["501st_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "501st",
+    Description = "You must be a member of the 501st to use this item.",
+    Color = Color(16, 0, 238)
+}
+
+PASSIVE_ITEM_FLAGS["212th_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "212th",
+    Description = "You must be a member of the 212th to use this item.",
+    Color = Color(187, 72, 0)
+}
+
+PASSIVE_ITEM_FLAGS["104th_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "104th",
+    Description = "You must be a member of the 104th to use this item.",
+    Color = Color(124, 124, 124)
+}
+
+PASSIVE_ITEM_FLAGS["heavy_weapons_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Heavy Weapons",
+    Description = "You must be certified to use Heavy Weapons to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["reconnaissance_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Reconnaissance",
+    Description = "You must be certified in Reconnaissance to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["eod_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Reconnaissance",
+    Description = "You must be certified as a Explosive Ordnance Disposal Expert to use this item.",
+    Color = Color(127, 0, 95)
+}
+
 -- --------------------------------------------------
 -- ---------- LOAD MODELS ---------------------------
 -- --------------------------------------------------
