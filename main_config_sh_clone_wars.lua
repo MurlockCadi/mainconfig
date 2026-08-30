@@ -614,6 +614,19 @@ NAVY_MODELS = {
     "models/jajoff/sps/republic/tc13j/navy_03.mdl",
     "models/jajoff/sps/republic/tc13j/navy03_female.mdl",
 }
+
+NAVY_MP_MODELS = {
+    "models/jajoff/sps/republic/tc13j/rsb02.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb03.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb03_female.mdl",
+}
+
+NAVY_SLICERS_MODELS = {
+    "models/jajoff/sps/republic/tc13j/rsb01.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb01_female.mdl",
+}
+
 NAVY_OFFICER = {
     "models/jajoff/sps/republic/tc13j/navy_01.mdl",
     "models/jajoff/sps/republic/tc13j/navy_02.mdl",
@@ -621,6 +634,9 @@ NAVY_OFFICER = {
     "models/jajoff/sps/republic/tc13j/navy01_female.mdl",
     "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
     "models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
+	"models/jajoff/sps/republic/tc13j/rsb_director.mdl",
+	"models/jajoff/sps/republic/tc13j/rsb03_female.mdl",
+	"models/jajoff/sps/republic/tc13j/rsb03.mdl",
 }
 
 -- 104th Models
@@ -948,25 +964,13 @@ DivisionTypes = {
             {ID = 15, Name = "Commodore",                 Rank_Prefix = "COMM",   ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
         },
         Classes = {
-            {
-                Name = "Crewman",
-                Default = true,
-                Core = true,
-                Models = {
-                    "models/jajoff/sps/republic/tc13j/navy_03.mdl",
-                    "models/jajoff/sps/republic/tc13j/navy03_female.mdl",
-                },
-                Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "CM",
-                EntitySpawner = {},
-                vehicles = {},
-            },
 
             {
                 Name = "Gunner",
                 Core = true,
                 Models = {
+                    "models/jajoff/sps/republic/tc13j/navy_03.mdl",
+                    "models/jajoff/sps/republic/tc13j/navy03_female.mdl",
                     "models/jajoff/sps/republic/tc13j/navy_04.mdl",
                     "models/jajoff/sps/republic/tc13j/navy04_female.mdl",
                 },
@@ -986,6 +990,12 @@ DivisionTypes = {
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
+                Models = {
+                    "models/jajoff/sps/republic/tc13j/rsb02.mdl",
+                    "models/jajoff/sps/republic/tc13j/rsb02_female.mdl",
+                    "models/jajoff/sps/republic/tc13j/rsb03.mdl",
+                    "models/jajoff/sps/republic/tc13j/rsb03_female.mdl",
+                },
                 Prefix = "MP",
                 EntitySpawner = {},
                 vehicles = {},
@@ -1002,7 +1012,9 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "DOC",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
+				},
                 vehicles = {},
             },
 
@@ -1021,19 +1033,6 @@ DivisionTypes = {
                 vehicles = {},
             },
 
-            {
-                Name = "Pilot",
-                Core = true,
-                Models = {
-                    "models/jajoff/sps/republic/tc13j/navy_01.mdl",
-                    "models/jajoff/sps/republic/tc13j/navy01_female.mdl",
-                },
-                Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
-                Prefix = "PLT",
-                EntitySpawner = {},
-                vehicles = {},
-            },
         }
     },
 	["Auxiliary"] = {
@@ -1066,22 +1065,22 @@ DivisionTypes = {
 	            Name = "Mercenary",
 	            Core = true,
 	            Models = {
-	                "models/assassin/pm_civ_assassin_human_male_f.mdl",
+	                "models/assassin/pm_civ_assassin_human_male.mdl",
 					"models/assassin/pm_civ_assassin_human_female.mdl",
 					"models/enforcer/pm_civ_enforcer_costume_male.mdl",
-					"models/dweller/pm_civ_dweller_human_male_h.mdl",
+					"models/dweller/pm_civ_dweller_human_male.mdl",
 					"models/engineer/pm_civ_engineer_human_male.mdl",
-					"models/fighter/pm_civ_fighter_costume_male.mdl",
-					"models/formal/pm_civ_formal_human_male_f.mdl",
-					"models/guard/pm_civ_guard_human_female_f.mdl",
-					"models/guard/pm_civ_guard_human_male_h.mdl",
-					"models/merc/pm_civ_merc_human_male_f.mdl",
-					"models/merc/pm_civ_merc_zabrak_male_f.mdl",
+					"models/snowsuit/pm_civ_snowsuit_human_male.mdl",
+					"models/formal/pm_civ_formal_human_male.mdl",
+					"models/guard/pm_civ_guard_human_female.mdl",
+					"models/guard/pm_civ_guard_human_male.mdl",
+					"models/merc/pm_civ_merc_human_male.mdl",
+					"models/merc/pm_civ_merc_zabrak_male.mdl",
 					"models/merc/pm_civ_merc_human_female.mdl",
 					"models/miner/pm_civ_miner_human_male.mdl",
 					"models/nemesis/pm_civ_nemesis_costume_male.mdl",
 					"models/noble/pm_civ_noble_human_male.mdl",
-					"models/prisoner/pm_civ_prisoner_human_male_h.mdl",
+					"models/prisoner/pm_civ_prisoner_human_male.mdl",
 					"models/prisoner/pm_civ_prisoner_human_female.mdl",
 					"models/snowsuit/pm_civ_snowsuit_human_male.mdl",
 					"models/snowsuit/pm_civ_snowsuit_human_female.mdl",
@@ -1092,7 +1091,12 @@ DivisionTypes = {
 	                "models/npc/aussiwozzi/mandalorians/male_mando_purple.mdl",
 	                "models/player/aussiwozzi/mandalorians/female_mando_gold.mdl",
 	                "models/player/aussiwozzi/mandalorians/female_mando_color.mdl",
-					"models/player/valley/gamorreanguard_01.mdl"
+					"models/player/valley/gamorreanguard_01.mdl",
+					"models/assassin/pm_civ_assassin_trandoshan_male.mdl",
+					"models/assassin/pm_civ_assassin_trandoshan_female.mdl",
+					"models/smuggler/pm_civ_smuggler_human_male.mdl",
+					"models/smuggler/pm_civ_smuggler_togruta_female.mdl",
+					"models/smuggler/pm_civ_smuggler_togruta_male.mdl"
 	            },
 	            Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
@@ -1380,6 +1384,10 @@ CERTIFICATIONS = {
     ["Pilot"] = { --Able to spawn some basic fighters / basic transport.
         Weapons = {},
         Entitys = {},
+        Models = {
+            "models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_pilot.mdl",
+            "models/aussiwozzi/cgi/base/212th_pilot.mdl",
+        },
     },
     ["Tanker"] = { --Able to spawn in a huge range of heavy to light tanks.
         Weapons = {},
@@ -1425,6 +1433,7 @@ CERTIFICATIONS = {
     ["Slicing Specialist"] = { --Unlocks the ability to hack computers, as well as use tools to hack droids.
         Weapons = {},
     },
+
 }
 
 -- --------------------------------------------------
