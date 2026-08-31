@@ -1399,19 +1399,19 @@ CERTIFICATIONS = {
 
 	--Class Certs
 
-	["Jetpack"] = { --Able to use Jetpacks. You arent given one, just able to use jetpacks.
+	["Jetpack"] = { --Able to use Jetpacks. You arent given one, just able to use jetpacks. Worse if your not 212th
         Weapons = {},
     },
 
-    ["Explosive Ordnance Disposal Expert"] = { --Unlocks the ability to defuse bombs better, as well as use a number of explosives.
+    ["Explosive Ordnance Disposal Expert"] = { --Unlocks the ability to defuse bombs better, as well as use a number of explosives. Does not unlock all explosives and not as good as 212th.
         Weapons = {},
     },
 
-	["Heavy Weapons"] = {--Unlocks the ability to use Heavy Weapons
+	["Heavy Weapons"] = {--Unlocks the ability to use some Heavy Weapons, but not all.
         Weapons = {},
     },
 
-	["Reconnaissance"] = { --Unlocks the ability to use a grappling hook, snipers, as well as spawning in speeders.
+	["Reconnaissance"] = { --Unlocks the ability to use a grappling hook and snipers.
         Weapons = {},
     },
 
