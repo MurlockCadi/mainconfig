@@ -833,6 +833,23 @@ DivisionTypes = {
                 vehicles = {},
             },
             {
+                Name = "Heavy Weapons",
+                Core = true,
+				Engineer = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_ghost_company.mdl",
+                    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+                    "models/jajoff/sps/republic/tc13j/engineer.mdl",
+                },
+                Weapons = {"ent_spawner"},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "HW",
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+			    },
+                vehicles = {},
+            },
+            {
                 Name = "Engineer",
                 Core = true,
 				Engineer = true,
@@ -889,6 +906,21 @@ DivisionTypes = {
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {},
+                vehicles = {},
+            },
+            {
+                Name = "Heavy Weapons",
+                Core = true,
+				Default = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+                },
+                Weapons = {"ent_spawner"},
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "HW",
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+			    },
                 vehicles = {},
             },
             {
