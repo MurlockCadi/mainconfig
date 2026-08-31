@@ -1946,6 +1946,12 @@ PASSIVE_ITEM_FLAGS["growable"] = {
 -- ---------- PASSIVE ITEM FLAGS: WHITLISTS ---------
 -- --------------------------------------------------
 
+PASSIVE_ITEM_FLAGS["501st_juggernaut_power_armor"] = {
+    FunctionName = "501st_juggernaut_power_armor",
+    Description = "Equips 501st Juggernaut Power Armor.",
+    Color = Color(45, 95, 200)
+}
+
 PASSIVE_ITEM_FLAGS["501st_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
