@@ -2000,6 +2000,14 @@ PASSIVE_ITEM_FLAGS["eod_only"] = {
     Color = Color(127, 0, 95)
 }
 
+PASSIVE_ITEM_FLAGS["juggernaut_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Juggernaut",
+    Description = "You must be certified to use Power Armor to use this item.",
+    Color = Color(127, 0, 95)
+}
+
 -- --------------------------------------------------
 -- ---------- LOAD MODELS ---------------------------
 -- --------------------------------------------------
