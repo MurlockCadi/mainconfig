@@ -1957,7 +1957,7 @@ PASSIVE_ITEM_FLAGS["501st_only"] = {
 	RoleWhitelist = true,
 	RoleType = "501st",
     Description = "You must be a member of the 501st to use this item.",
-    Color = Color(16, 0, 238)
+    Color = Color(45, 95, 200)
 }
 
 PASSIVE_ITEM_FLAGS["212th_only"] = {
