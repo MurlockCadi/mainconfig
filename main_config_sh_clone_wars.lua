@@ -939,14 +939,14 @@ DivisionTypes = {
                 vehicles = {},
             },
             {
-                Name = "Reconnaissance",
+                Name = "Advanced Recon Force",
                 Core = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/104th_arf.mdl",
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
-                Prefix = "REC",
+                Prefix = "ARF",
                 EntitySpawner = {},
                 vehicles = {},
             },
@@ -1443,7 +1443,7 @@ CERTIFICATIONS = {
         Weapons = {},
     },
 
-	["Reconnaissance"] = { --Unlocks the ability to use a grappling hook and snipers.
+	["Advanced Recon Force"] = { --Unlocks the ability to use a grappling hook and snipers.
         Weapons = {},
     },
 
@@ -2019,7 +2019,7 @@ PASSIVE_ITEM_FLAGS["heavy_weapons_only"] = {
 PASSIVE_ITEM_FLAGS["reconnaissance_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
-	Cert = "Reconnaissance",
+	Cert = "Advanced Recon Force",
     Description = "You must be certified in Reconnaissance to use this item.",
     Color = Color(127, 0, 95)
 }
