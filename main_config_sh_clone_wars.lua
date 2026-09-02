@@ -751,7 +751,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/aussiwozzi/cgi/base/501st_trooper.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
                 Weapons = {ent_spawner},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder"},
                 Prefix = "ENG",
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "Gives Ammo to Clones", type = "Ammo" },
@@ -835,7 +835,6 @@ DivisionTypes = {
             {
                 Name = "Heavy Weapons",
                 Core = true,
-				Engineer = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_ghost_company.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
@@ -852,14 +851,13 @@ DivisionTypes = {
             {
                 Name = "Engineer",
                 Core = true,
-				Engineer = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_ghost_company.mdl",
                     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
                     "models/jajoff/sps/republic/tc13j/engineer.mdl",
                 },
                 Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder"},
                 Prefix = "ENG",
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
@@ -931,7 +929,7 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/104th_trooper.mdl",
                 },
                 Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder"},
                 Prefix = "ENG",
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
@@ -1060,7 +1058,7 @@ DivisionTypes = {
                     "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
                 },
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder"},
                 Prefix = "ENG",
                 EntitySpawner = {},
                 vehicles = {},
@@ -1449,7 +1447,7 @@ CERTIFICATIONS = {
     },
 
 	["Engineer"] = { --Unlocks the ability to manage the engineering system, including building fortifications. Unable to manage clone reinforcements.
-        Weapons = {},
+        Weapons = {"weapon_murlock_engineering_builder"},
     },
 
 	-- RP Certs:
