@@ -1608,7 +1608,7 @@ DivisionTypes = {
 				HasReconGlasses = true,
                 SpawnWeapons = {"refinery_spawner","weapon_fists","weapon_murlock_scout_tools"}, 
                 Prefix = ""
-            }
+            },
 		}
     },
     ["Ecclesiarchy"] = {
