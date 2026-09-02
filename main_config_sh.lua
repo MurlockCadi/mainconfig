@@ -1811,8 +1811,8 @@ DivisionTypes = {
                 Core = true,
                 Models = KARSIKIN_MODELS,
 				MaxHealth = 150,
-                Weapons = {"cat_custom_hellgunstandard"},
-                SpawnWeapons = {"realistic_hook","weapon_fists"},
+                Weapons = {"cat_custom_hellgunstandard","weapon_murlock_scout_tools"},
+                SpawnWeapons = {"realistic_hook","weapon_fists","weapon_murlock_scout_tools"},
                 Prefix = "KS",
 	            vehicles = {
                     { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
@@ -1977,8 +1977,8 @@ DivisionTypes = {
 				Core = true,
                 Models = {"models/krig_stormtrooper.mdl"},
 				MaxHealth = 150,
-                Weapons = {"cat_custom_hellgun_lucius"},
-                SpawnWeapons = {"weapon_fists"},
+                Weapons = {"cat_custom_hellgun_lucius","weapon_murlock_scout_tools","realistic_hook"},
+                SpawnWeapons = {"weapon_fists"."weapon_murlock_scout_tools","realistic_hook"},
                 Prefix = "GR",
 	            vehicles = {
                     { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
@@ -2127,8 +2127,9 @@ ROLES = ROLES or {
                 Name = "Staff",
                 Default = true,
                 Models = {},
-                Weapons = {},
-                SpawnWeapons = {"weapon_physgun", "gmod_tool"},
+                Weapons = {"weapon_murlock_scout_tools"},
+                HasReconGlasses = true,
+                SpawnWeapons = {"weapon_physgun", "gmod_tool","weapon_murlock_scout_tools"},
                 Prefix = "",
 				
         		vehicles = { 
@@ -2161,16 +2162,18 @@ ROLES = ROLES or {
                 Default = true,
                 Models = {"models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl"},
 				MaxHealth = 1200,
-                Weapons = {},
-                SpawnWeapons = {"weapon_physgun", "gmod_tool"},
+                Weapons = {"weapon_murlock_scout_tools"},
+                HasReconGlasses = true,
+                SpawnWeapons = {"weapon_physgun", "gmod_tool","weapon_murlock_scout_tools"},
                 Prefix = ""
             },
             {
                 Name = "Boss Character",
                 Models = {"models/nemeroth_chaos_lord1.mdl","models/boss_grimskull.mdl","models/player/wh4000_lagariumpm9.mdl"},
 				MaxHealth = 6000,
-                Weapons = {},
-                SpawnWeapons = {"weapon_physgun", "gmod_tool","cat_primaris_legacy_boltstormgauntlets"},
+                Weapons = {"weapon_murlock_scout_tools"},
+                HasReconGlasses = true,
+                SpawnWeapons = {"weapon_physgun", "gmod_tool","cat_primaris_legacy_boltstormgauntlets","weapon_murlock_scout_tools"},
                 Prefix = ""
             },
         },
