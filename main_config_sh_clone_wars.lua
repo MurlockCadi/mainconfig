@@ -946,7 +946,7 @@ DivisionTypes = {
                 },
                 Weapons = {},
 				HasReconGlasses = true,
-                SpawnWeapons = {"realistic_hook"},
+                SpawnWeapons = {"realistic_hook","weapon_murlock_recon_visor"},
                 Prefix = "ARF",
                 EntitySpawner = {},
                 vehicles = {},
