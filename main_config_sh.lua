@@ -1343,7 +1343,7 @@ DivisionTypes = {
                 Weapons = {"weapon_murlock_scout_tools"},
                 MaxHealth = 100,
                 ForceModels = true,
-                SpawnWeapons = {"realistic_hook","weapon_fists"},
+                SpawnWeapons = {"realistic_hook","weapon_fists","weapon_murlock_scout_tools"},
                 Prefix = ""
             },
             {
@@ -1841,7 +1841,7 @@ DivisionTypes = {
                 Models = CADIAN_MODELS,
                 Weapons = {},
 				HasReconGlasses = true,
-                SpawnWeapons = {"weapon_murlock_scout_tools"},
+                SpawnWeapons = {"realistic_hook","weapon_fists","weapon_murlock_scout_tools"},
                 Prefix = "SC",
             },
             {
