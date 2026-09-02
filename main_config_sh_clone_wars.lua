@@ -726,7 +726,7 @@ DivisionTypes = {
                 Models = {"models/aussiwozzi/cgi/base/501st_torrent.mdl",},
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
-                Prefix = "HW",
+                Prefix = "JUG",
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "ammo" },
 				},
