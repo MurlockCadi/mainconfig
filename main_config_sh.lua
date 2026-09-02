@@ -1080,7 +1080,19 @@ DivisionTypes = {
 				PowerShield = true,
                 SpawnWeapons = {"weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists"},
                 Prefix = "Skitarii"
-            }
+            },
+			{
+                Name = "Skitarii Ranger",
+                Default = false,
+                Core = true,
+                Models = {"models/wk/adeptus_mechanicus/wk_skitarii_marshal.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl"},
+                ForceModels = true,
+                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic"},
+                MaxHealth = 140,
+				PowerShield = true,
+                SpawnWeapons = {"weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists", "realistic_hook","weapon_murlock_recon_visor"},
+                Prefix = "Ranger"
+            },
         }
 	},
     ["Penal Legion"] = {
