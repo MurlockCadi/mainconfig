@@ -1593,7 +1593,7 @@ DivisionTypes = {
             {
                 Name = "Contracted Mercenary", 
                 Default = true, 
-				core = true,
+				Core = true,
                 Models = MERC_MODELS, 
                 Weapons = {}, 
                 SpawnWeapons = {"refinery_spawner","weapon_fists"}, 
@@ -1602,7 +1602,7 @@ DivisionTypes = {
             {
                 Name = "Contracted Mercenary Scout", 
                 Default = false, 
-				core = true,
+				Core = true,
                 Models = MERC_MODELS, 
                 Weapons = {}, 
 				HasReconGlasses = true,
