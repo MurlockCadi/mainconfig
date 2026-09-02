@@ -1597,8 +1597,6 @@ DivisionTypes = {
                 Weapons = {}, 
                 SpawnWeapons = {"refinery_spawner","weapon_fists","weapon_murlock_scout_tools"}, 
                 Prefix = ""
-                    }
-                },
             },
             {
                 Name = "Contracted Mercenary Scout", 
