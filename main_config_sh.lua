@@ -1608,10 +1608,8 @@ DivisionTypes = {
 				HasReconGlasses = true,
                 SpawnWeapons = {"refinery_spawner","weapon_fists"}, 
                 Prefix = ""
-                    }
-                },
             }
-        }
+		}
     },
     ["Ecclesiarchy"] = {
         NiceName = "Ecclesiarchy",
