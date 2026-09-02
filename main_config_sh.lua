@@ -1978,7 +1978,7 @@ DivisionTypes = {
                 Models = {"models/krig_stormtrooper.mdl"},
 				MaxHealth = 150,
                 Weapons = {"cat_custom_hellgun_lucius","weapon_murlock_scout_tools","realistic_hook"},
-                SpawnWeapons = {"weapon_fists"."weapon_murlock_scout_tools","realistic_hook"},
+                SpawnWeapons = {"weapon_fists","weapon_murlock_scout_tools","realistic_hook"},
                 Prefix = "GR",
 	            vehicles = {
                     { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
