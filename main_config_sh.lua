@@ -1340,7 +1340,7 @@ DivisionTypes = {
                 Name = "Ratling",
                 Core = true,
                 Models = {"models/dizcordum/abhumans/ratling.mdl"},
-                Weapons = {"cat_custom_sniper"},
+                Weapons = {"weapon_murlock_scout_tools"},
                 MaxHealth = 100,
                 ForceModels = true,
                 SpawnWeapons = {"realistic_hook","weapon_fists"},
@@ -1841,7 +1841,7 @@ DivisionTypes = {
                 Models = CADIAN_MODELS,
                 Weapons = {},
 				HasReconGlasses = true,
-                SpawnWeapons = {"weapon_murlock_recon_visor"},
+                SpawnWeapons = {"weapon_murlock_scout_tools"},
                 Prefix = "SC",
             },
             {
