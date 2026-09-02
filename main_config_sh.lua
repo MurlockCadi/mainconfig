@@ -1166,8 +1166,9 @@ DivisionTypes = {
                 Name = "Ratling",
                 Core = true,
                 Models = {"models/dizcordum/abhumans/ratling.mdl","models/wk/jackswan/abhumans/ratling/ratling.mdl","models/wk/jackswan/abhumans/ratling/ratling_boss.mdl","models/wk/jackswan/abhumans/ratling/ratling_vip.mdl"},
-                Weapons = {"cat_custom_sniper"},
+                Weapons = {"cat_custom_sniper","weapon_murlock_recon_visor"},
                 MaxHealth = 100,
+				HasReconGlasses = true,
                 ForceModels = true,
                 SpawnWeapons = {"realistic_hook","weapon_fists"},
                 Prefix = ""
@@ -1833,6 +1834,15 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                 },
+            },
+            {
+                Name = "Scout",
+                Core = true,
+                Models = CADIAN_MODELS,
+                Weapons = {},
+				HasReconGlasses = true,
+                SpawnWeapons = {"weapon_murlock_recon_visor"},
+                Prefix = "SC",
             },
             {
                 Name = "Logistics",
