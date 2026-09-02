@@ -1191,11 +1191,11 @@ DivisionTypes = {
                 Name = "Ratling",
                 Core = true,
                 Models = {"models/dizcordum/abhumans/ratling.mdl","models/wk/jackswan/abhumans/ratling/ratling.mdl","models/wk/jackswan/abhumans/ratling/ratling_boss.mdl","models/wk/jackswan/abhumans/ratling/ratling_vip.mdl"},
-                Weapons = {"cat_custom_sniper","weapon_murlock_recon_visor"},
+                Weapons = {"cat_custom_sniper","weapon_murlock_scout_tools"},
                 MaxHealth = 100,
 				HasReconGlasses = true,
                 ForceModels = true,
-                SpawnWeapons = {"realistic_hook","weapon_fists"},
+                SpawnWeapons = {"realistic_hook","weapon_fists","weapon_murlock_scout_tools"},
                 Prefix = ""
             },
             {
@@ -1595,6 +1595,15 @@ DivisionTypes = {
                 Default = true, 
                 Models = MERC_MODELS, 
                 Weapons = {}, 
+                SpawnWeapons = {"refinery_spawner","weapon_fists","weapon_murlock_scout_tools"}, 
+                Prefix = ""
+            },
+            {
+                Name = "Contracted Mercenary Scout", 
+                Default = false, 
+                Models = MERC_MODELS, 
+                Weapons = {}, 
+				HasReconGlasses = true,
                 SpawnWeapons = {"refinery_spawner","weapon_fists"}, 
                 Prefix = ""
             }
