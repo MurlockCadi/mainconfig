@@ -1593,18 +1593,20 @@ DivisionTypes = {
             {
                 Name = "Contracted Mercenary", 
                 Default = true, 
+				core = true,
                 Models = MERC_MODELS, 
                 Weapons = {}, 
-                SpawnWeapons = {"refinery_spawner","weapon_fists","weapon_murlock_scout_tools"}, 
+                SpawnWeapons = {"refinery_spawner","weapon_fists"}, 
                 Prefix = ""
             },
             {
                 Name = "Contracted Mercenary Scout", 
                 Default = false, 
+				core = true,
                 Models = MERC_MODELS, 
                 Weapons = {}, 
 				HasReconGlasses = true,
-                SpawnWeapons = {"refinery_spawner","weapon_fists"}, 
+                SpawnWeapons = {"refinery_spawner","weapon_fists","weapon_murlock_scout_tools"}, 
                 Prefix = ""
             }
 		}
