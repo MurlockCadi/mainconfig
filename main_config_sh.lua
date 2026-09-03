@@ -757,7 +757,8 @@ MERC_MODELS = {
 	"models/dizcordum/assassinorum/deathmale.mdl",
 	"models/dizcordum/assassinorum/deathfemale.mdl",
 	"models/wk/cult/tr_guardsmen.mdl",
-	"models/lizards/lizardmankazgulam.mdl"
+	"models/lizards/lizardmankazgulam.mdl",
+	"models/arlequin.mdl"
 }
 
 -- Commissariat
