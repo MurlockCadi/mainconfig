@@ -657,7 +657,7 @@ OFFICER_104TH = {
     "models/aussiwozzi/cgi/base/104th_officer.mdl",
     "models/aussiwozzi/cgi/base/104th_medic_officer.mdl",
     "models/aussiwozzi/cgi/base/104th_jet_officer.mdl",
-    "models/aussiwozzi/cgi/base/104th_evo_officer.mdl"
+    "models/aussiwozzi/cgi/base/104th_evo_officer.mdl",
 	"models/aussiwozzi/cgi/base/104th_arf.mdl"
 }
 -- --------------------------------------------------
