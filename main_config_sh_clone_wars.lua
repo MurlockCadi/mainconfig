@@ -1326,11 +1326,11 @@ ROLES = ROLES or {
         },
         Team = "republic"
     },
-	DIVISION_RECRUIT = {
-        NiceName = " Cadet",
-        Prefix = "",
+	DIVISION_104THRECRUIT = {
+        NiceName = "104th Cadet",
+        Prefix = "104th",
         Color = Color(178, 190, 181),
-        Description = "The , known as the Wolf Pack, pride themselves on reconnaissance, commando tactics, and their sophisticated command structure, which allows them to rapidly deploy reinforcements to take and hold forward positions.",
+        Description = "The 104th, known as the Wolf Pack, pride themselves on reconnaissance, commando tactics, and their sophisticated command structure, which allows them to rapidly deploy reinforcements to take and hold forward positions.",
         Default = true,
 		Type = "",
         DefaultItems = {"item_747013","item_926118"},
@@ -2044,7 +2044,7 @@ PASSIVE_ITEM_FLAGS["501st_juggernaut_power_armor"] = {
 PASSIVE_ITEM_FLAGS["clones_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
-	RoleType = "501st","212th","104th","Navy",
+	RoleType = {"501st","212th","104th","Navy"},
     Description = "You must be a member of the Republic Grand Army to use this item.",
     Color = Color(45, 95, 200)
 }
@@ -2104,7 +2104,7 @@ PASSIVE_ITEM_FLAGS["military_police_only"] = {
 PASSIVE_ITEM_FLAGS["medic_and_doctor_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
-	RoleType = "Medic","Doctor",
+	RoleType = {"Medic","Doctor"},
     Description = "You must be either a medic or a doctor to use this item.",
     Color = Color(127, 0, 95)
 }
@@ -2200,7 +2200,7 @@ PASSIVE_ITEM_FLAGS["surgeon_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
 	Cert = "Surgeon",
-    Description = "You must be certified as a surgeon to use this item.",
+    Description = "You must be certified as a Surgeon to use this item.",
     Color = Color(127, 0, 95)
 }
 
@@ -2208,7 +2208,7 @@ PASSIVE_ITEM_FLAGS["tanker_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
 	Cert = "Tanker",
-    Description = "You must be certified as a tanker to use this item.",
+    Description = "You must be certified as a Tanker to use this item.",
     Color = Color(127, 0, 95)
 }
 
@@ -2223,8 +2223,8 @@ PASSIVE_ITEM_FLAGS["pilot_only"] = {
 PASSIVE_ITEM_FLAGS["logistic_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
-	Cert = "Logistic",
-    Description = "You must be certified as a Pilot to use this item.",
+	Cert = "Logistics",
+    Description = "You must be certified in Logistics to use this item.",
     Color = Color(127, 0, 95)
 }
 
@@ -2239,7 +2239,7 @@ PASSIVE_ITEM_FLAGS["jetpack_only"] = {
 PASSIVE_ITEM_FLAGS["slicing_specialization_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
-	Cert = "Slicing_Specialist",
+	Cert = "Slicing Specialist",
     Description = "You must be certified as a Slicing Specialist to use this item.",
     Color = Color(127, 0, 95)
 }
@@ -2279,8 +2279,5 @@ for _, role in pairs(ROLES) do
     end
 end
 
--- --------------------------------------------------
--- ---------- STARTUP MESSAGE -----------------------
--- --------------------------------------------------
 
 print("Imperium RP Config Loaded!")
