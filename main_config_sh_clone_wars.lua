@@ -658,6 +658,7 @@ OFFICER_104TH = {
     "models/aussiwozzi/cgi/base/104th_medic_officer.mdl",
     "models/aussiwozzi/cgi/base/104th_jet_officer.mdl",
     "models/aussiwozzi/cgi/base/104th_evo_officer.mdl"
+	"models/aussiwozzi/cgi/base/104th_arf.mdl"
 }
 -- --------------------------------------------------
 -- ---------- DIVISION TYPES ------------------------
@@ -730,6 +731,19 @@ DivisionTypes = {
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "ammo" },
 				},
+                vehicles = {},
+            },
+            {
+                Name = "Advanced Recon Commando",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/501st_arc.mdl",
+                },
+                Weapons = {},
+				HasReconGlasses = true,
+                SpawnWeapons = {"realistic_hook","weapon_fists"},
+                Prefix = "ARC",
+                EntitySpawner = {},
                 vehicles = {},
             },
             {
@@ -830,6 +844,19 @@ DivisionTypes = {
                 EntitySpawner = {
 					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
 				},
+                vehicles = {},
+            },
+            {
+                Name = "Advanced Recon Commando",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/212th_arc.mdl",
+                },
+                Weapons = {},
+				HasReconGlasses = true,
+                SpawnWeapons = {"realistic_hook","weapon_fists"},
+                Prefix = "ARC",
+                EntitySpawner = {},
                 vehicles = {},
             },
             {
@@ -950,6 +977,36 @@ DivisionTypes = {
                 EntitySpawner = {},
                 vehicles = {},
             },
+
+            {
+                Name = "Engineer",
+                Core = true,
+				Default = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+                },
+                Weapons = {"ent_spawner"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder"},
+                Prefix = "ENG",
+				atomic = true,
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+			    },
+                vehicles = {},
+            },
+            {
+                Name = "Advanced Recon Commando",
+                Core = true,
+                Models = {
+                    "models/aussiwozzi/cgi/base/104th_arc.mdl",
+                },
+                Weapons = {},
+				HasReconGlasses = true,
+                SpawnWeapons = {"realistic_hook","weapon_fists"},
+                Prefix = "ARC",
+                EntitySpawner = {},
+                vehicles = {},
+            },
             {
                 Name = "Medic",
 				Medic = true,
@@ -1051,7 +1108,7 @@ DivisionTypes = {
             },
 
             {
-                Name = "Engineer",
+                Name = "Navy Engineer",
                 Core = true,
 				Engineer = true,
                 Models = {
@@ -1269,16 +1326,16 @@ ROLES = ROLES or {
         },
         Team = "republic"
     },
-	DIVISION_104THRECRUIT = {
-        NiceName = "104th Cadet",
-        Prefix = "104th",
+	DIVISION_RECRUIT = {
+        NiceName = " Cadet",
+        Prefix = "",
         Color = Color(178, 190, 181),
-        Description = "The 104th, known as the Wolf Pack, pride themselves on reconnaissance, commando tactics, and their sophisticated command structure, which allows them to rapidly deploy reinforcements to take and hold forward positions.",
+        Description = "The , known as the Wolf Pack, pride themselves on reconnaissance, commando tactics, and their sophisticated command structure, which allows them to rapidly deploy reinforcements to take and hold forward positions.",
         Default = true,
-		Type = "104th",
+		Type = "",
         DefaultItems = {"item_747013","item_926118"},
         Ranks = {
-            {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/104th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
@@ -1974,13 +2031,21 @@ PASSIVE_ITEM_FLAGS["growable"] = {
     Color = Color(70, 220, 110)
 }
 
--- --------------------------------------------------
--- ---------- PASSIVE ITEM FLAGS: WHITLISTS ---------
--- --------------------------------------------------
+-- ----------------------------------------------------------
+-- ---------- PASSIVE ITEM FLAGS: FACTION WHITLISTS ---------
+-- ----------------------------------------------------------
 
 PASSIVE_ITEM_FLAGS["501st_juggernaut_power_armor"] = {
     FunctionName = "501st_juggernaut_power_armor",
     Description = "Equips the RHE-X1 'Vanguard' Power Armor",
+    Color = Color(45, 95, 200)
+}
+
+PASSIVE_ITEM_FLAGS["clones_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "501st","212th","104th","Navy",
+    Description = "You must be a member of the Republic Grand Army to use this item.",
     Color = Color(45, 95, 200)
 }
 
@@ -2008,11 +2073,79 @@ PASSIVE_ITEM_FLAGS["104th_only"] = {
     Color = Color(124, 124, 124)
 }
 
+PASSIVE_ITEM_FLAGS["navy_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "Navy",
+    Description = "You must be a member of the Republic Navy to use this item.",
+    Color = Color(124, 124, 124)
+}
+
+PASSIVE_ITEM_FLAGS["auxiliary_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "Auxiliary",
+    Description = "You must be a member of the Auxiliary to use this item.",
+    Color = Color(124, 124, 124)
+}
+
+-- --------------------------------------------------------
+-- ---------- PASSIVE ITEM FLAGS: CLASS WHITLISTS ---------
+-- --------------------------------------------------------
+
+PASSIVE_ITEM_FLAGS["military_police_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "MP",
+    Description = "You must be a Military Police member to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["medic_and_doctor_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "Medic","Doctor",
+    Description = "You must be either a medic or a doctor to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["engineer_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "Engineer",
+    Description = "You must be an Engineer to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["astromech_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "Astromech",
+    Description = "You must be an astromech unit to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["mercenary_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "Merc",
+    Description = "You must be a Mercenary to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["jedi_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "Jedi",
+    Description = "You must be a Jedi to use this item.",
+    Color = Color(127, 0, 95)
+}
+
 PASSIVE_ITEM_FLAGS["heavy_weapons_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
 	Cert = "Heavy Weapons",
-    Description = "You must be certified to use Heavy Weapons to use this item.",
+    Description = "You must be a Heavy Weapons Trooper to use this item.",
     Color = Color(127, 0, 95)
 }
 
@@ -2020,7 +2153,94 @@ PASSIVE_ITEM_FLAGS["reconnaissance_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
 	Cert = "Advanced Recon Force",
-    Description = "You must be certified in Reconnaissance to use this item.",
+    Description = "You must be an ARF Specialist Trooper to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["gunner_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Gunner",
+    Description = "You must be a gunner crewman to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["navy_engineer_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Navy Engineer",
+    Description = "You must be a navy engineer to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["doctor_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Doctor",
+    Description = "You must be a navy doctor to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+-- --------------------------------------------------------
+-- ---------- PASSIVE ITEM FLAGS: CERTS WHITLISTS ---------
+-- --------------------------------------------------------
+
+
+
+PASSIVE_ITEM_FLAGS["drone_operator_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Drone Operator",
+    Description = "You must be certified as a Drone Operator to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+
+PASSIVE_ITEM_FLAGS["surgeon_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Surgeon",
+    Description = "You must be certified as a surgeon to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["tanker_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Tanker",
+    Description = "You must be certified as a tanker to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["pilot_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Pilot",
+    Description = "You must be certified as a Pilot to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["logistic_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Logistic",
+    Description = "You must be certified as a Pilot to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["jetpack_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "jetpack",
+    Description = "You must be certified for jetpacks to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["slicing_specialization_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = "Slicing_Specialist",
+    Description = "You must be certified as a Slicing Specialist to use this item.",
     Color = Color(127, 0, 95)
 }
 
