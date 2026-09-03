@@ -931,6 +931,7 @@ DivisionTypes = {
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_murlock_engineering_builder"},
                 Prefix = "ENG",
+				atomic = true,
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
 			    },
