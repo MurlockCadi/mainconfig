@@ -1206,6 +1206,18 @@ DivisionTypes = {
                 Weapons = SQUAT_WEAPONS,
 	       		PowerShield = true,
                 ForceModels = true,
+				CombatShield = true,
+                MaxHealth = 150,
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = ""
+            },
+			{
+                Name = "Squat Living Ancestor",
+                Core = true,
+                Models = SQUAT_MODELS,
+                Weapons = SQUAT_WEAPONS,
+	       		PowerShield = true,
+                ForceModels = true,
                 MaxHealth = 150,
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
@@ -1359,6 +1371,17 @@ DivisionTypes = {
 	            PowerShield = true,
                 ForceModels = true,
 				CombatShield = true,
+                MaxHealth = 150,
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = ""
+            },
+			{
+                Name = "Squat Living Ancestor",
+                Core = true,
+                Models = SQUAT_MODELS,
+                Weapons = SQUAT_WEAPONS,
+	       		PowerShield = true,
+                ForceModels = true,
                 MaxHealth = 150,
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
