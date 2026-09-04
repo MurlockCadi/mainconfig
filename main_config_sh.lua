@@ -1092,7 +1092,7 @@ DivisionTypes = {
                 MaxHealth = 140,
 				PowerShield = true,
                 SpawnWeapons = {"weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","realistic_hook","weapon_murlock_scout_tools"},
-                Prefix = ""
+                Prefix = "Skitarii"
             },
 			{
                 Name = "Skitarii Sicarian Infiltrator",
@@ -1105,7 +1105,7 @@ DivisionTypes = {
 				PowerShield = true,
                 HasReconGlasses = true,
                 SpawnWeapons = {"weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","realistic_hook","weapon_murlock_scout_tools"},
-                Prefix = ""
+                Prefix = "Skitarii"
             },
         }
 	},
