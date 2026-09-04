@@ -956,6 +956,7 @@ DivisionTypes = {
                     "models/aussiwozzi/cgi/base/104th_trooper.mdl",
                 },
                 Weapons = {"ent_spawner"},
+				AdvancedEngineer = true,
                 SpawnWeapons = {"weapon_murlock_engineering_builder"},
                 Prefix = "ENG",
 				atomic = true,
@@ -1024,7 +1025,6 @@ DivisionTypes = {
             },
         }
     },
-	
     ["Navy"] = {
         NiceName = "Navy",
         Description = "The Navy is a unit of the Grand Army of the Republic, known for their bravery and skill in battle.",
