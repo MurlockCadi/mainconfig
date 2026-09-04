@@ -1358,6 +1358,7 @@ DivisionTypes = {
                 Weapons = SQUAT_WEAPONS,
 	            PowerShield = true,
                 ForceModels = true,
+				CombatShield = true,
                 MaxHealth = 150,
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
