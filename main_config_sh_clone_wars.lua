@@ -2228,14 +2228,6 @@ PASSIVE_ITEM_FLAGS["logistic_only"] = {
     Color = Color(127, 0, 95)
 }
 
-PASSIVE_ITEM_FLAGS["jetpack_only"] = {
-    FunctionName = "none",
-	CertWhitelist = true,
-	Cert = "jetpack",
-    Description = "You must be certified for jetpacks to use this item.",
-    Color = Color(127, 0, 95)
-}
-
 PASSIVE_ITEM_FLAGS["slicing_specialization_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
