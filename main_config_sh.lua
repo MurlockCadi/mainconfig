@@ -840,7 +840,8 @@ DivisionTypes = {
                     "cat_legacy_omnissiahaxe",
 					"rope_tool"
                 },
-                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -889,7 +890,8 @@ DivisionTypes = {
                     {name = "Steel Barricade 2", model = "models/arne3d/barricades/steelbarricade2.mdl"},
                     {name = "Steel Barricade 1", model = "models/arne3d/barricades/steelbarricade1.mdl"}
                 },
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -918,7 +920,8 @@ DivisionTypes = {
                     "cat_legacy_omnissiahaxe",
 					"rope_tool"
                 },
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"weapon_murlock_engineering_builder","fas2_ifak","ent_spawner","weapon_fists"},
                 EntitySpawner = {
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -951,7 +954,8 @@ DivisionTypes = {
                     "cat_legacy_omnissiahaxe",
 					"rope_tool"
                 },
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"fas2_ifak","weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 EntitySpawner = {
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
@@ -974,7 +978,8 @@ DivisionTypes = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe",
                 },
-                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -999,7 +1004,8 @@ DivisionTypes = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe"
                 },
-                SpawnWeapons = {"murlock_staff_player","ent_spawner","weapon_extinguisher_infinite","weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"murlock_staff_player","ent_spawner","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -1021,7 +1027,8 @@ DivisionTypes = {
                 Weapons = {
                     "cat_legacy_omnissiahaxe"
                 },
-                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -1046,7 +1053,8 @@ DivisionTypes = {
                     "weapon_simrepair",
 					"rope_tool"
                 },
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
@@ -1076,7 +1084,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/wk/adeptus_mechanicus/wk_secutarii_hoplites.mdl","models/wk/adeptus_mechanicus/wk_secutarii_hoplites_alpha.mdl","models/wk/adeptus_mechanicus/wk_sicarian_infiltrators.mdl","models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_marshal.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard_alpha.mdl","models/wk/adeptus_mechanicus/wk_skitarii_vanguard_mars.mdl","models/wk/adeptus_mechanicus/wk_pteraxii_skystalkers.mdl","models/wk/adeptus_mechanicus/wk_pteraxii_sterylizors.mdl"},
                 ForceModels = true,
-                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic" },
+                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic","weapon_murlock_engineering_builder" },
                 MaxHealth = 150,
 				PowerShield = true,
                 SpawnWeapons = {"weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists"},
@@ -1088,7 +1096,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/wk/adeptus_mechanicus/wk_skitarii_rangers.mdl","models/wk/adeptus_mechanicus/wk_skitarii_rangers_alpha.mdl"},
                 ForceModels = true,
-                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic","weapon_murlock_scout_tools"},
+                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic","weapon_murlock_scout_tools","weapon_murlock_engineering_builder"},
                 MaxHealth = 140,
 				PowerShield = true,
                 SpawnWeapons = {"weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","realistic_hook","weapon_murlock_scout_tools"},
@@ -1100,7 +1108,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {"models/wk/adeptus_mechanicus/wk_sicarian_infiltrators.mdl","models/wk/adeptus_mechanicus/wk_sicarian_ruststalkers.mdl"},
                 ForceModels = true,
-                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic","weapon_murlock_scout_tools"},
+                Weapons = {"cat_custom_omnissiahaxe","cat_custom_galvanic","weapon_murlock_scout_tools","weapon_murlock_engineering_builder"},
                 MaxHealth = 130,
 				PowerShield = true,
                 HasReconGlasses = true,
@@ -1208,7 +1216,8 @@ DivisionTypes = {
                 ForceModels = true,
 				CombatShield = true,
                 MaxHealth = 150,
-                SpawnWeapons = {"weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"weapon_fists","weapon_murlock_engineering_builder"},
                 Prefix = ""
             },
 			{
@@ -1372,7 +1381,8 @@ DivisionTypes = {
                 ForceModels = true,
 				CombatShield = true,
                 MaxHealth = 150,
-                SpawnWeapons = {"weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"weapon_fists","weapon_murlock_engineering_builder"},
                 Prefix = ""
             },
 			{
@@ -1383,7 +1393,8 @@ DivisionTypes = {
 	       		PowerShield = true,
                 ForceModels = true,
                 MaxHealth = 150,
-                SpawnWeapons = {"weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"weapon_fists","weapon_murlock_engineering_builder"},
                 Prefix = ""
             },
             {
@@ -1404,7 +1415,8 @@ DivisionTypes = {
                 MaxHealth = 150,
                 ForceModels = true,
                 atomic = true,
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_simrepair","weapon_fists"},
+				AdvancedEngineer = true,
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_simrepair","weapon_fists","weapon_murlock_engineering_builder"},
                 EntitySpawner = {
                     {
                         name = "Ammo Supplies",
@@ -1910,7 +1922,7 @@ DivisionTypes = {
                 Core = true,
                 Models = CADIAN_MODELS,
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","rope_tool","weapon_fists"},
+                SpawnWeapons = {"ent_spawner","rope_tool","weapon_fists","weapon_murlock_engineering_builder"},
                 Prefix = "LO",
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -2004,7 +2016,7 @@ DivisionTypes = {
 				Core = true,
                 Models = {"models/krig_stormtrooper.mdl"},
 				MaxHealth = 150,
-                Weapons = {"cat_custom_hellgun_lucius","weapon_murlock_scout_tools","realistic_hook"},
+                Weapons = {"cat_custom_hellgun_lucius","weapon_murlock_scout_tools","realistic_hook","weapon_murlock_engineering_builder"},
                 SpawnWeapons = {"weapon_fists","weapon_murlock_scout_tools","realistic_hook"},
                 Prefix = "GR",
 	            vehicles = {
@@ -2067,8 +2079,9 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {},
-                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","rope_tool","weapon_fists"},
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","rope_tool","weapon_fists","weapon_murlock_engineering_builder"},
                 Prefix = "ENG",
+				AdvancedEngineer = true,
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
                     {name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
