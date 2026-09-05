@@ -841,7 +841,7 @@ DivisionTypes = {
 					"rope_tool"
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -891,7 +891,7 @@ DivisionTypes = {
                     {name = "Steel Barricade 1", model = "models/arne3d/barricades/steelbarricade1.mdl"}
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","alydus_fortificationbuildertablet","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -921,7 +921,7 @@ DivisionTypes = {
 					"rope_tool"
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"weapon_murlock_engineering_builder","fas2_ifak","ent_spawner","weapon_fists"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","fas2_ifak","ent_spawner","weapon_fists"},
                 EntitySpawner = {
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
@@ -955,7 +955,7 @@ DivisionTypes = {
 					"rope_tool"
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"fas2_ifak","weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
+                SpawnWeapons = {"fas2_ifak","weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","ent_spawner","weapon_fists"},
                 EntitySpawner = {
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
