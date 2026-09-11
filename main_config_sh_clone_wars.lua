@@ -1502,6 +1502,222 @@ CERTIFICATIONS = {
 
 }
 
+VEHICLE_CERT_VEHICLES = {
+
+    ["Tanker"] = {
+        {
+            name = "AT-TE",
+            entityname = "lvs_walker_atte",
+            description = "Main battle tank of the Republic, equipped with a large battle cannon and four legs to travel through roguh terrain.",
+            type = "Heavy Vehicle"
+        },
+        {
+            name = "AT-AP",
+            entityname = "lvs_walker_atap",
+            description = "Anti tank Two Legged Walker, Primarily used in tank busting Operations",
+            type = "Heavy Vehicle"
+        },
+        {
+            name = "AT-OT",
+            entityname = "lvs_walker_atot",
+            description = "Heavily reinforced Walker for transport troops",
+            type = "Heavy Vehicle"
+        },
+        {
+            name = "IFT-X",
+            entityname = "lvs_fakehover_iftx",
+            description = "A Standard Republic Medium Battle Tank",
+            type = "Heavy Vehicle"
+        },
+        {
+            name = "2H Transport Repulsor Truck With Cannon",
+            entityname = "lvs_ihr_base_rep",
+            description = "Heavy Hover Truck issued with a heavy cannon",
+            type = "Heavy Vehicle",
+            offset = { forward = 200, right = 0, up = 100 }
+        },
+        {
+            name = "2H Transport Repulsor Truck With Grenade Launcher",
+            entityname = "lvs_ihr_gl_rep",
+            description = "Heavy Hover Truck issued with a grenade launcher",
+            type = "Heavy Vehicle",
+            offset = { forward = 200, right = 0, up = 100 }
+        },
+    },
+
+    ["Speeders & AT-RT"] = {
+        {
+            name = "Speeder",
+            entityname = "lvs_fakehover_barc",
+            description = "A Standard Barc Speeder",
+            type = "Small Vehicle"
+        },
+        {
+            name = "Medical Speeder",
+            entityname = "lvs_fakehover_barc_medical",
+            description = "A Medical Speeder with a stretcher attached",
+            type = "Small Vehicle"
+        },
+        {
+            name = "Staff Car",
+            entityname = "lvs_victorious_landspeeder1",
+            description = "Hover car often used by Officers and Navy personel",
+            type = "Small Vehicle",
+            offset = { forward = 200, right = 0, up = 100 }
+        },
+        {
+            name = "Police Truck [ MP Only ]",
+            entityname = "lvs_vic_policetrack",
+            classes = {"Military Police"},
+            divisions = {"Navy"},
+            description = "Police Truck specific for MPs",
+            type = "Small Vehicle",
+            offset = { forward = 1000, right = 0, up = 100 }
+        },
+        {
+            name = "AT-RT Walker",
+            entityname = "lvs_walker_atrt_standart",
+            description = "Standard Two legged Light armored Anti infantry Walker varient issued with a dual blaster",
+            type = "Small Vehicle"
+        },
+        {
+            name = "AT-RT ( Rotary )",
+            entityname = "lvs_walker_atrt_rotary",
+            description = "A Modified varient issued with a Rotary Z6",
+            type = "Small Vehicle"
+        },
+        {
+            name = "AT-RT ( Flamethrower )",
+            entityname = "lvs_walker_atrt_flamethrower",
+            description = "A Modified varient issued with a flamethrower Speeder",
+            type = "Small Vehicle"
+        },
+    },
+
+    ["Logistics"] = {
+        {
+            name = "2H Transport Truck",
+            entityname = "lvs_ihr_tt_rep",
+            description = "Transports up to 8 Additional Soldiers",
+            type = "Heavy Vehicle",
+            offset = { forward = 200, right = 0, up = 100 }
+        },
+        {
+            name = "2H Transport MG Truck",
+            entityname = "lvs_ihr_mg_rep",
+            description = "Similar to the previous but with a top machinegun",
+            type = "Heavy Vehicle",
+            offset = { forward = 200, right = 0, up = 100 }
+        },
+        {
+            name = "Forklift Loader",
+            entityname = "decs_loader",
+            description = "Only those trained in the arts of driving the loader can be loader certified",
+            type = "Small Vehicle"
+        },
+        {
+            name = "TX-2112 APC [ Clones Only ]",
+            entityname = "unitys-lvs-tx-2112",
+            cloneOnly = true,
+            description = "Armored Personel Carrier issued with a light blaster cannon, can carry 4 additional passengers",
+            type = "Heavy Vehicle",
+            offset = { forward = 200, right = 0, up = 100 }
+        },
+        {
+            name = "2H Radar Truck [ Navy Only ]",
+            entityname = "lvs_ihr_se_rep",
+            divisions = {"Navy"},
+            description = "issued with a long range radio used to identify enemy vehicles",
+            type = "Heavy Vehicle",
+            offset = { forward = 200, right = 0, up = 100 }
+        },
+    },
+
+    ["Pilot"] = {
+        {
+            name = "LAAT/c Transport Dropship",
+            entityname = "lvs_repulsorlift_gunship",
+            description = "Standard Transport Gunship",
+            type = "Heavy Vehicle",
+            offset = { forward = 240, right = 0, up = 100 }
+        },
+        {
+            name = "LAAT/g Gunship",
+            entityname = "lvs_repulsorlift_gunship_heavy",
+            description = "Heavy Gunship Hybrid for bombing runs and CAS",
+            type = "Heavy Vehicle",
+            offset = { forward = 240, right = 0, up = 100 }
+        },
+        {
+            name = "LAAT/c Cargo Dropship [Navy Only]",
+            entityname = "lvs_repulsorlift_dropship",
+            divisions = {"Navy"},
+            description = "Vehicles Transport Gunship",
+            type = "Heavy Vehicle",
+            offset = { forward = 240, right = 0, up = 100 }
+        },
+        {
+            name = "Rho-Class Transport Shuttle [Navy Only]",
+            entityname = "lvs_repulsorlift_rho_class",
+            divisions = {"Navy"},
+            description = "Heavy Transport Shuttle",
+            type = "Heavy Vehicle",
+            offset = { forward = 450, right = 0, up = 100 }
+        },
+        {
+            name = "ARC-170 Fighter [Navy Only]",
+            entityname = "lvs_starfighter_arc170",
+            divisions = {"Navy"},
+            description = "Standard Fighter Spacecraft",
+            type = "Heavy Vehicle",
+            offset = { forward = 200, right = 0, up = 100 }
+        },
+        {
+            name = "V-Wing [Navy Only]",
+            entityname = "lvs_starfighter_vwing",
+            divisions = {"Navy"},
+            description = "Interecptor Spacefraft",
+            type = "Heavy Vehicle",
+            offset = { forward = 200, right = 0, up = 100 }
+        },
+    },
+
+    ["Drone Operator"] = {
+        {
+            name = "Unarmed Drone",
+            entityname = "lvs_clone_drone_unarmed",
+            description = "A non weaponized Drone issued with thermal scanners",
+            type = "Small Vehicle",
+            offset = { forward = 100, right = 0, up = 100 }
+        },
+        {
+            name = "Weaponized Drone",
+            entityname = "lvs_clone_drone_armed",
+            description = "A Weaponised Drone issued with thermal scanners and bombs",
+            type = "Heavy Vehicle",
+            offset = { forward = 100, right = 0, up = 100 }
+        },
+    },
+
+    ["Surgeon"] = {
+        {
+            name = "Medical Stretcher",
+            entityname = "lvs_medical_stretcher",
+            description = "A Medical Stretcher for transporting wounded troops.",
+            type = "Small Vehicle"
+        },
+    },
+
+    --[[ ["Rough Rider"] = {
+        {
+            name = "Horse",
+            entityname = "ent_horse_andalusian",
+            description = "...",
+            type = "Vehicle"
+        },
+    },]]
+}
+
 -- --------------------------------------------------
 -- ---------- PASSIVE ITEMS -------------------------
 -- --------------------------------------------------
