@@ -1920,7 +1920,7 @@ PASSIVE_ITEM_FLAGS["Convert Resolve to Fury"] = {
 
 PASSIVE_ITEM_FLAGS["Convert Fury to Health"] = {
     FunctionName = "ConvertFuryToHealth",
-    Description  = "Converts 75 Fury into +25 Health",
+    Description  = "Converts 150 Fury into +20 Health",
 	workshop = true,
     Color        = Color(255, 80, 80)
 }
@@ -1929,7 +1929,7 @@ PASSIVE_ITEM_FLAGS["Convert Fury to Health"] = {
 
 PASSIVE_ITEM_FLAGS["Convert Fury to Shield"] = {
     FunctionName = "ConvertFuryToShield",
-    Description  = "Converts 75 Fury into +25 Armour",
+    Description  = "Converts 150 Fury into +20 Armour",
     Color        = Color(255, 100, 180)
 }
 
