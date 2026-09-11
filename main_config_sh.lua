@@ -872,7 +872,9 @@ DivisionTypes = {
                 Weapons = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe",
-					"rope_tool"
+					"rope_tool",
+					"weapon_murlock_engineering_builder",
+					"alydus_fortificationbuildertablet"
                 },
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -1949,7 +1951,7 @@ DivisionTypes = {
                 Core = true,
                 Models = CADIAN_MODELS,
                 Weapons = {},
-                SpawnWeapons = {"ent_spawner","rope_tool","weapon_fists","weapon_murlock_engineering_builder"},
+                SpawnWeapons = {"ent_spawner","rope_tool","weapon_fists","weapon_murlock_engineering_builder","alydus_fortificationbuildertablet"},
                 Prefix = "LO",
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
