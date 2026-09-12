@@ -1712,7 +1712,7 @@ DivisionTypes = {
                 Models = MERC_MODELS, 
                 Weapons = {}, 
                 SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","refinery_spawner","weapon_fists","weapon_murlock_engineering_builder"}, 
-                Prefix = ""
+                Prefix = "",
 				AdvancedEngineer = true,
                 Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
