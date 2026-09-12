@@ -848,6 +848,8 @@ DivisionTypes = {
                 SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
+					{ name = "Promethium",          entityname = "lvs_item_jerrycan",    description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
@@ -900,6 +902,8 @@ DivisionTypes = {
                 SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","alydus_fortificationbuildertablet","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
+					{ name = "Promethium",          entityname = "lvs_item_jerrycan",    description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
@@ -930,6 +934,8 @@ DivisionTypes = {
                 SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","fas2_ifak","ent_spawner","weapon_fists"},
                 EntitySpawner = {
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
+					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
+					{ name = "Promethium",          entityname = "lvs_item_jerrycan",    description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
@@ -963,6 +969,8 @@ DivisionTypes = {
 				AdvancedEngineer = true,
                 SpawnWeapons = {"fas2_ifak","weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","ent_spawner","weapon_fists"},
                 EntitySpawner = {
+					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
+					{ name = "Promethium",          entityname = "lvs_item_jerrycan",    description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
@@ -988,6 +996,8 @@ DivisionTypes = {
                 SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
+					{ name = "Promethium",          entityname = "lvs_item_jerrycan",    description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
@@ -1014,6 +1024,8 @@ DivisionTypes = {
                 SpawnWeapons = {"murlock_staff_player","ent_spawner","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
+					{ name = "Promethium",          entityname = "lvs_item_jerrycan",    description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
@@ -1037,6 +1049,8 @@ DivisionTypes = {
                 SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
+					{ name = "Promethium",          entityname = "lvs_item_jerrycan",    description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.", type = "Ammo" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
                     { name = "Castellax Sentry Node", entityname = "tnt_att_s2_cannon",  description = "Sentry Node that will fire bursts of Plasma.", type = "Turret" }
@@ -1063,6 +1077,8 @@ DivisionTypes = {
                 SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
+					{ name = "Promethium",          entityname = "lvs_item_jerrycan",    description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.", type = "Ammo" },
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
                     { name = "Servo Skull",         entityname = "servoskull",           description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.", type = "Skull" },
                     { name = "Plasma Reactor",      entityname = "nuclear_reactor",      description = "A powerful energy source. Must be handled with care.", type = "Reactor" },
@@ -1083,6 +1099,19 @@ DivisionTypes = {
                 MaxHealth = 100,
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "Servitor"
+				EntitySpawner = {
+                    {
+                        name = "Vehicle Ammo Supplies",
+                        entityname = "lvs_item_ammocrate",
+                        description = "Use to resupply any vehicle in the field!",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Promethium",
+                        entityname = "lvs_item_jerrycan",
+                        description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.",
+                        type = "Ammo"
+                    },
             },
 			{
                 Name = "Combat Servitor",
@@ -1674,6 +1703,57 @@ DivisionTypes = {
 				HasReconGlasses = true,
                 SpawnWeapons = {"ent_spawner","refinery_spawner","weapon_fists","weapon_murlock_scout_tools"}, 
                 Prefix = ""
+            },
+			{
+                Name = "Contracted Mercenary Sapper", 
+                Default = false, 
+				Core = true,
+                Models = MERC_MODELS, 
+                Weapons = {}, 
+                SpawnWeapons = {"alydus_fortificationbuildertablet","ent_spawner","refinery_spawner","weapon_fists","weapon_murlock_engineering_builder"}, 
+                Prefix = ""
+				AdvancedEngineer = true,
+                Fortifications = {
+                    {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
+                    {name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
+                    {name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
+                    {name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
+                    {name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
+                    {name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
+                    {name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
+                    {name = "Sandbags Line 2 Tall", model = "models/props_fortifications/sandbags_line2_tall.mdl"},
+                    {name = "Trench Bunker", model = "models/fortification collection/trench_free_a_double.mdl"},
+                    {name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
+                    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
+                    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
+                    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
+                    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
+                    {name = "Steel Barricade 4", model = "models/arne3d/barricades/steelbarricade4.mdl"},
+                    {name = "Steel Barricade 3", model = "models/arne3d/barricades/steelbarricade3.mdl"},
+                    {name = "Steel Barricade 2", model = "models/arne3d/barricades/steelbarricade2.mdl"},
+                    {name = "Steel Barricade 1", model = "models/arne3d/barricades/steelbarricade1.mdl"}
+
+                },
+                EntitySpawner = {
+                    {
+                        name = "Ammo Supplies",
+                        entityname = "universal_ammo_small",
+                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Vehicle Ammo Supplies",
+                        entityname = "lvs_item_ammocrate",
+                        description = "Use to resupply any vehicle in the field!",
+                        type = "Ammo"
+                    },
+                    {
+                        name = "Promethium",
+                        entityname = "lvs_item_jerrycan",
+                        description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.",
+                        type = "Ammo"
+                    },
+                },
             },
 			{
                 Name = "Contracted Mercenary Medicae", 
