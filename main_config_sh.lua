@@ -1662,7 +1662,7 @@ DivisionTypes = {
 				Core = true,
                 Models = MERC_MODELS, 
                 Weapons = {}, 
-                SpawnWeapons = {"refinery_spawner","weapon_fists"}, 
+                SpawnWeapons = {"ent_spawner","refinery_spawner","weapon_fists"}, 
                 Prefix = ""
             },
             {
@@ -1672,8 +1672,26 @@ DivisionTypes = {
                 Models = MERC_MODELS, 
                 Weapons = {}, 
 				HasReconGlasses = true,
-                SpawnWeapons = {"refinery_spawner","weapon_fists","weapon_murlock_scout_tools"}, 
+                SpawnWeapons = {"ent_spawner","refinery_spawner","weapon_fists","weapon_murlock_scout_tools"}, 
                 Prefix = ""
+            },
+			{
+                Name = "Contracted Mercenary Medicae", 
+                Default = false, 
+				Core = true,
+				Medic = true,
+                Models = MERC_MODELS, 
+                Weapons = {}, 
+                SpawnWeapons = {"fas2_ifak","ent_spawner","refinery_spawner","weapon_fists"}, 
+                Prefix = "",
+				EntitySpawner = {
+                    {
+                        name = "Medical Box",
+                        entityname = "medic_box",
+                        description = "Used to let your soldiers heal themselves!",
+                        type = "Medic Box"
+                    }
+                },
             },
 		}
     },
