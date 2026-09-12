@@ -1098,7 +1098,7 @@ DivisionTypes = {
                 Weapons = {"cat_legacy_gravgun"},
                 MaxHealth = 100,
                 SpawnWeapons = {"weapon_fists"},
-                Prefix = "Servitor"
+                Prefix = "Servitor",
 				EntitySpawner = {
                     {
                         name = "Vehicle Ammo Supplies",
