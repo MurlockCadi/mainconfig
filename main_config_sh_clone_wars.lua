@@ -578,16 +578,33 @@ RCT_501ST = {
 }
 MODELS_501ST = {
     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
+	"models/aussiwozzi/cgi/base/501st_barc.mdl",
 }
 NCO_501ST = {
-    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
+	"models/aussiwozzi/cgi/base/501st_appo.mdl",
+	"models/aussiwozzi/cgi/base/501st_jet_trooper.mdl",
+	"models/aussiwozzi/cgi/base/501st_torrent_officer.mdl",
+	"models/aussiwozzi/cgi/base/501st_arf.mdl",
+	"models/aussiwozzi/cgi/base/501st_medic.mdl",
+	"models/aussiwozzi/cgi/base/501st_barc.mdl",
+	"models/aussiwozzi/cgi/base/501st_vaughn.mdl",
+    "models/jajoff/sps/republic/tc13j/army_01.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army03_female.mdl",
 }
 OFFICER_501ST = {
     "models/aussiwozzi/cgi/base/501st_officer.mdl",
     "models/aussiwozzi/cgi/base/501st_medic_officer.mdl",
     "models/aussiwozzi/cgi/base/501st_torrent_officer.mdl",
+	"models/aussiwozzi/cgi/base/501st_jet_trooper.mdl",
     "models/aussiwozzi/cgi/base/501st_vaughn.mdl",
-	"models/aussiwozzi/cgi/base/501st_rex.mdl",
+	"models/aussiwozzi/cgi/base/501st_barc.mdl",
+	"models/aussiwozzi/cgi/base/501st_arf.mdl",
+	"models/aussiwozzi/cgi/base/501st_arc.mdl".
     "models/jajoff/sps/republic/tc13j/army_01.mdl",
     "models/jajoff/sps/republic/tc13j/army_02.mdl",
     "models/jajoff/sps/republic/tc13j/army_03.mdl",
@@ -604,20 +621,12 @@ RCT_212TH = {
 MODELS_212TH = {
     "models/aussiwozzi/cgi/base/212th_trooper.mdl",
     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
-	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
 }
+
 NCO_212TH = {
-    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
-    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
-	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
-}
-OFFICER_212TH = {
-    "models/aussiwozzi/cgi/base/212th_officer.mdl",
-    "models/aussiwozzi/cgi/base/212th_ghost_officer.mdl",
-    "models/aussiwozzi/cgi/base/2ndac_officer.mdl",
-    "models/aussiwozzi/cgi/base/212th_medic_officer.mdl",
-    "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl",
+    "models/aussiwozzi/cgi/base/212th_arf.mdl",
     "models/aussiwozzi/cgi/base/212th_boil.mdl",
+    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
 	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
     "models/jajoff/sps/republic/tc13j/army_01.mdl",
     "models/jajoff/sps/republic/tc13j/army_02.mdl",
@@ -627,24 +636,86 @@ OFFICER_212TH = {
     "models/jajoff/sps/republic/tc13j/army02_female.mdl",
     "models/jajoff/sps/republic/tc13j/army03_female.mdl",
 }
+
+OFFICER_212TH = {
+    "models/aussiwozzi/cgi/base/212th_officer.mdl",
+    "models/aussiwozzi/cgi/base/212th_ghost_officer.mdl",
+    "models/aussiwozzi/cgi/base/212th_medic_officer.mdl",
+    "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl",
+    "models/aussiwozzi/cgi/base/2ndac_officer.mdl",
+	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
+    "models/jajoff/sps/republic/tc13j/army_01.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+}
+	
+-- 104th Models
+RCT_104TH = {
+    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+}
+MODELS_104TH = {
+    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+	"models/aussiwozzi/cgi/base/104th_barc.mdl",
+	"models/aussiwozzi/cgi/base/104th_evo.mdl",
+}
+NCO_104TH = {
+	"models/aussiwozzi/cgi/base/104th_boost.mdl",
+	"models/aussiwozzi/cgi/base/104th_barc.mdl",
+	"models/aussiwozzi/cgi/base/104th_arf.mdl",
+	"models/aussiwozzi/cgi/base/104th_jet.mdl",
+	"models/aussiwozzi/cgi/base/104th_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/army_01.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+}
+
+OFFICER_104TH = {
+    "models/aussiwozzi/cgi/base/104th_officer.mdl",
+    "models/aussiwozzi/cgi/base/104th_medic_officer.mdl",
+    "models/aussiwozzi/cgi/base/104th_jet_officer.mdl",
+    "models/aussiwozzi/cgi/base/104th_evo_officer.mdl",
+	"models/aussiwozzi/cgi/base/104th_arf.mdl",
+    "models/jajoff/sps/republic/tc13j/army_01.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
+    "models/jajoff/sps/republic/tc13j/engineer.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+}
+
 -- NAVY MODELS
 
 NAVY_MODELS = {
-    "models/jajoff/sps/republic/tc13j/navy_03.mdl",
-    "models/jajoff/sps/republic/tc13j/navy03_female.mdl",
-	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_pilot.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_04.mdl",
+	"models/jajoff/sps/republic/tc13j/navy04_female.mdl",
 	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_broadside.mdl",
 	"models/jajoff/sps/republic/tc13j/rsb01.mdl",
     "models/jajoff/sps/republic/tc13j/rsb01_female.mdl",
 }
 
-NAVY_MP_MODELS = {
-    "models/jajoff/sps/republic/tc13j/rsb02.mdl",
-    "models/jajoff/sps/republic/tc13j/rsb02_female.mdl",
+NAVY_NCO_MODELS = {
+    "models/jajoff/sps/republic/tc13j/rsb01.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb01_female.mdl",
     "models/jajoff/sps/republic/tc13j/rsb03.mdl",
     "models/jajoff/sps/republic/tc13j/rsb03_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_02.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
 	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_pilot.mdl",
 }
+
+
 
 NAVY_OFFICER = {
     "models/jajoff/sps/republic/tc13j/navy_01.mdl",
@@ -661,27 +732,6 @@ NAVY_OFFICER = {
 	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_matchstick.mdl",
 }
 
--- 104th Models
-RCT_104TH = {
-    "models/aussiwozzi/cgi/base/104th_trooper.mdl"
-}
-MODELS_104TH = {
-    "models/aussiwozzi/cgi/base/104th_trooper.mdl"
-}
-NCO_104TH = {
-    "models/aussiwozzi/cgi/base/104th_trooper.mdl"
-}
-OFFICER_104TH = {
-    "models/jajoff/sps/republic/tc13j/army_01.mdl",
-    "models/jajoff/sps/republic/tc13j/army_02.mdl",
-    "models/jajoff/sps/republic/tc13j/army_03.mdl",
-    "models/jajoff/sps/republic/tc13j/engineer.mdl",
-    "models/aussiwozzi/cgi/base/104th_officer.mdl",
-    "models/aussiwozzi/cgi/base/104th_medic_officer.mdl",
-    "models/aussiwozzi/cgi/base/104th_jet_officer.mdl",
-    "models/aussiwozzi/cgi/base/104th_evo_officer.mdl",
-	"models/aussiwozzi/cgi/base/104th_arf.mdl"
-}
 -- --------------------------------------------------
 -- ---------- DIVISION TYPES ------------------------
 -- --------------------------------------------------
@@ -723,7 +773,7 @@ DivisionTypes = {
                 Name = "Trooper",
                 Core = true,
 				Default = true,
-                Models = {"models/aussiwozzi/cgi/base/501st_trooper.mdl"},
+                Models = {"models/aussiwozzi/cgi/base/501st_trooper.mdl","models/aussiwozzi/cgi/base/501st_jet_trooper.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl","models/aussiwozzi/cgi/base/501st_vaughn.mdl"},
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "",
@@ -734,7 +784,7 @@ DivisionTypes = {
                 Name = "Heavy Weapons",
                 Core = true,
 				CombatShield = true,
-                Models = {"models/aussiwozzi/cgi/base/501st_torrent.mdl",},
+                Models = {"models/aussiwozzi/cgi/base/501st_torrent_officer.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl","models/aussiwozzi/cgi/base/501st_torrent.mdl"},
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "HW",
@@ -746,7 +796,7 @@ DivisionTypes = {
             {
                 Name = "Juggernaut",
                 Core = true,
-                Models = {"models/aussiwozzi/cgi/base/501st_torrent.mdl",},
+                Models = {"models/aussiwozzi/cgi/base/501st_torrent.mdl"},
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "JUG",
@@ -759,7 +809,7 @@ DivisionTypes = {
                 Name = "Advanced Recon Commando",
                 Core = true,
                 Models = {
-                    {"models/aussiwozzi/cgi/base/501st_arc.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl"},
+                    {"models/aussiwozzi/cgi/base/501st_arc.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl","models/aussiwozzi/cgi/base/501st_arf.mdl"},
                 },
                 Weapons = {},
 				HasReconGlasses = true,
@@ -773,7 +823,7 @@ DivisionTypes = {
 				Medic = true,
                 Core = true,
                 Models = 
-					{ "models/aussiwozzi/cgi/base/501st_medic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl"},
+					{ "models/aussiwozzi/cgi/base/501st_medic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl"},
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "MED",
@@ -786,7 +836,7 @@ DivisionTypes = {
                 Name = "Engineer",
 				Engineer = true,
                 Core = true,
-                Models = {"models/aussiwozzi/cgi/base/501st_trooper.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
+                Models = {"models/aussiwozzi/cgi/base/501st_appo.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl"},
                 Weapons = {ent_spawner},
                 SpawnWeapons = {"weapon_murlock_engineering_builder"},
                 Prefix = "ENG",
@@ -829,7 +879,7 @@ DivisionTypes = {
                 Core = true,
 				Default = true,
                 Models = {
-                    {"models/aussiwozzi/cgi/base/212th_trooper.mdl", "models/aussiwozzi/cgi/base/2ndac_trooper.mdl"},
+                    {"models/aussiwozzi/cgi/base/212th_trooper.mdl", "models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
@@ -842,7 +892,7 @@ DivisionTypes = {
                 Core = true,
 				Default = true,
                 Models = {
-                    {"models/aussiwozzi/cgi/base/212th_trooper.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl"},
+                    {"models/aussiwozzi/cgi/base/212th_trooper.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
@@ -855,7 +905,7 @@ DivisionTypes = {
 				Medic = true,
                 Core = true,
                 Models = {
-                    { "models/aussiwozzi/cgi/base/212th_medic.mdl", "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl", "models/jajoff/sps/republic/tc13j/army_medic.mdl"},
+                    { "models/aussiwozzi/cgi/base/212th_medic.mdl","models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl"},
                 },
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
@@ -869,7 +919,7 @@ DivisionTypes = {
                 Name = "Advanced Recon Commando",
                 Core = true,
                 Models = {
-                    {"models/aussiwozzi/cgi/base/212th_arc.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
+                    {"models/aussiwozzi/cgi/base/212th_arc.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl","models/aussiwozzi/cgi/base/212th_arf.mdl"},
                 },
                 Weapons = {},
 				HasReconGlasses = true,
@@ -882,7 +932,7 @@ DivisionTypes = {
                 Name = "Heavy Weapons",
                 Core = true,
                 Models = {
-                    {"models/aussiwozzi/cgi/base/212th_ghost_company.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
+                    {"models/aussiwozzi/cgi/base/212th_ghost_company.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
                 },
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
@@ -896,7 +946,7 @@ DivisionTypes = {
                 Name = "Engineer",
                 Core = true,
                 Models = {
-                    {"models/aussiwozzi/cgi/base/212th_ghost_company.mdl", "models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
+                    {"models/aussiwozzi/cgi/base/212th_ghost_company.mdl", "models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
                 },
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_murlock_engineering_builder"},
@@ -940,7 +990,7 @@ DivisionTypes = {
                 Core = true,
 				Default = true,
                 Models = {
-                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+                    {"models/aussiwozzi/cgi/base/104th_trooper.mdl","models/aussiwozzi/cgi/base/104th_jet.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl",},
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
@@ -953,7 +1003,7 @@ DivisionTypes = {
                 Core = true,
 				Default = true,
                 Models = {
-                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+                    {"models/aussiwozzi/cgi/base/104th_comet.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl"},
                 },
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
@@ -968,7 +1018,7 @@ DivisionTypes = {
                 Core = true,
 				Default = true,
                 Models = {
-                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+                    {"models/aussiwozzi/cgi/base/104th_sinker.mdl","models/aussiwozzi/cgi/base/104th_evo.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
                 },
                 Weapons = {"ent_spawner"},
 				AdvancedEngineer = true,
@@ -984,30 +1034,13 @@ DivisionTypes = {
                 Name = "Advanced Recon Force",
                 Core = true,
                 Models = {
-                    {"models/aussiwozzi/cgi/base/104th_arf.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl"},
+                    {"models/aussiwozzi/cgi/base/104th_arf.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl"},
                 },
                 Weapons = {},
 				HasReconGlasses = true,
                 SpawnWeapons = {"realistic_hook","weapon_murlock_recon_visor"},
                 Prefix = "ARF",
                 EntitySpawner = {},
-                vehicles = {},
-            },
-
-            {
-                Name = "Engineer",
-                Core = true,
-				Default = true,
-                Models = {
-                    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
-                },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_murlock_engineering_builder"},
-                Prefix = "ENG",
-				atomic = true,
-                EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
-			    },
                 vehicles = {},
             },
             {
@@ -1028,7 +1061,7 @@ DivisionTypes = {
 				Medic = true,
                 Core = true,
                 Models = {
-                    "models/aussiwozzi/cgi/base/104th_medic.mdl"
+                    {"models/aussiwozzi/cgi/base/104th_medic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl"},
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
@@ -1053,10 +1086,10 @@ DivisionTypes = {
             {ID = 3,  Name = "Crewman",                   Rank_Prefix = "CM",     ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             {ID = 4,  Name = "Petty Officer 3rd Class",   Rank_Prefix = "PO3",    ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- NCO
-            {ID = 5,  Name = "Petty Officer 2nd Class",   Rank_Prefix = "PO2",    ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 6,  Name = "Petty Officer 1st Class",   Rank_Prefix = "PO1",    ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 7,  Name = "Chief Petty Officer",       Rank_Prefix = "CPO",    ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 8,  Name = "Senior Chief Petty Officer",Rank_Prefix = "SCPO",   ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 5,  Name = "Petty Officer 2nd Class",   Rank_Prefix = "PO2",    ModelsAllowed = NAVY_NCO_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 6,  Name = "Petty Officer 1st Class",   Rank_Prefix = "PO1",    ModelsAllowed = NAVY_NCO_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 7,  Name = "Chief Petty Officer",       Rank_Prefix = "CPO",    ModelsAllowed = NAVY_NCO_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 8,  Name = "Senior Chief Petty Officer",Rank_Prefix = "SCPO",   ModelsAllowed = NAVY_NCO_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
             -- Officers
             {ID = 9,  Name = "Ensign",                    Rank_Prefix = "ENS",    ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
             {ID = 10, Name = "Sub-Lieutenant",            Rank_Prefix = "SLT",    ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
@@ -1073,7 +1106,7 @@ DivisionTypes = {
                 Name = "Gunner",
                 Core = true,
                 Models = {
-                    {"models/jajoff/sps/republic/tc13j/navy_03.mdl","models/jajoff/sps/republic/tc13j/navy03_female.mdl","models/jajoff/sps/republic/tc13j/navy_04.mdl","models/jajoff/sps/republic/tc13j/navy04_female.mdl"},
+                    {"models/jajoff/sps/republic/tc13j/navy_03.mdl","models/jajoff/sps/republic/tc13j/navy03_female.mdl"},
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
@@ -1091,7 +1124,7 @@ DivisionTypes = {
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Models = {
-                    {"models/jajoff/sps/republic/tc13j/rsb02.mdl","models/jajoff/sps/republic/tc13j/rsb02_female.mdl","models/jajoff/sps/republic/tc13j/rsb03.mdl","models/jajoff/sps/republic/tc13j/rsb03_female.mdl"},
+                    {"models/jajoff/sps/republic/tc13j/rsb02.mdl","models/jajoff/sps/republic/tc13j/rsb02_female.mdl"},
                 },
                 Prefix = "MP",
                 EntitySpawner = {},
@@ -1107,9 +1140,9 @@ DivisionTypes = {
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
-                Prefix = "DOC",
+                Prefix = "DOC",	
                 EntitySpawner = {
-					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
+					{ name = "Kolto Crate",    entityname = "medic_box", description = "Allows Clones to Heal when Close", type = "Medic Box" },
 				},
                 vehicles = {},
             },
@@ -1446,11 +1479,8 @@ CERTIFICATIONS = {
     ["Pilot"] = { --Able to spawn some basic fighters / basic transport.
         Weapons = {},
         Entitys = {},
-        Models = {
-            "models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_pilot.mdl",
-            "models/aussiwozzi/cgi/base/212th_pilot.mdl",
-        },
     },
+	
     ["Tanker"] = { --Able to spawn in a huge range of heavy to light tanks.
         Weapons = {},
         Entitys = {},
@@ -1497,7 +1527,7 @@ CERTIFICATIONS = {
         Entitys = {},
     },
     ["Slicing Specialist"] = { --Unlocks the ability to hack computers, as well as use tools to hack droids.
-        Weapons = {},
+        Weapons = {"wp_zks_slicer"},	
     },
 
 }
@@ -1563,7 +1593,7 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_victorious_landspeeder1",
             description = "Hover car often used by Officers and Navy personel",
             type = "Small Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 1	00, right = 0, up = 100 }
         },
         {
             name = "Police Truck [ MP Only ]",
@@ -1572,7 +1602,7 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "Police Truck specific for MPs",
             type = "Small Vehicle",
-            offset = { forward = 1000, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "AT-RT Walker",
