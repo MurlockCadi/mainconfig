@@ -1593,7 +1593,7 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_victorious_landspeeder1",
             description = "Hover car often used by Officers and Navy personel",
             type = "Small Vehicle",
-            offset = { forward = 1	00, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "Police Truck [ MP Only ]",
