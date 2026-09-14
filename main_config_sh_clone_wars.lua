@@ -1555,21 +1555,21 @@ VEHICLE_CERT_VEHICLES = {
             name = "AT-AP",
             entityname = "lvs_walker_atap",
             description = "Anti tank Two Legged Walker, Primarily used in tank busting Operations",
-            type = "Heavy Vehicle"
+            type = "Heavy Vehicle",
 			offset = { forward = 100, right = 0, up = 10 }
         },
         {
             name = "AT-OT",
             entityname = "lvs_walker_atot",
             description = "Heavily reinforced Walker for transport troops",
-            type = "Heavy Vehicle"
+            type = "Heavy Vehicle",
 			offset = { forward = 100, right = 0, up = 10 }
         },
         {
             name = "IFT-X",
             entityname = "lvs_fakehover_iftx",
             description = "A Standard Republic Medium Battle Tank",
-            type = "Heavy Vehicle"
+            type = "Heavy Vehicle",
 			offset = { forward = 100, right = 0, up = 100 }
         },
         {
