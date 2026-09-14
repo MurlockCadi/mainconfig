@@ -774,7 +774,7 @@ DivisionTypes = {
                 Core = true,
 				Default = true,
                 Models = {"models/aussiwozzi/cgi/base/501st_trooper.mdl","models/aussiwozzi/cgi/base/501st_jet_trooper.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl","models/aussiwozzi/cgi/base/501st_vaughn.mdl"},
-                Weapons = {"ent_spawner"},
+                Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "",
                 EntitySpawner = {},
@@ -785,7 +785,7 @@ DivisionTypes = {
                 Core = true,
 				CombatShield = true,
                 Models = {"models/aussiwozzi/cgi/base/501st_torrent_officer.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl","models/aussiwozzi/cgi/base/501st_torrent.mdl"},
-                Weapons = {"ent_spawner"},
+                Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "HW",
                 EntitySpawner = {
@@ -797,7 +797,7 @@ DivisionTypes = {
                 Name = "Juggernaut",
                 Core = true,
                 Models = {"models/aussiwozzi/cgi/base/501st_torrent.mdl"},
-                Weapons = {"ent_spawner"},
+                Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "JUG",
                 EntitySpawner = {
@@ -824,8 +824,8 @@ DivisionTypes = {
                 Core = true,
                 Models = 
 					{ "models/aussiwozzi/cgi/base/501st_medic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl"},
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
+                Weapons = {},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MED",
                 EntitySpawner = {
 					{ name = "Kolto Crate",    entityname = "medic_box", description = "Allows Clones to Heal when Close", type = "Medic Box" },
@@ -837,11 +837,12 @@ DivisionTypes = {
 				Engineer = true,
                 Core = true,
                 Models = {"models/aussiwozzi/cgi/base/501st_appo.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl"},
-                Weapons = {ent_spawner},
-                SpawnWeapons = {"weapon_murlock_engineering_builder"},
+                Weapons = {},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "ENG",
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "Gives Ammo to Clones", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies",    entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the fields", type = "Ammo" },
 				},
                 vehicles = {},
             }
@@ -879,7 +880,7 @@ DivisionTypes = {
                 Core = true,
 				Default = true,
                 Models = {
-                    {"models/aussiwozzi/cgi/base/212th_trooper.mdl", "models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
+                    {"models/aussiwozzi/cgi/base/212th_trooper.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
@@ -907,8 +908,8 @@ DivisionTypes = {
                 Models = {
                     { "models/aussiwozzi/cgi/base/212th_medic.mdl","models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl"},
                 },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
+                Weapons = {},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MED",
                 EntitySpawner = {
 					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
@@ -934,8 +935,8 @@ DivisionTypes = {
                 Models = {
                     {"models/aussiwozzi/cgi/base/212th_ghost_company.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
                 },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
+                Weapons = {},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "HW",
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
@@ -946,13 +947,14 @@ DivisionTypes = {
                 Name = "Engineer",
                 Core = true,
                 Models = {
-                    {"models/aussiwozzi/cgi/base/212th_ghost_company.mdl", "models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
+                    {"models/aussiwozzi/cgi/base/212th_ghost_company.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
                 },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_murlock_engineering_builder"},
+                Weapons = {},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "ENG",
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies",    entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the fields", type = "Ammo" },
 			    },
                 vehicles = {},
             },
@@ -1005,8 +1007,8 @@ DivisionTypes = {
                 Models = {
                     {"models/aussiwozzi/cgi/base/104th_comet.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl"},
                 },
-                Weapons = {"ent_spawner"},
-                SpawnWeapons = {"weapon_fists"},
+                Weapons = {},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "HW",
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
@@ -1020,13 +1022,14 @@ DivisionTypes = {
                 Models = {
                     {"models/aussiwozzi/cgi/base/104th_sinker.mdl","models/aussiwozzi/cgi/base/104th_evo.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
                 },
-                Weapons = {"ent_spawner"},
+                Weapons = {},
 				AdvancedEngineer = true,
-                SpawnWeapons = {"weapon_murlock_engineering_builder"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "ENG",
 				atomic = true,
                 EntitySpawner = {
 					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies",    entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the fields", type = "Ammo" },
 			    },
                 vehicles = {},
             },
@@ -1064,7 +1067,7 @@ DivisionTypes = {
                     {"models/aussiwozzi/cgi/base/104th_medic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl"},
                 },
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MED",
                 EntitySpawner = {
 					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
@@ -1123,9 +1126,6 @@ DivisionTypes = {
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
-                Models = {
-                    {"models/jajoff/sps/republic/tc13j/rsb02.mdl","models/jajoff/sps/republic/tc13j/rsb02_female.mdl"},
-                },
                 Prefix = "MP",
                 EntitySpawner = {},
                 vehicles = {},
@@ -1139,7 +1139,7 @@ DivisionTypes = {
                     {"models/jajoff/sps/republic/tc13j/navy_medic.mdl","models/jajoff/sps/republic/tc13j/navy_medic_female.mdl"},
                 },
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "DOC",	
                 EntitySpawner = {
 					{ name = "Kolto Crate",    entityname = "medic_box", description = "Allows Clones to Heal when Close", type = "Medic Box" },
@@ -1155,9 +1155,12 @@ DivisionTypes = {
                     {"models/jajoff/sps/republic/tc13j/navy_02.mdl","models/jajoff/sps/republic/tc13j/navy02_female.mdl"},
                 },
                 Weapons = {},
-                SpawnWeapons = {"weapon_murlock_engineering_builder"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "ENG",
-                EntitySpawner = {},
+                EntitySpawner = {
+					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+					{ name = "Vehicle Ammo Supplies",    entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the fields", type = "Ammo" },
+			    },
                 vehicles = {},
             },
 
@@ -1529,7 +1532,13 @@ CERTIFICATIONS = {
     ["Slicing Specialist"] = { --Unlocks the ability to hack computers, as well as use tools to hack droids.
         Weapons = {"wp_zks_slicer"},	
     },
-
+    ["Cook"] = {
+        Weapons = {"ent_spawner"},
+        Entitys = {
+            { name = "Cooker", entityname = "cat_iron_stove", description = "Make food for the troops.", type = "Other" },
+			{ name = "Pantry", entityname = "warhammer_pantry", description = "Buy Raw Goods to turn into Food", type = "Other" }
+        }
+    },
 }
 
 VEHICLE_CERT_VEHICLES = {
@@ -1540,38 +1549,42 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_walker_atte",
             description = "Main battle tank of the Republic, equipped with a large battle cannon and four legs to travel through roguh terrain.",
             type = "Heavy Vehicle"
+			offset = { forward = 100, right = 0, up = 10 }
         },
         {
             name = "AT-AP",
             entityname = "lvs_walker_atap",
             description = "Anti tank Two Legged Walker, Primarily used in tank busting Operations",
             type = "Heavy Vehicle"
+			offset = { forward = 100, right = 0, up = 10 }
         },
         {
             name = "AT-OT",
             entityname = "lvs_walker_atot",
             description = "Heavily reinforced Walker for transport troops",
             type = "Heavy Vehicle"
+			offset = { forward = 100, right = 0, up = 10 }
         },
         {
             name = "IFT-X",
             entityname = "lvs_fakehover_iftx",
             description = "A Standard Republic Medium Battle Tank",
             type = "Heavy Vehicle"
+			offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "2H Transport Repulsor Truck With Cannon",
             entityname = "lvs_ihr_base_rep",
             description = "Heavy Hover Truck issued with a heavy cannon",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "2H Transport Repulsor Truck With Grenade Launcher",
             entityname = "lvs_ihr_gl_rep",
             description = "Heavy Hover Truck issued with a grenade launcher",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
     },
 
@@ -1581,12 +1594,14 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_fakehover_barc",
             description = "A Standard Barc Speeder",
             type = "Small Vehicle"
+			offset = { forward = 50, right = 0, up = 10 }
         },
         {
             name = "Medical Speeder",
             entityname = "lvs_fakehover_barc_medical",
             description = "A Medical Speeder with a stretcher attached",
             type = "Small Vehicle"
+			offset = { forward = 50, right = 0, up = 10 }
         },
         {
             name = "Staff Car",
@@ -1602,25 +1617,28 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "Police Truck specific for MPs",
             type = "Small Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 120, right = 0, up = 100 }
         },
         {
-            name = "AT-RT Walker",
+            name = "AT-RT Walker [ Clones Only ]",
             entityname = "lvs_walker_atrt_standart",
             description = "Standard Two legged Light armored Anti infantry Walker varient issued with a dual blaster",
             type = "Small Vehicle"
+			offset = { forward = 50, right = 0, up = 10 }
         },
         {
-            name = "AT-RT ( Rotary )",
+            name = "AT-RT ( Rotary )[ Clones Only ]",
             entityname = "lvs_walker_atrt_rotary",
             description = "A Modified varient issued with a Rotary Z6",
             type = "Small Vehicle"
+			offset = { forward = 50, right = 0, up = 10 }
         },
         {
-            name = "AT-RT ( Flamethrower )",
+            name = "AT-RT ( Flamethrower )[ Clones Only ]",
             entityname = "lvs_walker_atrt_flamethrower",
             description = "A Modified varient issued with a flamethrower Speeder",
             type = "Small Vehicle"
+			offset = { forward = 50, right = 0, up = 10 }
         },
     },
 
@@ -1630,20 +1648,21 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_ihr_tt_rep",
             description = "Transports up to 8 Additional Soldiers",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "2H Transport MG Truck",
             entityname = "lvs_ihr_mg_rep",
             description = "Similar to the previous but with a top machinegun",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "Forklift Loader",
             entityname = "decs_loader",
             description = "Only those trained in the arts of driving the loader can be loader certified",
             type = "Small Vehicle"
+			offset = { forward = 100, right = 0, up = 10 }
         },
         {
             name = "TX-2112 APC [ Clones Only ]",
@@ -1651,7 +1670,7 @@ VEHICLE_CERT_VEHICLES = {
             cloneOnly = true,
             description = "Armored Personel Carrier issued with a light blaster cannon, can carry 4 additional passengers",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "2H Radar Truck [ Navy Only ]",
@@ -1659,7 +1678,7 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "issued with a long range radio used to identify enemy vehicles",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
     },
 
@@ -1669,14 +1688,14 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_repulsorlift_gunship",
             description = "Standard Transport Gunship",
             type = "Heavy Vehicle",
-            offset = { forward = 240, right = 0, up = 100 }
+            offset = { forward = 140, right = 0, up = 100 }
         },
         {
             name = "LAAT/g Gunship",
             entityname = "lvs_repulsorlift_gunship_heavy",
             description = "Heavy Gunship Hybrid for bombing runs and CAS",
             type = "Heavy Vehicle",
-            offset = { forward = 240, right = 0, up = 100 }
+            offset = { forward = 140, right = 0, up = 100 }
         },
         {
             name = "LAAT/c Cargo Dropship [Navy Only]",
@@ -1684,7 +1703,7 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "Vehicles Transport Gunship",
             type = "Heavy Vehicle",
-            offset = { forward = 240, right = 0, up = 100 }
+            offset = { forward = 140, right = 0, up = 100 }
         },
         {
             name = "Rho-Class Transport Shuttle [Navy Only]",
@@ -1700,7 +1719,7 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "Standard Fighter Spacecraft",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "V-Wing [Navy Only]",
@@ -1708,7 +1727,7 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "Interecptor Spacefraft",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
     },
 
@@ -2354,6 +2373,13 @@ PASSIVE_ITEM_FLAGS["any_vehicle_certs_only"] = {
 -- ---------- PASSIVE ITEM FLAGS: MULTI CLASS WHITLISTS ---------
 -- --------------------------------------------------------------
 
+PASSIVE_ITEM_FLAGS["barc_and_speeder_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = {"Speeders & AT-RT"},
+    Description = "You must speeder certified to use this item.",
+    Color = Color(124, 124, 124)
+}
 
 PASSIVE_ITEM_FLAGS["any_recon_only"] = {
     FunctionName = "none",
@@ -2525,8 +2551,6 @@ PASSIVE_ITEM_FLAGS["doctor_only"] = {
 -- ---------- PASSIVE ITEM FLAGS: CERTS WHITLISTS ---------
 -- --------------------------------------------------------
 
-
-
 PASSIVE_ITEM_FLAGS["drone_operator_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
@@ -2590,6 +2614,228 @@ PASSIVE_ITEM_FLAGS["juggernaut_only"] = {
 	Cert = "Juggernaut",
     Description = "You must be certified to use Power Armor to use this item.",
     Color = Color(127, 0, 95)
+}
+
+-- --------------------------------------------------------
+-- ---------- ADDITIONAL META INFO-FLAGS  -----------------
+-- --------------------------------------------------------
+
+-- Consumable items Info Flags
+
+PASSIVE_ITEM_FLAGS["Cannot be sold -Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[This item cannot be sold]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["Valuable-Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[This item can be sold for a large Sum of creds]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Legal - infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Legal]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Illegal - infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Illegal]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Food Item - infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Food Item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Drink Item - infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Drink Item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Consumable Item - infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Consumable Item]",
+	Classification = true
+}
+
+-- Factions Info Flags
+
+
+PASSIVE_ITEM_FLAGS["Navy Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only members of the Republic navy should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["501st Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only members of the 501st should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["212th Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only members of the 212th should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["104th Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only members of the 104th should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Clones Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only clones should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Auxiliary Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Auxiliar members should have this item]",
+	Classification = true
+}
+
+-- Classes Info Flags
+
+PASSIVE_ITEM_FLAGS["Military Police Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only MPs members can, and should have this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["Gunners Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Crewman Gunners can, and should have this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["ARC Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only ARC troopers can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["ARF Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only ARF troopers can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Medics Or Doctors - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Doctors or Medic troopers can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Heavy Weapons Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Heavy Weapons troopers can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Special Forces Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only ARF, ARC and BARC[NCO+] can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Juggernaut Class - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Juggernauts (501st) troopers can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["EOD Class - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only EOD (212th) troopers can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Engineers Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Engineers members can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Clones Engineers Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Engineers members from the 501st, 212th and 104th can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Navy Engineers Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Engineers members of the Republic navy can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Mercenaries Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Mercenaries can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Astromechs Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Astromech units can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Droids Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Droids units can, and should have this item]",
+	Classification = true
+}
+
+-- Cert Info Flags
+
+PASSIVE_ITEM_FLAGS["Slicer Operator Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Slicer Specialized troopers can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Jetpack - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only troopers Certified for jetpacks can, and should have this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["EOD Cert - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Any troopers Certified for EOD can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["BARC Cert - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only troopers certified for BARC & Speeders can, and should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Vehicle Crews - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Any specialized trooper for any vehicle can, and should have this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["Surgeon Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Members Trained as Surgeon can, and should have this item]",
+	Classification = true
 }
 
 -- --------------------------------------------------
