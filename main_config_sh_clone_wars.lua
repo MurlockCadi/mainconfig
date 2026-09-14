@@ -1548,7 +1548,7 @@ VEHICLE_CERT_VEHICLES = {
             name = "AT-TE",
             entityname = "lvs_walker_atte",
             description = "Main battle tank of the Republic, equipped with a large battle cannon and four legs to travel through roguh terrain.",
-            type = "Heavy Vehicle"
+            type = "Heavy Vehicle",
 			offset = { forward = 100, right = 0, up = 10 }
         },
         {
