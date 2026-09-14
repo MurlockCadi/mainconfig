@@ -604,7 +604,7 @@ OFFICER_501ST = {
     "models/aussiwozzi/cgi/base/501st_vaughn.mdl",
 	"models/aussiwozzi/cgi/base/501st_barc.mdl",
 	"models/aussiwozzi/cgi/base/501st_arf.mdl",
-	"models/aussiwozzi/cgi/base/501st_arc.mdl".
+	"models/aussiwozzi/cgi/base/501st_arc.mdl",
     "models/jajoff/sps/republic/tc13j/army_01.mdl",
     "models/jajoff/sps/republic/tc13j/army_02.mdl",
     "models/jajoff/sps/republic/tc13j/army_03.mdl",
