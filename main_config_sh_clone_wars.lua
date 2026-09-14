@@ -1593,14 +1593,14 @@ VEHICLE_CERT_VEHICLES = {
             name = "Speeder",
             entityname = "lvs_fakehover_barc",
             description = "A Standard Barc Speeder",
-            type = "Small Vehicle"
+            type = "Small Vehicle",
 			offset = { forward = 50, right = 0, up = 10 }
         },
         {
             name = "Medical Speeder",
             entityname = "lvs_fakehover_barc_medical",
             description = "A Medical Speeder with a stretcher attached",
-            type = "Small Vehicle"
+            type = "Small Vehicle",
 			offset = { forward = 50, right = 0, up = 10 }
         },
         {
@@ -1623,21 +1623,21 @@ VEHICLE_CERT_VEHICLES = {
             name = "AT-RT Walker [ Clones Only ]",
             entityname = "lvs_walker_atrt_standart",
             description = "Standard Two legged Light armored Anti infantry Walker varient issued with a dual blaster",
-            type = "Small Vehicle"
+            type = "Small Vehicle",
 			offset = { forward = 50, right = 0, up = 10 }
         },
         {
             name = "AT-RT ( Rotary )[ Clones Only ]",
             entityname = "lvs_walker_atrt_rotary",
             description = "A Modified varient issued with a Rotary Z6",
-            type = "Small Vehicle"
+            type = "Small Vehicle",
 			offset = { forward = 50, right = 0, up = 10 }
         },
         {
             name = "AT-RT ( Flamethrower )[ Clones Only ]",
             entityname = "lvs_walker_atrt_flamethrower",
             description = "A Modified varient issued with a flamethrower Speeder",
-            type = "Small Vehicle"
+            type = "Small Vehicle",
 			offset = { forward = 50, right = 0, up = 10 }
         },
     },
@@ -1661,7 +1661,7 @@ VEHICLE_CERT_VEHICLES = {
             name = "Forklift Loader",
             entityname = "decs_loader",
             description = "Only those trained in the arts of driving the loader can be loader certified",
-            type = "Small Vehicle"
+            type = "Small Vehicle",
 			offset = { forward = 100, right = 0, up = 10 }
         },
         {
