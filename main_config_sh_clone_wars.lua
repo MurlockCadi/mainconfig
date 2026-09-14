@@ -897,7 +897,7 @@ DivisionTypes = {
                 },
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists","weapon_murlock_eod_explosives"},
-                Prefix = "",
+                Prefix = "EOD",
                 EntitySpawner = {},
                 vehicles = {},
             },
