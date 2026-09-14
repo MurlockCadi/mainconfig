@@ -896,7 +896,7 @@ DivisionTypes = {
                     {"models/aussiwozzi/cgi/base/212th_trooper.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
                 },
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {"weapon_fists","weapon_murlock_eod_explosives"},
                 Prefix = "",
                 EntitySpawner = {},
                 vehicles = {},
@@ -1503,7 +1503,7 @@ CERTIFICATIONS = {
     },
 
     ["Explosive Ordnance Disposal Expert"] = { --Unlocks the ability to defuse bombs better, as well as use a number of explosives. Does not unlock all explosives and not as good as 212th.
-        Weapons = {},
+        Weapons = {"weapon_murlock_eod_explosives"},
     },
 
 	["Heavy Weapons"] = {--Unlocks the ability to use some Heavy Weapons, but not all.
