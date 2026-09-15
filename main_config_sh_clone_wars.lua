@@ -159,6 +159,18 @@ end
 -- ---------- XP SYSTEM -----------------------------
 -- --------------------------------------------------
 
+ENTITY_RESPAWN_TIMERS = {
+    ["Ammo"] = 120,
+    ["Machine Gun"] = 300,
+    ["Artillery"] = 300,
+    ["Medic Box"] = 120,
+    ["Radio"] = 120,
+    ["Skull"] = 10,
+    ["Reactor"] = 1000,
+    ["Turret"] = 120,
+    ["Tanks"] = 120
+}
+
 MIN_XP = 1000
 MAX_XP = 30000
 MAX_LEVEL = 100
