@@ -878,6 +878,38 @@ OFFICER_NAVY_MODELS = {
 	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_matchstick.mdl"
 }
 
+MODELS_MERC = {
+    "models/assassin/pm_civ_assassin_human_male.mdl",
+    "models/assassin/pm_civ_assassin_human_female.mdl",
+    "models/enforcer/pm_civ_enforcer_costume_male.mdl",
+    "models/dweller/pm_civ_dweller_human_male.mdl",
+    "models/engineer/pm_civ_engineer_human_male.mdl",
+    "models/snowsuit/pm_civ_snowsuit_human_male.mdl",
+    "models/formal/pm_civ_formal_human_male.mdl",
+    "models/guard/pm_civ_guard_human_female.mdl",
+    "models/guard/pm_civ_guard_human_male.mdl",
+    "models/merc/pm_civ_merc_human_male.mdl",
+    "models/merc/pm_civ_merc_zabrak_male.mdl",
+    "models/merc/pm_civ_merc_human_female.mdl",
+    "models/miner/pm_civ_miner_human_male.mdl",
+    "models/nemesis/pm_civ_nemesis_costume_male.mdl",
+    "models/noble/pm_civ_noble_human_male.mdl",
+    "models/prisoner/pm_civ_prisoner_human_male.mdl",
+    "models/prisoner/pm_civ_prisoner_human_female.mdl",
+    "models/snowsuit/pm_civ_snowsuit_human_female.mdl",
+    "models/smuggler/pm_civ_smuggler_human_male.mdl",
+    "models/smuggler/pm_civ_smuggler_togruta_female.mdl",
+    "models/smuggler/pm_civ_smuggler_togruta_male.mdl",
+    "models/npc/aussiwozzi/mandalorians/male_mando_blue.mdl",
+    "models/npc/aussiwozzi/mandalorians/male_mando_green.mdl",
+    "models/npc/aussiwozzi/mandalorians/male_mando_purple.mdl",
+    "models/player/aussiwozzi/mandalorians/female_mando_gold.mdl",
+    "models/player/aussiwozzi/mandalorians/female_mando_color.mdl",
+    "models/player/valley/gamorreanguard_01.mdl",
+    "models/assassin/pm_civ_assassin_trandoshan_male.mdl",
+    "models/assassin/pm_civ_assassin_trandoshan_female.mdl"
+}
+
 -- --------------------------------------------------
 -- ---------- DIVISION TYPES ------------------------
 -- --------------------------------------------------
@@ -1496,16 +1528,16 @@ ROLES = ROLES or {
         Team = "republic"
     },
     DIVISION_MERC_NEW = {
-        NiceName = "Merc",
+        NiceName = "Mercenary",
         Prefix = "",
         Color = Color(63, 78, 86),
-        Description = "Insert Merc Descriptions",
+        Description = "You are a mercenary, an anomaly, perhaps even a bounty hunter looking for credits, glory, or something else. You have chosen to fight alongside the Republic... for now. Your fate is yours to shape, and there is a galaxy awaiting you.",
 		NotClone = true,
 		VIP = true,
 		CustomPerks = "mercenary",
         DefaultItems = {},
         Ranks = {
-            {ID = 1, Name = "Merc", Rank_Prefix = "", ModelsAllowed = {"models/aussiwozzi/cgi/base/501st_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Merc", Rank_Prefix = "", ModelsAllowed = MODELS_MERC, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
