@@ -585,14 +585,47 @@ imperium_rp_defualt_weapons = {
 
 -- 501ST Models
 
-RCT_501ST = {
-    "models/aussiwozzi/cgi/base/501st_trooper.mdl",
+BASE_501ST_MODELS = {
+    "models/aussiwozzi/cgi/base/501st_trooper.mdl"
 }
-MODELS_501ST = {
+
+TROOPER_501ST_MODELS = {
     "models/aussiwozzi/cgi/base/501st_trooper.mdl",
+	"models/aussiwozzi/cgi/base/501st_vaughn.mdl",
+	"models/aussiwozzi/cgi/base/501st_barc.mdl"
+}
+
+MEDIC_501ST_MODELS = {
+    "models/aussiwozzi/cgi/base/501st_medic.mdl",
 	"models/aussiwozzi/cgi/base/501st_barc.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl"
 }
-NCO_501ST = {
+
+HEAVY_501ST_MODELS = {
+	"models/aussiwozzi/cgi/base/501st_torrent_officer.mdl",
+	"models/aussiwozzi/cgi/base/501st_vaughn.mdl",
+	"models/aussiwozzi/cgi/base/501st_barc.mdl"
+}
+
+ENGINEER_501ST_MODELS = {
+	"models/aussiwozzi/cgi/base/501st_torrent.mdl",
+    "models/jajoff/sps/republic/tc13j/engineer.mdl",
+	"models/aussiwozzi/cgi/base/501st_vaughn.mdl",
+	"models/aussiwozzi/cgi/base/501st_barc.mdl"
+}
+
+JUGGERNAUT_501ST_MODELS = {
+	"models/aussiwozzi/cgi/base/501st_torrent_officer.mdl",
+	"models/aussiwozzi/cgi/base/501st_torrent.mdl"
+}
+
+ARC_501ST_MODELS = {
+	"models/aussiwozzi/cgi/base/501st_arc.mdl",
+    "models/aussiwozzi/cgi/base/501st_arf.mdl",
+	"models/aussiwozzi/cgi/base/501st_barc.mdl"
+}
+
+NCO_501ST_MODELS = {
 	"models/aussiwozzi/cgi/base/501st_appo.mdl",
 	"models/aussiwozzi/cgi/base/501st_jet_trooper.mdl",
 	"models/aussiwozzi/cgi/base/501st_torrent_officer.mdl",
@@ -600,15 +633,15 @@ NCO_501ST = {
 	"models/aussiwozzi/cgi/base/501st_medic.mdl",
 	"models/aussiwozzi/cgi/base/501st_barc.mdl",
 	"models/aussiwozzi/cgi/base/501st_vaughn.mdl",
-    "models/jajoff/sps/republic/tc13j/army_01.mdl",
     "models/jajoff/sps/republic/tc13j/army_02.mdl",
     "models/jajoff/sps/republic/tc13j/army_03.mdl",
     "models/jajoff/sps/republic/tc13j/army_medic.mdl",
-    "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/engineer.mdl",
     "models/jajoff/sps/republic/tc13j/army02_female.mdl",
-    "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army03_female.mdl"
 }
-OFFICER_501ST = {
+
+OFFICER_501ST_MODELS = {
     "models/aussiwozzi/cgi/base/501st_officer.mdl",
     "models/aussiwozzi/cgi/base/501st_medic_officer.mdl",
     "models/aussiwozzi/cgi/base/501st_torrent_officer.mdl",
@@ -621,127 +654,228 @@ OFFICER_501ST = {
     "models/jajoff/sps/republic/tc13j/army_02.mdl",
     "models/jajoff/sps/republic/tc13j/army_03.mdl",
     "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/engineer.mdl",
     "models/jajoff/sps/republic/tc13j/army01_female.mdl",
     "models/jajoff/sps/republic/tc13j/army02_female.mdl",
-    "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army03_female.mdl"
 }
 -- 212TH Models
 
-RCT_212TH = {
-    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
-}
-MODELS_212TH = {
-    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
-    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+BASE_212TH_MODELS = {
+    "models/aussiwozzi/cgi/base/212th_trooper.mdl"
 }
 
-NCO_212TH = {
+TROOPER_212TH_MODELS = {
+    "models/aussiwozzi/cgi/base/212th_trooper.mdl",
+	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
+    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl"
+}
+
+MEDIC_212TH_MODELS = {
+    "models/aussiwozzi/cgi/base/212th_medic.mdl",
+	"models/aussiwozzi/cgi/base/212th_barc.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
+    "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl"
+}
+
+ENGINEER_212TH_MODELS = {
+    "models/aussiwozzi/cgi/base/212th_ghost_company.mdl",
+	"models/aussiwozzi/cgi/base/212th_barc.mdl",
+    "models/jajoff/sps/republic/tc13j/engineer.mdl",
+	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
+    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl"
+}
+
+HEAVY_212TH_MODELS = {
+    "models/aussiwozzi/cgi/base/212th_boil.mdl",
+    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl"
+}
+
+EOD_212TH_MODELS = {
+    "models/aussiwozzi/cgi/base/212th_ghost_company.mdl",
+	"models/aussiwozzi/cgi/base/212th_barc.mdl",
+    "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+	"models/aussiwozzi/cgi/base/212th_pilot.mdl"
+}
+
+ARC_212TH_MODELS = {
+    "models/aussiwozzi/cgi/base/212th_arc.mdl",
+	"models/aussiwozzi/cgi/base/212th_arf.mdl",
+    "models/aussiwozzi/cgi/base/212th_barc.mdl"
+}
+
+NCO_212TH_MODELS = {
     "models/aussiwozzi/cgi/base/212th_arf.mdl",
+	"models/aussiwozzi/cgi/base/212th_barc.mdl",
+    "models/aussiwozzi/cgi/base/212th_ghost_company.mdl",
     "models/aussiwozzi/cgi/base/212th_boil.mdl",
     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
 	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
-    "models/jajoff/sps/republic/tc13j/army_01.mdl",
     "models/jajoff/sps/republic/tc13j/army_02.mdl",
-    "models/jajoff/sps/republic/tc13j/army_03.mdl",
-    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
-    "models/jajoff/sps/republic/tc13j/army01_female.mdl",
     "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
     "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/engineer.mdl"
 }
 
-OFFICER_212TH = {
+OFFICER_212TH_MODELS = {
     "models/aussiwozzi/cgi/base/212th_officer.mdl",
+	"models/aussiwozzi/cgi/base/212th_barc.mdl",
+    "models/aussiwozzi/cgi/base/212th_arf.mdl",
     "models/aussiwozzi/cgi/base/212th_ghost_officer.mdl",
     "models/aussiwozzi/cgi/base/212th_medic_officer.mdl",
     "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl",
     "models/aussiwozzi/cgi/base/2ndac_officer.mdl",
 	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
     "models/jajoff/sps/republic/tc13j/army_01.mdl",
-    "models/jajoff/sps/republic/tc13j/army_02.mdl",
-    "models/jajoff/sps/republic/tc13j/army_03.mdl",
-    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
     "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
     "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
     "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/engineer.mdl"
 }
 	
 -- 104th Models
-RCT_104TH = {
-    "models/aussiwozzi/cgi/base/104th_trooper.mdl",
+BASE_104TH_MODELS = {
+    "models/aussiwozzi/cgi/base/104th_trooper.mdl"
 }
-MODELS_104TH = {
+
+TROOPER_104TH_MODELS = {
     "models/aussiwozzi/cgi/base/104th_trooper.mdl",
 	"models/aussiwozzi/cgi/base/104th_barc.mdl",
-	"models/aussiwozzi/cgi/base/104th_evo.mdl",
+	"models/aussiwozzi/cgi/base/104th_evo.mdl"
 }
-NCO_104TH = {
-	"models/aussiwozzi/cgi/base/104th_boost.mdl",
+
+ENGINEER_104TH_MODELS = {
+    "models/aussiwozzi/cgi/base/104th_evo.mdl",
 	"models/aussiwozzi/cgi/base/104th_barc.mdl",
-	"models/aussiwozzi/cgi/base/104th_arf.mdl",
+	"models/jajoff/sps/republic/tc13j/engineer.mdl"
+}
+
+MEDIC_104TH_MODELS = {
+    "models/aussiwozzi/cgi/base/104th_medic.mdl",
+	"models/aussiwozzi/cgi/base/104th_barc.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl"
+}
+
+HEAVY_104TH_MODELS = {
+    "models/aussiwozzi/cgi/base/104th_boost.mdl",
+	"models/aussiwozzi/cgi/base/104th_barc.mdl"
+}
+
+ARC_104TH_MODELS = {
+    "models/aussiwozzi/cgi/base/104th_arc.mdl",
+	"models/aussiwozzi/cgi/base/104th_barc.mdl"
+}
+
+NCO_104TH_MODELS = {
+	"models/aussiwozzi/cgi/base/104th_comet.mdl",
+    "models/aussiwozzi/cgi/base/104th_boost.mdl",
+    "models/aussiwozzi/cgi/base/104th_evo.mdl",
+	"models/aussiwozzi/cgi/base/104th_barc.mdl",
 	"models/aussiwozzi/cgi/base/104th_jet.mdl",
 	"models/aussiwozzi/cgi/base/104th_medic.mdl",
     "models/jajoff/sps/republic/tc13j/army_01.mdl",
-    "models/jajoff/sps/republic/tc13j/army_02.mdl",
-    "models/jajoff/sps/republic/tc13j/army_03.mdl",
-    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
     "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
     "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
     "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+	"models/jajoff/sps/republic/tc13j/engineer.mdl"
 }
 
-OFFICER_104TH = {
+OFFICER_104TH_MODELS = {
     "models/aussiwozzi/cgi/base/104th_officer.mdl",
     "models/aussiwozzi/cgi/base/104th_medic_officer.mdl",
     "models/aussiwozzi/cgi/base/104th_jet_officer.mdl",
     "models/aussiwozzi/cgi/base/104th_evo_officer.mdl",
-	"models/aussiwozzi/cgi/base/104th_arf.mdl",
+	"models/aussiwozzi/cgi/base/104th_jet.mdl",
     "models/jajoff/sps/republic/tc13j/army_01.mdl",
-    "models/jajoff/sps/republic/tc13j/army_02.mdl",
-    "models/jajoff/sps/republic/tc13j/army_03.mdl",
-    "models/jajoff/sps/republic/tc13j/engineer.mdl",
-    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
     "models/jajoff/sps/republic/tc13j/army01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_02.mdl",
     "models/jajoff/sps/republic/tc13j/army02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_03.mdl",
     "models/jajoff/sps/republic/tc13j/army03_female.mdl",
+    "models/jajoff/sps/republic/tc13j/army_medic.mdl",
+    "models/jajoff/sps/republic/tc13j/engineer.mdl"
 }
 
 -- NAVY MODELS
 
-NAVY_MODELS = {
+BASE_NAVY_MODELS = {
     "models/jajoff/sps/republic/tc13j/navy_04.mdl",
 	"models/jajoff/sps/republic/tc13j/navy04_female.mdl",
-	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_broadside.mdl",
-	"models/jajoff/sps/republic/tc13j/rsb01.mdl",
-    "models/jajoff/sps/republic/tc13j/rsb01_female.mdl",
 }
 
-NAVY_NCO_MODELS = {
+MP_NAVY_MODELS = {
+	"models/jajoff/sps/republic/tc13j/rsb02.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb02_female.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_broadside.mdl"
+}
+
+GUNNER_NAVY_MODELS = {
+    "models/jajoff/sps/republic/tc13j/navy_04.mdl",
+	"models/jajoff/sps/republic/tc13j/navy04_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_03.mdl",
+	"models/jajoff/sps/republic/tc13j/navy03_female.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_broadside.mdl",
+	"models/jajoff/sps/republic/tc13j/rsb01.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb01_female.mdl"
+}
+
+DOCTOR_NAVY_MODELS = {
+    "models/jajoff/sps/republic/tc13j/navy_04.mdl",
+	"models/jajoff/sps/republic/tc13j/navy04_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
+	"models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_broadside.mdl",
+	"models/jajoff/sps/republic/tc13j/rsb01.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb01_female.mdl"
+}
+
+
+ENGINEER_NAVY_MODELS = {
+    "models/jajoff/sps/republic/tc13j/navy_04.mdl",
+	"models/jajoff/sps/republic/tc13j/navy04_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_02.mdl",
+	"models/jajoff/sps/republic/tc13j/navy02_female.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_broadside.mdl",
+	"models/jajoff/sps/republic/tc13j/rsb01.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb01_female.mdl"
+}
+
+NCO_NAVY_MODELS = {
     "models/jajoff/sps/republic/tc13j/rsb01.mdl",
     "models/jajoff/sps/republic/tc13j/rsb01_female.mdl",
     "models/jajoff/sps/republic/tc13j/rsb03.mdl",
     "models/jajoff/sps/republic/tc13j/rsb03_female.mdl",
     "models/jajoff/sps/republic/tc13j/navy_02.mdl",
-    "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
     "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_03.mdl",
+    "models/jajoff/sps/republic/tc13j/navy03_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
     "models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
-	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_pilot.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_pilot.mdl"
 }
 
-
-
-NAVY_OFFICER = {
+OFFICER_NAVY_MODELS = {
     "models/jajoff/sps/republic/tc13j/navy_01.mdl",
-    "models/jajoff/sps/republic/tc13j/navy_02.mdl",
-    "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
     "models/jajoff/sps/republic/tc13j/navy01_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_02.mdl",
     "models/jajoff/sps/republic/tc13j/navy02_female.mdl",
+    "models/jajoff/sps/republic/tc13j/navy_medic.mdl",
     "models/jajoff/sps/republic/tc13j/navy_medic_female.mdl",
 	"models/jajoff/sps/republic/tc13j/rsb_director.mdl",
 	"models/jajoff/sps/republic/tc13j/rsb03_female.mdl",
 	"models/jajoff/sps/republic/tc13j/rsb03.mdl",
 	"models/jajoff/sps/republic/tc13j/rsb01.mdl",
     "models/jajoff/sps/republic/tc13j/rsb01_female.mdl",
-	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_matchstick.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_matchstick.mdl"
 }
 
 -- --------------------------------------------------
@@ -759,33 +893,33 @@ DivisionTypes = {
         Description = "The 501st Battalion is a frontline unit that thrives in fast-paced infantry assaults and tanker operations.",
         Team = "Republic",
         Ranks = {
-                {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = BASE_501ST_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
-                {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = MODELS_501ST,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-                {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = MODELS_501ST,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-                {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = MODELS_501ST,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = TROOPER_501ST_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = TROOPER_501ST_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = TROOPER_501ST_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- NCO
-                {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_501ST,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_501ST_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_501ST_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_501ST_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_501ST_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_501ST_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
                 -- Officers
-                {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_501ST_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_501ST_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
                 -- Commanders
-                {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
-                {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_501ST, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+                {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_501ST_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_501ST_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_501ST_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_501ST_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+                {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_501ST_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
             },
         Classes = {
             {
                 Name = "Trooper",
                 Core = true,
 				Default = true,
-                Models = {"models/aussiwozzi/cgi/base/501st_trooper.mdl","models/aussiwozzi/cgi/base/501st_jet_trooper.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl","models/aussiwozzi/cgi/base/501st_vaughn.mdl"},
+                Models = TROOPER_501ST_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "",
@@ -796,7 +930,7 @@ DivisionTypes = {
                 Name = "Heavy Weapons",
                 Core = true,
 				CombatShield = true,
-                Models = {"models/aussiwozzi/cgi/base/501st_torrent_officer.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl","models/aussiwozzi/cgi/base/501st_torrent.mdl"},
+                Models = HEAVY_501ST_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "HW",
@@ -808,7 +942,7 @@ DivisionTypes = {
             {
                 Name = "Juggernaut",
                 Core = true,
-                Models = {"models/aussiwozzi/cgi/base/501st_torrent.mdl"},
+                Models = JUGGERNAUT_501ST_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "JUG",
@@ -820,9 +954,7 @@ DivisionTypes = {
             {
                 Name = "Advanced Recon Commando",
                 Core = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/501st_arc.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl","models/aussiwozzi/cgi/base/501st_arf.mdl"},
-                },
+                Models = ARC_501ST_MODELS,
                 Weapons = {},
 				HasReconGlasses = true,
                 SpawnWeapons = {"realistic_hook","weapon_fists"},
@@ -834,8 +966,7 @@ DivisionTypes = {
                 Name = "Medic",
 				Medic = true,
                 Core = true,
-                Models = 
-					{ "models/aussiwozzi/cgi/base/501st_medic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl"},
+                Models = MEDIC_501ST_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MED",
@@ -848,7 +979,7 @@ DivisionTypes = {
                 Name = "Engineer",
 				Engineer = true,
                 Core = true,
-                Models = {"models/aussiwozzi/cgi/base/501st_appo.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl","models/aussiwozzi/cgi/base/501st_barc.mdl"},
+                Models = ENGINEER_501ST_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "ENG",
@@ -865,35 +996,33 @@ DivisionTypes = {
         Description = "The 212th Battalion specializes in heavy assaults, armored warfare, and airborne operations.",
         Team = "Republic",
         Ranks = {
-            {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = BASE_212TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- Enlisted
-            {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = MODELS_212TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-            {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = MODELS_212TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-            {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = MODELS_212TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = BASE_212TH_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = BASE_212TH_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = BASE_212TH_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- NCO
-            {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_212TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_212TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_212TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_212TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_212TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_212TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
             -- Officers
-            {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_212TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_212TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
             -- Commanders
-            {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
-            {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_212TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+            {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_212TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_212TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_212TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_212TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+            {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_212TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
         },
         Classes = {
             {
                 Name = "Trooper",
                 Core = true,
 				Default = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/212th_trooper.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
-                },
+                Models = TROOPER_212TH_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "",
@@ -904,9 +1033,7 @@ DivisionTypes = {
                 Name = "Explosive Ordnance Disposal Expert",
                 Core = true,
 				Default = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/212th_trooper.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
-                },
+                Models = EOD_212TH_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists","weapon_murlock_eod_explosives"},
                 Prefix = "EOD",
@@ -917,9 +1044,7 @@ DivisionTypes = {
                 Name = "Medic",
 				Medic = true,
                 Core = true,
-                Models = {
-                    { "models/aussiwozzi/cgi/base/212th_medic.mdl","models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl"},
-                },
+                Models = MEDIC_212TH_MODELS
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MED",
@@ -931,9 +1056,7 @@ DivisionTypes = {
             {
                 Name = "Advanced Recon Commando",
                 Core = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/212th_arc.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl","models/aussiwozzi/cgi/base/212th_arf.mdl"},
-                },
+                Models = ARC_212TH_MODELS,
                 Weapons = {},
 				HasReconGlasses = true,
                 SpawnWeapons = {"realistic_hook","weapon_fists"},
@@ -944,9 +1067,7 @@ DivisionTypes = {
             {
                 Name = "Heavy Weapons",
                 Core = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/212th_ghost_company.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl"},
-                },
+                Models = HEAVY_212TH_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "HW",
@@ -958,9 +1079,7 @@ DivisionTypes = {
             {
                 Name = "Engineer",
                 Core = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/212th_ghost_company.mdl","models/aussiwozzi/cgi/base/2ndac_trooper.mdl","models/aussiwozzi/cgi/base/212th_barc.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
-                },
+                Models = ENGINEER_212TH_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "ENG",
@@ -977,35 +1096,33 @@ DivisionTypes = {
         Description = "The 104th Battalion is a recon unit of the Grand Army of the Republic.",
         Team = "Republic",
         Ranks = {
-                {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = RCT_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = BASE_104TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
-                {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = MODELS_104TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-                {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = MODELS_104TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-                {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = MODELS_104TH,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 2,  Name = "Trooper",             Rank_Prefix = "TPR",    ModelsAllowed = BASE_104TH_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 3,  Name = "Trooper First Class", Rank_Prefix = "TFC",    ModelsAllowed = BASE_104TH_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+                {ID = 4,  Name = "Lance Corporal",      Rank_Prefix = "LCPL",   ModelsAllowed = BASE_104TH_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- NCO
-                {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_104TH,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 5,  Name = "Corporal",            Rank_Prefix = "CPL",    ModelsAllowed = NCO_104TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 6,  Name = "Sergeant",            Rank_Prefix = "SGT",    ModelsAllowed = NCO_104TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 7,  Name = "Staff Sergeant",      Rank_Prefix = "SSGT",   ModelsAllowed = NCO_104TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 8,  Name = "Sergeant First Class",Rank_Prefix = "SFC",    ModelsAllowed = NCO_104TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 9,  Name = "Master Sergeant",     Rank_Prefix = "MSGT",   ModelsAllowed = NCO_104TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
                 -- Officers
-                {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 10, Name = "Lieutenant",          Rank_Prefix = "LT",     ModelsAllowed = OFFICER_104TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 11, Name = "Captain",             Rank_Prefix = "CPT",    ModelsAllowed = OFFICER_104TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
                 -- Commanders
-                {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-                {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
-                {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_104TH, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+                {ID = 12, Name = "Vice Commander",      Rank_Prefix = "VCMDR",  ModelsAllowed = OFFICER_104TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 13, Name = "Commander",           Rank_Prefix = "CMDR",   ModelsAllowed = OFFICER_104TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 14, Name = "Regiment Commander",  Rank_Prefix = "RCMDR",  ModelsAllowed = OFFICER_104TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+                {ID = 15, Name = "Senior Commander",    Rank_Prefix = "SCMDR",  ModelsAllowed = OFFICER_104TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+                {ID = 16, Name = "Marshall Commander",  Rank_Prefix = "MCMDR",  ModelsAllowed = OFFICER_104TH_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
             },
         Classes = {
             {
                 Name = "Trooper",
                 Core = true,
 				Default = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/104th_trooper.mdl","models/aussiwozzi/cgi/base/104th_jet.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl",},
-                },
+                Models = TROOPER_104TH_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "",
@@ -1016,9 +1133,7 @@ DivisionTypes = {
                 Name = "Heavy Weapons",
                 Core = true,
 				Default = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/104th_comet.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl"},
-                },
+                Models = HEAVY_104TH_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "HW",
@@ -1031,9 +1146,7 @@ DivisionTypes = {
                 Name = "Engineer",
                 Core = true,
 				Default = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/104th_sinker.mdl","models/aussiwozzi/cgi/base/104th_evo.mdl","models/jajoff/sps/republic/tc13j/engineer.mdl"},
-                },
+                Models = ENGINEER_104TH_MODELS,
                 Weapons = {},
 				AdvancedEngineer = true,
                 SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
@@ -1048,9 +1161,7 @@ DivisionTypes = {
             {
                 Name = "Advanced Recon Force",
                 Core = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/104th_arf.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl"},
-                },
+                Models = {"models/aussiwozzi/cgi/base/104th_arf.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl"},
                 Weapons = {},
 				HasReconGlasses = true,
                 SpawnWeapons = {"realistic_hook","weapon_murlock_recon_visor"},
@@ -1061,9 +1172,7 @@ DivisionTypes = {
             {
                 Name = "Advanced Recon Commando",
                 Core = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/104th_arc.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl"},
-                },
+                Models = ARC_104TH_MODELS,
                 Weapons = {},
 				HasReconGlasses = true,
                 SpawnWeapons = {"realistic_hook","weapon_fists"},
@@ -1075,9 +1184,7 @@ DivisionTypes = {
                 Name = "Medic",
 				Medic = true,
                 Core = true,
-                Models = {
-                    {"models/aussiwozzi/cgi/base/104th_medic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl"},
-                },
+                Models = MEDIC_104TH_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MED",
@@ -1095,34 +1202,32 @@ DivisionTypes = {
 		NotClone = true,
         Default_items = {},
         Ranks = {
-            {ID = 1,  Name = "Crewman Recruit",           Rank_Prefix = "CR",     ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 1,  Name = "Crewman Recruit",           Rank_Prefix = "CR",     ModelsAllowed = BASE_NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- Enlisted
-            {ID = 2,  Name = "Crewman Apprentice",        Rank_Prefix = "CA",     ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-            {ID = 3,  Name = "Crewman",                   Rank_Prefix = "CM",     ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
-            {ID = 4,  Name = "Petty Officer 3rd Class",   Rank_Prefix = "PO3",    ModelsAllowed = NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 2,  Name = "Crewman Apprentice",        Rank_Prefix = "CA",     ModelsAllowed = BASE_NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 3,  Name = "Crewman",                   Rank_Prefix = "CM",     ModelsAllowed = BASE_NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
+            {ID = 4,  Name = "Petty Officer 3rd Class",   Rank_Prefix = "PO3",    ModelsAllowed = BASE_NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- NCO
             {ID = 5,  Name = "Petty Officer 2nd Class",   Rank_Prefix = "PO2",    ModelsAllowed = NAVY_NCO_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
             {ID = 6,  Name = "Petty Officer 1st Class",   Rank_Prefix = "PO1",    ModelsAllowed = NAVY_NCO_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
             {ID = 7,  Name = "Chief Petty Officer",       Rank_Prefix = "CPO",    ModelsAllowed = NAVY_NCO_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
             {ID = 8,  Name = "Senior Chief Petty Officer",Rank_Prefix = "SCPO",   ModelsAllowed = NAVY_NCO_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
             -- Officers
-            {ID = 9,  Name = "Ensign",                    Rank_Prefix = "ENS",    ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 10, Name = "Sub-Lieutenant",            Rank_Prefix = "SLT",    ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 11, Name = "Lieutenant",                Rank_Prefix = "LT",     ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 9,  Name = "Ensign",                    Rank_Prefix = "ENS",    ModelsAllowed = OFFICER_NAVY_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 10, Name = "Sub-Lieutenant",            Rank_Prefix = "SLT",    ModelsAllowed = OFFICER_NAVY_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 11, Name = "Lieutenant",                Rank_Prefix = "LT",     ModelsAllowed = OFFICER_NAVY_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
             -- Command
-            {ID = 12, Name = "Lieutenant Commander",      Rank_Prefix = "LTCDR",  ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 13, Name = "Commander",                 Rank_Prefix = "CDR",    ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
-            {ID = 14, Name = "Captain",                   Rank_Prefix = "CAPT",   ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
-            {ID = 15, Name = "Commodore",                 Rank_Prefix = "COMM",   ModelsAllowed = NAVY_OFFICER, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+            {ID = 12, Name = "Lieutenant Commander",      Rank_Prefix = "LTCDR",  ModelsAllowed = OFFICER_NAVY_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 13, Name = "Commander",                 Rank_Prefix = "CDR",    ModelsAllowed = OFFICER_NAVY_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true},
+            {ID = 14, Name = "Captain",                   Rank_Prefix = "CAPT",   ModelsAllowed = OFFICER_NAVY_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
+            {ID = 15, Name = "Commodore",                 Rank_Prefix = "COMM",   ModelsAllowed = OFFICER_NAVY_MODELS, WeaponsAllowed = PENAL_WEAPONS, CanPromote = true}, -- Not In Use
         },
         Classes = {
 
             {
                 Name = "Gunner",
                 Core = true,
-                Models = {
-                    {"models/jajoff/sps/republic/tc13j/navy_03.mdl","models/jajoff/sps/republic/tc13j/navy03_female.mdl"},
-                },
+                Models = GUNNER_NAVY_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "GNR",
@@ -1133,9 +1238,7 @@ DivisionTypes = {
             {
                 Name = "Military Police",
                 Core = true,
-                Models = {
-                    {"models/jajoff/sps/republic/tc13j/rsb02.mdl","models/jajoff/sps/republic/tc13j/rsb02_female.mdl"},
-                },
+                Models = MP_NAVY_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "MP",
@@ -1147,9 +1250,7 @@ DivisionTypes = {
                 Name = "Doctor",
                 Core = true,
 				Medic = true,
-                Models = {
-                    {"models/jajoff/sps/republic/tc13j/navy_medic.mdl","models/jajoff/sps/republic/tc13j/navy_medic_female.mdl"},
-                },
+                Models = DOCTOR_NAVY_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "DOC",	
@@ -1163,9 +1264,7 @@ DivisionTypes = {
                 Name = "Navy Engineer",
                 Core = true,
 				Engineer = true,
-                Models = {
-                    {"models/jajoff/sps/republic/tc13j/navy_02.mdl","models/jajoff/sps/republic/tc13j/navy02_female.mdl"},
-                },
+                Models = ENGINEER_NAVY_MODELS,
                 Weapons = {},
                 SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "ENG",
@@ -1507,6 +1606,13 @@ CERTIFICATIONS = {
     ["Speeders & AT-RT"] = { --Able to spawn in a huge range of heavy to light tanks.
         Entitys = {},
     },
+
+    ["Emplacements"] = { --Able to spawn in a variety of field guns, anti air, and machineguns [Still waiting on trillbilly to add said emplacements...]
+        Entitys = {
+            { name = "Medium Turret", entityname = "lvs_rep_las_tower", description = "Medium Turret for infantry and vehicles", type = "Other" },
+			{ name = "AA Emplacement", entityname = "lvs_rebel_triple_laser", description = "AA Turret for aircrafts and infantry", type = "Other" }
+    },
+}
 	
 	--Class Certs
 
@@ -1582,21 +1688,21 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_fakehover_iftx",
             description = "A Standard Republic Medium Battle Tank",
             type = "Heavy Vehicle",
-			offset = { forward = 100, right = 0, up = 100 }
+			offset = { forward = 65, right = 0, up = 100 }
         },
         {
             name = "2H Transport Repulsor Truck With Cannon",
             entityname = "lvs_ihr_base_rep",
             description = "Heavy Hover Truck issued with a heavy cannon",
             type = "Heavy Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 55, right = 0, up = 100 }
         },
         {
             name = "2H Transport Repulsor Truck With Grenade Launcher",
             entityname = "lvs_ihr_gl_rep",
             description = "Heavy Hover Truck issued with a grenade launcher",
             type = "Heavy Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 55, right = 0, up = 100 }
         },
     },
 
@@ -1606,51 +1712,81 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_fakehover_barc",
             description = "A Standard Barc Speeder",
             type = "Small Vehicle",
-			offset = { forward = 50, right = 0, up = 10 }
+			offset = { forward = 25, right = 0, up = 10 }
         },
         {
             name = "Medical Speeder",
             entityname = "lvs_fakehover_barc_medical",
             description = "A Medical Speeder with a stretcher attached",
             type = "Small Vehicle",
-			offset = { forward = 50, right = 0, up = 10 }
+            classes = {"Medic","Doctor","Surgeon"},
+			offset = { forward = 25, right = 0, up = 10 }
         },
         {
             name = "Staff Car",
             entityname = "lvs_victorious_landspeeder1",
             description = "Hover car often used by Officers and Navy personel",
             type = "Small Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 50, right = 0, up = 100 }
         },
         {
-            name = "Police Truck [ MP Only ]",
+            name = "Race Speeder",   -- Droid Only
+            entityname = "lvs_victorious_landspeeder2",
+            description = "Fast and nible but fragile speeder",
+            classes = {"Merc"},
+            divisions = {"Auxiliary"},
+            type = "Small Vehicle",
+            offset = { forward = 55, right = 0, up = 100 }
+        },
+            name = "STAP",   -- Droid Only
+            entityname = "lvs_starfighter_heavystap",
+            description = "Captured CIS Speeders",
+            classes = {"Republic Droid"},
+            divisions = {"Auxiliary"},
+            type = "Small Vehicle",
+            offset = { forward = 55, right = 0, up = 100 }
+        },
+        {
+            name = "Sand Speeder", -- Merc Only
+            entityname = "lvs_vic_sandspeeder_luksusn1",
+            description = "Sand speeder",
+            classes = {"Merc"},
+            divisions = {"Auxiliary"},
+            type = "Small Vehicle",
+            offset = { forward = 55, right = 0, up = 100 }
+        },
+        {
+            name = "Police Truck",  -- MP Only
             entityname = "lvs_vic_policetrack",
             classes = {"Military Police"},
             divisions = {"Navy"},
             description = "Police Truck specific for MPs",
             type = "Small Vehicle",
-            offset = { forward = 120, right = 0, up = 100 }
+            offset = { forward = 75, right = 0, up = 100 }
         },
         {
-            name = "AT-RT Walker [ Clones Only ]",
+            name = "AT-RT Walker", -- Clones only
+			cloneOnly = true,
             entityname = "lvs_walker_atrt_standart",
             description = "Standard Two legged Light armored Anti infantry Walker varient issued with a dual blaster",
             type = "Small Vehicle",
-			offset = { forward = 50, right = 0, up = 10 }
+			offset = { forward = 35, right = 0, up = 10 }
         },
         {
-            name = "AT-RT ( Rotary )[ Clones Only ]",
+            name = "AT-RT ( Rotary )", -- Clones only
+			cloneOnly = true,
             entityname = "lvs_walker_atrt_rotary",
             description = "A Modified varient issued with a Rotary Z6",
             type = "Small Vehicle",
-			offset = { forward = 50, right = 0, up = 10 }
+			offset = { forward = 35, right = 0, up = 10 }
         },
         {
-            name = "AT-RT ( Flamethrower )[ Clones Only ]",
+            name = "AT-RT ( Flamethrower )", -- Clones only
             entityname = "lvs_walker_atrt_flamethrower",
+			cloneOnly = true,
             description = "A Modified varient issued with a flamethrower Speeder",
             type = "Small Vehicle",
-			offset = { forward = 50, right = 0, up = 10 }
+			offset = { forward = 35, right = 0, up = 10 }
         },
     },
 
@@ -1660,37 +1796,37 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_ihr_tt_rep",
             description = "Transports up to 8 Additional Soldiers",
             type = "Heavy Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 55, right = 0, up = 100 }
         },
         {
             name = "2H Transport MG Truck",
             entityname = "lvs_ihr_mg_rep",
             description = "Similar to the previous but with a top machinegun",
             type = "Heavy Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 55, right = 0, up = 100 }
         },
         {
             name = "Forklift Loader",
             entityname = "decs_loader",
             description = "Only those trained in the arts of driving the loader can be loader certified",
             type = "Small Vehicle",
-			offset = { forward = 100, right = 0, up = 10 }
+			offset = { forward = 45, right = 0, up = 10 }
         },
         {
-            name = "TX-2112 APC [ Clones Only ]",
+            name = "TX-2112 APC",   -- Clones Only
             entityname = "unitys-lvs-tx-2112",
             cloneOnly = true,
             description = "Armored Personel Carrier issued with a light blaster cannon, can carry 4 additional passengers",
             type = "Heavy Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 75, right = 0, up = 100 }
         },
         {
-            name = "2H Radar Truck [ Navy Only ]",
+            name = "2H Radar Truck [ Navy Only ]",  -- Navy Only
             entityname = "lvs_ihr_se_rep",
             divisions = {"Navy"},
             description = "issued with a long range radio used to identify enemy vehicles",
             type = "Heavy Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 55, right = 0, up = 100 }
         },
     },
 
@@ -1700,46 +1836,46 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_repulsorlift_gunship",
             description = "Standard Transport Gunship",
             type = "Heavy Vehicle",
-            offset = { forward = 140, right = 0, up = 100 }
+            offset = { forward = 90, right = 0, up = 100 }
         },
         {
             name = "LAAT/g Gunship",
             entityname = "lvs_repulsorlift_gunship_heavy",
             description = "Heavy Gunship Hybrid for bombing runs and CAS",
             type = "Heavy Vehicle",
-            offset = { forward = 140, right = 0, up = 100 }
+            offset = { forward = 90, right = 0, up = 100 }
         },
         {
-            name = "LAAT/c Cargo Dropship [Navy Only]",
+            name = "LAAT/c Cargo Dropship",  -- Navy only
             entityname = "lvs_repulsorlift_dropship",
             divisions = {"Navy"},
             description = "Vehicles Transport Gunship",
             type = "Heavy Vehicle",
-            offset = { forward = 140, right = 0, up = 100 }
+            offset = { forward = 90, right = 0, up = 100 }
         },
         {
-            name = "Rho-Class Transport Shuttle [Navy Only]",
+            name = "Rho-Class Transport Shuttle",  -- Navy only
             entityname = "lvs_repulsorlift_rho_class",
             divisions = {"Navy"},
             description = "Heavy Transport Shuttle",
             type = "Heavy Vehicle",
-            offset = { forward = 450, right = 0, up = 100 }
+            offset = { forward = 250, right = 0, up = 100 }
         },
         {
-            name = "ARC-170 Fighter [Navy Only]",
+            name = "ARC-170 Fighter",   -- Navy only
             entityname = "lvs_starfighter_arc170",
             divisions = {"Navy"},
             description = "Standard Fighter Spacecraft",
             type = "Heavy Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 75, right = 0, up = 100 }
         },
         {
-            name = "V-Wing [Navy Only]",
+            name = "V-Wing",   -- Navy only
             entityname = "lvs_starfighter_vwing",
             divisions = {"Navy"},
             description = "Interecptor Spacefraft",
             type = "Heavy Vehicle",
-            offset = { forward = 100, right = 0, up = 100 }
+            offset = { forward = 75, right = 0, up = 100 }
         },
     },
 
@@ -1752,9 +1888,10 @@ VEHICLE_CERT_VEHICLES = {
             offset = { forward = 100, right = 0, up = 100 }
         },
         {
-            name = "Weaponized Drone",
+            name = "Weaponized Drone",    -- ARF Only
             entityname = "lvs_clone_drone_armed",
             description = "A Weaponised Drone issued with thermal scanners and bombs",
+            classes = {"Advanced Recon Force"},
             type = "Heavy Vehicle",
             offset = { forward = 100, right = 0, up = 100 }
         },
@@ -2682,7 +2819,19 @@ PASSIVE_ITEM_FLAGS["Consumable Item - infoflag"] = {
 
 PASSIVE_ITEM_FLAGS["Navy Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only members of the Republic navy should have this item]",
+    Description  = "[Only members of the Republic Navy can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Navy Only NCO+ - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only NCO+ members of the Republic Navy or above can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Navy Only CO+ - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Officers of the Republic Navy can use this item]",
 	Classification = true
 }
 
@@ -2692,9 +2841,34 @@ PASSIVE_ITEM_FLAGS["501st Only - Infoflag"] = {
 	Classification = true
 }
 
+PASSIVE_ITEM_FLAGS["501st Only NCO+ - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only NCO+ members of the 501st or above should have this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["501st Only CO+ - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Officers of the 501st should have this item]",
+	Classification = true
+}
+
 PASSIVE_ITEM_FLAGS["212th Only - Infoflag"] = {
     FunctionName = "classification",
     Description  = "[Only members of the 212th should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["212th Only NCO+ - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only NCO+ members of the 212th should have this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["212th Only CO+ - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Officers of the 212th should have this item]",
 	Classification = true
 }
 
@@ -2710,6 +2884,19 @@ PASSIVE_ITEM_FLAGS["Clones Only - Infoflag"] = {
 	Classification = true
 }
 
+PASSIVE_ITEM_FLAGS["Clones NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Any clones above the CPL can have this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["Clones CO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only clones Officers can have this item]",
+	Classification = true
+}
+
 PASSIVE_ITEM_FLAGS["Auxiliary Only - Infoflag"] = {
     FunctionName = "classification",
     Description  = "[Only Auxiliar members should have this item]",
@@ -2720,93 +2907,227 @@ PASSIVE_ITEM_FLAGS["Auxiliary Only - Infoflag"] = {
 
 PASSIVE_ITEM_FLAGS["Military Police Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only MPs members can, and should have this item]",
+    Description  = "[Only MPs members can use this item]",
 	Classification = true
 }
 
+PASSIVE_ITEM_FLAGS["Military Police NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only MPs members above the PO1 rank can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Military Police NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only MPs Officers can use this item]",
+	Classification = true
+}
 
 PASSIVE_ITEM_FLAGS["Gunners Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Crewman Gunners can, and should have this item]",
+    Description  = "[Only Crewmen Gunners can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Gunners NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Crewmen Gunners above the PO1 rank can use this item]",
 	Classification = true
 }
 
 
+PASSIVE_ITEM_FLAGS["Gunners CO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Gunners Officers can use this item]",
+	Classification = true
+}
+
 PASSIVE_ITEM_FLAGS["ARC Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only ARC troopers can, and should have this item]",
+    Description  = "[Only ARC troopers can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["ARC NCO Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only ARC troopers above the CPL Rank can use this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["ARC CO Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only ARC Officers can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["ARF Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only ARF troopers can, and should have this item]",
+    Description  = "[Only ARF troopers can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["ARF NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only ARF troopers above the CPL Rank can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["ARF CO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only ARF Officers can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Medics Or Doctors - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Doctors or Medic troopers can, and should have this item]",
+    Description  = "[Only Doctors or Medic troopers can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Medics Or Doctors NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only NCO Doctors or NCO Medic can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Army Medics NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Army Medic above the CPL Rank can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Navy Doctors NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Navy Doctors above the PO1 Rank can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Medics Or Doctors CO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Doctors or Medic Officers can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Army Medics CO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Army Medic Officers can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Navy Doctors CO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Navy Doctors Officers can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Heavy Weapons Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Heavy Weapons troopers can, and should have this item]",
+    Description  = "[Only Heavy Weapons troopers can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Heavy Weapons NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Heavy Weapons troopers above the CPL Rank can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Heavy Weapons CO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Heavy Weapons Officers can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Special Forces Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only ARF, ARC and BARC[NCO+] can, and should have this item]",
+    Description  = "[Only ARF, ARC and BARC[NCO+] can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Juggernaut Class - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Juggernauts (501st) troopers can, and should have this item]",
+    Description  = "[Only Juggernauts (501st) troopers can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Juggernaut Class NCO+ - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Juggernauts (501st) troopers above the CPL Rank can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["EOD Class - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only EOD (212th) troopers can, and should have this item]",
+    Description  = "[Only EOD (212th) troopers can use this item]",
 	Classification = true
 }
 
-PASSIVE_ITEM_FLAGS["Engineers Only - Infoflag"] = {
+PASSIVE_ITEM_FLAGS["EOD Class NCO+ - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Engineers members can, and should have this item]",
-	Classification = true
-}
-
-PASSIVE_ITEM_FLAGS["Clones Engineers Only - Infoflag"] = {
-    FunctionName = "classification",
-    Description  = "[Only Engineers members from the 501st, 212th and 104th can, and should have this item]",
+    Description  = "[Only EOD (212th) troopers above the CPL Rank can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Navy Engineers Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Engineers members of the Republic navy can, and should have this item]",
+    Description  = "[Only Navy Engineers members can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Navy Engineers NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Navy Engineers members above the PO1 Rank can use this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["Navy Engineers CO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Navy Engineers Officers can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Clones Engineers Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Engineers members from the 501st, 212th and 104th can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Clones Engineers NCO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Engineers members from the 501st, 212th and 104th above the CPL Rank can use this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["Clones Engineers CO+ Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Engineers Officers from the 501st, 212th and 104th can use this item]",
+	Classification = true
+}
+
+PASSIVE_ITEM_FLAGS["Army Engineers Only - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only Engineers members of the Republic army can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Mercenaries Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Mercenaries can, and should have this item]",
+    Description  = "[Only Mercenaries can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Astromechs Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Astromech units can, and should have this item]",
+    Description  = "[Only Astromech units can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Droids Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Droids units can, and should have this item]",
+    Description  = "[Only Droids units can use this item]",
 	Classification = true
 }
 
@@ -2814,39 +3135,46 @@ PASSIVE_ITEM_FLAGS["Droids Only - Infoflag"] = {
 
 PASSIVE_ITEM_FLAGS["Slicer Operator Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Slicer Specialized troopers can, and should have this item]",
+    Description  = "[Only Slicer Specialized troopers can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Jetpack - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only troopers Certified for jetpacks can, and should have this item]",
+    Description  = "[Only troopers Certified for jetpacks can use this item]",
 	Classification = true
 }
 
 
 PASSIVE_ITEM_FLAGS["EOD Cert - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Any troopers Certified for EOD can, and should have this item]",
+    Description  = "[Any troopers Certified for EOD can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["BARC Cert - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only troopers certified for BARC & Speeders can, and should have this item]",
+    Description  = "[Only troopers certified for BARC & Speeders can use this item]",
+	Classification = true
+}
+
+
+PASSIVE_ITEM_FLAGS["BARC Cert NCO+ - Infoflag"] = {
+    FunctionName = "classification",
+    Description  = "[Only troopers certified for BARC & Speeders above the CPL Rank can use this item]",
 	Classification = true
 }
 
 PASSIVE_ITEM_FLAGS["Vehicle Crews - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Any specialized trooper for any vehicle can, and should have this item]",
+    Description  = "[Any specialized trooper for any vehicle can use this item]",
 	Classification = true
 }
 
 
 PASSIVE_ITEM_FLAGS["Surgeon Only - Infoflag"] = {
     FunctionName = "classification",
-    Description  = "[Only Members Trained as Surgeon can, and should have this item]",
+    Description  = "[Only Members Trained as Surgeon can use this item]",
 	Classification = true
 }
 
