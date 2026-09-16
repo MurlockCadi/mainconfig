@@ -1612,8 +1612,7 @@ CERTIFICATIONS = {
             { name = "Medium Turret", entityname = "lvs_rep_las_tower", description = "Medium Turret for infantry and vehicles", type = "Other" },
 			{ name = "AA Emplacement", entityname = "lvs_rebel_triple_laser", description = "AA Turret for aircrafts and infantry", type = "Other" }
     },
-}
-	
+		
 	--Class Certs
 
 	["Jetpack"] = { --Able to use Jetpacks. You arent given one, just able to use jetpacks. Worse if your not 212th
