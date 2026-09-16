@@ -1608,10 +1608,11 @@ CERTIFICATIONS = {
     },
 
 	["Emplacements"] = {
-    Entitys = {
-        { name = "Medium Turret", entityname = "lvs_rep_las_tower", description = "Medium Turret for infantry and vehicles", type = "Other" },
-        { name = "AA Emplacement", entityname = "lvs_rebel_triple_laser", description = "AA Turret for aircrafts and infantry", type = "Other" }
-    },
+	    Entitys = {
+	        { name = "Medium Turret", entityname = "lvs_rep_las_tower", description = "Medium Turret for infantry and vehicles", type = "Other" },
+	        { name = "AA Emplacement", entityname = "lvs_rebel_triple_laser", description = "AA Turret for aircrafts and infantry", type = "Other" }
+		}
+	},
 		
 	--Class Certs
 
