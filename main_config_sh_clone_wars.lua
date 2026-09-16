@@ -1607,10 +1607,10 @@ CERTIFICATIONS = {
         Entitys = {},
     },
 
-    ["Emplacements"] = { --Able to spawn in a variety of field guns, anti air, and machineguns [Still waiting on trillbilly to add said emplacements...]
-        Entitys = {
-            { name = "Medium Turret", entityname = "lvs_rep_las_tower", description = "Medium Turret for infantry and vehicles", type = "Other" },
-			{ name = "AA Emplacement", entityname = "lvs_rebel_triple_laser", description = "AA Turret for aircrafts and infantry", type = "Other" }
+	["Emplacements"] = {
+    Entitys = {
+        { name = "Medium Turret", entityname = "lvs_rep_las_tower", description = "Medium Turret for infantry and vehicles", type = "Other" },
+        { name = "AA Emplacement", entityname = "lvs_rebel_triple_laser", description = "AA Turret for aircrafts and infantry", type = "Other" }
     },
 		
 	--Class Certs
@@ -1737,6 +1737,7 @@ VEHICLE_CERT_VEHICLES = {
             type = "Small Vehicle",
             offset = { forward = 55, right = 0, up = 100 }
         },
+		{
             name = "STAP",   -- Droid Only
             entityname = "lvs_starfighter_heavystap",
             description = "Captured CIS Speeders",
@@ -1903,16 +1904,7 @@ VEHICLE_CERT_VEHICLES = {
             description = "A Medical Stretcher for transporting wounded troops.",
             type = "Small Vehicle"
         },
-    },
-
-    --[[ ["Rough Rider"] = {
-        {
-            name = "Horse",
-            entityname = "ent_horse_andalusian",
-            description = "...",
-            type = "Vehicle"
-        },
-    },]]
+    }
 }
 
 -- --------------------------------------------------
