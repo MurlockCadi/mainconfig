@@ -1452,7 +1452,7 @@ ROLES = ROLES or {
         Color = Color(178, 190, 181),
         Description = "The 104th, known as the Wolf Pack, pride themselves on reconnaissance, commando tactics, and their sophisticated command structure, which allows them to rapidly deploy reinforcements to take and hold forward positions. They have a core engineering squad to set up and establish forward operating bases across the battlefield.",
         Default = true,
-		Type = "",
+		Type = "104th",
         DefaultItems = {"item_747013","item_926118"},
         Ranks = {
             {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/104th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
