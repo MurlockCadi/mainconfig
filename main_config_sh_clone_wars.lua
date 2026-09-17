@@ -1533,9 +1533,10 @@ ROLES = ROLES or {
         Color = Color(63, 78, 86),
         Description = "You are a mercenary, an anomaly, perhaps even a bounty hunter looking for credits, glory, or something else. You have chosen to fight alongside the Republic... for now. Your fate is yours to shape, and there is a galaxy awaiting you.",
 		NotClone = true,
+		Type = "Merc",
 		VIP = true,
 		CustomPerks = "mercenary",
-        DefaultItems = {},
+        DefaultItems = {"item_879602","item_560169"},
         Ranks = {
             {ID = 1, Name = "Merc", Rank_Prefix = "", ModelsAllowed = MODELS_MERC, WeaponsAllowed = {}, CanPromote = false},
         },
