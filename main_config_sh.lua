@@ -55,14 +55,16 @@ intro_songs = {
 }
 
 intro_image_urls = {
-	"https://www.imperiumgaming.net/new_warhammer_load/imgs/3242.jpg",
-	"https://www.imperiumgaming.net/new_warhammer_load/imgs/20260623020137_1.jpg",
-	"https://www.imperiumgaming.net/new_warhammer_load/imgs/1.jpg",
-	"https://www.imperiumgaming.net/new_warhammer_load/imgs/20251019044023_1.jpg",
-	"https://www.imperiumgaming.net/new_warhammer_load/imgs/kriege.jpg",
-	"https://www.imperiumgaming.net/new_warhammer_load/imgs/51.png",
-	"https://www.imperiumgaming.net/new_warhammer_load/imgs/52.jpg",
-	"https://www.imperiumgaming.net/new_warhammer_load/imgs/53.jpg"
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/1.png",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/1.png",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/2.JPG",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/3.jpg",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/3.png",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/4.jpg",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/4.png",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/6.png",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/7.png",
+	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/8.png"
 }
 
 -- Entity Respawn Timers for Entity Spawner
