@@ -1199,7 +1199,9 @@ DivisionTypes = {
                 SpawnWeapons = {"realistic_hook","weapon_murlock_recon_visor"},
                 Prefix = "ARF",
                 EntitySpawner = {},
-                vehicles = {},
+				vehicles = {
+                    { name = "Repulsortank",  entityname = "lvs_ihr_tt_rep_outpost",  description = "104th Forward Deployment Repulsortank",  type = "Light Vehicle" },
+				},
             },
             {
                 Name = "Advanced Recon Commando",
