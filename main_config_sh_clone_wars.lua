@@ -573,7 +573,7 @@ commands = {
 }
 
 -- --------------------------------------------------
--- ---------- DEFAULT WEAPONS -----------------------
+-- ----------  WEAPONS -----------------------
 -- --------------------------------------------------
 
 imperium_rp_defualt_weapons = {
@@ -925,7 +925,7 @@ DivisionTypes = {
         NiceName = "501st Battalion",
         Description = "The 501st Battalion is a frontline unit that thrives in fast-paced infantry assaults and tanker operations.",
         Team = "Republic",
-		Default_items = {"item_926118","item_102504"},
+		Default_items = {},
         Ranks = {
                 {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = BASE_501ST_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
@@ -1029,7 +1029,7 @@ DivisionTypes = {
         NiceName = "212th Battalion",
         Description = "The 212th Battalion specializes in heavy assaults, armored warfare, and airborne operations.",
         Team = "Republic",
-		Default_items = {"item_936022","item_102504"},
+		Default_items = {},
         Ranks = {
             {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = BASE_212TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- Enlisted
@@ -1130,7 +1130,7 @@ DivisionTypes = {
         NiceName = "104th Battalion",
         Description = "The 104th Battalion is a recon unit of the Grand Army of the Republic.",
         Team = "Republic",
-		Default_items = {"item_936022","item_102504"},
+		Default_items = {},
         Ranks = {
                 {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = BASE_104TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
@@ -1238,7 +1238,7 @@ DivisionTypes = {
         Description = "The Navy is a unit of the Grand Army of the Republic, known for their bravery and skill in battle.",
         Team = "Republic",
 		NotClone = true,
-        Default_items = {"item_471906","item_102504"},
+        Default_items = {},
         Ranks = {
             {ID = 1,  Name = "Crewman Recruit",           Rank_Prefix = "CR",     ModelsAllowed = BASE_NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- Enlisted
