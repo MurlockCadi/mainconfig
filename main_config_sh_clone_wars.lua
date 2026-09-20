@@ -1542,7 +1542,7 @@ ROLES = ROLES or {
 		Type = "Merc",
 		VIP = true,
 		CustomPerks = "mercenary",
-        DefaultItems = {"item_167730","item_560169"},
+        DefaultItems = {"item_879602","item_560169"},
         Ranks = {
             {ID = 1, Name = "Merc", Rank_Prefix = "", ModelsAllowed = MODELS_MERC, WeaponsAllowed = {}, CanPromote = false},
         },
