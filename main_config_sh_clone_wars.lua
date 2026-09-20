@@ -1478,7 +1478,7 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "republic"
+        Team = "Republic"
     },
 	DIVISION_104THRECRUIT = {
         NiceName = "104th Cadet",
@@ -1502,7 +1502,7 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "republic"
+        Team = "Republic"
     },
     DIVISION_JEDI_NEW = {
         NiceName = "Jedi",
@@ -1527,7 +1527,7 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "republic"
+        Team = "Republic"
     },
     DIVISION_MERC_NEW = {
         NiceName = "Mercenary",
@@ -1553,7 +1553,7 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "republic"
+        Team = "Republic"
     },
     DIVISION_212THRECRUIT = {
         NiceName = "212th Cadet",
@@ -1577,7 +1577,7 @@ ROLES = ROLES or {
                 Prefix = ""
             },
         },
-        Team = "republic"
+        Team = "Republic"
     },
     HOSTILE_BOT_ROLE = {
         NiceName = "Hostile Bot",
