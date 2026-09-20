@@ -908,6 +908,7 @@ MODELS_MERC = {
     "models/player/valley/gamorreanguard_01.mdl",
     "models/assassin/pm_civ_assassin_trandoshan_male.mdl",
     "models/assassin/pm_civ_assassin_trandoshan_female.mdl"
+	
 }
 
 -- --------------------------------------------------
@@ -924,6 +925,7 @@ DivisionTypes = {
         NiceName = "501st Battalion",
         Description = "The 501st Battalion is a frontline unit that thrives in fast-paced infantry assaults and tanker operations.",
         Team = "Republic",
+		Default_items = {"item_926118","item_102504"},
         Ranks = {
                 {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = BASE_501ST_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
@@ -967,7 +969,7 @@ DivisionTypes = {
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "HW",
                 EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "ammo" },
+					{ name = "Ammo Box",    entityname = "universal_ammo_small", description = "gives ammo", type = "ammo" },
 				},
                 vehicles = {},
             },
@@ -979,7 +981,7 @@ DivisionTypes = {
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "JUG",
                 EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "ammo" },
+					{ name = "Ammo Box",    entityname = "universal_ammo_small", description = "gives ammo", type = "ammo" },
 				},
                 vehicles = {},
             },
@@ -1003,7 +1005,7 @@ DivisionTypes = {
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MED",
                 EntitySpawner = {
-					{ name = "Kolto Crate",    entityname = "medic_box", description = "Allows Clones to Heal when Close", type = "Medic Box" },
+					{ name = "Bacta Dispenser",    entityname = "medic_box", description = "Allows Clones to Heal when interacting with it", type = "Medic Box" },
 				},
                 vehicles = {},
             },
@@ -1016,7 +1018,7 @@ DivisionTypes = {
                 SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "ENG",
                 EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "Gives Ammo to Clones", type = "Ammo" },
+					{ name = "Ammo Box",    entityname = "universal_ammo_small", description = "Gives Ammo to Clones", type = "Ammo" },
 					{ name = "Vehicle Ammo Supplies",    entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the fields", type = "Ammo" },
 				},
                 vehicles = {},
@@ -1027,6 +1029,7 @@ DivisionTypes = {
         NiceName = "212th Battalion",
         Description = "The 212th Battalion specializes in heavy assaults, armored warfare, and airborne operations.",
         Team = "Republic",
+		Default_items = {"item_936022","item_102504"},
         Ranks = {
             {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = BASE_212TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- Enlisted
@@ -1081,7 +1084,7 @@ DivisionTypes = {
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MED",
                 EntitySpawner = {
-					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
+					{ name = "Bacta Dispenser",    entityname = "medic_box", description = "Allows Clones to Heal when interacting with it", type = "Medic Box" },
 				},
                 vehicles = {},
             },
@@ -1104,7 +1107,7 @@ DivisionTypes = {
                 SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "HW",
                 EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+					{ name = "Ammo Box",    entityname = "universal_ammo_small", description = "gives ammo", type = "Ammo" },
 			    },
                 vehicles = {},
             },
@@ -1127,6 +1130,7 @@ DivisionTypes = {
         NiceName = "104th Battalion",
         Description = "The 104th Battalion is a recon unit of the Grand Army of the Republic.",
         Team = "Republic",
+		Default_items = {"item_936022","item_102504"},
         Ranks = {
                 {ID = 1,  Name = "Cadet",               Rank_Prefix = "CDT",    ModelsAllowed = BASE_104TH_MODELS,     WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
                 -- Enlisted
@@ -1170,7 +1174,7 @@ DivisionTypes = {
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "HW",
                 EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+					{ name = "Ammo Box",    entityname = "universal_ammo_small", description = "gives ammo", type = "Ammo" },
 			    },
                 vehicles = {},
             },
@@ -1185,7 +1189,7 @@ DivisionTypes = {
                 Prefix = "ENG",
 				atomic = true,
                 EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+					{ name = "Ammo Box",    entityname = "universal_ammo_small", description = "gives ammo", type = "Ammo" },
 					{ name = "Vehicle Ammo Supplies",    entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the fields", type = "Ammo" },
 			    },
                 vehicles = {},
@@ -1196,7 +1200,7 @@ DivisionTypes = {
                 Models = {"models/aussiwozzi/cgi/base/104th_arf.mdl","models/aussiwozzi/cgi/base/104th_barc.mdl"},
                 Weapons = {},
 				HasReconGlasses = true,
-                SpawnWeapons = {"realistic_hook","weapon_murlock_recon_visor"},
+                SpawnWeapons = {"ent_spawner","realistic_hook","weapon_murlock_recon_visor"},
                 Prefix = "ARF",
                 EntitySpawner = {},
 				vehicles = {
@@ -1223,7 +1227,7 @@ DivisionTypes = {
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MED",
                 EntitySpawner = {
-					{ name = "Kolto Crate",    entityname = "medic_box", description = "gives health", type = "Medic Box" },
+					{ name = "Bacta Dispenser",    entityname = "medic_box", description = "Allows Clones to Heal when interacting with it", type = "Medic Box" },
 				},
                 vehicles = {},
             },
@@ -1234,7 +1238,7 @@ DivisionTypes = {
         Description = "The Navy is a unit of the Grand Army of the Republic, known for their bravery and skill in battle.",
         Team = "Republic",
 		NotClone = true,
-        Default_items = {},
+        Default_items = {"item_471906","item_102504"},
         Ranks = {
             {ID = 1,  Name = "Crewman Recruit",           Rank_Prefix = "CR",     ModelsAllowed = BASE_NAVY_MODELS,  WeaponsAllowed = PENAL_WEAPONS, CanPromote = false},
             -- Enlisted
@@ -1263,7 +1267,7 @@ DivisionTypes = {
                 Core = true,
                 Models = GUNNER_NAVY_MODELS,
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "GNR",
                 EntitySpawner = {},
                 vehicles = {},
@@ -1274,7 +1278,7 @@ DivisionTypes = {
                 Core = true,
                 Models = MP_NAVY_MODELS,
                 Weapons = {},
-                SpawnWeapons = {"weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "MP",
                 EntitySpawner = {},
                 vehicles = {},
@@ -1289,7 +1293,7 @@ DivisionTypes = {
                 SpawnWeapons = {"ent_spawner","weapon_fists"},
                 Prefix = "DOC",	
                 EntitySpawner = {
-					{ name = "Kolto Crate",    entityname = "medic_box", description = "Allows Clones to Heal when Close", type = "Medic Box" },
+					{ name = "Bacta Dispenser",    entityname = "medic_box", description = "Allows Clones to Heal when interacting with it", type = "Medic Box" },
 				},
                 vehicles = {},
             },
@@ -1303,7 +1307,7 @@ DivisionTypes = {
                 SpawnWeapons = {"weapon_murlock_engineering_builder","ent_spawner","weapon_fists"},
                 Prefix = "ENG",
                 EntitySpawner = {
-					{ name = "Ammo Box",    entityname = "ammo_box", description = "gives ammo", type = "Ammo" },
+					{ name = "Ammo Box",    entityname = "universal_ammo_small", description = "gives ammo", type = "Ammo" },
 					{ name = "Vehicle Ammo Supplies",    entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the fields", type = "Ammo" },
 			    },
                 vehicles = {},
@@ -1538,7 +1542,7 @@ ROLES = ROLES or {
 		Type = "Merc",
 		VIP = true,
 		CustomPerks = "mercenary",
-        DefaultItems = {"item_879602","item_560169"},
+        DefaultItems = {"item_167730","item_560169"},
         Ranks = {
             {ID = 1, Name = "Merc", Rank_Prefix = "", ModelsAllowed = MODELS_MERC, WeaponsAllowed = {}, CanPromote = false},
         },
@@ -1626,25 +1630,31 @@ CERTIFICATIONS = {
 	--LVS Certs (Kill Me)
 	
     ["Pilot"] = { --Able to spawn some basic fighters / basic transport.
-        Weapons = {},
+        Weapons = {"ent_spawner"},
         Entitys = {},
     },
 	
     ["Tanker"] = { --Able to spawn in a huge range of heavy to light tanks.
-        Weapons = {},
+        Weapons = {"ent_spawner"},
         Entitys = {},
     },
     ["Logistics"] = { --Able to spawn in slow moving logi stuff, including speeders
-        Weapons = {},
+        Weapons = {"ent_spawner"},
+		Weapons = {},
     },
 
     ["Speeders & AT-RT"] = { --Able to spawn in a huge range of heavy to light tanks.
-        Entitys = {},
+        Weapons = {"ent_spawner"},
+		Entitys = {},
     },
-
+{
 	["Emplacements"] = {
-	    Entitys = {
-	        { name = "Medium Turret", entityname = "lvs_rep_las_tower", description = "Medium Turret for infantry and vehicles", type = "Other" },
+	    Weapons = {"ent_spawner"},
+		Entitys = {
+			{ name = "Laser Turret", entityname = "lazer_cannon", description = "Light Turret intended for infantry targets", type = "Other" },
+			{ name = "Auto cannon Turret", entityname = "turret_bullets2", description = "Medium Caliber Anti Infantry Turret", type = "Other" },
+			{ name = "Medium Turret", entityname = "lvs_rep_las_tower", description = "Medium Turret for infantry and vehicles", type = "Other" },
+			{ name = "Anti Tank turret", entityname = "lazer3_grenade", description = "Heavy Turret intended for Anti Vehicles Purpouse", type = "Other" },
 	        { name = "AA Emplacement", entityname = "lvs_rebel_triple_laser", description = "AA Turret for aircrafts and infantry", type = "Other" }
 		}
 	},
@@ -1765,10 +1775,10 @@ VEHICLE_CERT_VEHICLES = {
             offset = { forward = 50, right = 0, up = 100 }
         },
         {
-            name = "Race Speeder",   -- Droid Only
+            name = "Race Speeder",   -- Merc  Only
             entityname = "lvs_victorious_landspeeder2",
             description = "Fast and nible but fragile speeder",
-            classes = {"Merc"},
+            classes = {"Merc","Mercenary"},
             divisions = {"Auxiliary"},
             type = "Small Vehicle",
             offset = { forward = 55, right = 0, up = 100 }
@@ -1787,7 +1797,7 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_vic_sandspeeder_luksusn1",
             description = "Sand speeder",
             classes = {"Merc"},
-            divisions = {"Auxiliary"},
+            divisions = {"Merc","Mercenary"},
             type = "Small Vehicle",
             offset = { forward = 55, right = 0, up = 100 }
         },
@@ -2491,11 +2501,20 @@ PASSIVE_ITEM_FLAGS["501st_juggernaut_power_armor"] = {
 PASSIVE_ITEM_FLAGS["clones_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
-	RoleType = {"501st","212th","104th","Navy"},
-    Description = "You must be a member of the Republic Grand Army to use this item.",
+	RoleType = {"501st","212th","104th"},
+    Description = "You must be a member of the 501st, 212th or 104th to use this item.",
     Color = Color(45, 95, 200)
 }
 
+
+PASSIVE_ITEM_FLAGS["grand_army_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = {"501st","212th","104th"},
+    Description = "You must be a member of the Republic Grand Army to use this item.",
+    Color = Color(45, 95, 200)
+}
+	
 PASSIVE_ITEM_FLAGS["501st_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
@@ -2537,10 +2556,10 @@ PASSIVE_ITEM_FLAGS["auxiliary_only"] = {
 }
 
 
-PASSIVE_ITEM_FLAGS["any_vehicle_certs_only"] = {
+PASSIVE_ITEM_FLAGS["any_vehicle_certs_and_eng_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
-	RoleType = {"Speeders & AT-RT","Pilot","Tanker","Logistics"},
+	RoleType = {"Speeders & AT-RT","Pilot","Tanker","Logistics","Navy Engineer","Engineer"},
     Description = "You must certified to any vehicle cert to use this item.",
     Color = Color(124, 124, 124)
 }
@@ -2637,7 +2656,7 @@ PASSIVE_ITEM_FLAGS["jetpack_only"] = {
 PASSIVE_ITEM_FLAGS["military_police_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
-	RoleType = "MP",
+	RoleType = "Military Police",
     Description = "You must be a Military Police member to use this item.",
     Color = Color(127, 0, 95)
 }
@@ -2670,7 +2689,7 @@ PASSIVE_ITEM_FLAGS["astromech_only"] = {
 PASSIVE_ITEM_FLAGS["mercenary_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
-	RoleType = "Merc",
+	RoleType = {"Merc","Mercenary"},
     Description = "You must be a Mercenary to use this item.",
     Color = Color(127, 0, 95)
 }
