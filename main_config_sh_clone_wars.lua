@@ -1647,7 +1647,7 @@ CERTIFICATIONS = {
         Weapons = {"ent_spawner"},
 		Entitys = {},
     },
-{
+	
 	["Emplacements"] = {
 	    Weapons = {"ent_spawner"},
 		Entitys = {
