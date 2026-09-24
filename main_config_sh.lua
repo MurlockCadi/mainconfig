@@ -1755,7 +1755,24 @@ DivisionTypes = {
                         entityname = "lvs_item_jerrycan",
                         description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.",
                         type = "Ammo"
-            }
+			{
+                Name = "Contracted Mercenary Medicae", 
+                Default = false, 
+				Core = true,
+				Medic = true,
+                Models = MERC_MODELS, 
+                Weapons = {}, 
+                SpawnWeapons = {"fas2_ifak","ent_spawner","refinery_spawner","weapon_fists"}, 
+                Prefix = "",
+				EntitySpawner = {
+                    {
+                        name = "Medical Box",
+                        entityname = "medic_box",
+                        description = "Used to let your soldiers heal themselves!",
+                        type = "Medic Box"
+                    }
+                },
+            },
 		}
     },
     ["Ecclesiarchy"] = {
