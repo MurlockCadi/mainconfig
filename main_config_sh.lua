@@ -1766,6 +1766,7 @@ DivisionTypes = {
                         description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.",
                         type = "Ammo"
 					},
+				},
 			{
                 Name = "Contracted Mercenary Medicae", 
                 Default = false, 
