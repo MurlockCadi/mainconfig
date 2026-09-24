@@ -31,7 +31,7 @@ mapMessages = {
     ["rp_jupiter_underground"] = "++-- Hive City Imperium // Under Hive // Abandoned Sectors --++",
 	["rp_zombiewars_v1"] = "++-- Duskgrain // Ork Infestation // Astra Militarum Occupation --++",
 	["rp_paris_wwii"] = "++-- Gilden Spire // Pleasure World // Astra Militarum Occupation --++",
-	["rp_snow_warfare"] = "++-- Imperial Snow World // Astra Militarum Occupation--++"
+	["rp_snow_warfare"] = "++-- Imperial Snow World // Astra Militarum Occupation-F-++"
 }
 
 
@@ -2573,6 +2573,7 @@ CERTIFICATIONS = {
         Weapons = {"ent_spawner"},
 	    Entitys = {
             { name = "Ammo Supplies", entityname = "universal_ammo_small", description = "An ammo pack containing enough for 10 resupplies.", type = "Ammo" },
+		}
     },
 	["Pilot"] = {
         Weapons = {"rope_tool"},
