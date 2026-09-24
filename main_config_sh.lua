@@ -2557,7 +2557,7 @@ CERTIFICATIONS = {
         }
     },
     ["Surgeon"] = {
-        Weapons = {"weapon_healer"},
+        Weapons = {"ent_spawner","weapon_healer"},
         Entitys = {
             { name = "Medical Supplies", entityname = "medic_box", description = "Lets soldiers heal themselves.", type = "Medic Box" }
         }
@@ -2568,6 +2568,11 @@ CERTIFICATIONS = {
             { name = "Cooker", entityname = "cat_iron_stove", description = "Make food for the troops.", type = "Other" },
 			{ name = "Pantry", entityname = "warhammer_pantry", description = "Buy Raw Goods to turn into Food", type = "Other" }
         }
+    },
+	["Supply Pack"] = {
+        Weapons = {"ent_spawner"},
+	    Entitys = {
+            { name = "Ammo Supplies", entityname = "universal_ammo_small", description = "An ammo pack containing enough for 10 resupplies.", type = "Ammo" },
     },
 	["Pilot"] = {
         Weapons = {"rope_tool"},
