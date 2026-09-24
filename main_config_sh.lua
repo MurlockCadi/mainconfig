@@ -2007,47 +2007,6 @@ DivisionTypes = {
                 },
             },
             {
-                Name = "Heavy Weapons",
-                Core = true,
-                Models = CADIAN_MODELS,
-                Weapons = {"cat_custom_missilelauncher","cat_custom_laspistol"},
-                SpawnWeapons = {"ent_spawner","weapon_fists"},
-                Prefix = "HW",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                },
-            },
-            {
-                Name = "Weapon Specialist",
-                Core = true,
-                Models = CADIAN_MODELS,
-                Weapons = {"cat_custom_flamer","cat_custom_laspistol"},
-                SpawnWeapons = {"ent_spawner","weapon_fists"},
-                Prefix = "WS",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                },
-            },
-            {
-                Name = "Scout",
-                Core = true,
-                Models = CADIAN_MODELS,
-                Weapons = {},
-				HasReconGlasses = true,
-                SpawnWeapons = {"realistic_hook","weapon_fists","weapon_murlock_scout_tools"},
-                Prefix = "SC",
-            },
-            {
                 Name = "Logistics",
                 Core = true,
                 Models = CADIAN_MODELS,
