@@ -1708,16 +1708,6 @@ DivisionTypes = {
                 Prefix = ""
             },
 			{
-                Name = "Test Class", 
-                Default = false, 
-				Core = true,
-                Models = MERC_MODELS, 
-                Weapons = {}, 
-				HasReconGlasses = true,
-                SpawnWeapons = {"ent_spawner"}, 
-                Prefix = ""
-            },
-			{
                 Name = "Contracted Mercenary Sapper", 
                 Default = false, 
 				Core = true,
