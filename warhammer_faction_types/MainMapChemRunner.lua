@@ -2,7 +2,7 @@ FACTION_TYPES["Chem Runner"] = {
     STAGE = "Low Crime",
     DeathsByType = {},
 
-    CreateBot = function(self, amount)
+    CreateCultist = function(self, amount)
         local AllBots = player.GetBots()
         local druggyCount = 0
         for _, bot in ipairs(AllBots) do
@@ -60,7 +60,7 @@ FACTION_TYPES["Chem Runner"] = {
         end
     end,
 
-    CreateCultist = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
         local roll = math.random(1, 100)
