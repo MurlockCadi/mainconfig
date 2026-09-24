@@ -1767,6 +1767,7 @@ DivisionTypes = {
                         type = "Ammo"
 					},
 				},
+			},
 			{
                 Name = "Contracted Mercenary Medicae", 
                 Default = false, 
