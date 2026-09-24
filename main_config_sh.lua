@@ -1708,6 +1708,16 @@ DivisionTypes = {
                 Prefix = ""
             },
 			{
+                Name = "Test Class", 
+                Default = false, 
+				Core = true,
+                Models = MERC_MODELS, 
+                Weapons = {}, 
+				HasReconGlasses = true,
+                SpawnWeapons = {"ent_spawner"}, 
+                Prefix = ""
+            },
+			{
                 Name = "Contracted Mercenary Sapper", 
                 Default = false, 
 				Core = true,
@@ -1755,6 +1765,7 @@ DivisionTypes = {
                         entityname = "lvs_item_jerrycan",
                         description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.",
                         type = "Ammo"
+					},
 			{
                 Name = "Contracted Mercenary Medicae", 
                 Default = false, 
