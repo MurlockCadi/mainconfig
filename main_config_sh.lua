@@ -1757,7 +1757,7 @@ DivisionTypes = {
                         type = "Ammo"
                     },
                 },
-            },
+            }
     },
     ["Ecclesiarchy"] = {
         NiceName = "Ecclesiarchy",
