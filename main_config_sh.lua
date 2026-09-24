@@ -2575,6 +2575,20 @@ CERTIFICATIONS = {
             { name = "Ammo Supplies", entityname = "universal_ammo_small", description = "An ammo pack containing enough for 10 resupplies.", type = "Ammo" },
 		}
     },
+	["Weapons Specialist"] = {
+	    Prefix = "WS",
+        Weapons = {"ent_spawner"},
+	    Entitys = {
+            { name = "Ammo Supplies", entityname = "universal_ammo_small", description = "An ammo pack containing enough for 10 resupplies.", type = "Ammo" },
+		}
+    },
+	["Heavy Weapons"] = {
+	    Prefix = "HVY",
+        Weapons = {"ent_spawner"},
+	    Entitys = {
+            { name = "Ammo Supplies", entityname = "universal_ammo_small", description = "An ammo pack containing enough for 10 resupplies.", type = "Ammo" },
+		}
+    },
 	["Pilot"] = {
         Weapons = {"rope_tool"},
 		}
