@@ -13,7 +13,7 @@ FACTION_TYPES["Khornate Cultist"] = {
         end
     end,
 
-    CreateBot = function(self, amount)
+    CreateCultist = function(self, amount)
         local AllBots = player.GetBots()
         local cultistCount = 0
         for _, bot in ipairs(AllBots) do
@@ -73,7 +73,7 @@ FACTION_TYPES["Khornate Cultist"] = {
         end
     end,
 
-    CreateCultist = function(self, bot, elite)
+    CreateBot = function(self, bot, elite)
         local health = GetHealthByTotalPlayers()
 
         --10% Chance to Spawn as an Elite
