@@ -156,3 +156,4 @@ CRAFTABLE_ITEMS["item_405405"] = 17500 -- Arc Maul
 CRAFTABLE_ITEMS["item_619833"] = 12500 -- Taser Goad
 CRAFTABLE_ITEMS["item_664305"] = 22500 -- Dual Transonic Blades
 CRAFTABLE_ITEMS["item_122091"] = 25000 -- Hand Flamer tfa
+CRAFTABLE_ITEMS["item_157738"] = 12500 -- Dual Accatran Laspistols tfa
