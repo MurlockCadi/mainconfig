@@ -62,7 +62,6 @@ intro_image_urls = {
 	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/3.png",
 	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/4.jpg",
 	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/4.png",
-	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/6.png",
 	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/7.png",
 	"https://www.imperiumgaming.net/new_warhammer_load/imgs/new/8.png"
 }
