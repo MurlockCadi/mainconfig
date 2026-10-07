@@ -1322,7 +1322,7 @@ DivisionTypes = {
                 Models = {},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol","weapon_taser"},
                 MaxHealth = 150,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","playablebagpipe"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1339,7 +1339,7 @@ DivisionTypes = {
                 Models = {},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol","weapon_taser"},
                 MaxHealth = 200,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1357,7 +1357,7 @@ DivisionTypes = {
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol","weapon_taser"},
                 MaxHealth = 200,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1584,7 +1584,7 @@ DivisionTypes = {
                 MaxHealth = 200,
                 PowerShield = true,
 				CanManageTaxes = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1604,7 +1604,7 @@ DivisionTypes = {
                 MaxHealth = 175,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1624,7 +1624,7 @@ DivisionTypes = {
                 MaxHealth = 175,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
                 Prefix = "Marshal",
                 EntitySpawner = {
                     {
@@ -1644,7 +1644,7 @@ DivisionTypes = {
                 MaxHealth = 175,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
                 Prefix = "Major",
                 EntitySpawner = {
                     {
@@ -1664,7 +1664,7 @@ DivisionTypes = {
                 MaxHealth = 175,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1792,7 +1792,7 @@ DivisionTypes = {
                 Models = HOLY_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
                 MaxHealth = 100,
-                SpawnWeapons = {"murlock_staff_player_new","weapon_fists"},
+                SpawnWeapons = {"murlock_staff_player_new","weapon_fists","playablebagpipe"},
                 Prefix = ""
             },
             {
@@ -1803,7 +1803,7 @@ DivisionTypes = {
                 Models = CRUSADER_MODELS,
                 Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
                 MaxHealth = 200,
-                SpawnWeapons = {"murlock_staff_player_new","weapon_fists"},
+                SpawnWeapons = {"murlock_staff_player_new","weapon_fists","playablebagpipe"},
                 Prefix = ""
             },
             {
