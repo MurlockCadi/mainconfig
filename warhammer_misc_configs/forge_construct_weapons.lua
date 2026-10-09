@@ -158,3 +158,4 @@ CRAFTABLE_ITEMS["item_664305"] = 22500 -- Dual Transonic Blades
 CRAFTABLE_ITEMS["item_122091"] = 25000 -- Hand Flamer tfa
 CRAFTABLE_ITEMS["item_157738"] = 12500 -- Dual Accatran Laspistols tfa
 CRAFTABLE_ITEMS["item_221086"] = 35000 -- Combat Shield & Laspistol tfa
+CRAFTABLE_ITEMS["item_422487"] = 30000 -- Laspistol & Chainsword
