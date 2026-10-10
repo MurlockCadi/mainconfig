@@ -1311,8 +1311,9 @@ DivisionTypes = {
 		    {ID = 1, Name = "Cadet", Rank_Prefix = "CAD COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
 		    {ID = 2, Name = "Junior", Rank_Prefix = "JN COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
 		    {ID = 3, Name = "Commissar", Rank_Prefix = "COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
-		    {ID = 4, Name = "Captain", Rank_Prefix = "CPT COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true},
-		    {ID = 5, Name = "Lord", Rank_Prefix = "Lord COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true}
+			{ID = 4, Name = "Senior Commissar", Rank_Prefix = "SNR COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = false},
+		    {ID = 5, Name = "Captain", Rank_Prefix = "CPT COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true},
+		    {ID = 6, Name = "Lord", Rank_Prefix = "Lord COM", ModelsAllowed = COMMISSAR_MODELS, WeaponsAllowed = {}, CanPromote = true}
 		},
         Classes = {
             {
