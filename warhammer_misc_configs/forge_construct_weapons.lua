@@ -155,8 +155,11 @@ CRAFTABLE_ITEMS["item_839748"] = 17500 -- Transonic Blade
 CRAFTABLE_ITEMS["item_405405"] = 17500 -- Arc Maul
 CRAFTABLE_ITEMS["item_619833"] = 12500 -- Taser Goad
 CRAFTABLE_ITEMS["item_664305"] = 22500 -- Dual Transonic Blades
+
+
 CRAFTABLE_ITEMS["item_122091"] = 25000 -- Hand Flamer tfa
 CRAFTABLE_ITEMS["item_157738"] = 12500 -- Dual Accatran Laspistols tfa
 CRAFTABLE_ITEMS["item_221086"] = 35000 -- Combat Shield & Laspistol tfa
 CRAFTABLE_ITEMS["item_422487"] = 30000 -- Laspistol & Chainsword tfa
 CRAFTABLE_ITEMS["item_496121"] = 20000 -- Hack Shot tfa
+CRAFTABLE_ITEMS["item_654566"] = 8500 -- Combat Axe tfa
