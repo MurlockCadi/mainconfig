@@ -1123,7 +1123,7 @@ DivisionTypes = {
                 ForceModels = true,
                 Weapons = {"cat_legacy_gravgun"},
                 MaxHealth = 150,
-                SpawnWeapons = {"cat_legacy_powerfistcrusade","weapon_murlock_scout_tools"},
+                SpawnWeapons = {"cat_legacy_powerfistcrusade"},
                 Prefix = "Combat Servitor"
             },
 			{
