@@ -166,7 +166,7 @@ CRAFTABLE_ITEMS["item_654566"] = 8500 -- Combat Axe tfa
 
 CRAFTABLE_ITEMS["item_495134"] = 7000 -- Agripinaa Autogun tfa
 CRAFTABLE_ITEMS["item_505870"] = 25000 -- Autorifle tfa
-CRAFTABLE_ITEMS["item_284552"] = 7000 -- Lasgun tfa
+CRAFTABLE_ITEMS["item_284552"] = 7000 -- Lasgun arccw
 CRAFTABLE_ITEMS["item_537790"] = 35000 -- Exitus Rifle tfa
 CRAFTABLE_ITEMS["item_587613"] = 25000 -- Crozius 
 CRAFTABLE_ITEMS["item_283476"] = 45000 -- Transuranic Arquebus arccw
