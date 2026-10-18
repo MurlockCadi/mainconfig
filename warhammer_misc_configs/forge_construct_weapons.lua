@@ -170,3 +170,5 @@ CRAFTABLE_ITEMS["item_284552"] = 7000 -- Lasgun arccw
 CRAFTABLE_ITEMS["item_537790"] = 35000 -- Exitus Rifle tfa
 CRAFTABLE_ITEMS["item_587613"] = 25000 -- Crozius 
 CRAFTABLE_ITEMS["item_283476"] = 45000 -- Transuranic Arquebus arccw
+CRAFTABLE_ITEMS["item_500852"] = 45000 -- Ion Blaster arccw
+CRAFTABLE_ITEMS["item_733378"] = 150000 -- Volkite Serpenta
