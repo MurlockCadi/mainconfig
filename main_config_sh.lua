@@ -2768,7 +2768,7 @@ PASSIVE_ITEM_FLAGS["Corrosive Damage"] = {
 PASSIVE_ITEM_FLAGS["Sickly"] = {
     FunctionName = "Sickly",
     Description  = "You're sickly, taking damage causes you to burn from within.",
-    Color        = Color(0, 200, 100)
+    Color        = Color(255, 0, 0)
 }
 
 PASSIVE_ITEM_FLAGS["ConvertArmorToDamage"] = {
