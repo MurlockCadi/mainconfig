@@ -2533,6 +2533,12 @@ PASSIVE_ITEM_FLAGS["Remove 50 Speed"] = {
     Color = Color(255, 0, 0)
 }
 
+PASSIVE_ITEM_FLAGS["Remove 75 Speed"] = {
+    FunctionName = "remove75speed",
+    Description = "Lowers Run Speed by 75",
+    Color = Color(255, 0, 0)
+}
+
 PASSIVE_ITEM_FLAGS["Add 50 Speed"] = {
     FunctionName = "add50speed",
     Description = "Increase Run Speed by 50",
@@ -2563,6 +2569,11 @@ PASSIVE_ITEM_FLAGS["Remove 20 Health"] = {
     Color = Color(255, 0, 0)
 }
 
+PASSIVE_ITEM_FLAGS["Remove 30 Health"] = {
+    FunctionName = "remove30health",
+    Description = "Decreases max health by 30.",
+    Color = Color(255, 0, 0)
+}
 
 PASSIVE_ITEM_FLAGS["bot_buyable"] = {
     FunctionName = "none",
@@ -2733,6 +2744,12 @@ PASSIVE_ITEM_FLAGS["Critical Fail 10"] = {
 PASSIVE_ITEM_FLAGS["Critical Fail 25"] = {
     FunctionName = "CritFail25",
     Description  = "5% chance for your attacks to deal 100% less damage.",
+    Color        = Color(255, 50, 0)
+}
+
+PASSIVE_ITEM_FLAGS["Critical Fail 35"] = {
+    FunctionName = "CritFail25",
+    Description  = "7% chance for your attacks to deal 100% less damage.",
     Color        = Color(255, 50, 0)
 }
 
