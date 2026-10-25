@@ -2972,7 +2972,7 @@ PASSIVE_ITEM_FLAGS["ConvertCapacitanceToDamage"] = {
 
 PASSIVE_ITEM_FLAGS["CapacitanceOnDamage"] = {
     FunctionName = "CapacitanceOnDamage",
-    Description  = "Gain Capacitance when dealing damage.",
+    Description  = "Gain Capacitance when dealing damage, upto a limit of 5000",
     Color        = Color(100, 220, 255)
 }
 
