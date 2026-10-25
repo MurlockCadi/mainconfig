@@ -2748,7 +2748,7 @@ PASSIVE_ITEM_FLAGS["Critical Fail 25"] = {
 }
 
 PASSIVE_ITEM_FLAGS["Critical Fail 35"] = {
-    FunctionName = "CritFail25",
+    FunctionName = "CritFail35",
     Description  = "7% chance for your attacks to deal 100% less damage.",
     Color        = Color(255, 50, 0)
 }
