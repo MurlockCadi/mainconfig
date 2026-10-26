@@ -3134,8 +3134,8 @@ CRAFTABLE_ITEMS["item_786207"] = 100 --Reactor Coolant
 
 APRIL_FOOLS = false
 
-local MURLOCK_FORGE_POSITIVE = {"Extra 10 Health", "Extra 20 Health", "Add 25 Speed", "Add 50 Speed", "Damage Boost 5", "Damage Boost 10", "Damage Reduction 2", "Damage Reduction 4", "Ammo Regen", "Health Regen", "Shield Regen", "Critical Strikes 10", "Critical Strikes 25"}
-local MURLOCK_FORGE_NEGATIVE = {"Remove 10 Health", "Remove 20 Health", "Remove 25 Speed", "Remove 50 Speed", "Damage Taken Increase 2", "Damage Taken Increase 4", "Damage Output Reduction 5", "Damage Output Reduction 10", "Critical Fail 10", "Critical Fail 25", "Critical Vulnerability 10"}
+local MURLOCK_FORGE_POSITIVE = {"Extra 20 Health", "Add 50 Speed", "Damage Boost 10", "Damage Reduction 4", "Ammo Regen", "Health Regen", "Shield Regen", "powershield", "Vampirism 25", "Armor Vampirism 10", "Bullet Vampirism 10", "Thorns 25", "Last Stand", "Critical Strikes 25", "Corrosive Damage", "ConvertArmorToDamage", "Convert Health To Damage", "Convert Armor To Health", "Convert Health To Armor", "Stoicism", "Resolve", "Fury", "Convert Stoicism to Health", "Convert Stoicism to Damage", "Convert Resolve to Shield", "Convert Resolve to Damage", "Convert Fury to Health", "Convert Fury to Shield", "Convert Resolve to Stoicism", "Convert Resolve to Fury", "Convert Fury to Stoicism", "Convert Fury to Resolve", "Convert Stoicism to Resolve", "Convert Stoicism to Fury", "Extra Damage at Max Health", "Attunement", "AetherGenerator", "CapacitanceGenerator", "FaithGenerator", "TzeentchGenerator", "FlowGenerator", "FaithOnDamage", "ConvertFaithToHealth", "ConvertFaithToDamage", "ConvertHealthToFaith", "Greed", "ConvertCapacitanceToArmor", "ConvertArmorToCapacitance", "ConvertCapacitanceToDamage", "CapacitanceOnDamage", "Jetpack"}
+local MURLOCK_FORGE_NEGATIVE = {"Remove 20 Health", "Remove 50 Speed", "Damage Taken Increase 4", "Damage Output Reduction 10", "Critical Fail 25", "Critical Vulnerability 10"}
 for _, flagName in ipairs(MURLOCK_FORGE_POSITIVE) do
     if PASSIVE_ITEM_FLAGS[flagName] then PASSIVE_ITEM_FLAGS[flagName].Workshop = true end
 end
