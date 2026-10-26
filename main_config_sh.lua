@@ -3133,4 +3133,20 @@ CRAFTABLE_ITEMS["item_964668"] = 100 --Tritium Fuel
 CRAFTABLE_ITEMS["item_786207"] = 100 --Reactor Coolant
 
 APRIL_FOOLS = false
+
+local MURLOCK_FORGE_POSITIVE = {"Extra 10 Health", "Extra 20 Health", "Add 25 Speed", "Add 50 Speed", "Damage Boost 5", "Damage Boost 10", "Damage Reduction 2", "Damage Reduction 4", "Ammo Regen", "Health Regen", "Shield Regen", "Critical Strikes 10", "Critical Strikes 25"}
+local MURLOCK_FORGE_NEGATIVE = {"Remove 10 Health", "Remove 20 Health", "Remove 25 Speed", "Remove 50 Speed", "Damage Taken Increase 2", "Damage Taken Increase 4", "Damage Output Reduction 5", "Damage Output Reduction 10", "Critical Fail 10", "Critical Fail 25", "Critical Vulnerability 10"}
+for _, flagName in ipairs(MURLOCK_FORGE_POSITIVE) do
+    if PASSIVE_ITEM_FLAGS[flagName] then PASSIVE_ITEM_FLAGS[flagName].Workshop = true end
+end
+for _, flagName in ipairs(MURLOCK_FORGE_NEGATIVE) do
+    if PASSIVE_ITEM_FLAGS[flagName] then
+        PASSIVE_ITEM_FLAGS[flagName].Workshop = true
+        PASSIVE_ITEM_FLAGS[flagName].WorkshopDebuff = true
+    end
+end
+PASSIVE_ITEM_FLAGS["WeaponModifiable"] = PASSIVE_ITEM_FLAGS["WeaponModifiable"] or {FunctionName = "none", Description = "Permits personal weapon experience, relic modifications and maintenance.", Color = Color(112, 223, 151)}
+
+
 print("Imperium RP Config Loaded!")
+
