@@ -2759,6 +2759,23 @@ PASSIVE_ITEM_FLAGS["Critical Vulnerability 10"] = {
     Color        = Color(255, 50, 50)
 }
 
+-- Custom relic drawbacks (also shared with the Weapon Modification Cogitator).
+PASSIVE_ITEM_FLAGS["Sickly"] = {
+    FunctionName   = "Sickly",
+    Description    = "When wounded, you suffer corrosive burns for 10 seconds.",
+    Workshop       = true,
+    WorkshopDebuff = true,
+    Color          = Color(170, 195, 85)
+}
+
+PASSIVE_ITEM_FLAGS["Flammable"] = {
+    FunctionName   = "Flammable",
+    Description    = "Non-fire damage has a 10% chance to set you ablaze for 5 seconds.",
+    Workshop       = true,
+    WorkshopDebuff = true,
+    Color          = Color(240, 120, 70)
+}
+
 PASSIVE_ITEM_FLAGS["Corrosive Damage"] = {
     FunctionName = "CorrosiveDamage",
     Description  = "Your attacks inflict Corrosive Damage, doing % damage over time.",
@@ -3135,7 +3152,7 @@ CRAFTABLE_ITEMS["item_786207"] = 100 --Reactor Coolant
 APRIL_FOOLS = false
 
 local MURLOCK_FORGE_POSITIVE = {"Extra 20 Health", "Add 50 Speed", "Damage Boost 10", "Damage Reduction 4", "Ammo Regen", "Health Regen", "Shield Regen", "powershield", "Vampirism 25", "Armor Vampirism 10", "Bullet Vampirism 10", "Thorns 25", "Last Stand", "Critical Strikes 25", "Corrosive Damage", "ConvertArmorToDamage", "Convert Health To Damage", "Convert Armor To Health", "Convert Health To Armor", "Stoicism", "Resolve", "Fury", "Convert Stoicism to Health", "Convert Stoicism to Damage", "Convert Resolve to Shield", "Convert Resolve to Damage", "Convert Fury to Health", "Convert Fury to Shield", "Convert Resolve to Stoicism", "Convert Resolve to Fury", "Convert Fury to Stoicism", "Convert Fury to Resolve", "Convert Stoicism to Resolve", "Convert Stoicism to Fury", "Extra Damage at Max Health", "Attunement", "AetherGenerator", "CapacitanceGenerator", "FaithGenerator", "TzeentchGenerator", "FlowGenerator", "FaithOnDamage", "ConvertFaithToHealth", "ConvertFaithToDamage", "ConvertHealthToFaith", "Greed", "ConvertCapacitanceToArmor", "ConvertArmorToCapacitance", "ConvertCapacitanceToDamage", "CapacitanceOnDamage", "Jetpack"}
-local MURLOCK_FORGE_NEGATIVE = {"Remove 20 Health", "Remove 50 Speed", "Damage Taken Increase 4", "Damage Output Reduction 10", "Critical Fail 25", "Critical Vulnerability 10"}
+local MURLOCK_FORGE_NEGATIVE = {"Remove 20 Health", "Remove 50 Speed", "Damage Taken Increase 4", "Damage Output Reduction 10", "Critical Fail 25", "Critical Vulnerability 10", "Sickly", "Flammable"}
 for _, flagName in ipairs(MURLOCK_FORGE_POSITIVE) do
     if PASSIVE_ITEM_FLAGS[flagName] then PASSIVE_ITEM_FLAGS[flagName].Workshop = true end
 end
@@ -3145,7 +3162,19 @@ for _, flagName in ipairs(MURLOCK_FORGE_NEGATIVE) do
         PASSIVE_ITEM_FLAGS[flagName].WorkshopDebuff = true
     end
 end
-PASSIVE_ITEM_FLAGS["WeaponModifiable"] = PASSIVE_ITEM_FLAGS["WeaponModifiable"] or {FunctionName = "none", Description = "Permits personal weapon experience, relic modifications and maintenance.", Color = Color(112, 223, 151)}
+
+PASSIVE_ITEM_FLAGS["WeaponModifiable"] = PASSIVE_ITEM_FLAGS["WeaponModifiable"] or {
+    FunctionName = "none",
+    Description  = "Allows weapon experience and modifications at the Weapon Modification Cogitator.",
+    Color        = Color(112, 223, 151)
+}
+PASSIVE_ITEM_FLAGS["WeaponModifiable"].Description = "Allows weapon experience and modifications at the Weapon Modification Cogitator."
+
+PASSIVE_ITEM_FLAGS["CustomRelicModifiable"] = PASSIVE_ITEM_FLAGS["CustomRelicModifiable"] or {
+    FunctionName = "none",
+    Description  = "Equipped relics gain experience and rarity through combat. Relics can be modified and attuned at a Relic Sanctifier.",
+    Color        = Color(90, 220, 125)
+}
 
 
 print("Imperium RP Config Loaded!")
