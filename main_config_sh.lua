@@ -1068,6 +1068,7 @@ DivisionTypes = {
                 },
                 MaxHealth = 200,
                 PowerShield = true,
+				Medic = true,
                 Weapons = {
                     "cat_custom_galvanic",
                     "cat_legacy_omnissiahaxe",
@@ -1380,178 +1381,11 @@ DivisionTypes = {
         },
         Classes = {
             {
-                Name = "Guardsman",
-                Default = true,
-                Core = true,
-                Models = CADIAN_CAPTAIN,
-                Weapons = {},
-                SpawnWeapons = {},
-                Prefix = ""
-            },
-            {
-                Name = "Psyker",
-                Core = true,
-                PowerShield = true,
-                ForceModels = true,
-                Magic = true,
-                Models = {"models/models/svin/pyromant.mdl","models/wk/psy/wk_alpha_psyker.mdl","models/wk/psy/wk_astropath.mdl","models/wk/psy/wk_mystic.mdl","models/wk/psy/wk_mystic_primus.mdl","models/wk/psy/wk_navigator.mdl","models/wk/psy/wk_primaris_fem.mdl","models/wk/psy/wk_primaris_psyker.mdl","models/wk/psy/wk_wyrdvane.mdl","models/wk/psy/wk_wyrdvane_fem.mdl","models/wk/sodium/sodium_astropath.mdl"},
-                Weapons = {},
-                SpawnWeapons = {"murlock_staff_player","weapon_fists"},
-                Prefix = ""
-            },
-            {
-                Name = "Ogryn",
-                Core = true,
-                Models = OGRYN_MODELS,
-                Weapons = OGRYN_WEAPONS,
-                ForceModels = true,
-                MaxHealth = 400,
-                SpawnWeapons = {"cat_legacy_powerfistcrusade"},
-                Prefix = ""
-            },
-            {
-                Name = "Ecclesiarchy",
-                Core = true,
-                Models = {"models/dizcordum/wk/ecclesiarchy/abbat.mdl","models/dizcordum/wk/ecclesiarchy/priest.mdl"},
-                Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol"},
-				PowerShield = true,
-				priest = true,
-                ForceModels = true,
-                MaxHealth = 100,
-                SpawnWeapons = {"murlock_staff_player","weapon_fists"},
-                Prefix = ""
-            },
-            {
-                Name = "Adepta Sororitas",
-                Core = true,
-                Models = {"models/sob_battlesister.mdl","models/sob_canones.mdl","models/sob_hospitaller.mdl","models/sob_seraphim.mdl"},
-                Weapons = {"cat_custom_boltpistol","arccw_k_40k_boltpistol","arccw_k_40k_bolter","cat_custom_powersabre"},
-				priest = true,
-				Medic = true,
-                ForceModels = true,
-                MaxHealth = 150,
-                SpawnWeapons = {"murlock_staff_player","weapon_fists"},
-                Prefix = ""
-            },
-            {
-                Name = "Squat",
-                Core = true,
-                Models = SQUAT_MODELS,
-                Weapons = SQUAT_WEAPONS,
-	            PowerShield = true,
-                ForceModels = true,
-				CombatShield = true,
-                MaxHealth = 150,
-				AdvancedEngineer = true,
-                SpawnWeapons = {"weapon_fists","weapon_murlock_engineering_builder"},
-                Prefix = ""
-            },
-			{
-                Name = "Squat Living Ancestor",
-                Core = true,
-                Models = SQUAT_MODELS,
-                Weapons = SQUAT_WEAPONS,
-	       		PowerShield = true,
-                ForceModels = true,
-                MaxHealth = 150,
-				AdvancedEngineer = true,
-                SpawnWeapons = {"weapon_fists","weapon_murlock_engineering_builder"},
-                Prefix = ""
-            },
-            {
-                Name = "Ratling",
-                Core = true,
-                Models = {"models/dizcordum/abhumans/ratling.mdl"},
-                Weapons = {"weapon_murlock_scout_tools"},
-                MaxHealth = 100,
-                ForceModels = true,
-                SpawnWeapons = {"realistic_hook","weapon_fists","weapon_murlock_scout_tools"},
-                Prefix = ""
-            },
-            {
-                Name = "Adeptus Mechanicus",
-                Core = true,
-                Models = ADMECH_MODELS,
-                Weapons = ADMECH_WEAPONS,
-                MaxHealth = 150,
-                ForceModels = true,
-                atomic = true,
-				AdvancedEngineer = true,
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_simrepair","weapon_fists","weapon_murlock_engineering_builder"},
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                    {
-                        name = "Servo Skull",
-                        entityname = "servoskull",
-                        description = "Used to monitor the hive. Must be setup next to a Machine Spirit Panel.",
-                        type = "Skull"
-                    },
-                    {
-                        name = "Plasma Reactor",
-                        entityname = "nuclear_reactor",
-                        description = "A powerful energy source. Must be handled with care.",
-                        type = "Reactor"
-                    },
-                    {
-                        name = "Castellax Sentry Node",
-                        entityname = "tnt_att_s2_cannon",
-                        description = "Sentry Node that will fire bursts of Plasma.",
-                        type = "Turret"
-                    }
-                },
-                Prefix = ""
-            },
-            {
-                Name = "Lord General",
-                Core = true,
-                Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
-                Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
-                MaxHealth = 300,
-                PowerShield = true,
-				CanManageTaxes = true,
-                ForceModels = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
-                Prefix = "",
-                EntitySpawner = {
-                    {
-                        name = "Servo Skull",
-                        entityname = "servoskullremote",
-                        description = "Used to monitor the hive.",
-                        type = "Skull"
-                    }
-                },
-            },
-            {
-                Name = "Commissar",
-                Core = true,
-                Models = {"models/krig_commissar.mdl","models/knight_ig/muschi_ig_comissar.mdl","models/wk/jackswan/scion/scion_commissar.mdl"},
-                Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol"},
-                MaxHealth = 200,
-                PowerShield = true,
-				CanManageTaxes = true,
-                ForceModels = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists"},
-                Prefix = "",
-                EntitySpawner = {
-                    {
-                        name = "Servo Skull",
-                        entityname = "servoskullremote",
-                        description = "Used to monitor the hive.",
-                        type = "Skull"
-                    }
-                },
-            },
-            {
-                Name = "Inquisitorial Agent",
+                Name = "Auxillary Agent",
                 Core = true,
                 Models = {"models/muschi/characters/muschi_inq_sombra.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword"},
-                MaxHealth = 300,
+                MaxHealth = 150,
 				CanManageTaxes = true,
                 PowerShield = true,
                 ForceModels = true,
@@ -1602,9 +1436,10 @@ DivisionTypes = {
                 Models = {"models/muschi/characters/muschi_inq_sombra.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword"},
                 ForceModels = true,
-                MaxHealth = 175,
+                MaxHealth = 200,
 				CanManageTaxes = true,
                 PowerShield = true,
+				Medic = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
                 Prefix = "",
                 EntitySpawner = {
@@ -1617,27 +1452,7 @@ DivisionTypes = {
                 },
             },
             {
-                Name = "Marshal of the Krieg",
-                Core = true,
-                Models = KRIEG_OFFICER,
-                Weapons = {"cat_custom_boltpistol"},
-                ForceModels = true,
-                MaxHealth = 175,
-				CanManageTaxes = true,
-                PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
-                Prefix = "Marshal",
-                EntitySpawner = {
-                    {
-                        name = "Servo Skull",
-                        entityname = "servoskullremote",
-                        description = "Used to monitor the hive.",
-                        type = "Skull"
-                    }
-                },
-            },
-            {
-                Name = "Major of the Cadians",
+                Name = "Colonel",
                 Core = true,
                 Models = { "models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl" },
                 Weapons = {"cat_custom_boltpistol"},
@@ -1646,7 +1461,7 @@ DivisionTypes = {
 				CanManageTaxes = true,
                 PowerShield = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
-                Prefix = "Major",
+                Prefix = "",
                 EntitySpawner = {
                     {
                         name = "Servo Skull",
@@ -1662,7 +1477,7 @@ DivisionTypes = {
                 Models = COMMISSAR_MODELS,
                 Weapons = {"cat_custom_boltpistol"},
                 ForceModels = true,
-                MaxHealth = 175,
+                MaxHealth = 200,
 				CanManageTaxes = true,
                 PowerShield = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
