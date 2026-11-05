@@ -1066,7 +1066,7 @@ DivisionTypes = {
                 Models = {
                     "models/astartes/mech/magos.mdl"
                 },
-                MaxHealth = 200,
+                MaxHealth = 225,
                 PowerShield = true,
 				Medic = true,
                 Weapons = {
@@ -1134,7 +1134,7 @@ DivisionTypes = {
                 Models = {"models/wk/gibus/gibus_dominator.mdl"},
                 ForceModels = true,
                 Weapons = {"cat_legacy_gravgun"},
-                MaxHealth = 400,
+                MaxHealth = 450,
 				PowerShield = true,
                 SpawnWeapons = {"cat_legacy_powerfist","weapon_murlock_scout_tools"},
                 Prefix = "Kastelan"
@@ -1212,7 +1212,7 @@ DivisionTypes = {
                 Models = SQUAT_MODELS,
                 Weapons = SQUAT_WEAPONS,
                 ForceModels = true,
-                MaxHealth = 150,
+                MaxHealth = 125,
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = ""
             },
@@ -1340,7 +1340,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_custom_powersabre","arccw_k_40k_boltpistol","weapon_taser"},
-                MaxHealth = 200,
+                MaxHealth = 175,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
                 Prefix = "",
                 EntitySpawner = {
@@ -1416,10 +1416,10 @@ DivisionTypes = {
 				Core = true,
                 Models = {"models/gonzo/43rdimperialguard/43rdgen/43rdgen.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_powersabre","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword","arccw_k_40k_boltpistol"},
-                MaxHealth = 200,
+                MaxHealth = 225,
                 PowerShield = true,
 				CanManageTaxes = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1436,11 +1436,11 @@ DivisionTypes = {
                 Models = {"models/muschi/characters/muschi_inq_sombra.mdl"},
                 Weapons = {"cat_custom_boltpistol","cat_custom_chainsword","cat_legacy_plasmapistolpowersword","cat_legacy_boltpistolpowersword"},
                 ForceModels = true,
-                MaxHealth = 200,
+                MaxHealth = 225,
 				CanManageTaxes = true,
                 PowerShield = true,
 				Medic = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1457,10 +1457,10 @@ DivisionTypes = {
                 Models = { "models/hazo/ouch/wh40k/sm2/CADIAN_female.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_1.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_2.mdl", "models/hazo/ouch/wh40k/sm2/CADIAN_male_3.mdl" },
                 Weapons = {"cat_custom_boltpistol"},
                 ForceModels = true,
-                MaxHealth = 175,
+                MaxHealth = 200,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1477,10 +1477,10 @@ DivisionTypes = {
                 Models = COMMISSAR_MODELS,
                 Weapons = {"cat_custom_boltpistol"},
                 ForceModels = true,
-                MaxHealth = 200,
+                MaxHealth = 225,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1690,76 +1690,6 @@ DivisionTypes = {
                 SpawnWeapons = {"jet_mk1","weapon_fists"},
                 Prefix = ""
             },
-            {
-                Name = "Kasrkin Medic",
-                Core = true,
-                Medic = true,
-                MaxHealth = 200,
-                Models = {},
-                Weapons = {},
-                SpawnWeapons = {"fas2_ifak","ent_spawner","jet_mk1","weapon_fists"},
-                Prefix = "MD",
-                EntitySpawner = {
-                    {
-                        name = "Medical Box",
-                        entityname = "medic_box",
-                        description = "Used to let your soldiers heal themselves!",
-                        type = "Medic Box"
-                    }
-                },
-            },
-            {
-                Name = "Kasrkin Weapon Specialist",
-                Core = true,
-                Models = {},
-                MaxHealth = 200,
-                Weapons = {"cat_custom_flamer"},
-                SpawnWeapons = {"ent_spawner","jet_mk1","weapon_fists"},
-                Prefix = "WS",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                },
-            },
-            {
-                Name = "Kasrkin Sniper",
-                Core = true,
-                Models = {},
-                MaxHealth = 200,
-                Weapons = {"cat_custom_longlas_kantrael"},
-                SpawnWeapons = {"ent_spawner","jet_mk1","realistic_hook","weapon_fists"},
-                Prefix = "SN",
-                EntitySpawner = {
-                    {
-                        name = "Ammo Supplies",
-                        entityname = "universal_ammo_small",
-                        description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE",
-                        type = "Ammo"
-                    },
-                },
-            },
-            {
-                Name = "Kasrkin Vox Caster",
-                Core = true,
-                Radio = true,
-                Models = {},
-                MaxHealth = 200,
-                Weapons = {},
-                SpawnWeapons = {"ent_spawner","jet_mk1","wep_radio_usa_ww2","weapon_fists"},
-                EntitySpawner = {
-                    {
-                        name = "Radio",
-                        entityname = "newboombox",
-                        description = "Play some Music!",
-                        type = "Radio"
-                    }
-                },
-                Prefix = "VC",
-            }
         },
     },
     ["11th Cadian Storm Guards"] = {
