@@ -1419,8 +1419,29 @@ DivisionTypes = {
                 MaxHealth = 225,
                 PowerShield = true,
 				CanManageTaxes = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet"},
                 Prefix = "",
+				Fortifications = {
+                    {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
+                    {name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
+                    {name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
+                    {name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
+                    {name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
+                    {name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
+                    {name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
+                    {name = "Sandbags Line 2 Tall", model = "models/props_fortifications/sandbags_line2_tall.mdl"},
+                    {name = "Trench Bunker", model = "models/fortification collection/trench_free_a_double.mdl"},
+                    {name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
+                    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
+                    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
+                    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
+                    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
+                    {name = "Steel Barricade 4", model = "models/arne3d/barricades/steelbarricade4.mdl"},
+                    {name = "Steel Barricade 3", model = "models/arne3d/barricades/steelbarricade3.mdl"},
+                    {name = "Steel Barricade 2", model = "models/arne3d/barricades/steelbarricade2.mdl"},
+                    {name = "Steel Barricade 1", model = "models/arne3d/barricades/steelbarricade1.mdl"}
+
+                },
                 EntitySpawner = {
                     {
                         name = "Servo Skull",
@@ -1460,8 +1481,29 @@ DivisionTypes = {
                 MaxHealth = 200,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet"},
                 Prefix = "",
+				Fortifications = {
+                    {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
+                    {name = "Sandbags Corner 1 Tall", model = "models/props_fortifications/sandbags_corner1_tall.mdl"},
+                    {name = "Sandbags Corner 2 ", model = "models/props_fortifications/sandbags_corner2.mdl"},	
+                    {name = "Sandbags Corner 2 Tall", model = "models/props_fortifications/sandbags_corner2_tall.mdl"},
+                    {name = "Sandbags Line 1", model = "models/props_fortifications/sandbags_line1.mdl"},
+                    {name = "Sandbags Line 1 Tall", model = "models/props_fortifications/sandbags_line1_tall.mdl"},
+                    {name = "Sandbags Line 2", model = "models/props_fortifications/sandbags_line2.mdl"},
+                    {name = "Sandbags Line 2 Tall", model = "models/props_fortifications/sandbags_line2_tall.mdl"},
+                    {name = "Trench Bunker", model = "models/fortification collection/trench_free_a_double.mdl"},
+                    {name = "Trench T", model = "models/fortification collection/trench_end_corridor.mdl"},
+                    {name = "Trench Four Way", model = "models/fortification collection/trench_4way.mdl"},
+                    {name = "Trench L", model = "models/fortification collection/trench_turn.mdl"},
+                    {name = "Trench One Way", model = "models/fortification collection/trench_straight.mdl"},
+                    {name = "Small Bunker", model = "models/fortification collection/small_bunker1.mdl"},
+                    {name = "Steel Barricade 4", model = "models/arne3d/barricades/steelbarricade4.mdl"},
+                    {name = "Steel Barricade 3", model = "models/arne3d/barricades/steelbarricade3.mdl"},
+                    {name = "Steel Barricade 2", model = "models/arne3d/barricades/steelbarricade2.mdl"},
+                    {name = "Steel Barricade 1", model = "models/arne3d/barricades/steelbarricade1.mdl"}
+
+                },
                 EntitySpawner = {
                     {
                         name = "Servo Skull",
