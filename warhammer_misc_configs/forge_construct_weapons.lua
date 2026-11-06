@@ -173,3 +173,4 @@ CRAFTABLE_ITEMS["item_283476"] = 45000 -- Transuranic Arquebus arccw
 CRAFTABLE_ITEMS["item_500852"] = 45000 -- Ion Blaster arccw
 CRAFTABLE_ITEMS["item_733378"] = 200000 -- Volkite Serpenta
 CRAFTABLE_ITEMS["item_120539"] = 40000 -- Boarding Shield & Rippergun
+CRAFTABLE_ITEMS["item_894898"] = 30000 -- Shotpistol
