@@ -175,3 +175,4 @@ CRAFTABLE_ITEMS["item_733378"] = 200000 -- Volkite Serpenta arccw
 CRAFTABLE_ITEMS["item_120539"] = 40000 -- Boarding Shield & Rippergun tfa
 CRAFTABLE_ITEMS["item_894898"] = 30000 -- Shotpistol tfa
 CRAFTABLE_ITEMS["item_648481"] = 45000 -- Combat Shield & Shotpistol tfa
+CRAFTABLE_ITEMS["item_213660"] = 40000 -- Combat Shield & Shotpistol tfa
