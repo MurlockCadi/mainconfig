@@ -1441,7 +1441,7 @@ DivisionTypes = {
                 MaxHealth = 225,
                 PowerShield = true,
 				CanManageTaxes = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet","cat_legacy_boltpistolphobos"},
                 Prefix = "",
 				Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -1483,7 +1483,7 @@ DivisionTypes = {
 				CanManageTaxes = true,
                 PowerShield = true,
 				Medic = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","cat_legacy_boltpistolphobos"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1503,7 +1503,7 @@ DivisionTypes = {
                 MaxHealth = 200,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet","cat_legacy_boltpistolphobos"},
                 Prefix = "",
 				Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -1544,7 +1544,7 @@ DivisionTypes = {
                 MaxHealth = 225,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","cat_legacy_boltpistolphobos"},
                 Prefix = "",
                 EntitySpawner = {
                     {
