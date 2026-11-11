@@ -1483,6 +1483,7 @@ DivisionTypes = {
 				CanManageTaxes = true,
                 PowerShield = true,
 				Medic = true,
+				atomic = true,
                 SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","cat_legacy_boltpistolphobos"},
                 Prefix = "",
                 EntitySpawner = {
