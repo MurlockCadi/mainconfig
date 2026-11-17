@@ -1441,7 +1441,7 @@ DivisionTypes = {
                 MaxHealth = 225,
                 PowerShield = true,
 				CanManageTaxes = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet","cat_legacy_boltpistolphobos"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet","cat_legacy_boltpistolphobos","wep_radio_usa_ww2"},
                 Prefix = "",
 				Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -1484,7 +1484,7 @@ DivisionTypes = {
                 PowerShield = true,
 				Medic = true,
 				atomic = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","cat_legacy_boltpistolphobos"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","cat_legacy_boltpistolphobos","wep_radio_usa_ww2"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1504,7 +1504,7 @@ DivisionTypes = {
                 MaxHealth = 200,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet","cat_legacy_boltpistolphobos"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","alydus_fortificationbuildertablet","cat_legacy_boltpistolphobos","wep_radio_usa_ww2"},
                 Prefix = "",
 				Fortifications = {
                     {name = "Sandbags Corner 1", model = "models/props_fortifications/sandbags_corner1.mdl"},
@@ -1545,7 +1545,7 @@ DivisionTypes = {
                 MaxHealth = 225,
 				CanManageTaxes = true,
                 PowerShield = true,
-                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","cat_legacy_boltpistolphobos"},
+                SpawnWeapons = {"ent_spawner","weapon_cuff_elastic","weapon_fists","playablebagpipe","weapon_murlock_scout_tools","cat_legacy_boltpistolphobos","wep_radio_usa_ww2"},
                 Prefix = "",
                 EntitySpawner = {
                     {
@@ -1696,7 +1696,7 @@ DivisionTypes = {
 				Medic = true,
                 ForceModels = true,
                 MaxHealth = 150,
-                SpawnWeapons = {"murlock_staff_player_new","weapon_fists"},
+                SpawnWeapons = {"murlock_staff_player_new","weapon_fists","fas2_ifak"},
                 Prefix = ""
             }
 		}
