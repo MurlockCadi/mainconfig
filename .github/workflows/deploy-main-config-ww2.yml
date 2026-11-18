@@ -1,11 +1,11 @@
-name: Deploy main_config_sh.lua to CloneWars
+name: Deploy main_config_sh.lua to WW2 Axis VS Allies RP
 
 on:
   push:
     branches:
       - main
     paths:
-      - "main_config_sh_clone_wars.lua"
+      - "main_config_sh_ww2.lua"
       - ".github/workflows/deploy-clonewars.yml"
 
 permissions:
@@ -14,8 +14,8 @@ permissions:
 env:
   FTP_SERVER: "sftp://chi-s-game-4.physgun.com:2022"
   FTP_USER: "987crazymuffin@gmail.com.866d5d36"
-  REMOTE_PATH: "/garrysmod/gamemodes/starwarsrp/gamemode/"
-  FILE_TO_UPLOAD: "main_config_sh_clone_wars.lua"
+  REMOTE_PATH: "/garrysmod/gamemodes/ww2rpava/gamemode/"
+  FILE_TO_UPLOAD: "main_config_sh_ww2.lua"
   TEMP_FILE: "temp_main_config_sh.lua"
   SERVER_FILE: "main_config_sh.lua"
 
@@ -102,7 +102,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          echo "Uploading $FILE_TO_UPLOAD as $SERVER_FILE to the CloneWars server..."
+          echo "Uploading $FILE_TO_UPLOAD as $SERVER_FILE to the WW2 server..."
 
           curl \
             --insecure \
