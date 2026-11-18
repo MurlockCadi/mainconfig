@@ -50,7 +50,7 @@ jobs:
           luac5.1 -p "$FILE_TO_UPLOAD"
 
   compare-server-file:
-    name: Compare with CloneWars server file
+    name: Compare with WW2 server file
     runs-on: ubuntu-latest
     needs: lua-check
 
@@ -88,7 +88,7 @@ jobs:
           fi
 
   upload-to-server:
-    name: Upload to CloneWars server
+    name: Upload to WW2 server
     runs-on: ubuntu-latest
     needs: compare-server-file
 
