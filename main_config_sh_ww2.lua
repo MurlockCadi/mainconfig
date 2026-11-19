@@ -874,16 +874,7 @@ ROLES = {
                 SpawnWeapons = {"weapon_murlock_engineering_builder", "ent_spawner"},
                 Prefix = "MG"
             },
-            {
-                Name = "Tanker",
-                Core = true,
-                Max = 15,
-                Models = US_TANKER_MODELS,
-                ForceModels = true,
-                Weapons = {},
-                SpawnWeapons = {"weapon_lvsrepair"},
-                Prefix = "TK"
-            },
+            
             {
                 Name = "Engineer",
                 Core = true,
