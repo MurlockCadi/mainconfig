@@ -868,7 +868,7 @@ DivisionTypes = {
 					"rope_tool"
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_murlock_scout_tools"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
 					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
@@ -922,7 +922,7 @@ DivisionTypes = {
                     {name = "Steel Barricade 1", model = "models/arne3d/barricades/steelbarricade1.mdl"}
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","alydus_fortificationbuildertablet","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","alydus_fortificationbuildertablet","ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_murlock_scout_tools"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
 					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
@@ -954,7 +954,7 @@ DivisionTypes = {
 					"rope_tool"
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","fas2_ifak","ent_spawner","weapon_fists"},
+                SpawnWeapons = {"weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","fas2_ifak","ent_spawner","weapon_fists","weapon_murlock_scout_tools"},
                 EntitySpawner = {
                     { name = "Medical Supplies",    entityname = "medic_box",            description = "Lets soldiers heal themselves.", type = "Medic Box" },
 					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
@@ -990,7 +990,7 @@ DivisionTypes = {
 					"rope_tool"
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"fas2_ifak","weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","ent_spawner","weapon_fists"},
+                SpawnWeapons = {"fas2_ifak","weapon_murlock_engineering_builder","alydus_fortificationbuildertablet","ent_spawner","weapon_fists","weapon_murlock_scout_tools"},
                 EntitySpawner = {
 					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
 					{ name = "Promethium",          entityname = "lvs_item_jerrycan",    description = "A can of liquid promethium used to provide fuel in the field. Try not to spill it.", type = "Ammo" },
@@ -1016,7 +1016,7 @@ DivisionTypes = {
                     "cat_legacy_omnissiahaxe",
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
+                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder","weapon_murlock_scout_tools"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
 					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
@@ -1044,7 +1044,7 @@ DivisionTypes = {
                     "cat_legacy_omnissiahaxe"
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"murlock_staff_player","ent_spawner","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
+                SpawnWeapons = {"murlock_staff_player","ent_spawner","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder","weapon_murlock_scout_tools"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
 					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
@@ -1069,7 +1069,7 @@ DivisionTypes = {
                     "cat_legacy_omnissiahaxe"
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
+                SpawnWeapons = {"ent_spawner","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder","weapon_murlock_scout_tools"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
 					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
@@ -1098,7 +1098,7 @@ DivisionTypes = {
 					"rope_tool"
                 },
 				AdvancedEngineer = true,
-                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder"},
+                SpawnWeapons = {"fas2_ifak","ent_spawner","weapon_cuff_elastic","weapon_lvsrepair","weapon_extinguisher_infinite","weapon_fists","weapon_murlock_engineering_builder","weapon_murlock_scout_tools"},
                 EntitySpawner = {
                     { name = "Ammo Supplies",       entityname = "universal_ammo_small", description = "10 Uses. HANDLE WITH CARE: VERY EXPLOSIVE", type = "Ammo" },
 					{ name = "Vehicle Ammo Supplies", entityname = "lvs_item_ammocrate", description = "Use to resupply any vehicle in the field!", type = "Ammo" },
@@ -1158,7 +1158,7 @@ DivisionTypes = {
                 Weapons = {"cat_legacy_gravgun"},
                 MaxHealth = 450,
 				PowerShield = true,
-                SpawnWeapons = {"cat_legacy_powerfist"},
+                SpawnWeapons = {"cat_legacy_powerfist","weapon_murlock_scout_tools"},
                 Prefix = "Kastelan"
             },
 			{
@@ -1791,7 +1791,7 @@ DivisionTypes = {
                 Models = KARSIKIN_MODELS,
 				MaxHealth = 150,
                 Weapons = {"cat_custom_hellgunstandard"},
-                SpawnWeapons = {"realistic_hook","weapon_fists"},
+                SpawnWeapons = {"realistic_hook","weapon_fists","weapon_murlock_scout_tools"},
                 Prefix = "KS",
 	            vehicles = {
                     { name = "Base Tauros",   entityname = "lvs_wheeldrive_tauros_base",  description = "A two-seat, unarmed tauros.", type = "Small Vehicle" },
