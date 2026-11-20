@@ -1152,16 +1152,6 @@ ROLES = {
                 Prefix = "MG"
             },
             {
-                Name = "Tanker",
-                Core = true,
-                Max = 15,
-                Models = DE_TANKER_MODELS,
-                ForceModels = true,
-                Weapons = {},
-                SpawnWeapons = {"weapon_lvsrepair"},
-                Prefix = "TK"
-            },
-            {
                 Name = "Engineer",
                 Core = true,
                 Max = 15,
