@@ -251,7 +251,7 @@ VEHICLE_SPAWNER = {
         { name = "Sd.Kfz. 251", entityname = "lvs_wheeldrive_sdkfz251_infantry", type = "Mechanized Vehicles", description = "The armoured troop carrier. Room for a squad, with an MG on top.", certs = { "Tanker" } },
         { name = "Sd.Kfz. 222", entityname = "lvs_wheeldrive_dodspaehwagen", type = "Armed Mechanized Vehicles", description = "Light armoured car with a 20mm cannon.", certs = { "Tanker" } },
         { name = "Sd.Kfz. 251/22", entityname = "lvs_wheeldrive_sdkfz251_pak", type = "Armed Mechanized Vehicles", description = "Half-track carrying a Pak 40. Hits hard, but the crew is in the open.", enemyMinimum = 10, certs = { "Tanker", "Anti-Tank" } },
-        { name = "Sd.Kfz. 234 Puma", entityname = "lvs_wheeldrive_puma", type = "Armed Mechanized Vehicles", description = "Fast eight-wheeled armoured car with a 50mm gun.", certs = { "Tanker" } },
+        { name = "Sd.Kfz. 234 Puma", entityname = "lvs_wheeldrive_puma", type = "Armed Mechanized Vehicles", description = "Fast eight-wheeled armoured car with a 50mm gun.", enemyMinimum = 10, certs = { "Tanker" } },
         { name = "Panzer II C", entityname = "lvs_wheeldrive_pz2c", type = "Light Tanks", description = "Light tank with a 20mm cannon.", certs = { "Tanker" } },
         { name = "StuG IV", entityname = "lvs_wheeldrive_stug4", type = "Tank Destroyers", description = "Low assault gun with a long 75mm gun.", certs = { "Tanker", "Anti-Tank" } },
         { name = "Jagdpanther", entityname = "lvs_wheeldrive_jagdpanther", type = "Tank Destroyers", description = "Panther chassis with a long 88mm gun. Deadly at range.", certs = { "Tanker", "Anti-Tank" } },
