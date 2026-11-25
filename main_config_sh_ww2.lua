@@ -226,7 +226,7 @@ VEHICLE_SPAWNER = {
         { name = "M3 Half-track", entityname = "lvs_wheeldrive_m3base", type = "Mechanized Vehicles", description = "Armoured personnel carrier for a whole squad, with a .50 cal on top.", certs = { "Tanker" } },
         { name = "M5 Half-track", entityname = "lvs_wheeldrive_dodhalftrack_us", type = "Armed Mechanized Vehicles", description = "Half-track with a turret-mounted machine gun.", certs = { "Tanker" } },
         { name = "M3 GMC", entityname = "lvs_wheeldrive_m3gmc", type = "Armed Mechanized Vehicles", description = "Half-track carrying a 75mm gun. Hits hard, but the crew is in the open.", enemyMinimum = 10, certs = { "Tanker", "Anti-Tank" } },
-        { name = "M8 Greyhound", entityname = "lvs_wheeldrive_greyhound", type = "Light Tanks", description = "Scout and infantry support vehicle with a 37mm gun.", certs = { "Tanker" } },
+        { name = "M8 Greyhound", entityname = "lvs_wheeldrive_greyhound", type = "Armed Mechanized Vehicles", description = "Scout and infantry support vehicle with a 37mm gun.", certs = { "Tanker" } },
         { name = "M10 Wolverine", entityname = "lvs_wheeldrive_m10", type = "Tank Destroyers", description = "Open-topped tank destroyer with a 3-inch gun.", certs = { "Tanker", "Anti-Tank" } },
         { name = "M36 Jackson", entityname = "lvs_wheeldrive_m36", type = "Tank Destroyers", description = "Tank destroyer with a 90mm gun that can take on the heaviest German armour.", certs = { "Tanker", "Anti-Tank" } },
         { name = "M4A1 Sherman", entityname = "lvs_wheeldrive_m4sherman", type = "Medium Tanks", description = "The versatile medium tank. Rounded hull and a 75mm gun.", certs = { "Tanker" } },
