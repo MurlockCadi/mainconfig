@@ -192,6 +192,14 @@ VEHICLE_DAMAGE = {
         ["Small Vehicles"]            = 1,
         ["Motorcycles"]               = 1,
     },
+    HE = {
+        ["Super Heavy Tanks"]         = 0.75,
+        ["Heavy Tanks"]               = 0.65,
+        ["Tank Destroyers"]           = 0.5,
+        ["Medium Tanks"]              = 0.6,
+        ["Armed Mechanized Vehicles"] = 0.6,
+    },
+    Fire = 2,
 }
 
 -- Anti-tank rockets
