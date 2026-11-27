@@ -155,8 +155,8 @@ FIXED_VEHICLE_COOLDOWNS = { ["Super Heavy Tanks"] = true }
 VEHICLE_DAMAGE = {
     Rocket = 1500,
     Hits = {
-        ["Super Heavy Tanks"]         = 12,
-        ["Heavy Tanks"]               = 5,
+        ["Super Heavy Tanks"]         = 10,
+        ["Heavy Tanks"]               = 6,
         ["Medium Tanks"]              = 4,
         ["Light Medium Tanks"]        = 3,
         ["Tank Destroyers"]           = 3,
